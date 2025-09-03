@@ -1,0 +1,773 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo>"Caracterización de sistema de desescarche por gas caliente con aprovechamiento de calor para cámaras de refrigeración" Tesis que para obtener el grado de Máster en</titulo>
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>Tecnología Ambiental</autor>
+      <autor>Ing George</autor>
+      <autor>Bess Palacios</autor>
+      <autor>Daniel Leal</autor>
+      <autor>Chávez Chihuahua</autor>
+      <autor>Chih Enero</autor>
+      <autor>George Palacios</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>Resumen</titulo>
+        <texto>Los sistemas de refrigeración son ampliamente utilizados en la preservación de alimentos. Cuando estos operan con temperaturas en los evaporadores menores a la del punto de rocío del aire y de congelación del agua, es inevitable la formación de escarcha en la superficie exterior del evaporador. La formación de escarcha es un proceso indeseable, pues disminuye la transferencia de calor entre el evaporador y espacio refrigerado. El aumento considerable de escarcha obstruye el paso del aire por medio del evaporador, disminuyendo su flujo, hasta poder obstaculizarlo por completo. Debido a estas consecuencias se afecta su rendimiento y se hace necesario remover la escarcha periódicamente a través de algún método existente. En este trabajo se caracteriza un sistema de desescarche por gas caliente que aprovecha el calor residual del ciclo, donde en vez de desecharlo al ambiente, se utilizará (cuando sea necesario) para derretir la escarcha contenida en los evaporadores, sin tener que utilizar energía extra para realizar dicho proceso, obteniendo ahorros energéticos sustanciales con respecto a otras técnicas actuales. Se desarrolló un modelo matemático que logra describir el proceso de desescarche y además predecir el tiempo para completar dicho proceso, optimizando el uso de dicha técnica. Se logró validar el funcionamiento de la técnica implementada. Palabras clave: Cámara de refrigeración, desescarche por gas caliente, modelado numérico, transferencia de calor, tiempo de desescarche.   Las cámaras frigoríficas, asumen en la seguridad alimentaria, un rol importante debido a la magnitud de alimentos que logra conservar, participando también en las cadenas de frio en la producción de alimentos y en la sostenibilidad en su suministro. La refrigeración, es el proceso de retirar calor de una materia, la cual puede encontrarse en estado sólido, liquido o gaseoso. Existen dos métodos comunes de refrigeración, natural y mecánico. La refrigeración natural, se ha utilizado desde la antigüedad. En esta técnica natural, se hace circular forzadamente el aire por bloques de hielo, parte del calor del aire en circulación se transfiere al hielo mientras se enfría. Por otra parte, en la refrigeración mecánica, se emplea un refrigerante, que es una sustancia capaz de transferir el calor que absorbe a bajas temperaturas y presiones a un medio condensante un sistema termodinámico que funciona como refrigerador, donde 𝑇 𝐿 es la temperatura de la fuente de calor y 𝑄 ̇𝐿 el calor transferido desde ella, mientras que 𝑄 ̇𝐻 es el calor rechazado que se disipa a la temperatura 𝑇 𝐻 . Ambos efectos se logran mediante la entrada de trabajo 𝑊 ̇</texto>
+      </seccion>
+    </resumen>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivo General</titulo>
+        <texto>Caracterizar y optimizar el sistema propuesto de desescarche por gas caliente con aprovechamiento de calor para cámaras frigoríficas. 1.4 Objetivos Específicos 1. Caracterizar los componentes del sistema y el proceso de formación de escarcha para analizar el proceso de desescarche y definir las condiciones de operación. 2. Describir el comportamiento del conjunto de evaporadores en el desescarche (condensador y evaporador). 3. Definir los puntos de operación del evaporador en el que se obtenga líquido subenfriado en la salida del serpentín. 4. Elaborar un modelo termodinámico que prediga el tiempo de desescarche.</texto>
+      </seccion>
+    </objetivo_general>
+    <justificacion>
+      <seccion>
+        <titulo>Justificación</titulo>
+        <texto>La refrigeración dentro de la cadena alimentaria constituye el principal componente consumidor de electricidad Debido a lo anterior, en el presente proyecto se muestra un nuevo método de desescarche por gas caliente. Este sistema aprovecha el calor de desecho de un ciclo de refrigeración convencional, para eliminar la escarcha formada en los evaporadores, en vez de liberarlo a la atmosfera y de esta forma, evitar el uso de resistencias eléctricas para realizar dicho desescarche. En esta propuesta no se requiere detener el ciclo de refrigeración para realizar el desescarche y en cambio, mientras se descongela en un evaporador, el resto puede encontrarse en modo de enfriamiento aprovechando el refrigerante condensado proveniente del evaporador en desescarche, logrando así grandes ahorros energéticos al implementar la técnica propuesta. enero de 2025</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>Hipótesis</titulo>
+        <texto>A través de una caracterización adecuada del sistema propuesto, será posible validar la técnica de desescarche y evaluar su rendimiento en condiciones reales de operación.</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>Figura 1. Sistema termodinámico actuando como refrigerador</titulo>
+        <texto>Existen diferentes métodos y sistemas para lograr la refrigeración mecánica. El tipo comúnmente utilizado es el ciclo de refrigeración por compresión de vapor, mediante el cual un fluido de trabajo, el refrigerante, transporta el calor a lo largo del ciclo a través de cambios de fases como la evaporización y la condensación. En otras palabras, los sistemas de refrigeración por compresión de vapor aprovechan dos propiedades fundamentales de los fluidos: la temperatura de evaporización y la temperatura de condensación. El ciclo de refrigeración por compresión de vapor, representa aproximadamente el 95% de los refrigeradores mecánicos y bombas de calor del mundo La figura 2, representa un ciclo ideal de compresión de vapor, el cual consta de cuatro procesos: (1-2) compresión isentrópica de vapor, (2-3) subenfriamiento y condensación isobárica, (3-4) expansión isoentálpica de líquido y (4-1) evaporación isobárica. Enmienda de Kigali al Protocolo de Montreal fijó una reducción del 80% en el uso de HFC para 2040 Hoy se promueven alternativas ecológicas como los refrigerantes sintéticos con bajo GWP, como las hidrofluorolefinas (HFO), y refrigerantes naturales como el dióxido de carbono (CO₂), entre otros El evaporador es un equipo de intercambio de calor muy indispensable en los ciclos de refrigeración. En él, el refrigerante se evapora mientras absorbe calor del espacio refrigerado Una vez visto los principales componentes del sistema de refrigeración, continuamos con el problema a abordar, el cual es, que cuando la temperatura del evaporador se encuentra por debajo del punto de rocío del aire y del punto de congelación del agua, se forman escarcha en la superficie del serpentín La acumulación de escarcha tiene grandes consecuencias, pues degrada la transferencia de calor dentro el fluido de trabajo y el espacio refrigerado, esto debido a que el hielo una baja conductividad térmica. Además, el aumento del espesor de la escarcha obstruye el paso de flujo de aire, obligando a los ventiladores a tener un mayor consumo de energía eléctrica, por tanto, todas estas limitantes disminuyen el rendimiento el proceso del sistema de refrigeración. Para evitar estos inconvenientes, se hace necesario aplicar enero de 2025 métodos para eliminar la escarcha que se forma en el evaporador de manera continua y periódica</texto>
+      </seccion>
+      <seccion>
+        <titulo>Métodos</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Tecnologías patentadas con uso de desescarche por gas caliente</titulo>
+        <texto>Las inventiva y creatividad en el diseño y aplicación de nuevas tecnologías en los métodos de desescarche generalmente se encuentran patentadas, tal es el caso de la patente de los Estados Unidos-US20120102986A "Reverse cycle defrost method and apparatus" (Método de desescarche por ciclo inverso) enero de 2025 cambian la dirección del flujo de aire a través del evaporador y la cámara, enviando calor tanto al evaporador como a los productos Es fundamental considerar que, aunque este sistema de desescarche es efectivo, la ausencia de mecanismos para evitar el retorno de líquido al compresor puede representar un riesgo potencial para la integridad del compresor, ya que la entrada de líquido puede causar daños mecánicos. Por ello, en aplicaciones donde la estabilidad térmica es crítica, se suelen implementar medidas adicionales para garantizar la protección del compresor y la uniformidad de la temperatura en la cámara frigorífica La patente 5065584-Hot gas bypass defrosting system (Sistema de desescarche por derivación de gas caliente) Además, contiene una válvula solenoide con el objetivo de crear un camino alternativo para el refrigerante, el mecanismo sería el siguiente: cuando se encuentre cerrada la válvula solenoide, el refrigerante pasa a través del tubo capilar y ocurre el ciclo de refrigeración normal. Sin embargo, cuando la válvula solenoide está abierta, se restringe el flujo del refrigerante en el condensador y el gas refrigerante caliente se suministra directamente al evaporador para su desescarche. En la figura 5, se muestra el sistema en cuestión. enero de 2025</texto>
+      </seccion>
+      <seccion>
+        <titulo>Método Numérico empleado para la modelación</titulo>
+        <texto>Para modelar el proceso de transferencia de calor en estado transitorio, se empleará la metodología de volúmenes finitos en una sola dimensión. Esto implica dividir el volumen de control del sistema en pequeños volúmenes o secciones de igual tamaño (ver figura 12). Cada uno de estos volúmenes tendrá un flujo de refrigerante de entrada y salida (𝑚̇𝑅), con sus respectivas temperaturas (𝑇 𝑅 ), coeficientes de transferencia de calor (ℎ 𝑅 ) y valor de entalpia (𝑖 𝑅 ), así como una masa de escarcha (𝑚 𝐸 ) alrededor del tubo. Las variables mencionadas se asumirán constante dentro de cada volumen finito durante el paso de tiempo. Al dividir el sistema en estos volúmenes discretos, es posible enero de 2025 modelar con mayor precisión la distribución y la transferencia de calor en el tiempo, lo cual permite comprender mejor el proceso de desescarche y a su vez determinar valores más precisos. circuito único, tal como se ilustra en la figura 13. Este diseño presenta ventajas significativas para la modelación, ya que el flujo único de refrigerante simplifica la construcción de modelos matemáticos para simular la transferencia de calor. Esto no solo permite predicciones más precisas, sino que también reduce la complejidad computacional, facilitando el análisis y optimización del sistema. Figura 13. Esquema del circuito del evaporador</texto>
+      </seccion>
+    </metodologia>
+    <otros>
+      <seccion>
+        <titulo>Agradecimientos</titulo>
+        <texto>Este trabajo, más que un proyecto académico, representa una etapa transformadora en mi vida y en la de mi familia, un antes y un después que no habría sido posible sin el apoyo de diversas instituciones y personas a quienes deseo expresar mi más profundo agradecimiento. A la Secretaría de Ciencia, Humanidades, Tecnología e Innovación</texto>
+      </seccion>
+      <seccion>
+        <titulo>Al Centro de Investigación en Materiales Avanzados (CIMAV), y en especial al</titulo>
+        <texto>Departamento de Energía y Medio Ambiente, por brindarme la formación necesaria durante esta etapa crucial de mi desarrollo profesional. Quiero expresar mi profunda gratitud al Dr. Daniel Arturo Leal Chávez, quien ha sido mucho más que un asesor. Su guía, exigencia y dedicación no solo han marcado mi crecimiento académico, sino también personal. Mentiría si dijera que el camino fue fácil, pero sin sus regaños, consejos y dirección excepcional, este logro habría sido inalcanzable. A él, por su paciencia y vocación, mi más sincero reconocimiento. A mi familia, pilar fundamental en este proceso, y en particular a mi esposa, Claudia Soto Ramos, quien ha sido el baluarte de nuestra familia en los momentos en los que mi tiempo y presencia no pudieron ser completos. Gracias por comprenderme en los días de estrés y ansiedad, por escucharme y por ofrecer siempre un gran consejo desde su perspectiva. A mis compañeros de posgrado, especialmente a Nahyr e Iván, quienes con su amistad hicieron de esta travesía un camino más ameno y llevadero. Su apoyo incondicional y compañía han sido invaluables, y sin duda, su huella en mi vida será imborrable. A mis pastores y a la congregación Pacto Vivo, quienes nos acogieron como familia y estuvieron a nuestro lado en cada momento de necesidad. A todas las personas que, de una u otra manera, contribuyeron en mi llegada y estabilidad en México: a Nahomis y su mamá, a Eliecer, a la Señora Rita y su familia, a Damaris, a Rayco, y a tantos otros que con su generosidad y calidez hicieron de este lugar un hogar. A todos ustedes, ¡gracias infinitas! i enero de 2025</texto>
+      </seccion>
+      <seccion>
+        <titulo>Validar el modelo termodinámico con el prototipo instalado en el</titulo>
+        <texto>Laboratorio de Energía. enero de 2025</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 3. Métodos de desescarche</titulo>
+        <texto>Con el desarrollo de la tecnología de materiales, el recubrimiento de la superficie de los evaporadores con anticongelantes se ha convertido en una alternativa de anti-escarcha cada vez más efectiva. Wang y col. Varios investigadores han estudiado el efecto de las vibraciones ultrasónicas para disminuir el crecimiento de la escarcha, tal es el caso de Li y col. Por otra parte, entre los métodos de remoción de escarcha, existe el método de ciclo apagado, el cual permite el desescarche natural de los evaporadores. En este método se detiene el suministro de refrigerante al evaporador, mientras que los ventiladores fuerzan al aire circundante a atravesar por medio de los serpentines y aletas, transfiriendo su calor a la escarcha. Es un proceso que requiere de un largo período de tiempo para remover completamente la escarcha. Actualmente, de los métodos activos, el desescarche por resistencias eléctricas es el método más usado en los sistemas de refrigeración debido a su simplicidad en la instalación y en su operación. Por lo general, las resistencias eléctricas se instalan en la parte inferior y lateral de los evaporadores y transfieren calor a la escarcha por convección, radiación y muy poco por conducción El método de desescarche por líquido caliente, implica el uso generalmente de agua o salmuera, la cual se aplica con duchas que se colocan en la parte superior del evaporador. Mediante este método se tiene en marcha este sistema durante algunos minutos hasta que la escarcha se ha descongelado y el agua haya drenado completamente. En cámaras que trabajan a temperaturas muy bajas se recomienda utilizar agua con glicol para evitar que pueda congelarse</texto>
+      </seccion>
+      <seccion>
+        <titulo>Método de desescarche por gas caliente</titulo>
+        <texto>El proceso convencional de desescarche por gas caliente consiste en detener el suministro de refrigerante frío al evaporador y en su lugar recircular una porción del gas refrigerante desde la salida del compresor. El refrigerante ingresa al evaporador a altas temperaturas y se condensa en su paso por el serpentín liberando su calor latente. El proceso de desescarche tiene asociado impactos energéticos que dependen de algunos factores como la temperatura del gas refrigerante a la entrada en el evaporador. A mayor temperatura se comprende que el desescarche se realizará a mayor velocidad, pero también serán mayores las cargas térmicas que se infiltran al espacio refrigerado En la siguiente tabla, compararemos los métodos principales de desescarche existentes en la refrigeración industrial</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tabla 1. Comparación de los métodos de desescarche más empleados</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Métodos de desescarche</titulo>
+        <texto>Ventajas Desventajas</texto>
+      </seccion>
+      <seccion>
+        <titulo>Resistencia eléctrica</titulo>
+        <texto>Facilidad de uso y bajos costos de instalación y mantenimiento. El proceso de desescarche es de baja eficiencia, pues solo una porción del calor suministrado es utilizada para derretir la escarcha. Requiere un alto consumo de energía externa para su funcionamiento, elevando los consumos del sistema.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Agua caliente</titulo>
+        <texto>-Requiere de una fuente de suministro de agua caliente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Vibración ultrasónica</titulo>
+        <texto>-No eliminan por completo la escarcha que se forma sobre el serpentín y las aletas del evaporador.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Ciclo apagado</titulo>
+        <texto>Presenta gran simplicidad y bajo costo. El proceso de desescarche es lento (de manera natural), porque el calor requerido se toma del aire circundante. Esta técnica es limitada cuando la temperatura del ambiente es menor a 1°C.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Derivación de gas caliente</titulo>
+        <texto>Aprovecha el calor retirado del cuarto refrigerado para derretir la escarcha. No requiere consumo de energía externa. Los ahorros compensan el elevado costo de instalación. Proceso de desescarche rápido pues el gas caliente recorre la trayectoria por la cual se encuentra depositada la escarcha. Requiere de modificaciones en los sistemas convencionales de refrigeración, siendo complejos y con elevado costo de instalación. La tabla 2 nos ayuda a distinguir claramente los diversos métodos de desescarche con sus diferencias operacionales y resultados de evaluaciones encontrado en la literatura. Dada la revisión y análisis de los métodos de desescarche más empleado en los sistemas de refrigeración de cámaras frigoríficas, este trabajo profundizará en el desescarche por gas caliente. Como se ha podido observar, el sistema de desescarche por gas caliente es uno de los más complejos, pero energéticamente es el más interesante. Constituye un método en el cual se puede aprovechar el calor residual del proceso convencional de refrigeración para ser usado en el desescarche. Pudiendo ser su principal ventaja; un gran ahorro energético.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tabla 2. Comparación operacional -métodos de desescarche más empleados</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Figura 5. Sistema de desescarche por derivación de gas caliente por camino alternativo</titulo>
+        <texto>La siguiente patente US 9377236B2 CO 2 refigeration system with hot gas defrost (Sistema de refrigeración de CO 2 con desescarche por gas caliente) muestra un sistema de refrigeración utilizando CO 2 como refrigerante. Durante la operación de desescarche, la ruta de flujo del circuito se reconfigura de manera que una porción del gas caliente de descarga de refrigerante se dirige desde el compresor a un cabezal de gas caliente y a través de una válvula el fluido se dirige en una configuración de flujo inverso al serpentín del evaporador a desescarchar (ver figura 6). enero de 2025 Las patentes analizadas reflejan diversos enfoques para mejorar el desescarche. Por ejemplo, el método de ciclo inverso (US20120102986A) y el sistema de derivación de gas caliente (US 5065584) demuestran la creatividad en la reconfiguración de los circuitos de refrigeración. La patente US 9377236B2 destaca el uso de CO2 como refrigerante, proporcionando una ruta de flujo inverso para mejorar la eficiencia del desescarche. El desescarche por derivación de gas caliente puede incrementar la complejidad del sistema debido a la instalación y control de las válvulas solenoides y la configuración del bypass. Además, puede implicar un mayor costo inicial debido a la necesidad de componentes adicionales y un control más sofisticado. También requiere un enero de 2025 mantenimiento adecuado para asegurar que las válvulas solenoides y otros componentes funcionen correctamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Otras tecnologías convencionales de desescarche por gas caliente</titulo>
+        <texto>El desescarche por derivación de gas caliente ha evolucionado en diversas técnicas para evitar en gran medida el retorno de líquido a los compresores, pues esto es considerado un fenómeno indeseado, ya que los golpes de líquido pueden dañar los componentes internos del compresor El sistema de desescarche ilustrado en la figura 7 emplea un método peculiar, donde el gas caliente se introduce en el evaporador a través de un orificio de tamaño específico. El correcto diseño del orificio permite controlar la presión dentro del evaporador, evitando que el refrigerante se condense. De este modo, se utiliza únicamente el calor sensible del refrigerante para derretir la escarcha, minimizando el riesgo de retorno de líquido al compresor.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Proceso de formación de escarcha</titulo>
+        <texto>La deposición de escarcha sobre la superficie del intercambiador de calor logra ser beneficiosa en un primer instante de su formación, dado que la escarcha mejora momentáneamente el coeficiente de transferencia de calor pues aumenta el área de transferencia y dando a la superficie cierta rugosidad, lo que induce a una mayor turbulencia en el flujo de aire La formación de escarcha en los intercambiadores de calor afecta de manera negativa el coeficiente de rendimiento del sistema y, en casos extremos, puede causar su mal funcionamiento. Según la literatura, la presencia de escarcha en los evaporadores puede reducir el flujo de calor entre un 50% y un 75% Por lo que se ha explicado anteriormente, la formación de escarcha es considerado un fenómeno no deseado, por lo tanto, es crucial eliminarla de manera periódica. Esto requiere comprender el proceso de formación de la escarcha. La formación de escarcha es inevitable cuando el aire húmedo se expone a la superficie fría del evaporador. El proceso de formación de escarcha se considera un fenómeno complejo debido a los efectos de las distintas variables ambientales que existen. Mengjie y Chaobin (2018) Etapa 1. Formación de gotas de agua sobre la superficie de la aleta. En este período comienza a depositarse pequeñas gotas de agua debido a la condensación. Las pequeñas gotas, durante este proceso se fusionan con otras gotas cercanas dando lugar a la nucleación, donde aumenta el tamaño de dichas gotas. Etapa 2. Formación de cristales de hielo sobre la superficie de la aleta. Posteriormente a la nucleación, las gotas de agua llegan a su momento crítico donde se convierten en cristales de hielo, los diámetros de las gotas de agua solidificadas aumentan considerablemente. Básicamente se forman columnas o agujas paralelas que crecen unidireccionalmente. Etapa 3. Crecimiento de la capa de escarcha. En esta etapa, las columnas de hielo comienzan a ramificarse, lo que conlleva a la formación de una capa de escarcha mallada más uniforme. La temperatura superficial de la escarcha enero de 2025 aumenta gradualmente, a medida que aumenta el espesor de la escarcha debido al aumento de la resistencia térmica. Etapa 4. Crecimiento completo de la capa de escarcha. Cuando se alcanza la temperatura del punto triple, la superficie de la escarcha comienza a derretirse y el agua penetra en la escarcha, disminuyendo aún más su resistencia térmica, pues los espacios ocluidos de aire disminuyen. Esto conduce a una deposición adicional de escarcha y, eventualmente a derretimientos y congelaciones continuas hasta formar una capa densa y apretada (densificación). Figura 9. Etapas de formación de la escarcha analizó el proceso de formación de escarcha en placas planas, consideró 3 etapas en la formación de la escarcha: formación de cristales de hielo, crecimiento de la capa de escarcha y crecimiento completo de la capa de escarcha. Al igual que en otras investigaciones de formación de escarcha en placas planas horizontales, desestiman el proceso de formación de las gotas de agua lo cual es válido debido a que no consideran el efecto de la gravedad que, en cambio, sí es notorio en las aletas de los intercambiadores de calor. Otra diferencia que debemos tener en cuenta, es que, durante la formación de escarcha, la temperatura en las aletas enero de 2025 disminuye, mientras que en las placas planas permanece constante. Además, la escarcha que se forma en estos intercambiadores se forma más rápido y son más gruesas. La formación de escarcha en los evaporadores de las cámaras de refrigeración depende de varias variables. Entre ellas se encuentran la humedad relativa del aire y el contenido de humedad de los productos almacenados, también influyen la temperatura del aire dentro de la cámara, la temperatura superficial del serpentín y las aletas del evaporador. Otros factores importantes son la velocidad y distribución del flujo de aire generado por los ventiladores y el tiempo acumulado de operación de los evaporadores. Gatica y Cols (2009) Encontraron que hay una relación entre el aumento del número de Reynolds y el aumento en el espesor y la densidad de la escarcha, pero su influencia disminuye a valores altos. La humedad relativa incrementa el espesor al potenciar el transporte de vapor. La temperatura del aire afecta inversamente si la humedad específica es constante; de lo contrario, su efecto es directo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Acumulación de la escarcha</titulo>
+        <texto>La acumulación de la escarcha puede medirse de manera experimental recolectando el agua drenada producto del desescarche. Se conoce que esto no es del todo cierto, pues lo ideal sería que toda la masa congelada se drene lo cual en la práctica no ocurre. Jhee y cols. (2002) no se logró drenar aproximadamente el 3% de la masa de agua total. En este trabajo despreciaremos esta diferencia pues se considerará despreciable para fines prácticos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Densidad de la escarcha</titulo>
+        <texto>La escarcha es un material poroso formado de hielo y aire, esta estructura es dinámica y con una fuerte dependencia de la temperatura de la superficie fría, así como de la humedad del espacio refrigerado. La predicción de la densidad de las escarchas mediante modelos matemáticos se ha convertido en una buena herramienta por su precisión. La mayor desventaja de estos modelos consiste en que carecen de una funcionalidad general, pues se basan en correlaciones empíricas que responden a condiciones específicas, lo que regula grandemente su aplicación Donde 𝑚 𝐻2𝑂 𝑑 es la masa de agua drenada durante el desescarche en kg y 𝑉 𝑒𝑠𝑐 es el volumen que ocupa la escarcha sobre el serpentín y las aletas del evaporador. El volumen puede calcularse conociendo el área superficial del evaporador, que es la sumatoria del área externa del serpentín y el área de las aletas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conductividad térmica de la escarcha</titulo>
+        <texto>Conocer la conductividad térmica de la escarcha es necesario, pues como se ha expresado anteriormente, su poca conductividad es lo que la convierte en una enero de 2025 especie de aislante en los evaporadores. La conductividad térmica al igual que otras propiedades de la escarcha se ha podido medir mediante métodos experimentales, aplicando la ley de Fourier y midiendo la diferencia de temperatura directamente, así como el espesor Negrelli y col (2015) Donde 𝑘 𝑎 y 𝑘 𝑖 es la conductividad térmica del aire y del hielo a la temperatura de la pared, ɛ es la porosidad de la escarcha que se puede calcular de la siguiente manera: Las constantes a y b, son dependientes de la temperatura en la pared: Esta correlación es la empleada para estimar la conductividad térmica de la escarcha en la modelación del sistema, debido a su concordancia con los resultados reportados.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Coeficiente de transferencia de calor y masa</titulo>
+        <texto>Para poder implementar adecuadamente una técnica que incluya transferencia de calor y masa, es imprescindible conocer ampliamente los fenómenos físicos involucrados dentro del proceso y así poder diseñar adecuadamente el sistema y obtener los resultados deseados. Entre los estudios más destacados para predecir el comportamiento de un sistema de desescarche por gas caliente, se encuentra el de N. Hoffenbecker y col. (2005)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Transferencia de calor del refrigerante</titulo>
+        <texto>Al aplicar la técnica descrita en este estudio, el refrigerante en forma de gas caliente se condensa al ceder su calor latente, como se ilustra en la figura 10,   Temperatura Donde 𝐶 𝑇 es un coeficiente el cual toma valor de 2.6 para refrigerantes y 𝑋 𝑡𝑡 es el factor de Martinelli, el cual se obtiene a partir de la ecuación 3.9. El coeficiente de transferencia de calor de la mezcla de refrigerante (ℎ 𝑅 = ℎ 𝑀 ) se determina con la ecuación 3. Si no se cumple esta condición, se utiliza la ecuación 3.11, que considera un régimen de flujo independiente de ΔT (Si 𝐽 𝐺 &gt; 𝐽 𝐺 𝑇 ). El coeficiente de transferencia de calor anular de la mezcla (ℎ 𝐴,𝑀 ), se determina mediante la propuesta de Bell y Ghaly (1973) La resistencia a la transferencia de calor de la mezcla (𝑅 𝐴 ) en la interfaz líquido-vapor se calcula de la siguiente manera: Donde 𝐶 𝑝,𝐺 es el calor específico del vapor saturado, 𝛥𝑇 𝐺𝐿 es la temperatura de deslizamiento de la mezcla que representa el gradiente de temperatura de ebullición, el cual es causado por las diferentes composiciones en fase líquida de la mezcla zeotrópica durante la evaporación. Emplearemos para este trabajo un 𝛥𝑇 𝐺𝐿 del R404A igual a 0.3 K El coeficiente de transferencia de calor en régimen anular para un fluido puro (ℎ 𝐴 ) se determina de la siguiente manera: Si 𝐽 𝐺 &gt; 𝐽 𝐺 𝑇 el fluido es independiente de 𝛥𝑇 y por tanto 𝐹 𝐼 se calcula de la siguiente manera: (3. 17) Donde 𝛿 es el espesor de la película de líquido en la pared de la tubería, el cual se puede calcular de la siguiente forma: La velocidad promedio de la fase vapor (𝑢 𝐺 ) y de la fase líquida (𝑢 𝐿 ) se calcula a partir de: La fracción vacía (𝛼), promedia logarítmicamente el modelo de fracción vacía homogénea (𝛼 ℎ ) propuesto por Fracción vacía homogénea: Fracción vacía derivativa: Donde 𝜎 representa la tensión superficial entre las fases. Fracción vacía media logarítmica: El coeficiente de transferencia de calor en la región estratificada de la mezcla (ℎ 𝑒𝑠𝑡𝑟𝑎𝑡,𝑀 ) ajusta el coeficiente de una sustancia pura y también tiene en cuenta la resistencia a la transferencia de calor (𝑅 𝑒𝑠𝑡𝑟𝑎𝑡 ), resultante de la mezcla de refrigerante y el estado de no equilibrio (𝐹 𝑀 ). Donde 𝐹 𝑀 es el factor de la mezcla en estado de no-equilibrio, expresado en la siguiente ecuación: ℎ 𝑒𝑠𝑡𝑟𝑎𝑡 es el coeficiente de transferencia de calor en el régimen de flujo estratificado para fluidos puros, calculada por la siguiente ecuación: 𝑁𝑢 ̅̅̅̅ 𝐷,𝑇𝑢𝑟𝑏 es el número de Nusselt para el régimen turbulento, el cual se puede determinar a través de la siguiente expresión, en donde 𝐶 𝑇𝑢𝑟𝑏 es un coeficiente convectivo para el régimen turbulento y puede tomar valor de 0.1 𝑁𝑢 ̅̅̅̅ 𝐷,𝑇𝑢𝑟𝑏 = 𝐶 𝑇𝑢𝑟𝑏 𝑅𝑎 𝐷 Donde ℎ 𝑎𝑖𝑟𝑒 es el coeficiente de transferencia de calor convectivo de la escarcha al aire calculada en la correlación anterior, 𝐶𝑝 𝑎𝑖𝑟𝑒 es la capacidad calorífica del aire y 𝐿𝑒 es el número de Lewis, el número de Lewis para el vapor de agua en el aire se puede aproximar a 1.0</texto>
+      </seccion>
+      <seccion>
+        <titulo>Eficiencia de la aleta</titulo>
+        <texto>Como se explicó previamente, el refrigerante fluirá a lo largo del serpentín, atravesando cada una de las aletas rectangulares del evaporador, las cuales cuentan con un área de transferencia. La forma más representativa de esta área puede ser modelada mediante un hexágono, como se muestra en la figura 14a. Sin embargo, esta área puede ser aproximada a la de una aleta circular de radio r (ver figura 14b), sin tener grandes afectaciones al momento de calcular el área, lo que permite calcular su eficiencia (ƞ 𝐴 ) mediante la expresión recogida por Incropera and Dewitt ƞ 𝐴 = 𝐶 2 𝐾 1 (𝑚𝑟 1 )𝐼 1 (𝑚𝑟 2𝑐 ) -𝐼 1 (𝑚𝑟 1 )𝐾 1 (𝑚𝑟 2𝑐 ) 𝐼 0 (𝑚𝑟 1 )𝐾 1 (𝑚𝑟 2𝑐 ) + 𝐾 0 (𝑚𝑟 1 )𝐼 1 (𝑚𝑟 2𝑐 ) Durante el proceso de desescarche, la aleta se encuentra mayormente en condiciones de humedad en donde su eficiencia no es igual que cuando se encuentra seca, así lo demostró Kwan Hong (2013) declarando que en condiciones de humedad la eficiencia de la aleta disminuye alrededor de un 35% con respecto a la eficiencia de aleta seca</texto>
+      </seccion>
+      <seccion>
+        <titulo>Área de Transferencia de Calor</titulo>
+        <texto>El área de transferencia de calor del evaporador (𝐴 𝑇𝐶 ) está comprendida por el área del serpentín libre entre aletas (𝐴 𝑡 ) y el área de las aletas (𝐴 𝐴 ), tal como se representa en la figura 15.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 15. Representación del área de transferencia de calor</titulo>
+        <texto>El área de la tubería entre aletas se puede calcular como el área exterior de la tubería restando los tramos ocupados por las aletas sobre tubería, tal como se muestra en la siguiente ecuación. 𝐴 𝑡 = 𝜋𝐷𝐿 -𝜋𝐷𝑁 𝐴 𝑑 𝐴 El área de las aletas se puede calcular mediante el área del sector circular considerando las dos caras de las aletas y el total de aleta, por lo que se expresa: Donde 𝑟 𝑒𝑥𝑡𝑎 y 𝑟 𝑖𝑛𝑡𝑎 es el radio exterior e interior de la aleta respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Descripción de los mecanismos de transferencia de calor y masa</titulo>
+        <texto>De manera general, el proceso de transferencia de calor puede describirse como se muestra a continuación (ver figura 16): el refrigerante caliente, a alta presión y temperatura, ingresa al evaporador, donde transfiere energía desde su interior enero de 2025 hacia las paredes del serpentín. Del serpentín, la energía se transfiere tanto a la escarcha sobre él, como a las aletas acopladas, y de estas últimas, la energía se transfiere a la escarcha depositada sobre ellas. La escarcha que recubre los tubos y aletas incrementará su temperatura hasta alcanzar el punto de fusión, momento en el cual, además de la transferencia de calor hacia el aire, se considerarán también los procesos de transferencia de masa involucrados en la evaporación y sublimación. Cuando la escarcha se elimina en ciertas secciones del evaporador sin completar el proceso de desescarche, las superficies de la tubería y las aletas quedan expuestas al aire circundante. En esta etapa, el calor se transfiere directamente desde las superficies al aire, lo que se conoce como calentamiento en seco. Esta fase es la principal responsable de generar la mayor carga parásita en el espacio refrigerado. la escarcha y el serpentín o las aletas, la cual surge cuando estas superficies alcanzan la temperatura de cambio de fase del hielo. Asimismo, consideraron la aparición de aire entre la película líquida y la escarcha durante el proceso de fusión. Sin embargo, según Li y cols (2014) Al analizar la resistencia térmica que la película de líquido podría presentar al flujo de calor, se puede concluir que es lo suficientemente baja por lo cual se despreciará. De manera similar, la resistencia que podría ocasionar el aire también se puede considerar insignificante. A partir de estos argumentos, se simplifica el modelo descartando las etapas asociadas a la formación de la película de líquido y la aparición de aire. Para optimizar el análisis y minimizar la complejidad computacional, se aprovecharán las condiciones de simetría del serpentín y la geometría de las aletas, incorporando en el modelo la distribución de la escarcha acumulada tanto en las aletas como en el serpentín. El modelo de desescarche se desarrollará considerando tres etapas principales.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Etapa de Precalentamiento</titulo>
+        <texto>Esta etapa comienza con la entrada del gas caliente en el evaporador y finaliza cuando la escarcha alcanza su temperatura de fusión. Durante esta fase asumiremos que el espesor de la escarcha permanece constante. En este proceso, intervienen varios elementos dentro de la sección de estudio; como el refrigerante, la tubería, escarcha sobre tubo y escarcha sobre aleta. Cada uno de estos elementos tienen asociado una ecuación de balance de energía para analizar su cambio de temperatura. 𝑄 ̇𝑇-𝐴𝑙 se puede calcular mediante la ecuación 3.42, también se deriva de la ley de enfriamiento de Newton, toma en cuenta las resistencias térmicas de la aleta y la resistencia al contacto entre la aleta y el tubo (Rcat =0.0625𝑥10 -4 𝑚 2 𝐾/𝑊), en concordancia con Donde 𝑇 𝐴𝑙 es la temperatura de la aleta, 𝑟 𝐴 y 𝑟 𝑒𝑥𝑡𝑡 son el radio de la aleta y el ra dio exterior del ubo respectivamente, 𝑑 𝐴 es el espesor de la aleta, 𝑁 𝐴 es el total de aleta en el volumen de control y 𝑘 𝐴 es la conductividad térmica de la aleta (conductividad térmica del aluminio, 240 W/m-K). Finalmente, el balance de energía se expresa de la siguiente manera: La ecuación 3.10, muestra el balance de energía en la aleta, donde la variación de la energía almacenada (𝑄 ̇𝐴𝑙 ) en ella es resultado de la diferencia entre el calor que llega por el tubo y el calor que la aleta cede a la escarcha (𝑄 ̇𝐴𝑙-𝐸,𝐴𝑙 ). 𝑄 ̇𝐴 = 𝑄 ̇𝑇-𝐴 -𝑄 ̇𝐴𝑙-𝐸,𝐴 𝑄 ̇𝐴-𝐸,𝐴 = 𝐴(𝑇 𝐴 -𝑇 𝐸,𝐴 ) Donde 𝑇 𝐸,𝐴 es la temperatura de la escarcha sobre la aleta y 𝑅 𝑐𝑒𝑎 es la resistencia al contacto entre la escarcha y la aleta. Finalmente, el balance se puede expresar de la siguiente forma: La energía almacenada (𝑄 ̇𝐸,𝑇 ) durante el calentamiento de la escarcha se puede determinar por la ecuación 3.47. 𝑄 ̇𝐸,𝑇 = 𝑄 ̇𝑇-𝐸,𝑇 -𝑄 ̇𝐸,𝑇-𝑎𝑖𝑟𝑒 𝑄 ̇𝐸,𝑇-𝑎𝑖𝑟𝑒 es el calor que debe transferirse desde la escarcha hacia el aire ambiente y se puede calcular de la siguiente manera: La ecuación anterior es resultado del análisis de transferencia de calor por convección natural externa, donde ℎ 𝑎𝑖𝑟𝑒 es el coeficiente convectivo el cual se discutirá posteriormente y 𝑇 𝑎𝑖𝑟𝑒 es la temperatura promedio de la cámara frigorífica. Finalmente, el balance se puede expresar de la siguiente forma: La ecuación 3.50, representa el flujo de calor en la escarcha sobre la aleta, la cual tiene el mismo principio del balance de energía de la escarcha sobre el tubo. 𝑄 ̇𝐸,𝐴 = 𝑄 ̇𝐴-𝐸,𝐴 -𝑄 ̇𝐸,𝐴-𝑎𝑖𝑟𝑒</texto>
+      </seccion>
+      <seccion>
+        <titulo>Etapa de Fusión de la Escarcha</titulo>
+        <texto>En esta etapa, comienza la fusión de la escarcha, junto con los procesos de evaporación y sublimación. Se considera que la temperatura se mantiene constante durante el cambio de fase. Durante esta etapa, la masa de la escarcha y su espesor disminuye hasta llegar a la remoción completa, indicando el final de esta fase. Se involucran los elementos de la etapa anterior, adicionando la transferencia de masa en los balances de las escarchas. El balance de energía para la escarcha sobre el tubo se representa mediante: 𝑄 ̇𝐸,𝑇 = 𝑄 ̇𝑇-𝐸,𝑇 -𝑄 ̇𝐸,𝑇-𝑎𝑖𝑟𝑒 -𝑄 ̇𝑆𝐸,𝑇-𝑎𝑖𝑟𝑒 -𝑄 ̇𝐸𝐸,𝑇-𝑎𝑖𝑟𝑒 𝑄 ̇𝐸,𝑇 representa el calor almacenado en la escarchan para diferentes volúmenes tal como se muestra en la siguiente ecuación: 𝑄 ̇𝐸,𝑇 = 𝐴 𝐸,𝑇 𝜌 𝐸 𝑖 𝑓 𝑑(𝑑 𝐸,𝑇 ) 𝑑𝑡 𝑄 ̇𝑆𝐸𝑇-𝑎𝑖𝑟𝑒 , representan el calor latente de sublimación y se calcula: 𝑄 ̇𝑆𝐸,𝑇-𝑎𝑖𝑟𝑒 = ℎ 𝑚 𝐴 𝐸,𝑇 𝑖 𝑆 (𝑤 𝑎𝑖𝑟𝑒 -𝑤 𝐸,𝑇 ) De igual manera 𝑄 ̇𝐸𝐸,𝑇-𝑎𝑖𝑟𝑒 es el calor latende de evaporación, dado por: Donde h m es el coeficiente de transferencia de masa, 𝑤 𝑎𝑖𝑟𝑒 es la humedad específica del aire (ver ecuación 3.56) y 𝑤 𝐸,𝑇 es la humedad específica saturada en la superficie de la capa de escarcha (ver ecuación 3.57). Además, 𝑖 𝑆 representa la entalpía de sublimación del hielo, que se tomará como 2834 kJ/kg para este estudio, mientras que 𝑖 𝐸 es la entalpía de evaporación, con un valor de 2257 kJ/kg. Donde 𝑃 𝑣 es la presión de vapor del agua y 𝑃 es la presión total (presión atmosférica). La 𝑃 𝑣 se puede determinar mediante el producto de la humedad relativa (ϕ) y la presión de saturación del agua a la temperatura del aire (𝑃 𝑠𝑎𝑡 𝑇 𝑎𝑖𝑟𝑒 ), tal como se muestra en la siguiente ecuación: De igual forma se puede determinar la humedad específica saturada en la superficie de la escarcha mediante: Donde 𝑃 𝑠𝑎𝑡 𝑇 𝐸 es la presión de saturación del agua a la temperatura de la superficie de la escarcha. De manera general, el balance de energía se expresa de la siguiente forma: El balance de energía de la escarcha sobre la aleta parte del mismo análisis que el de la escarcha sobre el tubo. La energía almacenada en la escarcha (𝑄 ̇𝐸,𝐴 ) se calcula como la energía que ingresa a través de la aleta (𝑄 ̇𝐴-𝐸,𝐴 ) menos el calor convectivo transferido al aire (𝑄 ̇𝐸,𝐴-𝑎𝑖𝑟𝑒 ), así como el calor asociado a la sublimación (𝑄 ̇𝑆𝐸𝐴-𝑎𝑖𝑟𝑒 ) y evaporación (𝑄 ̇𝐸𝐸𝐴-𝑎𝑖𝑟𝑒 ) como se muestra en la siguiente ecuación: 𝑄 ̇𝐸,𝐴 = 𝑄 ̇𝐴-𝐸,𝐴 -𝑄 ̇𝐸,𝐴-𝑎𝑖𝑟𝑒 -𝑄 ̇𝑆𝐸𝐴-𝑎𝑖𝑟𝑒 -𝑄 ̇𝐸𝐸𝐴-𝑎𝑖𝑟𝑒 Una forma más detallada de este balance de energía es:</texto>
+      </seccion>
+      <seccion>
+        <titulo>Etapa de Calentamiento en Seco</titulo>
+        <texto>Esta etapa ocurre cuando se ha eliminado la escarcha y la energía se transfiere desde la tubería o aleta directamente al aire en la cámara frigorífica. El proceso de desescarche se considera finalizado cuando la última sección del tubo alcanza esta condición. Los elementos involucrados en esta fase incluyen el refrigerante, la tubería y las aletas. La variación de energía almacenada en la tubería (𝑄 ̇𝑇) se define como la diferencia entre el flujo de calor suministrado al tubo desde el refrigerante (𝑄 ̇𝑅-𝑇 ) y el calor cedido al aire desde la superficie del tubo (𝑄 ̇𝑇-𝑎𝑖𝑟𝑒 ) y las aletas (𝑄 ̇𝑇-𝐴𝑙 ) , tal como se muestra en la siguiente ecuación: De manera general se puede expresar el balance de energía de la siguiente forma: Donde ℎ 𝑎𝑖𝑟𝑒 es el coeficiente de transferencia por convección natural externa. De igual manera se puede establecer un balance de energía para la aleta como se muestra en la ecuación 3.64. 𝑄 ̇𝐴𝑙 = 𝑄 ̇𝑇-𝐴𝑙 -𝑄 ̇𝐴𝑙-𝑎𝑖𝑟𝑒 Donde 𝑄 ̇𝐴𝑙-𝑎𝑖𝑟𝑒 es el calor transferido desde la aleta hacia el aire. El balance de energía se detalla en la siguiente ecuación: Gracias a estos balances, se puede calcular la eficiencia del proceso de desescarche, como se indica en la ecuación 3.66. Esta eficiencia se define como la relación entre la energía requerida para derretir toda la escarcha y la energía total suministrada al evaporador durante el proceso.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Herramienta para la Simulación y Modelado</titulo>
+        <texto>Para el modelado matemático, se empleará el programa Engineering Equation Solver (EES), que es una herramienta de resolución de ecuaciones algebraicas no lineales de manera simultánea, diseñada específicamente para la ingeniería, especialmente en áreas como la transferencia de calor, termodinámica y mecánica de fluidos. Este software ofrece una extensa base de datos con propiedades termodinámicas de cientos de fluidos, lo que permite utilizarlas directamente durante la resolución de las ecuaciones, mejorando la precisión y confiabilidad de los resultados obtenidos. Además, una de las grandes ventajas de EES, es su capacidad para realizar conversiones automáticas entre diferentes unidades de medida y verificar la consistencia de las ecuaciones, lo que reduce la posibilidad de errores derivados de incoherencias unitarias. Otra característica destacada de EES es su uso de procedimientos internos (Procedure) basados en correlaciones experimentales y modelos teóricos provenientes de la literatura especializada. Estas son solo algunas de las facilidades que aprovechará este estudio para llevar a cabo la modelación del proceso de desescarche.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Descripción del modelo elaborado</titulo>
+        <texto>El programa creado se basa principalmente en la creación de un Procedimiento (Procedure Desescarche ()) que ejecuta cíclicamente las etapas del proceso de desescarche hasta que se alcanza la condición final, que es la ausencia de escarcha en la última sección de la tubería. Este procedimiento llama a otras Funciones (Functions) que calculan variables transitorias, como el coeficiente de transferencia de calor del refrigerante, el coeficiente de transferencia convectiva del aire hacia las superficies de los tubos y aletas, y el coeficiente de transferencia de masa entre la escarcha y el aire. La Figura 17, ilustra el diagrama de flujo utilizado para resolver el algoritmo creado para este proceso. Este algoritmo asegura que se cumpla la naturaleza transitoria del proceso de desescarche mediante un modelo transitorio, en el cual es posible determinar un paso de tiempo adecuado para que el programa converja adecuadamente.  El programa está diseñado para dividir la tubería en varias secciones discretas (𝛥𝑋). Cada sección, junto con la escarcha acumulada sobre ella, se considera un volumen finito en el cual se calculan variables como: • Las temperaturas de los tubos y las aletas • El espesor (𝑑 𝑒𝑡 𝑦 𝑑 𝑒𝑎 ) y la temperatura de la escarcha (𝑇 𝑒𝑡 𝑦 𝑇 𝑒𝑎 ) sobre tubo y aleta • La entalpía, temperatura y calidad del refrigerante Estos valores se almacenan en matrices, donde las columnas representan las variables de cada volumen finito y las filas corresponden a los pasos de tiempo. Este enfoque permite un seguimiento detallado de la evolución del sistema durante todo el proceso, incluyendo el cálculo preciso de la duración del desescarche. Es importante destacar que los mecanismos de fusión de la escarcha sobre las tuberías y las aletas no ocurren simultáneamente. Dos factores principales explican esta diferencia: 1. La eficiencia térmica de las aletas, que retrasa la transferencia de calor. 2. La mayor cantidad de escarcha se encuentra depositada sobre las aletas en comparación con las tuberías. Con base en las tres etapas descritas en la sección 4.6, se identifican cinco escenarios posibles del proceso: • Escenario 1: Durante la etapa inicial de calentamiento, tanto la escarcha sobre las tuberías como la escarcha en las aletas se encuentran en proceso de calentamiento, sin alcanzar aún una temperatura de cambio de fase. • Escenario 2: La escarcha en las tuberías puede estar en proceso de desescarche mientras que la escarcha en las aletas continúa en calentamiento. • Escenario 3: Ambas escarchas, tanto en las tuberías como en las aletas, están en proceso de desescarche, reduciendo gradualmente su espesor. • Escenario 4: En este caso, la escarcha en las tuberías se ha eliminado por completo, pero las aletas aún retienen escarcha. La tubería transfiere energía directamente al aire circundante, lo que se ha nombrado como "Calentamiento en Seco." • Escenario 5: Tanto las tuberías como las aletas se encuentran en estado de calentamiento en seco, sin presencia de escarcha. El programa realiza iteraciones, donde cada paso corresponde a un intervalo de tiempo predefinido. Estas iteraciones continúan hasta que se detecta la ausencia total de escarcha en la última sección de la tubería, indicando el fin del proceso de desescarche. El prototipo cuenta, fundamentalmente, con dos evaporadores, un banco de dos compresores y un condensador capaz de rechazar tanto el calor absorbido en la cámara como el calor de compresión, entre otros componentes, todo ello diseñado para mantener una temperatura en la cámara friorífica de hasta -30 °C. A continuación, se describen los principales componentes de este sistema, cada uno de los cuales desempeña roles específicos fundamentales para su funcionamiento.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Condensador</titulo>
+        <texto>El condensador utilizado en este sistema es un intercambiador de calor de tipo tubo y aletas con tiro forzado (ver figura 18), que se encarga de rechazar el calor absorbido por el refrigerante en la cámara frigorífica, así como el calor generado durante el proceso de compresión. Este condensador es de la marca ELGIN, modelo CONDEN2380, fabricado con tubos de cobre y aletas de aluminio. Cuenta con 8 aletas por pulgada y una configuración de 4 filas, cada una con 20 tubos, lo que proporciona un área de intercambio térmico de 22.86 m². El cual, tiene la capacidad de rechazar un flujo de calor de hasta 7.35 kW.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Evaporador</titulo>
+        <texto>El sistema cuenta con dos evaporadores idénticos de tubos y aletas (ver figura</texto>
+      </seccion>
+      <seccion>
+        <titulo>Compresor</titulo>
+        <texto>El sistema cuenta con un banco de dos compresores de la misma capacidad (Ver figura 20), el cual permite otorgar la capacidad de refrigeración, al mismo tiempo que permite adaptarse a las necesidades térmicas cambiantes del sistema. Durante el proceso de compresión se aumenta la temperatura y la presión del refrigerante para adecuarlo a las condiciones del siguiente proceso de condensación, de igual forma garantiza la circulación del fluido en el ciclo.     Por medio de las líneas de media temperatura, se conectan a las válvulas de expansión (E) donde el refrigerante es estrangulado hasta la presión del evaporador El proceso de expansión conlleva a una disminución de la temperatura del refrigerante por debajo de la temperatura de la cámara, el refrigerante en su estado de vapor húmedo con baja calidad se evapora al absorber calor de la cámara frigorífica. En la salida de los evaporadores el refrigerante se encuentra como vapor sobrecalentado, el cual se dirige hasta el manifold de gas sobrecalentado (7) que alimentará al banco de compresores y de esta forma completando el ciclo de refrigeración.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Descripción del Proceso de Desescarche</titulo>
+        <texto>El proceso de desescarche implementado, que constituye esta invención, está respaldado por la patente MX/a/2022/014362 A continuación, se detalla el proceso de desescarche propuesto, utilizando como referencia el evaporador 8, representado en el diagrama de la figura 25 de la sección 4.5. El proceso de desescarche se configura manualmente en el panel de control, donde se programan la frecuencia y la duración del ciclo. El procedimiento inicia con el cierre de las válvulas solenoides (A) de la línea de líquido que alimentan los evaporadores (8 y 9). Luego, se apaga el ventilador del evaporador (8) y se abre la válvula solenoide de la línea de desescarche, permitiendo el ingreso de refrigerante caliente proveniente del banco de compresores (1), a alta presión y temperatura. Este fluye a través del serpentín del evaporador A la salida del evaporador (8), el refrigerante se encuentra en estado de líquido subenfriado y es redirigido a través de la línea de recuperación hacia el evaporador (9), que continúa operando en modo de refrigeración. Una vez finalizado el tiempo de desescarche, se restablece el evaporador (8) al modo de refrigeración cerrando la válvula solenoide (A) de la línea de desescarche. Durante esta fase, denominada "recuperación", los compresores (1) permanecen en funcionamiento para consumir la mayor cantidad de gas caliente residual. Tras completar la recuperación, se enciende el ventilador del evaporador (8) y se abre la válvula solenoide (A) de la línea de líquido, permitiendo la entrada de refrigerante líquido y el restablecimiento del ciclo de refrigeración en ambos evaporadores. Este proceso de desescarche presenta la ventaja de no requerir consumo de energía externa, ya que aprovecha el calor residual del sistema de refrigeración, el cual, en un ciclo convencional, se disiparía al medio ambiente a través del condensador.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Pruebas Experimentales</titulo>
+        <texto>Para realizar las experimentaciones necesarias para caracterizar el sistema, primeramente, se esperó a que el cuarto frio llegara a la temperatura deseada, luego, se realizó una evaluación visual de las condiciones de los evaporadores en donde también se midió el espesor de la escarcha sobre las aletas y el serpentín. Para tener un escenario experimental variable en cuanto a la formación de escarcha y su espesor, se suministró en algunas experimentaciones vapor de agua con ayuda de una caldera elaborada para este fin. Se programó el tiempo de duración del desescarche de los evaporadores en función del espesor de la escarcha y la experiencia de otros desescarches, con el objetivo de arrojar resultados preliminares para la modelación. El agua drenada se recolectó con el objetivo de cuantificarla y obtener un valor aproximado de la densidad de la escarcha a través del procedimiento mostrado en la sección 2.1.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Termopares</titulo>
+        <texto>Con el objetivo de monitorear el proceso de desescarche, se instalaron 20 termopares en todo el sistema, de los cuales 8 fueron ubicados en cada uno de los evaporadores, como se muestra en la figura 27. Además, se midieron la enero de 2025 temperatura central de la cámara frigorífica, así como las temperaturas de succión y descarga del banco de compresores, y la temperatura ambiente.    Después de la densificación de la escarcha el sistema alcanza nuevamente la estabilidad en la sección 2 (S2), imponiendo una temperatura en la cámara de -15°C. Por tanto, se puede corroborar que la presencia de escarcha afecta directamente la transferencia de calor entre el aire de la cámara y el refrigerante, aumentando la temperatura de la cámara en un 25%.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Temperatura y Presión del Sistema</titulo>
+        <texto>El análisis general de las temperaturas nos ayuda a realizar un análisis integrado del sistema y caracterizar el comportamiento del refrigerante y los principales componentes en el proceso de desescarche. En la figura 32 se presentan los datos de temperaturas medidas entorno al desescarche del evaporador derecho, el cual se encontraba completamente escarchado (es decir; 100% obstruido). enero de 2025 En la figura 33 se observa que durante el modo de refrigeración la temperatura medida en la entrada del evaporador presenta valores negativos, resultado de la expansión del refrigerante. Sin embargo, al iniciar el modo de desescarche ocurre una transición hasta alcanzar una temperatura casi constante en la que se considera que ocurre este proceso. Para la modelación, se consideró una temperatura constante de 22°C. La variación de la temperatura de salida del evaporador derecho es una medida del comportamiento del refrigerante y de su energía transferida a la escarcha que va eliminándose con el suministro de gas caliente. Por esta razón, se observa que el gradiente de temperatura entre la temperatura de salida y de entrada es cada vez menor. En la figura 34 se presentan las temperaturas de salida del evaporador en desescarche y las de entrada al evaporador vecino. Se observa que las temperaturas de entrada al evaporador adyacente permanecen prácticamente invariables antes y durante el proceso de desescarche, lo cual es coherente con el diseño del sistema. enero de 2025 Los valores de presión junto con los de temperaturas ya analizados ayudan a entender el comportamiento del sistema y la técnica de desescarche presentada. La figura 35 presenta las presiones del sistema antes y durante el proceso de desescarche del evaporador 8. Se observa que durante el modo de refrigeración el sistema trabaja perfectamente entre dos valores de presiones (presión de baja y presión de alta). Sin embargo, durante el desescarche, las presiones experimentan fluctuaciones debido a que el sistema de refrigeración se encuentra funcionando con un solo evaporador, lo que restringe el flujo de refrigerante. enero de 2025 Para la modelación, se asumió una presión constante igual a 150 psi, omitiendo las presiones de la transición en el inicio del modo de desescarche.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Validación del modelo con datos de la Literatura</titulo>
+        <texto>El modelo matemático desarrollado tiene como objetivo principal predecir el tiempo requerido para eliminar la escarcha acumulada en el serpentín y las aletas del evaporador. En este capítulo, se compararán los resultados obtenidos por el modelo con datos disponibles en la literatura, así como con los datos experimentales recopilados durante las pruebas realizadas en el prototipo de la cámara frigorífica. El propósito es evaluar la precisión del modelo y determinar su aplicabilidad en diversos contextos. Diversos estudios han desarrollado modelos teóricos para simular el proceso de desescarche en evaporadores. Un ejemplo es el trabajo de Hoffenbeker (2005) Los resultados de la prueba t-pareada son los siguientes:   de las etapas termodinámicas consideradas en la modelación. Sin embargo, la escarcha sobre las aletas experimentó un retardo en su fusión, atribuido a la eficiencia de las aletas en la transferencia de calor. El gráfico siguiente muestra las entalpías de entrada y salida del gas caliente. Se validó experimentalmente el modelo termodinámico mediante un prototipo en el Laboratorio de Energía. El modelo presentó una subestimación del tiempo de desescarche del 13.67% en comparación con el tiempo observado (240 segundos), lo cual puede ser atribuido al método explícito utilizado para resolver las ecuaciones de primer orden del balance de energía. Además, factores relacionados con el evaporador, como la variabilidad en el espesor de la escarcha o la presencia de impurezas internas, podrían haber influido en esta discrepancia. A pesar de esto, el modelo ofrece una aproximación razonable, aunque aún requiere optimización. Asimismo, se validó el modelo con los resultados del modelo teórico de Hoffenbecker, observando una sobreestimación del 4.35% para una temperatura de entrada del gas caliente de 35°C.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Tecnologías patentadas con uso de desescarche por gas caliente</titulo>
+    </referencia>
+    <referencia>
+      <titulo>2 Otras tecnologías convencionales de desescarche por gas caliente</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Conductividad térmica de la escarcha</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Resultados A continuación, se presentan los resultados obtenidos durante las pruebas experimentales más representativas realizadas en la cámara</titulo>
+    </referencia>
+    <referencia>
+      <titulo>IV2 y IV3), cuyos picos están representados en la gráfica, con duraciones de 90, 60 y 45 segundos, respectivamente. La segunda inyección ocurrió 6 minutos después de la primera</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Refrigeration systems and applications</titulo>
+      <autores>
+        <autor>I Dincer</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simulación del depósito de Escarcha en superficies frías</titulo>
+      <autores>
+        <autor>J Gatica</autor>
+        <autor>V Pita</autor>
+        <autor>N Lobo</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Refrigeration: Theory And Applications</titulo>
+      <autores>
+        <autor>J Carson</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Process technology equipment and systems</titulo>
+      <autores>
+        <autor>C Thomas</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Refrigeration, air conditioning and heat pumps</titulo>
+      <autores>
+        <autor>G Hundy</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Refrigeration and air-conditioning</titulo>
+      <autores>
+        <autor>G Hundy</autor>
+        <autor>A Trott</autor>
+        <autor>T Welch</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>New refrigerants and system configurations for vapor-compression refrigeration</titulo>
+      <autores>
+        <autor>M Mclinden</autor>
+        <autor>C Seeton</autor>
+        <autor>A Pearson</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparación teórica entre los refrigerantes R404A y R455a en sistemas de refrigeración</titulo>
+      <autores>
+        <autor>J Haro-Ortuño</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Protocolo de Kioto de la Convención Marco de las Naciones Unidas sobre el Cambio Climático</titulo>
+      <autores>
+        <autor>N Unidas</autor>
+      </autores>
+      <fecha>1997</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Manual del Protocolo de Montreal relativo a las sustancias que agotan la Capa de Ozono</titulo>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>HFO refrigerants: A review of present status and future prospects</titulo>
+      <autores>
+        <autor>V Nair</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Environment-friendly refrigerants for sustainable refrigeration and air conditioning: a review</titulo>
+      <autores>
+        <autor>S Bhatti</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Condensation heat transfer of R22 and R410A in horizontal smooth and microfin tubes</titulo>
+      <autores>
+        <autor>Man-Hoe Kim</autor>
+        <autor>J.-S</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hot gas defrost model development and validation</titulo>
+      <autores>
+        <autor>N Hoffenbecker</autor>
+        <autor>S</autor>
+        <autor>D Reindl</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Assessment of a novel defrost method for PV/T system assisted sustainable refrigeration system</titulo>
+      <autores>
+        <autor>M Onur Karaağaç</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Energy intensity of agriculture and food systems</titulo>
+      <autores>
+        <autor>N Pelletier</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Proceedings of the 26th IIR International Congress of Refrigeration</titulo>
+      <autores>
+        <autor>Iif-Iir</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Diseño y optimización del proceso de desescarche de un arcón frigorífico</titulo>
+      <autores>
+        <autor>Forero Salas</autor>
+        <autor>J</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A critical literature review of defrost technologies for heat pumps and refrigeration systems</titulo>
+      <autores>
+        <autor>K Nawaz</autor>
+        <autor>A Elatar</autor>
+        <autor>B Fricke</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Literature Review of Frost Formation Phenomena on Domestic Refrigerators Evaporators. Energies</titulo>
+      <autores>
+        <autor>D Krasota</autor>
+        <autor>P Błasiak</autor>
+        <autor>P Kolasiński</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review on the measurement and calculation of frost characteristics</titulo>
+      <autores>
+        <autor>M Song</autor>
+        <autor>C Dang</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Experimental investigation of the defrosting process on domestic refrigerator finned tube evaporators</titulo>
+      <autores>
+        <autor>D Özkan</autor>
+        <autor>E Özil</autor>
+        <autor>C İnan</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Experimental measurements of the effects of frost formation on heat exchanger performance</titulo>
+      <autores>
+        <autor>A Emery</autor>
+        <autor>B Siegel</autor>
+      </autores>
+      <fecha>1990</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A critical review of properties and models for frost formation analysis</titulo>
+      <autores>
+        <autor>J Iragorry</autor>
+        <autor>Y.-X Tao</autor>
+        <autor>S Jia</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study of frost properties correlating with frost formation types</titulo>
+      <autores>
+        <autor>Y Hayashi</autor>
+      </autores>
+      <fecha>1977</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of surface treatments on the frosting/defrosting behavior of a fin-tube heat exchanger</titulo>
+      <autores>
+        <autor>S Jhee</autor>
+        <autor>K.-S Lee</autor>
+        <autor>W.-S Kim</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A semi-empirical correlation for the frost density</titulo>
+      <autores>
+        <autor>C Hermes</autor>
+        <autor>F Loyola</autor>
+        <autor>V Nascimento</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Frost modeling under cryogenic conditions</titulo>
+      <autores>
+        <autor>S Byun</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A semi-empirical model for predicting frost properties</titulo>
+      <autores>
+        <autor>S.-M Li</autor>
+        <autor>K.-S Yang</autor>
+        <autor>C.-C Wang</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The behavior of frost layer growth under conditions favorable for desublimation</titulo>
+      <autores>
+        <autor>J Lee</autor>
+        <autor>K.-S Lee</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effective thermal conductivity of frost consideringmass diffusion and eddy convection</titulo>
+      <autores>
+        <autor>M Kandula</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Frost deposition on cold surfaces. Industrial &amp; Engineering Chemistry Fundamentals</titulo>
+      <autores>
+        <autor>P Brian</autor>
+        <autor>R Reid</autor>
+        <autor>Y Shah</autor>
+      </autores>
+      <fecha>1970</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A semi-empirical correlation for the thermal conductivity of frost</titulo>
+      <autores>
+        <autor>S Negrelli</autor>
+        <autor>C Hermes</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review of defrosting methods</titulo>
+      <autores>
+        <autor>M Amer</autor>
+        <autor>C.-C Wang</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Five defrost methods for commercial refrigeration</titulo>
+      <autores>
+        <autor>J Rainwater</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Frost measurement methods for demand defrost control systems: A review</titulo>
+      <autores>
+        <autor>M De Aguiar</autor>
+        <autor>P Gaspar</autor>
+        <autor>P Da Silva</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effects of surface characteristics on liquid behaviors on fin surfaces during frosting and defrosting processes. Experimental thermal and fluid science</titulo>
+      <autores>
+        <autor>F Wang</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of ultrasound on frost formation on a cold flat surface in atmospheric air flow. Experimental thermal and fluid science</titulo>
+      <autores>
+        <autor>D Li</autor>
+        <autor>Z Chen</autor>
+        <autor>M Shi</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Experimental study on frosting suppression for a finned-tube evaporator using ultrasonic vibration. Experimental thermal and fluid science</titulo>
+      <autores>
+        <autor>D Wang</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Distributed heaters to reduce temperature rise in freezing cabinet during defrost process and its overall energy effect for a frost-free refrigerator</titulo>
+      <autores>
+        <autor>R Zhao</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Frosting and defrosting characteristics of household refrigerators and freezers: Recent progress and perspectives</titulo>
+      <autores>
+        <autor>G Liu</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>An experimental study on a novel defrosting method for cold room</titulo>
+      <autores>
+        <autor>M Abdulla</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electric-heater defrosting performance of frost-free refrigerator-freezer and its improvement by step-reduction power</titulo>
+      <autores>
+        <autor>R Zhao</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review regarding defrosting methods for refrigeration and heat pump systems</titulo>
+      <autores>
+        <autor>J Al Douri</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Reverse cycle defrost method and apparatus</titulo>
+      <autores>
+        <autor>J Micka</autor>
+        <autor>M Decker</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hot gas bypass defrosting system</titulo>
+      <autores>
+        <autor>D Byczynski</autor>
+        <autor>W Reed</autor>
+      </autores>
+      <fecha>1991</fecha>
+    </referencia>
+    <referencia>
+      <titulo>CO2 refrigeration system with hot gas defrost</titulo>
+      <autores>
+        <autor>D Bittner</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The detection of liquid slugging phenomena in reciprocating compressors via power measurements</titulo>
+      <autores>
+        <autor>C Laughman</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>New equations for heat and mass transfer in turbulent pipe and channel flow. International chemical engineering</titulo>
+      <autores>
+        <autor>V Gnielinski</autor>
+      </autores>
+      <fecha>1976</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Heat transfer</titulo>
+      <autores>
+        <autor>G Nellis</autor>
+        <autor>S Klein</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A new simplified model for condensation heat transfer of zeotropic mixtures inside horizontal tubes</titulo>
+      <autores>
+        <autor>H Deng</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Condensation in horizontal smooth tubes: a new heat transfer model for heat exchanger design</titulo>
+      <autores>
+        <autor>A Cavallini</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Condensation of zeotropic mixtures in horizontal tubes: new simplified heat transfer model based on flow regimes</titulo>
+      <autores>
+        <autor>D Del Col</autor>
+        <autor>A Cavallini</autor>
+        <autor>J Thome</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Condensation in smooth horizontal tubes</titulo>
+      <autores>
+        <autor>M Dobson</autor>
+        <autor>J Chato</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>An approximate generalized design method for multicomponent/partial condensers</titulo>
+      <autores>
+        <autor>M Ghaly</autor>
+        <autor>K Bell</autor>
+      </autores>
+      <fecha>1973</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ficha técnica R-404A</titulo>
+      <autores>
+        <autor>G Servei</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Estimation of steady-state steam void-fraction by means of the principle of minimum entropy production</titulo>
+      <autores>
+        <autor>S Zivi</autor>
+      </autores>
+      <fecha>1964</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Calculation of void volume fraction in the subcooled and quality boiling regions</titulo>
+      <autores>
+        <autor>S Rouhani</autor>
+        <autor>E Axelsson</autor>
+      </autores>
+      <fecha>1970</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>J Threlkeld</autor>
+      </autores>
+      <fecha>1970</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Numerical and Experimental Study of the Influence of Frost Formation and Defrosting on the Performance of Industrial Evaporator Coils</titulo>
+      <autores>
+        <autor>N Aljuwayhel</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fundamentals of Heat and Mass Transfer</titulo>
+      <autores>
+        <autor>F Incropera</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Calculation of Fin Efficiency for Wet and Dry Fins</titulo>
+      <autores>
+        <autor>K Hong</autor>
+        <autor>R Webb</autor>
+      </autores>
+      <fecha>1996</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The new mathematical models for plain finand-tube heat exchangers with dehumidification</titulo>
+      <autores>
+        <autor>W Pirompugd</autor>
+        <autor>C.-C Wang</autor>
+        <autor>S Wongwises</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Modelling and experimental validation of the hot-gas defrost process of an air-cooled evaporator</titulo>
+      <autores>
+        <autor>J Dopazo</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent advances in dynamic modeling of HVAC equipment. Part 1: Equipment modeling</titulo>
+      <autores>
+        <autor>P Li</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Sistema de desescarche por gas caliente con aprovechamiento de calor residual</titulo>
+      <autores>
+        <autor>D Chávez</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+  </referencias>
+</tesis>

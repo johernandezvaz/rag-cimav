@@ -1,0 +1,1503 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo>CENTRO DE INVESTIGACIÓN EN MATERIALES AVANZADOS, S.C. DEPARTAMENTO DE ESTUDIOS DE POSGRADO QUEEN MARY UNIVERSITY OF LONDON PIEZO-PHOTOCATALYSTS BASED ON POTASSIUM SODIUM NIOBATE AND POLYACRYLONITRILE NANOFIBERS WITH REDUCED STABILIZATION TEMPERATURE FOR THE DEGRADATION OF RHODAMINE B THESIS for obtaining a double degree in MASTER IN MATERIALS SCIENCE Presents</titulo>
+    <idioma>english</idioma>
+    <autores>
+      <autor>Melissa Britanny</autor>
+      <autor>Klassen González</autor>
+      <autor>Gabriel George</autor>
+      <autor>Joe Briscoe</autor>
+      <autor>Dra Belén</autor>
+      <autor>Jorge Sobrido</autor>
+      <autor>Ana Karen</autor>
+      <autor>Rogelio Farid</autor>
+      <autor>Adriana Carlos</autor>
+      <autor>Aldo Augusto</autor>
+      <autor>David</autor>
+      <autor>Luis Gabriel</autor>
+      <autor>Nelly Ángel</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <estado_del_arte>
+      <seccion>
+        <titulo>State of the Art fibers</titulo>
+        <texto>The first records of the synthesis of potassium sodium niobate (K1-XNaXNbO3) are by Piezoelectric measurements of KNN began with a 50:50 ratio of K to Na. Subsequently, this ratio was varied, where x=0.  KNN has been studied as a possible substitute for lead zirconate titanate (PZT), mainly for its piezoelectric properties, and its Curie temperature (TC), in applications such as actuators, sensors, and energy harvesters [20]36. In the following sections, its physical and chemical properties, synthesis methods, and the applications in which it has been used will be discussed in more detail, comparing KNN with other ceramic materials.  the 590 pC/N presented by PZT-5H</texto>
+      </seccion>
+    </estado_del_arte>
+    <objetivos>
+      <seccion>
+        <titulo>IX. Objectives</titulo>
+        <texto />
+      </seccion>
+    </objetivos>
+    <justificacion>
+      <seccion>
+        <titulo>VII. Justification</titulo>
+        <texto>Potassium sodium niobate, with an atomic ratio of 0. reported, and the photocatalytic activity of the polymer may be overcome by including KNN, both for its piezoelectric property and photocatalytic property. The aim is to treat pollutants, such as the degradation of Rhodamine B, which are organic dyes. This process is carried out by means of photocatalysis, which is enhanced by the piezoelectric effect of the material, in this case KNN.</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>VIII. Hypothesis</titulo>
+        <texto>Potassium sodium niobate, with an atomic relation of 0.48 K -0.52 Na and a particle size below 100 nm, will reduce the band gap in the range employed for piezophotocatalytic applications of dye degradation as powderelectrospun .</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>Carbon Nanofibers (CNF) Synthesis via Electrospinning</titulo>
+        <texto>Among the various methods of nanofiber synthesis, the electrospinning technique has been mostly studied because of the terminal characteristics of the nanofibers, such as their diameter, between 10 nm and 10 m, which is related to the concentration of monomer in the solvent</texto>
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>XI. Results and Discussion</titulo>
+        <texto>This chapter will be divided into four sections: the results corresponding to the ceramic material (potassium sodium niobate), to the polymeric material and the composites (polyacrylonitrile), the catalysis tests and, lastly, a summary of the results.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Piezo-photocatalysis</titulo>
+        <texto>Finally, the piezo-photocatalysis tests combined the piezoelectric and the photocatalytic properties of both KNN and PAN, and the results are shown in Figure The first sample that is seemingly the best of the group, is the KNN powder, staying at the same concentration for almost three hours, which could indicate that less time would be required to degrade the dye instead of staying in the solution for 3 hours. Another sample that has a great trend is the other control sample, PAN. It is not as effective as KNN at the beginning, but at the end, it shows a similar reduction in dye concentration. From the composite materials, and from previous catalytic tests, adding above 30 wt% of KNN load into the electrospinning solution is not effective for dye degradation compared to samples that have a lower ceramic load, such as 10 wt% in piezocatalysis, and 10 and 30 wt% in photocatalysis. Furthermore, this could be correlated to the difficulty of electrospinning the 40 wt% KNN solution and its appearance before stabilizing the sample. The 30 and 40 wt% KNN samples were less effective than the control groups. Lastly, 10 and 20 wt% composites had a degradation capacity comparable to the pristine PAN, but the 20 wt% sample had a higher degradation capacity after 120 min. This is why it was chosen, side by side with the control groups, to repeat the tests and measure that it was the best performer from this composites group. Also, the 10 wt% KNN sample started to show a bleached color in the overall surface, which will be shown in the next section. In Figure As a conclusion to these tests, in Figure The onset for RhB is 550 nm The effect of the corona poling, and the absorption of the dye, can be seen mostly in Figure The particle size was reduced via high -energy post-calcination milling, and a filter with 0.1 m pore size was used to obtain only particles below 100 nm in size for the electrospinning solutions. Using the 0, 6 and 12-hours milled powder in Ultraviolet-Visible Spectroscopy, the optical band gap for the potassium sodium niobate resulted in 3.94 eV for the powder after 0 hours of milling, and 3.92 eV after 12 hours of milling. With the reduction of the particle size, the optical band gap of this ceramic powder decreased by 0.02 eV after 12 hours of high energy postcalcination milling, calculated with Kulbeka-Munk modified Tauc plot. It was confirmed with the use of Fourier Transform Infrared Spectroscopy that potassium sodium niobate loses the organic matter after the calcination, as the organic bonds at 2339 and 2359 cm -1 from the reagents disappear and the interaction between niobium and oxygen showed a deep peak at 615 cm -1 . The vibrational modules were measured with Raman Spectroscopy, and as happened with Infrared Spectroscopy, the 48:52 composition had a left shift compared to the 50:50 composition. With Raman it was also confirmed that one of the phases present in the KNN is the spatial group Amm2, an orthorhombic structure; the vibrations correspond to the Nb-O6 octahedra and movement in the alkali elements within the structure at 142 cm -1 . The polyacrylonitrile fibers were successfully electrospun with a voltage of 17.5 kV, reduced to 15 kV once the ceramic load for the composite mats increased. The fibers and composites were measured with X-Ray Diffraction, where the two polyacrylonitrile peaks in 17° and 29° (2) were presented, but lacked sharpness compared to the background. Once the ceramic nanoparticles were included in the solution, these peaks gained sharpness but were reduced above 30 wt% ceramic load. The niobate peaks also appeared in the composite material but, as was the case with the polyacrylonitrile peaks, the lost sharpness, and the peaks above 45° (2) changed their form. The increasing ceramic load reduced the stabilization temperature, from 298.36 °C in pristine fibers, to 264.80 °C with a 40 wt% niobate load, but did not affect the pristine fibers peaks in Infrared Spectroscopy. The only visible change was the increase of the niobium-oxygen bond with a higher ceramic load. Regarding the vibrational modes in Raman, only the vibrations related to the graphitic structure of the fibers appeared, and the presence of the potassium sodium niobate increased the intensity of the peaks. A correlation could exist between the reduction in the stabilization temperature and the intensity increase in the Raman vibrational modes of the fibers and the composites. Once the nanoparticles were electrospun with the polymeric solution and stabilized, the fibers were observed with Scanning Electron Microscopy, where the agglomeration of the particles was clearly observed, but they were still distributed among the fibers with the load increase. When the agglomerate was bigger in size, it tended to bend as to create a micelle, and it could be related to the static nature of the nanoparticles and the voltage at which the electrospinning process took place. After the samples were poled with the corona effect, visible holes were observed in the fibers surface, and with Scanning Electron Microscopy it was concluded that the fibers were melted at the edges and on the layers underneath the holes. The nanoparticles were unveiled where the fibers retracted in a charred manner rather than melted. Continuing with the catalysis tests, the best performers in piezocatalysis were 10 wt% KNN composite (76.71% removal efficiency), pristine PAN (69.14%) and KNN powder (61.40%); in photocatalysis were 30 wt% KNN (71.23%), KNN powder (67.05%), and 10 wt% KNN composite (55.54%). Lastly, the principal test for this project, piezo-photocatalysis, had the following samples as best performers: KNN powder (54.02%), 20 wt% KNN composite (45.46%) and pristine PAN (43.67%). The only visible change in the dye color was with the 20 wt% KNN sample after the third piezo-photocatalytic test, going from a bright pink to a washed yellow, almost transparent.</texto>
+      </seccion>
+    </resultados>
+    <conclusiones>
+      <seccion>
+        <titulo>XII. Conclusions</titulo>
+        <texto>The existence of an orthorhombic phase in K0.48Na0.52NbO3 was confirmed with Rietveld refinement after the X-Ray Diffraction patterns obtained from powder calcined at 800 °C. By reducing the particle size with post-calcination milling, the composite materials with ceramic nanofillers and polyacrylonitrile fibers were successfully electrospun. The composite materials did show a reduction in the stabilization temperature from 298.36 °C in pristine fibers to 264.80 °C with a 40 wt% load of potassium sodium niobate nanoparticles. Visually, the fibers were continuous and had the presence of agglomeration of the nanoparticles when the load increased, mostly in the samples with 30 and 40 wt% filler. These agglomeration were exposed after the corona poling was done, after increasing the temperature of the polymer and shrinking the fibers. By poling the samples with corona discharge, the nanoparticles were exposed after the voltage burned the PAN nanofibers, which could lead to a higher efficiency in the catalysis tests by increasing the reaction area of the KNN particles.The addition of 20 wt% from K0.48Na0.52NbO3 ceramic nanoparticles obtained from a solid-state route to a 10 wt% polyacrylonitrile solution and synthesized via electrospinning, can degrade Rhodamine B with 45.46% efficiency after three hours with piezo-photocatalysis.</texto>
+      </seccion>
+    </conclusiones>
+    <otros>
+      <seccion>
+        <titulo>Sin título</titulo>
+        <texto>The composite materials were synthesized using solid-state reaction for KNN and electrospinning for KNN-PAN fibers. Six samples, including two control groups (pristine PAN and KNN powder) and four composites with varying KNN loads based on the PAN content (10, 20, 30 and 40 wt%), were tested for their ability to degrade RhB using piezo-, photo-and piezo-photocatalysis. With Rietveld refinement analysis, the existence of the orthorhombic phase in KNN powder was obtained with values of  2 = 3.78, and R factors of Rwp = 10.1 and Rexp = 5.19, after reducing the calcination temperature from 900 °C to 800 °C, and composite fibers were successfully electrospinned with ceramic particles. The required size for the particles was 100 nanometers, using ceramic powder from a post-calcination milling treatment. The KNN optical band gap was determined to be 3.94 eV, reduced to 3.92 eV after 12 hours of the post-calcination milling. The most efficient samples for RhB degradation were the 10 wt% KNN composite, achieving 76.71% in piezocatalysis, and the 30 wt% KNN composite, with a degradation efficiency of 71.23% in photocatalysis. Finally, the KNN powder showed an enhanced piezo-photocatalytic activity with 54.02% degradation after three hours of testing. Notably, the 20 wt% KNN composite produced a significant color change in RhB, reaching the second place in piezo-photocatalysis after the ceramic powder, with a 45.46% degradation efficiency, suggesting its potential for enhanced degradation mechanisms even after five cycles.</texto>
+      </seccion>
+      <seccion>
+        <titulo>III. Tables List</titulo>
+        <texto>Table</texto>
+      </seccion>
+      <seccion>
+        <titulo>Redox</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Reduction and oxidation chemical reactions</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Rexp</titulo>
+        <texto>Expected R factor (Rietveld refinement)</texto>
+      </seccion>
+      <seccion>
+        <titulo>RhB</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Rhodamine B, organic dye</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Rwp</titulo>
+        <texto>Weighted profile R factor (Rietveld refinement) Piezoelectricity is a property of materials whose crystalline structure is noncenter-symmetric, when applying mechanical stress or strain produces an electrical response, and vice versa: when an electric field is applied, there is a mechanical deformation. This property is directly linked to the Curie temperature (TC), a phase transition temperature, where materials lose their piezoelectricity by modifying their crystalline structure</texto>
+      </seccion>
+      <seccion>
+        <titulo>SEM</titulo>
+        <texto>During the Second World War, barium titanate (BaTiO3, abbreviated as BT) was used for the construction of sonar and radar devices due to its dielectric constant, K (between 1200 and 1500) and its Curie temperature (120 °C). Unfortunately, its relatively low TC makes the use of BT in other possible applications difficult On the other hand, semiconductor materials, such as ceramics, have been developed for catalytic applications, specifically those procedures that are activated by sunlight, known as photocatalysts. Various materials have been used, such as oxides, arsenides, nitrides, various polymers such as polyacrylonitrile and lignin, pure elements such as silicon and phosphorus, among others. The mechanism in photocatalysis is as follows: the electrons in the valence band (VB) get excited by the energy in sunlight in a semiconductor material, which then jump to a higher energy level known as the conduction band (CB), creating a pair of electron -hole. These pairs have enough energy to produce reduction -oxidation sites (Redox), where the environment that surrounds the photocatalyst reacts in these sites like breaking or creating chemical bonds In this work we will delve into potassium sodium niobate (KNN), including its properties and synthesis methods, as well as polyacrylonitrile (PAN) as a support material for the ceramic material, where we seek to take advantage of the piezophotocatalytic effect of both KNN and PAN. Other concepts such as piezoelectricity and photocatalysis will be described separately, leading to the piezo-photocatalytic effect, a combination of both. This work also covers the experimental methodology by which potassium sodium niobate nanoparticles will be synthesized and embedded in carbon nanofibers from polyacrylonitrile for applications in the degradation of organic dyes. Then, the state of the art of the different piezoelectricity values obtained is developed, from the first studies of its structure to the highest values reported so far for KNN.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Piezoelectricity and Ferroelectricity</titulo>
+        <texto>Within the classification of materials, specifically in ceramics, there is a category of dielectric materials; these materials have a set of specific characteristics, and based on them, phenomena such as ferroelectricity and piezoelectricity occur At the end of the 19th century, the brothers Pierre and Jacques Curie studied piezoelectric materials, where applying mechanical stress produces an electrical response, and vice versa: by inducing an electric field, there is a mechanical deformation ( ( For piezoelectricity to exist in a crystal, it must have a perovskite-type structure32-point, with the formula ABO3, where it is an oxide of a metal A and a metal B, generally with the atomic radius of A being greater than that of B. Perovskites have a non-center-symmetrical structure, such as rhombohedral, orthorhombic or tetragonal structures In piezoelectric materials, there are both natural and synthetic ones; silk, quartz and topaz are examples of natural piezoelectrics, while among the bestknown synthetic materials are PZT, barium titanate, tantalates, and lithium, potassium and sodium niobates (ATaO3 or ANbO3, where A=Li, K, Na) Speaking specifically of KNN, the orthorhombic phase has the highest piezoelectricity value, with values of 210 pC/N with cation substitutions After the description of piezoelectricity, the concept of ferroelectricity arises. Ferroelectricity, as well as piezoelectricity, requires non -centrosymmetric crystal structures; when an electric field is applied to a material, its ferroelectric domains will align with the applied field, as shown in Figure When the field is withdrawn, the polarization will start to decrease, until it reaches the coercive field (polarization equal to 0). An electric field is applied in the opposite direction, and a negative saturation polarization will also occur. Once the field is applied again in the initial direction, the cycle is repeated. Materials that have not previously been subjected to any electric field start at the origin of the graph, but never recover this initial state</texto>
+      </seccion>
+      <seccion>
+        <titulo>Polyacrylonitrile (PAN)</titulo>
+        <texto>Polyacrylonitrile (PAN) is a polymer with the repeating acrylonitrile (C 3H3N) unit (Figure</texto>
+      </seccion>
+      <seccion>
+        <titulo>Catalysis</titulo>
+        <texto>For a chemical reaction to be carried out, it requires a certain energy, generally known as activation energy, which the reactants must overcome to break their bonds and form new ones, resulting in products, which are new chemical species. Certain reactions require such a high activation energy that the products do not form; in these cases, it is necessary to add an external source that lowers the activation energy, and the reaction is carried out. These external sources are known as catalysts and can be atoms, molecules, or more complex structures, such as enzymes, or even other process variables, such as temperature</texto>
+      </seccion>
+      <seccion>
+        <titulo>Photocatalysis</titulo>
+        <texto>Within catalysis, there is a process known as photocatalysis: the incidence of electromagnetic radiation, especially in the ultraviolet-visible (UV-Vis) region, which moves electrons from the valence band to the conduction band of a material. Photocatalysis has various applications related to degradation, such as water splitting, degradation of air pollutants, and generation of biodiesel from organic waste Titanium dioxide (TiO2) is one of the most widely studied and used materials due to its abundance, compared to platinum and ruthenium. TiO2 has high stability to degradation and oxidation when in contact with sunlight, as well as being easy to synthesize by 'soft' methods, such as sol-gel. One of the disadvantages is the range in which it can absorb light, which is in the ultraviolet and blue region of the visible light spectrum, as well as rapid recombination between electron -hole pairs, which decreases its efficiency when carrying out redox reactions These disadvantages have led to the synthesis of other materials, either organic or inorganic, which have higher performance and can further expand the applications of photocatalysis, such as KNN. The photocatalytic activity of KNN has been applied mostly for dye degradation and hydrogen production. Regarding the dye degradation, Kujur et al.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Piezocatalysis</titulo>
+        <texto>Just as solar radiation is responsible for activating the catalytic function of a photocatalytic material, piezocatalysis takes advantage of the piezoelectricity of materials to carry out catalytic processes. Piezocatalysis can occur by means of two mechanisms (Figure The piezoelectric coefficient potential used to describe piezocatalysis is known as the piezopotential, i.e. the efficiency of charges to polarize in the material in the presence of mechanical stress specifically for catalytic mechanisms. According to the literature review, the mechanism that is mostly presented is the shielding effect, being a little more descriptive when talking about the piezocatalysis event In 2006, Wang and Song synthesized zinc oxide (ZnO) nanowires on an alumina substrate by placing gold droplets on the tip of the nanowires. Employing Atomic Force Microscopy (AFM), the piezopotential of these nanowires was measured, for their subsequent application as electrical nanogenerators. The synthesis of this type of material at the nanoscale makes it possible to harness the mechanical energy produced by small forces such as falling raindrops or noise This work on ZnO nanowires marks the beginning of a new application for piezoelectric materials: catalysis. In addition to zinc oxide, other ceramic materials already known for their piezoelectric coefficient have been used, such as BaTiO3, calcium titanate (CaTiO3), molybdenum selenides and sulphides (MoSe2, MoS2), and potassium sodium niobate (K1-xNaXNbO3)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Piezo-photocatalysis</titulo>
+        <texto>The piezo-photocatalysis process starts with the piezopotential in the material: the material is subjected to a mechanical deformation or stress, which promotes an electrical polarization. This polarization aligns the charges, and the electron-hole pair generation process is more effective, causing the incidence of light to activate the excitation of electrons to the conduction band. In this way, a larger number of reaction sites are available, but with much less electronic recombination due to the electrical polarization derived from piezoelectricity. In addition, the electric polarization allows a bend in the VBs and CBs, which could generate indirect bands and, thus, a greater difficulty for electronic recombination. Most of the applications in which piezo-photocatalysis has been used are for the degradation of organic dyes, such as Rhodamine B or methylene blue, and for obtaining hydrogen from the cleavage of the water molecule given its piezoelectric properties, where up to 570 pC/N response has been achieved, and optical, with a band gap that has reached up to 2.2 eV, it is a good option for piezo-photocatalytic applications.</texto>
+      </seccion>
+      <seccion>
+        <titulo>General</titulo>
+        <texto>Synthesize piezo-photocatalysts based on pure potassium sodium niobate for pollutants treatment.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Specifics</titulo>
+        <texto>Synthesize potassium sodium niobate powders, with a stoichiometric relation of 0.48 K -0.52 Na through solid-state route, optimizing the milling time. Find the optimal calcination temperature with a temperature scanning.TA (Thorn Scientific STA1500). Identify the crystallographic structure of the ceramic powders via X-Ray Diffraction (X'Pert Pro, CuK 1.541874 Å). Measure the particle size with images from Scanning Electron Microscopy (FEI Analyze the morphology via Scanning Electron Microscopy. Determine the optical band gap for KNN with Ultraviolet-Visible Spectroscopy (Perkin Elmer Lambda950 UV-vis spectrometer). Produce composite materials of KNN nanoparticles in polyacrylonitrile with the electrospinning technique. ➢ Test the piezo-, photo-and piezo-photocatalytic activity, with the individual and composite materials.</texto>
+      </seccion>
+      <seccion>
+        <titulo>X. Experimental Methodology 10.1. Potassium Sodium Niobate Synthesis</titulo>
+        <texto>The synthesis of (K0.48Na0.52)NbO3 was achieved with a solid-state reaction, using potassium carbonate (K2CO3, ACS reagent ≥99.0%, Sigma-Aldrich), sodium carbonate (Na2CO3, BioXtra ≥99.0%, Sigma-Aldrich) and niobium oxide (Nb2O5, 99.9%, trace metals basis, Sigma-Aldrich) as precursors. Before weighing the precursors, and to avoid any retained humidity due to the hygroscopic nature of the potassium and sodium carbonates, these two reagents were dried in a box furnace (Carbolite Box Furnace 1100) for 24 hours at 150 °C. The solid-state reaction was manually carried out with agate mortar, pestle, and acetone as a process control agent. After drying, a first dry mill was completed to homogenize the powder and break down agglomerates for 15 minutes. Afterward, acetone was added to the powder and milled in circular movements for 2 hours, adding more acetone when the consistency was like mud. The powder was then transferred to a 100 ml beaker and placed on top of a hot plate (Cole-Parmer StableTemp), to dry the acetone for an hour at 155 °C. The powder was calcined in an alumina crucible in the furnace at 800 °C for one hour, with a 5 °C/minute heating and cooling rate. Lastly, the powder was broken down in the mortar for 15 minutes before packing and labelling it. A ceramic pellet was made using a 10 mm die (Specac 10mm DIE) and pressed 15 seconds with one ton in a hydraulic press (Specac Manual Hydraulic Press). Next, the pellet was sintered in a furnace (Nabertherm 30-3000 °C) for 2 hours at 1100 °C. For piezoelectric measurements, the pellet was polished until a mirror-like surface was acquired using sandpaper. Lastly, for density determination, a caliper (Toolzone Vernier Calliper New GM-000899) was employed to measure both the thickness and the diameter of the pellet and weigh it to calculate the density.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Particle Size Reduction</titulo>
+        <texto>As the KNN will be used as a nanofiller in the polymeric nanofibers, they need to be reduced in size, below 100 nm hence the term "nanofiller". This is done to avoid changing the morphology of the nanofibers, to have a uniform dispersion in the electrospinning solution and also to benefit from other properties that the KNN possesses: conductivity, thermal stability and mechanical properties that can be useful for the polymeric matrix The particle size was reduced via high energy milling using the calcined ceramic powder, employing a planetary mill (Fritsch Pulverisette 5) in a Teflon vial with acetone and twenty zirconia balls with a diameter of 5 mm. The cycles were divided into millings of 15 minutes and resting time of 15 minutes, to avoid the accumulation of segregated powder, as well as the internal pressure due to the acetone, until 2 hours of total milling were completed. In total, seven full cycles were completed from 2 to 14 hours, extracting around 0.2 grams from an initial 2-gram sample after each cycle, to analyze the particle size and morphology with Scanning Electron Microscopy (FEI Inspect F) and measuring the band gap with Ultraviolet-Visible Spectroscopy (Perkin Elmer Lambda35 UV-vis spectrometer). The powder was dried on a hot plate using the same process as the solid-state reaction stated in the previous section.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Polyacrylonitrile Nanofibers Synthesis</titulo>
+        <texto>To prepare the polyacrylonitrile nanofibers, a 10 wt% solution was prepared using polyacrylonitrile (PAN, Mw 150,000 Sigma-Aldrich), dissolved in N,N-Dimethylformamide (DMF, ≥99.5% HPLC grade, Fisher Scientific). After adding the PAN to the DMF, the solution was stirred for 24 hours at room temperature. A pristine solution of only PAN was used as a control group. In order to prepare the composite materials, more batches of 10 wt% PAN solution were used, adding KNN nanoparticles in different weight percentages based on the PAN content (10, 20, 30, and 40 wt%). The ceramic powder was added to the solution before PAN, to avoid any agglomeration of the powder before the polymer was completely dissolved in DMF, stirring for 24 hours at room temperature.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Electrospinning Technique and Stabilization</titulo>
+        <texto>After the stirring was completed, the solution was transferred to a 12 ml syringe with a 3 cm blunt needle for the electrospinning process. A pump (World Precision Instruments) was used for a fixed 0.5 ml/hour flow, using a voltage between 15 and 17.5 kV with a direct current (DC) negative voltage source (SPELLMAN SL10) for the nanofibers production. These were collected on a flat metallic plate (20 x 30 cm), covered in an aluminum sheet. The current was connected to the end of the blunt needle and to the middle top of the metallic plate to avoid any short circuit. All the solutions were electrospun for 6 hours, using a total of 3 ml per solution. The nanofibers mat was cut into squares of approximately 5 x 5 cm with a scalpel and stored in petri dishes. Next, a flat alumina crucible was used to support the nanofibers mat for the stabilization process, which was performed in an oven (Thermo SCIENTIFIC HERATHERM Oven) for two hours at 250 °C. The stabilization process is done on the nanofibers to form the PAN cyclization due to its chemical structure, and to make the fibers conductive, so that they are able to perform the catalysis tests.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Nanofibers Polarization Via Corona Poling</titulo>
+        <texto>A corona discharge setup was used to pole and activate the piezoelectric activity in the ceramic nanoparticles and the polymeric nanofibers, both the control powder and pristine PAN samples, as well as the four composites. An array of six needles soldered to a stripboard was used as the corona electrode, to create a dome of ionized air that would serve as the ions for aligning the dipoles in the piezoelectric materials, leaving a 1 cm gap between the sample and the needles, with an electric field of 1.5 kV/mm. The samples were grounded to a metallic plate, and the polarization direction was normal to the surface of the sample. Dependent on the humidity and temperature in the lab, the corona setup was located inside a fume hood as a safety measure, due to the equipment requiring a high voltage with DC between 11 and 14 kV for a constant 0.03 mA current. The samples were left at room temperature for 30 minutes under the corona discharge and rested for 15 minutes with the high voltage source (GLASSMAN HIGH VOLTAGE Series FR) turned off for the ozone to flow out of the setup before manipulating the samples.10</texto>
+      </seccion>
+      <seccion>
+        <titulo>Catalysis Tests</titulo>
+        <texto>A rhodamine B (RhB) solution was prepared with a concentration of 10 ppm. To avoid any degradation due to light, the volumetric flask was covered in aluminum foil and placed in a cupboard. Three catalysis tests were done on the control groups (KNN powder and pristine PAN fibers) and the composite materials: piezocatalysis, photocatalysis and piezo-photocatalysis. 15 mg of catalyst were submerged in 10 ml of the RhB solution for 30 minutes before the test began. An aliquot of 0.5 ml was extracted from a glass vessel (Adams &amp; Chittenden Scientific Glass) every 30 minutes using a micropipette, until 3 hours of catalysis were completed. The dye was also tested by itself, to analyze its behavior and changes in the concentration that could happen due to the evaporation of water. For the piezocatalysis tests, the vessel was covered in aluminum foil and placed in an ultrasonic bath (Fisher Scientific FB15050 Ultrasonic Bath). The aluminum cover was moved aside for taking the aliquots and placed back again for the test to continue. Each aliquot was placed in a 3 ml sample vessel, left in a cardboard box to avoid degradation by light. The photocatalysis tests required a top-down light (Newport Oriel ABB Solar Simulator and Newport Thermo Oriel 69907 Power Supply) that worked as a solar simulator, with an intensity of 250 Watts. The vessel was covered with a quartz lid for the light to penetrate, which was also removed for every aliquot. To keep the process as standardized as possible, the height of the ultrasonic bath was measured, and a small platform was adjusted to this height for the piezophotocatalysis tests. The same storage system was employed. Lastly, the ultrasonic bath was placed under the central section of the lamp for the piezo-photocatalysis tests, and a 100 ml beaker was used as a barrier so the vessel would not move with the vibrations. The quartz lid was left on top of the vessel in the same fashion as the photocatalysis tests and the sample vessels for aliquots storage. After all the samples were collected, a polymethyl methacrylate (PMMA) vessel with a small slit for 1.5 ml samples were employed for measuring the concentration via UV-Vis spectroscopy (Perkin Elmer Lambda35 UV-Vis Spectrometer), from 340 to 900 nm. The samples taken from the KNN powder control group needed to be centrifuged (Eppendorf Mini Spin Plus Centrifuge) due to the particle size below 100 nm and to avoid any noise in the measurements that could come from the powder. Once all the samples were measured, the data was processed to generate the corresponding plots.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Characterizations</titulo>
+        <texto>For potassium sodium niobate powder, a crystallographic study was performed with X-Ray Diffraction (X'Pert Pro, CuK 1.541874 Å) to confirm the presence of a pure phase after the calcination and after each milling cycle, as well as after sintering a pellet for piezoelectric testing. X-ray diffraction was also used for the pristine fibers and the composite materials, to analyze the contribution of both materials to the X-Ray pattern. The range set in the Diffractometer was from 5 to 70° (2, with a 0.016 second step. To analyze the presence of the phases involved in the XRD, Rietveld refinement was done with the FullProf software The powder, the pristine fibers, and the composites were observed with Scanning Electron Microscopy (FEI Inspect F), to analyze their morphology and measure the particle and fiber sizes, as well as the semi-quantitative atomic percentage of the elements present in the samples with an Energy Dispersive X-Ray Spectroscopy detector (EDS). The fibers and composites were also analyzed the stabilization temperature with Thermogravimetric Analysis and Differential Thermal Analysis (Thorn Scientific STA1500). With the use of Ultraviolet-Visible Spectroscopy (Perkin Elmer Lambda950 UV-Vis Spectrometer), the band gap was determined for the KNN powders, measuring between 200 and 900 nm with an integrating sphere, due to the quantity of the powder available. UV-Vis was also used to measure the concentration of Rhodamine B once the dye degradation was executed for several days. Using Fourier Transform Infrared Spectroscopy (FT-IR Bruker Tensor 27 Spectrometer), the vibrational modules were measured for the powder, the pristine fibers, and the composites, in a range between 4500 and 500 cm -1 . Raman spectroscopy (RENISHAW inVia Raman Microscope) was also employed for the vibrational modules, helpful with the graphitic content in the nanofibers and the niobium-oxygen octahedras in the KNN structure. In Figure</texto>
+      </seccion>
+      <seccion>
+        <titulo>Potassium Sodium Niobate (KNN)</titulo>
+        <texto>The first approach to confirm a correct solid-state synthesis in ceramic materials is a crystallographic study, done with X-Ray Diffraction (XRD). The potassium sodium niobate (KNN) composition for this project is K0.48Na0.52NbO3, which has shown an increase in the piezoelectric coefficient due to the morphotropic phase boundary (MPB) of various crystallographic structures, as mentioned in previous chapters. The closest KNN composition reported is K0.50Na0.50NbO3 (PDF 00-061-0315), which was used with a tetragonal (P4mm) and an orthorhombic (Amm2) structures to understand which crystalline structure was present with the 48:52 KNN composition In the first synthesis attempts, a secondary phase appeared at the same time as the 50:50 KNN composition, as shown in Figure Sodium tends to evaporate with higher temperatures during th e calcination process, creating a secondary phase rich in potassium (K2Nb4O11). This phase has photocatalytic properties and is used as a catalyst, when synthesized by a sol -gel route acetone not being fully evaporated after the manual milling; 2) not enough energy administered to the milling process; 3) not enough milling time; 4) incorrect program in the furnace for the calcination process; and 5) the furnace not reaching the temperature set for the calcination; and 6) water molecules stored in the reagents, due to the hygroscopic nature of the carbonates, causing a lower weight added compared to the theoretical values. Each factor was addressed individually: 1) the powder was dried in a hot plate after the milling process, before the calcination, to avoid any humidity within the powder; 2) and 3) were discarded; 4) and 5) were monitored during the whole calcination process, confirming that the calcination temperature was actually reached and that it followed the sequence programmed in the beginning. Lastly, two new bottles of sodium and potassium niobate arrived while doing the KNN synthesis, and after using these, a pure XRD pattern of K0.48Na0.52NbO3 powder was acquired (Figure The lowest temperature at which no visible secondary phases form in the KNN and sharp peaks are present in the pattern , at least with a 48:52 composition and following a solid-state route for its synthesis, is 800 °C. Once the pure phase at a lower temperature was acquired, a pellet was pressed and sintered at 1100 °C for two hours to calculate the density of this ceramic. Using the diameter, height and weight of the pellet, the density of 48:52 KNN under the solid-state reaction conditions was 3.45 g/cm 3 . Other values reported for KNN pressed in a pellet with the same sintering conditions to be 4.28 g/cm 3 , as reported by Jenko et al. The next step was to reduce the particle size below 100 nm from an initial 287.25 ± 127.16 nm (this result is included in the section 11.1.3. SEM-EDS), for it to be used as part of the composite material in the electrospinning process. Before any milling was done, the Scherrer equation</texto>
+      </seccion>
+      <seccion>
+        <titulo>Rietveld Refinement</titulo>
+        <texto>As mentioned before, the potassium sodium niobate can present multiple crystalline structures, depending on the temperature at which the ceramic works. At room temperature, the most likely crystalline structure is orthorhombic, and the following structure is orthorhombic. To confirm the presence of one or another, or both phases, a Rietveld refinement with a Pseudo-Voigt peak shape was conducted on the XRD pattern shown in Figure 5, where the orthorhombic phase has a better fit to the XRD pattern compared to the tetragonal. After the high energy milling was completed, the samples were analyzed via Scanning Electron Microscopy with Energy Dispersive X-Ray Spectroscopy (SEM-EDS), to obtain images and atomic percentage of the elements present in the samples, to confirm that the 48:52 composition was maintained before and after the milling was done. For this analysis, the control group was the sample without any post calcination milling, as shown in the group of images in Figure In this set of SEM images, KNN powder with different stages of postcalcination milling can be seen, including in each image the particle size distribution with the minimum and maximum values. Regarding the particles shape, the majority of the powder had a rectangular or squared form, that is softened at the edges with the milling time increase. The agglomeration that was visible in Figure The distribution followed a normal behavior with 0, 2, 10, 12 and 14 hours with negative skewness in 0 and 12 hours and positive skewness in 2 and 14 hours, having a scattered trend between 4 and 6 hours of milling. In Figure shown in Table</texto>
+      </seccion>
+      <seccion>
+        <titulo>UV-Vis</titulo>
+        <texto>The nature of the project and the application for the composites require knowledge of the optical band gap of the material. For this, the powder was measured in reflectance mode in a UV-Vis spectrometer with an integrating sphere, using the Tauc method to obtain the energy value: optical band gap has been reported to be around 2.9 eV for an average grain size of 270 nm, using the solid-state reaction for its synthesis This slight change could originate from the possibility that the smaller particles were not extracted from the sample, but rather the whole range of particle size was sandwiched between two slides of microscope glass. Correlating the band gap with the average particle size for each sample, the following data are compared: for 0 hours, the average particle size is 287.</texto>
+      </seccion>
+      <seccion>
+        <titulo>. FT-IR</titulo>
+        <texto>FT-IR spectra were obtained for KNN powders before and after it was calcined. Figure This peak does not appear in Figure The peaks for 30 and 40 wt% KNN composites lose the sharpness, quite visible in the peaks between 45° and 60° (2), as well as the peak at 22° (2). This could be due to the agglomeration that was also visible with the SEM images and how the particles are covered by the PAN nanofibers. This, as previously mentioned, could be a reduction in the crystallization of the PAN due to a higher ceramic load within the fibers. In 2021, Doumeng et al. studied the effect of four different fillers in polyetheretherketone composites, a polymer used for its stiffness. One of the fillers was alumina, where it showed that by increasing the particle load into the composite from 2.5 to 5 wt%, a reduction in crystallinity from 43.1 to 33.1% was observed in the XRD patterns. They conclude that due to a higher particle load, there is less opportunity for the particles to move in the polymer and create a stress in the a) b) nucleation process, hence the reduction in the crystallinity After this change in the chemical structure, the fibers continue to lose weight until 900 °C; this temperature was chosen as the upper limit because it would not have any effect on the ceramic particles. The remaining weight was mostly the KNN added to the solution and the fibers ashes. The composite that has the least weight loss is 20 wt% with a remanent weight of 39%, whereas the 30 wt% has the highest weight loss with a remanent weight of 18%. This behavior could be due to the fibers collection site, as the mid-section of the mat after being collected in the aluminum foil has the highest concentration of fibers and particles as well. As a composite, the properties of the material will change due to adding a different compound, and in this case, the ceramic particles had a direct effect on the stabilization temperature mentioned above. In Table The difference between the stabilization temperature in pristine fibers and the 40 wt% composite is 33.56 °C, as shown in Table With a higher ceramic load, the stabilization temperature decreases, not allowing the nitrile groups cyclisation in PAN to happen consistently. The temperature registered for the 40 wt% KNN composite was 264 °C, and the temperature used for the stabilization of all the samples was 250 °C; this closeness in the temperatures could explain the loss of sharpness in the peaks in the XRD patterns from Figure</texto>
+      </seccion>
+      <seccion>
+        <titulo>SEM</titulo>
+        <texto>To confirm that the nanoparticles are indeed being distributed in the fibers after the electrospinning process, the samples were analyzed in SEM, to both observe the distribution and calculate the fibers diameter, as this parameter can be a) b) changed with the concentration of the solution, the humidity and electric field administered to the deposition. In Figure Due to the use of a flat collector for the electrospun fibers, the array of these is completely random, from the pristine fibers to those with ceramic nanoparticles. Some of the pristine fibers (Figure The agglomerations vary in size and shape in the composite samples (Figure While manipulating the KNN powder for weighing it, for example, it would disperse in the air when in contact with laboratory gloves. Furthermore, the use of the corona discharge for poling the powder would make it disperse in the air. The voltage used for the electrospinning process was between 15 and 17.5 kV, which could have concentrated the powder in the manner observed in Figures Additionally, with the growth of the agglomerations, the nanoparticles tend to fold at the edges in the way a plastic product scorches. This could indicate that, with a bigger agglomerate, the nanoparticles would look to form a micelle as a more stable structure, although this behavior was not observed in any of the samples. Another interesting conduct from the fibers is that the polymeric matrix tried to wrap the particles together (Figures Zhang et al., in 2012, created a correlation list between electrospinning conditions and its effect on the fibers diameter. To contradict what was seen in this project, they listed that with a higher voltage, the fibers get thicker, as does increasing the viscosity in the solution. This last point is what could be affecting the electrospinning of the KNN -PAN composite solution, as the voltage apparently did not behave as predicted by Zhang et al.</texto>
+      </seccion>
+      <seccion>
+        <titulo>FT-IR</titulo>
+        <texto>Five distinctive peaks can be attributed to the PAN fibers in the IR spectra • C=C-H (aromatic rings): 806 cm -1 • C-O: 1365 cm -1 • C-C: 1451 cm -1 • C=C: 1587 cm -1 • C≡N: 2243 cm -1 For the KNN contribution, the Nb-O bond is present around 615 cm -1 , which its intensity increases with a higher ceramic load. This could indicate that the particles are integrating correctly inside the fibers. The PAN peaks also decrease with a higher ceramic load, as can be seen in</texto>
+      </seccion>
+      <seccion>
+        <titulo>Raman Spectroscopy</titulo>
+        <texto>Measuring the fibers with Raman turned out quite challenging: the fibers would burn where the laser was placed, and even though the parameters of intensity and the lasers were changed, only two samples could be measured and, even after finishing, they looked melted. Two distinguishable peaks with the shape of "cat ears" are present in both spectra, corresponding to D and G (E2g2) vibrational modes are shown Figure Correlating with the results from TGA-DTA, the reduction in the stabilization temperature by the inclusion of ceramic particles in a polymeric matrix causes a shift and an increase in the graphitic vibrational modes. The peaks that appeared in the KNN powder, discussed in Figure a) b) 500 m 20 m Figures 30c and 30d correspond to the 30 wt% KNN composite and the holes have a rounder shape, but in Figure</texto>
+      </seccion>
+      <seccion>
+        <titulo>Catalysis Tests</titulo>
+        <texto>The control groups for the catalysis tests were the pristine PAN fibers, and the KNN powder, while the Rhodamine B (RhB) was tested by itself in the same manner as the rest of the samples. After the fibers were used for the first set of catalysis tests (piezocatalysis), they were dried on a hot plate to evaporate the water, and were reused for the photocatalysis and, after, the piezo-photocatalysis tests. The KNN powder could not be recovered after each test, due to the particle size and its deposition at the bottom of the vessel, so new powder from the same batch needed to be poled and used.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Piezocatalysis</titulo>
+        <texto>From the three catalytic tests, the piezocatalysis activity had the most abnormal performance in almost all the cases, and this could have been due to the c) 200 m d) 2.5 m water evaporation from the energy of the ultrasonic bath, leading to an increase in the dye concentration. In Figure If we consider the dye as a baseline, there are three candidates that perform better below the dye line (black line in the graph): pristine PAN, KNN powder and 10 wt% KNN composite. Before beginning this project, while doing a literature review, the option that the polyacrylonitrile was a piezoelectric polymer was even considered while looking for background information, but after this catalytic activity test, a review was written by Tao et al. at the end of 2023 With this latest information, the composite materials should have an enhanced piezoelectric activity, a combination from both the ceramic and the polymeric materials. Counting only with one set of results from this test, the 10 wt% KNN composite could be said to have a piezoelectric activity coming more from the PAN fibers than the KNN particles, as the quantity of KNN is based on the weight percentage of PAN in the solution rather than the solvent. The rest of the composite materials had a weak performance, mostly the 40 wt% KNN sample. In the 30 and 40 wt% cases, compared to the others, the concentration goes up in the 60-minute mark, and they tend to stay above the concentration in the 30-minute mark, with an absorbance of 21.84% for 30 wt% KNN and 36.69% for 40 wt% KNN samples. These results could correlate to the crystallization of the fibers, as was seen in Figure In the piezocatalysis case, the best performers were the control groups (pristine PAN and KNN powder), and the 10 wt% KNN composite. For the 10 wt% composite, the initial absorbance was 100%, and the absorbance after 180 of catalytic activity was 23.29%, which translates into a 76.71% removal efficiency after 3 hours. The efficiency in the control groups were 69.14% with pristine PAN fibers, and 61.40% with KNN powder. No visible color changes were observed in any of the cases, even though some of the samples should be almost as clear as water, all remained a bright pink shade, maybe due to lack in catalysis-action time.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Photocatalysis</titulo>
+        <texto>Continuing with the photocatalytic activity tests, the performance was weaker than in piezocatalysis, but the catalytic behavior seems more stable, like pristine PAN and KNN powder, which are the control groups. A visible difference between the piezo-and the photocatalysis tests is that the dye is more stable under direct light, as it evaporates less water compared to the ultrasonic bath, which indicates that the samples are degrading the dye more effectively than the heat in the system, as can be seen in Figure The 90-minute mark shows a change in the path of the composite materials, in some decreasing the absorbance drastically (10 wt% KNN) and in others increasing the absorbance (20, 30 and 40 wt% KNN). This could be due to an increase in the concentration of the dye due to the light shining above the vessel and evaporating the solvent. Nevertheless, the composites increase their dye degradation capacity, as the 20 and 30 wt% have a better performance than 10 wt%, which was the best in the piezocatalysis section. The trend for this catalysis test, and the other ones, was expected to be a linear behavior, due to the increase of the ceramic load. Regarding the control groups, the KNN powder has a better removal capacity compared to the pristine PAN. Potassium sodium niobate has been previously used as a photocatalyst for Rhodamine B degradation, a study by Kujur et al. for 10 wt% KNN composite. Compared to the piezocatalysis tests, the efficiency is almost the same, but the behavior is more stable, as mentioned before. As piezocatalysis, after the photocatalysis samples were measured, no visible change in the coloration was appreciated.</texto>
+      </seccion>
+      <seccion>
+        <titulo>XIII. Recommendations</titulo>
+        <texto>A mechanical study of the fibers can be used to elucidate if the ceramic nanoparticles have any effect on the mechanical properties, as well as contact angle measurement for these hydrophilic fibers. If a higher ceramic load is to be electrospun, reducing the PAN concentration or modifying the voltage are key for a successful fibers production , which can also be measured with rheology. Other sets of applications can be explored for these composite materials, such as the energy conversion potential and HEPA (High Efficiency Particulate Air) filters for industry wastes. To have a better view of the degradation, the piezo-and photocatalysis tests need to be repeated to have an average, as well as the rest of the composite materials that were not used in the second and third repetition. The subproducts from the Rhodamine B degradation need to be studied in case these can be further degraded or do not present any other harmful property. Another test that could be useful for these fibers is to determine how many cycles these fibers are resistant for, comparing the 20 and 40 wt% KNN samples, where the first resisted five tests and the second only resisted three tests before degrading. Finally, the reaction mechanism of the KNN + PAN composites could be studied to understand the effect that it has on Rhodamine B and, furthermore, if it could be used for other dyes.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>High -Temperature Piezoelectrics with Large Piezoelectric Coefficients</titulo>
+      <autores>
+        <autor>K Shinekumar</autor>
+        <autor>S Dutta</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Piezoelectricity; An Introduction to the Theory and Applications of Electromechanical Phenomena in Crystals</titulo>
+      <autores>
+        <autor>W Cady</autor>
+      </autores>
+      <fecha>1964</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High-Temperature Piezoelectrics with Large Piezoelectric Coefficients</titulo>
+      <autores>
+        <autor>K Shinekumar</autor>
+        <autor>S Dutta</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>History and challenges of barium titanate: Part I</titulo>
+      <autores>
+        <autor>M Vijatovic</autor>
+        <autor>J Bobic</autor>
+        <autor>B Stojanovic</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>PZT to Lead Free Piezo Ceramics: A Review</titulo>
+      <autores>
+        <autor>P Panda</autor>
+        <autor>B Sahoo</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Basic Principles, Mechanism, and Challenges of Photocatalysis. Nanocomposites for Visible Light-induced Photocatalysis</titulo>
+      <autores>
+        <autor>R Saravanan</autor>
+        <autor>F Gracia</autor>
+        <autor>A Stephen</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent advances in photocatalysis for environmental applications</titulo>
+      <autores>
+        <autor>C Byrne</autor>
+        <autor>G Subramanian</autor>
+        <autor>S Pillai</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Dielectric Properties and Phase Transitions of NaNb O 3 and (Na,K)Nb O 3</titulo>
+      <autores>
+        <autor>G Shirane</autor>
+        <autor>R Newnham</autor>
+        <autor>R Pepinsky</autor>
+      </autores>
+      <fecha>1954</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Morphotropic phase boundary and electrical properties of K1-xNaxNbO3 lead-free ceramics</titulo>
+      <autores>
+        <autor>Y Dai</autor>
+        <autor>X Zhang</autor>
+        <autor>K Chen</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Lead-free piezoceramics</titulo>
+      <autores>
+        <autor>Y Saito</autor>
+        <autor>H Takao</autor>
+        <autor>T Tani</autor>
+        <autor>T Nonoyama</autor>
+        <autor>K Takatori</autor>
+        <autor>T Homma</autor>
+        <autor>T Nagaya</autor>
+        <autor>M Nakamura</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ultrahigh Piezoelectric Properties in Textured (K,Na)NbO 3 -Based Lead-Free Ceramics</titulo>
+      <autores>
+        <autor>P Li</autor>
+        <autor>J Zhai</autor>
+        <autor>B Shen</autor>
+        <autor>S Zhang</autor>
+        <autor>X Li</autor>
+        <autor>F Zhu</autor>
+        <autor>X Zhang</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Superior Piezoelectric Properties in Potassium-Sodium Niobate Lead-Free Ceramics</titulo>
+      <autores>
+        <autor>K Xu</autor>
+        <autor>J Li</autor>
+        <autor>X Lv</autor>
+        <autor>J Zhang</autor>
+        <autor>X Xiao</autor>
+        <autor>D Zhu</autor>
+        <autor>J</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High piezoelectric sensitivity and related parameters of a novel lead-free 1-0-3 composite</titulo>
+      <autores>
+        <autor>V Topolov</autor>
+        <autor>Yu</autor>
+        <autor>A Isaeva</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Coexistence of excellent piezoelectric performance and high Curie temperature in KNN-based lead-free piezoelectric ceramics</titulo>
+      <autores>
+        <autor>C Shi</autor>
+        <autor>J Ma</autor>
+        <autor>J Wu</autor>
+        <autor>X Wang</autor>
+        <autor>F Miao</autor>
+        <autor>Y Huang</autor>
+        <autor>K Chen</autor>
+        <autor>W Wu</autor>
+        <autor>B Wu</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>New Potassium-Sodium Niobate Ceramics with a Giant d 33</titulo>
+      <autores>
+        <autor>X Wang</autor>
+        <autor>J Wu</autor>
+        <autor>D Xiao</autor>
+        <autor>X Cheng</autor>
+        <autor>T Zheng</autor>
+        <autor>X Lou</autor>
+        <autor>B Zhang</autor>
+        <autor>J Zhu</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation of new lead free (1-x)KNNS-xBKZH piezo-ceramics with R-O-T phase boundary</titulo>
+      <autores>
+        <autor>F Li</autor>
+        <autor>Z Tan</autor>
+        <autor>J Xing</autor>
+        <autor>L Jiang</autor>
+        <autor>B Wu</autor>
+        <autor>J Wu</autor>
+        <autor>D Xiao</autor>
+        <autor>J Zhu</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of three step sintering on piezoelectric properties of KNN-based lead free ceramics</titulo>
+      <autores>
+        <autor>Y Zhang</autor>
+        <autor>J Zhai</autor>
+        <autor>S Xue</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Coexistence of excellent piezoelectric performance and thermal stability in KNN-based leadfree piezoelectric ceramics</titulo>
+      <autores>
+        <autor>W Yang</autor>
+        <autor>P Li</autor>
+        <autor>S Wu</autor>
+        <autor>F Li</autor>
+        <autor>B Shen</autor>
+        <autor>J Zhai</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Verfahren zur Herstellung von Polymerisationsprodukten</titulo>
+      <autores>
+        <autor>H Fikentscher</autor>
+        <autor>C Heuck</autor>
+      </autores>
+      <fecha>1938</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon nanotubes grown on electrospun polyacrylonitrilecarbon nanofibers via chemical vapor deposition</titulo>
+      <autores>
+        <autor>H Bode</autor>
+        <autor>L Zhao</autor>
+        <autor>Y Li</autor>
+        <autor>Y Zhao</autor>
+        <autor>Y Feng</autor>
+        <autor>W Feng</autor>
+        <autor>X Yuan</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Development and Commercialization of Vapor Grown Carbon Nanofibers: A Review</titulo>
+      <autores>
+        <autor>A Nadarajah</autor>
+        <autor>J Lawrence</autor>
+        <autor>T Hughes</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review of the fabrication and properties of vapor-grown carbon nanofiber/polymer composites</titulo>
+      <autores>
+        <autor>G Tibbetts</autor>
+        <autor>M Lake</autor>
+        <autor>K Strong</autor>
+        <autor>B Rice</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Polyacrylonitrile-based nanofibers -A state-of-the-art review</titulo>
+      <autores>
+        <autor>S Nataraj</autor>
+        <autor>K Yang</autor>
+        <autor>T Aminabhavi</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Clay/Carbon Nanocomposites as Precursors of Electrode Materials for Lithium-Ion Batteries and Supercapacitors</titulo>
+      <autores>
+        <autor>L Duclaux</autor>
+        <autor>E Frackowiak</autor>
+        <autor>T Gibinski</autor>
+        <autor>R Benoit</autor>
+        <autor>F Beguin</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of LiCl on electrospinning of PAN polymer solution: theoretical analysis and experimental verification</titulo>
+      <autores>
+        <autor>X Qin</autor>
+        <autor>Y Wan</autor>
+        <autor>J He</autor>
+        <autor>H Zhang</autor>
+        <autor>J Yu</autor>
+        <autor>J Wang</autor>
+        <autor>S</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>S Park</autor>
+        <autor>S Jo</autor>
+        <autor>D Kim</autor>
+        <autor>W Lee</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Effects of iron catalyst on the formation of crystalline domain during carbonization of electrospun acrylic nanofiber</titulo>
+      <autores>
+        <autor>S Kim</autor>
+        <autor>B</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A Self-Supporting Electrode for Supercapacitors Prepared by One-Step Pyrolysis of Carbon Nanotube/Polyacrylonitrile Blends</titulo>
+      <autores>
+        <autor>F Béguin</autor>
+        <autor>K Szostak</autor>
+        <autor>G Lota</autor>
+        <autor>E Frackowiak</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of silver nanoparticles dispersed in polyacrylonitrile nanofiber film spun by electrospinning</titulo>
+      <autores>
+        <autor>Y Wang</autor>
+        <autor>Q Yang</autor>
+        <autor>G Shan</autor>
+        <autor>C Wang</autor>
+        <autor>J Du</autor>
+        <autor>S Wang</autor>
+        <autor>Y Li</autor>
+        <autor>X Chen</autor>
+        <autor>X Jing</autor>
+        <autor>Y Wei</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermoelectric oxide NaCo2O4 nanofibers fabricated by electrospinning</titulo>
+      <autores>
+        <autor>S Maensiri</autor>
+        <autor>W Nuansing</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrospinning of carbon/CdS coaxial nanofibers with photoluminescence and conductive properties</titulo>
+      <autores>
+        <autor>Y Yang</autor>
+        <autor>H Wang</autor>
+        <autor>X Lu</autor>
+        <autor>Y Zhao</autor>
+        <autor>X Li</autor>
+        <autor>C Wang</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Self-Sustained Thin Webs Consisting of Porous Carbon Nanofibers for Supercapacitors via the Electrospinning of Polyacrylonitrile Solutions Containing Zinc Chloride</titulo>
+      <autores>
+        <autor>C Kim</autor>
+        <autor>B Ngoc</autor>
+        <autor>K Yang</autor>
+        <autor>M Kojima</autor>
+        <autor>Y Kim</autor>
+        <autor>Y Kim</autor>
+        <autor>M Endo</autor>
+        <autor>S Yang</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The study of controlling pore size on electrospun carbon nanofibers for hydrogen adsorption</titulo>
+      <autores>
+        <autor>J Im</autor>
+        <autor>S Park</autor>
+        <autor>T Kim</autor>
+        <autor>Y Kim</autor>
+        <autor>Y Lee</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enhanced photocatalytic degradation of organic dyes by ultrasonic-assisted electrospray TiO2/graphene oxide on polyacrylonitrile/β-cyclodextrin nanofibrous membranes</titulo>
+      <autores>
+        <autor>R Zhang</autor>
+        <autor>Y Ma</autor>
+        <autor>W Lan</autor>
+        <autor>D Sameen</autor>
+        <autor>S Ahmed</autor>
+        <autor>J Dai</autor>
+        <autor>W Qin</autor>
+        <autor>S Li</autor>
+        <autor>Y Liu</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>VESTA 3 for three-dimensional visualization of crystal, volumetric and morphology data</titulo>
+      <autores>
+        <autor>D Baker</autor>
+        <autor>P Thomas</autor>
+        <autor>N Zhang</autor>
+        <autor>A Glazer</autor>
+        <autor>K Momma</autor>
+        <autor>F Izumi</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Piezoelectric Ceramics</titulo>
+      <autores>
+        <autor>H Jaffe</autor>
+      </autores>
+      <fecha>1958</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Lattice parameters and tilted octahedra in sodium-potassium niobate solid solutions</titulo>
+      <autores>
+        <autor>M Ahtee</autor>
+        <autor>A Glazer</autor>
+      </autores>
+      <fecha>1976</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Potassium-Sodium Niobate Lead-Free Piezoelectric Materials: Past, Present, and Future of Phase Boundaries</titulo>
+      <autores>
+        <autor>J Wu</autor>
+        <autor>D Xiao</autor>
+        <autor>J Zhu</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Progress in high-strain perovskite piezoelectric ceramics</titulo>
+      <autores>
+        <autor>J Hao</autor>
+        <autor>W Li</autor>
+        <autor>J Zhai</autor>
+        <autor>H Chen</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Piezoelectric Composites for Transducer Applications</titulo>
+      <autores>
+        <autor>A Safari</autor>
+        <autor>B Jadidian</autor>
+        <autor>E Akdogan</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Lead-free piezoelectric ceramics vs</titulo>
+      <autores>
+        <autor>S Zhang</autor>
+        <autor>R Xia</autor>
+        <autor>T Shrout</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Progress in engineering high strain leadfree piezoelectric ceramics</titulo>
+      <autores>
+        <autor>S Leontsev</autor>
+        <autor>R Eitel</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The morphotropic phase boundary in PZT solid solutions</titulo>
+      <autores>
+        <autor>S Mabud</autor>
+      </autores>
+      <fecha>1980</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Significantly enhanced UVlight-driven photocatalytic performance of ferroelectric (K0.5Na0.5)NbO3: Effect of corona-poling and particle size</titulo>
+      <autores>
+        <autor>V Kujur</autor>
+        <autor>R Gaur</autor>
+        <autor>V Gupta</autor>
+        <autor>S Singh</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photocatalytic H2 evolution properties of K0.5Na0.5NbO3 (KNN) with halloysite nanotubes</titulo>
+      <autores>
+        <autor>J Lu</autor>
+        <autor>H Lin</autor>
+        <autor>R Hong</autor>
+        <autor>D Zhang</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Developing «smart windows» for optical storage and temperature sensing based on KNN transparent ceramics</titulo>
+      <autores>
+        <autor>F Yu</autor>
+        <autor>B Ma</autor>
+        <autor>Z Xie</autor>
+        <autor>P Wang</autor>
+        <autor>X Wu</autor>
+        <autor>C Zhao</autor>
+        <autor>C Gao</autor>
+        <autor>M Luo</autor>
+        <autor>L Zhang</autor>
+        <autor>Q</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis and characterizations of KNN ferroelectric ceramics near 50/50 MPB</titulo>
+      <autores>
+        <autor>P Kumar</autor>
+        <autor>M Pattanaik</autor>
+        <autor>Sonia</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation and piezoelectric properties of (K0.5Na0.5)NbO3 lead-free piezoelectric ceramics with pressure-less sintering</titulo>
+      <autores>
+        <autor>H Du</autor>
+        <autor>Z Li</autor>
+        <autor>F Tang</autor>
+        <autor>S Qu</autor>
+        <autor>Z Pei</autor>
+        <autor>W Zhou</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Alkaline-earth doping in (K,Na)NbO3 based piezoceramics</titulo>
+      <autores>
+        <autor>B Malic</autor>
+        <autor>J Bernard</autor>
+        <autor>J Holc</autor>
+        <autor>D Jenko</autor>
+        <autor>M Kosec</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Aerosol-deposited KNN-LSO lead-free piezoelectric thick film for high frequency transducer applications</titulo>
+      <autores>
+        <autor>S Lau</autor>
+        <autor>X Li</autor>
+        <autor>Q Zhou</autor>
+        <autor>K Shung</autor>
+        <autor>J Ryu</autor>
+        <autor>D Park</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Piezoelectric nanogeneratorsa review of nanostructured piezoelectric energy harvesters</titulo>
+      <autores>
+        <autor>J Briscoe</autor>
+        <autor>S Dunn</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Flexible lead-free PVDF/SM-KNN electrospun nanocomposite based piezoelectric materials: Significant enhancement of energy harvesting efficiency of the nanogenerator</titulo>
+      <autores>
+        <autor>S Bairagi</autor>
+        <autor>S Ali</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electro-mechanical and Polarization-Induced Antibacterial Response of 45S5 Bioglass-Sodium Potassium Niobate Piezoelectric Ceramic Composites</titulo>
+      <autores>
+        <autor>A Verma</autor>
+        <autor>A Singh</autor>
+        <autor>D Kumar</autor>
+        <autor>A Dubey</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effective promoting piezocatalytic property of zinc oxide for degradation of organic pollutants and insight into piezocatalytic mechanism</titulo>
+      <autores>
+        <autor>X Ning</autor>
+        <autor>A Hao</autor>
+        <autor>Y Cao</autor>
+        <autor>J Hu</autor>
+        <autor>J Xie</autor>
+        <autor>D Jia</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis and piezoelectric properties of KxNa1-xNbO3 ceramic by molten salt method</titulo>
+      <autores>
+        <autor>Y Li</autor>
+        <autor>J Wang</autor>
+        <autor>R Liao</autor>
+        <autor>D Huang</autor>
+        <autor>X Jiang</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structural and dielectric properties of pure potassium sodium niobate (KNN) lead free ceramics</titulo>
+      <autores>
+        <autor>J Sharma</autor>
+        <autor>D Kumar</autor>
+        <autor>A Sharma</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Self-recoverable photochromism of tape-casting-derived Er-doped potassium sodium niobate thick films via sol-gel route</titulo>
+      <autores>
+        <autor>Y Lu</autor>
+        <autor>J Lin</autor>
+        <autor>P Wang</autor>
+        <autor>F Yu</autor>
+        <autor>X Wu</autor>
+        <autor>C Lin</autor>
+        <autor>C Zhao</autor>
+        <autor>M Gao</autor>
+        <autor>T Lin</autor>
+        <autor>Q Zhang</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>New insights into the properties of KxNa(1-x)NbO3 ceramics obtained by hydrothermal synthesis</titulo>
+      <autores>
+        <autor>L Ramajo</autor>
+        <autor>F Rubio-Marcos</autor>
+        <autor>A Campo</autor>
+        <autor>J Fernández</autor>
+        <autor>M Castro</autor>
+        <autor>R Parra</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>CLASSIFICATION OF MATERIALS</titulo>
+      <autores>
+        <autor>A Balsubramanian</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review of the processing, composition, and temperature-dependent mechanical and thermal properties of dielectric technical ceramics</titulo>
+      <autores>
+        <autor>D De Faoite</autor>
+        <autor>D Browne</autor>
+        <autor>F Chang-Díaz</autor>
+        <autor>K Stanton</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Dielectric and piezoelectric properties of the KNN ceramic compound doped with Li, La and Ta</titulo>
+      <autores>
+        <autor>J Fuentes</autor>
+        <autor>J Portelles</autor>
+        <autor>M Durruthy-Rodríguez</autor>
+        <autor>H H'mok</autor>
+        <autor>O Raymond</autor>
+        <autor>J Heiras</autor>
+        <autor>M Cruz</autor>
+        <autor>J Siqueiros</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Sur l'électricité polaire dans les cristaux hémièdres à faces inclinées</titulo>
+      <autores>
+        <autor>J Curie</autor>
+        <autor>P Curie</autor>
+      </autores>
+      <fecha>1880</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Piezoelectric Ceramics</titulo>
+      <autores>
+        <autor>H Thomann</autor>
+      </autores>
+      <fecha>1990</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Piezoelectric Materials: Dynamic Fracture of Piezoelectric Materials</titulo>
+      <autores>
+        <autor>P Dineva</autor>
+        <autor>D Gross</autor>
+        <autor>R Müller</autor>
+        <autor>T Rangelov</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The Development of Piezoelectric Materials and the New Perspective</titulo>
+      <autores>
+        <autor>K Uchino</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A brief review on perovskite multiferroics</titulo>
+      <autores>
+        <autor>H Yang</autor>
+        <autor>X</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Perspective on the Development of Lead-free Piezoceramics</titulo>
+      <autores>
+        <autor>J Rödel</autor>
+        <autor>W Jo</autor>
+        <autor>K Seifert</autor>
+        <autor>E Anton</autor>
+        <autor>T Granzow</autor>
+        <autor>D Damjanovic</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Transferring lead-free piezoelectric ceramics into application</titulo>
+      <autores>
+        <autor>J Rödel</autor>
+        <autor>K Webber</autor>
+        <autor>R Dittmer</autor>
+        <autor>W Jo</autor>
+        <autor>M Kimura</autor>
+        <autor>D Damjanovic</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Improved ferroelectric, piezoelectric, and dielectric properties in pure KNN translucent ceramics by optimizing the normal sintering method</titulo>
+      <autores>
+        <autor>A Rahman</autor>
+        <autor>M Jiang</autor>
+        <autor>G Rao</autor>
+        <autor>S Lee</autor>
+        <autor>M Kim</autor>
+        <autor>M Habib</autor>
+        <autor>J Rahman</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Impact of ferroelectricity</titulo>
+      <autores>
+        <autor>S Troiler-Mckinstry</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>What is a ferroelectric-a materials designer perspective</titulo>
+      <autores>
+        <autor>N Setter</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent Progress in Two-Dimensional Ferroelectric Materials</titulo>
+      <autores>
+        <autor>Z Guan</autor>
+        <autor>H Hu</autor>
+        <autor>X Shen</autor>
+        <autor>P Xiang</autor>
+        <autor>N Zhong</autor>
+        <autor>J Chu</autor>
+        <autor>C Duan</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanocarbons--recent research in Japan</titulo>
+      <autores>
+        <autor>M Inagaki</autor>
+        <autor>K Kaneko</autor>
+        <autor>T Nishizawa</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrospinning of polyacrylonitrile nanofibers</titulo>
+      <autores>
+        <autor>T Wang</autor>
+        <autor>S Kumar</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent Progress in Electrospun Polyacrylonitrile Nanofiber-Based Wound Dressing</titulo>
+      <autores>
+        <autor>C Huang</autor>
+        <autor>X Xu</autor>
+        <autor>J Fu</autor>
+        <autor>D Yu</autor>
+        <autor>Y Liu</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ullmann's Encyclopedia of Industrial Chemistry</titulo>
+      <autores>
+        <autor>J Brazdil</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study on the Changes of Structures and Properties of PAN Fibers during the Cyclic Reaction in Supercritical Carbon Dioxide</titulo>
+      <autores>
+        <autor>M Qiao</autor>
+        <autor>H Kong</autor>
+        <autor>X Ding</autor>
+        <autor>Z Hu</autor>
+        <autor>L Zhang</autor>
+        <autor>Y Cao</autor>
+        <autor>M Yu</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>HRTEM microstructures of PAN precursor fibers</titulo>
+      <autores>
+        <autor>Y Bai</autor>
+        <autor>C Wang</autor>
+        <autor>N Lun</autor>
+        <autor>Y Wang</autor>
+        <autor>M Yu</autor>
+        <autor>B Zhu</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent progress on conventional and non-conventional electrospinning processes</titulo>
+      <autores>
+        <autor>W Khan</autor>
+        <autor>R Asmatulu</autor>
+        <autor>M Ceylan</autor>
+        <autor>A Jabbarnia</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrically driven jets</titulo>
+      <autores>
+        <autor>G Taylor</autor>
+      </autores>
+      <fecha>1969</fecha>
+    </referencia>
+    <referencia>
+      <fecha>1515</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrospinning as a route to advanced carbon fiber materials for selected low-temperature electrochemical devices: A review</titulo>
+      <autores>
+        <autor>Y Wen</autor>
+        <autor>M Kok</autor>
+        <autor>J Tafoya</autor>
+        <autor>A Sobrido</autor>
+        <autor>E Bell</autor>
+        <autor>J Gostick</autor>
+        <autor>S Herou</autor>
+        <autor>P Schlee</autor>
+        <autor>M Titirici</autor>
+        <autor>D Brett</autor>
+        <autor>P Shearing</autor>
+        <autor>R Jervis</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrospinning process and applications of electrospun fibers</titulo>
+      <autores>
+        <autor>J Doshi</autor>
+        <autor>D Reneker</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The electrospinning process, conditions, and control. Electrospinning for Tissue Regeneration</titulo>
+      <autores>
+        <autor>B Robb</autor>
+        <autor>B Lennox</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Literature review on electrospinning process (a fascinating fiber fabrication technique)</titulo>
+      <autores>
+        <autor>B Bera</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Concepts of modern catalysis and kinetics</titulo>
+      <autores>
+        <autor>I Chorkendorff</autor>
+        <autor>J Niemantsverdriet</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Catalysis from A to Z: a concise encyclopedia</titulo>
+      <autores>
+        <autor>B Cornils</autor>
+        <autor>W Herrmann</autor>
+        <autor>J Xu</autor>
+        <autor>H Zanthoff</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>F Zhang</autor>
+        <autor>X Wang</autor>
+        <autor>H Liu</autor>
+        <autor>C Liu</autor>
+        <autor>Y Wan</autor>
+        <autor>Y Long</autor>
+        <autor>Z Cai</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>An overview of photocatalytic degradation: Photocatalysts, mechanisms, and development of photocatalytic membrane</titulo>
+      <autores>
+        <autor>W Koe</autor>
+        <autor>J Lee</autor>
+        <autor>W Chong</autor>
+        <autor>Y Pang</autor>
+        <autor>L Sim</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hydrogen from photo-catalytic water splitting process: A review</titulo>
+      <autores>
+        <autor>H Ahmad</autor>
+        <autor>S Kamarudin</autor>
+        <autor>L Minggu</autor>
+        <autor>M Kassim</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent advancements in semiconductor materials for photoelectrochemical water splitting for hydrogen production using visible light</titulo>
+      <autores>
+        <autor>S Saraswat</autor>
+        <autor>D Rodene</autor>
+        <autor>R Gupta</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>TiO2 as a Photocatalyst for Water Splitting-An Experimental and Theoretical Review</titulo>
+      <autores>
+        <autor>H Eidsvåg</autor>
+        <autor>S Bentouba</autor>
+        <autor>P Vajeeston</autor>
+        <autor>S Yohi</autor>
+        <autor>D Velauthapillai</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inorganic Materials as Catalysts for Photochemical Splitting of Water</titulo>
+      <autores>
+        <autor>F Osterloh</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ferroelectric K0. 5Na0. 5NbO3 catalysts for dye wastewater degradation</titulo>
+      <autores>
+        <autor>M Lun</autor>
+        <autor>X Zhou</autor>
+        <autor>S Hu</autor>
+        <autor>Y Hong</autor>
+        <autor>B Wang</autor>
+        <autor>A Yao</autor>
+        <autor>W Li</autor>
+        <autor>B Chu</autor>
+        <autor>Q He</autor>
+        <autor>J Cheng</autor>
+        <autor>Y Wang</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanostructured KxNa1-xNbO3 hollow spheres as potential materials for the photocatalytic treatment of polluted water</titulo>
+      <autores>
+        <autor>F Praxedes</autor>
+        <autor>M Nobre</autor>
+        <autor>P Poon</autor>
+        <autor>J Matos</autor>
+        <autor>S Lanfredi</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The Mechanism of Piezocatalysis: Energy Band Theory or Screening Charge Effect?</titulo>
+      <autores>
+        <autor>K Wang</autor>
+        <autor>C Han</autor>
+        <autor>J Li</autor>
+        <autor>J Qiu</autor>
+        <autor>J Sunarso</autor>
+        <autor>S Liu</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Piezocatalysis and Piezo-Photocatalysis: Catalysts Classification and Modification Strategy, Reaction Mechanism, and Practical Application</titulo>
+      <autores>
+        <autor>S Tu</autor>
+        <autor>Y Guo</autor>
+        <autor>Y Zhang</autor>
+        <autor>C Hu</autor>
+        <autor>T Zhang</autor>
+        <autor>T Ma</autor>
+        <autor>H Huang</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Polymeric nanocomposite via electrospinning: Assessment of morphology, physical properties and applications</titulo>
+      <autores>
+        <autor>A Kausar</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent Developments of the Program FULLPROF</titulo>
+      <autores>
+        <autor>J Rodríguez-Carvajal</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Modecrystallography of the crystal structures and the low-and hightemperature phase transitions in Na0.5K0.5NbO3</titulo>
+      <autores>
+        <autor>B Orayech</autor>
+        <autor>A Faik</autor>
+        <autor>G López</autor>
+        <autor>O Fabelo</autor>
+        <autor>J Igartua</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microstructure and low-temperature relaxor behavior of dense K2Nb4O11 ceramics derived from sol-gel route</titulo>
+      <autores>
+        <autor>L Zhang</autor>
+        <autor>Y Hou</autor>
+        <autor>M Zheng</autor>
+        <autor>M Zhu</autor>
+        <autor>H Yan</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of alkaline and niobium excess on sintering and microstructure of sodium-potassium niobate</titulo>
+      <autores>
+        <autor>J Acker</autor>
+        <autor>H Kungl</autor>
+        <autor>M Hoffmann</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Electron Microscopy Studies of Potassium Sodium Niobate Ceramics</titulo>
+      <autores>
+        <autor>D Jenko</autor>
+        <autor>A Bencan</autor>
+        <autor>B Malic</autor>
+        <autor>J Holc</autor>
+        <autor>M Kosec</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Ph: "Bestimmung der Größe und der inneren Struktur von Kolloideteilchen mittels Röntgenstrahlen</titulo>
+      <autores>
+        <autor>P Scherrer</autor>
+      </autores>
+      <fecha>1918</fecha>
+    </referencia>
+    <referencia>
+      <titulo>R factors in Rietveld analysis: How good is good enough? Powder Diffraction</titulo>
+      <autores>
+        <autor>B Toby</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>NIH Image to ImageJ: 25 years of image analysis</titulo>
+      <autores>
+        <autor>C Schneider</autor>
+        <autor>W Rasband</autor>
+        <autor>K Eliceiri</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>How To Correctly Determine the Band Gap Energy of Modified Semiconductor Photocatalysts Based on UV-Vis Spectra</titulo>
+      <autores>
+        <autor>P Makuła</autor>
+        <autor>M Pacia</autor>
+        <autor>W Macyk</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Laboratory infrared reflection spectrum of carbon dioxide clathrate hydrates for astrophysical remote sensing applications</titulo>
+      <autores>
+        <autor>A Oancea</autor>
+        <autor>O Grasset</autor>
+        <autor>E Le Menn</autor>
+        <autor>O Bollengier</autor>
+        <autor>L Bezacier</autor>
+        <autor>S Le Mouélic</autor>
+        <autor>G Tobie</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Utilization of Sn/Nb2O5 composite for the removal of methylene blue</titulo>
+      <autores>
+        <autor>F Cantão</autor>
+        <autor>W Melo</autor>
+        <autor>L Oliveira</autor>
+        <autor>A Passos</autor>
+        <autor>A Silva</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Polarized Raman, infrared and dielectric spectra of lead-free K0.5Na0.5NbO3 piezoelectric system: insights from ab-initio theoretical and experimental studies</titulo>
+      <autores>
+        <autor>M Saha</autor>
+        <autor>M Niranjan</autor>
+        <autor>S Asthana</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Raman Scattering Study of Piezoelectric (Na0.5K0.5)NbO3-LiNbO3 Ceramics</titulo>
+      <autores>
+        <autor>K Kakimoto</autor>
+        <autor>K Akao</autor>
+        <autor>Y Guo</autor>
+        <autor>H Ohsato</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structure, dielectric, and piezoelectric properties of K 0.5 Na 0.5 NbO 3-based lead-free ceramics</titulo>
+      <autores>
+        <autor>S Dwivedi</autor>
+        <autor>T Pareek</autor>
+        <autor>S Kumar</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fityk: a general-purpose peak fitting program</titulo>
+      <autores>
+        <autor>M Wojdyr</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structure of thermally stabilized PAN fibers</titulo>
+      <autores>
+        <autor>R Mathur</autor>
+        <autor>O Bahl</autor>
+        <autor>J Mittal</autor>
+        <autor>K Nagpal</autor>
+      </autores>
+      <fecha>1991</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structural Evolution of Polyacrylonitrile Fibers in Stabilization and Carbonization</titulo>
+      <autores>
+        <autor>S Lee</autor>
+        <autor>J Kim</autor>
+        <autor>B Ku</autor>
+        <autor>J Kim</autor>
+        <autor>H Joh</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of size, concentration, and nature of fillers on crystallinity, thermal, and mechanical properties of polyetheretherketone composites</titulo>
+      <autores>
+        <autor>M Doumeng</autor>
+        <autor>F Berthet</autor>
+        <autor>K Delbé</autor>
+        <autor>O Marsan</autor>
+        <autor>J Denape</autor>
+        <autor>F Chabert</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>New aspects in the oxidative stabilization of PAN-based carbon fibers</titulo>
+      <autores>
+        <autor>A Gupta</autor>
+        <autor>I Harrison</autor>
+      </autores>
+      <fecha>1996</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Improving preferred orientation and mechanical properties of PAN-based carbon fibers by pretreating precursor fibers in nitrogen</titulo>
+      <autores>
+        <autor>X Qin</autor>
+        <autor>Y Lu</autor>
+        <autor>H Xiao</autor>
+        <autor>D Pan</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structural Transformation of Polyacrylonitrile (PAN) Fibers during Rapid Thermal Pretreatment in Nitrogen Atmosphere</titulo>
+      <autores>
+        <autor>W Dang</autor>
+        <autor>J Liu</autor>
+        <autor>X Wang</autor>
+        <autor>K Yan</autor>
+        <autor>A Zhang</autor>
+        <autor>J Yang</autor>
+        <autor>L Chen</autor>
+        <autor>J Liang</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Zein-Based Ultrathin Fibers Containing Ceramic Nanofillers Obtained by Electrospinning. I. Morphology and Thermal Properties</titulo>
+      <autores>
+        <autor>S Torres-Giner</autor>
+        <autor>J Lagaron</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermochemical stabilization and analysis of continuously electrospun nanofibers</titulo>
+      <autores>
+        <autor>K Molnár</autor>
+        <autor>B Szolnoki</autor>
+        <autor>A Toldy</autor>
+        <autor>L Vas</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Rational design of electrospun nanofiber-typed electrocatalysts for water splitting: A review</titulo>
+      <autores>
+        <autor>Z Zhang</autor>
+        <autor>X Wu</autor>
+        <autor>Z Kou</autor>
+        <autor>N Song</autor>
+        <autor>G Nie</autor>
+        <autor>C Wang</autor>
+        <autor>F Verpoort</autor>
+        <autor>S Um</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photocatalytic activity of polyacrylonitrile under simulated solar illumination</titulo>
+      <autores>
+        <autor>L Sang</autor>
+        <autor>W Yang</autor>
+        <autor>S Gao</autor>
+        <autor>S Li</autor>
+        <autor>J Ku Shang</autor>
+        <autor>Q Li</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review: Polyacrylonitrile as high-performance piezoelectric materials</titulo>
+      <autores>
+        <autor>J Tao</autor>
+        <autor>Y Wang</autor>
+        <autor>X Zheng</autor>
+        <autor>C Zhao</autor>
+        <autor>X Jin</autor>
+        <autor>W Wang</autor>
+        <autor>T Lin</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>TiO2-assisted photodegradation of dyes: A study of two competitive primary processes in the degradation of RB in an aqueous TiO2 colloidal solution</titulo>
+      <autores>
+        <autor>P Qu</autor>
+        <autor>J Zhao</autor>
+        <autor>T Shen</autor>
+        <autor>H Hidaka</autor>
+      </autores>
+      <fecha>1997</fecha>
+    </referencia>
+  </referencias>
+</tesis>

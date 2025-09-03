@@ -1,0 +1,1637 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo>CENTRO DE INVESTIGACIÓN EN MATERIALES AVANZADOS DEPARTAMENTO DE ESTUDIOS DE POSGRADO Estudio sobre el Efecto Físico y Químico del Óxido de Grafeno como Reforzante en Matrices Híbridas Orgánico -Inorgánico y su Desempeño Mecánico TESIS QUE PARA OBTENER EL GRADO DE DOCTOR EN CIENCIA DE MATERIALES Presenta</titulo>
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>M En</autor>
+      <autor>C Esther</autor>
+      <autor>Alejandra Huitrón Segovia</autor>
+      <autor>David Torres</autor>
+      <autor>Dra Alejandra</autor>
+      <autor>García García</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>Resumen</titulo>
+        <texto>Los materiales híbridos orgánico-inorgánicos (O-I) son materiales que combinan dos o más fases con al menos un componente en la escala de longitud nanométrica. El desarrollo de estos materiales avanzados multifuncionales tiene un gran impacto en futuras aplicaciones en campos como la mecánica, aeronáutica y recubrimientos. Sin embargo, estos materiales son rígidos y quebradizos debido al entrecruzamiento de las estructuras, lo que lleva a una pobre resistencia a la iniciación y crecimiento de grietas, lo que ha ido limitando sus aplicaciones en algunas otras áreas, como materiales estructurales y aplicaciones de alta carga, siendo necesario el uso de agentes de reforzamiento, como el oxidó de grafeno (GO). El objetivo del presente trabajo fue obtener matrices híbridas reforzadas mecánicamente con GO, así como estudiar mediante nanoindentación los efectos de su incorporación en el desempeño mecánico de las matrices híbridas. Óxido de grafeno con relación atómica C/O de 2.1, con tamaño lateral promedio de 4.5 μm y entre 1 y 5 capas, fue obtenido mediante una modificación al método de Hummers, para posteriormente realizar una evaluación estructural y mecánica mediante nanoindentación suspendida. Con lo cual se optimizó el reforzamiento de matrices híbridas explorando diferentes concentraciones del material reforzante. Finalmente, se implementó un análisis por mapeo superficial de las propiedades mecánicas de los materiales híbridos, mediante interpolación lineal, adicionalmente a las mediciones por nanoindentación. Los principales resultados logrados fueron la obtención de óxido de grafeno con un tamaño lateral, número de capas, grado de oxidación y sobre todo, un alto contenido del grupo epoxi, adecuados para una buena interacción y acoplamiento entre los componentes de la matriz híbrida y presentar un desempeño mecánico homogéneo. Asimismo, se realizaron con éxito ensayos de nanoindentaciones suspendidas para caracterizar las propiedades mecánicas de las hojuelas de GO utilizadas en el presente trabajo, considerando la geometría del indentador o características de la hojuela de GO y el fenómeno de aplanamiento de las arrugas. Donde para el caso de nanoindentación por AFM cantiléver, la hojuela de GO presentó un módulo elástico de aproximadamente Es = 240 GPa (E 2D = 211 Nm -1 ) y un pre-esfuerzo de aproximadamente σ = 1.82 GPa (σ 2D = 1.6 Nm -1 ). Mientras tanto, para la nanoindentación de Berkovich, la hojuela de GO presentó un módulo elástico de aproximadamente Es = 370 GPa (E 2D = 325.6 Nm -1 ) y un preesfuerzo de aproximadamente σ = 949 MPa (σ 2D = 0.835 Nm -1 ). Finalmente, fue evidenciado que las variaciones de las propiedades mecánicas de los materiales híbridos fueron menores al tener incorporado el material reforzante, es decir GO, lo que debe permitir resistir mayor deformación previamente a su fractura. Sin embargo, el material Mh+0.15 % w GO mostró una mejor heterogeneidad en sus propiedades mecánicas con zonas de menor tamaño, disminuyendo el indeseado comportamiento de distribución ondulante de las variaciones de las propiedades mecánicas, obteniéndose así, una optimización de dicho reforzamiento.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Abstract</titulo>
+        <texto>Hybrid organic-inorganic (O-I) materials are materials that combine two or more phases with at least one component on the nanometer length scale. The development of these advanced multifunctional materials has a great impact on future applications in fields such as mechanics, aeronautics, and coatings. However, these materials are rigid and brittle due to the cross-linking of structures, leading to poor resistance to crack initiation and growth, which has been limiting their applications in some other areas, such as structural materials and high-pressure applications. charge, making it necessary to use reinforcing agents, such as graphene oxide (GO). The objective of the present work was to obtain hybrid matrices mechanically reinforced with GO, as well as to study by nanoindentation the effects of its incorporation on the mechanical performance of the hybrid matrices. Graphene oxide with a C/O atomic ratio of 2.1, with an average lateral size of 4.5 μm and between 1 and 5 layers, was obtained through a modification to the Hummers method to perform a structural and mechanical evaluation using suspended nanoindentation subsequently. The reinforcement of hybrid matrices was optimized by exploring different concentrations of the reinforcing material. Finally, a surface mapping analysis of the mechanical properties of the hybrid materials was implemented through linear interpolation in addition to the nanoindentation measurements. The main results achieved were obtaining graphene oxide with a lateral size, number of layers, degree of oxidation, and above all, a high epoxy group content, suitable for good interaction and coupling between the components of the hybrid matrix and presenting homogeneous mechanical performance. Likewise, suspended nanoindentation tests were successfully carried out to characterize the mechanical properties of the GO flakes used in the present work, considering the geometry of the indenter or characteristics of the GO flake and the wrinkle flattening phenomenon. Where for the case of nanoindentation by AFM cantilever, the GO flake presented an elastic modulus of approximately Es = 240 GPa (E 2D = 211 Nm -1 ) and a pre-stress of approximately σ = 1.82 GPa (σ 2D = 1.6 Nm -1 ). Meanwhile, for Berkovich nanoindentation, the GO flake presented an elastic modulus of approximately Es = 370 GPa (E 2D = 325.6 Nm -1 ) and a pre-stress of approximately σ = 949 MPa (σ 2D = 0.835 Nm -1 ). Finally, it was evident that the variations in the mechanical properties of the hybrid materials were smaller when the reinforcing material was incorporated, that is, GO, which should allow them to resist greater deformation prior to fracture. However, the Mh+0.15 % w GO material showed better heterogeneity in its mechanical properties with smaller zones, reducing the unwanted behavior of undulating distribution of the variations in mechanical properties, thus obtaining an optimization of said reinforcement.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis del GO</titulo>
+        <texto>A principios de 1859, Brodie</texto>
+      </seccion>
+      <seccion>
+        <titulo>Componente orgánico (resina epóxica)</titulo>
+        <texto>Las resinas epóxicas son fundamentales en la síntesis de una Mh, debido a que son las que poseen las moléculas más grandes, encargadas de la unión y el entrecruzamiento de sí mismas y de las partículas que se forman de la fase inorgánica. La resina epóxica es un material termoplástico que, al entrar en contacto con un agente curante (amina), experimenta entrecruzamiento de sus cadenas hasta formar un polímero termoestable. Químicamente, una resina epóxica contiene grupos epoxi situados en diferentes partes de su estructura molecular, pero el más reactivo e importante es el grupo ubicado en la parte terminal de la cadena de carbonos (α-epoxi Este grupo terminal, llamado glicidil, es muy importante en muchas aplicaciones debido a que posee una mayor reactividad que los demás</texto>
+      </seccion>
+      <seccion>
+        <titulo>Capítulo 3 Metodología general del proyecto</titulo>
+        <texto>El presente capítulo comienza con una breve descripción de los materiales utilizados en el proyecto. Además, se describirán procesos de síntesis desarrollados y ejecutados para la obtención del GO, así como la posterior obtención de una Mh. Finalmente, se presentará una descripción de los análisis realizados mediante diferentes técnicas de caracterización y la evaluación del desempeño mecánico tanto del GO y como de las Mh obtenidas. En la Ilustración 3-1 se puede observar el procedimiento para el análisis del desempeño mecánico de materiales híbridos, el cual consta en los siguientes pasos: 1. Síntesis de GO. 2. Obtención de híbridos por agitación mecánica. 3. Obtención de las probetas en moldes de silicona. 4. Pulido de las probetas con paño, 5. Montaje de las muestras en el disco para analizarlas. 6. Realización de las pruebas por nanoindentación. 7. Obtención de las micrografías por sonda de barrido (SPM, por sus siglas en inglés) y análisis de las propiedades mecánicas mediante nanoindentación. Ilustración 3-1 Metodología general del proyecto: 1-Síntesis de GO. 2-Desarrollo de los materiales híbridos por agitación mecánica, 3-Moldes de las probetas,4-Pulido de probetas, 5-Probetas montadas en disco para prueba de nanoindentación, 6-Nanoindentador Hysitron TI-950 y 7-Imágenes SPM, curvas F-h y perfil de la huella residual representativa.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Modificación total por el grafito</titulo>
+        <texto>Se realizó un análisis radial de las características resultantes de las cuatro muestras de óxido de grafeno, obtenidas bajo una misma metodología de síntesis, pero con diferente grafito, el cual se muestra en la Ilustración 4-30. Al respecto, el número de capas y la relación atómica C/O presentaron poca diferencia, hay una ligera variación en los tamaños laterales y una gran variación en el porcentaje de los grupos oxígeno, principalmente en los hidroxilos. Se seleccionó al GO 1, por tener todas las características idóneas para ser usado como material de reforzamiento en una Mh. Ilustración 4-30 Gráfica radial de las características de las muestras de óxido de grafeno.</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>Capítulo 1 Introducción</titulo>
+        <texto>Los materiales híbridos orgánico-inorgánico (O-I) combinan dos o más fases, con al menos un componente en la escala de longitud nanométrica Entre las diferencias que presentan los materiales orgánicos e inorgánicos con respecto a sus propiedades, se encuentran las siguientes: los materiales orgánicos son conocidos por su baja densidad, bajo índice de refracción, baja estabilidad térmica y conductividad. Además, por su flexibilidad y elasticidad, son conocidos como materiales suaves; mientras que los materiales inorgánicos son conocidos por su alta densidad, alto índice de refracción, alta estabilidad térmica y conductividad. Estos últimos son considerados materiales duros debido a su resistencia y fragilidad. Al tomar en cuenta las propiedades mencionadas anteriormente, cabe señalar que la incorporación de componentes inorgánicos se realiza con el objetivo específico de aportar o complementar las propiedades de ambas fases, resultando en una mejora del desempeño mecánico y la conductividad, así como en las propiedades ópticas, eléctricas y térmicas, sin comprometer significativamente la densidad Los materiales híbridos O-I han sido evaluados mecánicamente por diferentes técnicas. Uno de los análisis más conocidos en este tipo de materiales es el Análisis Térmico Mecánico Dinámico (DMTA, por sus siglas en inglés), con el cual se ha determinado en números estudios el comportamiento elástico de los materiales en función de la temperatura y la frecuencia Adicionalmente, este tipo de materiales ha sido analizado por diferentes técnicas de caracterización estructural, siendo una de ellas la espectroscopia Raman, la cual se ha utilizado ampliamente para estudiar los materiales híbridos O-I y las reacciones de entrecruzamiento que ocurren durante la síntesis Los materiales híbridos O-I no sólo representan una alternativa de materiales compuestos y funcionales; por sus características mejoradas o inusuales, permiten el desarrollo de aplicaciones industriales innovadoras. Entre las áreas de aplicación más prometedoras se encuentran las siguientes: óptica, electrónica, mecánica, energía, medio ambiente, biología y medicina Uno de los retos en el uso de los materiales híbridos O-I es su rigidez y fragilidad, causada por el entrecruzamiento de las estructuras poliméricas. Esto conduce a una resistencia deficiente ante la iniciación y propagación de grietas, lo que ha limitado su aplicación en áreas como la aeronáutica. Para superar este desafío, se requiere el uso de nanomateriales como agentes de refuerzo, tales como fibra de carbono, grafeno, óxido de grafeno (GO) y nanotubos de carbono La aplicación de interés en el presente proyecto, como perspectiva de uso de los materiales híbridos O-I desarrollados en este estudio, es su aplicación en la industria aeronáutica. Al respecto, se ha reportado el uso las fibras sintéticas, siendo la fibra de vidrio una de las más utilizadas como reforzante estructural debido a su fácil fabricación mediante un proceso de moldeo (Dhas y Arun, 2022). Además, se ha reportado el uso de fibras naturales, como las fibras de bambú, como reforzantes con potencial para sustituir a los materiales convencionales, debido a algunos beneficios, incluyendo el costo económico y su naturaleza no tóxica (Vaghasia y Rachchh, 2018). También se ha reportado el uso de materiales bidimensionales (2D) como reforzantes en híbridos basados en resina epoxi. Se ha demostrado que la densidad de entrecruzamiento mejora aproximadamente en un 45 % con respecto a la matriz sin el material 2D. Siendo evidente la mejora al agregar un material 2D a la matriz en la estructura, lo que además incrementa la resistencia a la fractura El GO es el material de refuerzo estructural utilizado en los materiales híbridos O-I en el presente trabajo. Se define como un material hidrofílico y estratificado, con menos de 10 capas, que consiste en una red de átomos de carbono sp 2 similar a la del grafeno, pero que incluye grupos funcionales en sus bordes y planos basales Las propiedades y aplicaciones del GO dependen principalmente del tamaño lateral, el número de capas y su grado de oxidación Una de las técnicas de caracterización mecánica disponibles para analizar a nivel microestructural a los polímeros es la técnica de nanoindentación. Sin embargo, esta técnica presenta varios desafíos para analizar adecuadamente el desempeño mecánico en polímeros, debido a que son suaves y viscoelásticos, lo que puede resultar en efectos de apilamiento o hundimiento De acuerdo con los desafíos anteriores, se consideraron las condiciones de las pruebas de nanoindentación utilizadas en materiales poliméricos y la importancia de llevar a cabo el análisis una vez que la muestra esté bien conformada y adecuadamente preparada. Tales condiciones incluyen las características de la punta, la carga aplicada, la profundidad de penetración, el tiempo de permanencia, los efectos de apilamiento y hundimiento, entre otras.</texto>
+      </seccion>
+    </introduccion>
+    <objetivos>
+      <seccion>
+        <titulo>Objetivos</titulo>
+        <texto />
+      </seccion>
+    </objetivos>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivo general:</titulo>
+        <texto>Obtener matrices híbridas O-I reforzadas mecánicamente con GO y estudiar los efectos de su incorporación en el desempeño mecánico de las matrices híbridas mediante nanoindentación.</texto>
+      </seccion>
+    </objetivo_general>
+    <justificacion>
+      <seccion>
+        <titulo>Justificación</titulo>
+        <texto>Debido a la fragilidad de las matrices epóxicas y a la necesidad de mejorar su rendimiento mecánico, en el presente trabajo se propone modificar una resina tipo DGEBA con una parte inorgánica (TEOS), mediante el método de agitación mecánica, con el fin de desarrollar matrices híbridas reforzadas con GO sin incrementar significativamente la densidad final del material, logrando así un material con un módulo elástico, rigidez y dureza, que le permitan tener mayor capacidad de deformación elástica.</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>Hipótesis</titulo>
+        <texto>Mediante el control del grado de oxidación, el tamaño lateral y el espesor de las hojuelas del óxido de grafeno, debe ser posible modificar las propiedades físicas y químicas de una matriz híbrida. Esto permitirá optimizar el módulo elástico y la dureza de la matriz reforzada, manteniendo un bajo peso. De esta manera, se puede alcanzar un potencial de aplicación en diferentes campos, como el de la aeronáutica.</texto>
+      </seccion>
+    </hipotesis>
+    <resultados>
+      <seccion>
+        <titulo>Capítulo 5 Conclusiones</titulo>
+        <texto>En esta sección se exponen los resultados más relevantes del trabajo relacionados con la obtención de matrices híbridas Orgánico-Inorgánicas reforzadas mecánicamente con GO, y los efectos causados por su incorporación, así como, las diferencias en el desempeño mecánico de las mismas antes y después de la adición de GO mediante nanoindentación.</texto>
+      </seccion>
+    </resultados>
+    <otros>
+      <seccion>
+        <titulo>Sin título</titulo>
+        <texto>Ilustración 4-33 Análisis de rugosidad del GO: a) hojuela del GO, b) gráfica de perfil del GO, c) sección de la gráfica de perfil del GO, d) gráfica de distribución y e) residuos versus orden</texto>
+      </seccion>
+      <seccion>
+        <titulo>Agradecimientos</titulo>
+        <texto>Agradezco a la Real Academia Mexicana de Ciencias por la beca otorgada para participar en el verano de investigación del 2014 en CIMAV Unidad Monterrey y abrirme camino al maravilloso mundo de la ciencia de materiales. Agradezco a CIMAV por la oportunidad que me ha brindado de alcanzar mis metas y por formar parte de mi desarrollo personal y profesional. Agradezco a CONACYT por el apoyo económico brindado durante el transcurso de mis estudios de posgrado. Agradezco a mi director de tesis el Dr. David Torres Torres y a mi co-director la Dra. Alejandra García García por sus consejos oportunos, por el tiempo que le han dedicado a la revisión del proyecto, por los conocimientos que me han aportado y por el apoyo y guía que me han brindado durante alrededor de 10 años. Agradezco a los miembros del comité sinodal, Dr. Zeuz Montiel González, Dra. Ana María Arizmendi Morquecho, Dra. Lourdes Ramos Galicia, Dr. Jorge Luis Menchaca Arredondo y Dra. Selene Sepúlveda Guzmán, por su tiempo, dedicación y valiosas sugerencias durante la evaluación de esta tesis. Agradezco a mis compañeros a todos y cada uno de ellos con los que compartí buenos momentos y superé momentos difíciles y grandes desafíos que se presentaron en el camino de mi formación profesional. Finalmente, agradezco a mi esposo Luis Mario Fabián Pérez por su compañía, por el apoyo que me ha brindado para alcanzar mis metas, por su comprensión y los momentos de alegría.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Dedicatoria</titulo>
+        <texto>Le dedico esta tesis a la familia que perdí y extraño inmensamente, en especial a mi abuela Nieves Barrera Sarabia quien era mi compañera de toda la vida, comerciante y un buen ejemplo para mí, a mi maravillosa madre María Teresa Segovia Barrera una mujer inteligente, valiente, amorosa, alegre, amable que me crio con buenos valores y me apoyo en todo momento y a mi querido hermano Jose Eduardo Castillo Segovia quien fue un buen hermano mayor y siempre cuido de mí. Le dedico esta tesis a la familia que aún tengo y espero pasamos muchos buenos momentos juntos en especial a mi hermana María Teresa Huitron Segovia de quien estoy muy orgullosa, a mis sobrinos quienes siempre están en mis pensamientos y a mi amado esposo Luis Mario Fabian Pérez quien es un buen hombre, inteligente y trabajador. Le dedico esta tesis a la familia que aún no llega, hijos o sobrinos a quien voy a cuidar, voy a enseñarles valores, guiarlos, apoyarlos y amarlos. Me dedico esta tesis a mí misma porque me aferre a las cosas buenas, por mi compromiso, por mi valentía y ganas de salir adelante personal y profesionalmente, tuve miedo, estuve cansada y deprimida, más sin embargo me supere y lo logre. "Si la vida te da grafito, entonces haz óxido de grafeno"</texto>
+      </seccion>
+      <seccion>
+        <titulo>Objetivos específicos:</titulo>
+        <texto>• Caracterizar estructuralmente el GO con el objetivo de garantizar una dispersión homogénea del material reforzante en la matriz híbrida. • Determinar las propiedades mecánicas del material reforzante (GO), mediante la técnica de nanoindentación suspendida. • Encontrar las condiciones óptimas para lograr una dispersión homogénea de las hojuelas de GO dentro de las matrices híbridas. • Obtener las probetas del material híbrido con diferentes concentraciones del material reforzante (GO) y analizar su impacto en el módulo elástico y la dureza a través de la técnica de nanoindentación. • Estudiar los efectos de los grupos funcionales presentes en el GO respecto a su interacción con las matrices híbridas. • Optimizar la metodología de análisis con el fin de disminuir el efecto de viscoelasticidad en las mediciones realizadas por la técnica de nanoindentación, y así determinar adecuadamente las propiedades mecánicas de las probetas del material híbrido con y sin material de reforzamiento. • Realizar una validación virtual de su potencial aplicación del material híbrido optimizado, en un componente de soporte, en tableros electrónicos usados en la industria aeronáutica. Funcionalidades de oxígeno como grupo epoxi y grupos hidroxilo poblaron el plano basal, mientras que los bordes contenían principalmente grupos carboxilo e hidroxilo. Incluso, una observación reciente del GO mediante microscopía electrónica de transmisión de alta resolución (TEM, por sus siglas en inglés), ha indicado la presencia de tales características en las hojuelas de GO, en apoyo al mencionado modelo de Lerf-Klinowski Partiendo de los modelos de Ruess y Scholz-Boehm, Dékány representó la estructura del GO con dos dominios distintos que contienen sillas de ciclohexano enlazadas en trans y cintas hexagonales corrugadas. Las sillas de ciclohexano contenían 1,3-epóxido y grupos hidroxilo terciarios, mientras que las cintas hexagonales estaban pobladas con cetonas y quinonas cíclicas. Además, se introdujeron grupos fenólicos en el modelo para explicar la acidez del GO (Chua y Pumera, 2014).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Desempeño mecánico del GO</titulo>
+        <texto>Investigadores han estudiado el desempeño mecánico del GO, donde cada muestra analizada presentó diferentes características estructurales En general, el módulo elástico (Es) y la resistencia última a la tensión (UTS, por sus siglas en inglés), reportados para "el papel de GO" (diferente a una hojuela de GO), resultaron en un amplio rango de 6 a 42 GPa y de 76 a 293 MPa, respectivamente Este modelo difiere ligeramente del descrito por Lee et al. En consecuencia, en analogía con el caso en bulto, la rigidez 2D (𝑆 𝑠 2𝐷 ) se puede determinar sustituyendo la ecuación (2.1) en la ecuación de Sneddon respecto a la rigidez (Fischer-Cripps, 2011), (ver más adelante ecuación 3.9), resultando de la siguiente manera: Finalmente, en la Ilustración 2-2a se muestra el esquema de las pruebas FSI (por sus siglas en inglés) con el indentador Berkovich (Rtip = 636 nm) y en la Ilustración 2-2b se puede apreciar el esquema de FSI con el cantiléver AFM (Rtip = 50 nm), lo cual fue recientemente reportado por nuestro grupo de investigación Ilustración 2-2 Imagen modificada de esquema de nanoindentación suspendida: a) con indentador Berkovich y b) con cantiléver AFM</texto>
+      </seccion>
+      <seccion>
+        <titulo>GO como agente de reforzamiento en polímeros</titulo>
+        <texto>Los nanocompuestos poliméricos que contienen nanomateriales con un área superficial alta, como fibras de carbono, grafeno y fullerenos, han demostrado producir una serie de mejoras mecánicas significativas En cuanto a la dispersión y adhesión interfacial, recientemente se ha demostrado que la interfaz entre el grafeno y los polímeros es relativamente pobre. Por ello, es necesario emplear hojuelas con diámetros grandes (20 µm) para observar niveles significativos de refuerzo En particular, los grupos epoxi presentes en la superficie del GO son atractivos para su uso en nanocompuestos epoxi, tal y como lo reportaron Yang et al., quienes al incorporar tan solo un 0.0375 % en peso de GO, obtuvieron mejoras del 48 % y 1185 % para la resistencia a la rotura por compresión y la tenacidad, respectivamente</texto>
+      </seccion>
+      <seccion>
+        <titulo>Matrices Híbridas Orgánico -Inorgánico</titulo>
+        <texto>En su sentido más general, una matriz híbrida (Mh) se define como aquella que incluye en su composición al menos dos tipos de componentes de diferente naturaleza, siendo, normalmente, una parte orgánica y otra inorgánica, las cuales se combinan a escala nanométrica Una definición más detallada de las Mh se puede realizar atendiendo a la naturaleza química</texto>
+      </seccion>
+      <seccion>
+        <titulo>Integración del componente inorgánico (Alcóxido-Si)</titulo>
+        <texto>Los materiales híbridos se forman con la compatibilización de una mezcla orgánicoinorgánica, estableciendo enlaces covalentes entre las fases e interacciones físicas en la interfaz. Estas interacciones ayudan a superar la inmiscibilidad que existe entre las diferentes fases. En el caso de la fase orgánica (resina epóxica) estos enlaces se forman a partir de los grupos OH remanentes que resultan luego del proceso de curado. Este material híbrido muestra una morfología fina de sílice en nanoestructuras con buena dispersión (ver Ilustración 2-5). Esta buena dispersión se debe a la interacción fuerte en la interfaz, facilitada por los enlaces -OH entre los grupos Si-OH de la sílice y las cadenas de la red polimérica. Este proceso de entrecruzamiento y dispersión mejora significativamente la compatibilidad entre las fases orgánica e inorgánica Ilustración 2-5 Enlaces covalente entre grupos epoxi-sílice La separación de las fases epoxi y sílice puede ocurrir durante la polimerización en sistemas donde hay una pobre interacción en la interfaz. Para mejorar la compatibilidad entre las fases, se utilizan agentes de acoplamiento. Los más populares son el 3-glicidiloxipropil trimetoxisilano (GTMS) y el 3-aminopropiltrietoxisilano (APTES). Estos agentes de acoplamiento mejoran significativamente la adhesión entre las fases orgánica e inorgánica, promoviendo una mayor estabilidad y homogeneidad en el material híbrido. Estos agentes de acoplamiento forman enlaces covalentes entre sí, evitando así la separación de fases. Los híbridos resultantes pueden presentar aumento o disminución de Tg, dependiendo de su composición final. La inmiscibilidad en agua del reactivo de acoplamiento (TEOS) y un sistema epoxi, requieren de la aplicación de un cosolvente, haciendo este punto fundamental en la síntesis por polimerización. Aunque la evaporación del agua y el disolvente excesivo conduce a la contracción de la muestra, la eliminación de los compuestos volátiles residuales podría conducir a la formación de burbujas o grietas en el producto final, por lo tanto, este es otro aspecto para controlar. Es fundamental encontrar un equilibrio adecuado durante el proceso de curado y eliminación de disolventes para minimizar defectos y asegurar la integridad estructural del material híbrido</texto>
+      </seccion>
+      <seccion>
+        <titulo>Desempeño mecánico de Mh con alto contenido del componente orgánico</titulo>
+        <texto>Las propiedades elásticas de una Mh rica en contenido orgánico a menudo se miden mediante pruebas de tracción o compresión. En el estado vítreo, el refuerzo depende solo ligeramente del contenido del óxido (por debajo del 20 % en peso de componente inorgánico), pero en estado gomoso, la presencia de cargas inorgánicas tiene una gran influencia en el módulo de elasticidad. Para contenido inorgánico bajo (&lt;15% en peso), el comportamiento de las Mh es generalmente el mismo que el del polímero orgánico puro, pero con una mayor capacidad de elongación</texto>
+      </seccion>
+      <seccion>
+        <titulo>Aplicación en la industria aeronáutica</titulo>
+        <texto>Una de las aplicaciones en donde se utilizan matrices híbridas reforzadas con GO es en la industria aeronáutica, principalmente en el fuselaje, el cual se puede ver en la</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales</titulo>
+        <texto>Se utilizaron diferentes materiales para cada uno de los procesos. Los reactivos principales fueron: grafito, DGEBA, TEOS, agente de curado y GO. Los demás reactivos de grado analítico empleados, tales como ácidos inorgánicos, peróxidos e hidróxidos, son comúnmente utilizados y conocidos. Se describirán ampliamente solo los principales reactivos empleados en los procesos de síntesis del GO y en la elaboración de los materiales híbridos: • El grafito (Gr) es un mineral compuesto de carbono dispuesto en láminas de grafeno con anillos hexagonales de seis átomos apilados en capas En la Ilustración 3-2 se muestra el esquema representativo de la oxidación y exfoliación del grafito para la obtención del GO, la cual se puede simplificar a tres pasos. El primer paso corresponde a la intercalación de grupos oxígeno proveniente de la adición del H2SO4 y el HNO3 en el Gr. El segundo paso corresponde a la oxidación del Gr para obtener GrO, de esta etapa depende el grado de oxidación alcanzado (Dimiev y Tour, 2014). El tercer paso implica la conversión del GrO en GO después de la exposición al agua, lo que además de contribuir a la exfoliación del material, este paso implica la hidrólisis de sulfatos y nitratos covalentes y la modificación de los grupos con oxígeno debido a la reacción con el agua Ilustración 3-2 Esquema oxidación y exfoliación química del grafito.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Preparación de las Mh reforzadas</titulo>
+        <texto>Para una adecuada dispersión del agente reforzante y la aceleración del proceso de curado en las Mh, se llevó a cabo la agitación del DGEBA/TEOS a 60 °C durante 15 min a 1000 RPM, aproximadamente 1/3 del diámetro del recipiente no produce una correcta circulación del sólido y podría incorporar aire a la muestra (ver Ilustración 3-3d). Ilustración 3-3 Agitación mecánica Mh con y sin GO 1: a) Mh siendo agitada mecánicamente con una imagen aumentada de la hélice utilizada, b) hélice correctamente posicionada vs hélice descentrada, c) efecto de la velocidad de la hélice, d) efecto del tamaño de la hélice y e) efecto de la posición de la hélice.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización química y estructural</titulo>
+        <texto>El análisis estructural por difracción de rayos X (XRD, por sus siglas en inglés) del Gr y de las hojuelas de GO en polvo se realizó mediante un difractómetro Panalytical Empyream. La radiación empleada fue la línea Kalpha1 del Cu (1.5406 Å). El espesor y la distancia entre las capas del Gr y del GO se obtuvieron, utilizando la ecuación de Scherrer (Holzwarth y Gibson, 2011) y la ley de Bragg Donde Nhkl es el número de capas, Lhkl es el espesor del nanomaterial y dhkl es la distancia entre capas. El análisis de espectroscopia de fotoelectrones de rayos X (XPS, por sus siglas en inglés) se realizó con un espectrómetro Thermo Scientific Escalab 250Xi utilizando una fuente monocromática Al Kalpha (1486.68 eV) y un área de análisis de 1.33 mm 2 . El espectro de la muestra se obtuvo midiendo con alta resolución las regiones correspondientes a las energías de enlace C1s, N1s y O1s con 20 eV, un ángulo de despegue de 45 • y un análisis por pasos de 0.1 eV. La erosión por pulverización catódica de iones de argón se llevó a cabo mediante un haz de erosión monoatómico con una energía de 3 keV. Además, las caracterizaciones estructural y morfológica del Gr y de las hojuelas individuales de GO se llevaron a cabo utilizando un sistema de microscopía electrónica de barrido por emisión de campo (FE-SEM) modelo Nova 200 (FEI Company) con un detector STEM. Para la preparación de la muestra, se colocó una gota de material disuelto en una rejilla de cobre de malla 300 con una membrana de carbono.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Estudio de topografía por AFM</titulo>
+        <texto>La topografía de las muestras se evaluó a través de observaciones por microscopía de fuerza atómica (AFM, por sus siglas en inglés). Se empleó el escaneo en modo AC estándar en un microscopio Asylum MFP 3DSA. Se utilizó un cantiléver AFM de silicio con geometría rectangular, 160 μm de longitud, una rigidez constante de aproximadamente 26 N m -1 , una frecuencia de resonancia promedio de 300 kHz y un radio de punta de aproximadamente 9 nm. Las muestras de GO se analizaron después de ser centrifugadas y posteriormente depositadas por el método de "drop-casting" sobre una rejilla de nitruro de silicio. Para el caso de las Mh su topografía se analizó con imágenes SPM de 70 x 70 µm 2 y adicionalmente se analizaron algunos defectos superficiales mediante micrografías ópticas de 626 x 548 µm 2 .</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis de la rugosidad</titulo>
+        <texto>Se cuantificó la rugosidad de las muestras de GO con la finalidad de evaluar su correlación con los grupos funcionales presentes en la superficie, además de evaluar los efectos de adhesión relacionados al efecto del tamaño de la punta (ISE, por sus silgas en inglés) y el fenómeno de aplanamiento de las arrugas durante una prueba de nanoindentación suspendida. Adicionalmente se analizó la rugosidad de las probetas de las Mh, para así asegurar que el pulido haya sido efectivo, es decir tener un acabado espejo (norma DIN 4769, Razaq, et al., 2022) y que este no afecte significativamente al área de contacto, obteniendo desviaciones estándar más reducidas. Ambos casos, a través de los métodos reportados en la literatura</texto>
+      </seccion>
+      <seccion>
+        <titulo>Método de distribución de alturas</titulo>
+        <texto>Este método se recomienda para analizar la rugosidad de áreas superficiales. Los parámetros principales obtenidos son: • Rugosidad promedio (Ra): media de la diferencia, en valor absoluto (y), entre la altura media y la altura de cada punto individual de la muestra (n). Indica qué tan rugosa es la muestra y está dada por la siguiente expresión (Torrejón, 2013): • Rugosidad RMS (Rq): Raíz cuadrática media de la rugosidad, donde 𝑔 𝑖 2 corresponde a su valor absoluto. Viene dada por la siguiente expresión (Torrejón, 2013): (3.3)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Método de la densidad espectral de potencia</titulo>
+        <texto>La densidad espectral de potencia (PSD, por sus siglas en inglés) proporciona el espectro de las frecuencias espaciales de la superficie y se expresa en unidades inversas de longitud Del gráfico resultante se obtiene directamente el parámetro Z(X,Y), el cual se ha relacionado con la rugosidad de la superficie en función de la longitud de onda (Rq). Lo anterior ha sido calculado de acuerdo con la ecuación (3.5, tal como se ha reportado</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis por nanoindentación y método de Oliver y Pharr</titulo>
+        <texto>En primera instancia, las pruebas de nanoindentación suspendida se llevaron a cabo en un microscopio Asylum MFP 3D-SA AFM, Oxford Instruments, colocando hojuelas de GO suspendidas sobre una rejilla TEM de Si3N4 con orificios de 1 μm de diámetro. Se utilizó un cantiléver AFM de silicio de geometría rectangular con 450 μm de longitud, una rigidez constante de aproximadamente 0.2 N m -1 , una frecuencia de resonancia promedio de 13 kHz y un radio de punta de aproximadamente 50 nm. Esto permitió calcular el E 2D del GO, con una carga máxima de 225 nN Adicionalmente, se realizaron pruebas de nanoindentación en el Triboindenter Nanomechanical 950, Hysitron Inc., utilizando un indentador Berkovich. Las funciones de carga y descarga se definieron por la carga máxima de nanoindentación de 700 nN para el material reforzante y 200 µN para los materiales híbridos, constando cada paso de 10 s y manteniendo un modo de control de carga. Para el caso de nanoindentación Berkovich, un conjunto de nanoindentaciones en una muestra de sílice fundida (con rugosidad RMS, Rq = 1.93 nm) permitió determinar la compliancia de la máquina siguiendo el método de Oliver y Pharr (Oliver y Pharr, 2004) antes de llevar a cabo las mediciones sobre las muestras. La compliancia de la máquina (Cm) y el contacto entre la punta y la muestra (Cs) se modelaron como resortes en serie. Por lo tanto, la compliancia total medida (Ct) fue determinada por la siguiente ecuación: Dado que Ct es la inversa de la medida de la rigidez total (St) y (Cs) es la inversa de la rigidez de contacto del resorte (Ss), la compliancia total medida en función de la relación del módulo elástico reducido (Er) y el área de contacto (Ac) pudo aproximarse de la siguiente manera: Donde Er está definido por el módulo de elasticidad, (Es) y la relación de Poisson de la muestra (νs) así como por las constantes elásticas (Ei y νi) del indentador, mediante la siguiente relación: La relación de Poisson y las propiedades elásticas del indentador de diamante se tomaron de la literatura (Fischer-Cripps, 2011). Usando la solución de Sneddon (Fischer-Cripps, 2011) Ac se determina de la siguiente manera: En estudios en los que se calibró un indentador Berkovich de esta forma, se suele utilizar un valor de β de 1.034, ya que da resultados satisfactorios (Oliver y Pharr, 2004); por lo tanto, se utilizó esta opción. Finalmente, la intersección de la gráfica de Ct contra Ac -1/2 proporciona el valor de Cm. En estas pruebas, la carga aplicada (F) se midió en función de la profundidad de penetración (h) definida como la profundidad de penetración total de la punta del indentador en la superficie de la muestra, lo que permitió deducir la rigidez expresada en la siguiente ecuación: Esto se obtuvo después de contabilizar el cumplimiento de la máquina a través de la siguiente relación de ley de potencias: Donde hf es la profundidad de penetración residual, mientras que γ y m son constantes en el proceso de ajuste de la curva de descarga F-h (Oliver y Pharr, 2004). La geometría del indentador se determinó utilizando la función del área de contacto Ac (hc) (3.12) Para el caso de muestras en bulto, cabe señalar que el análisis puso de manifiesto que un hundimiento excesivo de la superficie del material alrededor de la huella, conocido como "sink-in" o un apilamiento en los bordes, conocido como "pile-up", pueden producir imprecisiones en el cálculo del área de contacto. Pequeños efectos de "sink-in" vienen considerados implícitamente en el modelo, mientras que los de "pile-up" pueden despreciarse siempre que hf/hmax &lt; 0.7 (Oliver y Pharr, 2004; Flores, 2017), donde hmax es la máxima profundidad de penetración. En cuanto a la dureza (H) es derivada a partir de Ac, recordando su definición: Donde Fmax es la carga máxima aplicada y Ac el área de contacto proyectada sobre la superficie inicial de la muestra. La variación de hc, se calculó en función de la profundidad de penetración (h) como se muestra a continuación (Oliver y Pharr, 2004): Donde ξ es un factor de corrección que depende de la geometría del indentador, con un valor de 0.72 para una punta Berkovich (Oliver y Pharr, 2004). Para una geometría esférica, comúnmente utilizada para representar el extremo de la punta, el radio de contacto viene dado por la siguiente ecuación: Así, la ecuación utilizada para determinar el módulo de elasticidad, que se puede aplicar a un indentador esférico teniendo en cuenta la curvatura del extremo de la punta, es la siguiente (Oliver y Pharr, 2004): (3.16) Donde Rtip es la punta del indentador y hf es la profundidad de penetración residual, donde la nanoindentación elástica hf = 0. En cuanto a los principios del módulo elástico bidimensional, estos se consideraron como se describió anteriormente mediante las ecuaciones (2.1, (2.2 y (2.3.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Desempeño mecánico a partir de relaciones con base en Er y H</titulo>
+        <texto>Los materiales compuestos, a menudo se someten a cargas que inducen la propagación de grietas. Por lo cual, la caracterización de la tenacidad a la fractura (KIC) se vuelve crítica en el rendimiento de los materiales. La tenacidad a la fractura de un material se puede calcular en función de la nanoindentación en la muestra utilizando la siguiente ecuación ( F C 3  2 Donde el término F/(C 3 /2) es la capacidad del material para oponerse a la propagación de grietas, F es la carga aplicada, C es la longitud de la grieta radial y α es una constante empírica relacionada a la geometría del indentador. Mientras que Er/H es la resistencia a la fractura (propiedad estática) del material Por otra parte, la relación H/Er es adecuada para predecir la durabilidad y la resistencia a la deformación plástica de Mh usadas como recubrimientos, en comparación con la dureza de nanoindentación individual y el módulo elástico. Además, este parámetro es muy importante para medir la resistencia de una Mh bajo una carga local, donde un incremento en su valor implicaría una mejora en la resistencia al desgaste Donde S representa la rigidez de la muestra. Adicionalmente, mediante un análisis de Johnson, se puede estimar la carga necesaria para iniciar la deformación plástica (Fy) cuando una punta esférica de radio (Rtip) hace contacto con un material elástico/plástico Donde el termino H 3 /Er 2 de la ecuación 3.19 es un fuerte indicador de la resistencia a la deformación plástica</texto>
+      </seccion>
+      <seccion>
+        <titulo>Índice de plasticidad</titulo>
+        <texto>El índice de plasticidad (ψ) de un cuerpo sólido, es un parámetro que caracteriza el comportamiento elástico -plástico del material cuando se somete a tensiones y deformaciones Donde A1 es el área comprendida entre Fmax y la curva de descarga, lo cual se considera como el trabajo plástico (irreversible) realizado durante la prueba de nanoindentación y A2 es el área abarcada por la curva de descarga (ver Ilustración 3-4), es decir la recuperación viscoelástica (trabajo reversible)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Creep</titulo>
+        <texto>El Creep (Cr) es una deformación dependiente del tiempo de un material viscoelástico bajo la aplicación de un esfuerzo constante a una temperatura constante Donde contiene un incremento en la profundidad de penetración (∆h = h2 -h1) en el numerador y la profundidad de penetración en el momento de alcanzar Fmax está en el denominador.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Mapeo de las propiedades mecánicas</titulo>
+        <texto>Inicialmente se debe localizar la zona a analizar, la cual se puede observar mediante una micrografía óptica, donde es posible ver las características y los defectos superficiales. A continuación, se establecen los límites de la muestra, los cuales se emplean para crear, modificar y eliminar áreas de esta. Antes de realizar cualquier desplazamiento en los ejes X y Y, es necesario que el eje Z se mueva primero a la altura de vuelo Z (4 mm por encima), con el fin de reducir al mínimo la probabilidad de que la punta entre en contacto con la muestra. Finalmente, se define la matriz de nanoindentaciones a realizar utilizando el protocolo de traslado serpentino. Este protocolo inicia en el punto superior izquierdo, avanza a lo largo de la fila superior, luego se desplaza al punto más a la derecha de la segunda fila, y continúa moviéndose de derecha a izquierda, alternando su dirección sucesivamente. Lo descrito anteriormente, se puede observar en la Ilustración 3-5. Ilustración 3-5 Imagen característica de la definición de una matriz para nanoindentación. Una vez completado el procedimiento anterior y determinadas las propiedades mecánicas, se procede a obtener las imágenes de contorno del mapeo superficial, incluyendo los valores X, Y (posiciones de las nanoindentaciones) y Z (propiedades mecánicas), mediante los siguientes pasos: • Se conectan todos los puntos de datos para formar triángulos de Delaunay (Jing y Stephansson, 2007) en los ejes X y Y. Los triángulos se construyen de manera que sean lo más equiángulos posible. Además, no deben cruzarse dos triángulos. Hay que considerar que cualquier lado es compartido por dos triángulos adyacentes, a menos que esté ubicado en el borde de la malla, tal y como se observa en la Ilustración 3-6. Ilustración 3-6 Triangulación de las posiciones por los ejes X y Y. • Interpolación lineal dado un nivel de contorno (zc) se atraviesan todos los triángulos para ver si la línea de contorno para ese nivel se cruza o no con los lados del triángulo. Si un lado del triángulo tiene intersección con la línea de contorno, se marcará como un lado característico. Las coordenadas del punto de intersección, que se denominará punto característico en este documento, se calculan con interpolación lineal. Entonces, para un lado del triángulo que conecta dos vértices del triángulo: I(xi, yi, zi) y J(xj, yj, zj), se debe de examinar la siguientes aseveraciones: Si se cumple lo anterior, se puede decir que corresponde a un lado característico. Además, si el producto a la izquierda de la desigualdad es cero, significará que la curva de nivel pasa por al menos uno de los vértices. En este caso, zi y zj se ajustarán restando un pequeño valor de  (1e -15 ), para asegurarse de que el punto característico no sea un vértice. Por lo tanto, si se tiene un lado característico, las coordenadas del punto característico (ver Ilustración 3-7) se pueden calcular por interpolación lineal de la siguiente manera Ilustración 3-7 Coordenadas del punto característico de un triángulo y de los vértices. • Línea de contorno</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis de grupos funcionales y grado de oxidación</titulo>
+        <texto>Se realizó un análisis termogravimétrico de las cuatro muestras de GO, el cual se muestra en la Ilustración 4-15. Según Farivar et al. El GO 1, como se muestra en la Ilustración 4-15a, presentó en la curva de TGA un primer paso de pérdida de peso de aproximadamente 13%. Luego, aparece un segundo paso de pérdida de peso de aproximadamente 29%. En la tercera zona, tuvo una pérdida de peso total de aproximadamente 31%. Los dos pasos diferentes presentados están relacionados con el efecto del tamaño de partícula Para el caso del GO 2, como se muestra en la Ilustración 4-15c, la curva TGA mostró un primer paso con pérdida de peso de aproximadamente el 17%. Luego, aparece un segundo paso de pérdida de peso de aproximadamente el 28%. En la tercera zona, se observó una pérdida de peso total de aproximadamente el 22%. Los dos pasos diferentes presentados están relacionados con el efecto del tamaño de partícula Finalmente, para el caso del GO 4, como se muestra en la Ilustración 4-15g la curva de TGA presenta un primer paso de pérdida de peso de aproximadamente 19.5%. Luego, aparece un segundo paso de pérdida de peso de 31%. En la tercera zona, se observó una pérdida de peso total de 18.5% con tres ligeras variaciones de paso, las cuales se relacionan con el efecto del tamaño de partícula de altura y c) perfil de rugosidad. Adicionalmente, en la Ilustración 4-26a se observa la imagen de topografía del GO 4, donde pasa sobre la hojuela una línea negra que corresponde a una sección transversal, donde los colores oscuros representan dobleces y arrugas pronunciadas de altura y c) perfil de rugosidad. Asimismo, se realizó un análisis de regresión lineal de la raíz cuadrática media de la</texto>
+      </seccion>
+      <seccion>
+        <titulo>Otros factores que influyen en las características del GO obtenido</titulo>
+        <texto>Además de las dimensiones del grafito, existen otros factores que influyen en las características del GO como: su tamaño, el número de capas y el grado de oxidación Tabla 4-1 Comparación del área resultante con respecto a la temperatura y el tiempo. La ecuación de regresión resultante es sólo para tener una idea del comportamiento, no es predictiva debido a que los valores bajos y altos son un intervalo de valores, además de que las concentraciones utilizadas son diferentes. Enseguida, se presenta la ecuación (4.5, donde el tiempo tiene más influencia que la temperatura en el área resultante: Además, en la Ilustración 4-31 se puede apreciar una tendencia en el incremento del área al utilizar menores tiempos y menores temperaturas. Sin embargo, de acuerdo con la ecuación (4. interacción de los factores (T*t), muestra que el área tiene un incremento al ser mayores T y t. Por lo cual, es de gran importancia considerar las interacciones de los diferentes factores que tienen un efecto durante la síntesis, para obtener el GO con las características requeridas. Ilustración 4-31 Gráfica de contorno del área con respecto a T y t. imagen mediante AFM de la punta Berkovich y d) calibración del radio de curvatura RBerk mediate nanoindentaciones elásticas en sílice fundida utilizando el modelo de contacto de Hertz.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis de rugosidad de las hojuelas</titulo>
+        <texto>Para determinar la rugosidad representativa de las hojuelas de GO, se midieron 10 muestras a lo largo de cinco secciones por cada una, donde 5 hojuelas tenían un área menor a 200 μm 2 , mientras que 5 hojuelas eran mayores. Considerando esto, la Ilustración 4-33a muestra una micrografía AFM de una hojuela de GO que tiene un área de aproximadamente 215.4 μm 2 y un espesor promedio de aproximadamente 3.5 nm, que corresponde a una hojuela de GO de tres capas. En la Ilustración 4-33b, se muestra por el perfil de altura en una sección transversal, que la hojuela tiene arrugas de diferentes longitudes y tamaños, así como en la Ilustración 4-33c se muestra un aumento del perfil para cuantificar el número de capas, con respecto a la misma imagen de AFM. Se descubrió que las hojuelas tienen diferentes espesores a lo largo de las capas, como resultado de la distancia interlaminar y los grupos funcionales que pueden estar presentes en la superficie y en las capas intermedias. Adicionalmente, se realizó un análisis de rugosidad promedio, a través de un ajuste de distribución Weibull adecuado para hojuelas de GO con un área de tamaño inferior a 200 μm² y también un ajuste de distribución lognormal adecuado para hojuelas con un área de tamaño mayor a 200 μm², tal y como se muestra en la Ilustración 4-33d. Los principales resultados fueron que las distribuciones de probabilidad muestran una asimetría notable a valores bajos de rugosidad. Por lo tanto, la variación de los valores de rugosidad fue mayor para las hojas GO más pequeñas, área &lt;200 μm², de acuerdo con los intervalos de confianza obtenidos. A pesar de una diferencia significativa en el intervalo de confianza de la variación de la rugosidad de la distribución de Weibull, frente a la distribución lognormal, el centro de ambas distribuciones está cerca y por debajo de 2 nm, lo que significa que la mayoría de las arrugas presentadas fueron de pequeña altura y menores de 2 nm. Por otro lado, los valores de residuos de las mediciones de rugosidad en la Ilustración 4-33e no presentaron una tendencia respecto al orden en que se realizaron las observaciones. Entonces, se puede argumentar que no existe una correlación entre los valores promedio de rugosidad y el tiempo transcurrido después de que las hojuelas de GO fueron depositadas en los sustratos. No se vio afectada la rugosidad con respecto al tiempo, porque las muestran fueron analizadas en el intervalo de 14 días en el que la luz blanca no produce cambios estructurales significativos en el GO graficados como puntos cuadrados, así como la línea continua que corresponde a un proceso de ajuste basado en la ecuación (2.1, tomando σ 2D y E 2D como parámetros libres, tal como se sugería en la literatura 6 N/m (Es = 370 GPa) y un pre-esfuerzo de aproximadamente σ 2D = 949 MPa (σ = 0.835 N/m), para la hojuela de GO analizada por nanoindentación Berkovich en comparación con la hojuela de GO analizada por la nanoindentación en cantiléver. Las razones para la diferencia del valor de E 2D se pueden asociar con las diversas características morfológicas como el número de capas, la rugosidad de las hojuelas y las condiciones de nanoindentación, pero particularmente por el tamaño del radio de la punta, Rtip. Por lo tanto, dado que el área suspendida de aproximadamente 0.785 μm 2 y la rugosidad de aproximadamente 2.55 nm fueron casi los mismos que los promedios obtenidos para ambas nanoindentaciones, las principales condiciones que afectaron los valores de E 2D fueron las diferencias del radio de contacto (crad). Principalmente, se calculó un valor de crad de aproximadamente 39 nm para la nanoindentación en cantiléver, mientras que se calculó un valor de crad de aproximadamente 175 nm para la nanoindentación Berkovich. El espesor no afecto el análisis realizado, ya que se calculó un número de aproximadamente 4 ± 1 capas para ambas pruebas de nanoindentación. Es importante mencionar que las propiedades en bulto entre ambas nanoindentaciones muestran diferencias significativas, por ejemplo, los valores de Es difieren aproximadamente 130 GPa, mientras que σ también difiere en los órdenes de magnitud (ver la Ilustración 4 34b y la Ilustración 4 34d). Como se mencionó anteriormente, dichos valores de Es se calcularon dividiendo el E 2D con la distancia interlaminar del GO, dando como resultado el módulo de elasticidad para cada capa. Por lo tanto, una vez que los valores de Es se normalizaron, la razón principal de las diferencias del módulo de elasticidad debería asociarse con la geometría de la punta. Por lo tanto, se puede argumentar que, dado que fue necesario aplicar una carga mayor para el caso de nanoindentación Berkovich, con el fin de obtener la misma profundidad de penetración que la nanoindentación por AFM cantiléver, un mayor efecto de rigidez se opone a la nanoindentación cuando se usa un radio de punta más grande, debido a que se involucraron más arrugas en el contacto, así como en el alargamiento de la hojuela. Ilustración 4-34 Nanoindentaciones suspendidas de hojuelas de GO por a-b) Cantiléver AFM, y por c-d) Indentador Berkovich, respectivamente Considerando lo anterior, se realizó un análisis computacional de los efectos del radio de contacto (crad) y el número de capas del material de óxidos de grafeno (Ln) sobre las propiedades mecánicas. Inicialmente, para el caso de la prueba por AFM, se debe notar la variación de los valores de crad, de acuerdo con el radio de la punta del AFM cantiléver (Rcant) y de la profundidad de contacto (hc) lo cual se muestra en la Ilustración 4-35a. La gráfica de contorno se obtuvo mediante el siguiente modelo: crad = 6.41 + 0.4 hc + 0.51 Rcant +(0.004 hc × Rcant) ( Donde la constante numérica está relacionada con el efecto de las variables constitutivas, lo que indica principalmente que crad aumenta cuando aumentan hc y Rcant. Sin embargo, la gráfica muestra las variaciones más grandes en los valores crad a valores más bajos de hc y Rcant. Este comportamiento podría revelar que los cálculos del radio de contacto tienden a implicar más diferencias debido a las dificultades de caracterizar la geometría real del extremo de la punta del cantiléver, como resultado de su uso común cuando interactúa con la superficie de la muestra Ilustración 4-37 Hojuela de GO a) imagen de AFM y b) perfiles de superficie. Hojuelas de GO después de ser indentada por una punta AFM cantiléver c) imagen de AFM y d) perfiles de superficie.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Nanoindentación en matrices híbridas</titulo>
+        <texto>La Ilustración 4-39a muestra una micrografía óptica de una muestra de Mh (DGEBA-TEOS: curado al 30% en peso) después de un día a temperatura ambiente (TA). En ella se observan fracturas conectadas a un poro de aproximadamente 100 µm de diámetro y ojos de pez característicos. Además, en la Ilustración 4-39b muestra sus curvas F vs h correspondientes, obtenidas a una carga máxima (Fmax) de 400 µN, con una variación considerable en la profundidad máxima de penetración (hmax). Específicamente, la profundidad de contacto (hc) y la profundidad La Ilustración 4-44a muestra una imagen SPM de nanoindentación en una superficie rugosa de una Mh después de 8 meses a temperatura ambiente, que contiene una nanoindentación bien definida porque la muestra se consolidó con precisión. Por lo tanto, su línea| de perfil correspondiente, se muestra en la Ilustración 4-44b una disminución en la profundidad de nanoindentación después de la medición experimental hasta 30 nm aproximadamente. La Ilustración 4-44c muestra una imagen SPM de nanoindentación en una Mh+0.15 % w después de 8 meses a temperatura ambiente, donde la superficie rugosa presenta algunos poros alrededor de la nanoindentación. En consecuencia, su línea de perfil correspondiente muestra en la Ilustración 4-44d un hf alrededor de 30 nm como resultado de la recuperación de material después de la descarga. Mientras que la Ilustración 4-44e muestra una imagen SPM de una nanoindentación en una Mh+0.3 % w GO después de 8 meses a temperatura ambiente, donde su superficie tenía valles junto a la nanoindentación bien definida. En consecuencia, su línea de perfil correspondiente muestra en la</texto>
+      </seccion>
+      <seccion>
+        <titulo>Mapeo de propiedades mecánicas.</titulo>
+        <texto>Las propiedades mecánicas y la resistencia al desgaste de los materiales híbridos a macroescala, se ven afectadas por sus características y propiedades estructurales a micro/nanoescala, ya que es en ésta última escala en donde se inicia el proceso de su deterioro y falla. Sin embargo, tradicionalmente los materiales híbridos se han tratado más como materiales homogéneos y con propiedades mecánicas uniformes, ya que la caracterización mecánica de estos materiales se ha llevado a cabo en su mayoría a una macroescala Por lo tanto, el presente estudio llevó a cabo el mapeo de las PMN, para evaluar las propiedades mecánicas micro/nanométricas de los materiales híbridos propuestos en el presente trabajo, correlacionándolas con las diferentes fases de los precursores de la matriz, así como para determinar su distribución, particularmente analizando la variación de su módulo elástico reducido, (Er), dureza (H) y rigidez (S). De igual forma, se analizaron las variaciones de dichas propiedades mecánicas de la matriz, en función del porcentaje de material reforzante añadido al material híbrido y de esta manera, se definió la distribución más adecuada de las propiedades mecánicas de las muestras, la cual fue alcanzada gracias al material reforzante, optimizando dicho efecto en función del porcentaje en peso del GO. La información sobre la distribución de las propiedades mecánicas se obtuvo de las tres muestras en estudio, material híbrido sin reforzante (Mh) con material reforzante Mh+0. No obstante, dicho efecto de variación de las propiedades mecánicas, con una distribución de comportamiento ondulante, se volvió a generar cuando se duplicó el peso del material reforzante en la muestra Mh+0.3 % w GO, ya que los grupos C-OH y C-O-C del GO, nuevamente concentraron zonas amplias en esta ocasión conteniendo material con un diferente grado de curado, ver Ilustración 4-46g-i. Tal efecto pudiendo provocar concentraciones de esfuerzos en zonas amplias al momento de deformar la muestra, aumentando de nuevo la probabilidad de generarse fallas por deformación plástica o agrietamiento de forma más pronunciada en dichas zonas. Sin embargo, dicho efecto de variación de las propiedades mecánicas, con una distribución de comportamiento ondulante, se volvió a generar cuando se duplicó el peso del material reforzante en la muestra Mh+0.3 % w GO, sin embargo, presentó un decremento en la resistencia al desgaste en comparación al material híbrido con 0.15 % del GO, ver Ilustración 4-47g-i. Ilustración 4-47 Mapeo de la resistencia a la fractura, al desgaste y a la deformación plástica, donde a-c) corresponden a la muestra Mh, d-f) a la muestra Mh+0.15 % w GO, y g-i) para la muestra Mh+0.3 % w GO, respectivamente. Finalmente, se realizó el mapeo del índice de plasticidad, ψ, la carga necesaria para iniciar la deformación plástica (Fy) y el creep (Cr) permitiendo identificar áreas con las variaciones en su desempeño mecánico, donde para el caso de la muestra Mh, al ver el mapa de ψ, se pueden ver cambios abruptos en los mínimos y los máximos, lo cual provoca diferencia marcadas en cuanto a recuperación elástica y por ende producir defectos superficiales en los límites donde se presentan esos cambios. Además, en el mapa de Fy, se pueden ver diferencias entre los mínimos y máximos, las cuales están mayormente influenciadas por la resistencia a la deformación plástica del material. En cuanto al Cr, se presentó mayor variación en la profundidad de penetración alcanzada en función del tiempo en las zonas donde la muestra mostró menor recuperación elástica, ver Ilustración 4-47a-c. Para el caso de la muestra Mh+0.15 % w GO, se realizó el mapeo del ψ, donde fue posible ver que hubo una reducción en el intervalo de la escala de colores y diferencias graduales entre los mínimos y los máximos, lo cual indica una mejora en la recuperación elástica del material creep, donde a-c) corresponden a la muestra Mh, d-f) a la muestra Mh+0.15 % w GO, y g-i) para la muestra Mh+0.3 % w GO, respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Comparativa de desempeño estructural mediante análisis por elemento finito.</titulo>
+        <texto>Para evaluar a nivel industrial la complejidad del material propuesto en el siguiente trabajo, se utilizó un componente ficticio donde se aplicaron dos tipos de evaluaciones comúnmente utilizadas en la industria aeronáutica y automotriz. La primera, consiste en el análisis modal está basado en la norma ISO 2372, y la segunda, el análisis de choque mecánico basado en el manual ECSS-E-HB-32-25A. Para evaluar el desempeño mecánico de la resina epoxi y de la resina epoxi reforzada con fibra de vidrio, se utilizaron las propiedades disponibles en la librería de ANSYS Granta. En el caso de la matriz híbrida, tanto con cómo sin refuerzo de GO, se emplearon los datos obtenidos del análisis mecánico de la muestra tras 15 días de curado, momento en el que no se observa el efecto de la viscoelasticidad. Además, en todos los análisis, se restringieron los seis grados de libertad en los orificios para simular las zonas de fijación a otros componentes. El criterio de aceptación para el análisis modal es tener el primer modo de vibración mayor a 100 Hz para asegurar no alcanzar deformaciones de preocupación antes de lo esperado. Mientras que, para el análisis transitorio o de choque mecánico, el criterio de aceptación es no presentar deformaciones permanentes a una aceleración de 25 veces la gravedad.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis modal</titulo>
+        <texto>Para analizar el comportamiento los materiales desarrollados en el presente trabajo en alguna potencial aplicación, se deben considerar los siguientes aspectos importantes antes de realizar por ejemplo experimentos de desempeño mecánico. Entonces, la rigidez de la estructura de prueba, de acuerdo con la norma ASTM D638 (plásticos), evidentemente es regida por su geometría y por la rigidez de la muestra, de modo que la vibración del sistema presentará contribuciones tanto de la calidad del maquinado (dimensiones y tolerancias geométricas), como de la reproducibilidad de la síntesis del material con las que se le fabricará. En el caso de una potencial aplicación, como componentes electrónicos para montar en un panel de control o sistemas de navegación en aeronáutica, se considera que el panel en cuestión trabajará con una alta deflexión estática. Para obtener señales de salida que se desean evitar, se produce un movimiento indeseable del panel o estructura, que consiste en una combinación de flexión horizontal y deformación torsional. Este fenómeno puede ser monitoreado mediante sistemas avanzados de medición de vibraciones El problema del análisis modal se resolvió mediante simulación por Elementos Finitos (MEF), utilizando el problema clásico de valores propios, tal como se describe en la literatura introductoria al análisis de vibraciones mecánicas. Asimismo, se utilizó el análisis de respuesta armónica para calcular el comportamiento de la estructura en un rango definido de frecuencias y obtener la amplitud de la vibración en puntos específicos de su superficie. Las amplitudes máximas y mínimas de los modos naturales de vibración se identificaron en el gráfico como frecuencias de resonancia de la estructura, respectivamente. Además, el análisis armónico permitió predecir los espectros vibratorios de la estructura y evaluar otros efectos de las deformaciones forzadas más allá de las primeras tres frecuencias naturales. El objetivo del presente análisis es evitar que la estructura no presente su primera frecuencia de vibración por debajo de los 100 Hz, ya que los dispositivos electrónicos entran en resonancia alrededor de esta frecuencia natural, en la que son comunes deformaciones considerables, afectando el buen funcionamiento del dispositivo del que formen parte. Por lo tanto, en el presente estudio, se propuso el uso de matrices híbridas con sus respectivos reforzantes para modificar la rigidez de la estructura (ver Ilustración 4-45c); considerando que la frecuencia natural de vibración de un cuerpo (ω) depende de la rigidez (k) y de la masa (m) de acuerdo con la siguiente ecuación: Con los resultados obtenidos, se evidenció que, si un material sin refuerzo presenta frecuencias de resonancia indeseables, estas pueden evitarse reforzando el material para cambiar las frecuencias naturales de vibración. Al modificar la rigidez de la matriz, se puede evitar que la estructura fabricada entre en resonancia con el medio circundante, minimizando así las deformaciones considerables en aplicaciones potenciales. Y ambas muestras, Mh y Mh+0.15 % w GO, no mostraron una diferencia considerable entre sus respuestas vibratorias. Asimismo, la comparación entre la matriz sin refuerzo y la misma matriz con refuerzo de fibra de vidrio mostró que, aunque el refuerzo logró modificar las frecuencias naturales de la estructura, estas se aproximaron más a las frecuencias naturales que se desean evitar. Por otro lado, también se evaluó el desempeño mecánico en la presente aplicación mediante simulación por Elementos Finitos (MEF) para la prueba de choque mecánico.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis transitorio</titulo>
+        <texto>El propósito de los ensayos transitorios, de choques mecánicos, es evaluar la confiabilidad de los dispositivos sometidos a choques severos que pueden resultar de fuerzas aplicadas repentinamente o cambios bruscos en el movimiento producidos por un manejo brusco, transporte u operación en el campo. La forma de onda generada es un pulso de medio seno, con una distorsión inferior a ± 20% de la aceleración máxima. El dispositivo está sujeto a 3 pulsos de choque a lo largo de cada eje, tanto en dirección positiva como negativa (18 pulsos en total). El nivel y la duración del pico de pulso (g) se especifican en las condiciones de prueba de los estándares aplicables. La condición de prueba predeterminada para circuitos integrados es la condición de prueba B (nivel máximo de 25 G y duración de pulso de 11 ms). La duración del pulso se mide entre los puntos en los que la aceleración alcanza el 10% de su valor máximo durante el tiempo de subida y el 10% durante el tiempo de caída. Para compensar el pulso de medio seno y asegurar que el desplazamiento final y la velocidad sean cero, se pueden agregar pulsos de compensación antes o después del pulso principal, generando así una forma de onda optimizada.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conclusión sobre la caracterización estructural del GO</titulo>
+        <texto>El tamaño lateral y el número de capas del grafito original resultaron tener una influencia principalmente en la distribución del tamaño lateral, el grado de oxidación y sobre todo, en el contenido de grupos funcionales del óxido de grafeno, observados a partir de la caracterización mediante AFM y XPS. Donde el óxido de grafeno con aproximadamente el 35 % del grupo funcional epoxi muestra una excelente estabilidad en su relación atómica C/O y estructural cuando se exponen a la luz. Además, fue posible demostrar que es posible manipular el contenido de funcionalidades de oxígeno a través de diferentes fuentes de luz. Lo cual puede ser de gran utilidad cuando se requiere conservar algunas otras características dimensionales, como el tamaño lateral y el espesor, o producir un cambio en el grado de oxidación, según los requerimientos de su aplicación. Asimismo, se realizaron con éxito ensayos de nanoindentaciones suspendidas para caracterizar las propiedades mecánicas de las hojuelas de GO utilizadas en el presente trabajo. Se analizaron hojuelas de GO multicapa (&lt;5 capas) mediante nanoindentaciones por AFM cantiléver y Berkovich, para obtener los módulos elásticos y pre-esfuerzos involucrados en las nanoindentaciones suspendidas. En la nanoindentación por AFM cantilever, la hojuela de GO presentó un módulo elástico de aproximadamente Es = 240 GPa (E 2D = 211 Nm -1 ) y un pre-esfuerzo de aproximadamente σ = 1.82 GPa (σ 2D = 1.6 Nm -1 ). Mientras tanto, para la nanoindentación de Berkovich, la hojuela de GO presentó un módulo elástico de aproximadamente Es = 370 GPa (E 2D = 325.6 Nm -1 ) y un pretensado de aproximadamente σ = 949 MPa (σ 2D = 0.835 Nm -1 ). Por el contrario, en comparación con la nanoindentación vertical de Berkovich, se evidenció que podrían presentarse algunas complicaciones durante el proceso de nanoindentación con el sistema de AFM, ya que las hojuelas de GO presentaron una condición de estiramiento incompleto para el caso del Rtip más pequeño, en comparación a la condición de estiramiento completo para el caso del Rtip más grande, a profundidades de penetración similares. Por lo tanto, se concluyó que tal práctica, para llevar a cabo la caracterización mecánica de materiales 2D puede resultar en factores experimentales que afectan significativamente las mediciones de nanoindentación. En este sentido, la rugosidad de la hojuela de GO resultó tener un efecto significativo, por ejemplo, con la rigidez 2D; es decir, cuando una hojuela de GO con mayor rugosidad está en contacto con una punta de indentador más grande la rigidez 2D de la muestra tendrá un incremento considerable. Por lo cual, el resultado obtenido en el presente trabajo mostró una diferencia de aproximadamente Ss 2D =5.4 Nm -1 entre ambos tipos de pruebas de nanoindentación, asumida para el efecto del tamaño de la nanoindentación. Además de caracterizarse exhaustivamente las características de las hojuelas de GO, una contribución importante del presente trabajo fue calcular los valores de Es más representativos durante la nanoindentación suspendida, ya que la iteración de σ así como la de Es, comúnmente se consideran como parámetros de ajuste libre, pero sin considerar la geometría del indentador o características de la hojuela de GO y el fenómeno de aplanamiento de las arrugas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conclusión sobre el efecto del tamaño de indentación</titulo>
+        <texto>Una condición importante, es la consideración de que el radio de la punta más grande ofrece ventajas experimentales, es decir, evita deformaciones muy localizadas y reduce las demandas de resolución de carga experimental. Los resultados y la información sobre los procedimientos de caracterización aquí analizados proporcionan la información necesaria para mejorar la investigación mecánica de materiales 2D, donde el análisis de la nanoindentación suspendida debe incluir las consideraciones adicionales informadas, es decir, efectos de deslizamiento entre capas, adhesión con la pared lateral del sustrato, así como la modificación de su rugosidad superficial mediante la inducción de arrugas extrínsecas. Adicionalmente, este trabajo muestra los efectos de adhesión de un arreglo FS para una hojuela de GO de tres capas con un grado de oxidación de 1.8. Donde, la fuerte adherencia para el caso del AFM cantiléver se atribuyó a los efectos mecánico-químicos de la superficie rugosa producidos por los grupos hidroxilo (32%) y epoxi (43%) presentes. En el estudio con punta Berkovich, el aplanamiento de arrugas se relacionó con la pérdida de grupos de oxígeno, donde se observó una disminución en el valor de la relación O/C de 0.6 a 0.5. Los hallazgos de este trabajo contribuyen a desestimar los efectos de adhesión, teniendo un impacto más significativo el tamaño de la punta utilizada en las mediciones. En el caso de AFM, el estudio está muy localizado en un área de la hojuela de óxido de grafeno, mientras que con la punta Berkovich, el área cubierta por la punta es mucho más grande.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conclusión sobre la distribución del GO en la matriz híbrida</titulo>
+        <texto>El tiempo de curado óptimo de las muestras, se monitoreó mediante su comportamiento viscoelástico. Para el caso de las muestras hibridas con GO, 15 días después de la fabricación de la muestra se observó menor porcentaje de apilamiento del material al aplicar una indentación, lo que indicó que las cadenas poliméricas tuvieron el máximo entrecruzamiento, bajo las condiciones establecidas en el presente trabajo. Finalmente, fue evidenciado que las variaciones de las propiedades mecánicas de los materiales híbridos fueron menores en ambas muestras con material reforzante, es decir GO, lo que debe permitir a ambas muestras resistir mayor deformación previamente a su fractura. Sin embargo, el material Mh+0.15 % w GO mostró una heterogeneidad en sus propiedades mecánicas con zonas de menor tamaño, en donde nuevamente al comparar el mapeo de las PMN de las otras dos muestras, es evidente que en la muestra Mh+0.15 % w GO se disminuyó el indeseado comportamiento de distribución ondulante de las variaciones de las propiedades mecánicas, obteniéndose así, una optimización de dicho reforzamiento.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conclusiones de la potencial aplicación</titulo>
+        <texto>Mediante análisis estructurales, modal y transitorio, a través de simulación por elemento finito, se validó virtualmente la potencial aplicación del material híbrido con reforzante, en un componente electrónico comúnmente usado en aeronáutica. Mostrando que la adición de un reforzante bidimensional, es capaz de modificar considerablemente la rigidez del hibrido, evitando coincidir con las frecuencias naturales de las partes electrónicas que componen el tablero. Ilustración 6-1 Análisis de regresión del área real para un barrido de 5x5 µm respecto a la rugosidad promedio. Adicionalmente se llevó a cabo la predicción del área real de la superficie de acuerdo a los grados de rugosidad, N, establecidos por la norma DIN4769 (ver Ilustración 6-2), donde lo ideal es tener una rugosidad N 1, ya que corresponde a una rugosidad baja, de grado espejo, la cual es empleada para análisis por microscopia. Ilustración 6-2 Predicción del área real de acuerdo al grado de rugosidad. La rugosidad promedio superficial de las Mh del proyecto, tienen intervalos de confianza del 95 %, rondando entre los 10 nm y 20 nm, donde la media de la Ra de la Mh es alrededor de 16 nm, mientras que la media de la Ra de la Mh+0.15 % w de GO es alrededor de 17 nm y la media de la Ra de la Mh+0.3 % w de GO es alrededor de 11 nm. De acuerdo con lo anterior se puede decir que todas las muestras analizadas presentaron un grado de rugosidad N 1, de acuerdo con la norma DIN4769 (ver Ilustración 6-3). Como resultado, el efecto de la rugosidad promedio, fue descartado de acuerdo con la literatura, donde se menciona que, para evitar la problemática anteriormente planteada, la profundidad de penetración máxima, hmax, debe ser mayor que el 5% de los valores de Ra (ISO 14577, 2002) y esta condición fue satisfecha por completo en las pruebas de nanoindentación realizadas. probeta", el efecto de variación en máximos y mínimos de dichas propiedades mecánicas son muy similares, a los obtenidos en los primeros análisis de la "Zona superficial de la probeta" Ilustraciones 6-5,47 y 48. Y de igual forma, la distribución de comportamiento ondulante se volvió a presentar, cuando se hicieron estos últimos escaneos en la Zona inferior y Sección transversal de la probeta. Finalmente, cabe resaltar que la muestra Mh+0.15 % w de GO, de nuevo tuvo más pequeñas y dispersas zonas con valores máximos y mínimos, lo que permite homogenizar el desempeño mecánico respecto a Er, H y S a lo largo y ancho de toda la probeta.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Medición de las propiedades mecánicas por nanoindentación suspendida</titulo>
+    </referencia>
+    <referencia>
+      <titulo>3 GO como agente de reforzamiento</titulo>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Componente orgánico (resina epóxica)</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Integración del componente inorgánico</titulo>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Aplicación en la industria aeronáutica</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Análisis del número de capas</titulo>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Análisis de grupos funcionales</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Análisis del espesor</titulo>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Otros factores que influyen</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Efectos de adhesión en nanoindentación suspendida para</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Anexo 1: análisis de rugosidad de los materiales híbridos</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Ilustración 2-2 Imagen modificada de esquema de nanoindentación suspendida: a) con indentador Berkovich y b) con cantiléver AFM</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Ilustración 3-1 Metodología general del proyecto: 1-Síntesis de GO. 2-Desarrollo de los materiales híbridos por agitación mecánica, 3-Moldes de las probetas,4-Pulido de probetas, 5-Probetas montadas en disco para prueba de nanoindentación, 6-Nanoindentador Hysitron TI-950 y 7-Imágenes SPM, curvas F-h y perfil de la huella residual representativa</titulo>
+      <autores>
+        <autor>Sánchez</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ilustración 4-6 Grafito 2: a) micrografía SEM y b) distribución Weibull del tamaño lateral</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Ilustración 4-20 Esquema de la relación estadística entre N002 y TGr con la relación atómica</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Ilustración 4-23 Análisis de AFM del GO 1: a) imagen de topografía modo AC en aire, b) perfil de altura y c) perfil de rugosidad</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Ilustración 4-29 Esquema de correlación entre la relación atómica</titulo>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Segovia</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Entonces podemos encontrar el punto característico en el otro lado característico (Lado C en la Ilustración 3-8) de este nuevo triángulo. De esta forma, el trazado continúa hasta llegar al borde de la malla o a un punto característico ya trazado. (En el primer caso, la línea de contorno está abierta, mientras que</titulo>
+    </referencia>
+    <referencia>
+      <titulo>finalmente, después del trazado, se procede a conectar los puntos característicos con líneas rectas, tal y como se observa en la Ilustración</titulo>
+      <autores>
+        <autor>( Conexión</autor>
+        <autor>Yuan</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>2010) punta, respectivamente, el cual tiene un valor Rcant de aproximadamente 50 nm. Mientras tanto, en la Ilustración 4-32c se muestra una micrografía AFM del indentador Berkovich redondeado utilizado en el Triboindenter. En consecuencia, para cuantificar el radio de la punta del indentador Berkovich, se llevaron a cabo nanoindentaciones en una muestra estándar de sílice fundida, y se reprodujo una curva elástica F-h basada en el modelo de contacto de Hertz</titulo>
+      <autores>
+        <autor>Fasolino</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>La Ilustración 4-34a muestra una micrografía de AFM de una hojuela de GO depositada sobre una rejilla para TEM, la cual incluye una amplificación del área suspendida donde la hojuela fue indentada. Los datos experimentales obtenidos en dicha prueba se muestran en la Ilustración 4-34b funcionalizado en COOH</titulo>
+      <autores>
+        <autor>Gupta</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>O 1s</titulo>
+      <autores>
+        <autor>Segovia</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ilustración 4-46 Mapeo del PMN , donde a-c) corresponden a la muestra Mh, d-f) a la muestra Mh+0.15 % w GO y g-i) para la muestra Mh+0</titulo>
+    </referencia>
+    <referencia>
+      <titulo>en gran parte del área evaluada, donde se muestra una baja resistencia a la fractura y una casi homogénea resistencia al desgaste y a la deformación plástica, ver Ilustración 4-47a-c. Para el caso del mapeo de Er/H, H/Er y H/Er 2 en la muestra Mh+0.15 % w GO, donde en la Ilustración 4-47d-f se confirmó el efecto de la presencia de los grupos C-OH y C-O-C del GO, los cuales, permitieron disminuir la variación entre los valores máximos y mínimos de la resistencia a la fractura, la resistencia al desgaste y la resistencia a la deformación plástica de la muestra</titulo>
+      <autores>
+        <autor>Bao</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structure and properties of epoxy-siloxane-silica nanocomposite coatings for corrosion protection</titulo>
+      <autores>
+        <autor>R Torrico</autor>
+        <autor>S Harb</autor>
+        <autor>A Trentin</autor>
+        <autor>M Uvida</autor>
+        <autor>S Pulcinelli</autor>
+        <autor>C Santilli</autor>
+        <autor>P Hammer</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The influence of nanoadditives on surface, permeability and mechanical properties of self-organized organic-inorganic nanocomposite coatings</titulo>
+      <autores>
+        <autor>Milena Špírková</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Design of hybrid organic-inorganic materials synthesized via sol-gel chemistry</titulo>
+      <autores>
+        <autor>Clément Sanchez</autor>
+        <autor>François Ribot</autor>
+      </autores>
+      <fecha>1994</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hierarchy of hybrid materials-The place of inorganics-in-organics in it, their composition and applications</titulo>
+      <autores>
+        <autor>Mariia Saveleva</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical properties of hybrid organic-inorganic materials</titulo>
+      <autores>
+        <autor>Fayna Mammeri</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Polyimide-silica hybrid materials having interfacial bonding through use of a sol-gel technique</titulo>
+      <autores>
+        <autor>Shuhong Wang</autor>
+        <autor>Z Ahmad</autor>
+        <autor>J Mark</autor>
+      </autores>
+      <fecha>1994</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Anthony Fischer-Cripps</autor>
+        <autor>D Nicholson</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation and properties of poly (vinyl acetate/silica-gel microhybrids</titulo>
+      <autores>
+        <autor>Shoichiro Yano</autor>
+      </autores>
+      <fecha>1994</fecha>
+    </referencia>
+    <referencia>
+      <titulo>OctTES/TEOS system for hybrid coatings: real-time monitoring of the hydrolysis and condensation by Raman spectroscopy</titulo>
+      <autores>
+        <autor>De Ferri</autor>
+        <autor>Andrea Lavinia</autor>
+        <autor>Pier Lorenzi</autor>
+        <autor>Lottici</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structural characterization of hybrid organic-inorganic materials</titulo>
+      <autores>
+        <autor>Plinio Innocenzi</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hybrid Organic-Inorganic Materials: Applications in Optics, Electronics, and Energy</titulo>
+      <autores>
+        <autor>S Das</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Impact response of hybrid carbon/glass fibre reinforced polymer composites designed for engineering applications</titulo>
+      <autores>
+        <autor>Hung</autor>
+        <autor>Pui-Yan</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hybrid Organic-Inorganic Materials as a Substitute for Aluminum in Aeronautical Structural Applications: A Review</titulo>
+      <autores>
+        <autor>S Das</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene transistors</titulo>
+      <autores>
+        <autor>Frank Schwierz</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hybrid materials for supercapacitor application</titulo>
+      <autores>
+        <autor>A Malak</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent advances and future perspectives for graphene oxide reinforced epoxy resins</titulo>
+      <autores>
+        <autor>Weixin Hou</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review on development of hybrid composites for aerospace applications</titulo>
+      <autores>
+        <autor>J Dhas</autor>
+        <autor>M Raja</autor>
+        <autor>Arun</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Evaluation of physical and mechanical properties of woven bamboo glass polyester hybrid composite material</titulo>
+      <autores>
+        <autor>Bhavik Vaghasia</autor>
+        <autor>Nikunj Rachchh</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical properties of aerospace epoxy composites reinforced with 2D nano-fillers: current status and road to industrialization</titulo>
+      <autores>
+        <autor>Radhika Wazalwar</autor>
+        <autor>Megha Sahu</autor>
+        <autor>Ashok Raichur</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Applications of graphene and graphene-oxide based nanomaterials</titulo>
+      <autores>
+        <autor>Sekhar Ray</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Role of low-dimensional carbon nanostructures in hybrid material as anticorrosive coating</titulo>
+      <autores>
+        <autor>A Betancur-Lopera</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene and graphene oxide: synthesis, properties, and applications</titulo>
+      <autores>
+        <autor>Yanwu Zhu</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Accurate chemical analysis of oxygenated graphene-based materials using X-ray photoelectron spectroscopy</titulo>
+      <autores>
+        <autor>Alessandro Kovtun</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Indentation size effects in graphene oxide under suspended nanoindentation</titulo>
+      <autores>
+        <autor>E Segovia</autor>
+        <autor>Huitrón</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characterization of carbon nanotube/nanofiber-reinforced polymer composites using an instrumented indentation technique</titulo>
+      <autores>
+        <autor>Hyukjae Lee</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characterization of carbon nanofiber/epoxy nanocomposites by the nanoindentation technique</titulo>
+      <autores>
+        <autor>M Sánchez</autor>
+        <autor>J Rams</autor>
+        <autor>M Campo</autor>
+        <autor>A Jiménez-Suárez</autor>
+        <autor>A Ureña</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review on graphene-, graphene oxide-, reduced graphene oxide-based flexible composites: From fabrication to applications</titulo>
+      <autores>
+        <autor>Aamir Razaq</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High-efficient synthesis of graphene oxide based on improved hummers method</titulo>
+      <autores>
+        <autor>Huitao Yu</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Highly exfoliated graphene oxide with enhanced carbonyl content and facile amine functionalization for biomedical applications</titulo>
+      <autores>
+        <autor>Saifon Kullyakool</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene oxide based coconut shell waste: synthesis by modified Hummers method and characterization</titulo>
+      <autores>
+        <autor>Eko Sujiono</autor>
+        <autor>Hadi</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene oxide powders with different oxidation degree, prepared by synthesis variations of the Hummers method</titulo>
+      <autores>
+        <autor>Jesus Guerrero-Contreras</autor>
+        <autor>Felipe Caballero-Briones</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Path towards graphene commercialization from lab to market</titulo>
+      <autores>
+        <autor>Wei Kong</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review of graphene oxide, graphene buckypaper, and polymer/graphene composites: Properties and fabrication techniques</titulo>
+      <autores>
+        <autor>Zaheen Khan</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Über die Säurenatur und die Methylierung von Graphitoxyd</titulo>
+      <autores>
+        <autor>Ulrich Hofmann</autor>
+        <autor>Rudolf Holst</autor>
+      </autores>
+      <fecha>1939</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Monatshefte für Chemie und verwandte Teile anderer Wissenschaften</titulo>
+      <autores>
+        <autor>G Ruess</autor>
+      </autores>
+      <fecha>1947</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphite oxide. 6. Structure of graphite oxide</titulo>
+      <autores>
+        <autor>W Scholz</autor>
+        <autor>H Boehm</autor>
+      </autores>
+      <fecha>1969</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A new structure model of graphite oxide</titulo>
+      <autores>
+        <autor>T Nakajima</autor>
+        <autor>A Mabuchi</autor>
+        <autor>R Hagiwara</autor>
+      </autores>
+      <fecha>1988</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structure of graphite oxide revisited</titulo>
+      <autores>
+        <autor>Anton Lerf</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Evolution of surface functional groups in a series of progressively oxidized graphite oxides</titulo>
+      <autores>
+        <autor>Tamás Szabó</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical reduction of graphene oxide: a synthetic chemistry viewpoint</titulo>
+      <autores>
+        <autor>Chun Chua</autor>
+        <autor>Martin Kiang</autor>
+        <autor>Pumera</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Determination of the local chemical structure of graphene oxide and reduced graphene oxide</titulo>
+      <autores>
+        <autor>Kris Erickson</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>XIII. On the atomic weight of graphite</titulo>
+      <autores>
+        <autor>Benjamin Brodie</autor>
+        <autor>Collins</autor>
+      </autores>
+      <fecha>1859</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Method for the preparation of graphitic acid</titulo>
+      <autores>
+        <autor>L Staudenmaier</autor>
+      </autores>
+      <fecha>1898</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of graphitic oxide</titulo>
+      <autores>
+        <autor>W Hummers</autor>
+        <autor>R Offeman</autor>
+      </autores>
+      <fecha>1958</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The chemistry of graphene oxide</titulo>
+      <autores>
+        <autor>Daniel Dreyer</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene oxide: physics and applications</titulo>
+      <autores>
+        <autor>Jijun Zhao</autor>
+        <autor>Lizhao Liu</autor>
+        <autor>Fen Li</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanically strong, electrically conductive, and biocompatible graphene paper</titulo>
+      <autores>
+        <autor>Haiqun Chen</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Self-assembled free-standing graphite oxide membrane</titulo>
+      <autores>
+        <autor>Chengmeng Chen</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation and characterization of graphene oxide paper</titulo>
+      <autores>
+        <autor>Dmitriy Dikin</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Wafer-scale reduced graphene oxide films for nanomechanical devices</titulo>
+      <autores>
+        <autor>Jeremy Robinson</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical properties of monolayer graphene oxide</titulo>
+      <autores>
+        <autor>J Suk</autor>
+        <autor>R Piner</autor>
+        <autor>J An</autor>
+        <autor>R Ruoff</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Elastic properties of chemically derived single graphene sheets</titulo>
+      <autores>
+        <autor>Cristina Gómez-Navarro</autor>
+        <autor>Marko Burghard</autor>
+        <autor>Klaus Kern</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effects of functional groups on the mechanical and wrinkling properties of graphene sheets</titulo>
+      <autores>
+        <autor>Qingbin Zheng</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical properties of graphene oxides</titulo>
+      <autores>
+        <autor>Lizhao Liu</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fracture behavior of graphene mounted on stretchable substrate</titulo>
+      <autores>
+        <autor>Tianxiao Niu</autor>
+        <autor>Guoxin Cao</autor>
+        <autor>Chunyang Xiong</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation of the mechanical properties of thin films by nanoindentation, considering the effects of thickness and different coating-substrate combinations</titulo>
+      <autores>
+        <autor>Shaohua Chen</autor>
+        <autor>Lei Liu</autor>
+        <autor>Tzuchiang Wang</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High strength measurement of monolayer graphene oxide</titulo>
+      <autores>
+        <autor>C Cao</autor>
+        <autor>M Daly</autor>
+        <autor>C Singh</autor>
+        <autor>Y Sun</autor>
+        <autor>T Filleter</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical properties characterization of two-dimensional materials via nanoindentation experiments</titulo>
+      <autores>
+        <autor>G Cao</autor>
+        <autor>H Gao</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>C Ruiz-Vargas</autor>
+        <autor>H Zhuang</autor>
+        <autor>P Huang</autor>
+        <autor>A Van Der Zande</autor>
+        <autor>S Garg</autor>
+        <autor>P Mceuen</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>L</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Softened elastic response and unzipping in chemical vapor deposition graphene membranes</titulo>
+      <autores>
+        <autor>J Park</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Measurement of the elastic properties and intrinsic strength of monolayer graphene</titulo>
+      <autores>
+        <autor>C Lee</autor>
+        <autor>X Wei</autor>
+        <autor>J Kysar</autor>
+        <autor>J Hone</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Contact mechanics</titulo>
+      <autores>
+        <autor>A Fischer-Cripps</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene-based polymer nanocomposites</titulo>
+      <autores>
+        <autor>Jeffrey Potts</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A route to high surface area, porosity and inclusion of large molecules in crystals</titulo>
+      <autores>
+        <autor>Hee Chae</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis of graphene-based nanosheets via chemical reduction of exfoliated graphite oxide</titulo>
+      <autores>
+        <autor>Sasha Stankovich</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Reinforcement and interphase of polymer/graphene oxide nanocomposites</titulo>
+      <autores>
+        <autor>Chaoying Wan</autor>
+        <autor>Biqiong Chen</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The effect of flake diameter on the reinforcement of few-layer graphene-PMMA composites</titulo>
+      <autores>
+        <autor>Cristina Valles</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of the C/O ratio in graphene oxide materials on the reinforcement of epoxy-based nanocomposites</titulo>
+      <autores>
+        <autor>Cristina Vallés</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Convenient preparation of tunably loaded chemically converted graphene oxide/epoxy resin nanocomposites from graphene oxide sheets through two-phase extraction</titulo>
+      <autores>
+        <autor>Huafeng Yang</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Improved mechanical performance of bisphenol-A grapheneoxide nano-composites</titulo>
+      <autores>
+        <autor>Suneev Bansal</autor>
+        <autor>Anil</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hybrid porous solids: past, present, future</titulo>
+      <autores>
+        <autor>Gérard Férey</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ordered mesoporous materials at the beginning of the third millennium: new strategies to create hybrid and non-siliceous variants</titulo>
+      <autores>
+        <autor>Van Der</autor>
+        <autor>Voort</autor>
+        <autor>Pascal</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Applications of hybrid organic-inorganic nanocomposites</titulo>
+      <autores>
+        <autor>Clément Sanchez</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermoplastic materials: properties, manufacturing methods, and applications</titulo>
+      <autores>
+        <autor>Christopher Ibeh</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hybrid nanocomposites for nanotechnology</titulo>
+      <autores>
+        <autor>Lhadi Merhari</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Anti-corrosion hybrid coatings based on epoxy-silica nanocomposites: Toward relationship between the morphology and EIS data</titulo>
+      <autores>
+        <autor>Ehsan Bakhshandeh</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Epoxy-silica hybrids by nonaqueous sol-gel process</titulo>
+      <autores>
+        <autor>Sergii Ponyrko</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Designed hybrid organic-inorganic nanocomposites from functional nanobuilding blocks</titulo>
+      <autores>
+        <autor>Clément Sanchez</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Molecular chemistry and nanosciences: on the way to interactive materials</titulo>
+      <autores>
+        <autor>Robert Corriu</autor>
+        <autor>Ahmad Mehdi</autor>
+        <autor>Catherine Reyé</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Supported organometallic complexes. 5. Polysiloxane-bound etherphosphines and ruthenium complexes. A characterization by solid-state NMR spectroscopy and catalysis</titulo>
+      <autores>
+        <autor>Ekkehard Lindner</autor>
+      </autores>
+      <fecha>1994</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Sol-gel preparation of composites of poly (dimethylsiloxane) with SiO2 and SiO2/TiO2, and their mechanical properties</titulo>
+      <autores>
+        <autor>Jianye Wen</autor>
+        <autor>James Mark</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis, structure, and properties of poly (dimethylsiloxane) networks reinforced by in situ-precipitated silica-titania, silica-zirconia, and silica-alumina mixed oxides</titulo>
+      <autores>
+        <autor>Jianye Wen</autor>
+        <autor>James Mark</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Toughness enhancement of polyimides by in situ generation of silica particles</titulo>
+      <autores>
+        <autor>Musto</autor>
+        <autor>Pellegrino</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thickness dependence of work of fracture parameters of an amorphous copolyester</titulo>
+      <autores>
+        <autor>Karger-Kocsis</autor>
+        <autor>Tibor József</autor>
+        <autor>Eric Czigány</autor>
+        <autor>Moskala</autor>
+      </autores>
+      <fecha>1997</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Development of epoxy mixtures for application in aeronautics and aerospace</titulo>
+      <autores>
+        <autor>Liberata Guadagno</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermal and Mechanical Characterization of an Aeronautical Graded Epoxy Resin Loaded with Hybrid Nanoparticles Nanomaterials</titulo>
+      <autores>
+        <autor>Aldobenedetto Zotti</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hybrid polymer composites for structural applications. Hybrid Polymer Composite Materials</titulo>
+      <autores>
+        <autor>A Ashori</autor>
+        <autor>H Nguyen</autor>
+        <autor>W Zatar</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Optimización de la estructura de un fuselaje de avión con distintos materiales CFRP</titulo>
+      <autores>
+        <autor>Andrés Benavente</autor>
+        <autor>María Gema</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Obtenido de Recursos Educativos</titulo>
+      <autores>
+        <autor>Cgaivao</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphite. Encyclopedia of Astrobiology</titulo>
+      <autores>
+        <autor>F Albarede</autor>
+        <autor>: In</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Diglycidyl ether of bisphenol A (DGEBA)</titulo>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Alkyl Orthosilicates1</titulo>
+      <autores>
+        <autor>A Dearing</autor>
+        <autor>E Reid</autor>
+      </autores>
+      <fecha>1928</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Epoxies. Handbook of Thermoset Plastics</titulo>
+      <autores>
+        <autor>W Brostow</autor>
+        <autor>S Goodman</autor>
+        <autor>J Wahrmund</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>R Menéndez</autor>
+        <autor>C Blanco</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanism of graphene oxide formation</titulo>
+      <autores>
+        <autor>A Dimiev</autor>
+        <autor>J Tour</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Differences in the structure and functionalities of graphene oxide and reduced graphene oxide obtained from graphite with various degrees of graphitization</titulo>
+      <autores>
+        <autor>I Bychko</autor>
+        <autor>A Abakumov</autor>
+        <autor>O Didenko</autor>
+        <autor>M Chen</autor>
+        <autor>J Tang</autor>
+        <autor>P Strizhak</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphite to graphene via graphene oxide: an overview on synthesis, properties, and applications</titulo>
+      <autores>
+        <autor>D Hansora</autor>
+        <autor>N Shimpi</autor>
+        <autor>S Mishra</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene oxide. Origin of acidity, its instability in water, and a new dynamic structural model</titulo>
+      <autores>
+        <autor>A Dimiev</autor>
+        <autor>L Alemany</autor>
+        <autor>J Tour</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermal stability and chemical analysis of hybrid materials reinforced with graphene oxide</titulo>
+      <autores>
+        <autor>A Betancur</autor>
+        <autor>A García</autor>
+        <autor>F Pérez</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>The Scherrer equation versus the'Debye-Scherrer equation'</titulo>
+      <autores>
+        <autor>U Holzwarth</autor>
+        <autor>N Gibson</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis of graphene oxide using modified hummers method: solvent influence</titulo>
+      <autores>
+        <autor>N Zaaba</autor>
+        <autor>K Foo</autor>
+        <autor>U Hashim</autor>
+        <autor>S Tan</autor>
+        <autor>W Liu</autor>
+        <autor>C Voon</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A X-ray diffraction analysis on graphene layers of Assam coal</titulo>
+      <autores>
+        <autor>B Saikia</autor>
+        <autor>R Boruah</autor>
+        <autor>P Gogoi</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>WSXM: A software for scanning probe microscopy and a tool for nanotechnology</titulo>
+      <autores>
+        <autor>Ignacio Horcas</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Estudio de la adhesión en la rugosidad del aluminio</titulo>
+      <autores>
+        <autor>Torrejón Magdaleno</autor>
+        <autor>Daniel</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Surface characterization techniques for determining the root-meansquare roughness and power spectral densities of optical components</titulo>
+      <autores>
+        <autor>Angela Duparre</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Operating Instructions easyScan 2 AFM Version 1.6</titulo>
+      <autores>
+        <autor>A Nanosurf</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Measurement of hardness and elastic modulus by instrumented indentation: Advances in understanding and refinements to methodology</titulo>
+      <autores>
+        <autor>W Oliver</autor>
+        <autor>G Pharr</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of indenter tip geometry on elastic deformation during nanoindentation</titulo>
+      <autores>
+        <autor>H Bei</autor>
+        <autor>E George</autor>
+        <autor>J Hay</autor>
+        <autor>G Pharr</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Indentation in polymers</titulo>
+      <autores>
+        <autor>A Flores</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>On the significance of the H/E ratio in wear control: a nanocomposite coating approach to optimised tribological behaviour</titulo>
+      <autores>
+        <autor>A Leyland</autor>
+        <autor>A Matthews</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation and tribological behaviors of a novel organic-inorganic hybrid resin bonded solid lubricating coating cured by ultraviolet radiation</titulo>
+      <autores>
+        <autor>Yanjun Ma</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparative nanoindentation creep study of ductile metal, ductile polymer and polymer-fly ash composite</titulo>
+      <autores>
+        <autor>S Cholake</autor>
+        <autor>M Mada</autor>
+        <autor>R Kumar</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanoindentation and nanoscratching of hard carbon coatings for magnetic disks</titulo>
+      <autores>
+        <autor>T Tsui</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The hardness of metals</titulo>
+      <autores>
+        <autor>David Tabor</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nano-indentation of polymeric surfaces</titulo>
+      <autores>
+        <autor>B Briscoe</autor>
+        <autor>L Fiori</autor>
+        <autor>E Pelillo</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effects of different pH-values on the nanomechanical surface properties of PEEK and CFR-PEEK compared to dental resin-based materials</titulo>
+      <autores>
+        <autor>Gao</autor>
+        <autor>Shuai</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanoindentation and nanoscratch investigations on graphene-based nanocomposites</titulo>
+      <autores>
+        <autor>M Shokrieh</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Modelling of creep and stress relaxation test of a polypropylene microfibre by using fraction-exponential kernel</titulo>
+      <autores>
+        <autor>Andrea Sorzia</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The effect of holding time on nanoindentation measurements of creep in bone</titulo>
+      <autores>
+        <autor>Ziheng Wu</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Indentation creep of superelastic hard carbon</titulo>
+      <autores>
+        <autor>O Chernogorova</autor>
+        <autor>E Drozdova</autor>
+        <autor>I Lukina</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Explicit discrete element method for block systems-the distinct element method</titulo>
+      <autores>
+        <autor>Lanru Jing</autor>
+        <autor>Ove Stephansson</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Interpolation of data on the surface of a sphere</titulo>
+      <autores>
+        <autor>Robert Renka</autor>
+      </autores>
+      <fecha>1984</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Automatic drawing of equal quantity curve</titulo>
+      <autores>
+        <autor>F Yuan</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Understanding the adsorptive and photoactivity properties of Ag-graphene oxide nanocomposites</titulo>
+      <autores>
+        <autor>R Martínez-Orozco</autor>
+        <autor>H Rosu</autor>
+        <autor>S Lee</autor>
+        <autor>V Rodríguez-González</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Size-dependent structural behaviors of crumpled graphene sheets</titulo>
+      <autores>
+        <autor>Yangchao Liao</autor>
+        <autor>Zhaofan Li</autor>
+        <autor>Wenjie Xia</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Unlocking thermogravimetric analysis (TGA) in the fight against "Fake graphene" materials</titulo>
+      <autores>
+        <autor>Farzaneh Farivar</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermogravimetric analysis (TGA) of graphene materials: effect of particle size of graphene, graphene oxide and graphite on thermal parameters</titulo>
+      <autores>
+        <autor>Farzaneh Farivar</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Different Types and Intense Classification of 2D Materials</titulo>
+      <autores>
+        <autor>Mayank Garg</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene oxide model with desirable structural and chemical properties</titulo>
+      <autores>
+        <autor>Q Qiao</autor>
+        <autor>C Liu</autor>
+        <autor>W Gao</autor>
+        <autor>L Huang</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Probing the thermal deoxygenation of graphene oxide using high-resolution in situ X-ray-based spectroscopies</titulo>
+      <autores>
+        <autor>A Ganguly</autor>
+        <autor>S Sharma</autor>
+        <autor>P Papakonstantinou</autor>
+        <autor>J Hamilton</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Intrinsic ripples in graphene</titulo>
+      <autores>
+        <autor>A Fasolino</autor>
+        <autor>J Los</autor>
+        <autor>M Katsnelson</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Wrinkling in graphene sheets and graphene oxide papers</titulo>
+      <autores>
+        <autor>X Shen</autor>
+        <autor>X Lin</autor>
+        <autor>N Yousefi</autor>
+        <autor>J Jia</autor>
+        <autor>J.-K Kim</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>K Sampathkumar</autor>
+        <autor>C Androulidakis</autor>
+        <autor>E Koukaras</autor>
+        <autor>J Rahova</autor>
+        <autor>K Drogowska</autor>
+        <autor>M Kalbac</autor>
+        <autor>O Frank</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Improved synthesis of graphene oxide</titulo>
+      <autores>
+        <autor>D Marcano</autor>
+        <autor>D Kosynkin</autor>
+        <autor>J Berlin</autor>
+        <autor>A Sinitskii</autor>
+        <autor>Z Sun</autor>
+        <autor>A Slesarev</autor>
+        <autor>J Tour</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Plasticity and Ductility in Graphene Oxide Through a Mechanochemically Induced Damage Tolerance Mechanism</titulo>
+      <autores>
+        <autor>X Wei</autor>
+        <autor>L Mao</autor>
+        <autor>R Soler-Crespo</autor>
+        <autor>J Paci</autor>
+        <autor>J Huang</autor>
+        <autor>S Nguyen</autor>
+        <autor>H Espinosa</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Torres-Torres</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Defining the parameters of a cantilever tip AFM by reference structure</titulo>
+      <autores>
+        <autor>V Bykov</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The influence of oxygencontaining functional groups on the surface behavior and roughness characteristics of graphene oxide</titulo>
+      <autores>
+        <autor>Ahmad Allahbakhsh</autor>
+        <autor>Farhad Sharif</autor>
+        <autor>Saeedeh Mazinani</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Application of phase imaging and force modulation mode for description of dispersion of carbon nanotubes in polyol matrix</titulo>
+      <autores>
+        <autor>M Woźniak</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Wettability and surface free energy of graphene films</titulo>
+      <autores>
+        <autor>Shiren Wang</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study on the surface energy of graphene by contact angle measurements</titulo>
+      <autores>
+        <autor>Andrew Kozbial</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Role of oxygen functional groups in reduced graphene oxide for lubrication</titulo>
+      <autores>
+        <autor>Bhavana Gupta</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Correlation between molecular structure and interfacial properties of edge or basal plane modified graphene oxide</titulo>
+      <autores>
+        <autor>Hongmei Yang</autor>
+        <autor>Jiu-Sheng Li</autor>
+        <autor>Xiangqiong Zeng</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study on the surface energies and dispersibility of graphene oxide and its derivatives</titulo>
+      <autores>
+        <autor>Jinfeng Dai</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Adhesion effects on free-standing indentations for graphene oxide</titulo>
+      <autores>
+        <autor>E Segovia</autor>
+        <autor>D Alejandra Huitrón</autor>
+        <autor>A Torres-Torres</autor>
+        <autor>Garcia-Garcia</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Temperature-dependent adhesion of graphene suspended on a trench</titulo>
+      <autores>
+        <autor>Zoe Budrikis</autor>
+        <autor>Stefano Zapperi</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene and graphene oxide for bio-sensing: General properties and the effects of graphene ripples</titulo>
+      <autores>
+        <autor>Gulsah Yildiz</autor>
+        <autor>Majbritt Bolton-Warberg</autor>
+        <autor>Firas Awaja</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of interlayer sliding on the estimation of elastic modulus of multilayer graphene in nanoindentation simulation</titulo>
+      <autores>
+        <autor>Jihoon Han</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Direct mechanochemical cleavage of functional groups from graphene</titulo>
+      <autores>
+        <autor>Jonathan Felts</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanoindentation in polymer nanocomposites</titulo>
+      <autores>
+        <autor>Ana Díez-Pascual</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mapping of mechanical properties of WC-Co using nanoindentation</titulo>
+      <autores>
+        <autor>Håkan Engqvist</autor>
+        <autor>Urban Wiklund</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanoindentation mapping of the mechanical properties of human molar tooth enamel</titulo>
+      <autores>
+        <autor>Janet Cuy</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Evaluation of a new modulus mapping technique to investigate microstructural features of human teeth</titulo>
+      <autores>
+        <autor>G Balooch</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene oxide as a catalyst for ring opening reactions in amine crosslinking of epoxy resins</titulo>
+      <autores>
+        <autor>Maria Acocella</autor>
+        <autor>Rosaria</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>In situ preparation of functionalized graphene oxide/epoxy nanocomposites with effective reinforcements</titulo>
+      <autores>
+        <autor>Chenlu Bao</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Técnica de medición de vibraciones torsionales</titulo>
+      <autores>
+        <autor>Guillermo Chiappero</autor>
+        <autor>José Stuardi</autor>
+        <autor>Raúl Ritta</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Estudio de aplicación práctica de estructuras de rigidez variable</titulo>
+      <autores>
+        <autor>Calvo Revaliente</autor>
+        <autor>David</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Finite element modeling of nano-indentation technique to characterize thin film coatings</titulo>
+      <autores>
+        <autor>Abdulaziz Alaboodi</autor>
+        <autor>Zahid Hussain</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Metallic Materials-Instrumented Indentation Test for Hardness and Materials Parameters ISO</titulo>
+      <autores>
+        <autor>Iso</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>γ -Aminopropyl triethoxysilane functionalized graphene oxide for composites with high dielectric constant and low dielectric loss</titulo>
+      <autores>
+        <autor>X Zhi</autor>
+        <autor>Y Mao</autor>
+        <autor>Z Yu</autor>
+        <autor>S Wen</autor>
+        <autor>Y Li</autor>
+        <autor>L Zhang</autor>
+        <autor>L Liu</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+  </referencias>
+</tesis>

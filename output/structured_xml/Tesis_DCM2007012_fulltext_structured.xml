@@ -1,0 +1,2218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo>"Modulación de las propiedades optoelectrónicas del NiO mediante la variación de condiciones oxidativas en la síntesis por ALD" PRESENTA</titulo>
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>Mario Alberto</autor>
+      <autor>Hidrogo Rico</autor>
+      <autor>D Eduardo</autor>
+      <autor>Martínez Guerra</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>Sin título</titulo>
+        <texto>II películas de Ni1-xO sintetizadas por TALD y PDALD. La síntesis P -O2 exhiben una alta densidad de Ni 3+ (13 % at.) en la superficie, lo cual está directamente relacionado con las vacancias de níquel (VNi), confirmando la conductividad tipo p. El espectro REELS mostró que el agente oxidante no afecta significativamente en el band gap (Eg) de las películas, presentando diferencias de 0.2 eV. El estudio UPS, indica que la función de trabajo (𝜑) y el máximo de banda de valencia (VBM) pueden ser modulados dependiendo del agente oxidante empleado, permitiendo hacer variaciones de ~1 eV entre las síntesis TALD y PALD. Los resultados sugieren que las bandas de energía de los Ni1-xO y la perovskita híbrida CsFAMAPbIBr presentan un mejor alineamiento cuando se emplea la metodología PDALD. En la tercer y última etapa, se presenta una breve discusión sobre la elaboración de PSC empleando el óxido con mejores características químicas y físicas como capa transportadora de huecos y evaluación de ésta.  IV Figura 17: (a) curvas J-V de PSC empleando diferentes HTL, (b) parámetros obtenidos en PSC con Ni1-xO sintetizado por sol-gel y combustión, (c) mejor curva J-V de PSC con Ni1-xO obtenido por el método de combustión y (d) espectro de eficiencia de conversión del fotón incidente (IPCE) para la PSC con Ni1-xO obtenido por el proceso de combustión</texto>
+      </seccion>
+      <seccion>
+        <titulo>Atomic layer deposition (ALD)</titulo>
+        <texto>El ALD es una técnica de síntesis de películas delgadas que es basado en el uso secuencial de dos semirreacciones químicas en fase gaseosa, las cuales toman lugar en una superficie activada para depositar la capa de un material deseado. Figura 11: Representación esquemática de un ciclo ALD.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Mecanismo de crecimiento en el ALD</titulo>
+        <texto>El ALD es una técnica que se ha establecido como un método de síntesis versátil para crecer películas delgadas de alta calidad de materiales inorgánicos, tales como óxidos, nitruros y metales El ALD, consiste en un crecimiento secuencial de reacciones binarias que dejan una superficie autoterminada, tal como se muestra en la Figura 11. En este, se utilizan dos precursores, los cuales tienen en su composición los elementos de interés que se buscan depositar, por lo que, la reacción química a generar puede expresarse como: Donde AB, son los elementos que se desean combinar para la obtención del material de interés. Esta reacción se encuentra asistida por temperatura y, además, el primer precursor debe reaccionar con los grupos químicos que se encuentren en la superficie del sustrato para poder iniciar con el proceso secuencial. Este proceso, consiste en 4 pasos: I) Llevar a cabo una semirreacción autoterminada con el precursor organometálico (primer reactante) y los grupos unidos a la superficie del sustrato.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Temperatura de ventana ALD</titulo>
+        <texto>Para un proceso ALD, es un muy importante definir un régimen de temperatura donde, la temperatura de depósito no tendrá influencia en el GPC Por otro lado, a bajas temperaturas de síntesis, todavía puede existir un comportamiento ideal, por ejemplo, condensación o fisisorción de las moléculas precursoras (marca a) Figura 12: Representación gráfica de la "temperatura de ventana ALD". Por otro lado, existe la variante llamada, Plasma-Enhanced ALD (PEALD), el cual consiste en que el plasma de un gas se produce al someterlo a altos campos eléctricos, los cuales, provocan la aceleración y el calentamiento de electrones. Este efecto, va aumentando con respecto al tiempo, hasta obtenerse el efecto avalancha, teniendo los electrones la capacidad de colisionar contra otros electrones de las moléculas del gas y provocar la ionización o disociación de estas, dependiendo de la energía que tengan por la distribución de Fermi-Dirac. Al obtener átomos disociados y neutros, estos pueden reaccionar con una superficie que no esté pasivada Cuando se realiza la síntesis de óxidos metálicos, normalmente, se dosifica un precursor organometálico para que reaccione con los grupos -OH naturales de la superficie del sustrato. Las reacciones autolimitadas, se logran debido a la no reacción del grupo funcional externo de las moléculas con el gas mismo o el sustrato después de las reacciones de superficie La dosificación del agente oxidante es el siguiente paso para la obtención de una película de oxido metálico. Además, como se mencionó previamente, es necesario realizar purgas entre cada paso para evitar reacciones similar del CVD. Desde este enfoque, los agentes oxidantes más comúnmente usados en la síntesis de óxidos metálicos por ALD/PEALD y su aplicación en tecnologías de PSC, son el ozono en ALD y plasma de oxígeno Figura 13: Representación esquemática de un ciclo ALD/PEALD Dentro del PEALD, es posible, emplear tres configuraciones de uso; REALD, DPALD, RPALD, en estas configuraciones el REALD consiste en mantener una fuente de plasma lejos de la cámara de reacción en donde se hace el proceso ALD. Aquí, se mantiene un gas encerrado en el cual se genera un plasma y produce ciertas especies en forma gaseosa para ser transferidas hasta la cámara de reacción para cubrir la superficie del sustrato. Sin embargo, en este caso es común tener recombinación de las especies ionizadas. En el DPALD, se produce un Capacitive Coupled Plasma (CCP), el cual consiste en que se genera un plasma a través de electrodos que están dentro de la cámara de reacción, los cuales son generados por la diferencia de potencial aplicada a radiofrecuencia entre dos regiones en un espacio confinado y agregando un gas a una presión determinada. Aquí, aunque el plasma está en contacto directo con la superficie del sustrato, no es posible transferir mucha cantidad de calor a la superficie del sustrato. Ya que, en este proceso, los electrones libres son los que se encuentran a muy alta temperatura, por lo que no influyen en la transferencia de temperatura del sustrato Desde este enfoque es posible reducir las temperaturas de reacción dentro de la cámara de reacción ya que los iones que se generan ayudan a proporcionar energía a la reacción en tiempos cortos, dependiendo de los precursores empleados. Esto suele ser ventajoso ya que se puede aplicar para recubrir materiales con bajos de punto de fusión. provenientes de los precursores organometálicos empleados, y pueden afectar directamente el mecanismo de crecimiento, ya que disminuyen el mecanismo de reacción autolimitante ideal. Presentándose aquí, el reto principal en la síntesis por ALD, el cual es, la correcta elección de los precursores para un comportamiento ideal ALD, ya que estos afectan directamente el proceso de síntesis y la integridad de los materiales a sintetizar</texto>
+      </seccion>
+      <seccion>
+        <titulo>Métodos de síntesis del Ni1-xO</titulo>
+        <texto>El Ni1-xO, ha sido ampliamente usado en celdas solares basadas en silicio, celdas solares orgánicas y PSC. A la fecha, este puede ser preparado por dos categorías de síntesis; química y física. Sin embargo, es de considerarse, que las propiedades que obtenga el Ni1-xO, dependerán ampliamente del método de síntesis emplead, ya que en los diferentes métodos de preparación se obtendrá una composición diferente, en donde, se verá afectada la función de trabajo, conductividad y propiedades ópticas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Métodos físicos de síntesis</titulo>
+        <texto>Para fabricas películas de Ni1-xO con una alta calidad, es común emplear algunos métodos de síntesis físicos. Donde, el RF magnetron sputtering es el más ampliamente usado. Este método, no solo deposita películas de alta calidad, densas y uniformes, también, tiene la capacidad de depositar materiales a altas tasas de crecimiento y es un método de síntesis que puede ser usado a gran escala. Sin embargo, algunos inconvenientes se presentan cuando se planea sintetizar Ni1-xO como HTL en PSC, ya que las películas que sintetiza tienen baja conductividad y un alineamiento de bandas imperfecto con la perovskita. Sin embargo, para solucionar esto, Guojia Fang y colaboradores emplearon una estrategia donde incluyeron un annealing y un tratamiento con plasma de O2. Atraves de esto lograron mejorar las características de las películas, donde incrementaron la densidad de portadores 3 órdenes de magnitud y una mejor conductividad, además, lograron modular el alineamiento de bandas con respecto al de la perovskita, y finalmente, lograron obtener una eficiencia de 18.7% Otro método de síntesis físico muy interesante en la fabricación de películas delgadas de Ni1-xO es el PLD (pulsed laser deposition). Aquí, el oxígeno juega un rol vital en el proceso de síntesis, ya que aquí se puede manipular la formación de vacancias de oxígeno y así, alterando el EF Sin embargo, el principal problema en la síntesis física está en los altos costos del equipamiento necesario y el controlar las condiciones de síntesis.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Método de Sol-gel</titulo>
+        <texto>El método de sol-gel es uno de los métodos más usados para la síntesis de Ni1-xO, en donde, el precursor sol es formado mediante sales de níquel y estabilizador al solvente orgánico, después sobre el sustrato mediante spin-coating o por spray pyrolysis. Posterior a eso, se emplea un annealing a temperaturas menores de 300°C para remover los componentes orgánicos y mejorar la cristalinidad del Ni1-xO. En 2014 se adoptó este método en PSC con una arquitectura p-i-n y obteniendo PCE de 9.11%, también se comparó el desempeño con el de PSC empleado PEDOT:PSS como HTL bajo las mismas condiciones, donde el Ni1-xO demostró un mejor desempeño que el de su contraparte orgánica También, se ha demostrado que es posible lograr hasta 14.42% de eficiencia en PSC solo ajustando el espesor de las películas de Ni1-xO, asociando esto a las diferentes morfologías de las películas, logrando una mejor extracción de huecos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Método de combustión</titulo>
+        <texto>Los mecanismos de reacción involucrados en este métodos de síntesis son: Debido a que es un proceso que requiere poca energía para formar óxidos metálicos de transición es uno de los procesos más atractivos para su producción en masa. Respecto a su aplicación en PSC, se ha empleado este método para sintetizar Ni1-xO dopado con cobre (Cu:Ni1-xO). En este estudio, se realizó una comparativa con el método sol-gel, donde se encontró que el método de combustión es un proceso a menor temperatura de procesamiento y que el Ni1-xO obtenido, tenían mejores propiedades, tales como, cristalinidad, homogeneidad, transparencia óptica y conductividad eléctrica y al ser utilizada como HTL en PSC las eficiencias subieron a 20.2% (Figura 17)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis química de nanopartículas de Ni1-xO</titulo>
+        <texto>La síntesis de nanopartículas tiene dos rutas para la preparación de Ni1-xO donde, la primera envuelve el método solvotermal derivado y la segunda se basa en descomponer nanopartículas de Ni(OH)2, la cual es llamada, precipitación química. Empleando el método solvotermal derivado para nanopartículas de Ni1-xO, se han logrado obtener PCE de 16.6%, donde, los nanocristales fueron preparados a temperatura ambiente sin ningún tratamiento térmico, logrando así obtener películas uniformes, densas y con una estabilidad química superior Cuando se utiliza precipitación térmica para preparar nanopartículas de Ni1-xO, combinado con el puntos cuánticos con catión modificado de CdxZn1-xSeyS1-y sobre perovskita, es posible obtener eficiencias de 21.63% en PSC con una estabilidad del dispositivo excelente Un ejemplo del mecanismo de reacción involucrado en la síntesis química es el siguiente: La síntesis química de nanopartículas es de bajo costo y generan PSC estables, lo cual la hace uno de los métodos de síntesis más atractivos para su aplicación a gran escala.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Técnicas de depósito químico</titulo>
+        <texto>La síntesis química puede ser dividida en dos métodos, deposito en solución y en fase vapor. Para los procesos en solución, los precursores de Ni1-xO pueden ser depositados por spincoating, tal como se mencionó previamente, sin embargo, esta técnica no es rentable para preparación a gran escala de películas de Ni1-xO. Otro ejemplo es el spray-pyrolysis, el cual puede depositar películas de alta densidad y calidad sobre sustratos de área grande. Además, se ha demostrado que es posible obtener 15% de eficiencia e PSC en un área de ~1 cm 2 Figura 18: Representación esquemática de la síntesis de películas de Ni1-xO sobre FTO Aparte del spin-coating y del spray-pyrolysis, existen otros métodos de síntesis, tales como, electrodeposición química, depósito de baño químico, etc. Donde, en el método de electrodeposición se emplean dos pasos: el primero consiste en la electrodeposición de Ni(OH)2 y el segundo paso, consiste en la descomposición de Ni(OH)2 para transformarlo en Ni1-xO en temperaturas superiores a 300°C. La reacción general seria Este método se ha utilizado en la síntesis de Ni1-xO como HTL en PSC, con un área activa de 0.25 cm2, logrando una eficiencia del 17.77% El método de baño químico es un proceso donde se introduce un sustrato en las soluciones precursores, por un tiempo determinado. La representación esquemática presentada en la Figura 19, donde se introdujo un sustrato de vidrio recubierto con FTO para ser recubierto por una películas de hidróxido/oxihidroxido de níquel. Después de este proceso de deposición, las películas pasan a ser deshidratada mediante un annealing de 500°C en aire. Este método fue empleado para preparar películas de Ni1-xO mesoporoso, el cual mejoro el desempeño de las PSC con un incremento de colección de luz y transporte de carga</texto>
+      </seccion>
+      <seccion>
+        <titulo>Preparación de sustratos</titulo>
+        <texto>Para la síntesis de películas de Ni1-xO, sustratos de vidrio, silicio, FTO e ITO, fueron limpiados con acetona, isopropanol y agua desionizada en un baño ultrasónico durante 15 minutos en cada paso. Posterior a este proceso los sustratos fueron secados con un flujo de nitrógeno e inmediatamente después, los sustratos fueron introducidos en el reactor de ALD para el proceso de síntesis. Los depósitos de Ni1-xO fueron realizados en el equipo TFS200 de la marca BENEQ ubicado en el Laboratorio de Síntesis de Películas Delgadas en las instalaciones de CIMAV subsede Monterrey.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis de ETL y evaporación de contactos de Au</titulo>
+        <texto>Para la síntesis del PCBM (ETL), se preparó una disolución de 10 mg/ml de polvos de PCBM en clorobenceno, este procedimiento fue elaborado en una cámara de guantes a 2.5 mbar de 51 presión, 0.2 ppm de oxígeno y 2 ppm de humedad. Inmediatamente, la disolución fue trasladada a la cámara climática con un ambiente inerte, donde, se empleó el proceso de deposición del PCBM sobre perovskita/Ni1-xO/FTO/Vidrio. En el proceso de spin-coating, se dosifico la disolución de PCBM, para así, realizar un centrifugado de 1400 rpm durante 30 s, tal como se muestra en la Figura 30: Método de spin-coating para la síntesis del PCBM (ETL).Figura 30. Posterior a la deposición de la ETL, se crecieron 70 nm de Au por medio de evaporación térmica, esta capa es la asociada al electrodo superior.</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>I. Introducción</titulo>
+        <texto>Con el incremento en el consumo de energía y contaminación ambiental, la humanidad busca fuentes de energía que no solo sean ambientalmente sostenibles, sino que también sean comercialmente viables. Al mismo tiempo, la utilización de fuentes de energía limpias y renovables se ha convertido en un requisito previo para el desarrollo de la sociedad humana y es por lo que existen fuentes de energía renovables, como las hidrotermales, geotérmicas, eólicas, solares, etc. Las cuales, actúan como fuentes limpias y renovables. Entre la variedad de nuevas tecnologías energéticas, la energía solar es sin duda, una de las tecnologías más prometedoras y pretende sustituir el uso de fuentes de energía fósil, ya que en unos años el uso de estas no podrá cumplir con el desarrollo sostenible de la humanidad Durante la última década, el surgimiento de celdas solares de perovskita (PSC) híbridas orgánicas-inorgánicas ha atraído gran atención debido a sus altas eficiencias de conversión de energía (PCE). Debido a que el uso de materiales tipo perovskita como material permite un desarrollo escalable en celdas solares, ya que los procesos de absorción de luz y el transporte de carga están desacoplados, siendo distinto a las celdas a base de silicio, donde, estos dos fenómenos ocurren en el mismo material. Además, las perovskitas de haluro orgánico-inorgánico (OIHP) incluyen propiedades ópticas interesantes, incluyendo un banda gap (Eg) directo de 1.2 a 2.3 eV y procesabilidad de soluciones a baja temperatura Las PSC han surgido históricamente como una evolución natural de la tecnología DSSC (Dye-Sensitized Solar Cell) y recientemente se han desarrollado celdas solares, fotodetectores y diodos a base de estas tecnologías y mostrado alta eficiencia, bajo costo de producción, y se espera que tengan una gran influencia en la tecnología fotovoltaica de la próxima generación. Además, los registros de PCE han alcanzado el 26.1% La estructura de una celda solar de perovskita está constituida por un sustrato transparente que generalmente es vidrio, un electrodo transparente, dos capas transportadora de carga (CTL), separadas por un material absorbedor (perovskita) y finalmente, un contraelectrodo. Es importante resaltar, que existen dos configuraciones típicas que puede presentar una PSC, tal como se muestra en la Figura 1.</texto>
+      </seccion>
+      <seccion>
+        <titulo>III)</titulo>
+        <texto>Introducir el segundo reactante, para llevar a cabo la segunda reacción de autoterminación, y para activar nuevamente la superficie.</texto>
+      </seccion>
+    </introduccion>
+    <antecedentes>
+      <seccion>
+        <titulo>Problemática y antecedentes</titulo>
+        <texto>A pesar del progreso sobresaliente logrado en los últimos años en dispositivos fotovoltaicos de capas ultradelgadas, particularmente en celdas solares de perovskita, se deben abordar distintos desafíos para crear una tecnología lista para su comercialización. Ya que, a pesar de que estos dispositivos presentan PCE similares a las tecnologías basadas en silicio (Figura 4), su tiempo de vida es relativamente bajo (~1000 h), esto asociado principalmente a la degradación de la perovskita. Siendo aquí el principal reto, encontrar materiales que funcionen como CTLs que cuenten con la capacidad de encapsular a la perovskita para evitar la degradación de esta y poder incrementar los tiempos de vida de los dispositivos, para lograr una posible comercialización. Ya que, al lograr incrementar el tiempo de vida de la perovskita será posible tener una tecnología de alta eficiencia y con un potencial para reducir los costos de producción en comparación con las tecnologías fotovoltaicas convencionales.</texto>
+      </seccion>
+    </antecedentes>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivo general</titulo>
+        <texto>Sintetizar películas delgadas de óxido de níquel por ALD y estudiar el rol que juega el agente oxidante en las propiedades optoelectrónicas y alineamiento de bandas entre el NiO como capa transportadora de huecos y el material absorbedor (perovskita).</texto>
+      </seccion>
+    </objetivo_general>
+    <hipotesis>
+      <seccion>
+        <titulo>Hipótesis</titulo>
+        <texto>Es posible sintetizar mediante el proceso ALD películas ultradelgadas de óxido de níquel con propiedades optoelectrónicas adecuadas para su aplicación como capa transportadora de huecos en celdas solares de perovskita. La hipótesis se fundamenta en que, la variación del agente oxidante en la síntesis por ALD del óxido de níquel permitirá modular de manera precisa su estructura cristalina y composición, resultando en un ajuste del nivel de energía de la banda de valencia hasta en 1 eV. Este cambio en la posición del máximo de banda de valencia optimizara su alineamiento con el material absorbedor de perovskita, mejorando la eficiencia de extracción de huecos.</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>Metodología experimental</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>UV-Visible</titulo>
+        <texto>Para el estudio de las características ópticas como transmitancia óptica se empleó la técnica UV-Visible con un espectrómetro Agilent Cary 5000. En esta metodología los espectros fueron tomados en un intervalo de longitudes de onda de 300 a 800 nm. Los datos colectados de esta medición también fueron utilizados para determinar del 𝐸 𝑔 𝑜𝑝𝑡𝑖𝑐𝑜 con la metodología de graficas Tauc.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Efecto Hall</titulo>
+        <texto>Para la determinación de las características eléctricas de las películas de níquel, se empleó la metodología de Efecto Hall con un sistema de mediciones ECOPIA HMS 300. Aquí, es posible determinar la resistividad, movilidad, concentración y el tipo de portadores (n o p) del material a estudiar. Este método se utilizado en conjunto con una medición de conductividad para así determinar la movilidad de las cargas. La Figura 36 muestra una representación simplificada de la metodología efecto Hall, en donde, un campo eléctrico se aplicado a través del eje x y un campo magnético aplicado a través del eje z. La fuerza F de una partícula de carga q moviéndose en un campo magnético 𝐵 𝑧 a velocidad v, es dada por la fuerza de Lorentz Y para portadores (p): La movilidad de portadores para un semiconductor tipo n es calculada por: Y la movilidad de portadores para un semiconductor tipo p es calculada por:</texto>
+      </seccion>
+      <seccion>
+        <titulo>REELS</titulo>
+        <texto>La metodología REELS fue empleada para la determinación del band gap electrónico (𝐸 𝑔 𝑅𝐸𝐸𝐿𝑆 )de las películas de óxido de níquel. Para esto, se empleó un fuente de electrones de 1 keV. Esta técnica se basa en las interacciones de electrones proyectados hacia la muestra, provocando dispersiones elásticas e inelásticas. Las interacciones inelásticas son las que dan forma al background de los espectros y proporcionan la mayor cantidad de información. Uno de los fenómenos de dispersión de interés involucra, la interacción con los electrones de la muestra que ocupan el máximo de banda de valencia. Debido a las reglas de cuantización de la energía en las bandas electrónicas, esta interacción toma lugar entre el electrón proyectado con una energía inicial 𝐸 𝑘𝑖 cederá parte de su energía a los electrones del máximo de banda de valencia. La mínima transferencia de energía que puede ocurrir será igual a la diferencia entre 𝐸 𝑐 y 𝐸 𝑣 , dado que el mínimo de banda de valencia es el nivel más cercano al máximo de banda de valencia. Por lo tanto, dicha diferencia por definición es el 𝐸 𝑔 𝑅𝐸𝐸𝐿𝑆 del material. Las reacciones propuestas quedan descritas de la siguiente manera: Simultáneamente, se producen grupos hidroxilos en la superficie de la película, formando O-NiOH. Se debe de considerar que algunas derivaciones pueden ocurrir en este mecanismo idead, dado que el H2O tiene reactividad insuficiente para disociar los ligandos acetilactonato; esto último puede provocar remanentes no disociados o forma ligandos con un alto contenido de carbono, CO2 y diferentes especies de oxígeno en el proceso, tal como se muestra en la Figura 39. Figura 39:Mecanismo de reacción propuesto para la síntesis TALD y PDALD. En el caso de usar plasma de O2 como agente oxidante, las reacciones se vuelven más complejas dado que existe la presencia de diferentes especies y radicales de plasma en el segundo medio ciclo: Aquí, proponemos una reacción simple que produce CO2, H2O (4.3), y grupos hidroxilos en la superficie de la muestra (4.4). La Figura 39 presenta un esquema general de la reacción, donde el sustrato favorece la formación de H2O y grupos hidroxilos durante el paso de oxidación, debido a que los radicales de plasma son altamente reactivos y tienen la suficiente energía para disociar los ligandos del acetilacetonato de níquel Por otro lado, el usar plasma de O3 requiere la consideración de diferentes especies de oxígeno y radicales de plasma. Utriainen y colaboradores Aquí, el Ni(acac)2 es disociativamente adsorbido (4.5) y los ligandos acac libreas son liberados como H(acac) gaseoso. En la ecuación (4.6), el ligando adsorbido es oxidado, formando CO2 y H2O.y finalmente, en el paso (4.7) el H2O forma como subproducto es adsorbida disociativamente formando grupos OH -en la superficie de las películas. Las tasas de formación dependen de la disponibilidad del oxígeno durante los pasos intermedios, los cuales pueden crear un obstáculo para un eficiente crecimiento de las películas. Además, se debe de considerar que el tipo de agente oxidante determina el grado de disociación molecular del Ni(acac)2 y los subproductos formados, influenciando la pureza y el tipo de conductividad de las películas de Ni1-xO formadas. Acorde a este estudio, el plasma de O2 el plasma provee una oxidación mucho más eficiente en comparación con el O3 y H2O para ambas variantes del ALD. El uso de plasma de oxígeno lleva a formación de moléculas de agua produciendo grupos hidroxilos en la superficie que intercambian con el Ni(acac), haciendo una sinergia química con los grupos oxígenos adsorbidos. Estos mecanismos no pueden ser logrados con los otros agentes oxidantes. La Figura 40(a) muestra los GPC para las películas de Ni1-xO depositadas sobre sustratos de vidro empleando 1000 ciclos ALD. Aquí, se observan tres claros grupos de GPC: donde, los más pequeños son de ~0.01 nm/ciclo, logrados por la síntesis TALD. Los valores de GPC para las muestras oxidadas con T -O3 y T-H2O son menores a las 0.04-0.07 nm/ciclo reportados en la literatura Los GPC de 0.05 nm/ciclo fueron obtenidos para la síntesis de Ni1-xOcon P-H2O y P-O3 como agente oxidante, respectivamente y el valor de GPC más alto fuer para la síntesis P -O2 como agente oxidante, el cual fue posible debido a las especies involucradas, tales como radicales de plasma, los cuales también favorecen a disminuir la temperatura de síntesis dentro del reactor Para tener un mejor entendimiento de la síntesis P -O2, la cual mejor mostro mejores GPC, determinamos la región de saturación ALD (Figura 40 (b)), mediante la síntesis de diferentes películas de Ni1-xO bajo las mismas condiciones de síntesis y solo variando el tiempo de exposición del Ni(acac)2. Inicialmente, es posible ver que le GPC incrementa linealmente cuando se emplean pulsos de 50 a 250 ms. La región de saturación toma lugar a partir de 500 a 3000 ms, llevando a GPC casi 0.07 nm/ciclo. Este comportamiento es el esperado cuando el volumen del gas adsorbido por el precursor Ni(acac)2 incrementa, encontrando la región de saturación para pulsos superiores a los 500 ms. Estos valores de GPC son mayores a los encontrados en la literatura</texto>
+      </seccion>
+    </metodologia>
+    <conclusiones>
+      <seccion>
+        <titulo>Conclusiones parciales</titulo>
+        <texto>En este capítulo, se estudió el rol que juega el agente oxidante en la síntesis ALD del óxido de níquel, en donde, las películas de óxido de níquel cuentan con características optoelectrónicas y químicas atractivas. Para reducir el número de parámetros a controlar, se empleó una metodología simple sin procesos previos o post-síntesis. Al emplear oxígeno como agente oxidante en la síntesis ALD, es posible obtener altos valores de GPC (0.09 nm/ciclo), con cortos tiempos por ciclo (12 seg/ciclo), y mostrando una reducción de la concentración de carbón en la superficie de las muestras (8 % at.). El uso de plasma de oxígeno promueve la formación de moléculas de agua, las cuales producen grupos hidroxilos, e hidroxilos ionizados, los cuales favorecen las reacciones de intercambio en los ciclos ALD. Este mecanismo no es posible cuando el H2O u O3 son empleados como agentes oxidantes. Al emplear agua como agente oxidante en la modalidad térmica o con plasma, las películas resultantes, muestran una cantidad considerable de defectos debido a la suboxidación y/o procesos de oxidación/reducción descontrolada, producida en el segundo medio ciclo ALD. El análisis de XPS confirma la presencia de una cantidad considerable de Ni y C en la superficie de las muestras, provocando una pérdida considerable de transmitancia óptica en la región visible del espectro electromagnético de ~80% hasta ~30%. La síntesis con plasma, particularmente, empleando ozono como agente oxidante, presenta una baja cantidad de defectos en la superficie, como una relación Ni/O de 0.93, llevando a una alta transmitancia óptica en la región visible (~80%) del espectro electromagnético. La morfología y topografía de las películas depende significativamente de la elección del agente oxidante. Al emplear agua como agente oxidante, las rugosidades y el tamaño de los cristales, tienden a crecer abruptamente, lo cual, puede ser asociado a el crecimiento descontrolado de especies asociadas al Ni 3+ y Ni 0 . Las mejores muestras en este estudio fueron producidas con plasma de oxígeno como agente oxidante, presentando rugosidades de ~4 nm, mostrando un crecimiento uniforme y libre de pinholes. La muestra de óxido de níquel oxidada con plasma de oxígeno muestra un carácter no estequiométrico (relación Ni/O de 0.94); con una conductividad tipo p característica, alta transparencia óptica (~80%), concentración de portadores de 10 18 cm -3 y alta movilidad (7.79 cm 2 V -1 s -1 ). Estas propiedades eléctricas y ópticas hacen la síntesis P-O2, la síntesis más prometedora para servir como HTL en PSC. Capítulo 5 confirmando la presencia de enlaces oxtahedrales (Ni-O) NiO6 en la estructura cubica del NiO Los picos en 856.3±0.3 y 857.3±0.3 se asocian con grupos hidroxilos del NiO y Ni2O3 (en esta sección será etiquetados como Ni1-xO), respectivamente. Ambos compuestos son atribuidos al estado de oxidación Ni 3+ , este estado es de suma importancia para el propósito de este estudio ya que es el que promueve las vacancias de Ni 2+ (VNi) y es el que promueve las características electrónicas de los diferentes oxido sintetizados, estos picos pueden ser asociados a estados c3d 9 L-b y c3d 9 L-c, los cuales son asociados a la distorsión de la estructura octahedral del NiO, formando una estructura piramidal NiO5. El estudio de estas señales es muy importante, ya que, como se mencionó previamente, el Ni 3+ en la red del oxido de níquel se localiza en el borde de la banda de valencia (VB), la cual puede recibir electrones como un dopaje tipo p, mientras que, el exceso de oxígeno en la red promoverá la formación de defectos, favoreciendo la formación de grupos hidroxilos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conclusiones parciales</titulo>
+        <texto>En este capítulo, se estudiaron las características químicas y la estructura electrónica en la superficie de las películas delgadas de Ni1-xO sintetizadas por ALD y haciendo variaciones en el agente oxidante. En donde, las mediciones de XPS confirman la naturaleza no estequiométrica en la superficie de las películas de Ni1-xO, al realizar el estudio cuantitativo de las especies Ni 2+ y Ni 3+ , se presenta una mayor densidad de especies Ni 3+ (14 % at. a 18% at.) a la síntesis PDALD, siendo esta especie, la relacionada a grupos hidroxilos en la superficie y provocando una mayor densidad de VNi, lo cual favorece a la conductividad tipo p de las películas. Por otra parte, las muestra TALD, a pesar de presentar una alta densidad de Ni 3+ (8 %at. a 12 %at.), mostraron una alta cantidad de defectos, su química, muestra un crecimiento descontrolado de óxido de níquel, grupos hidroxilos e incorporación de contaminantes. Las mediciones de REELS, muestran un Eg amplio para las películas de Ni1-xO, donde no se observa una influencia significativa asociada al agente oxidante. En este estudio se determinó que es posible modular la estructura de bandas electrónicas del Ni1-xO, solo con la modificación del agente oxidante en el método de síntesis ALD, las mediciones UPS confirman que la posición del VBM y la función de trabajo se mueven en un rango de ~1 eV solo con la modificación del agente oxidante. Los resultados confirman que la densidad de especies asociadas a Ni 3+ en la superficie son benéficas para obtener un mejor alineamiento de bandas energéticas con la perovskita CsFAMAPbIBr y mostrando que las películas de Ni1-xO depositadas por PDALD son una gran opción de HTL inorgánica para emplearse en celdas solares de perovskita con una arquitectura P-I-N. Entre todas las síntesis, la P-O2 es destacada, debido a su relación estequiométrica Ni/O de 0.54, con la menor cantidad de contaminantes y excelente alineamiento de bandas con la del material absorbedor, haciendo el plasma de oxígeno la síntesis más prometedora para ser empleada como HTL en PSC. Donde 𝑃 𝑚𝑎𝑥 es la potencia máxima que la celda solare puede producir y 𝑃 𝑙𝑢𝑧 es la energía solar irradiada. Las medidas de FF, presentan la "cuadrades" de las características J-V en las celdas, la cual es directamente afectada por las resistencias en serie y en "derivación (shunt resistance)" de los dispositivos. Para este estudio, las mediciones fueron elaboradas en condiciones estándar, empleando 1 sol de radiación (100 mW/cm 2 ) para iluminar los dispositivos a temperatura ambiente. Además, para el estudio de las celdas solares de perovskita de arquitectura invertida con los diferentes Ni1-xO se tomó como referencia un dispositivo N-I-P, el cual cuenta con una arquitectura de: ITO/SnO2/FAMACsPbIBr/SPIRO-OMETAD/Au. Este dispositivo tomado como referencia, es un estándar, previo a la construcción de cualquier dispositivo. En esta ocasión, al ser una nueva arquitectura, empleamos la referencia, para determinar alguna anomalía previo o al caracterizar el nuevo dispositivo. Para esto, se llevó a cabo un entrenamiento donde se fabricaron celdas solares N-I-P, las cuales fueron etiquetadas como "Referencia (B1)" de la Tabla 10.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conclusiones parciales</titulo>
+        <texto>En este apartado, se explora la fabricación de dispositivos P-I-N utilizando Ni1-xO como capa de transporte de huecos (HTL). Sin embargo, debido a los resultados poco satisfactorios, solo se presenta un dispositivo en detalle: el P-O2. Debido a las limitantes presentadas al momento de la fabricación de dispositivos, no fue posible profundizar en este estudio. Cabe destacar que las limitantes en la fabricación de los dispositivos, fue asociada al material absorbedor y no a las capas HTL. Sin embargo, las evidencias presentan que es posible fabricar celdas solares de perovskita con el Ni1-xO sintetizado por ALD capa HTL. Por lo que, este proyecto deja una prometedora perspectiva a futuro, debido que las HTL, fabricadas por ALD y empleando diversos agentes oxidantes, cuentan con excelentes características, ópticas, químicas, estructurales y electrónicas que pueden ayudar a mejorar el desempeño y los tiempos de vida de las celdas solares de perovskita. Capítulo 7</texto>
+      </seccion>
+    </conclusiones>
+    <otros>
+      <seccion>
+        <titulo>III</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Índice de figuras</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Figura 1: Estructura de una PSC a) n-i-p donde la ETL es la capa ventana, mientas que en la estructura b) pi-n la HTL es utilizado como capa ventana.</titulo>
+        <texto>El principio fundamental de las PSC consiste en que la perovskita el tener un Eg relativamente bajo (~1.6 eV), puede foto-emitir electrones que presentan una transición de la banda de valencia (Ev) a la banda de conducción (Ec) debido a los fotones que inciden en el material, de este modo se genera un excitón que es el electrón ligado al hueco por atracción Coulombica El presente trabajo de tesis doctoral presenta un amplio estudio de la síntesis y caracterización de las películas delgadas del NiO no estequiométrico (Ni1-xO) en forma de películas delgadas. Además, de realizar la evaluación y análisis de las distintas propiedades como HTL, finalizando con la construcción de celdas solares de perovskita, empleando Ni1-xO como capa HTL. La síntesis del oxido de níquel, es simple, sin la necesidad de realizar tratamientos al sustrato previo a la síntesis y/o tratamientos post-sintesis, con esta metodología se alcanzan altas tasas de crecimiento de ~0.07 nm/ciclo, en tiempos cortos por ciclo (12 seg/ciclo). La caracterización de las películas muestra que las películas tienen un crecimiento uniforme, suave, de baja rugosidad y con semi-cristalinidad, lo cual cubre los requisitos de morfología y estructura de una HTL. La química de superficie confirma la naturaleza no estequiométrica de los óxidos de níquel con una alta incorporación de defectos en la superficie (Ni 3+ ,&gt;8%at.), lo cual es beneficio para su alineamiento de bandas con una perovskita hibrida de tipo FAMACsPbIBr. Figura 3: Diagrama de niveles de energía para materiales utilizados en celdas solares Capítulo 1</texto>
+      </seccion>
+      <seccion>
+        <titulo>Año</titulo>
+        <texto>Celdas solares de Silicio Celdas solares de perovskita Figura 4: Progreso en eficiencias de celdas solares basadas en silicio y perovskitas. Datos obtenidos de la referencia</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales empleados en PSC</titulo>
+        <texto>La estabilidad de las PSC es un factor importante, ya que a pesar de presentar PCE similares a las que se utilizan comercialmente, el tema de la estabilidad es una problemática que se sigue abordando, ya que es un tema que aún no se ha resuelto, siendo esto lo que impide la comercialización de esta tecnología</texto>
+      </seccion>
+      <seccion>
+        <titulo>Material absorbedor en PSC</titulo>
+        <texto>Las perovskitas son materiales semiconductores que tienen una formula química de tipo ABX3, donde, A y B son cationes y X es un anión. Aquí, los cationes A residen en las ocho esquinas de la celda y B se ubica en el centro del cuerpo, rodeado por seis aniones X localizados en el centro de las caras formando un octaedro BX6, tal como se muestra en la Figura 5. Figura 5: Celda unitaria de la perovskita ABX3. En PSC, las perovskitas que se utilizan como material absorbedor se les suele llamar "híbridas", debido a que están compuestas de componentes inorgánicos y orgánicos. Aquí, el sitio A, está ocupado por un catión orgánico monovalente de tipo metilamonio (CH3NH 3 + ) o formamidinio ((NH2)2CH + ), B es ocupado por un catión divalente del grupo IVa (Pb 2+ , Sn 2+ ), y X es un haluro, típicamente de Cl -, Br -o I -. Estas perovskitas híbridas tienden a absorber una gran parte del espectro visible de luz, dado que su absorción comienza en ~800 nm, su longitud de difusión está en el rango de 100 nm hasta 1 𝜇m, en dependencia de la composición del material. Además, cuentan con un coeficiente de absorción hasta 10 veces mayor que el de los pigmentos organometálicos empleados en celdas solares A pesar de sus atractivas características ópticas, se debe de considerar la estabilidad de la perovskita híbrida, y esta se ha estudiado a través del factor de tolerancia (TF) mediante: Donde, 𝑟 𝐴 , 𝑟 𝐵 y 𝑟 𝑥 son los radios iónicos efectivos de los iones A, B y X, respectivamente. El TF, es utilizado para predecir posibles perovskitas y algunos resultados han mostrado que, las estructuras 3D de perovskitas se crean cuando el TF está en el rango de 0.76 a 1.13 Otro factor que considerar es el factor octahedral (𝜇), ya que este, es el que define la estabilidad de la estructura de la perovskita al determinar la capacidad de coordinar el catión metálico, por ejemplo, para considerarse una estructura de perovskita como estable, se debe encontrar en un rango de 0.44 a 0.90, acorde a la ecuación (1.14) En conjunto, el TF y 𝜇, sugieren que la estructura cristalina es flexible a cambios en su composición, lo que hace posible el tener un amplio rango de cationes y aniones alternativos. Teóricamente, se ha demostrado que el valor de radio atómico para el sitio A se encuentra cercano a 2 Ǻ, siendo cercano al del metilamonio (MA), formamidinio (FA) y cesio, los cuales a bajas temperaturas forman una estructura distorsionada, pero a temperatura ambiente se reordenan a una estructura cubica Teniendo en cuenta estos factores, en 2009 se fabricaron las primeras PSC empleando cationes de MA como material absorbedor en conjunto con electrodos líquidos, sin embargo, estos dispositivos mostraron una baja estabilidad química. Por lo que en 2012 se utilizaron estos materiales en celdas solares de estado sólido. En este punto, el MAPbI3 fue utilizado como material absorbedor estándar, teniendo fase tetragonal a temperatura ambiente. Con esto, en sus inicios, dicha perovskita mostraba eficiencias de 10%. Sin embargo, el emplear técnicas de evaporación térmica, deposito secuencial y el método químico "anti-solvent", lograron incrementar las eficiencias hasta un 17%. Particularmente, la estabilidad química y la eficiencia de las PSC, se ha ido incrementando con la sustitución de los aniones I -por Br - y/o Cl -. Siendo el Cl -un anión que favorece a la cristalización de la perovskita y a incrementar la longitud de difusión. Las perovskitas híbridas presentan una variación en su Eg de 1.5 a 2.3 eV en dependencia del halógeno que se emplee Si se considera el límite de Shockley-Queisser y que las perovskitas tienen un FT cercano a 1 cuando se emplean cationes de MA</texto>
+      </seccion>
+      <seccion>
+        <titulo>Capas transportadoras de cargas</titulo>
+        <texto>Para que una PSC funcione eficientemente, es necesario que los materiales empleados entre el sustrato y el material absorbedor (Perovskita), sean lo suficientemente transparentes para permitir el paso de los fotones incidentes hacia la perovskita, donde se generara el exitón. Desde este enfoque, existen dos componentes que pueden atenuar la luz. La primera, es el espesor del material (𝑤) y la otra es el coeficiente de absorción (𝛼). Aquí, el flujo de la luz incidente en un material puede definirse como 𝜙 0 , y se puede expresar el flujo remanente en función de la posición 𝜙(𝑥) como: Dado que es necesario que la luz atraviese por tres materiales de espesor conocido (𝑤) para llegar al material absorbedor, la expresión del flujo de luz en cualquiera de estos materiales se calcula como: Donde, los subíndices 1, 2, 3 y 4, están asociados a las características del vidrio, electrodo transparente, capa transportadora de carga y de la perovskita, respectivamente. Para que el flujo llegue a la perovskita, se necesita que los productos de 𝛼𝑤 en cada uno de los materiales 1, 2 y 3 sean lo más pequeños posibles para reducir perdidas del flujo de luz en estas capas. Así mismo, para que este flujo sea procesado totalmente por el material absorbedor de la celda, se desea que el dicho producto sea el más alto posible para el absorbedor. En este sentido, la Figura 7 muestra gráficamente la ecuación (1.2) donde, ilustra un perfil del flujo luminoso en los componentes de la celda, tomando en cuenta que el producto 𝛼𝑤 de la perovskita es mayor que el de los tres materiales restantes. Caber resaltar, que el vidrio es el material más grueso, y se encarga de proteger la estructura de la celda. Por otro lado, el material más delgado es la capa transportadora de carga. Las capas transportadoras de carga son materiales que deben cumplir con ciertas características físicas y químicas para poder ser empleadas en PSC. La sección anterior menciona que se necesitan capas lo suficientemente delgadas para permitir un flujo eficiente de luz, para así generar un exitón en el material absorbedor. Sin embargo, se necesitan otras condiciones en las CTLs para su buen desempeño, por ejemplo, una ETL debe tener una CBM ligeramente debajo que la del material absorbedor. Por otra parte, la HTL debe tener un VBM por encima del de la perovskita (Figura 2). Esto con el fin de permitir o bloquear el transporte de los portadores de carga efectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Transporte y recombinación de portadores de carga</titulo>
+        <texto>Uno de los fenómenos que se deben considerar una vez generado el excitón es, que los portadores de carga deben transportarse eficientemente hacia los electrodos correspondientes para generar una diferencia de potencial entre los contactos de la celda solar. Sin embargo, en este proceso pueden ocurrir efectos de recombinación, el cual es descrito como, un  Desde este enfoque se debe de considerar el hecho de que películas más gruesas causaran una mayor cantidad de recombinación de los portadores de carga. Por lo tanto, las capas transportadora de carga deben tener un espesor lo suficientemente delgado para disminuir los procesos de recombinación.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Alineamiento de bandas energéticas</titulo>
+        <texto>El alineamiento de las bandas de energía en PSC es muy importante para la optimización del transporte de carga, ya que, debe hacerse notar que las perovskitas presentan una conducción tipo n, al igual que la ETL, mientras que la HTL, presenta una conductividad tipo p. Es por esto, que la perovskita en sus extremos presenta dos tipos de unión, una tipo n-n y otra tipo p-p, tal como se muestra en la Figura 2. Para ejemplificar las interacciones electrónicas entre los materiales que conforman una PSC se presenta el caso más simple de una unión, la tipo n-p, tal como se muestra en la Figura 9 y que previamente ha sido discutido en el grupo de trabajo por M.A. Martínez, E. Martínez Guerra, et. Al., aquí, se representa la unión tipo n-p, así como la longitud de difusión de portadores de carga. Entre los materiales involucrados en la unión n-p, existe una diferencia en la función de trabajo (Δ𝑊 𝐹 ), la cual es definida como la energía necesaria para promover un electrón desde el nivel de Fermi (E 𝐹 ) hasta el nivel de vacío (𝐸 𝑣𝑎𝑐 ). El E 𝐹 , es afectado por la cantidad de portadores de carga que poseen las impurezas de los materiales, así como de sus propiedades intrínsecas. Así que, cuando se genera la unión n-p entre dos semiconductores, debe de existir un equilibrio electrostático, el cual se establece a través de la difusión de portadores de carga. Aquí, la migración de carga generara una región de inversión de carga en la interfaz entre los dos materiales. Dado que, inicialmente ambos semiconductores son eléctricamente neutros, al ocurrir una difusión de carga se establece un potencial eléctrico en la región de inversión de carga que se encuentra relacionado con las funciones de trabajo de los semiconductores involucrados. Figura 9: Diagrama esquemático de una unión tipo n-p. Donde, se marcan las regiones de inversión de carga, y mostrando el origen de las coordenadas en la unión de los materiales. Aquí se asumirá que la 𝑊 𝐹 del semiconductor tipo n es menor que la del tipo p, quedando: (1.12) Las expresiones de potencial eléctrico, longitudes de zonas de inversión en los materiales son útiles para calcular la magnitud de deformación de las bandas en la región cercana a la interfaz de la unión (Figura 10(a)). Esto es importante, dado que, es necesario que las bandas se doblen en un sentido que no generen barreras de potencial que puedan evitar el paso los portadores de carga de un material a otro. Dado que, la interacción de ambos materiales está ampliamente relacionado con 𝑁 𝐴 y 𝑁 𝐷 (concentración de impurezas), así como la permitividad dieléctrica de los materiales. La cantidad de portadores definirá cuantos portadores se encuentran disponibles para el transporte de carga, por otro lado, la permitividad está relacionada con el desplazamiento dieléctrico de los semiconductores, tal como se muestra en la Figura 10(Figura b).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tipos de capas transportadora de carga en PSC</titulo>
+        <texto>En general, las capas transportadoras de carga cumplen un rol fundamental en el desempeño de PSC, ya que tienen múltiples funciones, tales como Extraer selectivamente los portadores de carga, mientras que bloquean simultáneamente su contraparte, mediante la selección apropiada de sus niveles energéticos. Es decir, un buen alineamiento de bandas con el del material absorbedor.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II)</titulo>
+        <texto>Minimizar la recombinación de portadores en las interfaces entre electrodo/CTL/perovskita.</texto>
+      </seccion>
+      <seccion>
+        <titulo>III)</titulo>
+        <texto>Ser eléctricamente continuo para reducir la presencia de cortocircuitos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>IV)</titulo>
+        <texto>Alta transmitancia óptica e índices de refracción que eviten las perdidas ópticas. V) Alta movilidad de portadores de carga. VI) Estabilidad química. Estas CTL suelen ser orgánicas, sin embargo, estos materiales favorecen a la degradación del absorbedor, debido a que estos emplean solventes que suelen ser agresivos para la perovskita o los subproductos de la síntesis suelen llevar a tiempos de vida cortos de los dispositivos, ya que benefician la recombinación de las cargas</texto>
+      </seccion>
+      <seccion>
+        <titulo>ETL</titulo>
+        <texto>Las ETL orgánicas más comúnmente usadas son el C60, fenil-C61-acido butírico metil éster (PCBM) y suelen ser normalmente empleadas en arquitecturas p-i-n, dado que una vez que se deposita la perovskita sobre la HTL, esta queda restringida a que se deposite un HTL a bajas temperaturas de depósito y al uso de solventes específicos. Por otro lado, existen las ETL inorgánicas que son empleadas en la arquitectura convencional n-i-p, aquí, los más comúnmente usados son el TiO2, ZnO y el SnO2, estas suelen ser sintetizadas a partir de procesos en solución empleando sales metálicas como precursores, nanocristales y nanocoloides de óxidos metálicos, que se obtienen a partir de spin coatin, spray coating, screen printing y slot-die.</texto>
+      </seccion>
+      <seccion>
+        <titulo>HTL</titulo>
+        <texto>Las HTL se han convertido un gran reto para el desarrollo de PSC. En la arquitectura convencional n-i-p, estas son depositadas sobre el material absorbedor, empleando comúnmente HTL orgánicas, las cuales tienen la limitación de tener estabilidad química, además, estas deben utilizarse a temperaturas menores de 130°C y no deben sintetizarse empleando solventes basados en agua o en DMF/DMSO, dado que cualquier de estos provocan la degradación inminente de la perovskita. Aquí, los polímeros más ampliamente usados son el PEDOT:PSS (poli(3,4-etileno dioxitiofeno):poli(4-estirenosulfonato), y el poli-TPD (poli[N,N'-bis (4-butilfenil)-N, N'-bis(fenil) bencidina). Sin embargo, su naturaleza acida e higroscópica provoca una baja estabilidad con la perovskita lo cual lo hace comercialmente inviable. El P3HT [poli(3-hexilthiorfeno)] es un material que, en dependencia de su peso molecular, presenta fenómenos de recombinación radiativa, es decir, a mayor peso molecular, hay mayor interacción entre las cadenas poliméricas y mejor transporte de carga. Por ejemplo, a 44 kDa, la PCE es de 5%, mientras que a 24 kDa llega valores de 16% Por otro lado, las HTL inorgánicas, poseen en general una mayor estabilidad química con respecto a los polímeros comúnmente usados. Las HTL inorgánicas más comúnmente usadas son el CuO, Cu2O, CuS, CuO, CuPc, CuSCN, CuCr2, CuGa2, CuInS2, CuBaSnS2, CoN, MoO, MoS2, VOx, GOx, PbS, CrOx, y NiO, los cuales son prometedores para sustituir las HTL orgánicas Entre todas estas HTL inorgánicas, el NiO, es uno de los materiales más prometedores para ser usado en PSC, ya que tiene características ópticas y eléctricas que se adaptan muy bien a la perovskita. Cuando se adopta una arquitectura p-i-n, es más fácil crecer este material, dado que se pueden utilizar una amplia gama de métodos de síntesis, tales como PLD, MBE, CVD, spin coating, ALD, entre otras</texto>
+      </seccion>
+      <seccion>
+        <titulo>II)</titulo>
+        <texto>Realizar una purga de los reactantes que no participaron en la primer semirreacción, así como los residuos de este.</texto>
+      </seccion>
+      <seccion>
+        <titulo>IV)</titulo>
+        <texto>Aplicar una segunda purga de los reactantes que no participaron en la semirreacción, así como residuos de este, tal como en el paso II. Este ciclo de cuatro pasos (o dos semirreacciones) es llamado un ciclo ALD En el ALD, es posible calcular el GPC, dividiendo el espesor total (𝐸 𝑒𝑠𝑝𝑒𝑠𝑜𝑟 ) obtenido sobre el número total de ciclos ALD (𝑁 𝑐𝑖𝑐𝑙𝑜𝑠 ) y es dado por la ecuación 1.15: Además, es posible calcular el tiempo requerido para un ciclo ALD (𝑡 𝑐𝑖𝑐𝑙𝑜 ), mediante: Donde, 𝑡 𝑟𝐴 , 𝑡 𝑃1 , 𝑡 𝑟𝐵 , 𝑡 𝑃2 son, el tiempo de exposición del reactante A, tiempo de purga después de la exposición del reactante A, tiempo de exposición del reactante B y tiempo de purga después de la exposición del reactante B, respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Propiedades optoelectrónicas del Ni1-xO</titulo>
+        <texto>La estructura octahedral del Ni1-xO es muy estable, y tiene una fuerte energía de ionización intrínseca, lo cual permite tener PSC con alta foto-estabilidad y estabilidad térmica Como se mencionó anteriormente, el NiO en su forma estequiométrica es un aislante con una conductividad intrínseca por debajo de 10 -4 S/cm Para entender la generación de huecos en el Ni1-xO, primero, se debe tener en cuenta que la transición óptica de óxidos metálicos está relacionada a varios estados de energía dentro del material, principalmente dependiendo del borde de banda cercano (NBE) entre el CBM y el VBM. En semiconductores tipo p, como el Ni1-xO, ocurren a otras transiciones, debido a los estados de energía introducidos por defectos de interbanda, incluyendo deficiencia de metal o exceso de oxígeno. Los estados de energía de las vacancias de níquel y Ni 3+ en el Ni1-xO están localidades por encima de la banda de valencia el cual puede recibir electrones de la banda de valencia como dopantes tipo p. En el caso del Ni1-xO, este tiende a formar defectos, donde el proceso especifico puede ser detallado en las siguientes ecuaciones</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis del Ni1-xO y su aplicación en PSC</titulo>
+        <texto>Por las diferentes características con las que cuenta el Ni1-xO, esta ha sido ampliamente utilizado en celdas solares, tales como celdas basadas en silicio, celdas solares orgánicas y celdas solares de perovskita. Aquí, se debe de considerar que las propiedades del oxido variaran en función del método de síntesis empleado, ya que sus características físicas y químicas variaran en función del proceso que es escoja. En celdas solares de perovskita, se utilizan generalmente, dos rutas: física y química. Ya que, para este tipo de dispositivos se requieren un método de preparación que genere películas de alta calidad, uniforme y con una cantidad controlable de defectos, las síntesis más prometedores que cubres estos requerimiento son presentadas en la Tabla 1. Entre estas metodologías, se encuentran spraypyrolisis, deposición electroquímica (ECD), depositio por baño químico (CBD), atomic layer deposition (ALD), magnetrón sputtering, depósito de laser pulsado (PLD), etc. Algunas de estas técnicas y resultados relevantes serán discutidas en la siguiente sección. Tabla 1:Métodos de síntesis para el óxido de níquel en PSC</texto>
+      </seccion>
+      <seccion>
+        <titulo>Método</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Ni1-xO por ALD</titulo>
+        <texto>Como se ha mencionado previamente, el espesor, la composición y la estequiometria del Ni1-xO juegan un rol muy importante en cualquiera de sus aplicaciones, debido a que, las propiedades químicas y físicas, dependen totalmente de estas. En general, es posible sintetizar películas de Ni1-x O mediante diversos métodos de síntesis, ya sea, físicos o químicos. Sin embargo, entre todos estos métodos el ALD, es un método prometedor para la síntesis de Ni1-xO, ya que provee un control sobre el espesor, estequiometria y pureza de las películas con alta precisión. Además, la aplicación de películas delgadas de Ni1-xO por ALD comom HTL, ha contribuido notablemente para lograr un rendimiento más eficiente en PSC de unión simple y tándem Para el proceso con Ni(acac)2 oxidado con O3 + H2O se encontraron los resultados más relevantes, ya que encontraron tazas de crecimiento de 0.07 nm/ciclo, con un crecimiento uniforme de una película cristalina orientada en el plano En este trabajo, se presenta el siguiente mecanismo de reacción para la síntesis ALD para la síntesis más relevante:  En este trabajo, no se presentaron mecanismos de reacción, las especulaciones que se mencionan en su proceso es que puede ocurrir combustión durante el pulso de ozono, resultando en la formación de grupos hidroxilos en la superficie, además de liberar ligandos protonados provenientes del precursor organometálico. En este proceso, se asume que se genera H2O en el segundo medio ciclo, y después producir radicales hidroxilos (OH * ), los cuales favorecen los procesos de oxidación. Así mismo, se menciona que, el valor de pH tiene una influencia importante en este proceso, ya que la cantidad de OH * puede incrementar bajo condiciones alcalinas. Se hace énfasis en esto, ya que el precursor Ni(acac)2(TMEDA), incluye el ligando TMEDA, el cual es una base orgánica. Esta base, puede provocar las condiciones alcalinas las cuales pueden incrementar la producción de OH * y tener una superficie de reacción eficiente en el proceso ALD Este proceso ALD para la síntesis de Ni1-xO es muy atractivo y puede crear películas de alta calidad química, morfológica y estructural. Sin embargo, presenta ciertas complicación, ya que, para llevar a cabo el proceso Ni1-xO-ALD, es necesario realizar la síntesis del Ni(acac)2(TMEDA), el cual es un proceso que involucra largos tiempos de síntesis (~13 h). También se debe de considerar que, los ciclos ALD son relativamente largos, ya que un ciclo ALD requiere 30 s. Uno de los trabajos más recientes, respecto a la síntesis ALD del oxido de níquel, es el elaborado por Debendra P, Pandam Jay Ghatak y C. N. R. Rao Los resultados que obtuvieron demostraron que las películas sintetizadas presentaban tazas de crecimientos de ~0.02 nm/ciclo, sin una clara ventana ALD, tal como se observa en la Figura 24(b). En este trabajo no se propone algún mecanismo de reacción. Sin embargo, las películas obtenidas, presentan un química excelente con relaciones Ni/O de 1.04, mostrando películas cercanas a la estequiometria y con un baja cantidad de contaminantes. Este trabajo es relevante y presenta una síntesis de óxido de níquel, cercano a la estequiometria, con características químicas y estructurales muy atractivas. Pero, debe destacarse que, aunque su proceso de síntesis es simple, los tiempos por ciclo, siguen siendo largos (25 s/ciclo) y que las películas que se obtuvieron muestran una alta resistencia, lo cual, no es adecuado para su aplicación en dispositivos optoelectrónicos (&gt;10 9 Ω). Capítulo 2</texto>
+      </seccion>
+      <seccion>
+        <titulo>Justificación, hipótesis y objetivos 2.1 Justificación</titulo>
+        <texto>Con la información presentada en las secciones anteriores, se determina que, el uso de PSC, son una propuesta prometedora, y económica, que pueden sustituir y/o superar a aquellas tecnologías basadas en silicio y arseniuro de galio, debido a la alta eficiencia fotovoltaica que estas presentan. Sin embargo, las PSC presentan diversos retos asociados a la degradación del material absorbedor, ya que estas se degradan por factores externos y/o propios de la perovskita. Debido a esto, las capas transportadoras de carga juegan un papel crucial en la eficiencia de una PSC, ya que, la correcta elección de estas, son de vital importancia en el desempeño de un PSC. Esto debido a que las capas transportadoras de carga encapsular al absorbedor e impedir que esta se degrade por factores externos, tales como la humedad del exterior. Debido a esto, la elección de un semiconductor tipo P, como el óxido de níquel, empleando la técnica de ALD, puede favorecer a la reducción de la degradación de las PSC. Debido a su naturaleza inorgánica y alta permeabilidad. Además, el Ni1-xO, es un semiconductor inorgánico que presenta un excelente alineamiento de niveles de energía con el de las perovskitas comúnmente usadas en PSC, cuenta con una conductividad deseable para el transporte de huecos, baja difusión de humedad y no se degrada en presencia del oxígeno (llevando a un tiempo de vida del dispositivo más alto), tal como es el caso de las HTLs comúnmente empleados en PSC. Asimismo, el fabricar Ni1-xO por ALD, permite obtener películas ultradelgadas, de alta calidad, libre de pinholes y con un cobertura de superficie que es favorable para ser implementado en PSC. Desde este enfoque, los principales retos en la síntesis del Ni1-xO son; la incorporación no deseada de contaminantes, junto con el optar por un proceso de síntesis simple, corto y un control de espesor excepcional del espesor (hasta 100 nm). Con el ALD, es posible realizar depósitos en áreas grandes y con un control de espesor al nivel de Angstroms (monocapas), siendo estas características, las más buscadas para el escalamiento del proceso de fabricación. Además, con el ALD, es posible generar un alto número de muestras en un solo experimento, tanto a nivel laboratorio como a nivel de producción, contrario a otros métodos de síntesis (físicos y químicos), siendo esta, una ventaja muy grande, ya que este proceso puede ser llevado de manera satisfactoria a una escala industrial.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Objetivos particulares</titulo>
+        <texto>❖ Obtener películas ultradelgadas de Ni1-xO, usando diferentes medios oxidativos (H2O, O2 y O3) sobre vidrio y silicio, usando como precursor organometálico Ni(acac)2. ❖ Estudiar las propiedades químicas y estructurales del Ni1-xO obtenido por ALD. ❖ Estudiar las propiedades como capa HTL (eléctricas y ópticas) del Ni1-xO. ❖ Estudiar las propiedades electrónicas del Ni1-xO/Perovskita mediante espectroscopias electrónicas. ❖ Correlacionar las propiedades de la HTL (rugosidad, composición química, estructura cristalinas) con el agente oxidante empleado. Capítulo 3</texto>
+      </seccion>
+      <seccion>
+        <titulo>Configuración del ALD para el método de síntesis (TALD o PALD)</titulo>
+        <texto>En la configuración del ALD térmico (TALD) para el Beneq TFS 200 se utilizó el volumen más pequeño de la cámara. En esta configuración, el primer medio ciclo de la reacción se envía un pulso del precursor de Ni(acac)2 accionando la válvula ALD neumática, para después realizar la purga correspondiente. Para llevar a cabo, el segundo medio ciclo de la reacción, se envía un pulso del agente oxidante, al accionar la válvula neumática ALD, tal como se muestra en la Figura 26(a) y finalizando con una última purga, para así, dar secuencia a todo el proceso de ALD. Por otro lado, al usar la configuración de plasma directo ALD (PDALD), se utilizó el volumen más grande de la cámara, por lo que se optó por incrementar los tiempos de purga para así tener una correcta remoción de excedentes en la cámara de reacción. Al usar esta configuración se favorecen los mecanismos de quimisorción, nucleación y formación de cristales debido a la reactividad de las especies involucradas en el mismo. En general, los diferentes agentes oxidantes como H2O, O2 y O3 pueden introducirse directamente en la región del reactor donde se genera el plasma en un flujo continuo, o bien, introducirse en forma de pulso como cualquier otro precursor convencional en ALD. La modalidad de plasma directo involucra la generación del plasma justo en la región donde se encuentra inmerso el sustrato. Una representación esquemática del proceso con plasma se puede observar en la Figura 26(b). Para la síntesis de Ni1-xO se optó por utilizar el precursor organometálico de acetilacetonato</texto>
+      </seccion>
+      <seccion>
+        <titulo>Preparación de disoluciones y método de spin-coating</titulo>
+        <texto>La preparación de las disoluciones fue elaborada en una cama de guantes a 2.5 mbar de presión, 0.2 ppm de oxígeno y 2 ppm de humedad, donde, se disolvieron 34.82 mg de MABr, 54.04 mg de CsI, 114.12 mg de PbBr2, 357.88 de FAI y 1097.2 mg de PbI2 en una mezcla 1 M de DMF:DMSO (1.56:0.44 v/v). Posteriormente, las disoluciones fueron introducidas a una cámara climática (ambiente inerte, Figura 28), con una temperatura de ~25°C y a humedad de ~34.3%. Inmediatamente, las películas de perovskita fueron sintetizadas por un centrifugado a 2000 rpm por 10 s, después se realizó un centrifugado por 30 s. Durante el segundo centrifugado, se aplicaron 110 𝜇l de antisolvente (tolueno), el cual fue añadido a 15 s antes de terminar el segundo centrifugado. Después de esto, las muestras fueron sometidas a un annealing de 100°C por 1 hr en una atmosfera inerte.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Etapa 3: Fabricación de PSC</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Reflectancia especular</titulo>
+        <texto>Para la determinación de espesores en las películas de óxido de níquel sobre sustratos de vidrio se empleó la técnica de reflectancia especular UV-Vis en un rango de longitudes de onda de 300 a 1000 nm empleando un equipo Filmetrics TM F20. Esta metodología considera las constantes ópticas n y k (índice de refracción y coeficiente de extinción, respectivamente) de los materiales a evaluar tomando en cuenta los modelos ópticos del elipsometro J.A. Wollam. Con estos datos se hace una simulación, en donde, se consideran la reflexiones internas y las interferencias, ya se constructivas o destructivas que se da en cada una de las capas. El espectro simulado se ajusta al espectro experimental (Figura 32) buscando la convergencia con este para así determinar el espesor de la capa de interés, puesto que es la variable que se busca conocer.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Difracción de rayos X</titulo>
+        <texto>El estudio de las características estructurales de las películas delgadas de óxido de níquel se llevó a cabo con un difractómetro Panalytical Empyrean en modo rasante, en donde, se empleó un fuente de Cu (𝜆=0.15405 nm). El ángulo de incidencia fue variado en el rango de 30° a 90° con pasos de 0.05° y 𝜔 =0.7°. Esta técnica se basa en la ley de Bragg (4.1), la cual explicar el fenómeno de difracción de un cristal. Es decir, cuando una radiación monocromáticas (Rayos-X) incide en un sólido cuyos átomos tienen un arreglo periódico, la dispersión elástica de los rayos x con los átomos resultara en interferencia constructiva en ángulos definidos La ley de Bragg (3.1) en principio solo depende de la simetría del cristal y del ángulo incidente. Ya que, experimentalmente, se hace incidir un haz de rayos X con un ángulo (θ) sobre un crital que tiene una familia de planos atómicos paralelos, separados por una distancia 𝑑, tal como se muestra Figura 33. Este principio establece que la interferencia constructiva o difracción del haz, solo ocurre cuando la diferencia de trayectoria entre los rayos reflejados por dos planos adyacentes es un múltiplo entero de su longitud de onda 𝜆. En este trabajo se empleó la medición de haz rasante debido a que esta configuración permite controlar la distancia de penetración en la muestra y así restringir el análisis a solo el material de interés y evitar la dispersión del sustrato. Para el cálculo del tamaño de cristalita se empleó la ecuación de Scherrer (4.2): Donde, 𝛽 𝐿 es la anchura a media altura del pico de difracción, K es una constante relacionada a la forma de la cristalita, 𝜆 es la longitud de onda de los rayos X y L es la longitud de la cristalita en Armstrong, finalmente 𝜃, es el angulo de Bragg en grados.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Microscopias SEM -TEM</titulo>
+        <texto>El estudio de la morfología de las películas delgadas de óxido de níquel fue elaborado mediante microscopia electrónica de barrido (SEM), empleando un equipo Nova NanoSEM 200 operando con 15 kV de energía de los electrones con el detector Helix a bajo vació. Aquí, las micrografías fueron tomadas con una magnificación de 200,000x en diferentes localizaciones de la superficie de la muestra. Esta técnica se utilizó para identificar granos cristalinos que por técnicas complementarias como AFM y XRD se podrán confirmar. En esta técnica se utiliza un haz de electrones en lugar de luz para generar imágenes, así es posible incrementar la resolución de la imagen obtenida. Debido a que los electrones se aceleran hasta 30 kV de diferencia de potencial, su longitud de onda se define por la relación de De Broglie: Aquí, los electrones coliman por medio de lentes electromagnéticas. Además de esto, el microscopio cuenta con bobinas de escaneo que inducen un campo magnético que provoca la deflexión del haz realizando un barrido en la superficie de la muestra. Debido a que los electrones colisionan inelásticamente con la muestra y desprenden otros electrones de regiones cercanas a la superficie que se encuentran ligados al átomo (electrones secundarios) estos son utilizados para crear imágenes de la superficie en alta resolución. Por otro lado, la microscopia electrónica de transmisión de alta resolución (HR-TEM) fue llevada a cabo con un microscopio Nanotech TEM JEOL JEM 2200FS+CS operando a 150 kV, para llevar esto acabo, todas las mediciones fueron preparadas mediante un procedimiento de extracción con un haz de iones enfocado (FIB). En esta técnica, parte de los electrones provenientes de la fuente son transmitidos, otra parte dispersados y otra más da lugar a interacciones que producen distintos fenómenos como emisión de luz, electrones secundarios, Auger, rayos X, etc. A diferencia del SEM, el TEM emplea la transmisión/dispersión de los electrones para formar imágenes, la difracción de los electrones para obtener información estructural y la emisión de rayos X característicos para conocer la composición elemental de la muestra. El requisito necesario para que se produzca la transmisión de electrones a través de la muestra es necesario que esta sea lo suficientemente delgada (capaza de transmitir los electrones), por lo que se recomienda que no excedan los 100 nm de grosor. Figura 34:Interacción de la muestra con el haz de electrones generado por SEM y TEM.</texto>
+      </seccion>
+      <seccion>
+        <titulo>AFM</titulo>
+        <texto>La microscopia de fuerza atómica (AFM) fue empleada en modo contacto para analizar la topografía de superficie, así como evaluar la rugosidad (RMS) con el equipo MFP3D-SA de Asylum Research, para llevar a cabo esta caracterización, se empleó una punta de Silicio con un radio de 9 nm colocada en un cantiléver rectangular modelo AC160TS-R3 con una constante elástica de 26 N/m y una frecuencia nominal de 300 Hz. Esta técnica de caracterización consiste en la interacción de una punta fina (en el orden de nm) con la muestra a analizar. La punta debe estar anclada a un cantiléver, el cual refleja el haz de luz de un láser, enviándolo a un fotodetector de dos ejes. Debido a que existe una interacción entre la punta anclada al cantiléver y la muestra a analizar, el relieve de la muestra causara movimientos ascendentes y descendentes de la punta y el cantiléver. Provocando que el haz del láser refleje en diferentes áreas del fotodetector, generando un mapa de elevación. El tipo de interacciones que se tienen en esta caracterización son de nivel electrostático, específicamente de átomos o moléculas de la superficie provocando la repulsión de la punta por el acercamiento de esta a la superficie.</texto>
+      </seccion>
+      <seccion>
+        <titulo>XPS</titulo>
+        <texto>Para el estudio de las características químicas de las películas delgadas de óxido de níquel sobre sustratos de vidrio y FTO, se empleó el equipo Thermo Scientific TM ESCALAB 250Xi. En donde, se determinó la composición química y los estados de oxidación presentes en las películas sintetizadas. El equipo empleado, cuenta con una fuente de rayos X de Al K𝛼 que cuenta con un monocromador de longitud de onda. Para las mediciones se utilizó un pass energy de 20 eV y 20 escaneos para cada espectro obtenido. La energía de referencia utilizada para ajustar los espectros obtenidos fue la correspondiente al C 1s localizada en 284.8 eV. El step size utilizado para este análisis fue de 0.1 eV. Esta técnica de caracterización consiste en irradiar la superficie del material a analizar con un haz de rayos X, mientras se mide la energía cinética de los electrones emitidos, entonces se grafica cuantos electrones se emitieron para determinada energía. Esta técnica, se basa en el proceso de fotoemisión de los electrones, el cual sucede por la absorción de los rayos X, es decir, cuando un átomo absorbe este fotón, se puede emitir un electrón, aquí, su energía cinética dependerá de la energía del fotón de rayos X y la energía de enlace del electrón, en otras palabras, dependerá de que tan fuerte este unido el átomo (4.9).</texto>
+      </seccion>
+      <seccion>
+        <titulo>𝐾𝐸 = ℎ𝑣 -𝐵𝐸 -𝜑 (3.8)</titulo>
+        <texto>Los picos generados en el espectro XPS se originan de los fotoelectrones de los niveles cercanos al núcleo. En estos espectros, se utiliza la notación espectroscópica y se refieren a los orbitales de donde provienen estos electrones, esta notación está compuesta de cuatro número cuánticos: el numero cuántico principal n, secundario l, angular total j (j=l+s) y el espín s (s=±1/2). El numero cuántico l determina la forma de los orbitales, ya que, cuando es igual a 0 es un solo pico y cuando l&gt;0 se presenta un doblete. La diferencia de energía entre el centro de cada pico se conoce como "doblamiento spin-orbital". La razón de áreas entre cada pico es independiente para cada orbital, tal como se muestra en la Figura 37 Figura 37: Relación entre áreas de los picos XPS Para realizar un análisis cuantitativo, posterior a realizar el proceso de ajuste de los espectros XPS, es posible calcular la concentración atómica de los elementos con ayuda de (3.9): En donde, 𝐼 𝑖𝑗 es el área del pico y 𝑆 𝑖 es el factor de sensibilidad del elemento. Este último dependerá a su vez de la sección transversal de fotoionización y de la distancia del camino libre medio. Además de establecer un porcentaje presente de cada elemento, es posible proponer relaciones entre ellos para establecer una formula química empírica del compuesto o compuesto presentes en la superficie</texto>
+      </seccion>
+      <seccion>
+        <titulo>UPS</titulo>
+        <texto>Las mediciones UPS fueron empleadas para determinar la estructura electrónica de las películas sintetizadas. Para esto, se empleó un AXIS SUPRA (KRATOS) equipados con una fuente de He-I (21.1 eV). Para la determinación de la función de trabajo y el máximo de banda de valencia, se aplicó un voltaje bias de -7 eV para alinear el nivel de fermi a un valor de energía conocido. Una vez establecido el nivel de fermi (𝐸 𝑓 ), es posible realizar la determinación del máximo de la función de trabajo (𝜑)mediante la relación: En donde, h𝜔 es la energía de la fuente (21.22 eV), 𝐸 𝑐𝑢𝑡𝑜𝑓𝑓 es la energía de corte (secondary electron cutoff) determinada de la Figura 38. Figura 38: Espectro típico UPS de un metal y un semiconductor De la Figura 38, se puede observar que, para la determinación del máximo de banda de valencia, hay que analizar el espectro a energías de enlace bajas. Donde el conteo de electrones es muy bajo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis estructural</titulo>
+        <texto>La Figura 41 muestra el espectro GIXRD de las películas de Ni1-xO sintetizadas con 1000 ciclos ALD sobre sustratos de vidrio y empleando diferentes agentes oxidantes. El espectro de las películas TALD y PALD es diferente, ya que la películas depositadas por TALD muestran mayor cristalinidad, mientras que las de PALD tienden a ser amorfas. Estas diferencias es consecuencia de usar una menor temperatura de depósito, donde la energía de activación no es suficiente para completar las reacciones entre el Ni(acac)2 y los diferentes agentes oxidantes, causando que el Ni(acac)2 se condense y forme impurezas de carbón en la película. Este resultado está en contraste a lo reportado por la referencia Mediante la síntesis con plasma se puede determinar que favorece al crecimiento de las películas delgadas debido a la alta reactividad de las especies ionizadas, sin embargo, esto no quiere decir que mejore los mecanismos de nucleación. Es por esto, que las especies quimisorbidas pueden desorberse cuando los iones de plasma chocan conta la superficie de las películas. La cristalinidad más baja de la síntesis con plasma también puede asociarse a la energía de plasma insuficiente que no logra mantener el orden cristalino debido a la corta longitud de difusión de la superficie Ninguna de las películas sintetizadas en nuestro estudio presento patrones correspondientes a Ni o Ni2O3 y el tamaño de cristalita correspondiente al pico (220) puede ser estimado con la fórmula de Scherrer, teniendo valores de 12.2 nm y 14.4 nm para la síntesis T -O3 y T-H2O, respectivamente. Estos resultados sugieren que, independientemente del agente oxidante empleado, la cristalinidad es muy pequeña. Para estudiar el espesor de la capa interfacial, empleamos la técnica de HRTEM de las muestras más representativas de Ni1-xO (Figura 42). Donde, la interfase de SiO2 es de 1.5 nm de espesor, formada entre la película sintetizada y el sustrato de silicio (Figura 42 b). Todas las películas tienen una buena adhesión a la superficie y una difusión característica. Además, los espesores obtenidos son acorde a los obtenidos por reflectancia espectral. Las muestras PALD y TALD tienen ligeras diferencias en términos de grado de cristalinidad. Ambas muestras son policristalinas, El patrón SAED (Figura 42 f) muestra más regiones de cristalinidad para las muestras T -H2O en comparación con las regiones amorfas de la muestra P -O2 (Figura 42 c). Estos resultados son acordes con los obtenidos por XRD. En las imágenes de HRTEM, se puede observar crecimientos columnares de pequeños cristales orientados en la dirección &lt;200&gt;. Algunos anillos de difracción son visibles en las imágenes SAED (Figura 42 c y f) para las películas estudiadas. La Figura 42 F, muestra distancias interplanares entre los planos (200) y (111) de 2.1 y 2.4 A ̇, respectivamente, el cual es consistente con la estructura FCC de las películas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Topografía y morfología de superficie</titulo>
+        <texto>La Figura 43(a-e) muestra las micrografías SEM de las películas de Ni1-xO depositadas sobre sustratos de vidrio. La morfología de superficie depende fuertemente del agente oxidante empleado, Además, existe una clara diferencia en la densidad de empecinamiento y geometría de superficie de las partículas observadas en las micrografías. Las características de las muestras T -O3 y T -H2O pueden ser explicadas como un efecto de la "sterical hindrance" y la baja temperatura de síntesis, la cual reduce las intensidades de nucleación. El proceso PALD es más reactivo, el cual es claro para la muestra P -H2O, donde muestra cristales grandes y bien definidos con tamaños de 150 nm; estos pueden aparecer solo bajo condiciones de alta disociación del Ni(acac)2. En este caso, la cobertura superficial está lejos de ser uniforme, con un considerable número de "pinholes". A pesar de que las partículas en la superficie son grandes, sus agregados parecen ser de carácter metálico, lo cual será discutido en la sección de XPS. Los reportes en la literatura del PEALD mencionan que unos de los suproductos generados por el plasma son especies O -, OH -y H - Un mayor grado de empaquetamiento en la superficie de las muestras P -O3 y P -O2 es evidente, en comparación de la muestra P-H2O. Esto puede ser atribuido a la acción de las especies de hidrogeno ionizado y densidad elevada de grupos OH, los cuales pueden balancear el intercambio molecular en la superficie de la película. Este fenómeno puede ser visualizado con un modelo geométrico simple descrito por Ylilammi La conclusión similar sobre la morfología de las películas puede ser obtenida de los datos AFM (Figura 44), la cual fue usada para determinar la rugosidad (RMS) de la superficie (Figura 43 (f)). Donde, las rugosidades más altas observadas son atribuidas a la síntesis térmica de ALD con valores RMS de 5.72 y 4.75 nm, para las películas T -H2O y T -O3, respectivamente. Las altas rugosidades son esperadas para granos formados aleatoriamente, debido a la alta movilidad durante el proceso de descomposición térmica del Ni(acac)2, tal como se ha reportado para el NiCp2 Por otro lado, la síntesis de ALD con plasma produce películas con una ligeramente más baja rugosidad: 2.83 y 3.09 nm para la síntesis P -O3 y P -O2, respectivamente. La muestra P -H2O muestra RMS de 15.36 nm debido a su irregular morfología de superficie con grandes granos y pinholes (Figura 43 c). En base a los datos presentados, las películas obtenidas con plasma de ozono y oxigeno son las que presentan mejor calidad debido al bajo número de defectos y alto grado de cobertura de la superficie.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Química de superficie</titulo>
+        <texto>Previo a las mediciones, la superficie de las muestras fue limpiada mediante un "etch" con iones de Ar + (500 eV) por 30 s. Los espectros de fotoemisión de las películas de Ni1-xO fueron empleados para estudiar el sistema de defectos, estados de oxidación y la composición química relativa. El carbón 1s localizado a 284.8 fue utilizado para el alineamiento de los espectros. Los espectros de alta resolución correspondientes al C 1s, Ni 2p y O 1s fueron deconvolucionados usando el software AAnalyzer con perfiles de picos de Voigt y Gaussianos En este sentido, podemos asumir que el H2O disocia el Ni(acac) (s) + formando NiOH (5.2). Así que, una posible forma de incrementar la eficiencia de las síntesis de ALD consistiría en incrementar la temperatura del sustrato para lograr el nivel preciso en el que la ley de Arrhenius para reacciones cinéticas pueda ser logradas, tal como se mencionó previamente. Por otra parte, la concentración de contaminantes es mas reducida en la síntesis PEALD, mostrando una mejor oxidación del Ni(acac)2. Donde, las películas sintetizadas por este medio presentaron un grado menos de contaminantes en comparación con otras reportadas en la literatura</texto>
+      </seccion>
+      <seccion>
+        <titulo>C1s</titulo>
+        <texto>Figura 45: Espectros de C 1s de películas de óxido de níquel por ALD. La Figura 46, presenta el espectro de fotoemisión del Ni 2p. Donde, todas las muestras presentan un complejo set de multipletes característico de óxidos e hidróxidos metálicos, el cual complica la identificación de los picos individuales. Nuestro equipo permite la medición experimental de los picos con una precisión de ±0.3 eV. En los espectros obtenidos, seis picos característicos fueron identificados en 854.9, 856.3, 858.3, 861.6 y 866.8 eV; los cuales corresponden a los estados de oxidación del Ni 2+ , Ni 3+ y satélites "shake-up"</texto>
+      </seccion>
+      <seccion>
+        <titulo>Propiedades ópticas</titulo>
+        <texto>La influencia del agente oxidante en el band gap de las películas de Ni1-xO fue estudiada con mediciones de transmitancia óptica (Figura 47). Todas las muestras excepto la P -H2O son razonablemente transparentes en el rango visible. La alta transmitancia fue obtenida para las películas de T -O3 y P -O2, con el máximo de valor de transmitancia en 92% y 81%, respectivamente. En ambos casos, la transmitancia de 80% es mantenida para casi todas en todo el rango visible. Este resultado es extremadamente importante para aplicaciones fotovoltaicas, donde el Ni1-xO puede ser usado como HTL. La muestra de P -H2O se destaca al presentar la más baja transmitancia óptica con (&lt;30%) en el rango espectral analizado (300-800 nm) debido a su carácter no estequiométrico y alto contenido de contaminantes. El Eg de las películas fue calculado con el método de Tauc, extrapolando la parte lineal de las curva del coeficiente de absorción hasta una intersección con el eje de energía; se asumió que todas las películas cuentan con un band gap directo. El resultado de los Eg estimados fue 4.10, 3.85, 2.18, 3.74 y 3.74 para las muestras T -H2O, T -O3, P -H2O, P -O3 y P -O2, respectivamente. Estos valores son acordes a los datos reportados en la literatura para las películas de Ni1-xO sintetizado con los métodos de CVD y ALD se mantuvo fuera del rango de las demás muestras, debido a su alta naturaleza no estequiométrica y crecimiento descontrolado de Ni metálico en la superficie., las muestras P -O3 y P -O2 cuentan con el Eg más pequeño, el cual puede ser asociado con la transición de nivel de impurezas dentro del Eg, producido por las vacancias de Ni. Este resultado enfatiza una pronunciada dependencia del 𝐸 𝑔 𝑜𝑝𝑡𝑖𝑐𝑜 sobre el agente oxidante empleado, ya que este puede aplicarse para la modificación del Eg. Después, se empleó un análisis VASE (variable-angle spectroscopic ellipsometry), esto con el propósito de medir los parámetros Psi (Ψ) y Delta (Δ) bajo diferentes ángulos de luz incidente para la muestra P O2 con el propósito de determinar su espesor y las constantes ópticas principales (Figura 48(a)). La ecuación de dispersión de Cauchy fue empleada para caracterizar la función dieléctrica. Para materiales no metálicos (dieléctricos y semiconductores), el índice de refracción "n" y el coeficiente de extinción "k" representa una función de longitud de onda que varía lentamente (𝜆) y una cola de absorción exponencial, respectivamente El modelo de Cauchy tiene cinco parámetros de ajuste: A, B, C, la amplitud de extinción 𝛼, y el factor exponente 𝛽. El borde de banda 𝛾 es fijo; de hecho, este puede ser tratado como el sexto parámetro de ajuste. La cola exponencial describe la absorción sub-gap cercana al bode de banda con una buena precisión. Un modelo simple consiste en sustrato/capa interfaz SiO2/Ni1-xO/rugosidad de superficie, la cual ha sido usada para representar el estudio de la Los valores de n para la síntesis P -O2 coincide razonablemente bien con los reportados en la literatura para las películas de Ni1-xO</texto>
+      </seccion>
+      <seccion>
+        <titulo>C 1s</titulo>
+        <texto>Figura 51: Espectro C 1s de películas delgadas de óxido de níquel depositadas sobre sustratos de FTO.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Estructura electrónica cercana al Eg por REELS (Ni1-xO sobre FTO)</titulo>
+        <texto>El estudio de REELS nos permite determinar la estructura electrónica cercana al band gap electrónico (E g REELS ) de las películas obtenidas por ALD. La Figura 52 muestra los espectros de todas las películas sintetizadas por ALD en modalidad térmico y con plasma, el cual exhibe el pico elástico centrado en una pérdida de energía de 0 eV. Aquí, es sencillo identificar que el incremento de las intensidades ocurre en una pérdida de energía de 3.5 eV a 4.0 eV en cada espectro, el cual es atribuido al proceso de perdida de energía de los electrones que son dispersados inelásticamente que transfieren parte de su energía a aquellos que están en el VBM. Es por esto, que el punto del comienzo es el E g REELS electrónico, debido a que esta es la menor energía permitida para transmitir electrones a la banda de valencia superando el band gap. Este punto, puede ser obtenido mediante una extrapolación lineal</texto>
+      </seccion>
+      <seccion>
+        <titulo>Hidrógeno</titulo>
+        <texto>Figura 52: Espectros REELS de las películas de óxido de níquel sobre sustratos de FTO para la determinación del 𝐸 𝑔 𝑅𝐸𝐸𝐿𝑆 e identificación de un hombro asociado a hidrogeno en 1.8 eV.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Estructura electrónica del Ni1-xO sobre FTO por UPS</titulo>
+        <texto>El espectro UPS, nos permite encontrar la función de trabajo (𝜑) considerando la extrapolación lineal de la energía de corte "cutoff energy" de los electrones secundarios (𝐸 𝑐𝑢𝑡𝑜𝑓𝑓 ) y la energía del fotón (ℎ𝑣 = 21.1 eV) proveniente de la fuente de luz UPS (He-I). En estas mediciones, el nivel de Fermi (E f ) coincide con el voltaje bias aplicado. Después, usando la energía de corte obtenida de cada espectro, la función de trabajo puede ser calculada, empleando la relación 𝜑 = ℎ𝑣 -(𝐸 𝑐𝑢𝑡𝑜𝑓𝑓 -𝐸 𝑓 ) La Figura 54b presenta la determinación del máximo de banda de valencia para les películas de Ni1-xO por ALD. El VBM fue determinado mediante la extrapolación lineal de la posición superior de la banda de valencia y el nivel del "background" del espectro En este punto, se ha demostrado que la síntesis de películas delgadas por medio de PDALD, puede fabricar películas de óxido de níquel que puedan ser empleadas como HTL en celdas solares de perovskita con una densidad de defectos (VNi) que favorecen a su alineamiento de bandas con la perovskita de tipo CsFAMAPbIBr, esto ha sido posible solo con la variación del agente oxidante.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Diagrama de bandas electrónica de la unión Ni1-xO/CsFAMAPbIBr</titulo>
+        <texto>Con el propósito de confirmar la capacidad electrónica de las películas de Ni1-xO como una prometedora capa HTL en celdas solares de perovskita, se elaboró el diagrama de bandas de energía entre la unión Ni1-xO y la perovskita CsFAMAPbIBr. Los valores obtenidos para la construcción del diagrama de bandas presentado en la Figura 56, son presentados en la Tabla   El diagrama presentado en la Figura 56 muestra una representación simple e idealizada del alineamiento de bandas en la heterounión Ni1-xO/PVK, despreciando los doblamientos de bandas causados por las funciones de trabajo de la unión de los materiales o algún problema en la interfaz producido por las diferencias químicas de los materiales. En general, podemos observar un buen alineamiento de bandas entre la mayoría de las muestras de Ni1-xO con la perovskita propuesta, sin embargo, la muestra T -O3 presenta la posición de la VBM por debajo que el de la perovskita, estando -0.47 eV por debajo, lo que podría provocar que la extracción de huecos de la perovskita sea desfavorable debido a la barrera de energía que se provoca llevando a altas tazas de recombinación de portadores de carga en el material absorbedor. Por otra parte, el alineamiento de niveles de energía es favorable para el resto de las muestras, debió a que la posición del VBM está por encima del de la perovskita, estando por encima desde 0.13 eV, hasta 0.58 eV, esto quiere decir que este alineamiento de bandas provocaría una buena extracción de carga del material absorbedor a la HTL. Esto podría ser benéfico para una celda solar con este tipo de alineamientos, ya que, la referencia</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conclusiones generales y perspectiva</titulo>
+        <texto>En este estudió se demuestra que, al emplear plasma de ozono como agente oxidante, es posible obtener películas de óxido de níquel con excelentes características fisicoquímicas para ser empleada como capa transportadora de huecos en celdas solares de perovskitas. Ya que, estas son cristalinas, presentan una alta transparencia óptica en la región visible del espectro electromagnético (~80%), y presentan excelentes características eléctricas. Aunado a esto, su estequiometria, demuestra que al existir defectos asociados al Ni 3+ , se promueve la conductividad tipo p y un mejor alineamiento de bandas de energía en la heterounión Ni1-xO/ CsFAMAPbIBr, tal como se demostró en él estudió por espectroscopias electrónicas. Se debe destacar que existe un excelente alineamiento de bandas en la mayoría de las películas fabricadas, en donde se demostró que es posible modular el VBM y la función de trabajo, variando el agente oxidante. Al realizar esto, se destaca la síntesis con plasma, particularmente la que utiliza oxígeno, ya que, al elaborar el diagrama de bandas con respecto al nivel de Fermi, se muestra que el VBM (-0.91 eV) está por encima de el del material absorbedor (-1.45 eV) permitiendo el flujo de cargas positivas del material absorbedor a la HTL, por otro lado, el CBM se encuentra muy por encima del de la perovskita, lo cual funge como una barrera de las cargas positivas. Este alineamiento de bandas es producto de la modulación de las especies Ni 3+ (18%) en el óxido de níquel y la relación estequiométrica Ni/O (0.55). El presente trabajo deja una alta perspectiva a futuro, ya que, la películas fabricadas, presentan atractivas características para ser empleadas en celdas solares de perovskitas. Se debe destacar que la perovskita CsFAMAPbIBr, no fue fabricada en condiciones ideales, favoreciendo la degradación y provocando un desempeño desfavorable de esta en los dispositivos y llevando a cortos circuitos. Por lo que, se debe de considerar que la solución a esto podría ser el optar por un material absorbedor que no requiera un ambiente controlado para su fabricación. Existen opciones inorgánicas, tales como la perovskita CsPbI3, la cual es un material altamente estable al estar en su fase alfa (cubica). Además, que esta perovskita cuenta con un excelente alineamiento de bandas con el Ni1-xO. Al emplear una HTL y un absorbedor inorgánico podría ser benéfico para el tiempo de vida de los dispositivos, ya que, al no tener la parte orgánica del absorbedor, este mostrara mayor estabilidad.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia>
+      <titulo>A review on perovskite solar cells: Evolution of architecture, fabrication techniques, commercialization issues and status</titulo>
+      <autores>
+        <autor>P Roy</autor>
+        <autor>N Sinha</autor>
+        <autor>S Tiwari</autor>
+        <autor>A Khare</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>D Zhou</autor>
+        <autor>T Zhou</autor>
+        <autor>Y Tian</autor>
+        <autor>X Zhu</autor>
+        <autor>Y Tu</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <fecha>2023-12-05</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanism of carrier accumulation in perovskite thinabsorber solar cells</titulo>
+      <autores>
+        <autor>H.-S Kim</autor>
+        <autor>I Mora-Sero</autor>
+        <autor>V Gonzalez-Pedro</autor>
+        <autor>F Fabregat-Santiago</autor>
+        <autor>E Juarez-Perez</autor>
+        <autor>N.-G Park</autor>
+        <autor>J Bisquert</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>One step facile synthesis of a novel anthanthrone dye-based, dopant-free hole transporting material for efficient and stable perovskite solar cells</titulo>
+      <autores>
+        <autor>H Pham</autor>
+        <autor>K Hayasake</autor>
+        <autor>J Kim</autor>
+        <autor>T Do</autor>
+        <autor>H Matsui</autor>
+        <autor>S Manzhos</autor>
+        <autor>K Feron</autor>
+        <autor>S Tokito</autor>
+        <autor>T Watson</autor>
+        <autor>W Tsoi</autor>
+        <autor>N Motta</autor>
+        <autor>J Durrant</autor>
+        <autor>S Jain</autor>
+        <autor>P Sonar</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent progress on low dimensional perovskite solar cells</titulo>
+      <autores>
+        <autor>L Chao</autor>
+        <autor>Z Wang</autor>
+        <autor>Y Xia</autor>
+        <autor>Y Chen</autor>
+        <autor>W Huang</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Understanding the physical properties of hybrid perovskites for photovoltaic applications</titulo>
+      <autores>
+        <autor>J Huang</autor>
+        <autor>Y Yuan</autor>
+        <autor>Y Shao</autor>
+        <autor>Y Yan</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Origin of the high performance of perovskite solar cells with large grains</titulo>
+      <autores>
+        <autor>J Chen</autor>
+        <autor>T Shi</autor>
+        <autor>X Li</autor>
+        <autor>B Zhou</autor>
+        <autor>H Cao</autor>
+        <autor>Y Wang</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A discussion on the origin and solutions of hysteresis in perovskite hybrid solar cells</titulo>
+      <autores>
+        <autor>D Song</autor>
+        <autor>M Jang</autor>
+        <autor>M Lee</autor>
+        <autor>J Heo</autor>
+        <autor>J Park</autor>
+        <autor>S Sung</autor>
+        <autor>D Kim</autor>
+        <autor>K Hong</autor>
+        <autor>S Im</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic layer deposition for perovskite solar cells: research status, opportunities and challenges</titulo>
+      <autores>
+        <autor>V Zardetto</autor>
+        <autor>B Williams</autor>
+        <autor>A Perrotta</autor>
+        <autor>F Di Giacomo</autor>
+        <autor>M Verheijen</autor>
+        <autor>R Andriessen</autor>
+        <autor>W Kessels</autor>
+        <autor>M Creatore</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nickel Oxide as Efficient Hole Transport Materials for Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>X Yin</autor>
+        <autor>Y Guo</autor>
+        <autor>H Xie</autor>
+        <autor>W Que</autor>
+        <autor>L Kong</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review for nickel oxide hole transport layer and its application in halide perovskite solar cells</titulo>
+      <autores>
+        <autor>X Cai</autor>
+        <autor>T Hu</autor>
+        <autor>H Hou</autor>
+        <autor>P Zhu</autor>
+        <autor>R Liu</autor>
+        <autor>J Peng</autor>
+        <autor>W Luo</autor>
+        <autor>H Yu</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Trapped charge-driven degradation of perovskite solar cells</titulo>
+      <autores>
+        <autor>N Ahn</autor>
+        <autor>K Kwak</autor>
+        <autor>M Jang</autor>
+        <autor>H Yoon</autor>
+        <autor>B Lee</autor>
+        <autor>J.-K Lee</autor>
+        <autor>P Pikhitsa</autor>
+        <autor>J Byun</autor>
+        <autor>M Choi</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Formation of hybrid ABX3 perovskite compounds for solar cell application: first-principles calculations of effective ionic radii and determination of tolerance factors</titulo>
+      <autores>
+        <autor>M Becker</autor>
+        <autor>T Klüner</autor>
+        <autor>M Wark</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Regulatory tolerance and octahedral factors by using vacancy in APbI3 perovskites</titulo>
+      <autores>
+        <autor>D Ji</autor>
+        <autor>S Feng</autor>
+        <autor>L Wang</autor>
+        <autor>S Wang</autor>
+        <autor>M Na</autor>
+        <autor>H Zhang</autor>
+        <autor>C Zhang</autor>
+        <autor>X Li</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Learn-and-Match Molecular Cations for Perovskites</titulo>
+      <autores>
+        <autor>H Park</autor>
+        <autor>R Mall</autor>
+        <autor>F Alharbi</autor>
+        <autor>S Sanvito</autor>
+        <autor>N Tabet</autor>
+        <autor>H Bensmail</autor>
+        <autor>F El-Mellouhi</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Jpeg</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>A review on perovskite solar cells: Evolution of architecture, fabrication techniques, commercialization issues and status</titulo>
+      <autores>
+        <autor>P Roy</autor>
+        <autor>N Sinha</autor>
+        <autor>S Tiwari</autor>
+        <autor>A Khare</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Compositional and Interface Engineering of Organic-Inorganic Lead Halide Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>H Lu</autor>
+        <autor>A Krishna</autor>
+        <autor>S Zakeeruddin</autor>
+        <autor>M Grätzel</autor>
+        <autor>A Hagfeldt</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electron Transport Materials: Inorganic Electron Transport Materials in Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>L Lin</autor>
+        <autor>T Jones</autor>
+        <autor>T Yang</autor>
+        <autor>N Duffy</autor>
+        <autor>J Li</autor>
+        <autor>L Zhao</autor>
+        <autor>B Chi</autor>
+        <autor>X Wang</autor>
+        <autor>G Wilson</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Crystallinity of inorganic films grown by atomic layer deposition: Overview and general trends</titulo>
+      <autores>
+        <autor>V Miikkulainen</autor>
+        <autor>M Leskelä</autor>
+        <autor>M Ritala</autor>
+        <autor>R Puurunen</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inorganic hole transport layers in inverted perovskite solar cells: A review</titulo>
+      <autores>
+        <autor>G Arumugam</autor>
+        <autor>S Karunakaran</autor>
+        <autor>C Liu</autor>
+        <autor>C Zhang</autor>
+        <autor>F Guo</autor>
+        <autor>S Wu</autor>
+        <autor>Y Mai</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Stable and Low-Cost Mesoscopic CH3NH3PbI2Br Perovskite Solar Cells by using a Thin Poly(3hexylthiophene) Layer as a Hole Transporter</titulo>
+      <autores>
+        <autor>M Zhang</autor>
+        <autor>M Lyu</autor>
+        <autor>H Yu</autor>
+        <autor>J Yun</autor>
+        <autor>Q Wang</autor>
+        <autor>L Wang</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High-Efficiency Perovskite Solar Cell Based on Poly(3-Hexylthiophene): Influence of Molecular Weight and Mesoscopic Scaffold Layer</titulo>
+      <autores>
+        <autor>N Nia</autor>
+        <autor>F Matteocci</autor>
+        <autor>L Cina</autor>
+        <autor>A Di</autor>
+        <autor>Carlo</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inorganic Hole Transporting Materials for Stable and High Efficiency Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>J Chen</autor>
+        <autor>N.-G Park</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Improved air stability of perovskite solar cells via solution-processed metal oxide transport layers</titulo>
+      <autores>
+        <autor>J You</autor>
+        <autor>L Meng</autor>
+        <autor>T Bin</autor>
+        <autor>T Song</autor>
+        <autor>W Guo</autor>
+        <autor>Z Chang</autor>
+        <autor>H Hong</autor>
+        <autor>H Chen</autor>
+        <autor>Q Zhou</autor>
+        <autor>Y Chen</autor>
+        <autor>N Liu</autor>
+        <autor>Y Marco</autor>
+        <autor>Yang</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic Layer Deposition: An Overview</titulo>
+      <autores>
+        <autor>S George</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Plasma-Assisted Atomic Layer Deposition: Basics, Opportunities, and Challenges</titulo>
+      <autores>
+        <autor>H Profijt</autor>
+        <autor>S Potts</autor>
+        <autor>M Van De Sanden</autor>
+        <autor>W Kessels</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic layer deposition (ALD): from precursors to thin film structures</titulo>
+      <autores>
+        <autor>M Leskelä</autor>
+        <autor>M Ritala</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent progress and challenges of organometal halide perovskite solar cells</titulo>
+      <autores>
+        <autor>L Yang</autor>
+        <autor>A Barrows</autor>
+        <autor>D Lidzey</autor>
+        <autor>T Wang</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Surface chemistry of atomic layer deposition: A case study for the trimethylaluminum/water process</titulo>
+      <autores>
+        <autor>R Puurunen</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>New development of atomic layer deposition: processes, methods and applications</titulo>
+      <autores>
+        <autor>P Oviroh</autor>
+        <autor>R Akbarzadeh</autor>
+        <autor>D Pan</autor>
+        <autor>R Coetzee</autor>
+        <autor>T.-C Jen</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Handbook of Crystal Growth</titulo>
+      <autores>
+        <autor>M Uwaha</autor>
+        <autor>Growth Kinetics</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic layer deposition for photovoltaics: applications and prospects for solar cell manufacturing</titulo>
+      <autores>
+        <autor>J Van Delft</autor>
+        <autor>D Garcia-Alonso</autor>
+        <autor>W Kessels</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nucleation of HfO2 atomic layer deposition films on chemical oxide and H-terminated Si</titulo>
+      <autores>
+        <autor>J Hackley</autor>
+        <autor>T Gougousi</autor>
+        <autor>J Demaree</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Highly Robust Transparent and Conductive Gas Diffusion Barriers Based on Tin Oxide</titulo>
+      <autores>
+        <autor>A Behrendt</autor>
+        <autor>C Friedenberger</autor>
+        <autor>T Gahlmann</autor>
+        <autor>S Trost</autor>
+        <autor>T Becker</autor>
+        <autor>K Zilberberg</autor>
+        <autor>A Polywka</autor>
+        <autor>P Görrn</autor>
+        <autor>T Riedl</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>On the role of nanoporosity in controlling the performance of moisture permeation barrier layers</titulo>
+      <autores>
+        <autor>A Perrotta</autor>
+        <autor>E Van Beekum</autor>
+        <autor>G Aresta</autor>
+        <autor>A Jagia</autor>
+        <autor>W Keuning</autor>
+        <autor>R Van De Sanden</autor>
+        <autor>E Kessels</autor>
+        <autor>M Creatore</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Controllable nitrogen incorporation in HfO2 films by modulating capacitivelycombined inductively-coupled plasmas</titulo>
+      <autores>
+        <autor>C Jin</autor>
+        <autor>Y Yang</autor>
+        <autor>H Zhang</autor>
+        <autor>T Huang</autor>
+        <autor>M Wu</autor>
+        <autor>L Zhuge</autor>
+        <autor>X Wu</autor>
+        <autor>C Ye</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Handbook of thin film materials</titulo>
+      <autores>
+        <autor>H Nalwa</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Flash-Lamp-Enhanced Atomic Layer Deposition of Thin Films</titulo>
+      <autores>
+        <autor>T Henke</autor>
+        <autor>M Knaut</autor>
+        <autor>C Hossbach</autor>
+        <autor>M Geidel</autor>
+        <autor>L Rebohle</autor>
+        <autor>M Albert</autor>
+        <autor>W Skorupa</autor>
+        <autor>J Bartha</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Philipp Maydannik ROLL-TO-ROLL ATOMIC LAYER DEPOSITION PROCESS FOR FLEXIBLE ELECTRONICS APPLICATIONS</titulo>
+      <autores>
+        <autor>A Universitatis</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>The electrochromic properties of sputtered nickel oxide films</titulo>
+      <autores>
+        <autor>R Conell</autor>
+        <autor>D Corrigan</autor>
+        <autor>B Powell</autor>
+      </autores>
+      <fecha>1992</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nickel vacancy behavior in the electrical conductance of nonstoichiometric nickel oxide film</titulo>
+      <autores>
+        <autor>D Kim</autor>
+        <autor>H Lee</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation of optical, electronic, and magnetic properties of p-type NiO thin film on different substrates</titulo>
+      <autores>
+        <autor>D Kaya</autor>
+        <autor>H Aydınoğlu</autor>
+        <autor>E Şenadım Tüzemen</autor>
+        <autor>A Ekicibil</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Lowtemperature sputtered nickel oxide compact thin film as effective electron blocking layer for mesoscopic NiO/CH3NH3PbI 3 perovskite heterojunction solar cells</titulo>
+      <autores>
+        <autor>K Wang</autor>
+        <autor>P Shen</autor>
+        <autor>M Li</autor>
+        <autor>S Chen</autor>
+        <autor>M Lin</autor>
+        <autor>P Chen</autor>
+        <autor>T Guo</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enhanced physical properties of pulsed laser deposited NiO films via annealing and lithium doping for improving perovskite solar cell efficiency</titulo>
+      <autores>
+        <autor>Z Qiu</autor>
+        <autor>H Gong</autor>
+        <autor>G Zheng</autor>
+        <autor>S Yuan</autor>
+        <autor>H Zhang</autor>
+        <autor>X Zhu</autor>
+        <autor>H Zhou</autor>
+        <autor>B Cao</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Oxidation of nickel and transport properties of nickel oxide</titulo>
+      <autores>
+        <autor>S Mrowec</autor>
+        <autor>Z Grzesik</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High-Performance Hole-Extraction Layer of Sol-Gel-Processed NiO Nanocrystals for Inverted Planar Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>Z Zhu</autor>
+        <autor>Y Bai</autor>
+        <autor>T Zhang</autor>
+        <autor>Z Liu</autor>
+        <autor>X Long</autor>
+        <autor>Z Wei</autor>
+        <autor>Z Wang</autor>
+        <autor>L Zhang</autor>
+        <autor>J Wang</autor>
+        <autor>F Yan</autor>
+        <autor>S Yang</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High-Performance Planar Perovskite Solar Cells Using Low Temperature, Solution-Combustion-Based Nickel Oxide Hole Transporting Layer with Efficiency Exceeding 20%</titulo>
+      <autores>
+        <autor>Z Liu</autor>
+        <autor>J Chang</autor>
+        <autor>Z Lin</autor>
+        <autor>L Zhou</autor>
+        <autor>Z Yang</autor>
+        <autor>D Chen</autor>
+        <autor>C Zhang</autor>
+        <autor>S Frank) Liu</autor>
+        <autor>Y Hao</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Self-Functionalization behind a Solution-Processed NiOx Film Used As Hole Transporting Layer for Efficient Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>J Ciro</autor>
+        <autor>D Ramírez</autor>
+        <autor>M Mejía Escobar</autor>
+        <autor>J Montoya</autor>
+        <autor>S Mesa</autor>
+        <autor>R Betancur</autor>
+        <autor>F Jaramillo</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Soft-cover deposition of scaling-up uniform perovskite thin films for high costperformance solar cells</titulo>
+      <autores>
+        <autor>F Ye</autor>
+        <autor>H Chen</autor>
+        <autor>F Xie</autor>
+        <autor>W Tang</autor>
+        <autor>M Yin</autor>
+        <autor>J He</autor>
+        <autor>E Bi</autor>
+        <autor>Y Wang</autor>
+        <autor>X Yang</autor>
+        <autor>L Han</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Highly Efficient and Uniform 1 cm2 Perovskite Solar Cells with an Electrochemically Deposited NiOx Hole-Extraction Layer</titulo>
+      <autores>
+        <autor>I Park</autor>
+        <autor>G Kang</autor>
+        <autor>M Park</autor>
+        <autor>J Kim</autor>
+        <autor>S Seo</autor>
+        <autor>D Kim</autor>
+        <autor>K Zhu</autor>
+        <autor>T Park</autor>
+        <autor>J Kim</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inverted perovskite solar cells with high fill-factors featuring chemical bath deposited mesoporous NiO hole transporting layers</titulo>
+      <autores>
+        <autor>J Sun</autor>
+        <autor>J Lu</autor>
+        <autor>B Li</autor>
+        <autor>L Jiang</autor>
+        <autor>A Chesman</autor>
+        <autor>A Scully</autor>
+        <autor>T Gengenbach</autor>
+        <autor>Y Cheng</autor>
+        <autor>J Jasieniak</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>An ultra-thin, un-doped NiO hole transporting layer of highly efficient (16.4%) organic-inorganic hybrid perovskite solar cells</titulo>
+      <autores>
+        <autor>S Seo</autor>
+        <autor>I Park</autor>
+        <autor>M Kim</autor>
+        <autor>S Lee</autor>
+        <autor>C Bae</autor>
+        <autor>H Jung</autor>
+        <autor>N.-G Park</autor>
+        <autor>J Kim</autor>
+        <autor>H Shin</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Interface modification of sputtered NiOx as the hole-transporting layer for efficient inverted planar perovskite solar cells</titulo>
+      <autores>
+        <autor>X Zheng</autor>
+        <autor>Z Song</autor>
+        <autor>Z Chen</autor>
+        <autor>S Bista</autor>
+        <autor>P Gui</autor>
+        <autor>N Shrestha</autor>
+        <autor>C Chen</autor>
+        <autor>C Li</autor>
+        <autor>X Yin</autor>
+        <autor>R Awni</autor>
+        <autor>H Lei</autor>
+        <autor>C Tao</autor>
+        <autor>R Ellingson</autor>
+        <autor>Y Yan</autor>
+        <autor>G Fang</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electron-Beam-Evaporated Nickel Oxide Hole Transport Layers for Perovskite-Based Photovoltaics</titulo>
+      <autores>
+        <autor>T Abzieher</autor>
+        <autor>S Moghadamzadeh</autor>
+        <autor>F Schackmar</autor>
+        <autor>H Eggers</autor>
+        <autor>F Sutterlüti</autor>
+        <autor>A Farooq</autor>
+        <autor>D Kojda</autor>
+        <autor>K Habicht</autor>
+        <autor>R Schmager</autor>
+        <autor>A Mertens</autor>
+        <autor>R Azmi</autor>
+        <autor>L Klohr</autor>
+        <autor>J Schwenzer</autor>
+        <autor>M Hetterich</autor>
+        <autor>U Lemmer</autor>
+        <autor>B Richards</autor>
+        <autor>M Powalla</autor>
+        <autor>U Paetzold</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Efficient NiO x Hole Transporting Layer Obtained by the Oxidation of Metal Nickel Film for Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>S Pang</autor>
+        <autor>C Zhang</autor>
+        <autor>H Dong</autor>
+        <autor>D Chen</autor>
+        <autor>W Zhu</autor>
+        <autor>H Xi</autor>
+        <autor>J Chang</autor>
+        <autor>Z Lin</autor>
+        <autor>J Zhang</autor>
+        <autor>Y Hao</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Importance of Oxygen Partial Pressure in Annealing NiO Film for High Efficiency Inverted Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>X Zhao</autor>
+        <autor>J Chen</autor>
+        <autor>N Park</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Oxygen doping in nickel oxide for highly efficient planar perovskite solar cells</titulo>
+      <autores>
+        <autor>G Niu</autor>
+        <autor>S Wang</autor>
+        <autor>J Li</autor>
+        <autor>W Li</autor>
+        <autor>L Wang</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Solution-Processed Nickel Oxide Hole Transport Layers in High Efficiency Polymer Photovoltaic Cells</titulo>
+      <autores>
+        <autor>J Manders</autor>
+        <autor>S Tsang</autor>
+        <autor>M Hartel</autor>
+        <autor>T Lai</autor>
+        <autor>S Chen</autor>
+        <autor>C Amb</autor>
+        <autor>J Reynolds</autor>
+        <autor>F So</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High efficiency hysteresis-less inverted planar heterojunction perovskite solar cells with a solution-derived NiOx hole contact layer</titulo>
+      <autores>
+        <autor>X Yin</autor>
+        <autor>M Que</autor>
+        <autor>Y Xing</autor>
+        <autor>W Que</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Low-Temperature Combustion-Synthesized Nickel Oxide Thin Films as Hole-Transport Interlayers for Solution-Processed Optoelectronic Devices</titulo>
+      <autores>
+        <autor>S Bai</autor>
+        <autor>M Cao</autor>
+        <autor>Y Jin</autor>
+        <autor>X Dai</autor>
+        <autor>X Liang</autor>
+        <autor>Z Ye</autor>
+        <autor>M Li</autor>
+        <autor>J Cheng</autor>
+        <autor>X Xiao</autor>
+        <autor>Z Wu</autor>
+        <autor>Z Xia</autor>
+        <autor>B Sun</autor>
+        <autor>E Wang</autor>
+        <autor>Y Mo</autor>
+        <autor>F Gao</autor>
+        <autor>F Zhang</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High-Performance and Environmentally Stable Planar Heterojunction Perovskite Solar Cells Based on a Solution-Processed Copper-Doped Nickel Oxide Hole-Transporting Layer</titulo>
+      <autores>
+        <autor>J Kim</autor>
+        <autor>P Liang</autor>
+        <autor>S Williams</autor>
+        <autor>N Cho</autor>
+        <autor>C Chueh</autor>
+        <autor>M Glaz</autor>
+        <autor>D Ginger</autor>
+        <autor>A Jen</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nickel oxide for inverted structure perovskite solar cells</titulo>
+      <autores>
+        <autor>F Ma</autor>
+        <autor>Y Zhao</autor>
+        <autor>J Li</autor>
+        <autor>X Zhang</autor>
+        <autor>H Gu</autor>
+        <autor>J You</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Highly Efficient Flexible Perovskite Solar Cells Using Solution-Derived NiOx Hole Contacts</titulo>
+      <autores>
+        <autor>X Yin</autor>
+        <autor>P Chen</autor>
+        <autor>M Que</autor>
+        <autor>Y Xing</autor>
+        <autor>W Que</autor>
+        <autor>C Niu</autor>
+        <autor>J Shao</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Stabilizing n-type hetero-junctions for NiOx based inverted planar perovskite solar cells with an efficiency of 21.6%</titulo>
+      <autores>
+        <autor>W Chen</autor>
+        <autor>G Pang</autor>
+        <autor>Y Zhou</autor>
+        <autor>Y Sun</autor>
+        <autor>F Liu</autor>
+        <autor>R Chen</autor>
+        <autor>S Chen</autor>
+        <autor>A Djurišić</autor>
+        <autor>Z He</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Post-treatment-Free Solution-Processed Non-stoichiometric NiOx Nanoparticles for Efficient Hole-Transport Layers of Organic Optoelectronic Devices</titulo>
+      <autores>
+        <autor>F Jiang</autor>
+        <autor>W Choy</autor>
+        <autor>X Li</autor>
+        <autor>D Zhang</autor>
+        <autor>J Cheng</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Efficient and stable large-area perovskite solar cells with inorganic charge extraction layers</titulo>
+      <autores>
+        <autor>W Chen</autor>
+        <autor>Y Wu</autor>
+        <autor>Y Yue</autor>
+        <autor>J Liu</autor>
+        <autor>W Zhang</autor>
+        <autor>X Yang</autor>
+        <autor>H Chen</autor>
+        <autor>E Bi</autor>
+        <autor>I Ashraful</autor>
+        <autor>M Grätzel</autor>
+        <autor>L Han</autor>
+      </autores>
+      <fecha>1979</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High-Performance Inverted Perovskite Solar Cells with Mesoporous NiO x Hole Transport Layer by Electrochemical Deposition</titulo>
+      <autores>
+        <autor>T Wang</autor>
+        <autor>D Ding</autor>
+        <autor>X Wang</autor>
+        <autor>R Zeng</autor>
+        <autor>H Liu</autor>
+        <autor>W Shen</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Temperature optimization of NiO hole transport layer prepared by atomic layer deposition</titulo>
+      <autores>
+        <autor>U Farva</autor>
+        <autor>J Kim</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of annealing temperature of nickel oxide as hole transport layer applied for inverted perovskite solar cells</titulo>
+      <autores>
+        <autor>K.-T Chen</autor>
+        <autor>C.-H Hsu</autor>
+        <autor>F.-B Ren</autor>
+        <autor>C Wang</autor>
+        <autor>P Gao</autor>
+        <autor>W.-Y Wu</autor>
+        <autor>S.-Y Lien</autor>
+        <autor>W.-Z Zhu</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Plasma-assisted atomic layer deposition of nickel oxide as hole transport layer for hybrid perovskite solar cells</titulo>
+      <autores>
+        <autor>D Koushik</autor>
+        <autor>M Jošt</autor>
+        <autor>A Dučinskas</autor>
+        <autor>C Burgess</autor>
+        <autor>V Zardetto</autor>
+        <autor>C Weijtens</autor>
+        <autor>M Verheijen</autor>
+        <autor>W Kessels</autor>
+        <autor>S Albrecht</autor>
+        <autor>M Creatore</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Situ Atmospheric Deposition of Ultrasmooth Nickel Oxide for Efficient Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>B Zhao</autor>
+        <autor>L Lee</autor>
+        <autor>L Yang</autor>
+        <autor>A Pearson</autor>
+        <autor>H Lu</autor>
+        <autor>X She</autor>
+        <autor>L Cui</autor>
+        <autor>K Zhang</autor>
+        <autor>R Hoye</autor>
+        <autor>A Karani</autor>
+        <autor>P Xu</autor>
+        <autor>A Sadhanala</autor>
+        <autor>N Greenham</autor>
+        <autor>R Friend</autor>
+        <autor>J Macmanus-Driscoll</autor>
+        <autor>D Di</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Stoichiometry of Nickel Oxide Films Prepared by ALD</titulo>
+      <autores>
+        <autor>J Bachmann</autor>
+        <autor>A Zolotaryov</autor>
+        <autor>O Albrecht</autor>
+        <autor>S Goetze</autor>
+        <autor>A Berger</autor>
+        <autor>D Hesse</autor>
+        <autor>D Novikov</autor>
+        <autor>K Nielsch</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic Layer Deposition of NiO Films on Si(100) Using Cyclopentadienyl-Type Compounds and Ozone as Precursors</titulo>
+      <autores>
+        <autor>H Lu</autor>
+        <autor>G Scarel</autor>
+        <autor>C Wiemer</autor>
+        <autor>M Perego</autor>
+        <autor>S Spiga</autor>
+        <autor>M Fanciulli</autor>
+        <autor>G Pavia</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Creating Highly Active Atomic Layer Deposited NiO Electrocatalysts for the Oxygen Evolution Reaction</titulo>
+      <autores>
+        <autor>K Nardi</autor>
+        <autor>N Yang</autor>
+        <autor>C Dickens</autor>
+        <autor>A Strickler</autor>
+        <autor>S Bent</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Energy levels, electronic properties, and rectification in ultrathin p-NiO films synthesized by atomic layer deposition</titulo>
+      <autores>
+        <autor>E Thimsen</autor>
+        <autor>A Martinson</autor>
+        <autor>J Elam</autor>
+        <autor>M Pellin</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A high growth rate atomic layer deposition process for nickel oxide film preparation using a combination of nickel(II) diketonate-diamine and ozone</titulo>
+      <autores>
+        <autor>Y Zhang</autor>
+        <autor>L Du</autor>
+        <autor>X Liu</autor>
+        <autor>Y Ding</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic Layer Deposition of Transparent p-Type Semiconducting Nickel Oxide Using Ni( tBu2 DAD) 2 and Ozone</titulo>
+      <autores>
+        <autor>K Holden</autor>
+        <autor>C Dezelah</autor>
+        <autor>J Conley</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Studies of NiO thin film formation by atomic layer epitaxy</titulo>
+      <autores>
+        <autor>M Utriainen</autor>
+        <autor>M Kröger-Laukkanen</autor>
+        <autor>L Niinistö</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>NiO Thin Films Synthesized by Atomic Layer Deposition using Ni(dmamb)2 and Ozone as Precursors</titulo>
+      <autores>
+        <autor>P Premkumar</autor>
+        <autor>M Toeller</autor>
+        <autor>C Adelmann</autor>
+        <autor>J Meersschaut</autor>
+        <autor>A Franquet</autor>
+        <autor>O Richard</autor>
+        <autor>H Tielens</autor>
+        <autor>B Brijs</autor>
+        <autor>A Moussa</autor>
+        <autor>T Conard</autor>
+        <autor>H Bender</autor>
+        <autor>M Schaekers</autor>
+        <autor>J Kittl</autor>
+        <autor>M Jurczak</autor>
+        <autor>S Van Elshocht</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic layer deposition of NiO by the Ni(thd)2/H2O precursor combination</titulo>
+      <autores>
+        <autor>E Lindahl</autor>
+        <autor>M Ottosson</autor>
+        <autor>J Carlsson</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic layer deposition of NiO hole-transporting layers for polymer solar cells</titulo>
+      <autores>
+        <autor>C Hsu</autor>
+        <autor>H Su</autor>
+        <autor>C Hou</autor>
+        <autor>J Shyue</autor>
+        <autor>F Tsai</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic layer deposition of nickel oxide films using Ni(dmamp)2 and water</titulo>
+      <autores>
+        <autor>T Yang</autor>
+        <autor>W Cho</autor>
+        <autor>M Kim</autor>
+        <autor>K.-S An</autor>
+        <autor>T.-M Chung</autor>
+        <autor>C Kim</autor>
+        <autor>Y Kim</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characteristics of NiO films prepared by atomic layer deposition using bis(ethylcyclopentadienyl)-Ni and O2 plasma</titulo>
+      <autores>
+        <autor>S Ji</autor>
+        <autor>W Jang</autor>
+        <autor>J Son</autor>
+        <autor>D Kim</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Substrate Dependent Growth Behaviors of Plasma-Enhanced Atomic Layer Deposited Nickel Oxide Films for Resistive Switching Application</titulo>
+      <autores>
+        <autor>S Song</autor>
+        <autor>S Lee</autor>
+        <autor>G Kim</autor>
+        <autor>J Seok</autor>
+        <autor>K Yoon</autor>
+        <autor>J Yoon</autor>
+        <autor>C Hwang</autor>
+        <autor>J Gatineau</autor>
+        <autor>C Ko</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Edge-Selective Growth of MCp2 (M = Fe, Co, and Ni) Precursors on Pt Nanoparticles in Atomic Layer Deposition: A Combined Theoretical and Experimental Study</titulo>
+      <autores>
+        <autor>Y Wen</autor>
+        <autor>J Cai</autor>
+        <autor>J Zhang</autor>
+        <autor>J Yang</autor>
+        <autor>L Shi</autor>
+        <autor>K Cao</autor>
+        <autor>R Chen</autor>
+        <autor>B Shan</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Engineering of molecular architectures of β-diketonate precursors toward new advanced materials</titulo>
+      <autores>
+        <autor>G Condorelli</autor>
+        <autor>G Malandrino</autor>
+        <autor>I Fragalà</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Principles of precursor design for vapour deposition methods</titulo>
+      <autores>
+        <autor>S Koponen</autor>
+        <autor>P Gordon</autor>
+        <autor>S Barry</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nickel thin films prepared by chemical vapour deposition from nickel acetylacetonate</titulo>
+      <autores>
+        <autor>T Maruyama</autor>
+        <autor>T Tago</autor>
+      </autores>
+      <fecha>1993</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of Ni/Al2O3 catalysts from vapor phase by atomic layer epitaxy</titulo>
+      <autores>
+        <autor>M Lindblad</autor>
+        <autor>L Lindfors</autor>
+        <autor>T Suntola</autor>
+      </autores>
+      <fecha>1994</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Role of the support nature in chemisorption of Ni(acac)2 on the surface of silica and alumina</titulo>
+      <autores>
+        <autor>I Babich</autor>
+        <autor>Y Plyuto</autor>
+        <autor>A Van Langeveld</autor>
+        <autor>J Moulijn</autor>
+      </autores>
+      <fecha>1997</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Studies of metallic thin film growth in an atomic layer epitaxy reactor using M(acac)2 (M=Ni, Cu, Pt) precursors</titulo>
+      <autores>
+        <autor>M Utriainen</autor>
+        <autor>M Kröger-Laukkanen</autor>
+        <autor>L Johansson</autor>
+        <autor>L Niinistö</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>CVD of Metals Using Alcohols and Metal Acetylacetonates, Part I: Optimization of Process Parameters and Electrical Characterization of Synthesized Films</titulo>
+      <autores>
+        <autor>P Premkumar</autor>
+        <autor>N Bahlawane</autor>
+        <autor>K Kohse-Höinghaus</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tailoring the properties of atomic layer deposited nickel and nickel carbide thin films via chainlength control of the alcohol reducing agents</titulo>
+      <autores>
+        <autor>M Sarr</autor>
+        <autor>N Bahlawane</autor>
+        <autor>D Arl</autor>
+        <autor>M Dossot</autor>
+        <autor>E Mcrae</autor>
+        <autor>D Lenoble</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cobalt(III) acetylacetonate chemisorbed on aluminum-nitride-modified silica: Characteristics and hydroformylation activity</titulo>
+      <autores>
+        <autor>R Puurunen</autor>
+        <autor>T Zeelie</autor>
+        <autor>A Krause</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Surface chemistry of materials deposition at atomic layer level</titulo>
+      <autores>
+        <autor>T Suntola</autor>
+      </autores>
+      <fecha>1996</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemisorption of chromium acetylacetonate on porous high surface area silica</titulo>
+      <autores>
+        <autor>S Haukka</autor>
+        <autor>E Lakomaa</autor>
+        <autor>T Suntola</autor>
+      </autores>
+      <fecha>1994</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The crystal and molecular structure of bis (acetylacetonato) nickel (II)</titulo>
+      <autores>
+        <autor>G Bullen</autor>
+        <autor>R Mason</autor>
+        <autor>P Pauling</autor>
+      </autores>
+      <fecha>1965</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High crystalline epitaxial thin films of NiO by plasma-enhanced ALD and their properties</titulo>
+      <autores>
+        <autor>R Attri</autor>
+        <autor>D Panda</autor>
+        <autor>J Ghatak</autor>
+        <autor>C Rao</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>X-Ray powder diffraction, XRD for the Analyst</titulo>
+      <autores>
+        <autor>M Ermrich</autor>
+        <autor>D Opper</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Semiconductor physics and devices</titulo>
+      <autores>
+        <autor>D Neamen</autor>
+        <autor>D Biswas</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>X-Ray Photoelectron Spectroscopy (XPS)</titulo>
+      <autores>
+        <autor>N Simchi</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Absolute work function measurement by using photoelectron spectroscopy</titulo>
+      <autores>
+        <autor>J Kim</autor>
+        <autor>A Kim</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Antiferromagnetism and p-type conductivity of nonstoichiometric nickel oxide thin films</titulo>
+      <autores>
+        <autor>M Napari</autor>
+        <autor>T Huq</autor>
+        <autor>T Maity</autor>
+        <autor>D Gomersall</autor>
+        <autor>K Niang</autor>
+        <autor>A Barthel</autor>
+        <autor>J Thompson</autor>
+        <autor>S Kinnunen</autor>
+        <autor>K Arstila</autor>
+        <autor>T Sajavaara</autor>
+        <autor>R Hoye</autor>
+        <autor>A Flewitt</autor>
+        <autor>J Macmanus-Driscoll</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic Layer Deposition of oriented nickel titanate</titulo>
+      <autores>
+        <autor>J Bratvold</autor>
+        <autor>H Fjellvåg</autor>
+        <autor>O Nilsen</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Properties of Al2O3 Thin Films Grown by PE-ALD at Low Temperature Using H2O and O2 Plasma Oxidants</titulo>
+      <autores>
+        <autor>J Castillo-Saenz</autor>
+        <autor>N Nedev</autor>
+        <autor>B Valdez-Salas</autor>
+        <autor>M Curiel-Alvarez</autor>
+        <autor>M Mendivil-Palma</autor>
+        <autor>N Hernandez-Como</autor>
+        <autor>M Martinez-Puente</autor>
+        <autor>D Mateos</autor>
+        <autor>O Perez-Landeros</autor>
+        <autor>E Martinez-Guerra</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Unintentional Hydrogen Incorporation into the SnO2Electron Transport Layer by ALD and Its Effect on the Electronic Band Structure</titulo>
+      <autores>
+        <autor>M Martínez-Puente</autor>
+        <autor>J Tirado</autor>
+        <autor>F Jaramillo</autor>
+        <autor>R Garza-Hernández</autor>
+        <autor>P Horley</autor>
+        <autor>L Silva</autor>
+        <autor>F Vidaurri</autor>
+        <autor>E Aguirre-Tostado</autor>
+        <autor>Martínez-Guerra</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic layer deposition supercycle approach applied to the Al-doping of nearly saturated ZnO surfaces</titulo>
+      <autores>
+        <autor>O Ramírez-Esquivel</autor>
+        <autor>D Mazón-Montijo</autor>
+        <autor>D Cabrera-German</autor>
+        <autor>E Martínez-Guerra</autor>
+        <autor>Z Montiel-González</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Surface chemistry of copper metal and copper oxide atomic layer deposition from copper(II) acetylacetonate: a combined first-principles and reactive molecular dynamics study</titulo>
+      <autores>
+        <autor>X Hu</autor>
+        <autor>J Schuster</autor>
+        <autor>S Schulz</autor>
+        <autor>T Gessner</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nickel oxide thin films grown by chemical deposition techniques: Potential and challenges in next-generation rigid and flexible device applications</titulo>
+      <autores>
+        <autor>M Napari</autor>
+        <autor>T Huq</autor>
+        <autor>R Hoye</autor>
+        <autor>J Macmanus-Driscoll</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic Layer Deposition of NiO to Produce Active Material for Thin-Film Lithium-Ion Batteries</titulo>
+      <autores>
+        <autor>Y Koshtyal</autor>
+        <autor>D Nazarov</autor>
+        <autor>I Ezhov</autor>
+        <autor>I Mitrofanov</autor>
+        <autor>A Kim</autor>
+        <autor>A Rymyantsev</autor>
+        <autor>O Lyutakov</autor>
+        <autor>A Popovich</autor>
+        <autor>M Maximov</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The Inorganic Crystal Structure Database (ICSD)-Present and Future</titulo>
+      <autores>
+        <autor>M Hellenbrandt</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The role of plasma in plasma-enhanced atomic layer deposition of crystalline films</titulo>
+      <autores>
+        <autor>D Boris</autor>
+        <autor>V Wheeler</autor>
+        <autor>N Nepal</autor>
+        <autor>S Qadri</autor>
+        <autor>S Walton</autor>
+        <autor>C Chip</autor>
+        <autor>) Eddy</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Monolayer thickness in atomic layer deposition</titulo>
+      <autores>
+        <autor>M Ylilammi</autor>
+      </autores>
+      <fecha>1996</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of annealing temperature on nickel oxide thin films grown by chemical bath deposition</titulo>
+      <autores>
+        <autor>M Martínez-Gil</autor>
+        <autor>M Pintor-Monroy</autor>
+        <autor>M Cota-Leal</autor>
+        <autor>D Cabrera-German</autor>
+        <autor>A Garzon-Fontecha</autor>
+        <autor>M Quevedo-López</autor>
+        <autor>M Sotelo-Lerma</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Growth, physical and electrical characterization of nickel oxide thin films prepared by plasma-enhanced atomic layer deposition using nickelocene and oxygen precursors</titulo>
+      <autores>
+        <autor>L Xie</autor>
+        <autor>D Xiao</autor>
+        <autor>J Pei</autor>
+        <autor>J Huo</autor>
+        <autor>X Wu</autor>
+        <autor>W Liu</autor>
+        <autor>S Ding</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Xps Oasis</autor>
+      </autores>
+      <fecha>2024-05-04</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Practical methods for background subtraction in photoemission spectra</titulo>
+      <autores>
+        <autor>A Herrera-Gomez</autor>
+        <autor>M Bravo-Sanchez</autor>
+        <autor>O Ceballos-Sanchez</autor>
+        <autor>M Vazquez-Lepe</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>New interpretations of XPS spectra of nickel metal and oxides</titulo>
+      <autores>
+        <autor>A Grosvenor</autor>
+        <autor>M Biesinger</autor>
+        <autor>R Smart</autor>
+        <autor>N Mcintyre</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nonlocal screening effects in 2 p x-ray photoemission spectroscopy core-level line shapes of transition metal compounds</titulo>
+      <autores>
+        <autor>M Van Veenendaal</autor>
+        <autor>G Sawatzky</autor>
+      </autores>
+      <fecha>1993</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation of surface and non-local screening effects in the Ni 2p core level photoemission spectra of NiO</titulo>
+      <autores>
+        <autor>R Mossanek</autor>
+        <autor>I Preda</autor>
+        <autor>M Abbate</autor>
+        <autor>J Rubio-Zuazo</autor>
+        <autor>G Castro</autor>
+        <autor>A Vollmer</autor>
+        <autor>A Gutiérrez</autor>
+        <autor>L Soriano</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The formation and characterisation of Ni3+ -an X-ray photoelectron spectroscopic investigation of potassium-doped Ni(110)-O</titulo>
+      <autores>
+        <autor>A Carley</autor>
+        <autor>S Jackson</autor>
+        <autor>J O'shea</autor>
+        <autor>M Roberts</autor>
+      </autores>
+      <fecha>1999</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Surface effects in the Ni 2p x-ray photoemission spectra of NiO</titulo>
+      <autores>
+        <autor>L Soriano</autor>
+        <autor>I Preda</autor>
+        <autor>A Gutiérrez</autor>
+        <autor>S Palacín</autor>
+        <autor>M Abbate</autor>
+        <autor>A Vollmer</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nonlocal screening effects in 2p x-ray photoemission spectroscopy of NiO (100)</titulo>
+      <autores>
+        <autor>D Alders</autor>
+        <autor>G Sawatzky</autor>
+        <autor>F Voogt</autor>
+        <autor>T Hibma</autor>
+      </autores>
+      <fecha>1996</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>J Hilfiker</autor>
+        <autor>H Tompkins</autor>
+        <autor>M Linford</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Spectroscopic ellipsometry study of thin NiO films grown on Si (100) by atomic layer deposition</titulo>
+      <autores>
+        <autor>H Lu</autor>
+        <autor>G Scarel</autor>
+        <autor>M Alia</autor>
+        <autor>M Fanciulli</autor>
+        <autor>S Ding</autor>
+        <autor>D Zhang</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparison of the optical and structural properties of nickel oxide-based thin films obtained by chemical bath and sputtering</titulo>
+      <autores>
+        <autor>A Mendoza-Galván</autor>
+        <autor>M Vidales-Hurtado</autor>
+        <autor>A López-Beltrán</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparative study on the effect of annealing temperature on sol-gel-derived nickel oxide thin film as hole transport layers for inverted perovskite solar cells</titulo>
+      <autores>
+        <autor>T Ponmudi</autor>
+        <autor>C Lee</autor>
+        <autor>C Lai</autor>
+        <autor>C Tsai</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemically gated alloy formation of crystalline InAs thin films at room temperature in aqueous electrolytes</titulo>
+      <autores>
+        <autor>E Fahrenkrug</autor>
+        <autor>J Gu</autor>
+        <autor>S Maldonado</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Passivation of metal oxide surfaces for highperformance organic and hybrid optoelectronic devices</titulo>
+      <autores>
+        <autor>S Liu</autor>
+        <autor>S Ho</autor>
+        <autor>Y Chen</autor>
+        <autor>F So</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Pdf</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Bandgap measurement of thin dielectric films using monochromated STEM-EELS</titulo>
+      <autores>
+        <autor>J Park</autor>
+        <autor>S Heo</autor>
+        <autor>J Chung</autor>
+        <autor>H Kim</autor>
+        <autor>H Lee</autor>
+        <autor>K Kim</autor>
+        <autor>G Park</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Energy-band parameters of atomic layer deposited Al2O 3 and HfO2 on InxGa1-xAs</titulo>
+      <autores>
+        <autor>M Huang</autor>
+        <autor>Y Chang</autor>
+        <autor>Y Chang</autor>
+        <autor>T Lin</autor>
+        <autor>J Kwo</autor>
+        <autor>M Hong</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Direct and indirect transitions in the region of the band gap using electron-energy-loss spectroscopy</titulo>
+      <autores>
+        <autor>B Rafferty</autor>
+        <autor>L Brown</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Measurement of the band gap by reflection electron energy loss spectroscopy</titulo>
+      <autores>
+        <autor>M Vos</autor>
+        <autor>S King</autor>
+        <autor>B French</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Band gap and defect states of MgO thin films investigated using reflection electron energy loss spectroscopy</titulo>
+      <autores>
+        <autor>S Heo</autor>
+        <autor>E Cho</autor>
+        <autor>H Lee</autor>
+        <autor>G Park</autor>
+        <autor>H Kang</autor>
+        <autor>T Nagatomi</autor>
+        <autor>P Choi</autor>
+        <autor>B Choi</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electronic, electrical and optical properties of undoped and Na-doped NiO thin films</titulo>
+      <autores>
+        <autor>Y Denny</autor>
+        <autor>K Lee</autor>
+        <autor>C Park</autor>
+        <autor>S Oh</autor>
+        <autor>H Kang</autor>
+        <autor>D.-S Yang</autor>
+        <autor>S Seo</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Measurements of the band gap of ThF4 by electron spectroscopy techniques</titulo>
+      <autores>
+        <autor>T Gouder</autor>
+        <autor>R Eloirdi</autor>
+        <autor>R Martin</autor>
+        <autor>M Osipenko</autor>
+        <autor>M Giovannini</autor>
+        <autor>R Caciuffo</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electron-Blocking and Oxygen Evolution Catalyst Layers by Plasma-Enhanced Atomic Layer Deposition of Nickel Oxide</titulo>
+      <autores>
+        <autor>A Hufnagel</autor>
+        <autor>A Henß</autor>
+        <autor>R Hoffmann</autor>
+        <autor>O Zeman</autor>
+        <autor>S Häringer</autor>
+        <autor>D Fattakhova-Rohlfing</autor>
+        <autor>T Bein</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation on tailoring physical properties of Nickel Oxide thin films grown by dc magnetron sputtering</titulo>
+      <autores>
+        <autor>P Salunkhe</autor>
+        <autor>A Muhammed Ali</autor>
+        <autor>D Kekuda</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High-performance broadband photodetectors based on sputtered NiOx/n-Si heterojunction diodes</titulo>
+      <autores>
+        <autor>D Mateos-Anzaldo</autor>
+        <autor>R Nedev</autor>
+        <autor>O Perez-Landeros</autor>
+        <autor>M Curiel-Alvarez</autor>
+        <autor>J Castillo-Saenz</autor>
+        <autor>A Arias-Leon</autor>
+        <autor>B Valdez-Salas</autor>
+        <autor>L Silva-Vidaurri</autor>
+        <autor>E Martinez-Guerra</autor>
+        <autor>E Osorio-Urquizo</autor>
+        <autor>N Nedev</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Determination of the hydrogen content in diamond-like carbon and polymeric thin films by reflection electron energy loss spectroscopy</titulo>
+      <autores>
+        <autor>V Rico</autor>
+        <autor>F Yubero</autor>
+        <autor>J Espinós</autor>
+        <autor>J Cotrino</autor>
+        <autor>A González-Elipe</autor>
+        <autor>D Garg</autor>
+        <autor>S Henry</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Observation of the hydrogen peak in the spectra of electrons backscattered from polyethylene</titulo>
+      <autores>
+        <autor>D Varga</autor>
+        <autor>K Tokési</autor>
+        <autor>Z Berényi</autor>
+        <autor>J Tóth</autor>
+        <autor>L Kövér</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hydrogen in oxide semiconductors</titulo>
+      <autores>
+        <autor>M Mccluskey</autor>
+        <autor>M Tarun</autor>
+        <autor>S Teklemichael</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Quantification of the H content in diamondlike carbon and polymeric thin films by reflection electron energy loss spectroscopy</titulo>
+      <autores>
+        <autor>F Yubero</autor>
+        <autor>V Rico</autor>
+        <autor>J Espinós</autor>
+        <autor>J Cotrino</autor>
+        <autor>A González-Elipe</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Advanced XPS characterization: XPS-based multi-technique analyses for comprehensive understanding of functional materials</titulo>
+      <autores>
+        <autor>M Isaacs</autor>
+        <autor>J Davies-Jones</autor>
+        <autor>P Davies</autor>
+        <autor>S Guan</autor>
+        <autor>R Lee</autor>
+        <autor>D Morgan</autor>
+        <autor>R Palgrave</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Growth of NiO Thin Films in the Presence of Water Vapor: Insights from Experiments and Theory</titulo>
+      <autores>
+        <autor>M Benedet</autor>
+        <autor>C Maccato</autor>
+        <autor>G Pagot</autor>
+        <autor>C Invernizzi</autor>
+        <autor>C Sada</autor>
+        <autor>V Di Noto</autor>
+        <autor>G Rizzi</autor>
+        <autor>E Fois</autor>
+        <autor>G Tabacchi</autor>
+        <autor>D Barreca</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Jpeg</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Band Alignments, Band Gap, Core Levels, and Valence Band States in Cu3BiS3 for Photovoltaics</titulo>
+      <autores>
+        <autor>T Whittles</autor>
+        <autor>T Veal</autor>
+        <autor>C Savory</autor>
+        <autor>P Yates</autor>
+        <autor>P Murgatroyd</autor>
+        <autor>J Gibbon</autor>
+        <autor>M Birkett</autor>
+        <autor>R Potter</autor>
+        <autor>J Major</autor>
+        <autor>K Durose</autor>
+        <autor>D Scanlon</autor>
+        <autor>V Dhanak</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A work function study of ultra-thin alumina formation on NiAl(1 1 0) surface</titulo>
+      <autores>
+        <autor>W Song</autor>
+        <autor>M Yoshitake</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Work function of indium tin oxide transparent conductor measured by photoelectron spectroscopy</titulo>
+      <autores>
+        <autor>Y Park</autor>
+        <autor>V Choong</autor>
+        <autor>Y Gao</autor>
+        <autor>B Hsieh</autor>
+        <autor>C Tang</autor>
+      </autores>
+      <fecha>1996</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Isotype Heterojunction Solar Cells Using n-Type Sb2Se3 Thin Films</titulo>
+      <autores>
+        <autor>T Hobson</autor>
+        <autor>L Phillips</autor>
+        <autor>O Hutter</autor>
+        <autor>H Shiel</autor>
+        <autor>J Swallow</autor>
+        <autor>C Savory</autor>
+        <autor>P Nayak</autor>
+        <autor>S Mariotti</autor>
+        <autor>B Das</autor>
+        <autor>L Bowen</autor>
+        <autor>L Jones</autor>
+        <autor>T Featherstone</autor>
+        <autor>M Smiles</autor>
+        <autor>M Farnworth</autor>
+        <autor>G Zoppi</autor>
+        <autor>P Thakur</autor>
+        <autor>T Lee</autor>
+        <autor>H Snaith</autor>
+        <autor>C Leighton</autor>
+        <autor>D Scanlon</autor>
+        <autor>V Dhanak</autor>
+        <autor>K Durose</autor>
+        <autor>T Veal</autor>
+        <autor>J Major</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Air-Stable n-i-p Planar Perovskite Solar Cells Using Nickel Oxide Nanocrystals as Sole Hole-Transporting Material</titulo>
+      <autores>
+        <autor>J Tirado</autor>
+        <autor>M Vásquez-Montoya</autor>
+        <autor>C Roldán-Carmona</autor>
+        <autor>M Ralaiarisoa</autor>
+        <autor>N Koch</autor>
+        <autor>M Nazeeruddin</autor>
+        <autor>F Jaramillo</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>F</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Overcoming the Limitations of Sputtered Nickel Oxide for High-Efficiency and Large-Area Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>G Li</autor>
+        <autor>Y Jiang</autor>
+        <autor>S Deng</autor>
+        <autor>A Tam</autor>
+        <autor>P Xu</autor>
+        <autor>M Wong</autor>
+        <autor>H Kwok</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Role of annealing temperature of nickel oxide (NiOx) as hole transport layer in work function alignment with perovskite</titulo>
+      <autores>
+        <autor>M Imran</autor>
+        <autor>H Coskun</autor>
+        <autor>N Khan</autor>
+        <autor>J Ouyang</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Molecule-Doped Nickel Oxide: Verified Charge Transfer and Planar Inverted Mixed Cation Perovskite Solar Cell</titulo>
+      <autores>
+        <autor>W Chen</autor>
+        <autor>Y Zhou</autor>
+        <autor>L Wang</autor>
+        <autor>Y Wu</autor>
+        <autor>B Tu</autor>
+        <autor>B Yu</autor>
+        <autor>F Liu</autor>
+        <autor>H Tam</autor>
+        <autor>G Wang</autor>
+        <autor>A Djurišić</autor>
+        <autor>L Huang</autor>
+        <autor>Z He</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Interfacial Modification of Perovskite Solar Cells Using an Ultrathin MAI Layer Leads to Enhanced Energy Level Alignment, Efficiencies, and Reproducibility</titulo>
+      <autores>
+        <autor>Z Hawash</autor>
+        <autor>S Raga</autor>
+        <autor>D Son</autor>
+        <autor>L Ono</autor>
+        <autor>N Park</autor>
+        <autor>Y Qi</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of Fermi Level Alignment with Tin Oxide on the Hysteresis of Perovskite Solar Cells</titulo>
+      <autores>
+        <autor>M Aygüler</autor>
+        <autor>A Hufnagel</autor>
+        <autor>P Rieder</autor>
+        <autor>M Wussler</autor>
+        <autor>W Jaegermann</autor>
+        <autor>T Bein</autor>
+        <autor>V Dyakonov</autor>
+        <autor>M Petrus</autor>
+        <autor>A Baumann</autor>
+        <autor>P Docampo</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Measurement of bandgap energies in low-k organosilicates</titulo>
+      <autores>
+        <autor>M Nichols</autor>
+        <autor>W Li</autor>
+        <autor>D Pei</autor>
+        <autor>G Antonelli</autor>
+        <autor>Q Lin</autor>
+        <autor>S Banna</autor>
+        <autor>Y Nishi</autor>
+        <autor>J Shohet</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Energy band alignment of atomic layer deposited HfO2 oxide film on epitaxial (100)Ge, (110)Ge, and (111)Ge layers</titulo>
+      <autores>
+        <autor>M Hudait</autor>
+        <autor>Y Zhu</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nickel oxide hole injection/transport layers for efficient solution-processed organic light-emitting diodes</titulo>
+      <autores>
+        <autor>S Liu</autor>
+        <autor>R Liu</autor>
+        <autor>Y Chen</autor>
+        <autor>S Ho</autor>
+        <autor>J Kim</autor>
+        <autor>F So</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+  </referencias>
+</tesis>

@@ -1,0 +1,1336 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo>Índice de ecuaciones</titulo>
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>Ecuación Cálculo</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>Resumen</titulo>
+        <texto>Las nanopartículas de oro conjugado con polímero y aptámeros se han comenzado a investigar como vectores farmacéuticos capaces de interactuar con células de cáncer para dar un tratamiento puntual y más personalizado. Por lo que en este proyecto se sintetizaron nanopartículas de oro empleando un copolímero innovador a base de goma de mezquite y polietilenimina, con el objetivo de desarrollar un sistema altamente eficaz para el tratamiento del cáncer. El nanosistema funcionalizado con un aptámero HER2, demostró una notable capacidad para reducir la viabilidad celular en líneas celulares de cáncer de mama con sobreexpresión de HER2, un biomarcador tumoral ampliamente reconocido. Los resultados obtenidos indican que el nanosistema desarrollado presenta una excelente biocompatibilidad y hemocompatibilidad, sin causar daño significativo a las células sanas. A concentraciones de 1 y 0.5 ppm, las nanopartículas lograron inhibir hasta un 80% del crecimiento de las células cancerígenas, evidenciando un potencial como tratamiento alterno. El proyecto presenta nuevas perspectivas para el desarrollo de terapias más eficientes y personalizadas para la terapia oncológica. Índice de tablas Tabla 1. Subtipos de cáncer de mama</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis de nanopartículas de oro recubiertas de polietilenimina ramificada modificada con goma de mezquite</titulo>
+        <texto>Para realizar la síntesis de las NS utilizando GM-CBX-PEI como agente reductor y estabilizante, se realizaron distintas combinaciones con los diferentes copolímeros de acuerdo con las relaciones 𝑊𝐴𝑢:𝑊𝐺𝑀-𝐶BX-𝑃𝐸𝐼 establecidas, las Tablas 4-7 muestran los experimentos que se realizaron con el fin de obtener las nanopartículas con mayor estabilidad coloidal y de un tamaño pequeño. Para todos los casos, se preparó una solución acuosa de HAuCl4•3H2O de concentración 1 mM, y se añadió al copolímero según lo establecido en la relación 𝑊𝐴𝑢:𝑊𝐺𝑀-𝐶BX-𝑃𝐸𝐼, adicionalmente, se utilizaron distintos copolímeros en los que se varió la cantidad de polietilenimina contenida en el copolímero. Esta mezcla se homogenizó en el vórtex hasta que el copolímero se solubilizó por completo, y posteriormente la muestra se sometió a un baño de temperatura. Se hicieron distintas combinaciones de las variables con el fin de obtener en primera instancia, el color de nanopartículas adecuado, debido a que se busca un tamaño de nanopartícula pequeño, por lo que se espera una coloración morado rojizo ya que se sabe que la coloración está relacionada con el tamaño de la nanopartícula. Se disminuyó la cantidad de copolímero y se aumentaron los tiempos de reacción. 120 1:5  Se varió la cantidad de copolímero a tres relaciones distintas debido a que se busca una cantidad de copolímero que no cause citotoxicidad, por lo que se mantiene la menor relación que sea capaz de reducir el oro. Se sintetizó a 90 grados debido a que se notó que a esta temperatura la coloración era más rojiza. Para las nanopartículas finales utilizadas en el proyecto, se pesaron 19.69 mg de copolímero y se adicionaron 5 mL de la solución de precursor de oro. Esta mezcla se homogenizó en el vórtex hasta que el copolímero se solubilizó por completo, y posteriormente la muestra se sometió a un baño de temperatura a 70 °C, con agitación únicamente en el baño de temperatura durante 30 minutos, para obtener finalmente una dispersión coloidalmente estable de nanopartículas de color morado rojiza. La Tabla 8 muestra el resumen de las condiciones para el método de síntesis utilizado. Tabla 8. Condiciones para la síntesis de nanopartículas de oro. Por último, la dispersión de NS obtenida se colocó en tubos Vivaspin 6 de la marca Sartorius y se centrifugaron en un equipo Eppendorf 5810 R (3000 rpm, 15 minutos), realizando cuatro lavados con agua desionizada, y un último lavado con agua desionizada a 4000 rpm durante 15 minutos. Esto, con el fin de eliminar los residuos que no forman parte de las nanopartículas, tales como el copolímero no unido a las nanopartículas y residuos de cloruro, esto para posteriormente conjugarlas con el aptámero HER2. 3.3 Conjugación de las NS@GM-CBX-PEI con el conjugado 4-arm-PEG-Maleimidaaptámero-HER2 Para realizar el proceso de purificación se utilizó un Spin-X 10,000 MWCO, la cual se preparó lavando la columna con 200 µL de H2O grado biología molecular, la cual se centrifugó en la centrifuga eppendorf 1564C a 11,000 rpm por 7 minutos y se descartó el líquido filtrado. Posteriormente, se realizó un segundo lavado con 200 µL de etanol 70% grado biología molecular y se centrifugó a 11,000 rpm por 10 minutos y se descartó el líquido filtrado. Seguido de eso, se realizó un segundo centrifugado a las mismas condiciones y se recuperó un segundo volumen del volumen inicial. Después se decantó el líquido restante en la membrana y se dejaron secar las columnas en una gradilla a temperatura ambiente dentro de campana estéril por 20 minutos. Se procedió a ultrafiltrar los aptámeros tratados con DTT, donde se agregó 100 µL de aptámeros (100 µM) tratados con el DTT 0.5 M y se añadieron 100 µL de TE 1X pH 7.4. Se centrifugaron por 10 minutos a 11,000 rpm. Se realizaron 2 recuperaciones adicionales, en donde en cada recuperación se agregaban 50 µL de TE 1X pH 7.4. Finalmente, después de la ultrafiltración se recuperaron 50 µL de aptámero y se procedió a cuantificar en el Nanodrop NP1000, donde se obtuvo una concentración final de 88.5 µM.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis de NS</titulo>
+        <texto>Existen distintos métodos para la síntesis de nanopartículas, tales como, físicos, químicos y biológicos. La síntesis verde incluye recursos biológicos, son de fácil obtención, bajo costo, no requiere de temperaturas y presiones altas. El uso de materiales tóxicos no es necesario, así como tampoco se requiere el uso de ligandos sintéticos, agentes de protección o estabilizantes para la biosíntesis de nanopartículas Naturalmente, las gomas de fuente vegetal son excelentes agentes reductores y estabilizantes para sales metálicas, asimismo, se ha reportado que los grupos amino que posee la polietilenimina ramificada también tiene estas características reductoras. En este caso, la goma de mezquite en conjunto con la polietilenimina ramificada, forman un copolímero que puede ser utilizado como agente reductor del ácido tetracloroáurico trihidratado (HAuCl4•3H2O). Esto debido a que el copolímero contiene grupos amino que se encuentran protonados, mientras que el complejo AuCl4 -que se disocia de la sal metálica se encuentra cargada negativamente, lo que propicia el intercambio de los iones de cloro con los grupos amino, generando el complejo Au(N-(R-H2))4. Posteriormente, la reducción del oro es propiciada por acción del incremento de temperatura, con el fin de que el biopolímero se expanda y sea más accesible para los iones de oro interactuar con los grupos funcionales disponibles La hipótesis con respecto a la formación de nanopartículas de oro a partir del copolímero y la sal de oro se puede representar en la Figura 14 y en el mecanismo de reacción propuesto (Figura 15). El complejo Au +3 Cl4 -se disocia de la sal metálica, en donde el oro se encuentra en estado de oxidación Au +3 , estos iones se reducen a partir de la transferencia de electrones del grupo amino y resulta en la formación de oro metálico (Au 0 ) Esta reacción da lugar al inicio del proceso de nucleación y crecimiento provocando que estos átomos de oro formen en primera instancia núcleos o clusters y posteriormente las nanopartículas, la estabilidad de las mismas está dada por acción de los polisacáridos presentes en el copolímero. Finalmente, se obtiene como resultado la formación de nanopartículas de oro estabilizadas de manera estérica mediante las cadenas del copolímero formado por goma de mezquite y polietilenimina ramificada Figura 14. Diagrama esquemático de la formación de nanopartículas de oro a partir del copolímero. Figura 15. Mecanismo de reacción de la unión entre el oro metálico de la superficie de las nanopartículas y el grupo amino del copolímero.</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>Introducción</titulo>
+        <texto>El cáncer es una enfermedad que provoca que las células normales del organismo evolucionen a tumorales y es la enfermedad que causa más defunciones en el mundo, según reporta la Organización Mundial de la Salud (OMS) En la actualidad, a pesar de los avances en los tratamientos para el cáncer, se sigue utilizando en un porcentaje alto la quimioterapia, hormonoterapia y radioterapia, la cual es efectiva, sin embargo, esta puede causar toxicidad, afectación ósea y otros efectos secundarios Las nanopartículas de oro han sido estudiadas ampliamente, debido a que poseen características favorables para enfermedades oncológicas como son su tamaño y forma controladas, la versatilidad para lograr diversos tipos de funcionalización superficial, y el desencadenamiento de la quimiosensibilidad. La conjugación de polímeros con nanopartículas se utiliza en aplicaciones médicas debido a su asequibilidad, bioseguridad, biodegradabilidad y aprobación regulatoria generalizada, así como su baja o nula toxicidad. Estas propiedades dependen del tipo de polímero y su procedencia, es decir natural o sintética, ya que los polímeros naturales resultan ser menos tóxicos que las sintéticos, mientras que los sintéticos promueven la estabilidad y funcionalización con otras moléculas En los últimos años, los tratamientos contra el cáncer se han enfocado a ser más puntuales al utilizar agentes farmacológicos que son capaces de inhibir el crecimiento, disminuir la viabilidad celular y restringen la metástasis del cáncer. Por lo que, las terapias dirigidas contra el cáncer buscan interferir con proteínas específicas relacionadas con la carcinogénesis La viabilidad celular está influenciada en gran manera por la internalización del tratamiento, debido a que se busca que la dosis del mismo sea lo más puntual posible con el fin de no causar efectos secundarios al paciente. La internalización depende del tamaño de nanopartícula, las características superficiales de la nanopartícula y la ruta que sigue el nanosistema al introducirse a las células cancerosas Se demostró que este nanosistema disminuye la viabilidad celular en células cancerosas de mama HER2-positivas (HCC1954) sin afectar significativamente a células sanas (VERO CCL-81). Además, se cuantificó la internalización del nanosistema en las células y se estableció una correlación con la disminución de la viabilidad celular.</texto>
+      </seccion>
+    </introduccion>
+    <antecedentes>
+      <seccion>
+        <titulo>Antecedentes</titulo>
+        <texto />
+      </seccion>
+    </antecedentes>
+    <objetivos>
+      <seccion>
+        <titulo>Objetivos</titulo>
+        <texto />
+      </seccion>
+    </objetivos>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivo General</titulo>
+        <texto>Obtener una reducción estadísticamente significativa en la viabilidad celular a partir de la internalización del nanosistema NS+HeA2_3 en la línea celular de cáncer de mama (HCC1954).</texto>
+      </seccion>
+    </objetivo_general>
+    <justificacion>
+      <seccion>
+        <titulo>Justificación</titulo>
+        <texto>Las nanopartículas de oro han emergido como prometedores vehículos para la entrega de fármacos en tratamientos oncológicos. Su versatilidad para ser funcionalizadas con diversas moléculas bioactivas las convierte en una plataforma ideal para desarrollar terapias altamente específicas. Los resultados preliminares obtenidos en nuestro grupo de investigación con las NS+HeA2_3 demostró una disminución en la viabilidad celular de células de cáncer de próstata en la línea celular LNCaP con baja expresión de HER2. Sin embargo, es necesario profundizar en la optimización de este nanosistema y evaluar su eficacia y seguridad en modelos celulares in vitro que sobreexpresen en mayor medida el receptor HER2. El objetivo principal de este estudio es determinar la dosis óptima de las NS+HeA2_3, así como evaluar su impacto en la viabilidad celular, la hemólisis y la biocompatibilidad. Los resultados de esta investigación contribuirán al desarrollo de nuevas terapias más efectivas, específicas y con menores efectos adversos para pacientes con cáncer de mama.</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>Hipótesis</titulo>
+        <texto>El nanosistema NS+HeA2_3 exhibirá una reducción significativa en la viabilidad de células cancerosas que sobreexpresan HER2, en comparación con las nanopartículas de oro sin el aptámero HER2 (NS). Esta hipótesis se basa en que la unión específica del aptámero HER2 a su receptor en las células cancerosas aumentará la internalización del NS+HeA2_3, lo que a su vez potenciará su efecto citotóxico y disminuirá la viabilidad celular.</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>Metodología</titulo>
+        <texto>La metodología empleada en este trabajo se llevó a cabo en el Centro de Investigación de Materiales Avanzados (CIMAV), S.C., Subsede Monterrey, Nuevo León y en la Universidad Autónoma de Nuevo León (UANL), en el laboratorio de nanomedicina de la Facultad de Medicina. El proyecto se basó en el nanosistema siguiendo el protocolo descrito por Pinilla en su tesis doctoral, el cual se optimizó y se evaluó en una línea celular que sobreexpresa HER2 para finalmente cuantificar la internalización del nanosistema. 3.1 Copolímero goma de mezquite carboximetilada conjugada con polietilenimina 3.1.1 Purificación de la goma de mezquite Para la purificación de la goma de mezquite, se tomaron perlas de goma de mezquite obtenidos de la agropecuaria y servicios las mieles de sonora S.C. de R.L. de C.V., de Hermosillo Sonora, México. Para la selección de las perlas, se utilizaron únicamente las que no contenían residuos con coloración oscura provenientes del mismo árbol de mezquite. Una vez separadas, se limpiaron y se pulverizaron 10 g de goma de mezquite utilizando un mortero. La goma de mezquite se hidrato durante 24 horas utilizando agua desionizada y posteriormente se filtró mediante vacío utilizando un papel filtro Whatman No. 2. Finalmente, la muestra se congeló durante 24 horas y se liofilizó por 24 horas para obtener un polvo.</texto>
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>Resultados y discusión</titulo>
+        <texto>4.1 Copolímero goma de mezquite y polietilenimina ramificada Los copolímeros se caracterizaron mediante espectroscopia infrarroja por transformada de Fourier (FT IR), potencial zeta, espectroscopia de fotoelectrones emitidos por rayos X (XPS). También se determinó la capacidad de buffering (amortiguación o "esponja" de protones). éter en números de onda similar y Moreno-Trejo et al., confirma cambios significativos en las intensidades de las bandas, especialmente las de O-H y C=O. Esto valida la carboximetilación exitosa de la goma de mezquite</texto>
+      </seccion>
+      <seccion>
+        <titulo>Donde:</titulo>
+        <texto>𝐶 𝑛 -Nueva concentración de Au con relación a la cantidad de células recuperadas 𝐶 𝑓 -Concentración final de Au medida mediante ICP Los resultados de internalización indican que el nanosistema es capaz de penetrar tanto en células sanas como cancerosas, sin mostrar una preferencia significativa por un tipo de célula sobre otro. Además, se observó una tendencia hacia una mayor internalización a una concentración de 0.5 ppm en comparación con 1 ppm. Sin embargo, se sugiere que esta aparente diferencia podría deberse a una mayor recuperación celular, más que a una mayor eficiencia de internalización El elevado porcentaje de internalización observado puede atribuirse a la cuidadosa selección de los componentes del nanosistema. La goma de mezquite y el 4-arm-PEG-maleimida confieren al sistema una excelente biocompatibilidad y estabilidad en el medio celular, facilitando su interacción con las membranas celulares. Por otro lado, la b-PEI, al actuar como un eficiente agente de transporte, facilita la entrega del aptámero al interior de las células cancerosas. Este equilibrio entre biocompatibilidad, estabilidad y funcionalidad del nanosistema parece ser clave para la alta eficiencia de internalización observada Los resultados obtenidos, aunque prometedores, sugieren que es necesario optimizar la metodología actual para la cuantificación de la internalización. La integración de técnicas complementarias, como microscopias y citometrías, permitiría confirmar los datos obtenidos por ICP-OES y obtener una caracterización más detallada de la localización intracelular y la interacción del nanosistema con los componentes celulares.</texto>
+      </seccion>
+    </resultados>
+    <conclusiones>
+      <seccion>
+        <titulo>Conclusiones</titulo>
+        <texto>Se desarrolló un nuevo copolímero mediante una serie de modificaciones estratégicas, conservando la capacidad amortiguadora de protones de la b-PEI, un polímero de amplio uso en el campo biomédico. La conjugación con goma de mezquite permitió mitigar los efectos hemolíticos de la b-PEI y fue posible fusionar las propiedades sintéticas de la b-PEI con las características naturales de la goma de mezquite. El copolímero demostró ser un agente reductor y estabilizante altamente eficiente, permitiendo la síntesis de nanopartículas de oro (NS) estables y biocompatibles con un promedio de radio hidrodinámico de 12 nm, ideal para aplicaciones biológicas e internalización celular. La solución de NS obtenida fue homogénea y presentó una carga superficial positiva, lo que facilita su interacción con biomoléculas cargadas negativamente, como los ácidos nucleicos, a través de interacciones electrostáticos. Utilizando los NS sintetizados, fue posible desarrollar un nanosistema altamente específico, conjugado con un aptámero-PEG, capaz de reducir significativamente la viabilidad celular en células de cáncer de mama HER2-positivo (HCC1954). Con un tamaño de 10 nm aproximadamente y excelentes perfiles de biocompatibilidad y hemocompatibilidad, este nanosistema demostró una citotoxicidad selectiva hacia las células tumorales, induciendo una reducción del 80% en la viabilidad celular con 1 ppm, y 75% de citotoxicidad con 0.5 ppm. El nanosistema exhibió una citotoxicidad selectiva hacia células tumorales HER2-positivas, lo que indica una alta especificidad mediada por el aptámero. Esta selectividad, junto con la baja toxicidad en células no tumorales, sugiere un potencial terapéutico en el tratamiento del cáncer de mama positivo a HER2. El nanosistema NS+HeA2_3 demostró una alta eficiencia de internalización, superando el 78% en las células evaluadas. Sin embargo, se resalta la importancia de continuar con la investigación de este proyecto con la finalidad de evaluar de manera más detallada la internalización de este nanosistema dentro de ambas líneas celular evaluadas.</texto>
+      </seccion>
+    </conclusiones>
+    <otros>
+      <seccion>
+        <titulo>Índice de figuras</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Planteamiento del Problema</titulo>
+        <texto>Los tratamientos basados en nanosistemas han ganado relevancia en los últimos años. Sin embargo, es fundamental optimizar la dosis para garantizar su eficacia y biocompatibilidad. La internalización celular de los nanosistemas es un factor crítico que influye en su efectividad, y está directamente relacionada con características como tamaño, carga superficial y funcionalización. Este estudio busca establecer una relación dosis-respuesta para determinar la cantidad óptima de nanopartículas que debe internalizarse en las células para lograr una máxima reducción de la viabilidad celular.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Objetivos Específicos</titulo>
+        <texto>▪ Sintetizar el nanosistema compuesto de NS recubiertas de PEI modificado con goma de mezquite conjugadas con el aptámero HeA2_3. ▪ Caracterizar el nanosistema mediante espectroscopias ópticas, XPS, TEM y FTIR. ▪ Cuantificar el efecto de diferentes concentraciones de nanosistemas sobre la hemocompatibilidad y la viabilidad celular. ▪ Cuantificar la internalización del nanosistema en células mediante ICP-OES. ▪ Correlacionar la cantidad de oro con las nanopartículas internalizadas y su efecto en el porcentaje de viabilidad celular.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Cáncer</titulo>
+        <texto>El cáncer es la causa global de muerte de 10 millones de personas al año, en la cual el cáncer de pulmón, próstata, colorrectal, estómago y riñón son los más comunes en hombres mientras que el de mama, colorrectal, pulmón, cervical y tiroideo son los más frecuentes en mujeres Del mismo modo, en el Foro Cáncer, Desafíos en México y América Latina que se llevó a cabo en el Centro Médico Nacional Siglo XXI según reporta la Secretaría de Salud de México, se menciona que el cáncer es la tercera causa de muerte en el país y los tipos de cáncer más frecuentes son el de mama, en segundo lugar, el de próstata y cervicouterino y finalmente el de colon y pulmón Figura 1. Tasa de defunciones por tumores malignos en México</texto>
+      </seccion>
+      <seccion>
+        <titulo>Cáncer de mama</titulo>
+        <texto>El cáncer de mama afecta en mayor medida a la población del sexo femenino presente mientras que el riesgo para el sexo masculino es mínimo. Los factores que influyen en esta enfermedad son principalmente la edad, historial familiar, obesidad, historial reproductivo, así como exposición a radiación El cáncer de mama se puede dividir en subtipos dependiendo del origen anatómico, receptividad de hormonas e inmunohistoquímica, que hace referencia a la amplificación o detección de un antígeno en específico en tejidos y células, la Tabla 1 resume como se clasifica el cáncer de mama según las características mencionadas Tabla 1. Subtipos de cáncer de mama</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tratamientos actuales</titulo>
+        <texto>La prognosis y tratamiento para el cáncer de mama se basan principalmente en la diseminación linfovascular que hace referencia a la propagación de las células tumorales, grado histológico, estado del receptor hormonal, sobreexpresión HER2, comorbilidades (trastornos o enfermedades adicionales que padece el paciente), estado menopáusico y edad de la paciente Existen distintas terapias que son utilizadas para dar tratamiento a esta enfermedad como se listan en la Tabla 2. Tabletas orales de 2 a 5 años en apoyo con otros medicamentos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Dirigido a tejidos Trastuzumab</titulo>
+        <texto>Intravenosa en conjunto con quimioterapia y posteriormente cada uno o tres semanas para completar un año. Dentro de los tratamientos más utilizados en los últimos años, son el uso del fármaco trastuzumab, que es un anticuerpo que es capaz de unirse al HER2 y provocar la apoptosis, así como evitar la proliferación celular. A pesar de ser el tratamiento estándar para el factor 2 de crecimiento epidérmico humano receptor este ha demostrado una citotoxicidad potencial y resistencia al tratamiento por lo que es necesario seguir con la búsqueda de otras alternativas para estos padecimientos y se ha buscado dar solución en el área de la nanomedicina</texto>
+      </seccion>
+      <seccion>
+        <titulo>Nanopartículas de oro como tratamientos alternos</titulo>
+        <texto>Las nanopartículas de oro son vehículos para tratamientos alternativos que se han estado utilizando en los últimos años debido a la versatilidad para lograr controlar su tamaño, forma y funcionalización superficial. De igual manera, las propiedades de las nanopartículas de oro pueden promover por sí mismas la muerte celular mediante el desencadenamiento de la quimiosensibilidad, cuya propiedad hace referencia a la susceptibilidad de las células cancerígenas a los efectos de los fármacos que están conjugados con el nanosistema A partir de los estudios realizados durante los últimos años acerca del efecto de la forma de la nanopartícula en relación a cómo afecta a la célula se ha encontrado que la forma más eficiente para el área biomédica son las nanoesferas debido a que estas causan una toxicidad baja o casi nula al momento de interactuar con las células. A comparación de otras morfologías que presentan anisotropía, estas pueden causar toxicidad en las células en caso de no tener un recubrimiento polimérico. Además, se ha confirmado que al tener una morfología esférica o semiesférica se obtiene una mejor captación e internalización celular La goma de mezquite sobresale entre otras gomas naturales, como lo es la goma guar, goma gellan y goma arábica, ya que no requiere calentamiento para su uso y disolución, además presenta una menor viscosidad y mayor capacidad de emulsificación debido a su contenido proteico, por lo que la conjugación de la goma de mezquite con la b-PEI ha mostrado mejores resultados que su combinación con otras gomas naturales La conjugación de una goma natural con un polímero sintético se da mediante la reacción entre sus grupos funcionales, lo cual da lugar a un copolímero con propiedades de ambos, lo cual mejora su funcionalidad. Para que se produzca dicha conjugación, es necesario proveer las condiciones y parámetros de reacción adecuados para activar los grupos funcionales correctos. En el caso de la goma de mezquite, se busca carboximetilar este polímero mediante la sustitución de sus grupos alcohol por grupos carboxilos como se observa en la Figura 3. Esta reacción permite la posterior formación del copolímero, mediante su conjugación con polietilenimina mediada por los agentes de acoplamiento. Los agentes de acoplamiento aumentan la eficiencia y favorecen la reacción del enlace de carbodiimida, con el propósito de activar los grupos carboxilos (-COOH) para su conjugación con aminas primarias (-NH2), que en el caso de la conjugación entre la goma de mezquite carboximetilada y la polietilenimina es ideal debido a los grupos activos que posee, el esquema de esta conjugación se muestra en la Figura 3 Figura 3. Mecanismo de reacción de la modificación de la b-PEI con goma de mezquite. Modificado de 2.2.4 Aptámero HER2 como ligando de nanopartículas de oro recubiertas de polímeros. La familia ErbB o HER es uno de los receptores más comunes para las terapias dirigidas. En particular, la sobreexpresión de HER2 (ErbB2) es encontrado en 20-30% de cáncer de mama, por lo que el uso del aptámero HER2 como biomarcador contra el cáncer ha sido utilizado últimamente</texto>
+      </seccion>
+      <seccion>
+        <titulo>Nanoestrellas de oro</titulo>
+        <texto>El aptámero Anti-HER2 se evaluó a 24, 48 y 72 horas y se obtuvieron porcentajes de viabilidad de 59%, 48%, 38%, respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>LNCaP, células de cáncer de próstata</titulo>
+        <texto>Las NS@b-PEI-GMaptamero-HER2 se evaluaron a tres concentraciones, 4.6 y 0.46 ng/µL, y se obtuvieron porcentajes de viablidad de 55% y 62%, respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Al nanosistema NS@b-PEI-GMaptamero-HER2</titulo>
+        <texto>se añadió un plásmido (pEGFP-TRAIL) como tratamiento y a las mismas concentraciones se obtuvo una viabilidad de 63% y 78%, respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis de goma de mezquite carboximetilada</titulo>
+        <texto>A la goma de mezquite purificada se le realizó una reacción de carboximetilación de los grupos hidroxilo. Se pesaron 10 g de GM y se disolvieron en 140 mL de agua desionizada. Por otro lado, se pesaron 12 g de hidróxido de sodio (NaOH) y se disolvieron en 60 mL de una solución acuosa de etanol (80% v/v). Ambas soluciones fueron añadidas a un matraz de tres bocas al cual se le ha implementado un reflujo. Posteriormente, se mezclaron bajo agitación constante a temperatura ambiente (25 °C) durante 15 min. Consecutivamente, se adicionaron 16 g de ácido cloroacético a la mezcla anterior bajo condiciones de agitación, y se ajustó la temperatura a 70 °C durante 60 minutos. A continuación, se detuvo el calentamiento y la agitación, y se añadieron 200 mL de etanol frío. La dispersión obtenida fue inicialmente lavada con etanol y centrifugada en un equipo Eppendorf 5810 R (4500 rpm, 20 minutos), y un segundo lavado se realizó a las mismas condiciones decantando el sobrenadante. Después, se ajustó el pH de la solución a 7 usando ácido acético glacial. Finalmente, se realizó un tercer lavado con una solución acuosa de etanol (80% v/v) y con agua desionizada. Para secar el sólido, se congeló y posteriormente se liofilizó durante 24 horas, para proceder a su almacenamiento a temperatura ambiente y su posterior caracterización y conjugación con la b-PEI (25 kDa).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Modificación de la goma carboximetilada con la polietilenimina</titulo>
+        <texto>Una vez obtenida la goma de mezquite carboximetilada (GM-CBX), se procedió a realizar su conjugación con el polímero b-PEI. A la GM-CBX se le realizó una activación de grupos carboxilos de la GM-CBX sintetizada, utilizando como agentes de acoplamiento la 1-etil-3-(3 dimetilaminopropil) carbodiimida (EDC) y N-hidroxisuccinamida (NHS). Se pesaron 3 g de GM-CBX y se disolvieron en 50 mL de buffer MES (0.1 M, pH 6.5), para después colocarlo en un matraz de tres bocas y añadir los agentes de acoplamiento EDC y NHS a una relación molar 1:4:4 (GM-CBX:EDC:NHS). Para el cálculo de la relación molar, se utilizó el peso molecular de 368000 g/mol para la GM-CBX Dicha mezcla se mantuvo bajo agitación (300 rpm) y a temperatura ambiente (25 °C) durante 24 horas, una vez finalizado este tiempo, se añadieron 100 mL de una solución acuosa de b-PEI 1% (25 kDa) p/V y se ajustó el pH a 6.5 utilizando HCl 1M. Finalmente, la reacción continuó durante 48 horas a 40 °C y bajo agitación constante (400 rpm), para posteriormente ajustar el pH nuevamente a 6.5 y continuar la reacción durante otras 48 horas a 40 °C y bajo agitación constante (400 rpm). Para la purificación del producto de la reacción anterior, se realizó la diálisis usando membranas de 33 mm y agua destilada durante 24 horas. La preparación de las membranas se realizó siguiendo la metodología establecida por la compañía Sigma Aldrich para las membranas D9652 100FT. Primeramente, la membrana fue lavada con agua corriente durante 3 horas para la eliminación del glicerol. Para retirar los compuestos de azufre se lavó la membrana con una disolución de sulfuro de sodio al 0.3% (p/v) a 80 °C durante 1 minuto. Posteriormente, se procedió a realizar un lavado con agua caliente (60 °C) durante 2 minutos, seguido de una acidificación con una disolución al 0.2% (v/v) de ácido sulfúrico durante 2 minutos. Luego se enjuagaron las membranas con agua caliente (60 °C) para eliminar el ácido. Finalmente, las membranas se llenaron con la muestra de goma de mezquite y se procedió a realizar la diálisis, cambiando el agua de la diálisis cada 4 horas. Una vez terminadas las 24 horas, el producto fue congelado y después liofilizado durante 72 horas para su posterior caracterización y almacenamiento a temperatura ambiente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Capacidad de amortiguamiento de protones (buffering)</titulo>
+        <texto>Para realizar la evaluación de la capacidad amortiguadora del copolímero y sus precursores, se utilizó el protocolo establecido por Pinilla et al.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conjugación del aptámero HER2 purificado con el 4-arm-PEG-maleimida</titulo>
+        <texto>Se preparó una dilución de PEG en donde se agregó 1 mg de 4-arm-PEG-maleimida, P.M. 10,000 de la marca Creative PEGWorks en 25 mL de Tris-EDTA Buffer 1X (pH 7.4) de la marca Boston BioProducts. Una vez obtenida la solución de 4-arm-PEG-maleimida a 40 µM, se homogenizó por ultrasonido durante 20 minutos a 28 °C y se esterilizó con un filtro de membrana de celulosa con un poro de diámetro de 0.45 µm de la marca Corning®. Finalmente se guardó en un tubo eppendorff estéril de 50 mL y se almacenó a -20 °C. Para el conjugado se colocaron 50 µL de aptámero reducido a 88.5 µM y se añadieron 18 µL de 4-arm-PEG-maleimida a 40 µM con el fin de tener una relación 1:6 por molécula, es decir, se busca tener seis moléculas de aptámeros por cada molécula de 4-arm-PEG-maleimida. Posteriormente, se dejó incubar la solución durante 2 horas en la oscuridad y finalmente se caracterizó mediante Nanodrop y electroforesis. 3.3.2.1 Electroforesis en gel de agarosa Se preparó un gel de agarosa al 2.5%, en el cual se pesaron 1.25 g de agarosa y se disolvieron en 50 mL de buffer TBE 1X (Tris-Borato-EDTA). Esta solución se calentó hasta que la agarosa esté disuelta, transparente y sin burbujas. Se dejó enfriar durante 5 minutos y se vertió el gel en la placa de electroforesis y se colocó un peine de 8 carriles, para posteriormente dejar secar el gel a temperatura ambiente durante 1 hora. Una vez pasado el tiempo, se retiró el peine y se añadió buffer TBE 1X a temperatura de 4 °C a la cámara de electroforesis hasta cubrir el gel previamente colocado y se coloca la cámara con el gel durante 1 hora a 4 °C. Posteriormente, se colocaron las muestras en los carriles correspondientes como se muestran a continuación: Después de colocar las muestras, el equipo de electroforesis se conectó a una fuente de corriente continua directa a un voltaje de 85 V durante 10 minutos y luego se aumentó el voltaje a 100 V durante 1 hora y 30 minutos. Finalmente, se colocó el gel en un dispositivo de captura de imágenes UVP Bioimaging Systems EpiChemi 3 Gel Imaging System. Donde, 𝐴 es la absorbancia a 415 nm.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Ensayo de viabilidad celular mediante MTT</titulo>
+        <texto>Para realizar el ensayo de viabilidad celular, se sembraron 8,000 células por pocillo de dos líneas celulares, VERO CCL-81 CCL-81 y HCC1954, en una placa de 96 pocillos en un volumen de 100 µL de medio celular, DMEM y RPMI, respectivamente. Estas se dejaron en la incubadora en condiciones estándar (37 °C, 5% de CO2) durante 24 horas. Se sembraron tres pocillos por cada muestra para obtener triplicados de los resultados. Se prepararon los tratamientos de NS y del NS+HeA2_3, en el cual se colocaron 95 µL de medio según la línea celular y 5 µL del tratamiento, por lo que las concentraciones del tratamiento se ajustaron con la relación medio:tratamiento (v/v). En la Tabla 11 se muestran los ajustes de las concentraciones, con el fin de tener la concentración final adecuada después de su dilución con el medio. Al tener los tratamientos a las concentraciones ajustadas, se retiró el medio de las células que se sembraron anteriormente y se colocaron 100 µL de la solución medio-nanosistema y se procedió a incubar la placa nuevamente, en condiciones estándar de incubadora durante 24 horas. Asimismo, se sembraron controles en los que solamente se añadió medio sin nanosistema. Después de las 24 horas, se preparó una solución de medio-MTT suficiente para todos los pocillos (10 µL de MTT por cada 100 µL de medio). Se retiró el medio-nanosistema de los pocillos y se colocaron 100 µL de la solución medio-MTT y se incubó en condiciones estándar de incubadora durante 3 horas. Una vez terminado el tiempo de incubación, se añadieron 100 µL de isopropanol acidificado a pH 3 y se homogenizó la solución con el fin de disolver los cristales de formazán. Finalmente se midió la absorbancia de cada pocillo en el lector de microplacas a 570 nm y a 651 nm y de las absorbancias obtenidas se realizó la resta de la absorbancia obtenida a 570 nm menos la obtenida a 651 nm. Esa absorbancia se utilizó en la siguiente fórmula. % 𝑣𝑖𝑎𝑏𝑖𝑙𝑖𝑑𝑎𝑑 𝑐𝑒𝑙𝑢𝑙𝑎𝑟 = 𝐴 𝑃𝑟𝑜𝑏𝑙𝑒𝑚𝑎 * 100 𝐴 𝐶𝑜𝑛𝑡𝑟𝑜𝑙 , 𝑑𝑜𝑛𝑑𝑒 𝐴 𝑒𝑠 𝑙𝑎 𝑎𝑏𝑠𝑜𝑟𝑏𝑎𝑛𝑐𝑖𝑎 Ecuación 2. Cálculo de porcentaje de viabilidad.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Internalización del nanosistema en células mediante ICP</titulo>
+        <texto>Para realizar el ensayo de internalización, se sembraron 320,000 células VERO CCL-81 CCL-81 y HCC1954 por pocillo en una placa de 6 pocillos en un volumen de 4000 µL (3 pocillos por cada línea celular). Para asegurar la comparabilidad con los resultados del ensayo de viabilidad, se mantuvo la misma densidad celular que en la prueba de viabilidad celular. Tras un periodo de incubación de 24 horas en condiciones estándar, se procedió a aplicar el tratamiento. Con el objetivo de evaluar el efecto de las concentraciones óptimas, se seleccionaron únicamente aquellas que mostraron mejores resultados en los ensayos de hemólisis y viabilidad celular (1 y 0.5 ppm). Al igual que en el ensayo de viabilidad celular, se colocaron 3800 µL de medio según la línea celular y 200 µL del tratamiento, por lo que las concentraciones del tratamiento se ajustaron con la relación medio:tratamiento (v/v). En la Tabla 12 se muestran los ajustes de las concentraciones, con el fin de tener la concentración final adecuada después de su dilución con el medio. Una vez ajustadas las concentraciones de los tratamientos, se procedió a la remoción del medio de cultivo y adición de 4000 µL de la solución medio-nanosistema. Tras 24 horas de incubación en condiciones estándar, se realizaron dos lavados con 2 mL de PBS 1X y se emplearon 2 mL de tripsina para el desprendimiento celular y se dejó en la incubador en condiciones estándares durante 10 minutos con el fin de dejar reaccionar la tripsina. Después de este tiempo, se neutralizó la tripsina con 2 mL de medio fresco y el sobrenadante celular se recolectó y se neutralizó con medio fresco, para posteriormente centrifugar la solución a 1000 rpm durante 5 minutos y se decantó el sobrenadante, para después agregar 1 mL de medio y resuspender. Con el fin de lograr una relación entre las células y la concentración del tratamiento inicial con las células recuperadas y determinar la concentración esperada, se realizó un conteo de las células mediante una cámara de Neubauer, este procedimiento se realizó para cada tratamiento y concentración evaluada. Finalmente, a la solución final se le realizó una digestión con ácido nítrico y se realizó el conteo de ppm de Au que se encontraba en cada muestra mediante un espectrómetro de emisión de plasma acoplado inductivamente iCAP 6500 DUO Marca Thermo Electron Corporation. Figura 4. Esquema de la metodología de internalización del nanosistema en líneas celulares.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Sembrar células y dejar incubar durante 24 horas</titulo>
+        <texto>Quitar medio de células y sustituir por solución medio-nanosistema a las dos concentraciones y dejar incubar durante Quitar medio y despegar células con tripsina, agregar 2 mL de medio y resuspender</texto>
+      </seccion>
+      <seccion>
+        <titulo>Centrifugar las células recuperadas de los pocillos</titulo>
+        <texto>Decantar el sobrenadante y resuspender el pellet de células con 1 mL de medio Tomar una alicuota de 10 µL y contabilizar el total de células recuperadas Calcular ppm de oro esperadas con el nuevo total de células Medición de ppm de oro mediante ICP-OES Calcular el porcentaje de internalización</texto>
+      </seccion>
+      <seccion>
+        <titulo>GM C 1s</titulo>
+        <texto>Intensidad (u.a.)</texto>
+      </seccion>
+      <seccion>
+        <titulo>GM-CBX b-PEI</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>GM-CBX-b-PEI</titulo>
+        <texto>Los espectros de carbono de la GM-CBX revelan la presencia de un enlace carbonilo (289 eV), lo cual es una evidencia clara de la carboximetilación de la goma de mezquite. Este resultado indica la exitosa sustitución de los grupos alcohol de la goma por grupos carboxilo. Los espectros de oxígeno confirman esta modificación química, mostrando un nuevo pico correspondiente al enlace O=C-O (532.8 eV). La presencia de los cuatro grupos funcionales identificados en el espectro XPS de la goma carboximetilada es consistente con los resultados obtenidos en estudios previos sobre carboximetilación de polímeros con alto contenido de ácidos carboxílicos. La similitud de los espectros XPS confirma la carboximetilación exitosa de la goma La b-PEI presenta enlaces carbono-nitrógeno característicos de las iminas (398.4 eV), confirmando la estructura principal del polímero, dicha señal es exclusiva del copolímero, lo que indica una exitosa conjugación entre la GM-CBX y la b-PEI. Además, aparece una nueva señal a 399.7 eV, correspondiente a las amidas (N-C=O), tal como se esperaba debido a la reacción entre la polietilenimina y la goma carboximetilada. Estos resultados se corroboran en los espectros de XPS de N 1s (Figura 12). En concordancia con nuestros hallazgos, el trabajo de Kehrer et al. demuestra la formación exitosa de grupos amida a partir de la reacción de un polímero con alta densidad de grupos amino (poli(alilamina)) y un compuesto con abundantes grupos carboxilo. El análisis de sus espectros de N 1s revela la aparición de señales correspondientes a grupos imina y amida en energías de enlace similares a las observadas en el presente estudio, lo que refuerza la confirmación de la formación de enlaces amida Estos hallazgos corroboran la conjugación exitosa de la b-PEI con la GM-CBX, que posee un potencial zeta negativo (-49±3.9 mV). La variación del potencial zeta en función del pH indica una interacción efectiva entre ambos polímeros y sugiere la formación de un enlace amida entre ellos. La capacidad amortiguadora de protones es una característica importante para la liberación puntual del tratamiento hacia las células, por lo que mantener la alta capacidad de buffering que posee la b-PEI es primordial. Según estudios realizados, la b-PEI, específicamente la de 25 kDa, es capaz de mantener una alta capacidad de amortiguamiento, protegiendo el ADN y transportándolo hasta la célula Figura 13. Capacidad de amortiguamiento del copolímero y sus precursores.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Espectroscopia ultravioleta visible (UV-Vis)</titulo>
+        <texto>Figura 16. Espectroscopia de nanopartículas de oro recubiertas del copolímero GM-CBX-b-PEI y sus precursores. La formación de nanopartículas de oro a partir de HAuCl₄.3H₂O se confirmó mediante espectroscopía UV-Vis (Figura 16). Inicialmente, el espectro mostró un pico característico a 320 nm, correspondiente al ion AuCl₄⁻. Tras la reducción catalizada por el copolímero GM-CBX-b-PEI, este pico desapareció y emergió una nueva banda de absorción a 520 nm, atribuible a la resonancia plasmónica de superficie de las NS recién formadas. La desaparición del pico a 320 nm indica la disminución de la concentración de iones AuCl₄⁻. Esto se debe a que el copolímero GM-CBX-b-PEI actúa como agente reductor, transformando los iones de oro (Au³⁺) en átomos de oro (Au⁰), los átomos de oro reducidos se enlazan y forman nanopartículas de oro. Estas nanopartículas presentan una resonancia plasmónica de superficie (SPR) que se manifiesta como una banda de absorción intensa en la región visible del espectro. En este caso, el máximo de absorción se encuentra a 520 nm, lo cual es típico para nanopartículas de oro de tamaño y forma son relativamente estables y es necesario continuar con estudios de estabilidad para conocer el tiempo en el que se comienza a perder dicha estabilidad.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Espectroscopia de fotoelectrones emitidos por rayos X (XPS)</titulo>
+        <texto>Los espectros XPS confirman la formación de nanopartículas de oro mediante la reducción del precursor HAuCl₄•3H₂O en presencia del copolímero GM-CBX-b-PEI. En la Figura 18, los dobletes característicos de Au 4f revelan la presencia de oro metálico (Au⁰), resultado de la reducción térmica. Adicionalmente, se observa un desplazamiento en la energía de enlace asociado a la formación de enlaces Au-N, lo que evidencia la interacción entre el grupo amino del copolímero y las nanopartículas de oro. La interacción entre el nitrógeno del copolímero y el oro metálico se evidencia adicionalmente en los espectros de N 1s. En el espectro del copolímero puro, se observa un pico principal correspondiente al nitrógeno del grupo amida a 399.7 eV. Sin embargo, en el espectro de las NS, este pico disminuye en intensidad y aparece un nuevo pico a 399.3 eV, correspondiente al nitrógeno involucrado en enlaces N-Au. Este desplazamiento en la energía de enlace y el cambio en la intensidad de los picos confirman la formación de enlaces covalentes entre el nitrógeno del copolímero y las NS. La confirmación de la formación del enlace entre el oro de las nanopartículas y el copolímero se basa en la comparación de nuestros espectros con los obtenidos por Devia et al. en su estudio de películas de nitruro de oro. Al igual que en nuestro caso, Devia et al. observaron señales características de oro metálico y la formación de enlaces Au-N en sus espectros de Au 4f, con energías de enlace notablemente similares. Adicionalmente, la detección del enlace C-N en nuestros espectros de C 1s, a energías de enlace consistentes con las reportadas en el estudio, refuerza la evidencia de una conjugación exitosa. [64]. Al analizar los espectros de C 1s y O 1s (Figura 19), se observan cambios en las intensidades relativas de los picos correspondientes a los enlaces C-N y C-O en comparación con el copolímero puro. Estos cambios se atribuyen a los procesos de síntesis y purificación de las NS. Los lavados realizados para eliminar el exceso de copolímero no conjugado pueden provocar una pérdida parcial de este componente de la superficie de las NS, lo que se manifiesta en las variaciones observadas en los espectros XPS. La Tabla 23 revela un diámetro hidrodinámico promedio en las nanopartículas de aproximadamente 12 nm, con una distribución de tamaño muy estrecha (98.9%). La alta homogeneidad indica un exitoso control sobre el proceso de síntesis. Considerando las aplicaciones biomédicas de las nanopartículas de oro, este tamaño se encuentra dentro del rango óptimo reportado para una mayor vida media en el torrente sanguíneo y una mayor facilidad de internalización celular. Además, al funcionalizar estas nanopartículas con el conjugado aptámero HER2-PEG, se espera un ligero aumento en el tamaño, posicionándolas en el rango ideal (30-60 nm) para una citotoxicidad efectiva en células cancerígenas, según lo reportado por Zhang et al Con relación al potencial zeta, se observa un valor positivo debido a la protonación de los grupos amino de la PEI, mostrando una consistencia con el comportamiento del copolímero por sí solo. La magnitud superior a 30 mV de este potencial, indica una fuerte repulsión electrostática entre las nanopartículas de oro, garantizando la estabilidad y homogeneidad de la dispersión coloidal, tal como lo sugieren los estudios de Mekhamer Los espectros de O 1s y N 1s (Figura 23 y Tabla 24) confirman la presencia de los grupos funcionales característicos del PEG-maleimida. Los picos observados corresponden con los enlaces carbono-oxígeno (C-O) de los grupos éter y, en menor medida, con los enlaces carbono-nitrógeno (C-N) debido a grupos terminales. Esta información espectroscópica respalda la composición química del PEG-maleimida y su papel en la formación del enlace tiol-maleimida</texto>
+      </seccion>
+      <seccion>
+        <titulo>Electroforesis</titulo>
+        <texto>El análisis de electroforesis en gel de agarosa indicó una resolución incompleta en el marcador de peso molecular de 25 pares de bases (pb), particularmente entre 175 y 50 pb, donde se observó una difusión significativa de las bandas. Este fenómeno podría atribuirse a la degradación del marcador de peso molecular debido a contaminación o un incorrecto almacenamiento. El marcador de 100 pb actuó como control positivo, evidenciando en la Figura  respecto a su tamaño original. Este crecimiento sugiere una exitosa conjugación del aptámero a las NS, corroborando hallazgos similares en estudios previos Respecto al potencial zeta, se observó una disminución en su magnitud, atribuible a la neutralización parcial de las cargas positivas de las NS por parte de las cargas negativas del aptámero. Este resultado es coherente con lo reportado en trabajos precedentes y confirma la formación del complejo AuNP-Aptámero-PEG. Se logró la síntesis de una nanopartícula de oro funcionalizada con aptámero-PEG-Maleimida que supera a las reportadas por Pinilla et al. y Carrion-Garcia et al. en cuanto a su tamaño. Este nuevo nanosistema, al tener un tamaño inferior a 20 nm, facilita su internalización celular, lo que representa una ventaja significativa para el desarrollo de terapias y diagnósticos más eficientes. Figura 26. Representación esquemática de la interacción electrostática NS-aptámero-PEG.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Estabilidad del NS+HeA2_3</titulo>
+        <texto>Figura 27. Estabilidad coloidal del NS+HeA2_3. Al evaluar la estabilidad coloidal del NS+HeA2_3, que incluye tanto las nanopartículas de oro como los conjugados de aptámero anti-HER2 y 4-arm-PEG-Maleimida, se observó un comportamiento similar al de las NS aisladas, este comportamiento se observa en la Figura 27. Los espectros de absorción, monitoreados desde el día 1 hasta el día 21 y obtenidos a una temperatura de 4 °C, mostraron variaciones mínimas en la intensidad y posición del pico de plasmón superficial. Estos resultados indican que la conjugación del aptámero y el PEG no comprometió significativamente la estabilidad coloidal del sistema, el cual se mantuvo relativamente estable durante el período de estudio. La presencia de ambos conjugados parece conferir al nanosistema una mayor resistencia a la agregación y sedimentación, lo que es fundamental para su potencial aplicación en sistemas biológicos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Espectroscopia de fotoelectrones emitidos por rayos X (XPS)</titulo>
+        <texto>Los espectros XPS de la Figura 28 evidencian la exitosa conjugación entre el aptámero-PEG y las NS. El incremento en la intensidad de los enlaces C-S en los espectros C 1s y S 2p, junto con la aparición del pico C-NH2 en el espectro N 1s, sugiere una interacción electrostática entre ambos componentes, posiblemente involucrando interacciones S-N. A pesar de que XPS es una técnica poderosa para analizar la composición superficial, la detección directa de interacciones electrostáticas débiles puede ser desafiante. Sin embargo, el aumento de la intensidad relativa del enlace N-Au en N 1s y la disminución de picos en S 2p, comparado con el aptámero-PEG puro podría atribuirse a la limpieza del conjugado mediante una columna Spin-X 100K MWCO, que elimina el exceso de reactivos y podría favorecer la interacción entre las especies conjugadas [81], Para complementar esta interpretación y obtener una caracterización más completa del sistema, se emplearon técnicas analíticas adicionales. TEM, DLS y UV-vis. Estas técnicas proporcionaron evidencia adicional de la conjugación y permitieron una mejor comprensión de la naturaleza de las interacciones entre los componentes del nanosistema.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Microscopia de transmisión electrónica (TEM)</titulo>
+        <texto>Con el fin de determinar el tamaño y la morfología del NS+HeA2_3, se obtuvieron micrografías mediante TEM (Figura 29), las cuales revelaron nanopartículas con un diámetro promedio de 10.8 ± 1.9 nm, ligeramente inferior al radio hidrodinámico determinado por DLS (19.4±0.8). Esta discrepancia es atribuible al hecho de que DLS mide el tamaño aparente de la partícula, incluyendo la capa de solvatación y la doble capa eléctrica, mientras que a través de TEM no es posible observar el recubrimiento polimérico del nanosistema y solo proporciona una medida más directa del tamaño del núcleo de la partícula. Las imágenes TEM mostraron una morfología predominantemente esférica y semiesférica, lo cual es altamente deseable para aplicaciones biomédicas, ya que facilita la internalización celular y reduce la probabilidad de activación de respuestas inmunes Investigaciones previas, como las de Liu et al., han demostrado que a 70 °C se obtienen nanopartículas esféricas con un tamaño aproximado de 10 nm. La presencia de polímeros en el recubrimiento no solo estabiliza la dispersión coloidal, previniendo la aglomeración, sino que también podría influir en el control del tamaño y la forma de las nanopartículas Se ha demostrado que el peso molecular de un copolímero influye directamente en su citotoxicidad, observándose una correlación positiva entre ambos parámetros. Dada la variabilidad en los pesos moleculares reportados para la goma de mezquite, es comprensible que existan discrepancias en los resultados de citotoxicidad De igual manera, cabe destacar los resultados de b-PEI en la cual a concentraciones de 0.3μg/mL y 0.1μg/mL resultan ser hemolíticos, lo cual es consistente con el mecanismo de acción de los policationes, que interactúan con los fosfolípidos de la membrana eritrocitaria, induciendo su lisis. Sin embargo, a una concentración de 0.03 μg/mL, la b-PEI no resultó hemolítica, sugiriendo un umbral por debajo del cual la interacción con la membrana es insuficiente para causar daño Si bien el copolímero mostró una leve hemólisis a ciertas concentraciones, es importante destacar que, al conjugarse con nanopartículas de oro y aptámeros, esta citotoxicidad se redujo significativamente. Estos resultados sugieren que la formación del nanoconjugado mitiga los efectos adversos del copolímero sobre los eritrocitos. Los resultados de hemólisis para las NS mostraron un comportamiento hemolítico o ligeramente hemolítico a todas las concentraciones evaluadas. Esta citotoxicidad puede atribuirse a la carga superficial positiva de las nanopartículas, como lo evidencian los valores de potencial zeta. La interacción electrostática entre los grupos amino protonados de las NS y los fosfolípidos cargados negativamente de la membrana eritrocitaria induce la formación de poros y la subsiguiente lisis celular. Estos hallazgos son consistentes con estudios previos sobre la interacción de polímeros catiónicos con eritrocitos en la cual se menciona que debajo de concentraciones de 10 ppm indican un índice ligeramente hemolítico, sin embargo, esto depende en gran manera del tamaño, polímero y métodos de síntesis propios de las nanopartículas La conjugación de las NS con aptámero HER2 y PEG resultó en una disminución significativa de la hemólisis (Figura 33). El PEG, al formar una capa hidrofílica alrededor de las nanopartículas, reduce la interacción con componentes sanguíneos, como las proteínas y los eritrocitos. Estos resultados indican que el nanosistema diseñado presenta un perfil de biocompatibilidad adecuado, lo que lo convierte en un candidato prometedor para aplicaciones biomédicas. La mayoría de las concentraciones evaluadas no indujeron hemólisis, lo que subraya la eficacia de esta estrategia para mejorar la biocompatibilidad de las nanopartículas La carga de la superficie del NS puede influir en la interacción con las membranas celulares cargadas negativamente, incluidos los eritrocitos (RBCs), debido a que la hemólisis se refiere a la ruptura de las membranas de los eritrocitos. Las nanopartículas cargadas positivamente interaccionan con los fosfolípidos de las membranas de los eritrocitos y debido a que la superficie del NS con alta carga superficial pueden perturbar la bicapa lipídica de los eritrocitos, provocando hemólisis. Por el contrario, el nanosistema que posee un potencial zeta menor tiende a reducir la hemolisis, por la repulsión de cargas entre las nanopartículas y eritrocitos, reduciendo el contacto con las membranas celulares. Esta disminución puede ser debido al recubrimiento con aptámero y 4-arm-PEG-Maleimida redujo el potencial Z y por ende una disminución significativa de hemólisis</texto>
+      </seccion>
+      <seccion>
+        <titulo>Viabilidad celular mediante MTT</titulo>
+        <texto>Según la ISO 10993-5: Evaluación biológica de dispositivos médicos-Parte 5: Pruebas de citotoxicidad in vitro menciona que la reducción de la viabilidad celular en más del 30% se considera un efecto citotóxico. Por lo que se busca que los tratamientos tengan una viabilidad celular mayor al 70% Los resultados del análisis de viabilidad celular en células de cáncer que sobreexpresan HER2 son prometedores. Se observó una citotoxicidad significativa en cuatro de las cinco concentraciones evaluadas del nanosistema, evidenciando una viabilidad celular inferior al 70%. Esta citotoxicidad selectiva se atribuye a la presencia del aptámero anti-HER2 en el nanosistema, el cual se une específicamente a las células que sobreexpresan esta proteína. La mayor eficacia del nanosistema en comparación con las NS solas corrobora la importancia del aptámero en la internalización celular y la inducción de la muerte celular. Estos resultados concuerdan con estudios previos de Gijs et al y Pinilla et al, donde aptámeros similares dirigidos contra HER2 demostraron una reducción en la viabilidad celular en líneas celulares con baja y moderada expresión de este receptor. Sin embargo, el nanosistema desarrollado en este proyecto presenta una citotoxicidad aún mayor al ser evaluadas en líneas celulares con alta expresión del receptor HER2, lo que sugiere una optimización en su diseño y síntesis La alta expresión de HER2 en la línea celular utilizada en este estudio facilita la unión del aptámero y la posterior internalización del nanosistema, potenciando su efecto citotóxico. Estos hallazgos posicionan a este nanosistema como un prometedor candidato para el desarrollo de nuevas terapias contra el cáncer HER2 positivo. Los resultados de la evaluación de viabilidad celular en células sanas (VERO CCL-81 CCL-81) mostraron que dos concentraciones de nanopartículas de oro (NS) y tres del nanosistema no presentaron citotoxicidad. Esta ausencia de toxicidad en células sanas y la alta citotoxicidad observada en células cancerosas se atribuye a la expresión diferencial del Receptor 2 del Factor de Crecimiento Epidérmico Humano (HER2). Mientras que en células sanas HER2 desempeña un papel fisiológico en el crecimiento celular y activa vías de señalización intracelular, expresando esta proteína de manera moderada, en algunos tipos de cáncer este receptor se sobreexpresa significativamente. Dado que el nanosistema incorpora un aptámero específico contra HER2, su efecto se concentra en células con sobreexpresión de este receptor, minimizando el daño a células sanas. Los resultados de hemólisis y viabilidad celular sugieren que las concentraciones de 1 y 0.5 ppm son las más adecuadas para este tipo de tratamiento</texto>
+      </seccion>
+      <seccion>
+        <titulo>Internalización del nanosistema</titulo>
+        <texto>El análisis de internalización NS+HeA2_3 se resume en la Tabla 28, detallando la línea celular empleada, el recuento celular inicial y final, así como la concentración inicial y recuperada de oro (en ppm), estos datos permitieron calcular el porcentaje de internalización, proporcionando una estimación cuantitativa de la captación celular de los nanosistemas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Los resultados obtenidos en este estudio demuestran el potencial del nanosistema</titulo>
+        <texto>NS+HeA2_3 como una nueva estrategia terapéutica para el tratamiento del cáncer HER2-positivo. La alta eficiencia de internalización, la selectividad hacia células tumorales y la baja toxicidad en células sanas hacen de este sistema un candidato prometedor para superar la resistencia a tratamientos convencionales.  Se realizó un ensayo MTT para identificar la metodología óptima para las nanopartículas de oro recubiertas con GM-CBX-b-PEI. La Figura 38 representa visualmente la coloración de cada pocillo, comparando las muestras tratadas con sus respectivos controles. Es importante destacar que algunos controles se compartieron entre varios protocolos, ya que su influencia se consideró insignificante en ciertos casos. El ensayo MTT proporcionó información valiosa sobre la metodología óptima para las nanopartículas de oro recubiertas con GM-CBX-b-PEI. El uso de DMSO y buffer de solubilización para disolver los cristales de formazán resultó en la formación de burbujas, disolución incompleta de los cristales e interferencia en las lecturas de absorbancia. Los pocillos tratados con PBS-MTT, en lugar de Medio-MTT, no mostraron el color púrpura esperado, volviéndose amarillos y potencialmente llevando a evaluaciones inexactas de baja viabilidad celular. Como se esperaba, el aumento de la concentración de nanopartículas en el Protocolo 6 condujo a una disminución de la viabilidad celular en comparación con concentraciones más bajas. Curiosamente, los Protocolos 1 y 7-10 no mostraron diferencias significativas, indicando que la preparación de nanopartículas en agua o medio no afecta significativamente los resultados. Además, las variaciones en las soluciones madre de MTT no afectaron el resultado, destacando la importancia de las condiciones de almacenamiento adecuadas. Un lavado adicional con PBS antes de agregar Medio-MTT tuvo un efecto insignificante en los resultados. Finalmente, aunque tanto el isopropanol como el etanol fueron efectivos para disolver los cristales de formazán, el examen microscópico reveló cristales residuales con etanol, sugiriendo que el isopropanol puede ser un solvente más eficiente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>C. Conceptos básicos</titulo>
+        <texto>Cáncer El cáncer es una enfermedad en la que ocurre un crecimiento descontrolado de células anormales en casi cualquier órgano o tejido del cuerpo, la mayoría de los tipos de cánceres forman un absceso el cual es conocido como tumor. El cáncer puede ser adquirido de distintas formas tales como mutaciones genéticas, factores ambientales, patógenos (bacterias, virus y parásitos) y estilo de vida Receptor 2 del factor de crecimiento epidérmico humano El receptor 2 del factor de crecimiento epidérmico humano (HER2) es una glicoproteína con actividad tirosina quinasa que pertenece a la familia de receptores del factor de crecimiento epidérmico, y es el encargado de controlar el crecimiento y diferenciación de las células epiteliales</texto>
+      </seccion>
+      <seccion>
+        <titulo>Nanopartículas</titulo>
+        <texto>Las nanopartículas, por su tamaño nanométrico y su alta capacidad de funcionalización, se han posicionado como herramientas prometedoras para tratamientos oncológicos. Para ser considerada una nanopartícula ideal, esta debe ser capaz de: i) reconocer de manera específica las células cancerígenas, ii) atravesar las barreras celulares, iii) escapar del compartimento endosómico y iv) liberar su carga terapéutica en el sitio de acción.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Polietilenimina ramificada</titulo>
+        <texto>La polietilenimina ramificada es un polímero catiónico (Figura 40), con un alto peso molecular y genera una estructura porosa que mejora su capacidad para interactuar con biomoléculas, haciéndola un polímero ideal para aplicaciones biomédicas. Dentro de las características de este polímero es que es altamente soluble en agua, tiene un peso molecular de 25 kDa y una alta capacidad de buffering o amortiguamento del pH cuando se añade un ácido al sistema. Debido a esto, la polietilenimina ramificada (b-PEI) ha sido utilizado en gran manera en conjunto con vehículos tales como nanopartículas, vectores virales y no virales para tratamientos del área oncológica</texto>
+      </seccion>
+      <seccion>
+        <titulo>Goma de mezquite</titulo>
+        <texto>La goma de mezquite se obtiene de los árboles del género Prosopis, de las cuales un gran número de especies, especialmente 44, se concentran principalmente en el estado de Sonora, México. Dentro de las propiedades importantes que posee, son una alta solubilidad en agua, viscosidad intrínseca, capacidad emulsionante, capacidad encapsulante, entre otros Figura 41. Estructura química de la goma de mezquite</texto>
+      </seccion>
+      <seccion>
+        <titulo>Ácidos nucleicos</titulo>
+        <texto>Los ácidos nucleicos son cadenas formadas por anillos de azúcares de cinco miembros enlazados por grupos fosfato. Los ácidos nucleicos se pueden dividir principalmente en ácidos desoxirribonucleicos (ADN) y en ácidos ribonucleicos (ARN). El ADN es considerado como una molécula de doble hélice que se encuentran plegadas entre sí, estos contienen nucleótidos que están compuestos de bases púricas (adenosina y guanina) y bases pirimidínicas (citosina o timina), un fosfato y una azúcar desoxirribosa y estos nucleótidos están unidos por enlaces covalentes. La información que se encuentra dentro del ADN se transmite a las células por medio de la síntesis del ADN que ocurre a través del apareamiento de las bases de nucleótidos de ambas hebras para que posteriormente se lleve a cabo el proceso celular para la síntesis posterior del ARN Mientras que el ARN es un polímero de nucleótidos usualmente formado por una cadena, cuya principal función es la síntesis de proteínas. Mediante el apareamiento de bases complementarias se sintetizan las moléculas de ARN, formado por cuatro bases de nucleótidos (guanina, adenina, citosina y uracilo), una ribosa (azúcar) y un grupo fosfato. Por lo que es posible apreciar las diferencias principales en la estructura del ADN y ARN en la Figura 42 Figura 42. Comparación entre la estructura del ADN y ARN. Modificada de</texto>
+      </seccion>
+      <seccion>
+        <titulo>Hemolisis</titulo>
+        <texto>La hemólisis es la ruptura anormal de los glóbulos rojas, lo cual implica un problema clínico referente a una enfermedad, desorden o respuesta a algún tratamiento y/o medicamento. Los medicamentos o tratamientos a ciertas concentraciones pueden provocar hemólisis en la sangre, por lo que la FDA insta que, para nuevos tratamientos que pretenden ser inyectables es necesario realizar una prueba de hemólisis a la concentración prevista para la administración</texto>
+      </seccion>
+      <seccion>
+        <titulo>Viabilidad celular</titulo>
+        <texto>La viabilidad celular se refiere al número de células vivas y sanas en una muestra por lo que los ensayos de viabilidad celular se basan en la detección de la proliferación celular o efectos citotóxicos. Existen diversos ensayos para determinar y estimar el número de células viables después de un tratamiento Las células viables poseen enzimas oxidorreductasas que son capaces de reducir una sal de tetrazolio amarilla (bromuro de 3-(4,5-dimetiltiazol-2-il)-2,5-difeniltetrazolio o MTT) a cristales de formazán de color morado mediante succinato deshidrogenasa presentes en la actividad metabólica (Figura 3) Figura 43. Reducción de sal de tetrazolio a cristales de formazán La cuantificación de la proliferación celular se realiza mediante la medición de la absorbancia producida luego de la ruptura de la sal de tetrazolio por la enzima mitocondrial, succinato deshidrogenasa, y que da lugar al producto de color morado. La conversión sólo se realiza en células vivas y la cantidad de formazán producido es proporcional al número de células vivas Figura 44. Metabolismo de MTT por células viables.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia>
+      <autores>
+        <autor>Referencias</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>" Who</autor>
+        <autor>Cáncer</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Epidemiología del cáncer de mama</titulo>
+      <autores>
+        <autor>Imss</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Actualización del tratamiento del cáncer de mama</titulo>
+      <autores>
+        <autor>A Juan</autor>
+        <autor>L Calera</autor>
+        <autor>L Gutiérrez</autor>
+        <autor>L Saiz</autor>
+        <autor>M Ruiz De</autor>
+        <autor>La Fuente</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Aptamer-conjugated gold nanoparticles and their diagnostic and therapeutic roles in cancer</titulo>
+      <autores>
+        <autor>G Deng</autor>
+        <autor>H Zha</autor>
+        <autor>H Luo</autor>
+        <autor>Y Zhou</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Gold nanostructure-mediated delivery of anticancer agents: Biomedical applications, reversing drug resistance, and stimuli-responsive nanocarriers</titulo>
+      <autores>
+        <autor>M Entezari</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carboxymethylated gums and derivatization: strategies and significance in drug delivery and tissue engineering</titulo>
+      <autores>
+        <autor>M Baghel</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>New approaches and procedures for cancer treatment: Current perspectives</titulo>
+      <autores>
+        <autor>D Debela</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Aptamers and their biological applications</titulo>
+      <autores>
+        <autor>K Song</autor>
+        <autor>S Lee</autor>
+        <autor>C Ban</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Internalization and fate of silica nanoparticles in C2C12 skeletal muscle cells: Evidence of a beneficial effect on myoblast fusion</titulo>
+      <autores>
+        <autor>S Poussard</autor>
+        <autor>M Decossas</autor>
+        <autor>O Le Bihan</autor>
+        <autor>S Mornet</autor>
+        <autor>G Naudin</autor>
+        <autor>O Lambert</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Improved aptamers for the diagnosis and potential treatment of HER2positive cancer</titulo>
+      <autores>
+        <autor>M Gijs</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Updating the definition of cancer</titulo>
+      <autores>
+        <autor>J Brown</autor>
+        <autor>S Amend</autor>
+        <autor>R Austin</autor>
+        <autor>R Gatenby</autor>
+        <autor>E Hammarlund</autor>
+        <autor>K Pienta</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Estadísticas a propósito del día mundial contra el cáncer</titulo>
+      <autores>
+        <autor>Inegi</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Cáncer, tercera causa de muerte en México</titulo>
+      <autores>
+        <autor>Secretaría De</autor>
+        <autor>Salud</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Breast cancer</titulo>
+      <autores>
+        <autor>Who</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Estadísticas a propósito del día internacional de la lucha contra el cáncer de mama (19 de octubre)</titulo>
+      <autores>
+        <autor>Inegi</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Molecular classification of breast cancer</titulo>
+      <autores>
+        <autor>E Provenzano</autor>
+        <autor>G Ulaner</autor>
+        <autor>S.-F. Chin Bsc</autor>
+        <autor>A Affiliations</autor>
+        <autor>A Member</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Understanding a breast cancer diagnosis</titulo>
+      <autores>
+        <autor>Acs</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Overview of breast cancer</titulo>
+      <autores>
+        <autor>E Watkins</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Treatment of breast cancer</titulo>
+      <autores>
+        <autor>K Maughan</autor>
+        <autor>M Lutterbie</autor>
+        <autor>P Ham</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Trastuzumab in the treatment of breast cancer</titulo>
+      <autores>
+        <autor>S Maximiano</autor>
+        <autor>P Magalhães</autor>
+        <autor>M Guerreiro</autor>
+        <autor>M Morgado</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Degradable polymer-coated gold nanoparticles for co-delivery of DNA and siRNA</titulo>
+      <autores>
+        <autor>C Bishop</autor>
+        <autor>S Tzeng</autor>
+        <autor>J Green</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Gold nanoparticles in biology: Beyond toxicity to cellular imaging</titulo>
+      <autores>
+        <autor>C Murphy</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cellular uptake and toxicity of gold nanoparticles in prostate cancer cells: A comparative study of rods and spheres</titulo>
+      <autores>
+        <autor>A Arnida</autor>
+        <autor>H Malugin</autor>
+        <autor>Ghandehari</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Trastuzumab-modified gold nanoparticles labeled with 211 at as a prospective tool for local treatment of HER2-positive breast cancer</titulo>
+      <autores>
+        <autor>Ł Dziawer</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanoparticles as Non-Viral Gene Delivery Vectors</titulo>
+      <autores>
+        <autor>C Katragadda</autor>
+        <autor>P Choudhury</autor>
+        <autor>P Murthy</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Branched polyethylenimine derivatives with reductively cleavable periphery for safe and efficient in vitro gene transfer</titulo>
+      <autores>
+        <autor>Y Wang</autor>
+        <autor>M Zheng</autor>
+        <autor>F Meng</autor>
+        <autor>J Zhang</autor>
+        <autor>R Peng</autor>
+        <autor>Z Zhong</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Polyethylenimine in medicinal chemistry</titulo>
+      <autores>
+        <autor>P Vicennati</autor>
+        <autor>A Giuliano</autor>
+        <autor>G Ortaggi</autor>
+        <autor>A Masotti</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent advancements in polyethyleneimine-based materials and their biomedical, biotechnology, and biomaterial applications</titulo>
+      <autores>
+        <autor>Z Chen</autor>
+        <autor>Z Lv</autor>
+        <autor>Y Sun</autor>
+        <autor>Z Chi</autor>
+        <autor>G Qing</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Finding the ideal polyethylenimineplasmid DNA system for co-delivery of payloads in cancer therapy</titulo>
+      <autores>
+        <autor>D Costa</autor>
+        <autor>A Valente</autor>
+        <autor>J Queiroz</autor>
+        <autor>Â Sousa</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tuning the buffering capacity of polyethylenimine with glycerol molecules for efficient gene delivery: Staying in or out of the endosomes</titulo>
+      <autores>
+        <autor>B Singh</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Low molecular weight polyethyleneimine conjugated guar gum for targeted gene delivery to triple negative breast cancer</titulo>
+      <autores>
+        <autor>P Jana</autor>
+        <autor>S Ghosh</autor>
+        <autor>K Sarkar</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The proton sponge hypothesis: Fable or fact?</titulo>
+      <autores>
+        <autor>L Vermeulen</autor>
+        <autor>S De Smedt</autor>
+        <autor>K Remaut</autor>
+        <autor>K Braeckmans</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green synthesis of mesquite-gum-stabilized gold nanoparticles for biomedical applications: Physicochemical properties and biocompatibility assessment</titulo>
+      <autores>
+        <autor>A Pinilla-Torres</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Modification of branched polyethyleneimine using mesquite gum for its improved hemocompatibility</titulo>
+      <autores>
+        <autor>A Pinilla-Torres</autor>
+        <autor>P Carrión-García</autor>
+        <autor>C Sánchez-Domínguez</autor>
+        <autor>H Gallardo-Blanco</autor>
+        <autor>M Sánchez-Domínguez</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Carboxymethyl guar gum: A review of synthesis, properties and versatile applications</titulo>
+      <autores>
+        <autor>G Dalei</autor>
+        <autor>S Das</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Pierce Premium Grade EDC</titulo>
+      <autores>
+        <autor>Thermoscientific</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>NHS and Sulfo-NHS</titulo>
+      <autores>
+        <autor>Thermoscientific</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>A Torres</autor>
+        <autor>M Domínguez</autor>
+        <autor>H Blanco</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Development of HER2-specific aptamer-drug conjugate for breast cancer therapy</titulo>
+      <autores>
+        <autor>H Jeong</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enhanced human epidermal growth factor receptor 2 degradation in breast cancer cells by lysosome-targeting gold nanoconstructs</titulo>
+      <autores>
+        <autor>H Lee</autor>
+        <autor>D Dam</autor>
+        <autor>J Ha</autor>
+        <autor>J Yue</autor>
+        <autor>T Odom</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Uso del mezquite como fuente de polisacáridos de alto valor agregado</titulo>
+      <autores>
+        <autor>Y Franco</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Development of nano-emulsions of essential citrus oil stabilized with mesquite gum</titulo>
+      <autores>
+        <autor>M</autor>
+        <autor>Berenice Moreno-Trejo</autor>
+        <autor>A Adrián Rodríguez-Rodríguez</autor>
+        <autor>Á Suarez-Jacobo</autor>
+        <autor>M Sánchez-Domínguez</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The removal of textile industrial dye-RB-19 using guar gum-based adsorbent with thermodynamic and kinetic evaluation parameters</titulo>
+      <autores>
+        <autor>A Mahto</autor>
+        <autor>S Mishra</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mesquite gum as a novel reducing and stabilizing agent for modified tollens synthesis of highly concentrated Ag nanoparticles</titulo>
+      <autores>
+        <autor>M Moreno-Trejo Y</autor>
+        <autor>M Sánchez-Domínguez</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Environmentally-benign, water-based covalent polymer network for flame retardant cotton</titulo>
+      <autores>
+        <autor>B Zhao</autor>
+        <autor>T Kolibaba</autor>
+        <autor>S Lazar</autor>
+        <autor>J Grunlan</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Nature of the use of adventitious carbon as a binding energy standard</titulo>
+      <autores>
+        <autor>T Barr</autor>
+        <autor>S Seal</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hummers' and Brodie's graphene oxides as photocatalysts for phenol degradation</titulo>
+      <autores>
+        <autor>M Pedrosa</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>XPS investigation on the reactivity of surface imine groups with TFAA</titulo>
+      <autores>
+        <autor>M Kehrer</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis of a carboxymethylated guar gum grafted polyethyleneimine copolymer as an efficient gene delivery vehicle</titulo>
+      <autores>
+        <autor>P Jana</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biophysical characterization of PEI/DNA complexes</titulo>
+      <autores>
+        <autor>S Choosakoonkriang</autor>
+        <autor>B Lobo</autor>
+        <autor>G Koe</autor>
+        <autor>J Koe</autor>
+        <autor>C Middaugh</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Application of green synthesis of gold nanoparticles: A review</titulo>
+      <autores>
+        <autor>A Usman</autor>
+        <autor>A Aziz</autor>
+        <autor>O Noqta</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review green synthesis of gold nanoparticles: An eco-friendly approach</titulo>
+      <autores>
+        <autor>P Santhosh</autor>
+        <autor>J Genova</autor>
+        <autor>H Chamati</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Green synthesis of gold nanoparticles by using natural gums</titulo>
+      <autores>
+        <autor>A Madhusudhan</autor>
+        <autor>G Reddy</autor>
+        <autor>I Krishana</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Controlling the morphology of poly(ethyleneimine)/gold nanoassemblies through the variation of pH and electrolyte additives</titulo>
+      <autores>
+        <autor>K Bali</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Formation of gold nanoparticles using amine reducing agents</titulo>
+      <autores>
+        <autor>J Newman</autor>
+        <autor>G Blanchard</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Parallel multiparameter study of PEI-functionalized gold nanoparticle synthesis for bio-medical applications: part 1-a critical assessment of methodology, properties, and stability</titulo>
+      <autores>
+        <autor>T Cho</autor>
+        <autor>J Gorham</autor>
+        <autor>J Pettibone</autor>
+        <autor>J Liu</autor>
+        <autor>J Tan</autor>
+        <autor>V Hackley</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mesquite gum as a novel reducing and stabilizing agent for modified tollens synthesis of highly concentrated Ag nanoparticles</titulo>
+      <autores>
+        <autor>M Moreno-Trejo Y</autor>
+        <autor>M Sánchez-Domínguez</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanism and antibacterial activity of gold nanoparticles (AuNPs) functionalized with natural compounds from plants</titulo>
+      <autores>
+        <autor>A Timoszyk</autor>
+        <autor>R Grochowalska</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>UV-accelerated synthesis of gold nanoparticle-pluronic nanocomposites for x-ray computed tomography contrast enhancement</titulo>
+      <autores>
+        <autor>D Gomes</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis of gold nanoparticles by reduction of HAuCl4 under UV irradiation</titulo>
+      <autores>
+        <autor>Y Shang</autor>
+        <autor>C Min</autor>
+        <autor>J Hu</autor>
+        <autor>T Wang</autor>
+        <autor>H Liu</autor>
+        <autor>Y Hu</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green synthesis of gold nanoparticles using aqueous extract of clitoria ternatea flower</titulo>
+      <autores>
+        <autor>J Chan</autor>
+        <autor>R Ali</autor>
+        <autor>K Shameli</autor>
+        <autor>M Salleh</autor>
+        <autor>K Lee</autor>
+        <autor>E Mohamed</autor>
+        <autor>Isa</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis, characterization and stability of gold nanoparticles (AuNPs) in different buffer systems</titulo>
+      <autores>
+        <autor>S Sangwan</autor>
+        <autor>R Seth</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A facile pH controlled citrate-based reduction method for gold nanoparticle synthesis at room temperature</titulo>
+      <autores>
+        <autor>H Tyagi</autor>
+        <autor>A Kushwaha</autor>
+        <autor>A Kumar</autor>
+        <autor>M Aslam</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Growth and characterization of AuN films through the pulsed arc technique</titulo>
+      <autores>
+        <autor>A Devia</autor>
+        <autor>H Castillo</autor>
+        <autor>V Benavides</autor>
+        <autor>Y Arango</autor>
+        <autor>J Quintero</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Size-dependent radiosensitization of PEG-coated gold nanoparticles for cancer radiation therapy</titulo>
+      <autores>
+        <autor>X Zhang</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Size matters: Gold nanoparticles in targeted cancer drug delivery</titulo>
+      <autores>
+        <autor>L Dreaden</autor>
+        <autor>M Austin</autor>
+        <autor>Y El-Sayed</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The colloidal stability of raw bentonite deformed mechanically by ultrasound</titulo>
+      <autores>
+        <autor>W Mekhamer</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tailoring structure-function and pharmacokinetic properties of single-chain Fv proteins by site-specific PEGylation</titulo>
+      <autores>
+        <autor>K Yang</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of block copolymers via Diels Alder reaction of maleimide-and anthracene-end functionalized polymers</titulo>
+      <autores>
+        <autor>H Durmaz</autor>
+        <autor>B Colakoglu</autor>
+        <autor>U Tunca</autor>
+        <autor>G Hizal</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Aptamer-conjugated gold nanoparticles targeting human epidermal growth factor receptor 2 (her2) for cancer theranostic, in vitro assays</titulo>
+      <autores>
+        <autor>P Carrión-García</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical conjugation of nucleic acid aptamers and synthetic polymers</titulo>
+      <autores>
+        <autor>M Nerantzaki</autor>
+        <autor>C Loth</autor>
+        <autor>J Lutz</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Thiol-maleimide michael addition click reaction: A new route to surface modification of porous polymeric monolith</titulo>
+      <autores>
+        <autor>S Belbekhouche</autor>
+        <autor>M Guerrouache</autor>
+        <autor>B Carbonnier</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ultrafast photoresponse of vertically oriented TMD films probed in a vertical electrode configuration on Si chips</titulo>
+      <autores>
+        <autor>T Järvinen</autor>
+        <autor>S Hosseini Shokouh</autor>
+        <autor>S Sainio</autor>
+        <autor>O Pitkänen</autor>
+        <autor>K Kordas</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Sulfonic acid based complex framework materials (cfm): nanostructured polysulfide immobilization systems for rechargeable lithium-sulfur battery</titulo>
+      <autores>
+        <autor>P Shanthi</autor>
+        <autor>P Hanumantha</autor>
+        <autor>K Ramalinga</autor>
+        <autor>B Gattu</autor>
+        <autor>M Datta</autor>
+        <autor>P Kumta</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Creative PEGWorks</titulo>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Targeted delivery of Epirubicin to cancer cells by PEGylated A10 aptamer</titulo>
+      <autores>
+        <autor>S Taghdisi</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A drug-loaded aptamer -Gold nanoparticle bioconjugate for combined CT imaging and therapy of prostate cancer</titulo>
+      <autores>
+        <autor>D Kim</autor>
+        <autor>Y Jeong</autor>
+        <autor>Y Jon</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Targeted gene delivery with noncovalent electrostatic conjugates of sgc-8c aptamer and polyethylenimine</titulo>
+      <autores>
+        <autor>N Shahidi-Hamedani</autor>
+        <autor>W Shier</autor>
+        <autor>F Moghadam Ariaee</autor>
+        <autor>K Abnous</autor>
+        <autor>M Ramezani</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation and characterization of gold nanoparticles with amino acids, examination of their stability</titulo>
+      <autores>
+        <autor>M Zarabi</autor>
+        <autor>N Arshadi</autor>
+        <autor>A Farhangi</autor>
+        <autor>A Akbarzadeh</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Natural products containing a nitrogen-sulfur bond</titulo>
+      <autores>
+        <autor>J Petkowski</autor>
+        <autor>W Bains</autor>
+        <autor>S Seager</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>An introduction to surface analysis by XPS and AES</titulo>
+      <autores>
+        <autor>J Watts</autor>
+        <autor>J Wolstenholme</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Handbook of X-ray photoelectron spectroscopy a reference book of standard spectra for identification and interpretation of XPS data</titulo>
+      <autores>
+        <autor>J Moulder</autor>
+        <autor>W Stickle</autor>
+        <autor>P Sobol</autor>
+        <autor>K Bomben</autor>
+        <autor>J Chastain</autor>
+      </autores>
+      <fecha>1993</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Aptamer-modified gold nanoparticles for targeting breast cancer cells through light scattering</titulo>
+      <autores>
+        <autor>Y Huang</autor>
+        <autor>Y Lin</autor>
+        <autor>Z Lin</autor>
+        <autor>H Chang</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of temperature on the size of biosynthesized silver nanoparticle: Deep insight into microscopic kinetics analysis</titulo>
+      <autores>
+        <autor>H Liu</autor>
+        <autor>H Zhang</autor>
+        <autor>J Wang</autor>
+        <autor>J Wei</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Standar practice for assessment of hemolytic properties of materials</titulo>
+      <autores>
+        <autor>Astm</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green synthesis of mesquite-gum-stabilized gold nanoparticles for biomedical applications: Physicochemical properties and biocompatibility assessment</titulo>
+      <autores>
+        <autor>A Pinilla-Torres</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Physicochemical characterization and functional properties of galactomannans from mesquite seeds (Prosopis spp.)</titulo>
+      <autores>
+        <autor>Y López-Franco</autor>
+        <autor>C Cervantes-Montaño</autor>
+        <autor>K Martínez-Robinson</autor>
+        <autor>J Lizardi-Mendoza</autor>
+        <autor>L Robles-Ozuna</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>In vitro test methods for evaluating high molecular weight polyethylene oxide polymer induced hemolytic and thrombotic potential</titulo>
+      <autores>
+        <autor>D Kim</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>In vitro blood cell viability profiling of polymers used in molecular assembly</titulo>
+      <autores>
+        <autor>H Jeong</autor>
+        <autor>J Hwang</autor>
+        <autor>H Lee</autor>
+        <autor>P Hammond</autor>
+        <autor>J Choi</autor>
+        <autor>J Hong</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Protective effect of PEGylation against poly(amidoamine) dendrimer-induced hemolysis of human red blood cells</titulo>
+      <autores>
+        <autor>W Wang</autor>
+        <autor>W Xiong</autor>
+        <autor>Y Zhu</autor>
+        <autor>H Xu</autor>
+        <autor>X Yang</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Pegylation of dendronized gold nanoparticles affects their interaction with thrombin and siRNA</titulo>
+      <autores>
+        <autor>E Pȩdziwiatr-Werbicka</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biocompatibility of surface-modified gold nanoparticles towards red blood cells and haemoglobin</titulo>
+      <autores>
+        <autor>S Kumar</autor>
+        <autor>I Jha</autor>
+        <autor>N Mogha</autor>
+        <autor>P Venkatesu</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>ISO 10993-5: Biological evaluation of medical devices -Part 5: Tests for in vitro cytotoxicity</titulo>
+      <autores>
+        <autor>Iso</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review of HER2 overexpression and somatic mutations in cancers</titulo>
+      <autores>
+        <autor>M Galogre</autor>
+        <autor>D Rodin</autor>
+        <autor>M Pyatnitskiy</autor>
+        <autor>M Mackelprang</autor>
+        <autor>I Koman</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A dual-functional HER2 aptamer-conjugated, pH-activated mesoporous silica nanocarrier-based drug delivery system provides in vitro synergistic cytotoxicity in her2-positive breast cancer cells</titulo>
+      <autores>
+        <autor>J Zhang</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>DNA and aptamer stabilized gold nanoparticles for targeted delivery of anticancer therapeutics</titulo>
+      <autores>
+        <autor>A Latorre</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Desarrollo y evaluación de un nanosistema para la detección de células que sobreexpresan HER2</titulo>
+      <autores>
+        <autor>P Carrión</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cellular uptake and transport of gold nanoparticles incorporated in a liposomal carrier</titulo>
+      <autores>
+        <autor>D Chithrani</autor>
+        <autor>M Dunne</autor>
+        <autor>J Stewart</autor>
+        <autor>C Allen</autor>
+        <autor>D Jaffray</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis, stability, and cellular internalization of gold nanoparticles containing mixed peptide-poly(ethylene glycol) monolayers</titulo>
+      <autores>
+        <autor>Y Liu</autor>
+        <autor>M Shipton</autor>
+        <autor>J Ryan</autor>
+        <autor>E Kaufman</autor>
+        <autor>S Franzen</autor>
+        <autor>D Feldheim</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A simple spectrophotometric method for biomass measurement of important microalgae species in aquaculture</titulo>
+      <autores>
+        <autor>D Santos-Ballardo</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cytotoxicity of different extracts of arial parts of Ziziphus spina-christi on Hela and MDA-MB-468 tumor cells</titulo>
+      <autores>
+        <autor>A Jafarian</autor>
+        <autor>B Zolfaghari</autor>
+        <autor>K Shirani</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Spectrophotometric quantitation of tissue culture cell number in any medium</titulo>
+      <fecha>1996</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cell Proliferation Kit I (MTT)</titulo>
+      <autores>
+        <autor>Roche</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Gold nanoparticles show potential in vitro antiviral and anticancer activity</titulo>
+      <autores>
+        <autor>A Babaei</autor>
+        <autor>S Mousavi</autor>
+        <autor>M Ghasemi</autor>
+        <autor>N Pirbonyeh</autor>
+        <autor>M Soleimani</autor>
+        <autor>A Moattari</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Anticancer potential of gold nanoparticles (AuNPs) using a battery of in vitro tests</titulo>
+      <autores>
+        <autor>N Alafaleq</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Virucidal activity of gold nanoparticles synthesized by green chemistry using garlic extract</titulo>
+      <autores>
+        <autor>M Meléndez-Villanueva</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>In vitro cell cytotoxicity profile and morphological response to polyoxometalate-stabilised gold nanoparticles</titulo>
+      <autores>
+        <autor>I Gabas</autor>
+        <autor>G Stepien</autor>
+        <autor>M Moros</autor>
+        <autor>S Mitchell</autor>
+        <autor>J De</autor>
+        <autor>La Fuente</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Global cancer</titulo>
+      <autores>
+        <autor>Who</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Consultado: el 1 de junio de 2024</titulo>
+      <autores>
+        <autor>Y Sanchez</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>On the origin of cancer cells</titulo>
+      <autores>
+        <autor>O Warburg</autor>
+      </autores>
+      <fecha>1979</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tissue evaluation for HER2 tumor marker</titulo>
+      <autores>
+        <autor>S Albagoush</autor>
+        <autor>M Zubair</autor>
+        <autor>F Limaiem</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Treatment of HER2positive breast cancer</titulo>
+      <autores>
+        <autor>M Figueroa-Magalhães</autor>
+        <autor>D Jelovac</autor>
+        <autor>R Connolly</autor>
+        <autor>A Wolff</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>HER2-positive breast cancer</titulo>
+      <autores>
+        <autor>S Loibl</autor>
+        <autor>L Gianni</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Non-viral gene delivery using nanoparticles</titulo>
+      <autores>
+        <autor>A Ditto</autor>
+        <autor>P Shah</autor>
+        <autor>Y Yun</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanoparticles: Properties, applications and toxicities</titulo>
+      <autores>
+        <autor>I Khan</autor>
+        <autor>K Saeed</autor>
+        <autor>I Khan</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Polyethylenimine (PEI)</titulo>
+      <autores>
+        <autor>B Demeneix</autor>
+        <autor>J Behr</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mesquite gum (Prosopis gum): Structure, properties &amp; applications -a review</titulo>
+      <autores>
+        <autor>D Mudgil</autor>
+        <autor>S Barak</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mesquite gum (Prosopis gum)</titulo>
+      <autores>
+        <autor>E Vernon-Carter</autor>
+        <autor>C Beristain</autor>
+        <autor>R Pedroza-Islas</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bioquímica. La base molecular de la vida</titulo>
+      <autores>
+        <autor>T Mckee</autor>
+        <autor>J Mckee</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ribogenomics: The science and knowledge of RNA</titulo>
+      <autores>
+        <autor>J Wu</autor>
+        <autor>J Xiao</autor>
+        <autor>Z Zhang</autor>
+        <autor>X Wang</autor>
+        <autor>S Hu</autor>
+        <autor>J Yu</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The chemical and laboratory investigation of hemolysis</titulo>
+      <autores>
+        <autor>A Siddon</autor>
+        <autor>C Tormey</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Guidance for industry nonclinical studies for the safety evaluation of pharmaceutical excipients</titulo>
+      <autores>
+        <autor>Fda</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mammalian cell viability Hatfield</titulo>
+      <autores>
+        <autor>J Walker</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cell sensitivity assays: The MTT assay</titulo>
+      <autores>
+        <autor>J Van Meerloo</autor>
+        <autor>G Kaspers</autor>
+        <autor>J Cloos</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Guidelines for cell viability assays</titulo>
+      <autores>
+        <autor>S Kamiloglu</autor>
+        <autor>G Sari</autor>
+        <autor>T Ozdal</autor>
+        <autor>E Capanoglu</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>The MTT assay: Utility, limitations, pitfalls, and interpretation in bulk and single-cell analysis</titulo>
+      <autores>
+        <autor>M Ghasemi</autor>
+        <autor>T Turnbull</autor>
+        <autor>S Sebastian</autor>
+        <autor>I Kempson</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Anexos</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Se sembraron diferentes cantidades de células (2000-14000 células/pocillo) en placas de 96 pocillos y se incubaron durante 48 horas. Posteriormente, se añadió el reactivo MTT y se midió la absorbancia. Las curvas estándar de absorbancia vs. densidad celular (Figura 36 y Figura 37) muestran una relación lineal dentro del rango evaluado, lo que indica una buena correlación entre la cantidad de células y la señal del MTT. Esta linealidad asegura la confiabilidad y reproducibilidad de los ensayos posteriores. Basándose en los resultados obtenidos, se determinó que la densidad celular óptima para ambos tipos celulares es de 8000 células/pocillo. Este valor se encuentra dentro del rango lineal de las curvas estándar y garantiza una señal detectable sin saturar el ensayo. Es importante destacar que esta densidad celular óptima puede variar entre diferentes líneas celulares debido a su metabolismo específico. Por lo tanto, la realización de curvas estándar es fundamental para cada línea celular</titulo>
+    </referencia>
+  </referencias>
+</tesis>

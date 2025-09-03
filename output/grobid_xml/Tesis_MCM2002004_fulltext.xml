@@ -1,0 +1,2050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">A</forename><surname>Mis Sinodales</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">de tesis Virginia H. Collins Martínez, a los técnicos Jesús Manuel Salinas Gutiérrez</orgName>
+								<address>
+									<settlement>Luis De la</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Margarita</forename><surname>Sánchez Domínguez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">de tesis Virginia H. Collins Martínez, a los técnicos Jesús Manuel Salinas Gutiérrez</orgName>
+								<address>
+									<settlement>Luis De la</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alfredo</forename><forename type="middle">Aguilar</forename><surname>Elguezabal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">de tesis Virginia H. Collins Martínez, a los técnicos Jesús Manuel Salinas Gutiérrez</orgName>
+								<address>
+									<settlement>Luis De la</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mi</forename><surname>Asesora</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">de tesis Virginia H. Collins Martínez, a los técnicos Jesús Manuel Salinas Gutiérrez</orgName>
+								<address>
+									<settlement>Luis De la</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Torre</forename><surname>Sáenz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">de tesis Virginia H. Collins Martínez, a los técnicos Jesús Manuel Salinas Gutiérrez</orgName>
+								<address>
+									<settlement>Luis De la</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">César</forename><surname>Cutberto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">de tesis Virginia H. Collins Martínez, a los técnicos Jesús Manuel Salinas Gutiérrez</orgName>
+								<address>
+									<settlement>Luis De la</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Leyva</forename><surname>Porras</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">de tesis Virginia H. Collins Martínez, a los técnicos Jesús Manuel Salinas Gutiérrez</orgName>
+								<address>
+									<settlement>Luis De la</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Karla</forename><surname>Campos Venegas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">de tesis Virginia H. Collins Martínez, a los técnicos Jesús Manuel Salinas Gutiérrez</orgName>
+								<address>
+									<settlement>Luis De la</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrés</forename><forename type="middle">Isaak</forename><surname>González</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">de tesis Virginia H. Collins Martínez, a los técnicos Jesús Manuel Salinas Gutiérrez</orgName>
+								<address>
+									<settlement>Luis De la</settlement>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D714C6063F9DACF8278CD488B0A61149</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-29T18:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Quiero agradecer a mis padres: Juan Castro y Rosario Lozoya, mis hermanas: Liliana, Adriana y Brianda, por su amor y apoyo incondicional durante toda mi vida escolar, lo que me ha permitido lograr llegar hasta donde hoy día. Agradezco también a mis compañeros de laboratorio: Gaby, Cristina, Felipe y Jorge por sus consejos y ayuda para la elaboración de este trabajo. Un agradecimiento muy especial a mi asesora, la Dra. Virginia Collins por ser una gran maestra para mí, de la cual he aprendido mucho durante toda mi estancia en CIMAV. Finalmente, un agradecimiento al técnico Jesús Salinas por su ayuda y disposición para mi trabajo experimental en el laboratorio.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESUMEN</head><p>El suministro suficiente de energía sigue siendo un desafío crucial para lograr un desarrollo sostenible de la sociedad. En este contexto, la investigación se ha centrado en el desarrollo y la evaluación de fotocatalizadores prometedores basados en TiO₂ debido a sus propiedades fisicoquímicas únicas. En particular, la síntesis de compósitos que contienen materiales activados por luz visible, como la hematita, y la incorporación de SiO₂ pueden mejorar la dispersión del material, brindar estabilidad térmica y aumentar la resistencia de la solución. Estas estrategias representan una alternativa para mejorar las propiedades electrónicas de los semiconductores y lograr una mayor producción de hidrógeno en comparación con los materiales en fase pura.</p><p>En el presente trabajo de tesis, se realizó la generación de compósitos de α-Fe2O3-SiO2, α-Fe2O3-TiO2 y α-Fe2O3-SiO2-TiO2, además de sintetizar los materiales prístinos α-Fe2O3, SiO2 y TiO2 mediante los métodos de co-precipitación, Stöber y sol-gel, respectivamente. Tanto los materiales prístinos como los compósitos fueron caracterizados utilizando técnicas como difracción de rayos X (XRD), análisis termogravimétrico (TGA), microscopía electrónica de barrido (MEB), microscopía electrónica de transmisión (MET), área superficial específica (BET), espectroscopía UV-Vis, voltamperometría cíclica y espectroscopía de emisión atómica con plasma de acoplamiento inductivo (ICP-OES).</p><p>Finalmente, se evaluó la actividad fotocatalítica para la producción de hidrógeno mediante cromatografía de gases en agua pura y en agua de mar simulada (solución al 3.5% en peso de NaCl) cada hora, durante un período de 8 horas, con una lectura final a las 24 horas. Los resultados mostraron que los compósitos mejoraron considerablemente su actividad fotocatalítica en comparación con los materiales prístinos. Además, se observó que la evaluación en agua de mar simulada, incrementó considerablemente la producción de hidrógeno en todos los materiales. Figura 2 a) actividad fotocatalítica de las muestras con un 10% en vol. de TEA. b) posible mecanismo para la evolución fotocatalítica de hidrógeno del Ti-Si-Ti (400) con agua de mar simulada (solución del 5% en peso de NaCl) <ref type="bibr" target="#b24">[24]</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introducción</head><p>Es cierto que el desarrollo económico e industrial del último siglo se ha basado en la quema de combustibles fósiles, y que su uso excesivo y no sostenible puede llevar a su agotamiento. Sin embargo, también es importante destacar que el uso de estos combustibles también tiene un impacto negativo en el medio ambiente y la salud humana, debido a la emisión de gases de efecto invernadero y otros contaminantes. Por esta razón, muchas empresas y gobiernos están invirtiendo en el desarrollo de alternativas más sostenibles, como la energía solar, eólica, hidroeléctrica y geotérmica. Además, también se están implementando medidas para aumentar la eficiencia energética y reducir el consumo de energía en general. Es importante encontrar un equilibrio entre el desarrollo económico y la sostenibilidad a largo plazo.</p><p>Con el rápido crecimiento poblacional, el manejo óptimo de los recursos hídricos presenta uno de los retos más cruciales, debido principalmente a la intensificación de la competencia por éstos recursos por parte de los usuarios agrícolas, industriales y domésticos y a que la insuficiencia de los suministros ambientales de agua en gran parte del mundo se ha visto significativamente exacerbada por las tendencias decrecientes en la calidad del agua <ref type="bibr" target="#b1">[1]</ref>. En 2015, la agenda 2030 para un desarrollo sustentable fue adoptada unánimemente por los 193 países miembros de las naciones unidas (UN) incluyendo la meta de desarrollo sostenible número 6 (SDG6): "asegurar la disponibilidad y la gestión sostenible de agua y el saneamiento para todos", referido con frecuencia como "el objetivo del agua" <ref type="bibr" target="#b2">[2]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1">Problemática general</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.1">El hidrógeno</head><p>El hidrógeno es considerado un combustible ideal y limpio en el futuro. Puede ser producido a partir de fuentes de energía limpias y renovables como la energía solar y eólica, sin embargo en la actualidad solo el 5% de la producción comercial de hidrógeno se realiza mediante esta vía, mientras que el otro 95% es producido a partir de combustibles fósiles <ref type="bibr" target="#b3">[3]</ref>.</p><p>El contenido de energía del hidrógeno es alrededor de 122 kj·g -1 , lo cual es mucho mayor que para los hidrocarburos. Además, cuando se usa hidrógeno como combustible para generar electricidad, el agua es el único producto. Así, la energía por hidrógeno es considerada prometedora y amigable con el medio ambiente <ref type="bibr" target="#b4">[4]</ref><ref type="bibr" target="#b5">[5]</ref><ref type="bibr">[6]</ref><ref type="bibr" target="#b7">[7]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.2">El agua de mar</head><p>El agua de mar es el recurso natural más abundante sobre la tierra, alrededor del 97% del agua es agua de mar, y el potencial para la división del agua de mar a hidrógeno es enorme <ref type="bibr" target="#b8">[8,</ref><ref type="bibr" target="#b9">9]</ref>.</p><p>Desde que se demostró por primera vez, que el hidrógeno puede ser producido foto electro catalíticamente a partir de agua de mar natural en 1997 <ref type="bibr" target="#b10">[10]</ref>, se han llevado a cabo investigaciones relacionadas con la división de agua de mar fotocatalítica. El agua de mar es rica en sales inorgánicas (NaCl, MgCl₂, etc.), materia orgánica y microorganismos <ref type="bibr" target="#b11">[11]</ref>. Debido a la alta salinidad, los iones presentes en el agua pueden ser oxidados o reducidos por los electrones o huecos fotogenerados, compitiendo con la oxidación y reducción del agua <ref type="bibr" target="#b12">[12]</ref>. Comparado con la división fotocatalítica del agua pura, el desarrollo de fotocatalizadores para la división de agua de mar tiene ciertas ventajas significativas; además del cumplimiento con la meta de desarrollo sostenible número 6 (SDG6), también hace cumplimiento con la meta 7 (SDG7): "Garantizar el acceso a una energía accesible, segura, fehaciente y moderna para todos" y la meta 13 (SDG13):</p><p>"Tomar medidas urgentes para combatir el cambio climático y sus impactos" al hacer uso del recurso del agua de mar, el cual es abundante, resolviendo no sólo el problema de utilizar agua dulce como reactivo en la fotocatálisis, sino también utilizar la energía solar directamente, reduciendo considerablemente su costo de conversión <ref type="bibr" target="#b13">[13]</ref>. Para algunos sistemas, las sales inorgánicas (especialmente NaCl), pueden mejorar la producción de hidrógeno fotocatalítico de agua de mar <ref type="bibr" target="#b14">[14,</ref><ref type="bibr" target="#b15">15]</ref>. La división del agua de mar también se considera un método para producir HClO, un líquido desinfectante, además de la producción de H₂ <ref type="bibr" target="#b16">[16]</ref>. Se han realizado algunos estudios para la producción de hidrógeno mediante fotocatálisis, fotoelectrocatálisis o bioquimiocatálisis <ref type="bibr" target="#b17">[17]</ref>, de los cuales, la fotocatálisis tiene algunas ventajas: (1) el uso directo de energía solar ayuda al ahorro de energía y a la protección del medio ambiente; (2) no requiere el uso de electrodos ni de microorganismos vivos, lo que simplifica el diseño experimental y reduce problemas de estabilidad a largo plazo.. Por lo tanto, el desarrollo de sistemas fotocatalíticos altamente eficientes para la producción de hidrógeno vía la división de agua de mar es muy deseable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2">Antecedentes</head><p>Las nanopartículas de óxido de hierro (Fe₂O₃) pueden ser sensibles e inestables en ciertas condiciones, como en ambientes ácidos. Para mejorar su estabilidad y protegerlas de reacciones no deseadas, se puede recubrir la superficie de las nanopartículas con una capa de carbono amorfo o dióxido de silicio inerte. El recubrimiento de carbono amorfo o dióxido de silicio actúa como una barrera protectora, evitando la corrosión y la degradación de las nanopartículas de óxido de hierro en dichos ambientes. Esta capa protectora también puede prevenir la transferencia de electrones y huecos del dióxido de titanio (TiO₂) al núcleo de óxido de hierro, lo que puede afectar la eficiencia y estabilidad de la reacción fotocatalítica. El recubrimiento inerte mejora la uniformidad de la absorción de luz en la superficie de las nanopartículas <ref type="bibr" target="#b18">[18]</ref>.</p><p>El estudio realizado por Yoo et al. propone una estructura de cáscara-yema utilizando una cáscara de dióxido de titanio (TiO₂) y una yema de dióxido de silicio (SiO₂) para mejorar la producción fotocatalítica de hidrógeno (H₂). Según su investigación, la presencia de múltiples reflexiones de luz ultravioleta (UV) dentro de las cavidades interiores entre SiO₂ y TiO₂ en la estructura de cáscara-yema contribuye a mejorar la actividad fotocatalítica. El núcleo de SiO₂ actúa como un centro de dispersión, facilitando los reflejos internos de la luz y mejorando la eficiencia de absorción de la radiación UV. Los diferentes índices de refracción en las distintas regiones debido a los diferentes materiales también juegan un papel importante en la dispersión, transmisión y refracción de las ondas de luz internas, lo que contribuye a la absorción total de la luz en la estructura. Esto significa que las capas internas pueden dispersar y absorber la luz simultáneamente, lo cual es beneficioso para mejorar la eficiencia fotocatalítica <ref type="bibr" target="#b19">[19]</ref>.</p><p>El fotocatalizador nanocompuesto Fe₂O₃@TiO₂ ha sido sintetizado con el objetivo de mejorar la fotoactividad para la eliminación de contaminantes en aguas residuales y la producción de hidrógeno mediante la división del agua. A diferencia del TiO₂, los compuestos de óxido de hierro, como el Fe₂O₃, son ampliamente encontrados en la naturaleza y se pueden sintetizar de manera relativamente sencilla en el laboratorio. La combinación de Fe₂O₃ y TiO₂ en una estructura nanocompuesta ofrece ventajas significativas para la aplicación fotocatalítica. El óxido de hierro proporciona propiedades catalíticas adicionales y puede mejorar la respuesta en la región visible del espectro electromagnético, lo cual es beneficioso ya que la luz solar contiene una gran cantidad de energía en esta región. Por otro lado, el TiO₂, conocido por su eficiencia fotocatalítica en la región ultravioleta, puede complementar la respuesta en esta región y aprovechar la energía de la luz ultravioleta. El diseño de la estructura nanocompuesta Fe₂O₃@TiO₂ permite aprovechar las propiedades individuales de ambos compuestos y mejorar la eficiencia global del fotocatalizador.</p><p>La combinación de ambos materiales también puede facilitar la separación de carga y reducir la recombinación de electrones y huecos generados durante la reacción fotocatalítica, lo que mejora aún más la actividad fotocatalítica y la eficiencia en la producción de hidrógeno y la eliminación de contaminantes en el agua residual <ref type="bibr" target="#b20">[20]</ref>.</p><p>Bajo la irradiación de luz visible, el TiO₂ no puede absorber eficientemente la energía de la luz para generar pares electrón-hueco debido a su estructura de banda prohibida. Sin embargo, el Fe₂O₃ es capaz de absorber la luz visible y generar portadores de carga, como se muestra en la figura 1. Cuando el Fe₂O₃ y el TiO₂ están en contacto en la heterounión nanocompuesta, se forma un campo eléctrico en la interfaz entre los dos materiales. Este campo eléctrico facilita la migración de los electrones fotogenerados en la banda de conducción del Fe₂O₃ hacia la banda de conducción del TiO₂. Esta migración de electrones se produce a lo largo del gradiente de concentración creado por el campo eléctrico y resulta en la generación de portadores de carga en el TiO₂. Por otro lado, los huecos fotogenerados en el Fe₂O₃ se acumulan en su banda de valencia. La separación espacial de cargas, con los electrones en el TiO₂ y los huecos en el Fe₂O₃, es beneficiosa para la actividad fotocatalítica. Esta configuración permite una mayor eficiencia en la reacción fotocatalítica, ya que los portadores de carga se encuentran en los sitios adecuados para participar en las reacciones redox en la superficie de los materiales.</p><p>Mohamed et al. en 2020 prepararon nanopartículas de TiO₂ mesoporoso mediante el método solgel, utilizando el tensoactivo F127 como plantilla. El objetivo era desarrollar un material que pudiera evolucionar hidrógeno bajo la irradiación de luz visible. Para mejorar la actividad fotocatalítica, se impregnaron diferentes concentraciones de nanopartículas de α-Fe₂O₃ (0.1-9% en peso) en el TiO₂ mesoporoso. Posteriormente, se llevó a cabo un recocido a 400°C durante 3 horas para obtener los nanocompuestos de α-Fe₂O₃/TiO₂. Según los resultados obtenidos, el nanocompuesto que contenía un 5% en peso de α-Fe₂O₃/TiO₂ mostró la mayor eficiencia fotocatalítica para la evolución de hidrógeno. Esta composición logró una tasa de evolución de hidrógeno de 1,000 μmolg -1 h -1 . Además de su alta eficiencia, este nanocompuesto también demostró una excelente fotoestabilidad, lo que significa que mantuvo su actividad fotocatalítica de manera constante durante el tiempo de prueba <ref type="bibr" target="#b21">[21]</ref>.</p><p>El impregnación, y posteriormente se modificó su superficie mediante un tratamiento de plasma de gas argón (Ar). Los autores investigaron el efecto de diferentes tiempos de tratamiento, que variaron de 5 a 20 minutos, a una potencia de descarga luminiscente de corriente continua de 50 vatios. Se evaluó la actividad fotocatalítica de los nanocompuestos para la tasa de evolución de hidrógeno. Los resultados mostraron que la mejor actividad fotocatalítica, en términos de la tasa de evolución de H₂, se obtuvo con un tiempo de tratamiento de diez minutos. En estas condiciones, se logró una tasa de evolución de hidrógeno de 1.25 mmol h -1 . Además, se observó una buena estabilidad y reusabilidad para la evolución de H₂, lo que indica que los nanocompuestos de α-Fe₂O₃/TiO₂ modificados con plasma de gas argón son prometedores para aplicaciones fotocatalíticas en la producción de hidrógeno <ref type="bibr" target="#b23">[23]</ref>.</p><p>Song et al., informaron sobre la creación de un material compuesto de titanio-silicio (Ti-O-Si) auto dopado con Ti 3+ (vacancias de oxígeno), el cual presenta resistencia a la corrosión en agua de mar. <ref type="bibr" target="#b24">[24]</ref>. Bajo luz solar total, la tasa de evolución de hidrógeno del Ti-O-Si (400) fue de 1930.5 μmol·h -1 ·g -1 en agua de mar simulada (solución al 5% de NaCl) con TEA (10% vol.) como agente de sacrificio. En agua dulce, fue de 1,640.2 μmol·h -1 ·g -1 . Bajo irradiación de luz visible (420 nm), la eficiencia cuántica aparente en agua de mar simulada (solución al 5% de NaCl) fue de 8.9%.</p><p>La figura 2(a) muestra la comparación en las eficiencias para la evolución de hidrógeno en diferentes muestras preparadas a diferentes temperaturas de calcinación y la figura 2 (b) es el diagrama del nivel de energía y la estructura molecular del Ti-O-Si (400).</p><p>Figura 2 a) actividad fotocatalítica de las muestras con un 10% en vol. de TEA. b) posible mecanismo para la evolución fotocatalítica de hidrógeno del Ti-Si-Ti (400) con agua de mar simulada (solución del 5% en peso de NaCl) <ref type="bibr" target="#b24">[24]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a) b)</head><p>Sinhamahapatra et al. realizaron un estudio en el que utilizaron TiO₂ dopado con hidrógeno como catalizador, metanol como agente de sacrificio y platino como co-catalizador en la división fotocatalítica del agua. Observaron tasas de evolución de hidrógeno de 6.1 mmol/g -1 •h -1 en agua de mar y de 16.1 mmol/g -1 •h -1 en agua dulce bajo radiación de 1.5 AM. Estos resultados indican que el TiO₂ dopado con hidrógeno es efectivo para la producción de hidrógeno en ambos tipos de agua, siendo la tasa de evolución de hidrógeno más alta en agua dulce. La presencia de metanol como agente de sacrificio y platino como co-catalizador contribuyeron a mejorar las tasas de producción de hidrógeno en ambos casos <ref type="bibr" target="#b25">[25]</ref>. Sakurai et al. llevaron a cabo un estudio sobre la durabilidad del Pt/TiO₂ granular como fotocatalizador utilizando glicerol como agente de sacrificio en agua pura y agua de mar. Observaron que la producción de hidrógeno se redujo a la mitad en agua de mar en comparación con agua pura. Sin embargo, al agitar el reactor con agua de mar, la tasa de evolución de hidrógeno aumentó significativamente. Esto indica que la principal razón de la disminución en la actividad del agua de mar fue la floculación de las partículas del fotocatalizador.</p><p>La agitación del reactor ayudó a evitar la floculación y mejorar la producción de hidrógeno en presencia de agua de mar <ref type="bibr" target="#b26">[26]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Marco Teórico</head><p>2.1 División fotocatalítica de agua de mar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1">Mecanismos de la división fotocatalítica de agua.</head><p>El mecanismo de división fotocatalítica de agua se muestra en la figura 3 (a). Bajo una radiación de luz con una energía igual o mayor que la del band gap en un fotocatalizador semiconductor, los electrones en la banda de valencia son excitados dentro de la banda de conducción, dejando huecos en la banda de valencia, los cuales causan las reacciones de reducción y oxidación, respectivamente. En la reacción de reducción, los electrones excitados en la banda de conducción pueden transferirse a especies aceptoras de electrones, como el agua, generando hidrógeno (H₂) a través de una serie de pasos reactivos. Por otro lado, los huecos en la banda de valencia pueden reaccionar con especies donadoras de electrones, como el agua, para generar oxígeno (O₂) <ref type="bibr" target="#b27">[27]</ref>. Cuando un material semiconductor tiene su banda de valencia situada por debajo del potencial de oxidación del agua (+1.23 V vs. SHE, pH = 0) y su banda de conducción está por encima del potencial de reducción del agua (0 V vs. SHE, pH = 0), se establece un adecuado alineamiento energético para la reacción de división del agua. Bajo la radiación de luz adecuada, los electrones excitados en la banda de conducción del semiconductor pueden transferirse al agua, reduciendo los protones presentes y generando hidrógeno molecular (H₂). A su vez, los huecos en la banda de valencia pueden reaccionar con el agua, generando oxígeno molecular (O₂). Estas reacciones de reducción y oxidación ocurren en sitios activos en la superficie del semiconductor, permitiendo la división del agua y la producción de hidrógeno y productos de oxidación, como el oxígeno <ref type="bibr" target="#b28">[28]</ref><ref type="bibr" target="#b29">[29]</ref><ref type="bibr" target="#b30">[30]</ref><ref type="bibr" target="#b31">[31]</ref><ref type="bibr" target="#b32">[32]</ref><ref type="bibr" target="#b33">[33]</ref>. La recombinación de pares electrón-hueco en un material semiconductor puede afectar negativamente las reacciones de reducción de la molécula de agua (HER, por sus siglas en inglés) y la oxidación de la molécula de agua (OER, por sus siglas en inglés). Para asegurar que estas reacciones ocurran eficientemente, es necesario que el tiempo de recombinación del material semiconductor sea suficientemente largo.</p><p>La adición de un agente de sacrificio, como la trietanolamina (TEA), es una estrategia común utilizada para prevenir la recombinación de los pares electrón-hueco en sistemas fotocatalíticos. La TEA actúa como un donante de electrones que puede capturar los huecos generados en el proceso de absorción de luz por el semiconductor. Cuando la TEA se encuentra en el medio, los huecos generados en el semiconductor pueden transferirse a la TEA en lugar de recombinarse con los electrones en el material. Esto prolonga la vida de los electrones en la banda de conducción, aumentando así las posibilidades de que participen en reacciones de reducción, como la evolución de hidrógeno (HER) <ref type="bibr" target="#b34">[34]</ref>. Aunque los procesos fotocatalíticos en el agua de mar siguen los mismos principios básicos que en el agua dulce, la presencia de NaCl puede apoyar la adsorción de agentes de sacrificio en la superficie del catalizador y mejorar la transferencia de carga. Además, los componentes adicionales presentes en el agua de mar pueden interactuar con el proceso y dar lugar a la formación de otros productos secundarios <ref type="bibr" target="#b17">[17]</ref>. Los iones de sodio (Na + ) presentes en el agua de mar pueden interactuar con los agentes de sacrificio mediante enlaces iónicos o interacciones electrostáticas. Estas interacciones pueden favorecer la adsorción de los agentes de sacrificio en la superficie del catalizador. Por otro lado, la presencia de cloruro (Cl -) en el agua de mar puede dar lugar a la formación de cloro (Cl₂) o ácido hipocloroso (HClO) como productos adicionales durante los procesos fotocatalíticos. Estos productos se forman a través de reacciones de oxidación del cloruro en presencia de especies activas generadas por el catalizador.</p><p>El cloro y el ácido hipocloroso son conocidos por sus propiedades desinfectantes y oxidantes. Por lo tanto, la presencia de cloruro en el agua de mar puede tener beneficios adicionales en aplicaciones donde se busque la desinfección o la eliminación de contaminantes. <ref type="bibr" target="#b35">[35,</ref><ref type="bibr" target="#b36">36]</ref>. Los potenciales redox para los principales componentes se muestran en la figura 3 (b).</p><p>Figura 3 Modelo típico de banda de energía fotocatalítico para a) división de agua dulce y b) división de agua de mar.</p><p>agua dulce, además de una mayor estabilidad. Los autores del estudio demostraron que el contenido de •OH (radicales hidroxilos) está estrechamente relacionado con el desempeño fotocatalítico del TiO₂. Esto se debe a que el agente de sacrificio utilizado puede reaccionar directamente con los huecos fotogenerados antes de que los huecos reaccionen con los iones OH -presentes en el medio, formando así los radicales hidroxilos (•OH). En el caso del agua dulce, se detectó una mayor cantidad de radicales •OH en comparación con el agua de mar. Por lo tanto, la eficiencia en la producción de hidrógeno es considerablemente mayor en el agua de mar <ref type="bibr" target="#b38">[38]</ref>. Maeda et al. llevaron a cabo un estudio en el que investigaron el efecto de la adición de NaCl o A2SO4 (A = Li, Na o K) en la actividad fotocatalítica de (Ga1-xZnx)(Ni1-xOx) utilizando RH₂-yCryO3 o RuO₂ como cocatalizadores para la división de agua bajo luz visible <ref type="bibr" target="#b39">[39]</ref>. Se considera que las soluciones que contienen iones Na + (NaCl y Na2SO4), pueden tener un efecto beneficioso en la actividad fotocatalítica. Estos iones Na + podrían facilitar las reacciones redox que ocurren en la superficie del catalizador. Además, se cree que su presencia puede contrarrestar el efecto perjudicial de los defectos superficiales, que tienden a actuar como centros de recombinación para los electrones y huecos fotogenerados.</p><p>La adición de estas sales con iones Na + mejora la actividad fotocatalítica al promover reacciones redox más eficientes en la superficie del catalizador. Esto a su vez ayuda a prevenir la recombinación de los electrones y huecos, lo que conduce a una mayor actividad en la división del agua.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2">Efectos del ion Cl -</head><p>Los estudios relacionados con el efecto del ion Cl -en la división fotocatalítica del agua de mar presentan perspectivas tanto negativas como positivas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perspectiva negativa</head><p>Se ha observado que uno de los efectos negativos del ion Cl -en la división fotocatalítica del agua de mar es su impacto en la adsorción de reactivos en la superficie del fotocatalizador. En un estudio realizado por Li et al., investigaron la generación fotocatalítica de hidrógeno y la descomposición de ácido oxálico utilizando Pt-TiO₂ como catalizador. Encontraron que el ion Cl - competía con los sitios activos del catalizador y que su adsorción en la superficie del TiO₂ era muy débil. Como resultado, el ion Cl -tenía un efecto mínimo durante el proceso fotocatalítico. Estos hallazgos sugieren que la presencia de iones Cl -puede interferir con la adsorción de los reactivos en la superficie del fotocatalizador, lo que puede afectar negativamente la eficiencia de las reacciones fotocatalíticas. La competencia entre los iones Cl -y los reactivos puede limitar la disponibilidad de sitios activos del catalizador para la adsorción y reacción de los reactivos, lo que a su vez puede disminuir la actividad fotocatalítica y la producción de productos deseados <ref type="bibr" target="#b40">[40]</ref>. En Los investigadores observaron que el ion Cl -presenta una competencia con el agente de sacrificio utilizado por los sitios activos en la superficie del catalizador, lo que dificulta su capacidad para atrapar rápidamente los huecos fotogenerados. Esta competencia conduce a un aumento en la tasa de recombinación entre los electrones y los huecos fotogenerados, lo que a su vez disminuye la actividad fotocatalítica. En un estudio adicional, realizado por Gao et al., también se especuló que la presencia del ion Cl -puede competir con los sitios activos de los reactivos utilizados en la</p><formula xml:id="formula_0">Cl• + Cl - Cl•2 - ( 3) Cl•2 -+ e - 2Cl -<label>( 4)</label></formula><p>Además de esto, Simamora et al. han planteado que muchos grupos hidroxilo en la superficie del TiO₂, como TiOH₂ y TiOH, podrían reaccionar con el ion Cl -para formar TiCl, lo cual podría reducir la actividad de la división del agua de mar. Esta interacción entre los grupos hidroxilo y el ion Cl -en la superficie del catalizador podría tener un impacto negativo en la actividad fotocatalítica. La formación de TiCl a partir de la reacción entre los grupos hidroxilo y el ion Cl -podría alterar la superficie activa del catalizador y disminuir su capacidad de participar en la reacción de división del agua <ref type="bibr" target="#b40">[40]</ref>.</p><p>Es importante destacar que, si bien se han propuesto algunos mecanismos especulativos para explicar el impacto del ion Cl -en la actividad fotocatalítica y la división del agua, la falta de datos experimentales adicionales limita la comprensión completa de estos procesos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Perspectiva neutra o positiva</head><p>A pesar del rol del ion Cl -, hay puntos de vista neutros o incluso positivos con respecto al papel del ion Cl -en la reacción de división del agua mediante fotocatálisis. Ji et al. argumentaron que, aunque los huecos en la banda de valencia del La2Ti2O7 (2.714 eV) tienen la capacidad de oxidar el ion Cl -, no se observó una disminución en su concentración durante un período de 6 horas de reacción fotocatalítica <ref type="bibr" target="#b13">[13]</ref>. Esto sugiere que la reacción de oxidación del Cl -puede no ocurrir de manera significativa debido a que el sobrepotencial necesario para impulsarla cinéticamente puede ser insuficiente.</p><p>La oxidación del ion Cl -a Cl₂ es termodinámicamente más difícil que la oxidación del agua a O₂. El potencial estándar de reducción del sistema Cl₂/Cl -es de 1.36 V vs NHE a pH = 0, mientras que el potencial estándar de reducción del sistema O₂/H₂O es de 1.23 V vs NHE a pH = 0 <ref type="bibr" target="#b41">[41]</ref>. La fotooxidación del ion Cl -a Cl₂ implica un proceso redox de dos electrones, lo que lo hace relativamente simple en comparación con el proceso de fotooxidación del agua a O₂, que implica un proceso redox de cuatro electrones y es más complejo. Debido a la simplicidad del proceso redox de dos electrones en la fotooxidación del Cl -, es probable que esta reacción proceda de manera más eficiente que la fotooxidación del agua. Esto se debe a que la reacción de oxidación del Cl -requiere menos pasos y menos transferencias de electrones en comparación con la reacción de oxidación del agua <ref type="bibr" target="#b37">[37]</ref>.</p><p>Por lo tanto, después de la oxidación de Cl -a Cl₂, la reacción de oxidación del agua es promovida de las siguientes maneras:</p><formula xml:id="formula_1">Cl₂ + H₂O H + + Cl -+ HClO ( 5) 2HClO 2H + + 2Cl -+ O₂<label>( 6)</label></formula><p>A medida que la concentración de NaCl aumenta, se observa un incremento en la actividad fotocatalítica. Específicamente, cuando la concentración de NaCl es inferior a 1M, se produce un rápido aumento en la actividad a medida que la concentración de NaCl se incrementa. Esto implica que, a bajas concentraciones de NaCl, incluso pequeños aumentos en su concentración tienen un impacto significativo en la actividad fotocatalítica. Por otro lado, cuando la concentración de NaCl supera 1M, el incremento en la actividad se vuelve más gradual. Esto sugiere que a concentraciones más altas de NaCl, se necesita un incremento más significativo en la concentración para lograr aumentos notables en la actividad fotocatalítica <ref type="bibr" target="#b43">[43]</ref>.</p><p>A concentraciones más altas de NaCl, se ha observado que la hidratación en la superficie de ZnS1-x-0.5yOx (OH) y-ZnO es incompleta y disminuye a medida que la concentración de NaCl aumenta. En otras palabras, la presencia de una mayor concentración de NaCl afecta negativamente el proceso de hidratación en la superficie del catalizador. Por otro lado, a concentraciones más bajas de NaCl, no se observa un impacto significativo en la hidratación. Esto implica que a concentraciones más bajas de NaCl, la interacción con el agente de sacrificio sobre la superficie del catalizador se mantiene relativamente constante y la hidratación no se ve notablemente afectada <ref type="bibr" target="#b15">[15]</ref>. Estos resultados sugieren que la concentración de NaCl juega un papel crucial en la interacción entre el catalizador y el agente de sacrificio en la superficie.</p><p>El ion Cl -presenta una tendencia a ser oxidado por los huecos presentes en la banda de valencia de los materiales semiconductores. Esta reacción de oxidación del Cl -tiene como consecuencia la supresión de la recombinación de los portadores de carga fotogenerados, es decir, evita que los electrones y huecos se recombinen antes de participar en reacciones químicas. Además, la presencia de iones inorgánicos, como el Cl -, en la superficie de los materiales semiconductores contribuye a disminuir los defectos en dicha superficie. Estos defectos suelen actuar como centros de recombinación de los electrones y huecos generados por la luz, lo cual disminuye la eficiencia de la reacción fotocatalítica <ref type="bibr" target="#b44">[44]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Agentes de sacrificio y cocatalizadores</head><p>El principio básico de la reacción fotocatalítica para la evolución de oxígeno e hidrógeno con el uso de agentes de sacrificio como donador/aceptor de electrones se muestra en la figura 4.</p><p>En la fotocatálisis, el uso de agentes de sacrificio desempeña un papel importante en la separación de los electrones y huecos fotogenerados y en el control de la recombinación de cargas. Cuando se utiliza un agente de sacrificio como donador de electrones, los huecos fotogenerados en el fotocatalizador oxidarán de manera irreversible al agente reductor en lugar de oxidar el agua <ref type="bibr" target="#b45">[45]</ref>. Esto resulta en un fotocatalizador más rico en electrones, lo que mejora la reacción de evolución de hidrógeno. En este caso, el agente de sacrificio actúa como un receptor de los huecos fotogenerados, evitando que se recombinen con los electrones y permitiendo que los electrones libres participen en la reacción de reducción para producir hidrógeno.</p><p>Por otro lado, cuando se utilizan agentes de sacrificio como aceptores de electrones, como</p><p>Ag + (ion plata) o Fe 3+ (ion hierro trivalente), los electrones fotogenerados en la banda de conducción del fotocatalizador se consumen mediante la reducción de estos agentes oxidantes. En este caso, los agentes de sacrificio actúan como receptores de electrones y mejoran la reacción de evolución de oxígeno, evitando la recombinación de los electrones con los huecos fotogenerados <ref type="bibr" target="#b46">[46]</ref>.</p><p>Las sustancias orgánicas pueden funcionar como agentes de sacrificio en sistemas fotocatalíticos para la división del agua. Estas sustancias orgánicas actúan como fuertes agentes reductores y son fácilmente oxidadas por los huecos fotogenerados, lo que permite la separación de cargas y mejora la eficiencia de la reacción de evolución de hidrógeno.</p><p>Algunas de las sustancias orgánicas utilizadas como agentes de sacrificio en la fotocatálisis son los alcoholes, como el metanol y el etanol, así como el ácido etilendiaminotetraacético (EDTA) y el ácido láctico. Sin embargo, los alcoholes, en particular el metanol y el etanol, son valiosos como combustibles en la industria, y su uso como consumibles para producir hidrógeno puede no ser económicamente viable debido a las pérdidas asociadas.</p><p>Además de las sustancias mencionadas, se pueden utilizar una amplia gama de sustancias orgánicas e inorgánicas como donantes de electrones en sistemas fotocatalíticos, incluyendo la biomasa renovable, los desechos orgánicos, la trietanolamina, la glucosa y el glicerol, entre otros. Utilizar estos agentes de sacrificio no solo contribuiría a mejorar la producción fotocatalítica de hidrógeno, sino que también puede ayudar en el reciclaje de desechos y abordar los problemas de contaminación ambiental al utilizar y convertir estos materiales en productos de valor <ref type="bibr" target="#b42">[42]</ref>.</p><p>La trietanolamina (TEA) es un compuesto orgánico que se utiliza comúnmente como agente de sacrificio en sistemas fotocatalíticos para la producción de hidrógeno. Durante las reacciones fotoquímicas, la TEA puede experimentar diversos procesos de degradación y producir varios productos, como sigue <ref type="bibr" target="#b47">[47]</ref>:</p><formula xml:id="formula_2">C6H15NO3 C6H15NO3 + + e - (<label>7</label></formula><formula xml:id="formula_3">)</formula><formula xml:id="formula_4">C6H15NO3 + C6H14NO3 • + H + ( 8) C6H14NO3 • C6H14NO3 + + e -<label>( 9)</label></formula><p>C6H14NO3 + + H₂O C4H11NO3 + CH3CHO + H + ( 10)</p><p>Los investigadores han estado trabajando activamente en el desarrollo de fotocatalizadores que sean sensibles a la luz visible. Esto se debe a que la radiación solar que alcanza la Tierra consiste principalmente en luz visible, mientras que solo una pequeña fracción corresponde a la luz ultravioleta (UV).</p><p>La luz ultravioleta representa aproximadamente el 4% de la energía total de la radiación solar, mientras que la luz visible comprende aproximadamente el 43%. Por lo tanto, aprovechar la luz visible para la fotocatálisis permitiría utilizar de manera más eficiente la energía solar disponible <ref type="bibr" target="#b48">[48]</ref>.</p><p>El desarrollo de fotocatalizadores sensibles a la luz visible ha sido un campo de investigación activo, y se han propuesto diferentes estrategias y materiales para lograr este objetivo. Estos incluyen el diseño de materiales semiconductores con bandas de energía apropiadas, la modificación de estructuras cristalinas, la incorporación de dopantes y el desarrollo de complejos sensibilizadores.</p><p>El ajuste de la brecha de banda en semiconductores se puede lograr seleccionando materiales diferentes. La unión de estos semiconductores permite separar espacialmente los pares de electrones y huecos generados por la absorción de luz, lo que reduce las tasas de recombinación.</p><p>Al combinar semiconductores con diferentes brechas de banda, se puede ampliar el rango de absorción de luz y aprovechar una mayor parte del espectro electromagnético, incluyendo la luz visible. Esto es importante para mejorar la eficiencia de la fotocatálisis, ya que permite una captura más eficiente de la energía solar.</p><p>La combinación de dos o más semiconductores puede lograrse mediante diversas técnicas de fabricación, como la deposición química en fase vapor (CVD), la deposición electroforética, la deposición por pulverización catódica y otras técnicas de síntesis de materiales. Estas técnicas permiten crear estructuras heterofuncionales o interfaces entre los semiconductores, donde se pueden separar espacialmente los portadores de carga generados por la luz.</p><p>La separación espacial de los pares electrones y huecos reduce la probabilidad de recombinación, lo que mejora la eficiencia de la fotocatálisis y favorece las reacciones redox deseadas, como la producción de hidrógeno a partir de agua.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">Semiconductores</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1">Mecanismos de transferencia de carga</head><p>El mecanismo de transferencia de carga se refiere al proceso mediante el cual los electrones y huecos generados por la absorción de luz en un fotocatalizador se transfieren a través del material.</p><p>En un fotocatalizador típico, la luz absorbe energía suficiente para excitar los electrones desde la banda de valencia a la banda de conducción, dejando huecos en la banda de valencia. Estos electrones y huecos pueden participar en reacciones redox, como la reducción y oxidación de especies químicas.</p><p>La naturaleza y propiedades del fotocatalizador, como la estructura cristalina, la composición química, la superficie y la energía de banda, son clave para determinar cómo se produce y se lleva a cabo la transferencia de carga. Por ejemplo, las posiciones de banda del fotocatalizador, es decir, la energía de la banda de valencia y la banda de conducción, influyen en la energía necesaria para que los electrones y huecos se muevan a través del material. Además, la disponibilidad de sitios activos en la superficie del fotocatalizador puede facilitar la adsorción y reacción de los sustratos.</p><p>Las posiciones de banda detalladas y las aplicaciones potenciales de algunos fotocatalizadores típicos se resumen en la Figura 5.</p><p>Algunos semiconductores son sensibles principalmente a la luz ultravioleta (UV) debido a sus propiedades de banda de energía. Sin embargo, al acoplar estos semiconductores con otros que sean capaces de absorber luz visible, se puede lograr una extensión en la absorción de luz y mejorar la eficiencia global de la fotocatálisis.</p><p>Este enfoque se basa en el principio de la transferencia de carga o la transferencia de energía entre los semiconductores acoplados. Cuando un fotocatalizador sensible a la luz visible se combina con otro semiconductor que es sensible a la luz UV, la energía capturada por el semiconductor sensible a la luz visible puede ser transferida al semiconductor sensible a la luz UV. Como resultado, se amplía el rango de absorción de luz del sistema acoplado, abarcando tanto la luz visible como la UV. Esta estrategia de acoplamiento de semiconductores con diferentes características de absorción de luz permite aprovechar una mayor parte del espectro electromagnético de la radiación solar, ya que la luz visible representa la mayor proporción de la energía solar. Al extender la absorción de luz visible, se aumenta la eficiencia global de la fotocatálisis, ya que más fotones de luz solar pueden ser utilizados para generar pares de electrones y huecos que participan en las reacciones redox.</p><p>Además, el acoplamiento de semiconductores también puede ayudar a reducir la recombinación de cargas, ya que los electrones y huecos generados pueden ser separados espacialmente en los diferentes materiales semiconductores. Esto mejora la eficiencia de la transferencia de carga y la utilización de los portadores de carga para las reacciones fotocatalíticas <ref type="bibr" target="#b49">[49]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">TiO₂</head><p>El dióxido de titanio (TiO₂) ha sido ampliamente investigado debido a su capacidad fotocatalítica en la reacción de división del agua cuando se modifica de manera adecuada. Este interés se debe a su eficiente fotoactividad, alta estabilidad, bajo costo y seguridad. El TiO₂ ha sido considerado como un punto de referencia en los estudios fotocatalíticos durante casi cuatro décadas, desde el trabajo seminal de Fujishima y Honda.</p><p>El TiO₂ ofrece varias ventajas para la fotocatálisis debido a sus propiedades físicas y químicas.</p><p>Tiene una alta área de superficie, lo que permite una mayor interacción con los reactivos y la luz incidente. Además, es químicamente estable y no tóxico, lo que lo hace seguro para su uso en aplicaciones fotocatalíticas.</p><p>Para mejorar las propiedades fotocatalíticas del TiO₂, se han desarrollado diversas estrategias de modificación. Estos métodos incluyen la deposición de metales, el dopaje con metales y no metales, la carga de materiales basados en carbono, la generación de heteroestructuras y la dispersión en soportes de alta superficie. Estas modificaciones tienen como objetivo mejorar la absorción de luz, la separación de cargas y la superficie activa del TiO₂, lo que a su vez aumenta el rendimiento y la selectividad del producto en la reacción fotocatalítica.</p><p>La deposición de metales en el TiO₂ puede mejorar la absorción de luz en diferentes rangos espectrales, lo que amplía la respuesta del TiO₂ a longitudes de onda más largas y mejora la eficiencia de la fotocatálisis. El dopaje con metales y no metales introduce defectos en la estructura del TiO₂, lo que modifica sus propiedades electrónicas y mejora la separación de cargas. La carga de materiales basados en carbono, como el grafeno o los nanotubos de carbono, puede mejorar la absorción de luz y actuar como centros de transferencia de carga, promoviendo la separación de cargas y reduciendo la recombinación de electrones y huecos. La generación de heteroestructuras con otros materiales semiconductores permite combinar las propiedades fotocatalíticas de diferentes materiales y mejorar la eficiencia de la reacción fotocatalítica. La dispersión del TiO₂ en soportes de alta superficie, como zeolitas o sílices mesoporosas, aumenta el área activa del TiO₂ y mejora la adsorción de los reactivos, lo que resulta en una mayor eficiencia fotocatalítica <ref type="bibr" target="#b50">[50]</ref>.</p><p>El TiO₂ tiene principalmente tres fases cristalinas, a saber: anatasa, rutilo y brookita <ref type="bibr" target="#b51">[51]</ref>.</p><p>Termodinámicamente, el rutilo es la forma de TiO2 más estable a granel, mientras que la anatasa muestra la mayor estabilidad en tamaños de partículas por debajo de 14 nm. <ref type="bibr" target="#b52">[52,</ref><ref type="bibr" target="#b53">53]</ref>. El rutilo se puede obtener recociendo los otros dos polimorfos a una temperatura más alta. Dependiendo de la fase cristalina del TiO₂, se producen ligeras variaciones en las estructuras de banda y la energía de banda prohibida. Con respecto a la actividad fotocatalítica, la anatasa muestra especialmente un rendimiento superior debido a su alta movilidad y afinidad electrónica. <ref type="bibr" target="#b54">[54,</ref><ref type="bibr" target="#b55">55]</ref>. Se ha informado que los electrones fotoexcitados de la fase anatasa tienen una vida útil mucho más larga (&gt; 1 ms) en comparación con el rutilo <ref type="bibr" target="#b56">[56]</ref>.</p><p>Aunque el TiO₂ tiene varias características únicas, su uso es limitado debido a su amplia banda prohibida; ya que solo puede activarse con luz ultravioleta, que representa del 2 al 5% de la luz solar <ref type="bibr" target="#b57">[57,</ref><ref type="bibr" target="#b58">58]</ref>. Dado que la luz visible representa el 45% del espectro solar <ref type="bibr" target="#b59">[59,</ref><ref type="bibr" target="#b60">60]</ref>, existe la necesidad de desarrollar fotocatalizadores basados en dióxido de titanio que sean activos bajo el espectro de luz visible.</p><p>Una de las propuestas más prometedoras para ampliar la capacidad de absorción de luz del TiO₂ y potenciar su eficiencia fotocatalítica es combinarlo con semiconductores de banda estrecha. En este contexto, es fundamental que ambos semiconductores presenten niveles de energía distintos en relación a sus respectivas bandas de conducción y valencia. Esta configuración ofrece diversas ventajas: en primer lugar, se mejora la separación de carga; en segundo lugar, se prolonga la vida útil del portador de carga; y, por último, se optimiza la eficiencia de transferencia de carga interfacial hacia el sustrato adsorbido <ref type="bibr" target="#b61">[61]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">La hematita</head><p>Los óxidos de hierro pertenecen a la familia de los óxidos de metales de transición.</p><p>Generalmente, los minerales de óxido de hierro tienen diferentes estructuras estequiométricas y cristalinas, que incluyen wüstita (FeO), hematita (α-Fe₂O₃), magnetita (Fe3O4) y maghemita (γ-Fe₂O₃) <ref type="bibr" target="#b20">[20]</ref>.</p><p>La hematita (α-Fe₂O₃) es la fase más estable de todos los óxidos de hierro con una energía de banda prohibida de 2,0-2,3 eV. La estructura de α-Fe₂O₃ es un sistema cristalino hexagonal que consta de átomos de hierro rodeados por seis átomos de oxígeno, donde cada átomo de oxígeno está enlazado a cuatro átomos de hierro <ref type="bibr" target="#b62">[62,</ref><ref type="bibr" target="#b63">63]</ref>.</p><p>En la hematita, los átomos de hierro y oxígeno están dispuestos en una estructura de corindón, que es un escalenoédrico trigonal-hexagonal con grupo espacial R-3c, parámetros de red a = 5,0356 nm, c = 13,7489 nm y seis unidades de fórmula por celda unitaria <ref type="bibr" target="#b64">[64,</ref><ref type="bibr" target="#b65">65]</ref>.</p><p>Como semiconductor de tipo n con banda prohibida estrecha (2,2 eV, 600 nm), el α-Fe₂O₃ se usa convencionalmente como fotocatalizador impulsado por luz visible <ref type="bibr" target="#b66">[66]</ref><ref type="bibr" target="#b67">[67]</ref><ref type="bibr" target="#b68">[68]</ref>.</p><p>La hematita (α-Fe₂O₃) se considera un candidato prometedor para la división del agua debido a su banda prohibida favorable, bajo costo, no toxicidad y excelente estabilidad química <ref type="bibr" target="#b64">[64,</ref><ref type="bibr" target="#b69">69,</ref><ref type="bibr" target="#b70">70]</ref>.</p><p>Sin embargo, en los materiales con α-Fe₂O₃ como monocomponente, la alta tasa de recombinación de los electrones y huecos fotogenerados dificulta su amplia aplicación en fotocatálisis. La razón principal es que la vida útil de los portadores de carga fotogenerados es muy corta (&lt; 10 ps) <ref type="bibr" target="#b71">[71,</ref><ref type="bibr" target="#b72">72]</ref>, además de una alta tasa de recombinación e -h + que conduce a una baja eficiencia de conversión de energía dado que la longitud de difusión de huecos (2-4 nm) no es suficiente para ser transferidos a la superficie de α-Fe₂O₃ <ref type="bibr" target="#b73">[73,</ref><ref type="bibr" target="#b74">74]</ref>. Por lo tanto, el fotocatalizador α-Fe₂O₃ de un solo componente no es beneficioso para separar los pares de electrones y huecos fotogenerados.</p><p>Su baja conductividad significa que se necesita un sobrepotencial para producir H₂, porque su banda de conducción es insuficientemente negativa para derivar H₂ del agua <ref type="bibr" target="#b75">[75]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7">SiO₂</head><p>El SiO₂ es uno de los materiales centrales óptimos para sintetizar las nanopartículas core@shell (CSNs) debido a su química de superficie, capacidad de adsorción, transparencia óptica en el rango de longitud de onda donde se absorbe el TiO₂, bajo costo y excelente estabilidad térmica y mecánica <ref type="bibr" target="#b76">[76]</ref>. Se ha descubierto que el uso de SiO₂ como soporte funcional para las nanopartículas de TiO₂ mejora la capacidad de adsorción y la dispersión de las partículas. Si bien una mayor capacidad de adsorción puede mejorar la fotoactividad del sistema, una mejor dispersión de las nanopartículas de anatasa conduce a una mayor área superficial específica y a una mayor estabilidad térmica <ref type="bibr" target="#b77">[77]</ref>.</p><p>El SiO₂ se usa a menudo como portador de fotocatalizador porque tiene abundantes grupos hidroxilo en la superficie y puede reducir el tamaño de partícula del fotocatalizador. El SiO₂ también tiene una gran carga superficial negativa en el agua, lo que puede afectar el comportamiento de migración de los electrones fotogenerados en TiO₂ <ref type="bibr" target="#b78">[78]</ref>.</p><p>La disminución en el tamaño de las partículas de TiO₂-SiO₂ reduce la ruta en la que los electrones y huecos fotoinducidos utilizan para migrar a los sitios activos en la superficie de TiO₂.</p><p>Esto aumenta la eficiencia de las reacciones redox de los electrones y los huecos al tiempo que reduce la tasa de recombinación de los electrones y huecos fotoinducidos, lo que convierte al TiO₂-SiO₂ en un mejor fotocatalizador en comparación con el TiO₂ <ref type="bibr" target="#b79">[79]</ref>.</p><p>La presencia de una capa de SiO₂ entre Fe3O4 y TiO₂ es necesaria para mantener la eficiencia del fotocatalizador núcleo-coraza. Además, la coraza de SiO₂ puede mejorar la estabilidad y la dispersión del núcleo y apoyar la estabilidad térmica, así como aumentar la resistencia de la solución <ref type="bibr" target="#b80">[80]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3">Justificación</head><p>Aunque el TiO2 tiene varias características únicas, su uso está limitado debido a su ancho de banda prohibida; ya que solo puede ser activado por la luz ultravioleta, que representa del 2 al 5% de la luz solar.</p><p>De acuerdo a los valores de band gap encontrados en la literatura, la hematita es activa bajo luz visible, promoviendo la actividad fotocatalítica de la anatasa bajo compósito en este intervalo del espectro electromagnético. Después de haber realizado una exhaustiva revisión del estado del arte sobre los compósitos sugeridos, se puede concluir que, a la fecha, no existen reportes de estudios sobre el efecto de las propiedades electrónicas de αFe2O3-SiO2-TiO2 y αFe2O3-SiO2 en la separación fotocatalítica de la molécula de agua.</p><p>Alrededor del 97% del agua en el planeta es agua de mar y el potencial para la división del agua de mar a hidrógeno es enorme.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.4">Hipótesis</head><p>Los compósitos de αFe₂O₃-SiO₂, αFe₂O₃-TiO₂ y αFe₂O₃-SiO₂-TiO₂ presentarán una mayor actividad fotocatalítica en la producción de hidrógeno en agua de mar artificial bajo luz visible en comparación con los materiales prístinos y con agua pura.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.5">Objetivo general</head><p>Sintetizar los materiales prístinos de α-Fe2O3, SiO2 y TiO2, y los compósitos de α-Fe2O3-SiO2, α-Fe2O3-TiO2 y α-Fe2O3-SiO2-TiO2; caracterizar sus propiedades texturales, estructurales, químicas y optoelectrónicas; evaluar su producción de hidrógeno mediante la separación fotocatalítica del agua para comparar los resultados obtenidos de los materiales en fase pura con respecto de los compósitos y en agua pura respecto a agua de mar (NaCl al 3.5%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.6">Objetivos particulares</head><p>• Sintetizar α-Fe2O3, SiO2 y TiO2 mediante los métodos de co-precipitación, Stöber y sol gel, respectivamente.</p><p>• A partir de α-Fe2O3, generar los compósitos de α-Fe2O3-SiO2, α-Fe2O3-TiO2 y α-Fe2O3-SiO2-TiO2 mediante los métodos de Stöber y sol gel, respectivamente.</p><p>• Caracterizar las propiedades estructurales, texturales, químicas y electrónicas mediante las técnicas de XRD, BET, TGA, ICP-OES, microscopía electrónica (SEM y TEM) voltamperometría cíclica y espectroscopía UV-Vis.</p><p>• Evaluar y comparar la actividad fotocatalítica de los materiales prístinos y compósitos, tanto en agua pura como en agua de mar simulada (NaCl al 3.5%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Metodología experimental 3.1 Síntesis</head><p>El compósito de α-Fe2O3-TiO2 ha sido sintetizado por los siguientes métodos: precipitación e impregnación, sol-gel, co-precipitación y deposición de vapor químico mejorada con plasma/deposición de capa atómica <ref type="bibr" target="#b21">[21]</ref><ref type="bibr" target="#b22">[22]</ref><ref type="bibr" target="#b23">[23]</ref><ref type="bibr" target="#b81">81]</ref>. El compósito de α-Fe2O3-SiO2 ha sido sintetizado por los métodos de: sol-gel, Stöber y Stöber modificado <ref type="bibr" target="#b82">[82]</ref><ref type="bibr" target="#b83">[83]</ref><ref type="bibr" target="#b84">[84]</ref><ref type="bibr" target="#b85">[85]</ref><ref type="bibr" target="#b86">[86]</ref> y finalmente, el compósito α-Fe2O3-SiO2-TiO2 ha sido sintetizado por los métodos de: co-precipitación, Stöber y sol-gel <ref type="bibr" target="#b87">[87]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1">Síntesis de las nanopartículas de α-Fe₂O₃</head><p>Se preparó una solución 0.5 molar de nitrato de hierro (III) nonahidratado. Posteriormente se le añadió hidróxido de sodio gradualmente hasta obtener un pH de 11, formando un precipitado marrón. Luego se ajustó el pH de la solución a 7, lavando el precipitado varias veces con agua destilada en una centrífuga CRM Globe, modelo Centrificient IV con rotor IVC+rotor IVD.</p><p>Enseguida se secó la solución a una temperatura de 80°C durante la noche. Con el fin de determinar la temperatura de calcinación adecuada, se realizó un análisis termogravimétrico al polvo obtenido (Figura 10), la cual fue de 450° C durante 4 horas, logrando con ello obtener la fase deseada: hematita. A esta muestra se le etiquetó como F4. La síntesis de la hematita se puede observar en el diagrama de flujo mostrado en la figura 6.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2">Síntesis del compósito α-Fe₂O₃-SiO₂</head><p>Se colocaron 10 mL de agua destilada, 10 mL de etanol, 1 mL de NH4OH y 1 g de hematita (F4) en un sonicador Branson modelo M1800H-E CPX-952-137R durante 30 minutos. Enseguida se le añadió una solución de 1.75 mL de TEOS en 5 mL de etanol, como precursor del SiO₂. Luego se agitó la mezcla durante dos horas con un agitador magnético a una velocidad de 600 rpm. El precipitado obtenido se lavó y separó varias veces con agua destilada mediante una centrífuga CRM Globe modelo Centrificient IV con rotor IVC+rotor IVD. Enseguida se secó la solución a una temperatura de 80°C durante la noche. A esta muestra se le etiquetó como F4S. El polvo obtenido, se calcinó a 450° C durante 4 horas. A esta muestra se le etiquetó como F4S4. La figura 7 muestra un diagrama de flujo con la síntesis descrita.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.3">Síntesis del compósito α-Fe₂O₃-SiO₂-TiO₂</head><p>Se colocó una cantidad de 0.3 g de la muestra denominada F4S en una solución con 150 mL de etanol, 150 mL de acetona y 1.8 mL de NH4OH. La mezcla se dispersó posteriormente mediante sonicación en un baño de agua ultrasónico durante 30 minutos. Luego se agregaron 3 mL de butóxido de Titanio (IV) a la mezcla y se agitó durante dos horas con un agitador magnético a una velocidad de 600 rpm. El precipitado obtenido se lavó y separó varias veces con agua destilada mediante una centrífuga CRM Globe modelo Centrificient IV con rotor IVC+rotor IVD. Enseguida se secó la solución a una temperatura de 80°C durante la noche. El polvo obtenido, se calcinó a 450° C durante 4 horas. A esta muestra se le etiquetó como F4ST4. El compósito α-Fe₂O₃-TiO₂ se sintetizó de la misma manera, agregando F4 en lugar de F4S. A esta muestra se le etiquetó como F4T4. El TiO₂ prístino también se sintetizó de la misma manera, sin agregar F4S. El procedimiento para la síntesis se ilustra en la figura 8. En la tabla 1, se muestra un resumen de las muestras sintetizadas. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Caracterización</head><p>Con el objetivo de analizar la estabilidad térmica, así como determinar la temperatura y tiempo de calcinación de las muestras, se realizó un análisis termogravimétrico (TGA) en el equipo Q 500 TA Instrument. Tanto en los materiales prístinos, como en los compósitos, se llevaron a cabo la identificación de la fase cristalina, así como tamaño del cristalito, por medio de difracción de rayos X en un difractómetro PANalytical modelo X´Pert PRO con detector X'Celerator. Se realizó también microscopía electrónica de barrido (MEB) en un microscopio Hitachi SU3500, microscopía electrónica de transmisión en un Hitachi 7700 y MET JEOL JEM 2200FS+CS para observar la distribución, morfología y estructura de las fases en los compósitos. El band gap fue estimado mediante espectroscopía UV-Visible en un espectrofotómetro Evolution 220 Thermo. El área superficial por el método BET fue obtenida en un equipo de gas Autosorb-1C con sistema de sorción de Quantachrome. Se realizó una caracterización electroquímica de los compósitos mediante Voltamperometría Cíclica (VC), en un bipotenciostato modelo AFCBP1 Pine Instruments con el objetivo de obtener una estimación de los valores de la banda de valencia (BV) y la banda de conducción (BC). Finalmente se realizó un análisis químico de los compósitos después de la evaluación fotocatalítica utilizando un espectrómetro de emisión atómica con plasma de acoplamiento inductivo (ICP-OES), modelo Thermo Scientific iCAP 6500 Series para determinar la concentración de hierro en el sobrenadante tanto en solución de agua pura como en solución de NaCl al 3.5% en peso.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Evaluación Fotocatalítica</head><p>El seguimiento en la medición de la producción de hidrógeno fotocatalítico se realizó; tanto para los materiales sintetizados de manera individual, como para los compósitos. La evaluación fotocatalítica se llevó a cabo por cromatografía de gases mediante un detector de conductividad térmica (TCD) en un cromatógrafo Perkin Elmer Clarus 500 equipado con columnas de hayesep y carboxeno, utilizando nitrógeno como gas portador. La figura 9, muestra un diagrama con la configuración experimental en el que se colocaron dos reactores de cuarzo en agitación constante mediante un agitador magnético a una velocidad de 500 rpm e irradiados por una lámpara de halogenuros metálicos de 200 watts de la marca Phillips. Se tomaron muestras de 0.2 mL de volumen con una jeringa inyectada a través de un septum de goma (hule) de silicona autosellante colocado en la parte superior de los reactores durante cada hora por un periodo de 8 horas y una lectura al cabo de 24 horas para cada material individual, así como para los compósitos.</p><p>cada uno su hermeticidad por medio de dos empaquetaduras de neopreno a ambos lados del tubo de cuarzo presionado por dos bridas soportadas por cuatro varillas metálicas atornilladas y una válvula en una de las bridas para fines de muestreo. Se dispersaron 200 mg de cada material en 150 mL de agua destilada en uno de los reactores y 150 mL de solución salina al 3.5% en peso en el otro, dejando un espacio de cabeza de aire de 3.5 cm. Se utilizó trietanolamina al 5% (v/v) como reactivo de sacrificio en ambos reactores.</p><p>Figura 9 Configuración experimental para la medición de producción de H₂, mediante la división del agua por fotocatálisis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados y discusión 4.1 Análisis termogravimétrico (TGA)</head><p>La medición en la pérdida de peso (termograma y su respectiva derivada) fue realizada en aire hasta los 800°C, para los materiales prístinos sin calcinar (Goethita y TiO2).</p><p>La figura 10, inciso a), muestra el termograma para la fase de goethita, en el que se observa una pérdida de peso de alrededor del 25% hasta aproximadamente los 400°C, lo cual se atribuye a la remoción del agua adsorbida tanto física como químicamente en la interfase, así como la pérdida de peso que se atribuye a la deshidroxilación de goethita a hematita.</p><p>En el caso del TiO2 sin calcinar, figura 10 b), se observa una disminución en el peso de la muestra, de alrededor de 9%, atribuido al agua adsorbida y a la degradación de los compuestos orgánicos presentes hasta alcanzar los 400°C en donde la curva se vuelve paralela al eje de la temperatura, demostrando su estabilidad térmica a partir de esta temperatura.</p><p>Con base en lo anterior, se determinó la temperatura de calcinación de las muestras, que fue de 450°C por un periodo de 4 horas para asegurar la cristalinidad de los materiales. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Difracción de rayos X (DRX)</head><p>En la figura 11, se encuentran las gráficas con los difractogramas que corresponden a los materiales prístinos, junto con las fichas cristalográficas del Centro Internacional de Datos de Difracción (ICDD, por sus siglas en inglés). Como se puede observar, todos los picos de difracción de los materiales coinciden con los respectivos en la ficha del ICDD, sin observarse ninguna otra fase adicional. En el inciso a), se muestra el difractograma correspondiente a la hematita, que de acuerdo a su ficha cristalográfica presenta una estructura romboedral, isoestructural con el corindón (Al2O3) y grupo espacial R-3c. El inciso b) pertenece al dióxido de titanio TiO₂, mostrando de acuerdo a su ficha cristalográfica que se encuentra en fase anatasa, cuyo sistema cristalino es tetragonal y un grupo espacial I41/amd. Finalmente, en el inciso c), el dióxido de silicio, el cual, no muestra ningún pico de difracción, excepto por una banda ancha centrada en 2θ = 22°, qué es el pico característico del SiO2 amorfo. Lo anterior debido a que la temperatura de calcinación a la que se sometió la muestra fue de 450°C, la misma que se utilizó, tanto para los demás materiales en fase pura como para los compósitos. Esta temperatura no es suficiente para que el SiO₂ cristalice <ref type="bibr" target="#b88">[88]</ref>.</p><p>Figura 10 Termogramas de: a) goethita y b) TiO2 sin calcinar sintetizados vía co-precipitación y sol gel. La temperatura de calcinación fue establecida conforme a la estabilización de la curva luego de la combustión de la materia orgánica de las muestras.</p><p>Los difractogramas correspondientes a los materiales compósitos α-Fe₂O₃-SiO₂ (F4S4), α-Fe₂O₃-TiO₂ (F4T4) y α-Fe₂O₃-SiO₂-TiO₂ (F4ST4), se muestran en la figura 12, además de las respectivas fichas cristalográficas ICDD de las fases sintetizadas: hematita y anatasa, sin picos de difracción adicionales de ninguna otra fase. En el inciso a), se observa el compósito de α-Fe₂O₃-SiO₂ (F4S4), así como la ficha cristalográfica de la hematita, mostrando un aumento en el fondo del difractograma respecto al de la hematita en su fase pura, correspondiente a la amorficidad del SiO₂.</p><p>En el inciso b) se observa el difractograma correspondiente al compósito α-Fe₂O₃-TiO₂ (F4T4), junto con las fichas cristalográficas correspondientes a la fase hematita del óxido de hierro, como de la fase anatasa del óxido de titanio. En el inciso c), el compósito α-Fe₂O₃-SiO₂-TiO₂ (F4ST4), también con el aumento en el fondo del difractograma correspondiente a la amorficidad del SiO₂.</p><p>Figura 11 Difractogramas correspondientes a los materiales prístinos y sus respectivos patrones de difracción de acuerdo con las fichas cristalográficas del Centro Internacional de Datos de Difracción (ICDD, por sus siglas en inglés). El tamaño de cristalito para cada fase fue estimado mediante la ecuación de Scherrer, tomando el pico más intenso de cada difractograma: 𝐿 = 𝐾𝜆 𝐵(2𝜃)𝑐𝑜𝑠𝜃 Donde B (2θ) es el ancho completo a la mitad del máximo (FWHM por sus siglas en inglés) del pico más intenso, L es el tamaño del cristalito en nm, λ la longitud de onda de rayos X del electrodo α-Cu equivalente a 0.154 nm, θ el ángulo de difracción de Bragg en el difractograma y K el factor de corrección igual a 0.9.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Los resultados obtenidos se muestran en la tabla 2:</head><p>Tabla 2. Tamaño de cristalito calculado para cada uno de los materiales mediante la ecuación de Scherrer, tanto en su fase pura como en los compósitos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Muestra D (nm) α-Fe₂O₃(hematita)</head><p>22 TiO₂ (anatasa 8 SiO₂ (amorfo) -F4S4 (hematita, SiO₂ amorfo) 22</p><p>Figura 12 Difractogramas correspondientes a los compósitos y sus respectivos patrones de difracción de acuerdo con las fichas cristalográficas del Centro Internacional de Datos de Difracción (ICDD, por sus siglas en inglés). En el caso de la hematita, el tamaño del cristalito cambia muy poco, dado que los compósitos se generan a partir de ésta.</p><p>El TiO₂ en su fase anatasa tiene un tamaño de cristalito pequeño en comparación con el de la hematita, no obstante, el compósito hematita anatasa (F4T4), presenta un notable incremento en el tamaño de cristalito comparado con el de la fase pura.</p><p>El uso del SiO₂ refuerza la idea que disminuye el tamaño del cristalito considerablemente, como se muestra en el compósito α-Fe₂O₃-SiO₂-TiO₂ (F4ST4) <ref type="bibr" target="#b78">[78]</ref>.</p><p>Se puede observar que la adición de SiO2 al TiO2 mejoró además la estabilidad térmica de los cristalitos de TiO2 anatasa.</p><p>La presencia de SiO2 alrededor del TiO2 podría retrasar eficazmente el crecimiento de las nanopartículas, probablemente debido a la formación del enlace Ti-O-Si y a la presencia de SiO2 amorfo en contacto con el TiO2, lo que dificultaría el crecimiento de partículas de TiO2 <ref type="bibr" target="#b89">[89]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Microscopía electrónica de Barrido (MEB)</head><p>La estructura morfológica de la superficie de las partículas se identificó mediante microscopía electrónica de barrido (SEM, por sus siglas en inglés) tal y como se muestra en la figura 13, donde se muestran las micrografías obtenidas por MEB para los compósitos. compósito α-Fe₂O₃-SiO₂, lo cual sugiere una buena deposición de la sílice sobre la hematita. En el caso del compósito de α-Fe₂O₃-TiO₂ se observan aglomerados tanto de hematita como de anatasa, debido a una interacción menor entre los óxidos y al exceso de titania. Por otro lado, el compósito de α-Fe₂O₃-SiO₂-TiO₂ muestra mayor dispersión de los elementos, debido a una mejor interacción de los materiales y a que el SiO2 ayuda en la deposición del TiO2 como se había discutido en las micrografías. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>51</head><p>La composición elemental de las partículas se estudió mediante espectroscopía por dispersión de energía (EDS, por sus siglas en inglés), como se muestra en la tabla 3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a) C</head><p>La espectrometría de rayos X de energía dispersiva (EDS) se aplica típicamente como una técnica analítica para examinar la muestra en términos de análisis elemental. Los elementos individuales son detectados por EDS utilizando rayos X emitidos por la muestra. Como se puede observar, los compósitos están compuestas únicamente por sus elementos correspondientes en su totalidad. Los porcentajes obtenidos de manera experimental presentan valores muy cercanos a los calculados de manera teórica, confirmando así las proporciones en peso para cada compósito.</p><p>Dichas proporciones son: 3:1 para Fe:Si en F4S4; 2:1 para Ti:Fe en F4T4 y 9:3:1 para Ti:Fe:Si en F4ST4.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">Microscopía electrónica de transmisión (MET)</head><p>Las imágenes tanto de la hematita como la anatasa en su estado puro, se muestran en la imagen 15.</p><p>Los incisos a, b y c corresponden a la hematita en su fase pura obtenida a partir de la síntesis por co-precipitación de la goethita calcinada a 450°C durante 4 horas. En las micrografías correspondientes a la hematita, se observan aglomerados de partículas con formas irregulares y Tabla 3. Tablas comparativas de los compósitos: a) α-Fe₂O₃-SiO₂ (F4S4), b) α-Fe₂O₃-TiO₂ (F4T4), y c) α-Fe₂O₃-SiO₂-TiO₂ (F4ST4). Resultados obtenidos mediante espectroscopía de rayos X por dispersión de energía (EDS), así como los calculados de manera teórica.</p><p>distintas. Se pueden apreciar pocas nanopartículas alargadas con dominios longitudinales y bordes redondeados, debido a que el precursor de la hematita fue la goetita. También se observan partículas con forma elipsoidal, además de partículas más pequeñas de forma esferoidal. En su mayoría los aglomerados son de apariencia poliédrica con tendencia a la esfericidad. El tamaño de las nanopartículas depende en gran medida de la concentración del precursor utilizado en la síntesis de hematita. La morfología de las partículas esféricas de α-FeOOH se generan con el precursor Fe(NO3)3 <ref type="bibr" target="#b93">[93]</ref>. El producto principal a pH alto es, asimismo, la α-FeOOH <ref type="bibr" target="#b94">[94]</ref>.</p><p>La figura 16 muestra los histogramas con la distribución del tamaño de partícula para las fases individuales. </p><formula xml:id="formula_5">a) b) c) d) e) f) g) h) i) α-Fe₂O₃ TiO₂ α-Fe₂O₃-SiO₂ a) b) c) d) e) f) g) h) i) α-Fe2 O3 a) b) c) a) b) c) α-Fe2O3</formula><p>En el inciso a se muestra los tamaños de las partículas de la hematita, en las cuales, se observa una distribución modal con mayoría en un rango de 120 a 210 nm.</p><p>Esto concuerda con los resultados obtenidos por <ref type="bibr" target="#b95">Goya et al. (2005)</ref> [95] quienes sintetizaron partículas de hematita por el método de sol gel obteniendo tamaños similares aplicando un tratamiento térmico de 400 ºC.</p><p>En cuanto a la anatasa, los incisos d, e y f de la Figura 15 presentan micrografías representativas del TiO₂ en su fase anatasa. Las imágenes muestran aglomerados esféricos muy densos de partículas esféricas muy pequeñas, con una distribución modal con mayoría en un rango de 6 a 12 nm, como se observa en su respectivo histograma, en el inciso b de la figura 16.</p><p>Lo anterior es debido a la mayor relación superficie-volumen, donde la energía superficial de las partículas más pequeñas es mayor que la de las partículas más grandes. El comportamiento de aglomeración del TiO2, generalmente aumenta con una disminución del tamaño de partícula <ref type="bibr" target="#b96">[96]</ref>.</p><p>Gopika et al. (2022) <ref type="bibr" target="#b97">[97]</ref> utilizaron la síntesis de sol-gel modificada para nano partículas de anatasa con tratamientos térmicos de 300 a 900 ºC, con intervalos de 100 °C, obteniendo nano partículas de alrededor de los 13 nm a una temperatura de calcinación de 400°C.</p><p>Los histogramas con los tamaños de partícula para los materiales prístino se obtuvieron midiendo más de 100 partículas con la ayuda del software de análisis de imágenes "imageJ". Se observa una distribución modal con mayoría en un rango de 10 a 16 nm para el SiO2 amorfo. En la figura 17, inciso a) se muestran las imágenes del compósito α-Fe2O3-SiO2, en las que se observan partículas alargadas, así como partículas grandes con tendencia a la esfericidad. Se observa, además, un recubrimiento core-shell bastante uniforme alrededor de los grupos de nanopartículas con la formación de una capa de sílice de aproximadamente 25 nm de espesor. La dispersión de las partículas de hematita depende del espesor de la capa de sílice <ref type="bibr" target="#b98">[98]</ref>.</p><p>Con la finalidad de comprobar lo anterior, se muestran las imágenes correspondientes a los mapeos realizados para obtener la distribución de los elementos presentes en los materiales lo cual comprueba que las partículas grandes corresponden a la hematita debido a la alta presencia de Fe en el centro, mientras que el SiO2 corresponde a las partículas pequeñas debido a la presencia de Si rodeando las partículas más grandes.</p><p>El inciso b) corresponde al compósito α-Fe2O3-TiO2. Se observan las partículas grandes de hematita al centro, con formas elipsoidales y con tendencia esférica rodeadas de una capa de alrededor de 15 nm de partículas poco compactas, correspondientes al TiO2, como se puede observar en el mapeo. La distribución del tamaño de las partículas en los aglomerados depende de la temperatura de sinterización y de las partículas vecinas en contacto, que pueden unirse para formar una partícula grande. El exceso de TiO2 dio como resultado un tamaño de partícula ligeramente menor <ref type="bibr" target="#b99">[99]</ref>.</p><p>Finalmente, el inciso c, corresponde al compósito de hematita, sílice amorfo y anatasa αFe₂O₃-SiO₂-TiO₂, en el que se pude observar igualmente, partículas grandes de hematita, tanto con formas elipsoidales como con tendencia esférica, rodeado de un shell de alrededor de 40 nm de SiO2 amorfo y dióxido de titanio, como puede ser comprobado en los mapeos elementales de Fe, Si y Ti. Las partículas se observan más compactas, lo que implica que la capa intermedia de sílice influye en la deposición de las nanopartículas de TiO2. Los procesos de recubrimiento de la cubierta de sílice o titanio se pueden controlar mediante la concentración del precursor <ref type="bibr" target="#b100">[100]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5">Área BET</head><p>Para el análisis de área superficial mediante el método BET, las isotermas de adsorción-desorción de los materiales en fase pura, así como sus respectivas áreas BET se muestran en la figura 18.</p><p>La isoterma del TiO₂ en su fase anatasa (inciso b), corresponden al tipo IV(a) según la clasificación de la Unión Internacional de Química Pura Aplicada (IUPAC por sus siglas en inglés); el inciso a) correspondiente a la isoterma de la hematita y el inciso c) SiO₂ amorfo, presentan una isoterma de tipo III. La isoterma del tipo III, es característica de sólidos no porosos, mientras que la del tipo IV(a) están dadas por adsorbentes mesoporosos <ref type="bibr" target="#b101">[101]</ref>.</p><p>El TiO₂ en fase anatasa (inciso b) presenta un ciclo de histéresis tipo H1, el cual es consistente con aglomerados de esferas aproximadamente uniformes <ref type="bibr" target="#b102">[102]</ref>.</p><p>Como se puede observar los valores de las áreas superficiales son consistentes con los tamaños de los cristalitos obtenidos mediante la ecuación de Scherrer, así como los tamaños de partícula observados en MET y discutidos previamente, en donde el menor tamaño de cristalito, así como el menor tamaño de partícula corresponden a la anatasa, la cual presenta la mayor área superficial. Los incisos a, b y c, corresponden al compósito de hematita con sílice amorfo; hematita con anatasa y hematita con anatasa y sílice amorfo, respectivamente. El compósito de hematita con sílice amorfo presenta una isoterma del tipo III, mientras que los compósitos de hematita con anatasa y hematita, anatasa, sílice amorfa, presentan una isoterma del tipo II. Las isotermas reversibles de tipo II se dan por la fisisorción de la mayoría de los gases en adsorbentes no porosos.</p><p>Las isotermas, presentan características intermedias entre sus componentes puros, así como el valor de área BET. La isoterma de adsorción-desorción del compósito F4ST4 (α-Fe₂O₃-SiO₂-TiO₂) en el inciso c, presenta características intermedias de sus componentes, no obstante, su valor de área superficial es casi igual que el de la anatasa, más de dos veces mayor que el de la hematita y casi tres veces el del SiO₂, lo cual se atribuye al tamaño de partícula del SiO2.   principalmente a las condiciones de recocido de la muestra <ref type="bibr" target="#b105">[105]</ref>.</p><p>Los valores encontrados para los band gaps en los compósitos en transición directa fueron de 2.12 eV para F4S4: α-Fe₂O₃-SiO₂ y F4ST4: α-Fe₂O₃-SiO₂-TiO₂, sin embargo, para F4T4: α-Fe₂O₃-TiO₂, el band gap fue de 2.23 eV.</p><p>Este resultado sugiere que la adición de SiO2 no altera significativamente el band gap de la hematita. Sin embargo, el SiO2 puede actuar como un soporte inerte que mejora la dispersión de Fe2O3, lo que puede mejorar la eficiencia fotocatalítica al reducir la recombinación de cargas. El desplazamiento hacia el rojo se atribuyó a los niveles de energía adicionales creados por la composición de TiO2 con Fe2O3 <ref type="bibr" target="#b91">[91]</ref>.</p><p>Kiziltas et. al (2021) sintetizaron compósitos core shell de Fe3O4@SiO2 y Fe3O4@SiO2@TiO2 mediante el método Stöber y solvotermal, respectivamente, para su uso como fotocatalizadores en la degradación de azul ácido 161, encontrando valores de band gap de 1.68 eV y 2.1 eV, respectivamente <ref type="bibr" target="#b106">[106]</ref>.</p><p>Sadeghi-Niaraki et. al (2020) obtuvieron nanopartículas de α-Fe₂O₃-TiO₂ y α-Fe₂O₃-SiO₂-TiO₂ para su uso como fotocatalizador en la fotodegradación de rojo ácido 18. Los autores reportaron valores de band gap para los nanocompósitos de 2.97 eV y 2.8 eV, respectivamente <ref type="bibr" target="#b87">[87]</ref>.</p><p>Asimismo, se realizaron los gráficos con los espectros de absorbancia de los materiales en su fase pura, así como de los compósitos, en un intervalo de longitud de onda de 200 a 700 nm, para la estimación de la longitud de onda a la que se observa el valor del máximo de absorbancia como se muestra en la figura 21. Los valores correspondientes a la anatasa la hematita y el SiO2 amorfo son de: 382 nm, 604 nm, y 325 nm respectivamente, los cuales concuerdan con los obtenidos en los gráficos de Tauc.</p><p>Los bordes de absorción del TiO2 puro están alrededor de los 400 nm, mientras que en el caso de las nanopartículas de α-Fe2O3 puras, se observa una absorción visible evidente en la curva (λ ≈ 600 nm).</p><p>El valor de band gap para los compósitos es de 602 nm, 598 nm y 595 nm para F4S4, F4T4 y F4ST4, respectivamente. Los compósitos exhibieron una absorción más fuerte alrededor de los 600 nm, lo que mejora la actividad fotocatalítica de los compósitos en la región visible del espectro electromagnético.</p><p>Es importante señalar que, tanto en el gráfico de la hematita en fase pura, como en los compósitos, se observa una absorción adicional con un valor de 875 nm. El proceso de absorción de luz en la hematita comienza en el rango del infrarrojo cercano. Esta absorción es el resultado de transiciones entre niveles de energía dentro de los orbitales d de los iones Fe 3+ , en la configuración electrónica 3d 5 . Estas transiciones ocurren debido a la influencia del campo cristalino intrínseco, que provoca una división de los niveles de energía asociados con dichos orbitales d. <ref type="bibr" target="#b103">[103,</ref><ref type="bibr" target="#b107">107,</ref><ref type="bibr" target="#b108">108]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.7">Caracterización electroquímica.</head><p>Se realizó una caracterización electroquímica de los compósitos mediante Voltamperometría Cíclica (VC), en un bipotenciostato modelo AFCBP1 Pine Instruments. La configuración del sistema constó de una celda electroquímica con tres electrodos: un electrodo de trabajo de carbón vítreo de 0.5 cm de diámetro, una barra de carbón como contraelectrodo y un electrodo de referencia de Ag/AgCl (0.205 V vs NHE).</p><p>Para la preparación del electrodo de trabajo, se dispersaron 20 mg del material en 50 µL de alcohol isopropílico y 0.5 µL de nafión para luego sonicar esta mezcla durante 15 minutos.</p><p>Luego se depositó una gota de la mezcla sobre la superficie del carbón vítreo y se dejó secar hasta evaporar el isopropanol.</p><p>La celda se llenó con una solución de ferrocianuro de potasio trihidratado (K₄Fe(CN)₆•3H₂O) 20 mM en NaCl al 3.5% en peso.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.8">Voltamperometría: Estimación de BV y BC</head><p>La voltamperometría cíclica es un método comúnmente utilizado para medir el potencial de reducción de una especie en solución. Proporciona datos adicionales que pueden interpretarse para estudiar las reacciones de reducción/oxidación y la estabilidad de las especies resultantes de la transferencia de electrones.</p><p>El voltaje se cambia con el tiempo y se monitorea la corriente a través de un circuito.</p><p>Cuando el voltaje alcanza un punto en el que se induce una reducción/oxidación, la corriente comienza a fluir. Un voltamperograma cíclico es una gráfica de corriente versus voltaje aplicado <ref type="bibr" target="#b109">[109]</ref>.</p><p>Los voltamogramas de los compósitos se muestran en la figura 22.</p><p>De acuerdo al análisis electroquímico, los valores del "potencial pico catódico" se presentan en la reacción de evolución de hidrógeno (HER, por sus siglas en inglés), así como los valores del "potencial pico anódico" se presentan en la reacción de evolución de oxígeno (OER, por sus siglas en inglés), con lo que se puede determinar un aproximado de los bordes de las bandas de valencia y de conducción de los materiales, así como un valor estimado del band gap electroquímico.</p><p>El inciso a) muestra el voltamperograma del TiO2 con un valor para la HER de -1.66 V y para la OER de 1.67 V con una diferencia de 3.3 V. En el inciso b) se muestra el voltamperograma del compósito de hematita, el cual presenta valores HER de -0.54 V y de 1.66 V para la OER, con una diferencia de 2.20 V. En el inciso c) se muestra el voltamperograma del compósito de hematita -SiO2 amorfo, el cual presenta valores HER de -0.45 V y de 1.52 V para la OER, con una diferencia de 1.97 V. El inciso d) muestra el voltamperograma para el compósito de hematitaanatasa con valores de -0.38 V para la HER y 1.54 V para la OER, con una diferencia de 1.92 V. Finalmente, en el inciso e), el compósito ternario de hematita -SiO2 amorfoanatasa, muestra valores de -0.43</p><p>V para la HER y 1.38 V para la OER, con una diferencia de 1.81 V.</p><p>Los compósitos muestran una diferencia menor en comparación con los materiales prístinos, siendo el compósito ternario de hematita -SiO2 amorfoanatasa el que presenta el menor valor, lo que sugiere una mayor eficiencia en la absorción de luz visible y en la actividad fotocatalítica.</p><p>La tabla 4, muestra los datos obtenidos en los voltamperogramas, así como los band gap ópticos obtenidos en este trabajo y los valores encontrados en la literatura <ref type="bibr" target="#b23">[23,</ref><ref type="bibr" target="#b110">110,</ref><ref type="bibr" target="#b111">111]</ref>. Los potenciales se muestran con el ajuste para el electrodo de referencia (Ag/AgCl), ya que es necesario convertir dichos valores a los del electrodo estándar de hidrógeno (NHE, por sus siglas en inglés) para saber si la reacción es suficientemente negativa para llevar a cabo la reacción de evolución de hidrógeno (HER, por sus siglas en inglés).  La Figura 23 presenta un diagrama con la interacción de los materiales prístinos con base en los valores estimados de las bandas de valencia y conducción.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.9">Espectroscopía de Emisión Atómica con Plasma de Acoplamiento Inductivo (ICP-OES)</head><p>Se realizó un análisis químico de los compósitos después de la evaluación fotocatalítica utilizando un espectrómetro de emisión atómica con plasma de acoplamiento inductivo (ICP-OES), específicamente el modelo Thermo Scientific iCAP 6500 Series. El objetivo fue determinar la concentración de hierro en el sobrenadante tanto en solución de agua pura como en solución de NaCl al 3.5% en peso. Se llevó a cabo un cálculo inverso basado en la concentración inicial de los compósitos para determinar la cantidad de hierro disuelto.</p><p>Los resultados se detallan en la tabla 5.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figura 23 Diagrama de bandas para los materiales prístinos</head><p>Tabla 5 Concentración de hierro (Fe) presente en las soluciones después de 8 y 24 horas de evaluación fotocatalítica. Todos los compósitos presentaron un ligero aumento en el porcentaje de lixiviación a las ocho horas en la solución con NaCl al 3.5% en comparación con la solución en agua pura.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Condiciones</head><p>Los compósitos de α-Fe2O3 -SiO2 y α-Fe2O3 -TiO2 presentaron un incremento notable en el porcentaje de lixiviación a las 24 horas en comparación a las ocho horas de evaluación, tanto en la solución de agua pura como en la de NaCl, no obstante, el incremento en el porcentaje de lixiviación del compósito α-Fe2O3 -SiO2 -TiO2 apenas tuvo un ligero incremento pasadas las 24 horas.</p><p>Esto sugiere que la capa amorfa de SiO2 en el compósito sirve para proteger las partículas de hematita contra el proceso de lixiviación.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.10">Evaluación fotocatalítica</head><p>En la figura 24, se muestran los gráficos con las evaluaciones fotocatalíticas de los componentes puros, además de los compósitos, en comparación con el TiO2 P25 a las ocho horas de reacción tanto para la solución sin NaCl (inciso a), como para la solución al 3.5% en peso de NaCl (inciso b). Se incluyen además los gráficos para la evaluación fotocatalítica a las 24 horas (inciso c sin NaCl y d con NaCl). El compósito con el material ternario de hematita, SiO2 amorfo, TiO2 fase anatasa, tuvo un rendimiento 5 veces mayor que los materiales prístinos en la solución sin NaCl con 3 µmol H2/gcat, y hasta 3 veces mayor en la solución con NaCl con 13 µmol H2/gcat, El compósito ternario de hematita, sílice amorfa, anatasa tuvo un rendimiento de más de 4 veces en solución con NaCl en comparación a la solución sin el NaCl.</p><p>El compósito Fe2O3-SiO2-TiO2 (F4ST4) mostró un rendimiento significativamente mayor que los materiales prístinos en ambas soluciones evaluadas (con y sin NaCl), siendo hasta 5 veces mayor en la solución sin NaCl y hasta 3 veces mayor en la solución con NaCl. Además, el compósito también mostró un rendimiento notablemente mejorado en presencia de NaCl en comparación con la solución en agua pura.</p><p>Los resultados obtenidos en la evaluación fotocatalítica para el compósito de Fe2O3-TiO2 muestran un rendimiento superior en comparación con los materiales puros. La incorporación de SiO2 amorfo mejora la capacidad del compósito para llevar a cabo la reacción de evolución de 69 hidrógeno. Esto es consistente con el aumento en el valor del área superficial, lo que proporciona una mayor área de contacto y sitios activos para las reacciones fotocatalíticas.</p><p>Por otro lado, la adición de NaCl muestra un incremento considerable en los valores obtenidos para la producción de H2 fotocatalítico. Los iones Na + y Cl -pueden facilitar las reacciones redox que ocurren en la superficie del catalizador, sobre todo en concentraciones bajas y condiciones neutras o alcalinas. Los iones Na + fortalecen los puentes de hidrógeno entre el agente de sacrificio y los grupos hidroxilo en la superficie del TiO2, permitiéndole reaccionar con los huecos fotogenerados antes de que los huecos reaccionen con los iones OH -presentes en el medio.</p><p>De igual manera, el ion Cl -presenta una tendencia a ser oxidado por los huecos presentes en la banda de valencia, evitando que los electrones y huecos se recombinen antes de participar en reacciones químicas. Además, la presencia de estos iones inorgánicos, contribuyen a disminuir los defectos en la superficie de los materiales semiconductores, los cuales suelen actuar como centros de recombinación de los electrones y huecos fotogenerados <ref type="bibr">[37-39, 43, 44]</ref>.</p><p>Figura 24 Evaluación fotocatalítica de los materiales prístinos, además de los compósitos en solución sin y con NaCl: a) y b) sin y con NaCl a las 8 horas y c) y d) sin y con NaCl a las 24 horas, respectivamente. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tiempo (h)</head><formula xml:id="formula_6">SiO2 F4 p25 TiO2 F4S4 F4T4 F4ST4 a) b) c) d)</formula><p>La eficiencia en éstos compósitos en su uso como fotocatalizadores utilizados para la reacción de evolución de hidrógeno (HER, por sus siglas en inglés) ha sido vagamente estudiado, sin embargo, la mayoría de la literatura se centra en el estudio de la degradación de contaminantes orgánicos, el cual es predominantemente conducido por la rección de evolución de oxígeno (OER, por sus siglas en inglés) y se ha enfocado en el estudio del pH de la solución, en el método de síntesis del compósito y a la formación del radical disminuye considerablemente la eficiencia en la producción de hidrógeno en comparación con el agua de mar <ref type="bibr" target="#b38">[38]</ref>.</p><p>Asimismo, la influencia de la cantidad de NaCl en la solución, promueve la reacción de evolución de hidrógeno, al ser un parámetro crucial en este trabajo, como ya se había descrito en el trabajo de Simaora et al. (2012) <ref type="bibr" target="#b43">[43]</ref>. Cuando la concentración de NaCl es inferior a 1M, se produce un rápido aumento en la actividad a medida que la concentración de NaCl se incrementa.</p><p>Por otro lado, cuando la concentración de NaCl supera la concentración de 1M, el incremento en la actividad se vuelve más paulatino.</p><p>Dado que los compósitos en este trabajo, han sido sintetizados en pH alcalino y a que la presencia de agua de mar disminuye la cantidad de grupos • OH y aumenta la cantidad de iones OH - , la producción de hidrógeno se ve favorecida. Los huecos (h⁺) pueden reaccionar con los iones OH⁻ presentes en el agua de mar para formar radicales • OH, que son altamente reactivos y pueden participar en la degradación de contaminantes. Sin embargo, en un medio con exceso de grupos</p><p>•OH, estos pueden recombinarse con los electrones, disminuyendo la eficiencia del proceso. Los iones OH⁻ pueden actuar como "trampas" para los huecos, permitiendo que más electrones queden disponibles para la reducción de agua y la producción de hidrógeno.</p><p>Estos hallazgos prometedores sugieren la posibilidad de utilizar éstos compósitos en la división fotocatalítica del agua y continuar investigando su desempeño en presencia de otros componentes presentes en el agua de mar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusiones</head><p>Los materiales prístinos y los compósitos fueron sintetizadas exitosamente sin la evidencia de fases adicionales con una morfología esferoidal. Se obtuvo un tamaño de partícula de alrededor de 180 nm para la hematita, alrededor de 10 nm para la anatasa y de alrededor de 13 nm para la sílice, resultando únicamente la anatasa como material mesoporoso.</p><p>Las áreas BET de los materiales oscilan desde los 39 hasta los 126 m 2 /g. Los compósitos y la hematita mostraron absorción de luz en el espectro visible, a excepción de la anatasa.</p><p>La formación de los compósitos se confirma mediante imágenes de microscopía electrónica de transmisión (MET) y mapeos correspondientes. Además, se observa un aumento significativo en las áreas superficiales de los compósitos, un corrimiento del band gap, una disminución en los tamaños de partícula y una mayor actividad fotocatalítica en comparación con los materiales prístinos.</p><p>El compósito α-Fe2O3-SiO2-TiO2 quintuplicó la producción de hidrógeno en comparación con los materiales prístinos, mientras que los de α-Fe2O3-SiO2 y α-Fe2O3-TiO2 lo cuadruplicaron en agua pura.</p><p>El uso de agua de mar simulada (NaCl al 3.5% en peso) quintuplicó la producción de hidrógeno en todos los materiales en comparación con el agua pura.</p><p>Estos hallazgos respaldan la posibilidad de utilizar estos compósitos en la división fotocatalítica del agua y resaltan la importancia del NaCl como un posible reactivo en este proceso.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Apéndices</head><p>Una vez realizada la evaluación fotocatalítica, se recuperaron los materiales, mediante lavado con agua destilada en la centrífuga para un posterior secado durante la noche.</p><p>Se llevaron a cabo las siguientes caracterizaciones a los materiales después de recuperarlos: difracción de rayos X (XRD), área superficial específica (BET) y reflectancia difusa por espectroscopía UV-Vis.</p><p>La figura 25 muestra los gráficos con la difracción de rayos X (XRD), tanto para los materiales prístinos como para los compósitos, después de la evaluación fotocatalítica, tanto en solución con agua pura como en solución de NaCl al 3.5% en peso.</p><p>Los incisos a) y b) corresponden a los espectros de difracción de rayos X para la anatasa sin y con NaCl, respectivamente. Los difractogramas no presentan diferencias entre sí como puede observarse, lo que indica que no hay cambios en la estructura cristalina del material al estar en contacto con la solución de NaCl. Por otro lado, los incisos c) y d) corresponden a la hematita sin y con el NaCl respectivamente, donde se puede observar un Figura 25 Difractogramas correspondientes a los materiales prístinos anatasa y hematita después de la evaluación fotocatalítica en solución con agua pura y con NaCl. incremento en la cantidad de ruido en el difractograma, lo cual podría estar relacionado con un cambio en la red cristalina de la hematita debido a la interacción con el NaCl.</p><p>Las gráficas correspondientes a los difractogramas de los compósitos después de la evaluación tanto en solución con agua pura como con el NaCl se muestran en la figura 26.</p><p>Los incisos a) y b) corresponden a el compósito de hematita con SiO2 amorfo sin y con NaCl. Los incisos c) y d) muestran los difractogramas del compósito hematita anatasa sin y con el NaCl respectivamente y finalmente los incisos e) y f) muestran los espectros de difracción del compósito de hematita, SiO2 amorfo y anatasa sin y con NaCl.</p><p>Como se puede observar, todas los compósitos presentan hematita, no obstante, no se presentan diferencias en los difractogramas realizados a los materiales utilizados en la evaluación con la solución de NaCl, lo que sugiere que tanto la anatasa como el SiO2 amorfo le otorgan estabilidad a los compósitos luego de la interacción con los iones disueltos del NaCl.</p><p>La estabilidad de los compósitos en presencia de NaCl puede ser atribuida a varias razones.</p><p>Primero, la presencia de anatasa, un material conocido por su estabilidad química y térmica, puede ayudar a proteger la estructura del compósito ante la interacción con los iones disueltos. Además, el SiO2 amorfo también puede actuar como un agente estabilizador, ya que es conocido por su alta resistencia química y su capacidad para formar enlaces fuertes con otros materiales.</p><p>El tamaño de cristalito tanto para los materiales puros como para los compósitos fue calculado utilizando la ecuación de Scherrer tomando el pico más intenso de cada difractograma y comparado con los valores obtenidos antes de la evaluación, como se muestra en la tabla 6.</p><p>Figura 26 Difractogramas correspondientes a los compósitos después de la evaluación fotocatalítica en solución con agua pura y con NaCl. Tabla 6. Cuadro comparativo del tamaño de cristalito calculado para cada uno de los materiales mediante la ecuación de Scherrer, tanto en su fase pura como en los compósitos, antes de la evaluación, así como posteriormente sin y con NaCl. Las isotermas se observan sin cambios en la sorción y la desorción para los materiales, así como antes de la evaluación con y sin NaCl mostrando buena estabilidad. Todos los materiales presentaron una ligera disminución en las áreas BET después de la evaluación fotocatalítica para la reacción de evolución de hidrógeno mediante la división fotocatalítica del agua con luz visible, tanto en la solución con agua pura como con solución de NaCl al 3.5% en peso.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Muestra</head><p>Durante la reacción de evolución de hidrógeno, los materiales se exponen a condiciones adversas, incluyendo la presencia de sales como el NaCl. Esto puede tener efectos corrosivos y desgastantes en los materiales, lo que lleva a una disminución en su área superficial.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figura 1</head><label>1</label><figDesc>Figura 1 Diagrama esquemático con el mecanismo de transferencia de carga en un sistema fotocatalítico αFe₂O₃-TiO₂ bajo irradiación de luz visible. .............................................. 14</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>16 Figura 3 19 Figura 4 26 Figura 5 30 Figura 6 38 Figura 7 39 Figura 8 40 Figura 9 42 Figura 10 44 Figura 11 45 Figura 12 46 Figura 13 48 Figura 14 50 Figura 15 52 Figura 16 53 Figura 17 55 Figura 18 56 Figura 19 . 57 Figura 20 58 Figura 21 61 Figura 22 64 Figura 23 66 Figura 24 70 Figura 25 80 Figura 26 82 Figura 27 .</head><label>163194265306387398409421044114512461348145015521653175518561957205821612264236624702580268227</label><figDesc>Figura 2 a) actividad fotocatalítica de las muestras con un 10% en vol. de TEA. b) posible mecanismo para la evolución fotocatalítica de hidrógeno del Ti-Si-Ti (400) con agua de mar simulada (solución del 5% en peso de NaCl)<ref type="bibr" target="#b24">[24]</ref>. .......................................................... 16 Figura 3 Modelo típico de banda de energía fotocatalítico para a) división de agua dulce y b) división de agua de mar.................................................................................................... 19 Figura 4 Principio básico de las reacciones fotocatalíticas en presencia de agentes de sacrificio. 26 Figura 5 Diagrama con la estructura de bandas de algunos fotocatalizadores típicos y su tipo de actividad: Oxidativa cuando son capaces de llevar a cabo la OER, reductivos cuando son capaces de llevar a cabo la HER y redox cuando pueden llevar a cabo ambas reacciones. Se muestra también su aplicación potencial. ......................................................................... 30 Figura 6 Diagrama de flujo para la síntesis de la hematita, αFe₂O₃ vía co-precipitación. ....... 38 Figura 7 Diagrama de flujo para la síntesis del compósito, αFe₂O₃-SiO₂ y del SiO₂ mediante el método Stöber. ................................................................................................................. 39Figura 8 Diagrama de flujo para la síntesis de los compósitos, αFe₂O₃-TiO₂, αFe₂O₃-SiO₂-TiO₂ y del TiO₂ mediante el método sol gel. ............................................................................... 40 Figura 9 Configuración experimental para la medición de producción de H₂, mediante la división del agua por fotocatálisis. ................................................................................................. 42 Figura 10 Termogramas de: a) goethita y b) TiO2 sin calcinar sintetizados vía co-precipitación y sol gel. La temperatura de calcinación fue establecida conforme a la estabilización de la curva luego de la combustión de la materia orgánica de las muestras. ...................................... 44 Figura 11 Difractogramas correspondientes a los materiales prístinos y sus respectivos patrones de difracción de acuerdo con las fichas cristalográficas del Centro Internacional de Datos de Difracción (ICDD, por sus siglas en inglés). ................................................................... 45 Figura 12 Difractogramas correspondientes a los compósitos y sus respectivos patrones de difracción de acuerdo con las fichas cristalográficas del Centro Internacional de Datos de Difracción (ICDD, por sus siglas en inglés). ................................................................... 46 Figura 13 Micrografías tomadas por Microscopía Electrónica de Barrido (MEB) de los compósitos a) y b) α-Fe2O3-SiO2; c) y d) α-Fe2O3-TiO2 y e) y f) α-Fe2O3-SiO2-TiO2 a 5,000X (izquierda) y 10,000X (derecha). ........................................................................................................ 48 Figura 14 Mapeos de los compósitos: a) α-Fe₂O₃-SiO₂, b) α-Fe₂O₃-TiO₂ y c) α-Fe₂O₃-SiO₂-TiO₂.50 Figura 15 Micrografías representativas tomadas por MET de los materiales prístinos: a), b) y c) α-Fe₂O₃; d), e) y f) TiO₂ ....................................................................................................... 52</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figura 1</head><label>1</label><figDesc>Figura 1 Diagrama esquemático con el mecanismo de transferencia de carga en un sistema fotocatalítico α-Fe₂O₃-TiO₂ bajo irradiación de luz visible.</figDesc><graphic coords="14,189.95,357.83,239.60,164.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>un estudio realizado por Li et al. en 2011, se encontró que el ion Cl -tiene una tendencia a adsorberse en la superficie del TiO₂ cuando se encuentran en condiciones ácidas<ref type="bibr" target="#b37">[37]</ref>. En un estudio posterior realizado en 2014 por Krivec et al., se examinó la inhibición causada por el cloro en la degradación fotocatalítica del ácido dicloroacético. En este estudio, se investigó la naturaleza de la adsorción del ion Cl -en la superficie del TiO₂, especialmente en condiciones ácidas. Los resultados obtenidos por Krivec et al. revelaron que el ion Cl -también puede ser adsorbido en la superficie del TiO₂ bajo condiciones ácidas, lo cual es consistente con los hallazgos previos reportados por Li et al.<ref type="bibr" target="#b41">[41]</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figura 4</head><label>4</label><figDesc>Figura 4 Principio básico de las reacciones fotocatalíticas en presencia de agentes de sacrificio.</figDesc><graphic coords="26,141.30,473.57,365.09,150.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figura 5</head><label>5</label><figDesc>Figura 5 Diagrama con la estructura de bandas de algunos fotocatalizadores típicos y su tipo de actividad: Oxidativa cuando son capaces de llevar a cabo la OER, reductivos cuando son capaces de llevar a cabo la HER y redox cuandopueden llevar a cabo ambas reacciones. Se muestra también su aplicación potencial.</figDesc><graphic coords="30,108.00,246.84,432.00,177.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>Se ha reportado que el SiO2 disminuye el tamaño de partícula, reduciendo la distancia que deben recorrer los electrones y huecos fotoinducidos para migrar hacia los sitios activos(Joseph et   al. 2020). Además, mejora la dispersión de las partículas lo que conduce a una mayor área superficial específica y a una mayor estabilidad térmica (Ferreira-Neto et. al, 2019). El compósito αFe2O3-TiO2 ha sido estudiado como fotocatalizador hacia la producción de hidrógeno en agua dulce. Mohamed et al. (2020) 1,000 μmolg -1 h -1 ; Madhumitha et al. (2018) 2,300 μmol/h y Bootluck et al. (2021) 1.25 mmol h -1 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figura 6</head><label>6</label><figDesc>Figura 6 Diagrama de flujo para la síntesis de la hematita, αFe₂O₃ vía co-precipitación.</figDesc><graphic coords="38,108.00,245.39,432.00,144.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figura 7</head><label>7</label><figDesc>Figura 7 Diagrama de flujo para la síntesis del compósito, αFe₂O₃-SiO₂ y del SiO₂ mediante el método Stöber.</figDesc><graphic coords="39,108.00,169.49,432.00,86.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figura 8</head><label>8</label><figDesc>Figura 8 Diagrama de flujo para la síntesis de los compósitos, αFe₂O₃-TiO₂, αFe₂O₃-SiO₂-TiO₂ y del TiO₂ mediante el método sol gel.</figDesc><graphic coords="40,108.00,93.60,432.00,88.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figura 13</head><label>13</label><figDesc>Figura 13 Micrografías tomadas por Microscopía Electrónica de Barrido (MEB) de los compósitos a) y b) α-Fe2O3-SiO2; c) y d) α-Fe2O3-TiO2 y e) y f) α-Fe2O3-SiO2-TiO2 a 5,000X (izquierda) y 10,000X (derecha).</figDesc><graphic coords="48,87.00,93.60,431.98,518.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figura 14</head><label>14</label><figDesc>Figura 14 Mapeos de los compósitos: a) α-Fe₂O₃-SiO₂, b) α-Fe₂O₃-TiO₂ y c) α-Fe₂O₃-SiO₂-TiO₂.</figDesc><graphic coords="50,236.31,312.14,202.73,161.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figura 15</head><label>15</label><figDesc>Figura 15 Micrografías representativas tomadas por MET de los materiales prístinos: a), b) y c) α-Fe₂O₃; d), e) y f) TiO₂</figDesc><graphic coords="52,254.03,444.37,137.62,136.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figura 16</head><label>16</label><figDesc>Figura 16 Distribución de diámetro de partículas para las fases individuales: a) α-Fe2O3, b) TiO2 y c) SiO2 amorfo</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figura 17</head><label>17</label><figDesc>Figura 17 Micrografías representativas tomadas por MET de los compósitos: a) α-Fe₂O₃-SiO₂, b) α-Fe₂O₃-TiO₂ y c) α-Fe₂O₃-SiO₂-TiO₂.</figDesc><graphic coords="55,307.05,587.92,77.44,98.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figura 18</head><label>18</label><figDesc>Figura 18 Isotermas de adsorción-desorción y áreas BET para los materiales prístinos: a) hematita α-Fe₂O₃, b) TiO₂ anatasa y c) SiO₂ amorfo</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figura 19 .</head><label>19</label><figDesc>Figura 19 . Isotermas de adsorción-desorción y áreas BET para los compósitos: a) F4S4: α-Fe₂O₃-SiO₂, b) F4T4: α-Fe₂O₃-TiO₂ y c) F4ST4: α-Fe₂O₃-SiO₂-TiO₂.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figura 20</head><label>20</label><figDesc>Figura 20 Gráficas de Tauc en transición directa para los materiales prístinos y los compósitos: a) TiO₂, b) α-Fe₂O₃, c) SiO₂ y d) α-Fe₂O₃-SiO₂, α-Fe₂O₃-TiO₂ y α-Fe₂O₃-SiO₂-TiO₂.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head></head><label></label><figDesc>Los band gap de los materiales en fase pura son: 2.11 eV, 3.34 eV y 3.90 eV en transición directa para la hematita, el TiO2 y el SiO₂ amorfo respectivamente.<ref type="bibr" target="#b103">Fishman et al. (2017)</ref> sintetizaron nanohojas, nanocables y nanopartículas de hematita encontrando valores de band gap de 2.12, 2.08 y 2.46 respectivamente. Los valores se atribuyeron a una mayor cantidad de grupos hidroxilo presentes en las nanopartículas que en las nanohojas o los nanocables, además de los defectos de oxígeno superficial encontrados en nanohojas de CuO<ref type="bibr" target="#b103">[103]</ref>.Los autores encontraron, además, una cantidad significativa de absorción de luz por debajo de la energía del band gap sin reportar para la hematita, lo cual sugieren puede deberse a transiciones múltiples dentro del mismo material. Nagaraj et al. (2019) afinaron el band gap óptico de la anatasa mediante un método inducido por fotones para producir TiO2 rico en oxígeno con temperaturas de calcinación de 550°C, 650°C y 750°C, encontrando valores de 3.2 eV, 3.15eV y 3.09 eV respectivamente [104]. Messih et al. (2019) reportaron valores de 5.0 en el band gap para la sílica amorfa, debido</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figura 21</head><label>21</label><figDesc>Figura 21 Gráficas con los espectros de absorbancia de los materiales en su fase pura, así como los compósitos: a) TiO₂ en fase anatasa, b) Hematita α-Fe₂O₃, c) SiO₂ amorfo y d) α-Fe₂O₃-SiO2, α-Fe₂O₃-TiO2 y α-Fe₂O₃-SiO2-TiO2.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Figura 22</head><label>22</label><figDesc>Figura 22 Voltamperogramas de: a) TiO2, b) α-Fe2O3, c) α-Fe2O3-SiO2, d) α-Fe2O3-TiO2 y e) α-Fe2O3-SiO2-TiO2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_28"><head>Figura 27 .Tabla 7 .</head><label>277</label><figDesc>Figura 27 . Isotermas de adsorción-desorción para los compósitos después de la evaluación: a) y b) α-Fe₂O₃-SiO₂ sin y con NaCl y c) y d) α-Fe₂O₃-TiO₂ sin y con NaCl.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,125.65,473.72,396.70,189.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="42,90.00,94.00,468.00,182.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="66,99.70,93.60,432.00,242.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>). Resultados obtenidos mediante espectroscopía de rayos X por dispersión de energía (EDS), así como los calculados de manera teórica. ................ Tabla 4 Valores obtenidos de los voltamperogramas .............................................................. Tabla 5 Concentración de hierro (Fe) presente en las soluciones después de 8 y 24 horas de evaluación fotocatalítica. ..................................................................................................</figDesc><table /><note><p>Tabla 6. Cuadro comparativo del tamaño de cristalito calculado para cada uno de los materiales mediante la ecuación de Scherrer, tanto en su fase pura como en los compósitos, antes de la evaluación, así como posteriormente sin y con NaCl. ..................................................... Tabla 7. Tabla comparativa de las áreas BET antes y después de la evaluación con y sin NaCl. 85</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>estudio realizado por Madhumitha et al. en 2018 se centró en la síntesis de nano-</figDesc><table><row><cell>fotocatalizadores TiO₂/Fe₂O₃ tipo núcleo-coraza, los cuales eran magnéticamente separables, con</cell></row><row><cell>el objetivo de utilizarlos en la producción fotocatalítica de hidrógeno. Estos fotocatalizadores</cell></row><row><cell>fueron sintetizados mediante el método de co-precipitación. El estudio investigó la división</cell></row><row><cell>fotocatalítica del agua utilizando varios agentes de sacrificio, como metanol, etanol, ácido acético,</cell></row><row><cell>ácido láctico, EDTA y trietanolamina. Se examinaron diferentes variables operativas para optimizar</cell></row><row><cell>la producción de hidrógeno. Estas variables incluyeron el agente de sacrificio utilizado, la dosis de</cell></row><row><cell>catalizador, la intensidad de la irradiación de luz, el caudal de reacción y la reutilización del</cell></row><row><cell>catalizador. Se buscaba encontrar las condiciones óptimas que maximizan la producción de</cell></row><row><cell>hidrógeno. Los resultados mostraron que al utilizar 0.2 g/L de EDTA como agente de sacrificio,</cell></row><row><cell>una irradiación de luz de 96 W/m 2 y un caudal de 60 mL/min, se logró la mayor producción de</cell></row><row><cell>hidrógeno fotocatalítico, alcanzando 2300 μmol/h. Estas condiciones demostraron ser las más</cell></row><row><cell>eficientes para la división fotocatalítica del agua y la producción de hidrógeno [22].</cell></row><row><cell>Bootluck et al. en 2021 elaboraron nanocompuestos de α-Fe₂O₃/TiO₂ para la evolución de</cell></row><row><cell>hidrógeno. Los nanocompuestos fueron sintetizados utilizando métodos de precipitación, sol-gel e</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Tabla 1. Cuadro resumen de los materiales sintetizados.</figDesc><table><row><cell>Etiqueta</cell><cell>Fórmula</cell><cell>Nombre</cell><cell>Condiciones</cell></row><row><cell>T4</cell><cell>TiO₂</cell><cell>Dióxido de Titanio (anatasa)</cell><cell>Calcinación a 450°C por 4 horas</cell></row><row><cell>S</cell><cell>SiO₂</cell><cell>Dióxido de Silicio (amorfo)</cell><cell>Calcinación a 450°C por 4 horas</cell></row><row><cell>F</cell><cell>α-FeO (OH)</cell><cell>Oxihidróxido de hierro (III)</cell><cell>Sin calcinar</cell></row><row><cell>F4</cell><cell>α-Fe₂O₃</cell><cell>Óxido de hierro (III)</cell><cell>Calcinación a 450°C por 4 horas</cell></row><row><cell>F4S4</cell><cell>α-Fe₂O₃-SiO₂</cell><cell>Óxido de hierro (III) y Dióxido de Silicio (amorfo)</cell><cell>α-Fe₂O₃ y SiO₂ calcinados a 450°C por 4 horas</cell></row><row><cell>F4T4</cell><cell>α-Fe₂O₃-TiO₂</cell><cell>Óxido de hierro (III) y Dióxido de Titanio (anatasa)</cell><cell>α-Fe₂O₃ y TiO₂ calcinados a 450°C por 4 horas</cell></row><row><cell></cell><cell></cell><cell>Óxido de hierro (III), Dióxido de</cell><cell>α-Fe₂O₃ calcinado a 450°C por 4</cell></row><row><cell>F4ST4</cell><cell>α-Fe₂O₃-SiO₂-TiO₂</cell><cell>Silicio (amorfo) y Dióxido de</cell><cell>horas, SiO₂ y TiO₂ calcinados a</cell></row><row><cell></cell><cell></cell><cell>Titanio (anatasa)</cell><cell>450°C por 4 horas</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>• OH a bajos valores de pH.Nguyen et al. (2024) atribuyen la eficiencia fotocatalítica de la degradación de contaminantes debido a la reacción de evolución de oxígeno (OER, por sus siglas en inglés) y a la presencia de grupos • OH. Esta eficiencia se relaciona con el pH ácido del proceso de síntesis, ya que, en condiciones ácidas, la cantidad de grupos • OH es mayor. Sin embargo, cuando el pH aumenta por encima de 8, la cantidad de grupos • OH disminuye considerablemente, lo que dificulta la adsorción de RhB en la superficie del catalizador, cargada negativamente<ref type="bibr" target="#b112">[112]</ref>. Sus estudios mostraron que el agua dulce presenta una mayor cantidad de • OH, lo que</figDesc><table /><note><p>Surya et al. (2018) también estudiaron el efecto del pH en la degradación de índigo carmín utilizando tanto radiación visible como UV. Determinaron que la formación del radical • OH se favorece a un pH de 1. Los autores concluyen además que el compósito tiene casi la misma actividad fotocatalítica bajo irradiación UV y luz visible [113]. Como se explicó previamente, Peng et al. demostraron que el contenido de • OH (radicales hidroxilos) está estrechamente relacionado con el desempeño fotocatalítico del TiO₂ en el agua de mar.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Considerando el NaCl como el componente dominante, se discutirá principalmente el efecto de los iones Na + y Cl -en la división fotocatalítica del agua de mar.2.2 Efectos de los iones Na + y Cl -en el desempeño fotocatalíticoAunque existen estudios que han investigado los efectos de los iones Na + y Cl -en la división fotocatalítica del agua de mar, aún queda mucho por descubrir y comprender completamente. Se necesita más investigación para abordar los desafíos y las preguntas pendientes en este campo y para desarrollar una comprensión más precisa de los efectos de los iones en la división fotocatalítica del agua de mar.2.2.1 Efectos del ion Na +En un estudio realizado por Li et al., se investigaron los efectos del NaCl en la división fotocatalítica del agua de mar utilizando Pt/TiO₂ como fotocatalizador y ácido fórmico, ácido oxálico y etanol como agentes de sacrificio donadores de electrones, respectivamente<ref type="bibr" target="#b37">[37]</ref>. Los resultados revelaron que la actividad fotocatalítica disminuye a diferentes valores de pH, siguiendo la secuencia: alcalino&gt;neutro&gt;ácido, y también disminuye con el aumento en la concentración de NaCl. En condiciones neutras o alcalinas, se observó una mayor adsorción de iones Na + en la superficie del TiO₂, lo cual resultó en un fortalecimiento del enlace de hidrógeno entre el etanol adsorbido y los grupos hidroxilo en la superficie del TiO₂. En consecuencia, los agentes de sacrificio pueden combinarse fácilmente con los huecos fotogenerados, facilitando la separación de carga y reduciendo la recombinación del electrón-hueco. Peng et al. llevaron a cabo un estudio en el cual prepararon un fotocatalizador CdS-Pt/TiO₂ para la producción de hidrógeno utilizando luz visible, tanto en agua dulce como en agua de mar. Los resultados obtenidos mostraron una actividad un 33% superior en la evolución de hidrógeno en el agua de mar en comparación con el</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>reacción fotocatalítica. Como resultado de esta competencia, la adsorción de iones H + o del agente de sacrificio puede inhibirse, lo que afecta negativamente la eficiencia del proceso fotocatalítico<ref type="bibr" target="#b42">[42]</ref>.También se ha planteado la posibilidad de que el ion Cl -actúe como reactivo y dificulte la reacción de división del agua en sistemas fotocatalíticos. En este sentido, Maeda et al. realizaron investigaciones que revelaron que el ion Cl -podría ser oxidado por los huecos generados en la banda de valencia por el material RH₂-yCryO3/(Ga1-xZnx)(Ni1-xOx)<ref type="bibr" target="#b37">[37]</ref>. Como resultado, la presencia de Cl -en la solución inhibió la actividad fotocatalítica de la división del agua, y esta inhibición fue aún más pronunciada en condiciones ácidas en comparación con una solución neutra.Li et al. propusieron una perspectiva adicional sobre el efecto del ion Cl -. Aunque el Cl -puede reaccionar con los huecos generados durante la reacción, también sugirieron que el ion Cl -participa en una reacción de reducción con los electrones en la banda de conducción del material, tal como se muestra en las ecuaciones (1) y (2). Esta interacción adicional con el Cl -disminuye aún más la actividad fotocatalítica de la división del agua<ref type="bibr" target="#b25">[25]</ref>.En relación con la tasa de evolución de hidrógeno en la división fotocatalítica del agua de mar, Gao et al. especularon sobre la razón por la cual esta tasa es menor en comparación con el agua dulce<ref type="bibr" target="#b42">[42]</ref>. Sugirieron que el ion Cl -presente en el agua de mar podría reaccionar con los huecos generados durante la reacción y donar un electrón para formar el radical Cl•. Este radical Cl• continuaría compitiendo con la reacción de reducción del ion H + , tal como se muestra en las ecuaciones (3) y (4). Durante la reacción, no se encontraron compuestos que contuvieran cloro y la concentración de Cl -se mantuvo constante, lo cual respalda esta suposición.Cl -+ h +•Cl( 1)•Cl + e - Cl -( 2)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Los incisos a) y b) de la figura 13, corresponden al compósito de hematita con el dióxido de silicio amorfo α-Fe₂O₃-SiO₂. La morfología de esta muestra, como se puede observar, se trata de aglomerados de formas irregulares, lo cual se atribuye a un fuerte enlace de interacción entre las moléculas de nanopartículas de Fe2O3 y el SiO2<ref type="bibr" target="#b90">[90]</ref>.En los incisos c) y d), se muestra el compósito de hematita con anatasa α-Fe₂O₃-TiO₂. Se puede observar aglomerados de grandes tamaños y forma más poliédrica cubiertas de partículas pequeñas de forma casi esféricas en su mayoría, lo cual sugiere que el compósito fue preparado de forma exitosa<ref type="bibr" target="#b91">[91]</ref>.Las micrografías correspondientes al compósito de hematita, dióxido de silicio amorfo, anatasa α-Fe₂O₃-SiO₂-TiO₂ se observan en los incisos e) y f). Las partículas de éste compósito, son aglomerados más pequeños y dispersos que en F4T4, cubiertas de partículas fuertemente unidas en su gran mayoría de una forma más esférica y de tamaño más uniforme<ref type="bibr" target="#b92">[92]</ref>.La figura 14, muestra los mapeos representativos de los compósitos sintetizados con el fin de asegurar que la distribución de los elementos sea uniforme a lo largo de toda la muestra.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Como puede observarse, el valor para el tamaño de cristalito de la anatasa permanece igual antes y después de la evaluación en la solución con agua pura, no obstante, se observa un incremento en el tamaño después de la evaluación con la solución de NaCl, lo cual puede ser atribuido a la adsorción de iones en la superficie de los cristalitos de anatasa, formando capas o recubrimientos.Tanto en el caso de la hematita como en el compósito con SiO2 amorfo, se observa una disminución en los tamaños del cristalito después de la evaluación fotocatalítica, tanto para la solución en agua pura como con el NaCl, debido posiblemente a un desprendimiento o erosión de material de la superficie del catalizador. Los compósitos con anatasa presentan una ligera disminución en los tamaños de los cristalitos después de la evaluación, tanto para la solución de agua pura como con NaCl.En la figura 27 se muestran las isotermas de adsorción desorción después de la evaluación para los compósitos en solución con agua pura y con NaCl al 3.5%.</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Referencias</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The role of science in solving the world&apos;s emerging water problems</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Jury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J P O T N A O S</forename><surname>Vaux</surname><genName>Jr</genName></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="15715" to="15720" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">A review of the SDG 6 synthesis report 2018 from an education, training, and research perspective</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R C</forename><surname>Ortigara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J W</forename><surname>Uhlenbrook</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1353</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">A review and recent developments in photocatalytic water-splitting using TiO2 for hydrogen production</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ni</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="401" to="425" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Recent progress in photocatalysts for overall water splitting</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H J I J O E R</forename><surname>Hu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1082" to="1098" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Particulate photocatalysts for overall water splitting</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J N R M</forename><surname>Domen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Green&quot; path from fossil-based to hydrogen economy: an overview of carbon-neutral technologies</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Z</forename><surname>Muradov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N J I</forename><surname>J.O.H.E</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Veziroğlu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="6804" to="6839" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Technical and economic feasibility of centralized facilities for solar hydrogen production via photocatalysis and photoelectrochemistry</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Pinaud</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1983" to="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Seawater electrolysis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gendel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Amikam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nativ</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Electrochemical Power Sources: Fundamentals, Systems, and Applications</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="page" from="305" to="326" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Recent advances in electrocatalysts for seawater splitting</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Photoelectrocatalytic production of hydrogen from natural seawater under sunlight</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J I</forename><surname>Ichikawa</surname></persName>
+		</author>
+		<author>
+			<persName><surname>J.O.H.E</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="675" to="678" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Photocatalytic hydrogen production from natural seawater</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Ji</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="141" to="144" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Photochemical and photoelectrochemical hydrogen generation by splitting seawater</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Ayyub</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="18455" to="18462" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Volger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Annan</surname></persName>
+		</author>
+		<title level="m">A concise encyclopedia of the United Nations</title>
+		<imprint>
+			<publisher>Martinus Nijhoff Leiden/Boston</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Modification of ZnS1-X-0.5yOx (OH)y-ZnO photocatalyst with NiS for enhanced visible-light-driven hydrogen generation from seawater</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="15976" to="15984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Photocatalytic hydrogen evolution over Pt/Cd0.5Zn0.5S from saltwater using glucose as electron donor: an investigation of the influence of electrolyte NaCl</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="4291" to="4297" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Solar hydrogen generation from seawater with a modified BiVO4 photoanode</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Luo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="4046" to="4051" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">A short review on hydrogen, biofuel, and electricity production using seawater as a medium</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kumaravel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J E</forename><surname>Abdel-Wahab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fuels</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="6423" to="6437" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Highly efficient and recyclable triple-shelled Ag@ Fe3O4@ SiO2@ TiO2 photocatalysts for degradation of organic pollutants and reduction of hexavalent chromium ions</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Su</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="5181" to="5192" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Controlled Synthesis of Monodisperse SiO2 TiO2 Microspheres with a Yolk-Shell Structure as Effective Photocatalysts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Yoo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="2334" to="2340" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Removal of organic pollutants from water by Fe2O3/TiO2 based photocatalytic degradation: A review</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">F S</forename><surname>Khasawneh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J E T</forename><surname>Palaniandy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Innovation</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">101230</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">A Facile synthesis of mesoporous α-Fe2O3/TiO2 nanocomposites for hydrogen evolution under visible light</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Kadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A J C I</forename><surname>Ismail</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="15604" to="15612" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Photocatalytic hydrogen production using TiO2 coated iron-oxide core shell particles</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Madhumitha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Preethi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>I.J.O.H.E</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kanmani</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="3946" to="3956" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Modification of surface α-Fe2O3/TiO2 photocatalyst nanocomposite with enhanced photocatalytic activity by Ar gas plasma treatment for hydrogen evolution</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bootluck</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">105660</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Constructing a novel strategy for controllable synthesis of corrosion resistant Ti 3+ self-doped titanium-silicon materials with efficient hydrogen evolution activity from simulated seawater</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Song</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="2275" to="2284" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">H-doped TiO2-x prepared with MgH2 for highly efficient solardriven hydrogen production</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sinhamahapatra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page" from="613" to="621" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Pt/TiO2 granular photocatalysts for hydrogen production from aqueous glycerol solution: Durability against seawater constituents and dissolved oxygen</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sakurai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kiuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J C C</forename><surname>Jin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="124" to="128" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Photocatalytic water splitting using semiconductor particles: history and recent developments</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J J O P</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C P</forename><surname>Reviews</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="237" to="268" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Interfacial band-edge energetics for solar fuels production</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2851" to="2862" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Increased photocatalytic activity of CuO/TiO2 through broadband solar absorption heating under natural sunlight</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K N</forename><surname>Peh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W J P E</forename><surname>Ho</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="171" to="179" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Band edge positions as a key parameter to a systematic design of heterogeneous photocatalyst</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A J E J O C</forename><surname>Abdullah</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="82" to="94" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Photoelectrochemical devices for solar water splitting-materials and challenges</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jiang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="4645" to="4660" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Recent advances in semiconductors for photocatalytic and photoelectrochemical water splitting</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hisatomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kubota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J C S R</forename><surname>Domen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="7520" to="7535" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Bahnemann, and s. cells, Photochemical splitting of water for hydrogen production by photocatalysis: A review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Ismail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="85" to="101" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Photocatalytic water splitting on semiconductor-based photocatalysts</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in catalysis</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="1" to="57" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Efficient unassisted overall photocatalytic seawater splitting on GaNbased nanowire arrays</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="13797" to="13802" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Fuel production from seawater and fuel cells using seawater</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fukuzumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J C</forename><surname>Nam</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="4264" to="4276" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effects of electrolyte NaCl on photocatalytic hydrogen evolution in the presence of electron donors over Pt/TiO2</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Catalysis A: Chemical Applied Catalysis A: General</title>
+		<imprint>
+			<biblScope unit="volume">341</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="71" to="76" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Preparation of CdS-Pt/TiO2 composite and the properties for splitting sea water into hydrogen under visible light irradiation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Peng</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="459" to="466" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Effect of electrolyte addition on activity of (Ga1-xZnx)(N1-xOx) photocatalyst for overall water splitting under visible light</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Masuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Domen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Catalysis Today</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="173" to="178" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Photocatalytic hydrogen generation and decomposition of oxalic acid over platinized TiO2</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J A C A G</forename><surname>Li</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="179" to="185" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">The nature of chlorine-inhibition of photocatalytic degradation of dichloroacetic acid in a TiO2-based microreactor</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krivec</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="14867" to="14873" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-K</forename><surname>Seo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Interface science and composites</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<date type="published" when="2011">2011</date>
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Photocatalytic splitting of seawater and degradation of methylene blue on CuO/nano TiO2</title>
+		<author>
+			<persName><forename type="first">A.-J</forename><surname>Simamora</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="13855" to="13858" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>De Paula</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Atkins&apos; physical chemistry</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Oxford university press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Semiconductor-based photocatalytic hydrogen generation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="6503" to="6570" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Titanium dioxide nanomaterials: synthesis, properties, modifications, and applications</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S J C R</forename><surname>Mao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="2891" to="2959" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Photocatalytic hydrogen production: role of sacrificial reagents on the activity of oxide, carbon, and sulfide catalysts</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kumaravel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">276</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Highly efficient visible-light-driven photocatalytic hydrogen production of CdS-cluster-decorated graphene nanosheets</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="10878" to="10884" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Graphene-based heterojunction photocatalysts</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">430</biblScope>
+			<biblScope unit="page" from="53" to="107" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Electrochemical photolysis of water at a semiconductor electrode</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fujishima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J N</forename><surname>Honda</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972">1972</date>
+			<biblScope unit="volume">238</biblScope>
+			<biblScope unit="page" from="37" to="38" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Thermodynamic analysis of phase stability of nanocrystalline titania</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J J O M C</forename><surname>Banfield</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2073" to="2076" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Solution-phase synthesis of titanium dioxide nanoparticles and nanocrystals</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cargnello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B J C R</forename><surname>Murray</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="9319" to="9345" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Photoinduced activation of CO2 on Ti-based heterogeneous catalysts: Current state, chemical physics-based insights and outlook</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Indrakanti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="745" to="758" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Band alignment of rutile and anatase TiO2</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Scanlon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="798" to="801" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Pure versus metal-ion-doped nanocrystalline titania for photocatalysis</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bouras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stathatos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J A C B E</forename><surname>Lianos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="51" to="59" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Distinctive behavior of photogenerated electrons and holes in anatase and rutile TiO2 powders</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yamakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J M</forename><surname>Vequizo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J T J O P C C</forename><surname>Matsunaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="24538" to="24545" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Nanostructured photocatalysts and their applications in the photocatalytic transformation of lignocellulosic biomass: an overview</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Colmenares</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="2228" to="2258" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Recent developments in titanium oxide-based photocatalysts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kitano</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Enhanced visible-light active C and Fe Co-doped LaCoO3 for reduction of carbon dioxide</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J C C</forename><surname>Fang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="87" to="90" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Tailored titanium dioxide photocatalysts for the degradation of organic dyes in wastewater treatment: a review</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Han</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page" from="25" to="40" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bessekhouad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-V</forename><forename type="middle">J C T</forename><surname>Weber</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2 heterojunctions. 2005</date>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="315" to="321" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">as a photocatalytic material: A review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-M</forename><forename type="middle">J A C A G</forename><surname>Chun</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">498</biblScope>
+			<biblScope unit="page" from="126" to="141" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Characterization and photocatalytic properties of nano-Fe2O3-TiO2 composites prepared through the gaseous detonation method</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="14334" to="14339" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Solar water splitting: progress using hematite</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sivula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Le</forename><surname>Formal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J C</forename><surname>Grätzel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="432" to="449" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Recent developments of metal oxide based heterostructures for photocatalytic applications towards environmental remediation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Theerthagiri</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">267</biblScope>
+			<biblScope unit="page" from="35" to="52" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Hydrothermal synthesis of CdS nanorods anchored on α-Fe2O3 nanotube arrays with enhanced visible-light-driven photocatalytic properties</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lei</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">514</biblScope>
+			<biblScope unit="page" from="496" to="506" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title level="m" type="main">Fe2O3/C-C3N4-based tight heterojunction for boosting visible-light-driven photocatalytic water oxidation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kong</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="10436" to="10444" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Enhanced photoreduction CO2 activity over direct Z-scheme α-Fe2O3/Cu2O heterostructures under visible light irradiation</title>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Wang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="8631" to="8639" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Photoelectrochemical water splitting using visible-lightresponsive BiVO4 fine particles prepared in an aqueous acetic acid solution</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iwase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J J O M C</forename><surname>Kudo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="7536" to="7542" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<title level="m" type="main">A perspective on solar-driven water splitting with all-oxide hetero-nanostructures</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">X</forename><surname>Kronawitter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3889" to="3899" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Synthesis and characterization of Z-scheme α-Fe2O3 NTs/ruptured tubular g-C3N4 for enhanced photoelectrochemical water oxidation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E A</forename><surname>Bakr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="403" to="412" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Hematite photoanodes: synergetic enhancement of light harvesting and charge management by sandwiched</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">1703527</biblScope>
+		</imprint>
+	</monogr>
+	<note>with Fe2TiO5/Fe2O3/Pt structures</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">Preparation and photocatalytic property of porous α-Fe2O3 nanoflowers</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="94" to="99" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Synthesis of α-Fe2O3 Nanowires/MWCNTS Composite for Photocatalyst</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bakar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Journal of Physics: Conference Series</title>
+		<imprint>
+			<publisher>IOP Publishing</publisher>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title level="m" type="main">Enhanced hydrogen production by photoreforming of renewable oxygenates through nanostructured Fe2O3 polymorphs</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Carraro</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="372" to="378" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">SiO2@TiO2 core@shell nanoparticles deposited on 2D-layered ZnIn2S4 to form a ternary heterostructure for simultaneous photocatalytic hydrogen production and organic pollutant degradation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="2278" to="2287" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+		<title level="m" type="main">Solvent-controlled deposition of titania on silica spheres for the preparation of SiO2@TiO2 core@shell nanoparticles with enhanced photocatalytic activity</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Ferreira-Neto</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">570</biblScope>
+			<biblScope unit="page" from="293" to="305" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Construction of SiO2-TiO2/g-C3N4 composite photocatalyst for hydrogen production and pollutant degradation: Insight into the effect of SiO2</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2287" to="2294" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+		<title level="m" type="main">Application of plasmonic metal nanoparticles in TiO2-SiO2 composite as an efficient solar-activated photocatalyst: A review paper</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Joseph</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">568063</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title level="m" type="main">Synthesis and application of Fe3O4@SiO2@TiO2 for photocatalytic decomposition of organic matrix simultaneously with magnetic solid phase extraction of heavy metals prior to ICP-MS analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Habila</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="539" to="547" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title level="m" type="main">Fe2O3-TiO2 nanosystems by a hybrid PE-CVD/ALD approach: controllable synthesis, growth mechanism, and photocatalytic properties</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Barreca</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="6219" to="6226" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title level="m" type="main">Magnetic properties of hematite (α-Fe2O3) nanoparticles synthesized by sol-gel synthesis method: the influence of particle size and particle size distribution</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tadić</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="71" to="76" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">Monodisperse α-Fe2O3@SiO2@Au core/shell nanocomposite spheres: synthesis, characterization and properties</title>
+		<author>
+			<persName><forename type="first">C.-L</forename><surname>Fang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">125601</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title level="m" type="main">Synthesis, characterization and resistant performance of α-Fe2O3@SiO2 composite as pigment protective coatings</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sultan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="42" to="49" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<title level="m" type="main">In-situ synthesis, structural, magnetic and in vitro analysis of α-Fe2O3-SiO2 binary oxides for applications in hyperthermia</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J C I</forename><surname>Kannan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="13164" to="13170" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<title level="m" type="main">Fischer-Tropsch synthesis over methyl modified Fe2O3@ SiO2 catalysts with low CO2 selectivity</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">232</biblScope>
+			<biblScope unit="page" from="420" to="428" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title level="m" type="main">Cool and photocatalytic reddish-brown nanostructured Fe2O3@SiO2@TiO2 pigments</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sadeghi-Niaraki</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">262</biblScope>
+			<biblScope unit="page">114752</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<title level="m" type="main">Preparation of Silica Nano-Particles by Sol-Gel Method and Its Characterization</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bhatt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="215" to="230" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<title level="m" type="main">Heterostructured TiO2/SiO2/γ-Fe2O3/rGO coating with highly efficient visible-light-induced self-cleaning properties for metallic artifacts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mokhtarifar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="29671" to="29683" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<monogr>
+		<title level="m" type="main">The synergistic effect of Fe2O3/SiO2 nanoparticles concentration on rheology, wettability, and brine-oil interfacial tension</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Hassan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page">110059</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<monogr>
+		<title level="m" type="main">Novel α-Fe 2 O 3/TiO 2 nanocomposites with enhanced photocatalytic activity</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mansour</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+		<title level="m" type="main">A novel route to the synthesis of α-Fe2O3@C@SiO2/TiO2 nanocomposite from the metal-organic framework as a photocatalyst for water treatment</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Mousavi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page">133992</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<monogr>
+		<title level="m" type="main">Control of the shape and size of iron oxide (α-Fe2O3) nanoparticles synthesized through the chemical precipitation method</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lassoued</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="3007" to="3015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+		<title level="m" type="main">Influence of anions and cations on the formation of iron oxide nanoparticles in aqueous media</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J K P</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="119" to="129" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+		<title level="m" type="main">Thermal hysteresis of spin reorientation at Morin transition in alkoxide derived hematite nanoparticles</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Goya</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="1523" to="1526" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title level="m" type="main">Synthesis of TiO2 nanoparticles via a simple precipitation method and photocatalytic performance</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Buraso</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">115003</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title level="m" type="main">Phase transformation induced structural, optical and photocatalytic investigations of TiO2 nanoparticles</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gopika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jayasudha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B J B O M S</forename><surname>Nair</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">71</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<monogr>
+		<title level="m" type="main">Silica-encapsulated Fe2O3 oxygen carriers for selective chemical looping combustion of hydrogen</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Annamalai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F J C E J</forename><surname>Lobo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="volume">455</biblScope>
+			<biblScope unit="page">140919</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<monogr>
+		<title level="m" type="main">Structural and electronic properties of screen-printed Fe2O3/TiO2 thick films and their photoelectrochemical behavior</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Aleksić</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="5938" to="5953" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<monogr>
+		<title level="m" type="main">Superparamagnetic γ-Fe2O3@SiO2@TiO2 composite microspheres with superior photocatalytic properties</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J A C B E</forename><surname>Yu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="12" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<monogr>
+		<title level="m" type="main">Characterization of micro/mesoporous materials by physisorption: concepts and case studies</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Sotomayor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Cychosz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J A M S R</forename><surname>Thommes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="34" to="50" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<monogr>
+		<title level="m" type="main">Physisorption of gases, with special reference to the evaluation of surface area and pore size distribution</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thommes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>IUPAC</publisher>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="1051" to="1069" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<monogr>
+		<title level="m" type="main">Hard templating ultrathin polycrystalline hematite nanosheets: effect of nano-dimension on CO2 to CO conversion via the reverse water-gas shift reaction</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Fishman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="12984" to="12995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<title level="m" type="main">Tuning the optical band Gap of pure TiO2 via photon induced method</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nagaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Irudayaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J O</forename><surname>Josephine</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="page" from="889" to="894" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<monogr>
+		<title level="m" type="main">Facile approach to prepare ZnO@ SiO2 nanomaterials for photocatalytic degradation of some organic pollutant models</title>
+		<author>
+			<persName><forename type="first">Abdel</forename><surname>Messih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="14291" to="14299" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<monogr>
+		<title level="m" type="main">Preparation and characterization of recyclable Fe3O4@SiO2@TiO2 composite photocatalyst, and investigation of the photocatalytic activity</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kiziltaş</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tekin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J C E C</forename><surname>Tekin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="1041" to="1053" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<monogr>
+		<title level="m" type="main">Enhanced visible light photocatalytic activity of Fe2O3 modified TiO2 prepared by atomic layer deposition</title>
+		<author>
+			<persName><forename type="first">Y.-Q</forename><surname>Cao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">13437</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<monogr>
+		<title level="m" type="main">Optical absorption edge in α-Fe2O3: The exciton-magnon structure</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galuza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beznosov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J L T P</forename><surname>Eremenko</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="726" to="729" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Structure and Reactivity in Organic, Biological and Inorganic Chemistry</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schaller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">College Saint Benedict/Saint John&apos;s University: Queens</title>
+		<meeting><address><addrLine>NY, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<monogr>
+		<title level="m" type="main">Band gap engineering of nanotubular Fe2O3-TiO2 photoanodes by wet impregnation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sołtys-Mróz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page">146195</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<monogr>
+		<title level="m" type="main">Band-gap narrowing and electrochemical properties in Ndoped and reduced anodic TiO2 nanotube arrays</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Peighambardoust</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="245" to="255" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<monogr>
+		<title level="m" type="main">The synthesis of cubic Fe2O3• TiO2 material and its application in heterogeneous photo-Fenton degradation of dyes under visible light</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vo Thang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<monogr>
+		<title level="m" type="main">Synthesis And Characterization Of TiO2/α-Fe2O3 Composite Using Hematite From Iron Sand For Photodegradation Removal Of Dye</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lubis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J J N</forename><surname>Maulana</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="38" to="43" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

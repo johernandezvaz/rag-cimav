@@ -1,0 +1,1396 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo />
+    <idioma>spanish</idioma>
+    <autores />
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>RESUMEN</titulo>
+        <texto>Dividir la molécula del agua para obtener hidrógeno y oxígeno mediante la fotocatálisis en un método prometedor para suplir las necesidades energéticas actuales. El óxido de grafeno es considerado como uno de los pocos materiales semiconductores aptos para ser aplicados en la obtención de hidrógeno verde mediante la fotocatálisis. El estudio de los fotocatalizadores grafénicos ha incrementado debido a las ventajas que ofrecen al momento de llevarse a cabo las reacciones de oxidación y reducción del agua. En este documento se revisa los avances más recientes en la síntesis de óxido de grafeno y sus compósitos con TiO2 y su aplicación en la división fotocatalítica del agua. Se discuten los efectos de la oxidación de la superficie grafénica, la transferencia de carga y la interacción entre las superficies grafénicas oxidadas y el TiO2 para la producción de hidrógeno. Un cambio en la superficie grafénica puede mejorar la transferencia de cargas generadas en la fotocatálisis y reflejarse en la actividad Fotocatalíca. Por último, se muestra un panorama de los retos a futuro para el desarrollo de semiconductores fotocatalíticos con base grafénica para la producción de hidrógeno a partir de la molécula de agua. iii ABSTRACT Splitting the water molecule to obtain hydrogen and oxygen by photocatalysis is a promising method to meet today's energy needs. Graphene oxide is one of the few semiconducting materials suitable for application in the production of green hydrogen by photocatalysis. The study of graphene photocatalysts has increased due to the advantages they offer when carrying out water oxidation and reduction reactions. This paper reviews the most recent advances in the synthesis of graphene oxide and its composites with TiO2 and their application in photocatalytic water splitting. The effects of graphene surface oxidation, charge transfer and the interaction between oxidised graphene surfaces and TiO2 for hydrogen production are discussed. A change in the graphene surface can enhance the charge transfer generated in photocatalysis and be reflected in the photocatalytic activity. Finally, an overview of the future challenges for the development of graphene-based photocatalytic semiconductors for hydrogen production from the water molecule is shown.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis del GOT</titulo>
+        <texto>El óxido de grafito fue sintetizado a partir de grafito pulverizado (molido durante 6.7h en un molino Spex con una relación 10:1) de acuerdo con una modificación del método Tour (60mL y 6.7mL respectivamente), dicha mezcla se mantuvo en agitación mecánica y baño frio (4 °C) durante 10min. , pasado ese tiempo se agregaron 6g de KMnO4 durante 3h, se diluye la mezcla con H2O destilada (130mL), por último, una solución de H2O2 (12mL 30%) y HCl al 10% (13mL) fue agregada, por goteo a la mezcla con agitación hasta que los vapores desaparezcan (30 min), estas mezclas se mantienen en baño de hielo debido a la naturaleza exotérmica de la reacción Finalmente, se procede al lavado y filtrado del GO con agua tridestilada, actividad auxiliada por una bomba de vacío hasta haber retirado los restos de ácido y permanganato presentes en la mezcla, una vez concluido este paso el GO es llevado a sequedad en una mufla a 65 °C.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis del GOP</titulo>
+        <texto>En esta síntesis, al igual que GOT, se sintetiza siguiendo la modificación del método Tour, 1g de grafito pulverizado fue sometido a un pretratamiento de microondas durante 15s inmediatamente después del tratamiento con microondas, el siguiente paso es la diferencia en esta síntesis, se agregó a solución concentrada con una relación 5:1 de H2SO4 y H2O2 (60mL y 12mL respectivamente, dicha mezcla se mantuvo en agitación mecánica y baño frio (4 °C) durante 10min, pasado ese tiempo se agregaron 6g de KMnO4 durante 3h, se diluye la mezcla con H2O destilada (130mL), finalmente, aun en baño frio, una solución de H2O2 (12mL 30%) y HCl al 10% (13mL) fue agregada, por goteo a la mezcla con agitación hasta que los vapores desaparezcan (30min). Se concluye la síntesis siguiendo los mismos pasos que se emplearon en la síntesis del GOT</texto>
+      </seccion>
+      <seccion>
+        <titulo>Capítulo 6. TRABAJO FUTURO</titulo>
+        <texto>Hasta ahora, se han realizado varias rutas de síntesis para la obtención en masa del GO. Sin embargo, la calidad y el rendimiento de dichas síntesis están todavía muy lejos de las exigencias de un escalamiento. La modificación de su superficie tiene una gran influencia en sus propiedades y, mediante la funcionalización, su estructura electrónica puede ajustarse aún más, lo que introducirá características interesantes, especialmente en las propiedades electrónicas. Estimación del tiempo de recombinación del compósito y compararlo con el TiO2. Así como el cálculo del tiempo de vida del fotocatalizador y cantidad optima en la generación de H2. Teniendo en cuenta los diversos grupos funcionales presentes en el grafeno producido químicamente, sería posible formar heterouniones con otros semiconductores para aumentar la eficiencia cuántica.</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>Capítulo 1. Introducción</titulo>
+        <texto>Desde la revolución industrial en siglo XIX, con el uso del carbón; hasta el siglo XX marcado por el uso del petróleo y sus derivados, es apreciable una etapa de residuos carbonosos emitidos Sin embargo, en el siglo XXI, el pensamiento colectivo concuerda con el hecho de que es inminente la descarbonización del entorno, motivo por el cual, el actual enfoque en la atenuación del cambio climático y la preocupación por la reducción de los gases de efecto invernadero. Varios países están implementando diversas estrategias para limitar las emisiones de gases, esta preocupación se ha acentuado en la última década. Siguiendo esta tendencia, no sólo es necesario reducir la utilización de los combustibles fósiles, sino también, encontrar fuentes de energía más amigables con el medio ambiente, por lo que, el uso de recursos renovables es una nueva perspectiva; asimismo se debe suplir la demanda energética actual.</texto>
+      </seccion>
+    </introduccion>
+    <antecedentes>
+      <seccion>
+        <titulo>Capítulo 2. Antecedentes</titulo>
+        <texto>La producción de hidrógeno fotocatalítico usando semiconductores es una estrategia potencial para aplicarla en la conversión de energía solar en combustible. Desde 1972 cuanto fue reportada por primera vez la producción de hidrógeno por medio de la fotocatálisis con un semiconductor de TiO2</texto>
+      </seccion>
+    </antecedentes>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivo general</titulo>
+        <texto>Sintetizar y caracterizar superficies grafénicas con mayor grado de oxidación para producir compósitos con TiO2, para ser evaluados como fotocatalizadores en la generación de hidrógeno bajo luz visible. 1.4.1 Objetivos particulares. • Sintetizar y caracterizar Óxido de Grafeno (GO) con diferentes grados de oxidación mediante el método Tour modificado (irradiación por microondas). 1) molienda mecánica del grafito como precursor (GOT). 2) oxidación mediante solución piraña (GOP). • Sintetizar y caracterizar compósitos de GOs/TiO2. Mediante anclaje fotoasistido por UV • Evaluar la actividad fotocatalítica de los GOs y los compósitos en la disociación de la molécula del agua mediante cromatografía de gases en condiciones atmosféricas. • Determinar el porcentaje óptimo de GO en el GO/ TiO2 para un mejor rendimiento en la producción de hidrógeno, así como el tiempo de residencia en el UV. • Relacionar el comportamiento fotocatalítico de los compósitos GOs/ TiO2 con sus propiedades físicas y químicas.</texto>
+      </seccion>
+    </objetivo_general>
+    <justificacion>
+      <seccion>
+        <titulo>Justificación</titulo>
+        <texto>La división de la molécula del agua mediante la luz solar para la producción de hidrógeno ofrece la producción de energía limpia y renovable. La producción fotocatalítica de hidrógeno ha recibido una atención significativa en el campo de la investigación energética. El TiO2 es un material potencial para la producción fotocatalítica de hidrógeno. Sin embargo, limitaciones como: la amplia banda de energía, la inadecuada eficiencia de separación de carga y las limitadas propiedades de transferencia de carga han obstaculizado en gran medida la aplicación del TiO2. Las propiedades del TiO2 para su aplicación siguen siendo mejoradas para obtener un mejor desempeño. Los materiales del grafénicos se encuentran entre los pocos candidatos que cumplen todas las condiciones para potenciar al TiO2, sin embargo, el tiempo de síntesis, la calidad de la hoja y la preservación de las propiedades teóricas de los materiales grafénicos son la razón de esta investigación. El presente trabajo muestra un método de síntesis del óxido de grafeno (GO) con hojas de alta calidad, mediante la sustitución del H2SO4 por una solución piraña 5:1 en el método desarrollado por Tour con un tiempo de oxidación mínimo requerido para realizar un anclaje fotoasistido por luz UV al TiO2, de esta manera modificar el rango de absorción electromagnética hacia el espectro visible.</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>Hipótesis.</titulo>
+        <texto>Los compósitos obtenidos por anclaje fotónico de dióxido de titanio y superficies grafénicas con mayor grado de oxidación, presentan una interacción electrónica y propiedades fotocatalíticas apropiadas para la evolución de hidrógeno bajo luz visible.</texto>
+      </seccion>
+    </hipotesis>
+    <resultados>
+      <seccion>
+        <titulo>Fotocatálisis</titulo>
+        <texto>La Fig. Los resultados de la evaluación fotocatalítica de los compósitos GOs/ TiO2 indican un mejor desempeño que sus precursores, alcanzando a generar H2 alrededor de 20 veces más que el P25 esto puede ser atribuido a que los materiales GOT y GOP actúan como colector de electrones y la existencia de una alta movilidad de cargas, característica que se atribuye a su naturaleza 2D, aunado a la conjugación del enlace pi (M. Con base en los resultados obtenidos la muestra GOP/ TiO2 presenta un desempeño fotocatalíco mejor que el de sus precursores, el incremento de la conductividad de los electrones de la superficie grafénica permite el transporte de cargas desde el TiO2 hasta dicha superficie, asegurando la separación de cargas; por lo que la adición del semiconductor GOP al TiO2 incrementa el número de sitios activos para las reacciones fotocatalíticas debido a su área superficial La existencia del O2 intercalado no sólo mantiene la distancia para que la piraña acceda y oxide las partes internas de las partículas de grafeno, sino que también permite que los agentes oxidantes se distribuyan de una mejor manera y así, generar más grupos que contengan oxígeno en las hojas de grafeno. Estos grupos oxigenados facilitan la dispersión de las hojas de grafeno y su exfoliación mediante sonicación en soluciones acuosas. El GOP obtenido mediante nuestro método tiene un alto grado de oxidación, mientras que los análisis UV, XPS y Raman han demostrado que retiene más anillos aromáticos; además, el estudio morfológico demuestra la producción de grandes láminas de GO multicapa. El compósito GOP/ TiO2 es un material no poroso de área superficial específica de 49 m2 /gcat. El compósito GOP/ TiO2 tiene una brecha de banda prohibida de transición indirecta de 2.19 eV, mientras que la brecha del GOT/ TiO2 es de 2.6 eV su transición es indirecta. Sorprendentemente, presentan posiciones de borde de banda adecuadas para el potencial de reducción del agua en un entorno neutro. Sus movilidades de portadores de carga son comparables con el TiO2 para el GOT/ TiO2 y para el GOP/ TiO2 es comparable con las determinadas mediante simulación para materiales 2D. En particular, el GOP/ TiO2 presenta una movilidad de huecos tan alta como 3.28 × 10 3 cm2 V-1 s-1. La excepcional movilidad de los portadores da lugar a una rápida migración de los electrones y huecos fotogenerados hacia la superficie del semiconductor para participar en la reacción redox. El compósito GOP/ TiO2.muestra una mejor actividad fotocatalítica que sus precursores con una producción de hidrógeno de 766 mol/g h en 1 h contra 624 en la producción de TiO2en 24h.</texto>
+      </seccion>
+    </resultados>
+    <otros>
+      <seccion>
+        <titulo>AGRADECIMIENTOS</titulo>
+        <texto>A quien, con preocupación, amor y paciencia, ha estado a mi lado luchando en las tormentas de la vida. En ocasiones resulta herida, pero no se aparta, pues me protege hasta de mí misma. Gracias por todos los días confiar en mí, por iluminar mis días oscuros y decir que yo puedo con eso y mucho más. Gracias por esos licuados de fresa matutinos después de una noche de bloqueo y frustración, que para mí son una estación de descanso en un maratón. Este logro no es solo mío, en realidad es todo suyo. Si, así es mamá, usted es sin duda alguna la razón, por la que soy lo que soy. Dedicado con todo mi amor a mi mami Cony Majalca. v RECONOCIMIENTOS A la Dra. Virginia Collins Martínez, por su guía y compromiso, por estar presente hombro a hombro apoyándome siempre. Un gran agradecimiento a los doctores Alfredo Aguilar Elguezabal, José G. Murillo Ramírez, Sion Federico Olive Martínez y Alejandro López Ortiz, por sus aportes, consejos y disposición para el desarrollo de esta tesis. Una mención especial a los técnicos: Miguel Méndez, Juan Pantoja, Jesús Salinas, Raúl Ochoa, Karla Campos, Cesar Leyva, Ernesto Guerrero, Isaak González y Luis de la Torre por sus comentarios, enseñanzas y consejos. Al Consejo Nacional de Ciencia y Tecnología (CONACYT), del cual recibí financiamiento para cursar mis estudios de doctorado.</texto>
+      </seccion>
+      <seccion>
+        <titulo>LISTA DE TABLAS</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Hidrógeno</titulo>
+        <texto>Considerado un vector energético, el Hidrógeno fue aplicado por primera vez en la industria aeroespacial por globos de reconocimiento, incluso un siglo más tarde fue usado como combustible de propulsión para dirigibles El uso masivo del hidrógeno en su aplicación como combustible en motores de vehículos terrestres, aéreos y marinos, se vio mermado por el auge del carbón y los combustibles fósiles como ya se había mencionado, este hecho aunado a los daños causados con su uso hizo que el hidrógeno fuera considerado, en mayor instancia, para aplicaciones en la industria química y petroquímica, de esta forma se mantuvo una importante producción de éste. La incertidumbre causada por el uso creciente de los combustibles fósiles respecto a su agotamiento, el impacto en el ambiente, aunado a el comienzo de la era aeroespacial, han propiciado un impulso importante, sobre todo, en la industria automotriz por el empleo en gran escala del hidrógeno. El mayor beneficio de usar hidrógeno radica en la producción de agua cuando se combustiona, lo que se traduce en cero emisiones de gases efecto invernadero, por esta razón es el sustituto idóneo para los derivados del petróleo, no obstante, el inconveniente que presenta es que no es un combustible primario, por lo que debe ser manufacturado. Otro beneficio que presenta este vector energético es que se puede transportar energía, por lo que es posible almacenarla para luego convertirla en electricidad Para la obtención del hidrógeno, debe considerarse que materias primas serán usadas. Considerando que el hidrógeno está presente en los organismos vivos, animales y vegetales, es posible usar biomasa como materia prima, además también está presente en el biogás y todos los derivados de los combustibles fósiles; pero la principal fuente de hidrógeno es el mar Cabe mencionar, que obtener hidrógeno dividiendo la molécula del agua, es una tarea complicada, pues dicha molécula es muy estable, de tal forma que ocupa energía externa para separar el hidrógeno del oxígeno, ya sea por el método electroquímico en una celda de combustible o el método fotocatalítico empleando la luz solar y un semiconductor fotocatalizador 1.1.2 Fotocatálisis. Entre todas las posibles tecnologías que han sido desarrolladas para la producción de hidrógeno, la fotocatálisis heterogénea presume un gran potencial dado que se aprovecha en gran medida la energía solar ya sea para degradación de contaminantes en el agua o la producción de hidrógeno mediante la división de esta misma molécula. Justamente por sus características un sistema fotocatalítico en particular es atractivo para la comunidad científica dado que para que se lleve a cabo la fotocatálisis es necesario el uso de una fuente de luz para poder hacer la división de la molécula del agua Si se hace uso de la luz solar, entonces de esta manera, se estaría aprovechando un recurso renovable y hasta cierto punto sin límites, por lo que el "Watter splitting", es por hoy una de las técnicas de más interés de investigación. Desde que fue descubierta por Fujishima en 1972 Por lo tanto, producir hidrógeno cuando incidía luz en la superficie, aprovechar aproximadamente un 44% dado que su rango de absorción se encuentra en el rango visible del espectro electromagnético, en lugar de solo un 4% de la luz solar, como es el caso del TiO2 en el experimento de Fujishima, es uno de los objetivos a alcanzar en el presente trabajo</texto>
+      </seccion>
+      <seccion>
+        <titulo>Semiconductores Fotocatalíticos.</titulo>
+        <texto>Partiendo de la necesidad de encontrar un material semiconductor con propiedades adecuadas para esa función; el dióxido de titanio (TiO2), es un semiconductor que tiene estabilidad fisicoquímica, toxicidad nula y bajo precio, características valiosas en un material fotocatalítico con una amplia gama de aplicaciones en la purificación ambiental y la producción de hidrógeno. Los semiconductores hechos de TiO2 muestran una gran propiedad fotocatalítica en la región ultravioleta, pero tienen una actividad fotocatalítica limitada en la región de la luz visible El principio básico de la fotocatálisis es detener la recombinación del par electrónhueco fotogenerado (H.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Heterouniones con materiales carbonosos.</titulo>
+        <texto>La actividad fotocatalítica puede incrementarse utilizando materiales con alta movilidad de portadores de carga y alta capacidad de mantener la densidad eléctrica, lo que motiva el estudio de fotocatalizadores de TiO2 con materiales carbonosos Particularmente los semiconductores base grafénica en combinación con el TiO2 exhiben cualidades prometedoras en el campo de la fotocatálisis, debido a su área específica alta, estructura flexible, una movilidad de cargas alta, estabilidad química y su interesante conductividad tanto térmica como eléctrica 1.1.5 Materiales grafénicos. Se busca alcanzar la producción en masa de materiales grafénicos y para ello se han desarrollado varios métodos de síntesis, campo de investigación que ha tomado impulso en la última década, dado que los tiempos de síntesis son aún muy largos. Desde 1958 cuando surgió el método Hummers</texto>
+      </seccion>
+      <seccion>
+        <titulo>Fotocatálisis</titulo>
+        <texto>Para que la fotocatálisis (Fig.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Semiconductores Fotocatalizadores.</titulo>
+        <texto>Para que un material semiconductor sea elegible para ser usado en la fotocatálisis heterogénea debe cumplir con las siguientes características 1. Banda energética prohibida debe estar comprendida entre 1.7 y 3.2 eV. 2. Adecuada absorción de la luz. 3. Alta movilidad de portadores. 4. Las posiciones de los bordes de banda prohibida deben envolver los potenciales de reducción y oxidación de agua. 5. No toxico 6. Químicamente estable. Más a detalle el proceso fotocatalítico inicia cuando, fotones de energía igual o más grande que la energía correspondiente a la banda prohibida son absorbidos por el semiconductor, posteriormente un electrón es promovido de tope de la B.V hacia el fondo de la B.C generando un hueco en la B.V. esos pares electrón-hueco se pueden recombinar Fig.</texto>
+      </seccion>
+      <seccion>
+        <titulo>2-2.</titulo>
+        <texto>El éxito de tener un buen proceso fotocatalítico depende la relación entre el proceso de transferencia de cargas y su desactivación por recombinación</texto>
+      </seccion>
+      <seccion>
+        <titulo>Semiconductores fotocatalíticos base carbonosa (SC)</titulo>
+        <texto>Las heterouniones S-C se consideran actualmente para muchas aplicaciones, enfocadas principalmente para abordar problemas ambientales. En particular, los que incluyen CNT han desviado la atención hacia aplicaciones fotocatalíticas. Estos materiales mostraron un mejor desempeño en su actividad fotocatalítica en comparación con el TiO2 puro. La mejora se debió a la recombinación más lenta de los pares electrón-Fig. Es posible observar que la actividad fotocatalítica varia conforme varía el método de síntesis y las condiciones de la evaluación fotocatalítica</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales Grafénicos</titulo>
+        <texto>El grafeno es considerado como un material ideal para la fotocatálisis debido a su capacidad de absorción y sus interesantes propiedades fisicoquímicas, por ello se considera la producción en masa de este. A partir de ese momento la comunidad científica ha buscado solucionar el problema de la síntesis a gran escala, pero sobre todo acortar los tiempos de síntesis, sin que se vea afectada la calidad del material. Como se ha mencionado, el descubrimiento del grafeno el 2004 por Novoselov, los materiales grafénicos se ha sintetizado mediante métodos mecánicos, y químicos, estos materiales de estructura bidimensional poseen hibridaciones sp 2 Dado esta estructura electrónica permite al grafeno tener electrones deslocalizados π, lo que hace que tenga una excelente conductividad, sus aplicaciones van desde el almacenamiento de energía</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis del óxido de grafeno.</titulo>
+        <texto>Una vez establecida la importancia del grafeno y sus derivados unos de los más relevantes es el GO y no solo para producir diversos dispositivos o mejorar las propiedades de los materiales con los que se une, incluso es un precursor para sintetizar grafenos mediante su reducción química. Sin embargo, para sintetizar GO se ha desarrollado varios métodos desde 1859 con Brodie Por otro lado han surgido investigaciones para producir grafeno de alta conductividad esto mediante la oxidación son solución piraña, donde Savaram 2015 hace una oxidación durante 5 días obteniendo hojas de óxido de grafeno con una restitución de la hibridación sp2 bastante adecuada para su aplicación en dispositivos electrónicos Mgheer &amp; H Abdulrazzak, 2016). khurshid y colaboradores hicieron un estudio de la influencia de la solución piraña acida y básica en los fenómenos de superficie el grafito culla oxidación tardo 1 día En años recientes se hizo una propuesta de síntesis donde es necesario expandir el grafito con un pretratamiento de solución piraña El conocimiento de las propiedades electrónicas de un material semiconductor fotocatalíco.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Efecto hall</titulo>
+        <texto>Las mediciones del efecto Hall han sido herramientas valiosas para la caracterización de materiales desde su descubrimiento en 1879. El efecto Hall es medible cuando la combinación de un campo magnético a través de una muestra y una corriente a lo largo de la misma crea una corriente eléctrica perpendicular, tanto al campo magnético como a la corriente, ésta a su vez crea una tensión transversal que es perpendicular tanto al campo magnético como a la corriente Fig. Donde la Fuerza de Lorentz esperada está dada por: Donde  is es la velocidad del portador en movimiento, e es la carga y B es el campo. La geometría de los tres vectores F, v y B son ortogonales entre sí, mientras que F y v están en el plano de la placa, el vetor v tiene la misma dirección que el fulo de electrones I, por lo que la fuerza de Lorentz F está en la dirección transversal en la placa. La fuerza de Lorentz causa la existencia un potencial eléctrico incorporado generado en la dirección transversal debido a los portadores desviados. este potencial incorporado Dado que el caso simple que se está examinando, v y B son ortogonales y la densidad de corriente 𝐽=nev (en el caso de que uno de los portadores, electrones o huecos, sea dominante, n es la concentración de portadores), el campo eléctrico: Dado que la I y el voltaje de Hall VH están relacionadas con las dimensiones de la placa o la muestra y considerando w la longitud transversal tenemos: (2.5) RH es el coeficiente de Hall. En un caso práctico las correcciones que se deben hacer están contempladas en las mediciones hechas por el equipo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Método de Van der Pauw</titulo>
+        <texto>Considerando que el modelo de medición de efecto hall toma en cuenta una barilla rectangular para su medición, en ocasiones no es conveniente seguir esta norma, sobre todo si la cantidad de la muestra es limitada o simplemente es pequeña. Van de Paw es un medo que presenta una opción para la medición de muestras complejas, donde solo son requeridos cuatro contactos, la única condición es que se encuentren en la orilla de ser posible, además de poseer un espesor constante Fig. En cada variante mostrada en la Fig. La metodología experimental utilizada para la síntesis de fotocatalizadores se discute en detalle en las siguientes secciones. El objeto del cual es sintetizar un semiconductor que pueda utilizar la energía solar para la descomposición del agua en hidrógeno y oxígeno.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Método de síntesis para GOs/TiO2</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Síntesis del GOs/TiO2</titulo>
+        <texto>Para sintetizar el compósito de óxido de grafeno /dióxido de titanio (GOs/TiO2), cierta cantidad de GOs (GOT o GOP) y TiO2 (lo necesario para obtener 10 % en peso de óxido de grafeno (GO) fue suspendida en una solución acuosa al 30% de etanol y utilizando un baño ultrasónico (Branson 2510) a una frecuencia de 40 kHz por 30 min, por separado 1 g de dióxido de titanio (P25) al igual que el GO el P25 también es sometido a ultrasonido para obtener una suspensión homogénea, transcurridos los 30 min la suspensión de GO es vertida en la suspensión de TiO2, continuando la exposición al ultrasonido hasta alcanzar 60 min. La muestra se colocó dentro de un sistema de fotorreacción bajo radiación Ultravioleta de una lámpara de vapor mercurio de 250 W y agitación continua por 3h, la solución resultante fue llevada a sequedad en una parrilla a 85°C.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Difracción de rayos X</titulo>
+        <texto>La separación del plano en cada uno de los materiales sintetizados fue estudiada, haciendo uso de un difractómetro Phillips XPERT PRO, el cual utilizó una radiación de cobre Cu Kα con un monocromador de grafito. Para obtener los patrones de difracción, con un barrido angular 2 de 5° a 90°, con un paso de 0.01 y tiempo de exposición 1 min.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Microscopia electrónica de barrido y transmisión.</titulo>
+        <texto>Para analizar la morfología y hacer una estimación de la separación de las hojas del GO, las muestras fueron analizadas en el microscopio electrónico de barrido de emisión de campo JEM-2200FS y en el microscopio electrónico de transmisión TEM Hitachi 7700</texto>
+      </seccion>
+      <seccion>
+        <titulo>Área específica BET</titulo>
+        <texto>La evaluación del área superficial específica de las muestras se hizo mediante el equipo Autosorb-1 marca Quantachrome utilizando el método de adsorción de N2 de 0.05 hasta 0.3 de presión relativa (p/p0).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Raman</titulo>
+        <texto>La espectroscopia Raman, que es la técnica más poderosa para la caracterización de grafeno y materiales de óxido de grafeno, se ha utilizado para medir con precisión defectos, cambios estructurales, así como el número de capas. Basada en el análisis de la luz dispersada por un material cuando incide sobre él un haz de luz monocromática. Una pequeña fracción de la luz se dispersa de forma inelástica bajo pequeños cambios de frecuencia, lo cual es característico del material que se analiza y es independiente de la frecuencia de la luz incidente. El equipo utilizado fue el LabRam HR VIS-633 Objetivos de 10X,50X,100X. Y rejillas de 600 y 1800 groves/mm.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Voltametría Cíclica</titulo>
+        <texto>La voltamperometría cíclica se realizó mediante el uso de una celda de tres electrodos, implementando una barra de Carbón gráfico como contraelectrodo, un electrodo de referencia es Ag/AgCl KCl3M (0.21 V vs NHE), un electrodo de trabajo de carbón vítreo de 0.5 cm de diámetro (0.196 cm2 de área) y ferricianuro de potasio dihidratado (K4Fe(CN)6. 2 H2O) (ph7 aprox.) 0.1 M, como electrolito en la celda electroquímica. El equipo usado fue bipotenciostato modelo AFCBP1 PINE INSTRUMENTS, con un barrido de 40 ciclos con una velocidad de 200 mv/s y 3 ciclos con una velocidad de 100 mV/s para la lectura. En la preparación del electrodo se dispersaron 80 L de isopropanol, 0.5 L de nafión y 30 mg del material a analizar por 10 minutos mediante sonicación, seguido del depósito una gota de dicha dispersión, sobre el electrodo de carbón vítreo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Efecto Hall</titulo>
+        <texto>El equipo usado para esta caracterización fue el HCS1 que permite la caracterización de materiales semiconductores en cuanto a sus propiedades de transporte eléctrico, en particular la movilidad, la densidad de portadores de carga y la resistividad. Cuenta con Imanes permanentes de hasta 0,70 T de campo continuo. Diámetro de los polos 120 mm. Configuración de dos imanes para la medición bipolar. Una fuente de corriente directa de 1nA hasta 125mA y una de corriente alterna de 16 μA a 20 mA con una impedancia de salida mayor a 100 GΩ y una frecuencia de 1 mHz a 100 kHz. Un sensor de 5 mm x 5 mm.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Fotocatálisis</titulo>
+        <texto>Para los GOs y los compósitos con TiO2, la producción de hidrogeno se evaluó mediante cromatografía de gases con un cromatógrafo Clarus 500 de Perkin Elmer equipado con una columna hayesep usando N2 como gas de arrastre. Se usó como fuente de energía una lámpara de halogenuros metálicos, la cual fue caracterizada en un espectrómetro de fibra óptica, la Fig. Se tomaron alícuotas de 0.2 mL con una jeringa cada hora por 8 repeticiones, bajo agitación e irradiación constante. En la Fig.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Difracción de Rayos X</titulo>
+        <texto>Las muestras fueron analizadas mediante la técnica DXR con el fin de analizar la cristalinidad y el espacio Interlaminar de grafito (Gr), esto antes y después de su exposición a los agentes oxidantes. La Fig. El patrón de difracción correspondiente a la muestra GOT muestra un cambio dentro de su estructura cristalina físico y químico al que fue sometido la muestra, es decir, presenta un nivel de oxidación mayor con respecto a la muestra Gr dado que apareció una señal en el ángulo 9.8 el cual, equivale a una distancia d= 0.9 nanómetros, indicando que hubo grupos oxidados que se intercalaron al igual que algunas moléculas de agua, sin embargo la señal existente en el ángulo 25.36° indica que esta síntesis de oxidación se llevó a cabo de manera parcial esto pudiera ser causado por el tiempo limitado de exposición a los agentes oxidantes. También podemos observar la aparición de una señal en el ángulo 2≈43.44° Partiendo de este parámetro se puede inferir que la muestra GOP presenta un grado de oxidación mayor que la muestra Gr y la muestra GOT, dado que la intensidad del pico en el ángulo 2≈ 26.58° ha decrecido y surge en el patrón de difracción un pico en el ángulo 2≈ 10.26° correspondiente a 0.86 nanómetros, este corrimiento es atribuido principalmente a la intercalación de agua y grupos funcionales oxidados tales como epóxidos, hidroxilos, carbonilos y carboxilos los cuales se unen al plano base de la hoja de carbón durante el proceso de oxidación En la Fig.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Raman</titulo>
+        <texto>El grafito tiene una estructura cristalina en la que los átomos están distribuidos de manera hexagonal en cada capa y la secuencia de apilamiento de las láminas es ABAB. Existen cuatro átomos por cada celda unitaria con 2 átomos localizados en el mismo plano, donde la distancia interatómica en el arreglo bidimensional corresponde a 1.421 A° y 2 átomos localizados en un plano que se desplaza por la mitad de esa distancia, con una separación Interplanar en el eje c (3.354 A°), indicando que la interacción entre láminas es débil, este arreglo estructural corresponde al grupo espacial (P63/mmc). En algunos tipos de grafito la distancia inter planar corresponde a la distancia interatómica, esto se debe a que el acomodo de los átomos en la celda unitaria no está desplazado y forman un enlace covalente en todas las direcciones. Una vez puesto en contexto el acomodo de los átomos dentro de la estructura del grafito analizado se puede observar que la Fig. La aparición de la banda 1327 cm -1 (D una vibración de segundo orden) es originada por el acoplamiento energético de dos fonones ópticos transversales, esto pudiera ser ocasionado por defectos en el plano o fuera de él y de acuerdo con lo explicado por Thomsen, las dobles resonancias son responsables de la obtención del modo D inducido por defectos en el grafito y de su peculiar dependencia de la energía de excitación Por otro lado, tenemos la banda en el 2665 cm -1 (G' en la zona 2D). La banda 2D se debe a la dispersión Raman de segundo orden por fonones ópticos transversales en el plano cerca del límite de la zona de Brillouin y está estrechamente relacionada con la estructura de banda electrónica. El débil pico en torno a 2460 cm -1 presente en la muestra GRM, se asigna a una combinación de un fonón óptico D y un fonón longitudinal acústico (D') y, por tanto, se denomina D + D' La zona 2D puede ser usada para determinar el número de hojas del grafeno ya que es altamente sensible al apilamiento de las hojas de grafeno. Tener una señal lorentziana afilada e intensa es característica de monocapa de grafeno, mientras que el ensanchamiento de esta banda indica la presencia de óxido de grafeno de pocas capas, para el caso de la muestra GOT el incremento en la intensidad de la frecuencia 2660 cm -1 y 2938 cm -1 es indicativo de un apilamiento de las hojas dicho comportamiento es consistente con un óxido de grafeno reducido reportado por Thakur y Karak en 2012 Haciendo el análisis del espectro Raman, de la muestra GOP, es perceptible la aparición de nuevas frecuencias de vibración, en la Fig. Tabla 3 relación ID/IG de las muestras GOT y GOP</texto>
+      </seccion>
+      <seccion>
+        <titulo>Espectrometría de Fotoelectrones de rayos X (XPS)</titulo>
+        <texto>En la Fig. Por esta razón se ha considerado que el ancho medio (FWHM) y el área del pico C1s, pueden ser usados para describir el carácter grafítico de la superficie (C. Tabla 4 Análisis de composición atómica XPS de las muestras GRM, GOT, GOP La concentración atómica cuantificada de los compósitos, calculada mediante el análisis XPS se muestra en la Tabla 4, como ya fue mencionado con anterioridad, la comparación del parámetro FWHM en el pico C1s de los compósitos, respecto a los óxidos de grafeno precursores, disminuye levemente, lo que sugiere la ocupación de sitos activos por parte del TiO2 en la superficie del óxido de Grafeno. Respecto a la aportación de Oxígeno por parte de TiO2 es analizada en la Fig.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Reflectancia Difusa</titulo>
+        <texto>La absorbancia (Fig. El borde de absorción de los compósitos GOT/ TiO2 y GOP/ TiO2, cambia al rango de luz visible en comparación con P25. Además, se puede destacar que GOT/ TiO2 muestra una absorbancia más débil que la de GOP/ TiO2 en la región de la luz visible. La estimación de la banda prohibida de las muestras TiO2, GOT/ TiO2, GOP/ TiO2 se generó a partir de la función Kubelka-Munk (Fig.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Voltametría cíclica</titulo>
+        <texto>El análisis superficial se realizó a todos materiales mediante curvas de Voltametría cíclica, se muestran en la Fig. Epa2=1.63 eV es mayor que la intensidad de los picos correspondientes del electrodo GC desnudo, lo que infiere una reacción reversible en los inicios negativos del barrido El voltamperograma mostrado en la Fig. En la Fig. En el material GOP/TiO2 (Fig.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Efecto Hall</titulo>
+        <texto>Los datos de la tabla 5 indicaron que el GR y la heterounión P25 (TiO2 anatasa y rutilo) prístinos, son semiconductores de tipo n, mientras que los óxidos de grafeno y sus compósitos con el P25, son semiconductores tipo p. La densidad de portadores de carga mayoritarios en el TiO2 (P25) medida fue de -1.7 x10 16 cm -3 y su movilidad Hall fue de -82 cm 2 V -1 s-1 validada por los resultados obtenidos por Maity y colaboradores en su estudio de la dinámica de los portadores de carga para monocristales de anatasa y rutilo Considerando la estructura cristalina de GR, donde la distancia entre átomos de carbono es de 1.4A° y la distancia ente las hojas es de 3.35 A° denota que las propiedades eléctricas del grafito son anisotrópicas, para este material se midió una densidad de portadores de carga de 10 19 cm -3 y una movilidad electrónica de 15 cm 2 V -1 s-1 , resultando comparable a los resultados obtenidos por Klein y colaboradores donde determinaron que la concentración de electrones y huecos es del orden de 10 18 cm -3 a temperatura ambiente El incremento de la resistividad en las muestras GOT y GOP es causado por la presencia de los grupos funcionales oxidados en la superficie del grafeno. Como se puede observar la resistividad de la muestra GOP es mayor que la correspondiente a la muestra GOT, lo que corrobora los resultados obtenidos en el análisis XPS, DRX, donde se infiere que la muestra GOP tiene un nivel mayor de oxidación que la muestra GOT Las mediciones de efecto hall en polvo mostraron que la densidad de portadores mayoritarios de los materiales GOT/TiO2 y GOP/TiO2 es de 4.4*10 16 /cm 3 y 8.9*10 15 /cm 3 respectivamente, ambos corresponden a huecos, siendo así semiconductores tipo p La movilidad evidentemente alta del GOP/TiO2 puede deberse como ya se había mencionado antes, a la distribución y tipo de grupos funcionales oxidados presentes en la hoja de grafeno, así como los defectos y el área específica bet de la superficie grafénica, pues dichas "impurezas" en la superficie dictan la distribución de las nanopartículas de TiO2. Respecto a la barrera de potencial existente debido a los límites de grano, lo cual hace que la concentración de portadores de carga incremente, no es determinante para los materiales bidimensionales base grafeno, debido a esta característica el GOP de la muestra GOP/TiO2 , al momento de recuperar su carácter hexagonal los portadores de carga son capaces de superar esa barrera por efecto túnel aumentando así la movilidad de portadores de carga en el material</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Review of photocatalytic water-splitting methods for sustainable hydrogen production</titulo>
+      <autores>
+        <autor>C Acar</autor>
+        <autor>I Dincer</autor>
+        <autor>G Naterer</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Oxidation of multi-walled carbon nanotubes in acidic and basic Piranha mixture</titulo>
+      <autores>
+        <autor>T Al Mgheer</autor>
+        <autor>F Abdulrazzak</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>XPS and structural studies of high quality graphene oxide and reduced graphene oxide prepared by different chemical oxidation methods</titulo>
+      <autores>
+        <autor>R Al-Gaashani</autor>
+        <autor>A Najjar</autor>
+        <autor>Y Zakaria</autor>
+        <autor>S Mansour</autor>
+        <autor>M Atieh</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structural characterization of graphene oxide: Surface functional groups and fractionated oxidative debris</titulo>
+      <autores>
+        <autor>E Aliyev</autor>
+        <autor>V Filiz</autor>
+        <autor>M Khan</autor>
+        <autor>Y Lee</autor>
+        <autor>C Abetz</autor>
+        <autor>V Abetz</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Properties of Graphene Electronic Properties 3.1.2. THE BAND STRUCTURE OF GRAPHENE. Graphene</titulo>
+      <autores>
+        <autor>C Allen</autor>
+        <autor>J Warner</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Honeycomb carbon: A review of graphene</titulo>
+      <autores>
+        <autor>M Allen</autor>
+        <autor>V Tung</autor>
+        <autor>R Kaner</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene and its electrochemistry-an update</titulo>
+      <autores>
+        <autor>A Ambrosi</autor>
+        <autor>C Chua</autor>
+        <autor>N Latiff</autor>
+        <autor>A Loo</autor>
+        <autor>C Wong</autor>
+        <autor>A Eng</autor>
+        <autor>A Bonanni</autor>
+        <autor>M Pumera</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tuning the surface chemistry of graphene flakes: new strategies for selective oxidation</titulo>
+      <autores>
+        <autor>M Araújo</autor>
+        <autor>O Soares</autor>
+        <autor>A Fernandes</autor>
+        <autor>M Pereira</autor>
+        <autor>C Freire</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Semiconductor Photocatalysis for Water Purification</titulo>
+      <autores>
+        <autor>C Belver</autor>
+        <autor>J Bedia</autor>
+        <autor>A Gómez-Avilés</autor>
+        <autor>M Peñas-Garzón</autor>
+        <autor>J Rodriguez</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enhanced synthesis method of graphene oxide</titulo>
+      <autores>
+        <autor>Z Benzait</autor>
+        <autor>P Chen</autor>
+        <autor>L Trabzon</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electronic transport in graphene: Towards high mobility</titulo>
+      <autores>
+        <autor>K Bolotin</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Electrochemical Behavior of Carbon Materials</titulo>
+      <autores>
+        <autor>A Bolzán</autor>
+        <autor>A Arvia</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>On the Atomic Weight of Graphite</titulo>
+      <autores>
+        <autor>B Brodie</autor>
+      </autores>
+      <fecha>1859</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effects of Tip Sonication Parameters on Liquid Phase Exfoliation of Graphite into Graphene Nanoplatelets</titulo>
+      <autores>
+        <autor>X Cai</autor>
+        <autor>Z Jiang</autor>
+        <autor>X Zhang</autor>
+        <autor>X Zhang</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical response of glassy carbon electrodes modified using graphene sheets of different sizes</titulo>
+      <autores>
+        <autor>K Castro</autor>
+        <autor>S Oliveira</autor>
+        <autor>R Curti</autor>
+        <autor>J Araújo</autor>
+        <autor>L Sassi</autor>
+        <autor>C Almeida</autor>
+        <autor>E Ferreira</autor>
+        <autor>B Archanjo</autor>
+        <autor>M Cabral</autor>
+        <autor>A Kuznetsov</autor>
+        <autor>L Sena</autor>
+        <autor>C Achete</autor>
+        <autor>E Elia</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis of Visible -Light Responsive Graphene oxide / TiO 2 Composites with p / n Heterojunction</titulo>
+      <autores>
+        <autor>C Chen</autor>
+        <autor>W Cai</autor>
+        <autor>M Long</autor>
+        <autor>B Zhou</autor>
+        <autor>Y Wu</autor>
+        <autor>D Wu</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photocatalytic Hydrogen Production: A Rift into the Future Energy Supply</titulo>
+      <autores>
+        <autor>K Christoforidis</autor>
+        <autor>P Fornasiero</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>One-pot reduction of graphene oxide at subzero temperatures</titulo>
+      <autores>
+        <autor>P Cui</autor>
+        <autor>J Lee</autor>
+        <autor>E Hwang</autor>
+        <autor>H Lee</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of Higher Carrier Mobility of the Reduced Graphene Oxide-Zinc Telluride Nanocomposite on Efficient Charge Transfer Facility and the Photodecomposition of Rhodamine B</titulo>
+      <autores>
+        <autor>D Das</autor>
+        <autor>M Das</autor>
+        <autor>S Sil</autor>
+        <autor>P Sahu</autor>
+        <autor>P Ray</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Two-step process for programmable removal of oxygen functionalities of graphene oxide: functional, structural and electrical characteristics</titulo>
+      <autores>
+        <autor>M Dhayal</autor>
+        <autor>K Dave</autor>
+        <autor>K Park</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tailorable synthesis of highly oxidized graphene oxides via an environmentally-friendly electrochemical process</titulo>
+      <autores>
+        <autor>A Díez-Pascual</autor>
+        <autor>C Sainz-Urruela</autor>
+        <autor>C Vallés</autor>
+        <autor>S Vera-López</autor>
+        <autor>M Andrés</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene mechanical properties. 2D Materials: Properties and Devices</titulo>
+      <autores>
+        <autor>C Dimarco</autor>
+        <autor>R Li</autor>
+        <autor>S Rastogi</autor>
+        <autor>J Hone</autor>
+        <autor>J Kysar</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanism of graphene oxide formation</titulo>
+      <autores>
+        <autor>A Dimiev</autor>
+        <autor>J Tour</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bulletin of the Chemists and Technologists of Bosnia and Herzegovina Graphite , Graphite Oxide , Graphene Oxide , and Reduced Graphene Oxide as Active Materials for Electrochemical Double Layer Capacitors : A comparative Study</titulo>
+      <autores>
+        <autor>K Dž</autor>
+        <autor>F Korać</autor>
+        <autor>S Gutić</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Unusual inherent electrochemistry of graphene oxides prepared using permanganate oxidants</titulo>
+      <autores>
+        <autor>A Eng</autor>
+        <autor>A Ambrosi</autor>
+        <autor>C Chua</autor>
+        <autor>F Šaněk</autor>
+        <autor>Z Sofer</autor>
+        <autor>M Pumera</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A highly efficient TiO2-xCx nano-heterojunction photocatalyst for visible light induced antibacterial applications</titulo>
+      <autores>
+        <autor>V Etacheri</autor>
+        <autor>G Michlits</autor>
+        <autor>M Seery</autor>
+        <autor>S Hinder</autor>
+        <autor>S Pillai</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carrier mobility versus carrier density in AlxGa1-xN/GaN quantum wells</titulo>
+      <autores>
+        <autor>J Farvacque</autor>
+        <autor>Z Bougrioua</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Raman spectrum of graphene and graphene layers</titulo>
+      <autores>
+        <autor>A Ferrari</autor>
+        <autor>J Meyer</autor>
+        <autor>V Scardaci</autor>
+        <autor>C Casiraghi</autor>
+        <autor>M Lazzeri</autor>
+        <autor>F Mauri</autor>
+        <autor>S Piscanec</autor>
+        <autor>D Jiang</autor>
+        <autor>K Novoselov</autor>
+        <autor>S Roth</autor>
+        <autor>A Geim</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical photolysis of water at a semiconductor electrode</titulo>
+      <autores>
+        <autor>A Fujishima</autor>
+        <autor>K Honda</autor>
+      </autores>
+      <fecha>1972</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical photolysis of water at a semiconductor electrode</titulo>
+      <autores>
+        <autor>A Fujishima</autor>
+        <autor>K Honda</autor>
+      </autores>
+      <fecha>1972</fecha>
+    </referencia>
+    <referencia>
+      <titulo>TiO2 photocatalysis and related surface phenomena</titulo>
+      <autores>
+        <autor>A Fujishima</autor>
+        <autor>X Zhang</autor>
+        <autor>D Tryk</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green chemistry synthesis of a nanocomposite graphene hydrogel with three-dimensional nano-mesopores for photocatalytic H 2 production3</titulo>
+      <autores>
+        <autor>M Gao</autor>
+        <autor>C Kang Nuo Peh</autor>
+        <autor>W Li Ong</autor>
+        <autor>G Wei Ho</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Multifunctional graphene oxide-TiO2 microsphere hierarchical membrane for clean water production</titulo>
+      <autores>
+        <autor>P Gao</autor>
+        <autor>Z Liu</autor>
+        <autor>M Tai</autor>
+        <autor>D Sun</autor>
+        <autor>W Ng</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphite Oxide:Structure,Reduction and Applications</titulo>
+      <autores>
+        <autor>W Gao</autor>
+      </autores>
+      <fecha>2012-03</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The chemistry of graphene oxide</titulo>
+      <autores>
+        <autor>W Gao</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Origin of Charge Trapping in TiO2/Reduced Graphene Oxide Photocatalytic Composites: Insights from Theory</titulo>
+      <autores>
+        <autor>P Gillespie</autor>
+        <autor>N Martsinovich</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>EL HIDRÓGENO, COMBUSTIBLE DEL FUTURO</titulo>
+      <autores>
+        <autor>L Jpeg Gutiérrez Jodra</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Stacking effects on the electronic and optical properties of bilayer transition Stacking effects on the electronic and optical properties of bilayer transition metal</titulo>
+      <autores>
+        <autor>J He</autor>
+        <autor>K Hummer</autor>
+        <autor>C Franchini</autor>
+      </autores>
+      <fecha>2014-08</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Visible-light photo-assisted synthesis of GO-TiO2 composites for the photocatalytic hydrogen production</titulo>
+      <autores>
+        <autor>B Hernández-Majalca</autor>
+        <autor>M Meléndez-Zaragoza</autor>
+        <autor>J Salinas-Gutiérrez</autor>
+        <autor>A López-Ortiz</autor>
+        <autor>V Collins-Martínez</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparison on graphite, graphene oxide and reduced graphene oxide: Synthesis and characterization</titulo>
+      <autores>
+        <autor>N Hidayah</autor>
+        <autor>W Liu</autor>
+        <autor>C Lai</autor>
+        <autor>N Noriman</autor>
+        <autor>C Khe</autor>
+        <autor>U Hashim</autor>
+        <autor>H Lee</autor>
+      </autores>
+      <fecha>2017-10</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene oxide as a promising photocatalyst for CO 2 to methanol conversion</titulo>
+      <autores>
+        <autor>H.-C Hsu</autor>
+        <autor>I Shown</autor>
+        <autor>H.-Y Wei</autor>
+        <autor>Y.-C Chang</autor>
+        <autor>H.-Y Du</autor>
+        <autor>Y.-G Lin</autor>
+        <autor>C.-A Tseng</autor>
+        <autor>C.-H Wang</autor>
+        <autor>L.-C Chen</autor>
+        <autor>Y.-C Lin</autor>
+        <autor>K.-H Chen</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characterization techniques for graphene-based materials in catalysis</titulo>
+      <autores>
+        <autor>M Hu</autor>
+        <autor>Z Yao</autor>
+        <autor>X Wang</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photothermal Effect Promoting Photocatalytic Process in Hydrogen Evolution over Graphene-Based Nanocomposite</titulo>
+      <autores>
+        <autor>S Hu</autor>
+        <autor>J Geng</autor>
+        <autor>D Jing</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structural Evolution of Hydrothermally Derived Reduced Graphene Oxide</titulo>
+      <autores>
+        <autor>H Huang</autor>
+        <autor>K De Silva</autor>
+        <autor>G Kumara</autor>
+        <autor>M Yoshimura</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of Graphitic Oxide</titulo>
+      <autores>
+        <autor>W Hummers</autor>
+        <autor>R Offeman</autor>
+      </autores>
+      <fecha>1958</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review and recent advances in solar-to-hydrogen energy conversion based on photocatalytic water splitting over doped-TiO2 nanoparticles</titulo>
+      <autores>
+        <autor>M Ismael</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tailoring the characteristics of graphite oxides by different oxidation times</titulo>
+      <autores>
+        <autor>H Jeong</autor>
+        <autor>M Jin</autor>
+        <autor>K So</autor>
+        <autor>S Lim</autor>
+        <autor>Y Lee</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tunable Electrical Conductivity of Individual Graphene Oxide Sheets Reduced at " Low &amp;quot</titulo>
+      <autores>
+        <autor>I Jung</autor>
+        <autor>D Dikin</autor>
+        <autor>R Piner</autor>
+        <autor>R Ruoff</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A Raman spectroscopic investigation of graphite oxide derived graphene</titulo>
+      <autores>
+        <autor>A Kaniyoor</autor>
+        <autor>S Ramaprabhu</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of Acid and Base Piranha Oxidation Reagent on Adsorption Activity of Graphite</titulo>
+      <autores>
+        <autor>A Khurshid</autor>
+        <autor>S Mourad</autor>
+        <autor>A Ismail</autor>
+        <autor>A Abbas</autor>
+        <autor>F Abdulrazzak</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carrier Densities and Mobilities in Pyrolytic Graphite</titulo>
+      <autores>
+        <autor>C Klein</autor>
+        <autor>W Deter Stratjb</autor>
+      </autores>
+      <fecha>1961</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene oxide-TiO2 and reduced graphene oxide-TiO2 nanocomposites: Insight in charge-carrier lifetime measurements</titulo>
+      <autores>
+        <autor>E Kusiak-Nejman</autor>
+        <autor>A Wanag</autor>
+        <autor>Ł Kowalczyk</autor>
+        <autor>J Kapica-Kozar</autor>
+        <autor>C Colbeau-Justin</autor>
+        <autor>M Mendez Medrano</autor>
+        <autor>A Morawski</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>TiO2photocatalyst for water treatment applications</titulo>
+      <autores>
+        <autor>S Lee</autor>
+        <autor>S Park</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hydrothermal etching fabrication of TiO2@graphene hollow structures: mutually independent exposed {001} and {101} facets nanocrystals and its synergistic photocaltalytic effects</titulo>
+      <autores>
+        <autor>H Liu</autor>
+        <autor>S Liu</autor>
+        <autor>Z Zhang</autor>
+        <autor>X Dong</autor>
+        <autor>T Liu</autor>
+      </autores>
+      <fecha>2016-08</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The behavior of graphene oxide trapped at the air water interface</titulo>
+      <autores>
+        <autor>D López-Diaz</autor>
+        <autor>M Merchán</autor>
+        <autor>M Velázquez</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Heterojunction Photocatalysts</titulo>
+      <autores>
+        <autor>J Low</autor>
+        <autor>J Yu</autor>
+        <autor>M Jaroniec</autor>
+        <autor>S Wageh</autor>
+        <autor>A Al-Ghamdi</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study of the Bulk Charge Carrier Dynamics in Anatase and Rutile TiO2 Single Crystals by Femtosecond Time-Resolved Spectroscopy</titulo>
+      <autores>
+        <autor>P Maity</autor>
+        <autor>O Mohammed</autor>
+        <autor>K Katsiev</autor>
+        <autor>H Idriss</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Design of tio2-based materials for photocatalytic environmental applications. Diseño de materiales a base de tio2para aplicaciones fotocatalíticas medioambientales</titulo>
+      <autores>
+        <autor>P Martínez</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis and functionalization of graphene for power electronic aplications</titulo>
+      <autores>
+        <autor>M.-F Mathias</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic and electronic structure of grapheneoxide</titulo>
+      <autores>
+        <autor>K Mkhoyan</autor>
+        <autor>A Contryman</autor>
+        <autor>J Silcox</autor>
+        <autor>D Stewart</autor>
+        <autor>G Eda</autor>
+        <autor>C Mattevi</autor>
+        <autor>S Miller</autor>
+        <autor>M Chhowalla</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Current progress on 3D graphene-based photocatalysts: From synthesis to photocatalytic hydrogen production</titulo>
+      <autores>
+        <autor>Mohd Shah</autor>
+        <autor>N Mohamad Yunus</autor>
+        <autor>R Rosman</autor>
+        <autor>N Wong</autor>
+        <autor>W Arifin</autor>
+        <autor>K Jeffery Minggu</autor>
+        <autor>L</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>TiO2 photocatalysis: Design and applications</titulo>
+      <autores>
+        <autor>K Nakata</autor>
+        <autor>A Fujishima</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enhanced performance by heteroatom-doped reduced graphene oxide-TiO2-based nanocomposites as photoanodes in dye-sensitised solar cells</titulo>
+      <autores>
+        <autor>N Ngidi</autor>
+        <autor>E Muchuweni</autor>
+        <autor>V Nyamori</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Room-temperature electric field effect and carrier-type inversion in graphene films</titulo>
+      <autores>
+        <autor>K Novoselov</autor>
+        <autor>A Geim</autor>
+        <autor>S Morozov</autor>
+        <autor>S Dubonos</autor>
+        <autor>Y Zhang</autor>
+        <autor>D Jiang</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Electric Field Effect in Atomically Thin Carbon Films</titulo>
+      <autores>
+        <autor>K Novoselov</autor>
+        <autor>A Geim</autor>
+        <autor>S Morozov</autor>
+        <autor>D Jiang</autor>
+        <autor>Y Zhang</autor>
+        <autor>S Dubonos</autor>
+        <autor>I Grigorieva</autor>
+        <autor>A Firsov</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The Hall effect in polycrystalline and powdered semiconductors</titulo>
+      <autores>
+        <autor>J Orton</autor>
+        <autor>M Powell</autor>
+      </autores>
+      <fecha>1980</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene coupled TiO2 photocatalysts for environmental applications: A review</titulo>
+      <autores>
+        <autor>N Padmanabhan</autor>
+        <autor>N Thomas</autor>
+        <autor>J Louis</autor>
+        <autor>D Mathew</autor>
+        <autor>P Ganguly</autor>
+        <autor>H John</autor>
+        <autor>S Pillai</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Solar hydrogen: fuel of the near future</titulo>
+      <autores>
+        <autor>M Pagliaro</autor>
+        <autor>A Konstandopoulos</autor>
+        <autor>R Ciriminna</autor>
+        <autor>G Palmisano</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrical conductivity of conductive carbon blacks: Influence of surface chemistry and topology</titulo>
+      <autores>
+        <autor>D Pantea</autor>
+        <autor>H Darmstadt</autor>
+        <autor>S Kaliaguine</autor>
+        <autor>C Roy</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>PH-induced on/off-switchable graphene bioelectronics</titulo>
+      <autores>
+        <autor>O Parlak</autor>
+        <autor>A Turner</autor>
+        <autor>A Tiwari</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>P-n junction characteristics of graphene oxide and reduced graphene oxide on n-type Si(111)</titulo>
+      <autores>
+        <autor>D Phan</autor>
+        <autor>G Chung</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Single-step hydrothermal synthesis of wrinkled graphene wrapped TiO2 nanotubes for photocatalytic hydrogen production and supercapacitor applications</titulo>
+      <autores>
+        <autor>A Police</autor>
+        <autor>M Chennaiahgari</autor>
+        <autor>R Boddula</autor>
+        <autor>S Vattikuti</autor>
+        <autor>K Mandari</autor>
+        <autor>B Chan</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The preparation of synthetic graphite materials with hierarchical pores from lignite by one-step impregnation and their characterization as dye absorbents</titulo>
+      <autores>
+        <autor>T Qiu</autor>
+        <autor>J Yang</autor>
+        <autor>X Bai</autor>
+        <autor>Y Wang</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tunable band gap in few-layer graphene by surface adsorption</titulo>
+      <autores>
+        <autor>R Quhe</autor>
+        <autor>J Ma</autor>
+        <autor>Z Zeng</autor>
+        <autor>K Tang</autor>
+        <autor>J Zheng</autor>
+        <autor>Y Wang</autor>
+        <autor>Z Ni</autor>
+        <autor>L Wang</autor>
+        <autor>Z Gao</autor>
+        <autor>J Shi</autor>
+        <autor>J Lu</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Designing band gap of graphene by B and N dopant atoms</titulo>
+      <autores>
+        <autor>P Rani</autor>
+        <autor>V Jindal</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Role of Peroxide Ions in Formation of Graphene Nanosheets by Electrochemical Exfoliation of Graphite</titulo>
+      <autores>
+        <autor>K Rao</autor>
+        <autor>J Senthilnathan</autor>
+        <autor>Y.-F Liu</autor>
+        <autor>M Yoshimura</autor>
+        <autor>T Cundari</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation, characterization and photocatalytic application of TiO2-graphene photocatalyst under visible light irradiation</titulo>
+      <autores>
+        <autor>X Rong</autor>
+        <autor>F Qiu</autor>
+        <autor>C Zhang</autor>
+        <autor>L Fu</autor>
+        <autor>Y Wang</autor>
+        <autor>D Yang</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Determination of the graphenegraphite ratio of graphene powder by Raman 2D band symmetry analysis</titulo>
+      <autores>
+        <autor>S Roscher</autor>
+        <autor>R Hoffmann</autor>
+        <autor>O Ambacher</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The real graphene oxide revealed: Stripping the oxidative debris from the graphene-like sheets</titulo>
+      <autores>
+        <autor>J Rourke</autor>
+        <autor>P Pandey</autor>
+        <autor>J Moore</autor>
+        <autor>M Bates</autor>
+        <autor>I Kinloch</autor>
+        <autor>R Young</autor>
+        <autor>N Wilson</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon nanotube-TiO2 thin films for photocatalytic applications</titulo>
+      <autores>
+        <autor>M Sampaio</autor>
+        <autor>C Silva</autor>
+        <autor>R Marques</autor>
+        <autor>A Silva</autor>
+        <autor>J Faria</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synergy of oxygen and a piranha solution for eco-friendly production of highly conductive graphene dispersions</titulo>
+      <autores>
+        <autor>K Savaram</autor>
+        <autor>M Kalyanikar</autor>
+        <autor>M Patel</autor>
+        <autor>R Brukh</autor>
+        <autor>C Flach</autor>
+        <autor>R Huang</autor>
+        <autor>M Khoshi</autor>
+        <autor>R Mendelsohn</autor>
+        <autor>A Wang</autor>
+        <autor>E Garfunkel</autor>
+        <autor>H He</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation of structural and electronic properties of graphene oxide</titulo>
+      <autores>
+        <autor>S Saxena</autor>
+        <autor>T Tyson</autor>
+        <autor>S Shukla</autor>
+        <autor>E Negusse</autor>
+        <autor>H Chen</autor>
+        <autor>J Bai</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene Based Electrochemical Sensors and Biosensors: A Review</titulo>
+      <autores>
+        <autor>Y Shao</autor>
+        <autor>J Wang</autor>
+        <autor>H Wu</autor>
+        <autor>J Liu</autor>
+        <autor>I Aksay</autor>
+        <autor>Y Lin</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Two-dimensional semiconductors: recent progress and future perspectives</titulo>
+      <autores>
+        <autor>X Song</autor>
+        <autor>J Hu</autor>
+        <autor>H Zeng</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>ELECTRONIC TRANSPORT PROPERTIES OF GRAPHENE AND GRAPHENE-RELATED MATERIALS</titulo>
+      <autores>
+        <autor>D Srinivasa</autor>
+        <autor>R Pathipati</autor>
+        <autor>G Bratina</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparison of Reduction Products from Graphite Oxide with that from Graphene Oxide for Anode Application in Lithium-ion Batteries and Sodium-ion Batteries</titulo>
+      <autores>
+        <autor>Y Sun</autor>
+        <autor>J Tang</autor>
+        <autor>K Zhang</autor>
+        <autor>J Yuan</autor>
+        <autor>J Li</autor>
+        <autor>D.-M Zhu</autor>
+        <autor>K Ozawa</autor>
+        <autor>L Qin</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electronic structure of graphene oxide and reduced graphene oxide monolayers</titulo>
+      <autores>
+        <autor>D Sutar</autor>
+        <autor>G Singh</autor>
+        <autor>V Divakar Botcha</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Reduced graphene oxide (RGO) on TiO2 for an improved photoelectrochemical (PEC) and photocatalytic activity</titulo>
+      <autores>
+        <autor>M Tayebi</autor>
+        <autor>M Kolaei</autor>
+        <autor>A Tayyebi</autor>
+        <autor>Z Masoumi</autor>
+        <autor>Z Belbasi</autor>
+        <autor>B Lee</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green reduction of graphene oxide by aqueous phytoextracts</titulo>
+      <autores>
+        <autor>S Thakur</autor>
+        <autor>N Karak</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Double resonant raman scattering in graphite</titulo>
+      <autores>
+        <autor>C Thomsen</autor>
+        <autor>S Reich</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Improved synthesis of graphene oxide</titulo>
+      <autores>
+        <autor>J Tour</autor>
+        <autor>D Marcano</autor>
+        <autor>D Kosynkin</autor>
+        <autor>J Berlin</autor>
+        <autor>A Sinitskii</autor>
+        <autor>Z Sun</autor>
+        <autor>A Slesarev</autor>
+        <autor>L Alemany</autor>
+        <autor>W Lu</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Raman Spectrum of Graphite</titulo>
+      <autores>
+        <autor>F Tuinstra</autor>
+        <autor>&amp; Koenig</autor>
+        <autor>J</autor>
+      </autores>
+      <fecha>1970</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photocatalytic water splitting: advantages and challenges</titulo>
+      <autores>
+        <autor>K Villa</autor>
+        <autor>J Galán-Mascarós</autor>
+        <autor>N López</autor>
+        <autor>E Palomares</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene electronics. 2D Materials: Properties and Devices</titulo>
+      <autores>
+        <autor>C Wang</autor>
+        <autor>X Duan</autor>
+        <autor>X Duan</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tailoring oxidation degrees of graphene oxide by simple chemical reactions</titulo>
+      <autores>
+        <autor>G Wang</autor>
+        <autor>X Sun</autor>
+        <autor>C Liu</autor>
+        <autor>J Lian</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Semiconductor heterojunction photocatalysts: Design, construction, and photocatalytic performances</titulo>
+      <autores>
+        <autor>H Wang</autor>
+        <autor>L Zhang</autor>
+        <autor>Z Chen</autor>
+        <autor>J Hu</autor>
+        <autor>S Li</autor>
+        <autor>Z Wang</autor>
+        <autor>J Liu</autor>
+        <autor>X Wang</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High mobility, printable, and solution-processed graphene electronics</titulo>
+      <autores>
+        <autor>S Wang</autor>
+        <autor>P Ang</autor>
+        <autor>Z Wang</autor>
+        <autor>A Tang</autor>
+        <autor>J Thong</autor>
+        <autor>K Loh</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microwave-assisted synthesis of graphene nanocomposites: recent developments on lithium-ion batteries</titulo>
+      <autores>
+        <autor>Y Wang</autor>
+        <autor>W Sun</autor>
+        <autor>H Li</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>UV-Assisted Photocatalytic Reduction of Graphene Oxide</titulo>
+      <autores>
+        <autor>G Williams</autor>
+        <autor>B Seger</autor>
+        <autor>P Kamat</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene-Based Materials for Hydrogen Generation from Light-Driven Water Splitting</titulo>
+      <autores>
+        <autor>G Xie</autor>
+        <autor>K Zhang</autor>
+        <autor>B Guo</autor>
+        <autor>Q Liu</autor>
+        <autor>L Fang</autor>
+        <autor>J Gong</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>UV-Assisted Photoreduction of Graphene Oxide into Hydrogels: High-Rate Capacitive Performance in Supercapacitor</titulo>
+      <autores>
+        <autor>L Xing</autor>
+        <autor>S Hou</autor>
+        <autor>J Zhou</autor>
+        <autor>S Li</autor>
+        <autor>T Zhu</autor>
+        <autor>Z Li</autor>
+        <autor>W Si</autor>
+        <autor>S Zhuo</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fabrication and Characteristics of Reduced Graphene Oxide Produced with Different Green Reductants</titulo>
+      <autores>
+        <autor>C Xu</autor>
+        <autor>X Shi</autor>
+        <autor>A Ji</autor>
+        <autor>L Shi</autor>
+        <autor>C Zhou</autor>
+        <autor>Y Cui</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enhanced photocatalytic activity and stability of Z-scheme Ag2CrO4-GO composite photocatalysts for organic pollutant degradation</titulo>
+      <autores>
+        <autor>D Xu</autor>
+        <autor>B Cheng</autor>
+        <autor>S Cao</autor>
+        <autor>J Yu</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of graphene oxide loading on TiO2: Morphological, optical, interfacial charge dynamics-A combined experimental and theoretical study</titulo>
+      <autores>
+        <autor>A Yadav</autor>
+        <autor>M Yadav</autor>
+        <autor>S Gupta</autor>
+        <autor>Y Popat</autor>
+        <autor>A Gangan</autor>
+        <autor>B Chakraborty</autor>
+        <autor>L Ramaniah</autor>
+        <autor>R Fernandes</autor>
+        <autor>A Miotello</autor>
+        <autor>M Press</autor>
+        <autor>N Patel</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemically reduced graphene oxide sheets for use in high performance supercapacitors</titulo>
+      <autores>
+        <autor>J Yang</autor>
+        <autor>S Gunasekaran</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Improved electron-hole separation and migration in anatase TiO2 nanorod/reduced graphene oxide composites and their influence on photocatalytic performance</titulo>
+      <autores>
+        <autor>G Žerjav</autor>
+        <autor>M Arshad</autor>
+        <autor>P Djinović</autor>
+        <autor>I Junkar</autor>
+        <autor>J Kovač</autor>
+        <autor>J Zavašnik</autor>
+        <autor>A Pintar</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Stacking effect on electronic, photocatalytic and optical properties: A comparison between bilayer and monolayer SnS</titulo>
+      <autores>
+        <autor>Q Zhang</autor>
+        <autor>X Chen</autor>
+        <autor>W Liu</autor>
+        <autor>Y Wang</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis of graphene oxide through different oxidation degrees for solar cells</titulo>
+      <autores>
+        <autor>X Zhang</autor>
+        <autor>H Wang</autor>
+        <autor>T Huang</autor>
+        <autor>L Wen</autor>
+        <autor>L Zhou</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphene/TiO2 nanocomposites: synthesis, characterization and application in hydrogen evolution from water photocatalytic splitting</titulo>
+      <autores>
+        <autor>X.-Y Zhang</autor>
+        <autor>H.-P Li</autor>
+        <autor>X.-L Cui</autor>
+        <autor>Y Lin</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electronic Transport Properties of Semiconductor Nanostructures</titulo>
+      <autores>
+        <autor>Y Zhang</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>TiO 2 -Graphene Nanocomposites for Gas-Phase Photocatalytic Degradation of Volatile Aromatic Pollutant: Is TiO 2 -Graphene Truly Different from Other TiO 2 -Carbon Composite Materials?</titulo>
+      <autores>
+        <autor>Y Zhang</autor>
+        <autor>Z.-R Tang</autor>
+        <autor>X Fu</autor>
+        <autor>Y.-J Xu</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>One-Pot Self-Assembled Three-Dimensional TiO2-Graphene Hydrogel with Improved Adsorption Capacities</titulo>
+      <autores>
+        <autor>Z Zhang</autor>
+        <autor>F Xiao</autor>
+        <autor>Y Guo</autor>
+        <autor>S Wang</autor>
+        <autor>Y Liu</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of graphene oxide with different degrees of oxidation on the conductivity of graphene/poly(3,4ethylenedioxythiophene)/poly(styrenesulfonate) composites</titulo>
+      <autores>
+        <autor>X Zhu</autor>
+        <autor>N Zhao</autor>
+        <autor>Y Luo</autor>
+        <autor>J Du</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Physical Characterization: Surface Area and Porosity</titulo>
+      <autores>
+        <autor>J Zielinski</autor>
+        <autor>L Kettle</autor>
+      </autores>
+      <fecha>2013-04</fecha>
+    </referencia>
+  </referencias>
+</tesis>

@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo />
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>I Nahyr</autor>
+      <autor>Michelle Tercero González</autor>
+      <autor>Caleb Gallardo</autor>
+      <autor>Ricardo Beltrán</autor>
+      <autor>Chacón Chihuahua</autor>
+      <autor>Chihuahua México</autor>
+      <autor>Febrero</autor>
+      <autor>Contenido</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>Resumen</titulo>
+        <texto>El uso eficiente de los recursos energéticos y su impacto en el medio ambiente también involucran aspectos sociales, económicos y políticos. Actualmente, el sector de la vivienda es el tercer mayor consumidor de energía, después de los sectores de transporte e industria, y su consumo continúa aumentando debido al crecimiento de la población Además, se utilizó la técnica de difracción de rayos X para identificar las fases cristalinas presentes en las materias primas. Los resultados revelaron que la densidad mínima obtenida fue de 0.4 g/cm³, mientras que la estructura celular óptima se logra al sinterizar a 800 °C con una formulación compuesta por 5 % de CaCO₃, 5 % de pumicita y 90 % de vidrio. Finalmente, se realizó un análisis de eficiencia térmica utilizando el software TRNSYS versión 17. La simulación tomó como referencia una vivienda de interés social y evaluó su comportamiento térmico a lo largo de un año, comparando el rendimiento energético con y sin el uso de la espuma cerámica aislante desarrollada. Los resultados destacan un ahorro promedio del 15.05 % en el consumo energético anual al emplear este material.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Metodología Experimental</titulo>
+        <texto>De manera general, se presenta la figura 19, mostrando la metodología general de cada etapa para la síntesis de la espuma cerámica y sus posteriores caracterizaciones por diversas técnicas. La difracción de rayos X (XRD) es una técnica analítica no destructiva ampliamente utilizada para estudiar propiedades físicas de materiales, como su composición de fases, estructura cristalina y orientación. Permite analizar muestras en polvo, sólidas o líquidas, identificando fases cristalinas mediante patrones únicos de difracción, comparados con bases de datos como las del Centro Internacional de Datos de Difracción (ICDD). Los materiales pueden ser monofásicos o multifásicos, y sus patrones permiten determinar tanto la composición como la proporción de las fases presentes. Un difractómetro de rayos X consta de tres componentes principales: una fuente de rayos X, un soporte de muestra y un detector. La muestra, iluminada</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis de Espuma Cerámica</titulo>
+        <texto>A continuación, en la figura 26, se presenta un esquema del Proceso general para la síntesis de espuma cerámica. Figura 26. Esquema del proceso general de la síntesis de la Espuma Cerámica. (Fuente elaboración propia) Los pasos realizados se detallan a continuación: 1) Recolección y Obtención de Materias Primas Las materias primas fueron las siguientes: Vidrio Reciclado, Pumicita, Caliza. El vidrio fue recolectado de lotes baldíos o vertederos de basura, se recolectaron cerca de 30 botellas de vidrio, sin embargo, este material también puede ser obtenido de centros de reciclaje. La pumicita fue obtenida del yacimiento que se encuentra a 1 Km de la colonia Campo Bello en la Ciudad de Chihuahua, se obtuvo cerca de un kilo, esta no tuvo costo ya que solo se recolectó. Y la piedra caliza se obtuvo del estacionamiento del Centro de Investigación en Chihuahua la cual se usa como cama de gravilla para el suelo con dimensiones aproximadas de 1 a 2 cm con forma irregular. 2) Molienda de materias primas Se utilizó un molino de discos, disponible en el Laboratorio de Prototipos dentro de CIMAV marca BICO, usando un tamaño de apertura de aproximadamente 2 mm. Cada materia prima fue molida y almacenada por separado.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Determinación de condiciones de temperatura y tiempo de síntesis</titulo>
+        <texto>La temperatura de síntesis se seleccionó evaluando pastillas sometidas a diferentes temperaturas: 700, 750, 800 y 850 °C. Los resultados indican que a 800 °C se obtiene la mayor expansión, como se observa en la figura 27. A temperaturas más bajas, la expansión es menor, mientras que a 850 °C las pastillas experimentan deformaciones estructurales, además de un mayor consumo energético. En cuanto al tiempo de síntesis, se determinó que 10 minutos es el óptimo, ya que, al observar a través del horno tubular durante el calentamiento, este periodo permitió alcanzar la mayor expansión. Este tiempo es el mínimo requerido para estas pastillas, aunque podría variar según sus dimensiones. Figura 27. Síntesis de espumas cerámicas variando la temperatura.</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>Introducción</titulo>
+        <texto>Las espumas cerámicas son materiales con excelentes propiedades aislantes, gracias a sus propiedades fisicoquímicas características, como son: la baja conductividad térmica, su alta porosidad que está dentro de un rango del 70% al 90%, gran densidad de volumen en el rango de 0.3 a 0.6 g/cm 3 . Tiene una estructura de armazón 3D, y poros interconectados o aislados que le confiere propiedades aislantes, resistencia a la corrosión y unas propiedades acústicas excelentes Visto lo anterior se busca capitalizar las capacidades intrínsecas de las espumas cerámicas sintetizándolas a partir de pumicita, grava y materiales de desecho de vidrio ya que son de bajo costo y se encuentran en la ciudad de Chihuahua, como alternativa viable al poliestireno y el poliuretano, tradicionalmente empleados en la función de aislamiento térmico en aplicaciones exteriores. Basados en diferentes formulaciones se caracterizarán por diferentes técnicas la funcionalidad de las mismas, es decir, la posibilidad de que estas fuesen consideradas como un aislante para posible uso en construcciones. Cabe considerar que, para mantener una banda de confort de 18°C a 25°C, se estima una demanda total de energía (obtenida por simulación) de 16.4 kWh anual, lo que corresponde por la unidad de superficie a 303 W h/m 2 . Estas demandas se deben fundamentalmente a pérdidas por ventilación e infiltración -en un 50%-, y a pérdidas por conducción de las paredes -en un 31%</texto>
+      </seccion>
+      <seccion>
+        <titulo>6) Proceso de Sinterización</titulo>
+        <texto>Las pastillas se introdujeron dentro de un horno tubular marca Thermolyne 21100® disponible en el laboratorio de Análisis Térmicos del CIMAV. Una vez transcurrido el tiempo de sinterización, las pastillas resultantes fueron sacadas del horno tubular para su enfriamiento, almacenamiento y posterior caracterización.</texto>
+      </seccion>
+    </introduccion>
+    <antecedentes>
+      <seccion>
+        <titulo>Antecedentes</titulo>
+        <texto>En un mundo que enfrenta precios crecientes de la energía y un suministro cada vez más escaso, como sucede con la proveniente de los recursos fósiles no renovables, el aislamiento térmico aparece como un componente muy importante para la reducción del consumo energético Por otro lado, estudios indican que entre el 55% y 75% del consumo energético que se produce en las viviendas es debido a la climatización El buen uso de los recursos energéticos y su impacto en el medio ambiente, incluyen también aspectos sociales, económicos y políticos. Actualmente el sector de la vivienda es el tercer gran consumidor de energía, después de los de transporte e industria, y su aumento es considerable, debido al crecimiento de la población. Los equipos de climatización figuran entre los grandes consumidores, y esto ocasiona un impacto negativo en la economía y contribuye al deterioro ambiental El clima en Chihuahua se considera cálido seco extremoso, con una temperatura promedio anual que fluctúa entre los 10.08 °C a 29.90 °C con extremas por arriba de 41.30 °C en verano y de -12.80 °C en invierno. En invierno la temperatura de confort es de 18.70 °C, con un límite superior de 21.41 °C y un límite inferior de 16.20 °C. Durante la temporada de verano el valor de Temperatura de confort es de 29.19 °C, con un límite superior de 30.89 °C y un límite inferior de 27.44 °C Una vivienda con una adecuada barrera contra el calor, el frio y los ruidos, será siempre más confortable y consumirá menos energía. Esto se consigue en parte, con un buen aislante térmico El principal problema de la construcción de viviendas con bloques de concreto hueco, es su baja resistencia térmica, ya que esto ocasiona que en climas extremosos las ganancias de calor sean elevadas y como consecuencia las condiciones de habitabilidad intramuros se encuentren fuera de la zona de confort. El boque de concreto utilizado en México es fabricado en diversas medidas, los más comunes que se utilizan en la construcción de viviendas son de 0.15×0.20×0.40 metros con dos cavidades huecas interiores de 0.10×0.16 metros (Fig. Figura. 1. Medidas nominales de un bloque de concreto en centímetros. Los aislantes poliméricos son de los materiales más demandados en el mercado de la construcción como aislantes. Citando al ejemplo actualmente más conocido, el poliestireno expandido (nieve seca), es un polímero que se obtiene a partir de la expansión del estireno, cuyas propiedades térmicas lo convierten en un excelente aislante térmico a un costo económico relativamente bajo en cuanto a la compra del material, pero la instalación representa un alto costo Por otro lado, presenta la desventaja de tener una temperatura de descomposición relativamente baja, presentando riesgo de inflamabilidad y al momento de la pirólisis libera gases de alta toxicidad si son inhalados</texto>
+      </seccion>
+    </antecedentes>
+    <estado_del_arte>
+      <seccion>
+        <titulo>Marco Teórico</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Estado del Arte</titulo>
+        <texto>A continuación, se presenta un cuadro comparativo de los distintos estudios que se han presentado y los resultados más relevantes relacionados con el tema a desarrollar. La tabla 1 muestra de manera resumida las aportaciones de diferentes autores en materia de elaboración de espumas cerámicas. Se divide por materia prima, agente espumante, densidad, conductividad térmica, autores y año. La tabla 2 muestra investigaciones respecto a consumo energético y ahorros por concepto de climatización. Tabla 2: Resumen de investigaciones realizadas en la síntesis de espumas cerámicas. Tabla 3: Resumen de investigaciones realizadas sobre evaluación de consumo energético por concepto de climatización y uso de aislantes.</texto>
+      </seccion>
+    </estado_del_arte>
+    <objetivos>
+      <seccion>
+        <titulo> Investigación y desarrollo tecnológico</titulo>
+        <texto>Estos objetivos hacen frente a las barreras de "Falta de Conciencia" con el fortalecimiento de capacidades institucionales y la promoción de la cultura de ahorro de la energía.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Simulación Computacional utilizando el software</titulo>
+        <texto>Trnsys versión 17 10.1 Metodología de la Simulación. Para alcanzar los objetivos de este trabajo se utilizó el programa de simulación numérica "TRNSYS" versión 17. Para realizar la simulación del desempeño térmico de cualquier edificio es necesario contar con datos climáticos representativos del lugar donde se ubica el edificio. Estos datos incluyen a la temperatura ambiente, radiación solar, velocidad del viento y humedad relativa en intervalos de tiempo pequeños (en el caso de TRNSYS es por cada hora), en este trabajo se utilizó el módulo que incluye TRNSYS de "Meteonorm", el cual provee una base de datos conocida como "Año Típico Meteorológico", donde se genera un modelo para distintas regiones del mundo a partir de promedios mensuales de la temperatura, radiación solar y humedad relativa de un determinado lugar, en este caso la Ciudad de Chihuahua, Chihuahua, México. La geometría y dimensionado de la vivienda se creó utilizando el software Google SketchUp 8. Dentro de TRNSYS en el paquete incluido de TRNBuild se realiza la importación del modelo del edificio para posteriormente modificar las propiedades físicas de los materiales tales como, espesor, densidad, capacidad calorífica, conductividad térmica. Este módulo de TRNSYS cuenta con la posibilidad de realizar un balance de energía basado en el control de temperatura. Las temperaturas base que se utilizaron para cada estación del año fueron de 20°C para la calefacción y 25°C para la refrigeración. De esta forma, se cuantificó el consumo energético por climatización artificial. La Figura 38 representa el modelo de TRNSYS utilizado para determinar el consumo de energía y ejemplifica el funcionamiento de este software. Los datos climáticos, de radiación solar, temperatura del aire exterior y velocidad del aire son generados a partir módulo "Weather data", a partir de los datos del clima mencionados y de la configuración del edificio "Building", el módulo Type24 calcula el consumo energético para mantener climatizado en un rango de confort de 20 a 25 °C, mientras que los módulos Temperature, Type65d, Type65d-3 y Type65a son para la visualización de resultados. Figura 38. Plataforma para la simulación del uso de energía de la vivienda de Interés Social en TRNSYS. Para fines de este trabajo de investigación se considera la misma edificación, pero con distintos escenarios respecto a su envolvente térmica, los cuales se describen en la siguiente figura 39. Ingeniería en la Universidad Autónoma de Chihuahua, la radiación solar también es intensa en esta zona, oscila en un mínimo de 1399.73 W/m 2 y un máximo de 2974.30 W/m 2 por día La forma y dimensiones de la vivienda fueron obtenidas a partir de la planta y fachada arquitectónica (figura 40). La vivienda utilizada como caso base tiene una superficie de 64.8 m² y un volumen de 129.6 m³, sus dimensiones se expresan en la siguiente imagen del plano de la vivienda.  La temperatura del interior de la vivienda fue controlada para que se mantuviera en un rango de confort entre los 20°C y 25°C.</texto>
+      </seccion>
+    </objetivos>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivo General</titulo>
+        <texto>Generar un aislante térmico biodegradable para promover el ahorro energético en viviendas por concepto de climatización mediante la síntesis de una espuma cerámica a base de material reciclado de vidrio, caliza y pumicita.</texto>
+      </seccion>
+    </objetivo_general>
+    <justificacion>
+      <seccion>
+        <titulo>Justificación</titulo>
+        <texto>Actualmente existe un alto consumo energético por concepto de climatización en el sector residencial en México ya que parte del territorio tiene un clima extremo. Sin embargo, el uso de aislantes térmicos se ha visto limitado debido a regulaciones deficientes, falta de conciencia y los elevados costos iniciales de implementar estas tecnologías. Los aislantes poliméricos han sido los materiales más demandados en el mercado. Citando los ejemplos actualmente más conocidos: el poliestireno expandido y espuma de poliuretano. Sin embargo, estos materiales presentan la desventaja de no ser totalmente hidrofóbicos por lo que los ambientes húmedos y la exposición diaria al calor los dañan con el tiempo, además tienen un alto costo de inversión inicial y mantenimiento (es necesario utilizar recubrimientos especiales de pintura para conservar su funcionalidad a lo largo del tiempo). Aunado a lo anterior, presentan la desventaja de tener una temperatura de descomposición relativamente baja, presentando riesgos de inflamabilidad y al momento de la pirólisis liberan gases de alta toxicidad que dañarían a los individuos al ser inhalados, por esta razón solo son colocados en exteriores</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>Hipótesis</titulo>
+        <texto>La producción de espumas cerámicas a partir de pumicita, caliza y vidrio reciclado ofrece una alternativa mejorada a los revestimientos aislantes actuales, permitiendo una reducción de al menos un 15% en los costos energéticos anuales de viviendas de interés social ubicadas en Chihuahua. Esta eficiencia energética demostrada mediante simulación computacional, junto con el uso de materiales reciclados, generará una solución asequible, sencilla y ambientalmente sostenible para el sector de la construcción.</texto>
+      </seccion>
+    </hipotesis>
+    <resultados>
+      <seccion>
+        <titulo>Resultados de Ahorro Energético y Económico</titulo>
+        <texto>Se presentan en la figura 41, el gráfico de los resultados de temperatura del aire promedio por hora durante un año al exterior de la vivienda. Por otro lado, en esta gráfica se presenta una banda fija color verde a un rango de temperatura de 20 a 25 ° en el interior de la vivienda para cada una de las zonas térmicas que la conforman. La banda roja es la oscilación de la temperatura de la zona anualmente (8760 horas). Figura 41. Temperaturas por hora al exterior e interior de la vivienda simulada de un año típico meteorológico en Chihuahua. En los resultados de la simulación se calculó la demanda energética por hora al año para mantener el rango de confort en el modelo de vivienda de Interés Social. La gráfica (figura 42) muestra la demanda para calentamiento y refrigeración. Figura 42. Demanda Energética de Calentamiento/Enfriamiento por hora anual para mantener rango de confort al interior de la vivienda simulada. Observando las demandas energéticas (para la vivienda simulada SIN AISLANTE) tanto de calentamiento como de enfriamiento por separado, se obtuvo el siguiente gráfico (figura 43): Figura 43. Demanda energética Enfriamiento y Calentamiento para cada mes de un Año Meteorológico Típico en Chihuahua. Existe un pico de consumo para calentamiento (zona azul) en los meses de diciembre y enero que corresponden a los meses más fríos en la región, mientras que en el caso de la energía requerida para enfriamiento se observa el pico (zona café) en el mes de junio típicamente más cálido. De acuerdo a la simulación realizada se observa que al aplicar una cubierta exterior en muros y techos de 1.5 pulgadas del aislante de placa de espuma cerámica sintetizada hay una disminución en la demanda energética de 15.05%. Por otro lado, si se aplica una capa de poliestireno expandido se reduce la demanda energética un 24.85%, sin embargo, este último presenta muchas desventajas ya mencionadas en este texto. En la figura 44 se muestra el comparativo del consumo energético total (calentamiento + enfriamiento), para cada uno de los escenarios descritos. Para el cálculo del gasto económico el modelo de simulación cuenta con sistemas de climatización que requieren diferentes recursos energéticos, con los equipos de climatización considerados durante el verano se consume electricidad y durante el invierno se requieren un combustible como el gas butano. Para determinar el uso de energía, se optó por determinar el costo de los recursos energético necesario para mantener climatizada la edificación durante todo el año. Con la simulación en TRNSYS se calculó el consumo anual de energía eléctrica del sistema de refrigeración, así como el de energía de gas para el sistema de calefacción (figura 45). El costo de la energía fue estimado en base al precio promedio de la energía eléctrica para el sector residencial intermedio ($1.035 kW/h) así como el precio promedio del gas natural para el sector residencial ($19.59 kg) estos precios están en pesos mexicanos en enero 2025 (CFE, 2025) (GasolinaMX, 2025). Tabla 12. Gasto económico en pesos mexicanos acumulado para cada mes versus Ahorro Económico acumulado para cada uno de los tipos de aislantes térmicos de un Año Meteorológico Típico en Chihuahua. Para lograr un porcentaje de ahorro económico más cercano al poliestireno expandido es necesario (24.91%), se simulo un escenario donde se aplica placa de espuma cerámica sintetizada de 2 pulgadas en los muros, mientras que en el techo placa de 3 pulgadas, con esto se logra pasar de un 14.70% de ahorro a un 18.43% (3.73% más de ahorro), si bien este porcentaje esta 6.48% abajo del ahorro que se lograría con el poliestireno expandido, es importante mencionar que este último requiere un mantenimiento cada dos años por lo menos para conservar su funcionalidad, mientras que el material propuesto no requiere dicho mantenimiento.</texto>
+      </seccion>
+    </resultados>
+    <conclusiones>
+      <seccion>
+        <titulo>Conclusiones</titulo>
+        <texto>De acuerdo a los resultados obtenidos en el presente trabajo de investigación se llegaron a las siguientes conclusiones: o Se logró sintetizar una espuma cerámica a partir de desechos de vidrio y carbonato de calcio como agente espumante y pumicita como agente estructural. Siendo la proporción 90-5-5 respectivamente, la de mejor desempeño en expansión volumétrica e integridad estructural. Determinando las condiciones de síntesis a temperatura de 800 °C durante 10 minutos de exposición. o El análisis termogravimétrico arrojó como resultado un contenido de carbonato de calcio en la caliza del 88%, cantidad aceptable para usarse como agente espumante de acuerdo con la literatura. Los valores de coeficiente de conductividad térmica de 0.09 W/mK obtenidos, ubican este material como aislante intermedio similar a hormigones celulares. Así mismo el valor de la densidad de 0.68 g/cm 3 corrobora la síntesis de la espuma cerámica. Por lo que corresponde a la difracción de Rayos X estos corroboraron la presencia de carbonato de calcio en fase calcita. o Se fabricaron paneles aislantes a partir de espuma cerámica sintetizada y cemento en proporción 70-30, los valores obtenidos de conductividad térmica de 0.18 W/mK y de densidad de 0.92 g/cm 3, indican que aun cuando estos valores aumentaron con respecto a la espuma cerámica, debido a las bajas propiedades térmicas del cemento. El compósito que forma las placas se considera aislante ya que sus valores son similares a los de ladrillos y hormigones celulares. o El análisis de eficiencia térmica realizado mediante el software Trnsys v17. Al realizar el comparativo usando 1.5 pulgada de recubrimiento y sin usar, en una vivienda de 64.8 m 2, fabricada principalmente con muros de block de 15 cm. Dio como resultado un ahorro del 15.05% anual en el consumo energético en comparación del mismo edificio, pero sin ningún aislante ubicado en la ciudad de Chihuahua. o De acuerdo a los resultados obtenidos: Conductividad Térmica (0.1835 W/mK), Densidad (926.7 kg/m 3 ), Absorción de Agua (15.2%), % de ahorro energético (15.05%) y % de ahorro económico (14.70%), estas placas aislantes representan una alternativa viable y sostenible para el aislamiento de viviendas, por lo que pueden sustituir térmicamente los recubrimientos poliméricos convencionales, incluso en aplicaciones a temperaturas mayores a 100 °C.</texto>
+      </seccion>
+    </conclusiones>
+    <otros>
+      <seccion>
+        <titulo>Índice de Figuras</titulo>
+        <texto>Figura. 1. Medidas nominales de un bloque</texto>
+      </seccion>
+      <seccion>
+        <titulo>Índice de Tablas</titulo>
+        <texto>Tabla 1. Muestra los materiales más comunes para aislar muros, su conductividad térmica, descripción general y rango</texto>
+      </seccion>
+      <seccion>
+        <titulo>Objetivos Específicos</titulo>
+        <texto> Sintetizar una espuma cerámica compuesta principalmente por desechos de vidrio, a partir de la descomposición de un agente espumante, implementando diferentes formulaciones composicionales y temperaturas de síntesis.  Caracterizar la espuma cerámica y determinar sus propiedades aislantes por medio de análisis termogravimétrico, conductividad térmica, microscopia óptica, densidad y difracción de rayos x.  Fabricar de paneles cemento-espuma cerámica para su evaluación por medio de ensayos fisicoquímicos y térmicos: Conductividad térmica, densidad y absorción de agua.  Estimar el ahorro energético que se lograría con el uso de estas espumas cerámicas mediante simulación computacional, utilizando el software Trnsys 17, utilizando un modelo de vivienda de interés social, ubicada en la Ciudad de Chihuahua, Chihuahua, México.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales de Construcción</titulo>
+        <texto>La elección de los materiales de construcción depende esencialmente de su idoneidad, su disponibilidad local y la cantidad de dinero que se está dispuesto a invertir. Los tipos de materiales más usados en la construcción son: pétreos, cerámicos y vidrios, aglutinantes, metálicos, etc. Cada uno de ellos tiene propiedades características y un uso particular en la construcción:  Materiales pétreos: son las piedras y rocas naturales y sus derivados. Los más usados en la construcción son la roca caliza, el mármol, el granito, la pizarra y los áridos (piedras de diferentes tamaños).  Cerámicos y vidrios: Proceden de materias primas arcillosas que se someten a un proceso de cocción en un horno a altas temperaturas. Los más usados en construcción son las baldosas y azulejos, ladrillos refractarios, loza sanitaria, vidrio, lana de vidrio, ladrillos, bovedillas, tejas. El vidrio mezcla de sílice (arena) con potasa o sosa y pequeñas cantidades de otras bases, y a la cual pueden darse distintas coloraciones mediante la adición de óxidos metálicos. Se usa principalmente en las ventanas, puertas, muros y decoración.  Materiales aglutinantes: al mezclarse con agua sufren transformaciones químicas. Se utilizan para unir otros materiales. El yeso y el cemento son los más utilizados.  Materiales metálicos: Se obtienen a partir de minerales del metal.  Materiales Plásticos: Hoy en día se usan mucho en construcción por sus propiedades y su coste reducido. Son materiales orgánicos formados por polímeros (macromoléculas) constituidos por largas cadenas de átomos que contienen fundamentalmente carbono. Entre ellos tenemos el PVC, el poliestireno, melamina, poliuretano, etc. A continuación, se muestra de manera general un esquema de los principales materiales de construcción, su uso y propiedades (www.areatecnologia.com,</texto>
+      </seccion>
+      <seccion>
+        <titulo>2023):</titulo>
+        <texto>Figura 2. Esquema general de "Tipos de materiales de construcción". Muestra los principales tipos de materiales de construcción, aplicaciones y propiedades. El material más común para la construcción de los muros de las viviendas en Chihuahua es el block de concreto. El block de concreto está hecho con cemento y arena, son más grandes que los ladrillos. Debido a ello, la ventaja que tienen es que se necesitan menos bloques para construir una casa en comparación con los ladrillos además permite una construcción en menor tiempo. Al mismo tiempo, las paredes construidas con este material son más fáciles de enlucir (cubrir una pared con una capa fina de yeso) y se requiere una menor cantidad de arena y cemento. Otra ventaja que ofrecen los bloques de concreto es su fácil alineación para las viviendas construidas en serie. Por lo cual para la construcción de fraccionamientos de interés social son los más utilizados para reducir el tiempo de obra y sus costos. Cabe mencionar que para que el block de concreto tenga un correcto comportamiento térmico en un muro debe tener lo siguiente: 1. Cerrar correctamente con mortero cada junta entre los bloques. 2. Incorporar aislantes térmicos, en la construcción de paredes, como lana de vidrio y polietileno en el interior de los bloques. 3. Colocar una capa de aislante en el acabado exterior de los bloques. Para fines de este trabajo se busca desarrollar un aislante que pueda ser colocado en el exterior de los muros de una vivienda, existen actualmente varias opciones en el mercado. Entre los más comunes encontramos: Tabla 1. Muestra los materiales más comunes para aislar muros, su conductividad térmica y descripción general. En general, todos los aislantes térmicos tienen una conductividad térmica muy baja, un producto se considera aislante térmico cuando tiene una conductividad térmica igual o inferior a 0.1 W/mK.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Material</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Compuestos Cerámicos utilizados en construcción.</titulo>
+        <texto>Los materiales cerámicos contienen fases que están compuestas de elementos metálicos y no metálicos. Se pueden citar muchos ejemplos que van desde el Al2O3 a los vidrios, arcillas, refractarios, etc. En general los compuestos cerámicos son más estables en ambientes químicos y térmicos que sus componentes de manera independiente. En el ámbito de la construcción la cerámica es un material con múltiples ventajas, se trata de un producto natural, duradero, resistente, higiénico, antialérgico, aséptico e ignífugo (ni se quema ni emite sustancias tóxicas) y no contiene plásticos. Su mantenimiento es muy sencillo y es muy versátil a nivel constructivo y decorativo. Asimismo, gracias a su elevada inercia térmica permite que actúe de manera eficiente como regulador de calor. La cerámica se usa, en parte, por sus destacadas propiedades físicas y químicas, entre ellas destacan:  Resistencia mecánica: Esta propiedad y la elevada resistencia al desgaste, lo convierten en un material óptimo para multitud de usos, como son los pavimentos en zonas de alto tránsito.  Refractarios: Los elementos que conforman los materiales cerámicos son capaces de soportar altas temperaturas, tienen elevado punto de fusión, bajo coeficiente de dilatación y baja conductividad térmica. La cerámica, en general, resiste altas temperaturas, pero esta propiedad se puede optimizar incluyendo en la mezcla de las arcillas óxidos de aluminio, berilio y circonio.  Resistencia a los agentes químicos: La estructura atómica de los materiales cerámicos es la responsable de su gran estabilidad química, que se manifiesta en su resistencia a la degradación ambiental y a los agentes químicos.  Higrotérmico: Los edificios construidos con materiales cerámicos muestran un excelente comportamiento frente a la humedad, ya que la presencia del agua no altera sus propiedades.  Antialérgica y antibacteriana: El carácter impermeable de la cerámica la convierte en el mejor material para revestir suelos y paredes, ya que impide que proliferen bacterias, no transmite olores y no confiere alérgenos.  Ignífuga: se trata de un material que no arde, lo que hace de él un material seguro para su uso en cocinas, salones, fachadas, etc. Por otro lado, a nivel social y económico, encontramos las siguientes ventajas de uso:  Sostenible: La arcilla es una materia prima que se encuentra en la naturaleza de forma abundante y que se puede extraer fácilmente. Debido a las numerosas canteras de arcilla, no es necesario recorrer largas distancias para disponer de estos materiales, ya que se pueden encontrar a nivel local. Esta proximidad implica unas emisiones de transporte muy bajas, lo que incide en la sostenibilidad medioambiental de estos productos.  Robustez y durabilidad: La cerámica estructural aporta a las construcciones robustez y durabilidad con un mínimo mantenimiento. Además, estos materiales ofrecen la posibilidad de ser reutilizados o reciclados.  Fácil mantenimiento: su limpieza tanto en pavimentos como revestimiento es sencilla y requiere de menos esfuerzo.  Promueven el ahorro energético: Las construcciones realizadas con materiales de cerámica estructural garantizan un alto aislamiento acústico y térmico, cumpliendo con las normas vigentes y garantizando el máximo confort y habitabilidad en las viviendas dando como resultado un menor gasto energético en climatización. Aunado a esto, su aplicación como cerramiento en colores blancos, que presentan un índice de reflectancia solar de 90 aproximadamente promueve un mayor ahorro energético en verano. Dependiendo de la naturaleza y tratamiento de las materias primas y del proceso de cocción, se distinguen dos grandes grupos de materiales cerámicos: las cerámicas gruesas y las cerámicas finas.  Materiales cerámicos porosos o gruesos: esta tipología no ha sufrido vitrificación, es decir, no se llega a fundir el cuarzo con la arena debido a que la temperatura del horno es baja. Los más importantes: o Arcilla cocida: de color rojiza debido al óxido de hierro de las arcillas empleadas. La temperatura de cocción es de unos 800°C. Con ella se fabrican: baldosas, ladrillos, tejas, jarrones, cazuelas, etc. o Adoquines: ofrecen durabilidad, resistencia mecánica, permanencia del color, valor estético, mínimo mantenimiento y facilidad de ejecución. o Bovedillas: Son piezas cerámicas huecas que se utilizan en la construcción de forjados de viguetas unidireccionales. Su función es aligerar el peso de la losa de forjado. o Tableros cerámicos: Ofrecen facilidad de montaje, elevada resistencia mecánica, buen comportamiento al fuego y buen aislamiento térmico. o Ladrillo cara vista: Este producto ofrece resistencia mecánica, aislamiento térmico y acústico, resistencia a la penetración del agua, alto valor estético y durabilidad, mínimo mantenimiento. o Ladrillos y bloques para revestir: resistencia, tanto mecánica, como a impactos y cargas suspendidas, excepcional comportamiento frente al fuego, elevado aislamiento acústico y térmico y bajo costo. o Tejas: son piezas de forma acanalada que se usan para cubrir y resguardar los techos, armaduras o cubiertas de los edificios. Deben ser impermeables y resistentes a las inclemencias del tiempo. o Loza: Por un lado, encontramos la italiana que se fabrica con arcilla entre amarilla-rojiza mezclada con arena, pudiendo recubrirse de barniz transparente. Se emplea para fabricar vajillas, adornos, tiestos etc. También podemos encontrar, la loza inglesa, la cual se fabrica con arcilla arenosa a la que se le ha eliminado el óxido de hierro y se le ha añadido sílex, yeso, feldespato (bajando el punto de fusión de la mezcla) y caolín para mejorar la blancura de la pasta. Se emplea para vajilla y objetos de decoración. o Materiales refractarios: Se fabrican a partir de arcillas mezcladas con óxidos de aluminio, torio, berilio y circonio. Se obtienen productos que pueden resistir temperaturas de hasta 3,000 °C. Materiales cerámicos impermeables o finos: son los que se someten a temperaturas suficientemente altas como para vitrificar completamente la arena de cuarzo. Así, se obtienen productos impermeables y más duros. Los más importantes son: o Gres cerámico: obtenido a partir de arcillas, sometidas a temperaturas de unos 1,300 °C. En ocasiones, cuando está a punto de finalizar la cocción se impregnan los objetos de sal marina que reacciona con la arcilla, formando una fina capa de silico-aluminato alcalino vitrificado que confiere al gres su vidriado. Suele emplearse en pavimentos, y azulejos. o Porcelana: se obtiene a partir de una arcilla muy pura mezclada con fundente y un desengrasante. Su cocción se realiza en dos fases: la primera de ellas a una temperatura de entre 1,000 y 1,300 °C y, tras aplicarle un esmalte la siguiente a más alta temperatura pudiendo llegar a los 1,800 °C. Teniendo multitud de aplicaciones en el hogar (pilas de cocina, vajillas, tazas de café, etc.) y en la industria (toberas de reactores, aislantes en transformadores, etc.). En resumen, los materiales cerámicos aportan soluciones técnicas y decorativas de alto nivel, por lo que se han consolidado como materiales imprescindibles en todo tipo de proyectos públicos, privados, residenciales, comerciales; dadas sus excelentes cualidades en cuanto a seguridad, higiene, capacidad aislante, durabilidad, etc. En este sentido, las propiedades de los materiales cerámicos cubren un amplio intervalo de necesidades: propiedades mecánicas, térmicas, ópticas, eléctricas, magnéticas y químicas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales Cerámicos Aislantes</titulo>
+        <texto>Los materiales cerámicos aislantes son compuestos inorgánicos diseñados para ofrecer aislamiento térmico, eléctrico o acústico en condiciones extremas, destacándose por su alta resistencia térmica, baja conductividad térmica y eléctrica, estabilidad química, durabilidad y, en algunos casos, baja densidad. Los materiales más utilizados incluyen óxidos como la alúmina (Al₂O₃), la sílice (SiO₂) y la zirconia (ZrO₂), que se emplean principalmente en aplicaciones de alta temperatura; carburos como el carburo de silicio (SiC) y nitruros como el nitruro de silicio (Si₃N₄), que ofrecen una combinación de resistencia térmica y mecánica; y materiales compuestos como las fibras cerámicas y espumas cerámicas, diseñados para ser ligeros y eficaces en aislamiento térmico. Otros materiales incluyen ladrillos cerámicos porosos, utilizados en hornos industriales, y cerámicas dieléctricas, como los titanatos de bario y estroncio, que se emplean como aisladores eléctricos. Su amplia gama de aplicaciones abarca desde la construcción, donde se utilizan como aislantes térmicos y acústicos para mejorar la eficiencia energética de edificios, hasta la industria eléctrica, donde sirven como aisladores en líneas de alta tensión y componentes electrónicos. También son esenciales en procesos industriales como revestimientos de hornos y calderas para minimizar la pérdida de calor, en la industria aeroespacial como materiales resistentes al calor para naves y cohetes, en la automotriz para sistemas de motores y escapes, y en energías renovables como componentes de celdas de combustible y sistemas solares. Entre sus ventajas destacan la eficiencia energética, la resistencia extrema a altas temperaturas y ambientes agresivos, la versatilidad en diversas industrias, la durabilidad en condiciones severas y su bajo impacto ambiental. Estas propiedades hacen de los materiales cerámicos aislantes una solución esencial para enfrentar los retos técnicos y energéticos actuales.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales Poliméricos Aislantes</titulo>
+        <texto>Actualmente los materiales de mayor preferencia en el mercado son la espuma de poliuretano y el poliestireno expandido. Sin embargo, ambos presentan varias desventajas entre ellas principalmente tener baja resistencia mecánica. Con respecto al poliestireno expandido el costo de los materiales es elevado, se requiere mano de obra especializada, se debe mantener a menos de 100 °C, ya que a una temperatura más alta se deforma por lo que no es recomendable tener cerca En relación con la espuma de poliuretano es uno de los materiales más costosos y se estima que la tasa de recuperación inversión inicial es de largo plazo. Tiene tendencias higroscópicas, es decir absorbe agua ocasionando que poco a poco se desintegre y pierda su calidad de apoyo. Así mismo el poliuretano es un compuesto propagador de la llama, en caso de incendio desprende un humo tóxico de elevada densidad que, si ocurriese un incendio en un edificio o vivienda dificultará la evacuación. Comienza a arder entre 315 °C y 370 °C. y en solo 4 minutos alcanza arriba de 600 °C. Todo lo anterior implica riesgos importantes para tener en consideración en materia de protección contra incendios</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales utilizados en la síntesis de Espumas Cerámicas</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Desechos de Vidrio</titulo>
+        <texto>El 22 de octubre de 2019 los senadores suscribieron una nueva iniciativa de ley para la gestión integral de los residuos para ordenar la disposición de residuos e impulsar el reciclaje en México con ayuda de la iniciativa privada En México se estima el mercado de reciclaje con un valor superior a los 3 mil millones de dólares, de acuerdo con estimaciones de la Asociación Nacional de Industrias del Plástico (Anipac). Pequeñas y medianas empresas viven de este rubro, sin embargo, gran parte del negocio está sostenido en la recuperación de plástico y aluminio lo que deja de lado al vidrio. Anualmente en México se producen alrededor de 14.9 millones de toneladas de residuos sólidos que pueden reutilizarse, según cifras de la Secretaría de Medio Ambiente y Recursos Naturales (Semarnat), de los cuales 39% corresponde a papel, cartón y similares, 30.7 % plásticos y 16.6 % a vidrio. Información de distintas cámaras empresariales y la misma dependencia, señalan que se recicla alrededor de 56% del papel y cartón desechado, 50% plásticos, pero sólo 12% vidrio (el total de vidrio de residuo corresponde a 2.5 millones de toneladas de vidrio anualmente, por lo que solo se recicla cerca de 0.30 millones de toneladas). Lo anterior se debe al bajo costo que ofrecen los recicladores por este material, (En los centros de reciclaje de México se pagan, en promedio, $22 por kilo de aluminio, $7.16 por kilo de PET Y $0.47 por papel o cartón, pero solo $0.10 por un kilo de vidrio ( El proceso de reciclaje de vidrio es generalmente más sencillo que el de otros materiales (por ejemplo, el plástico) consta de varias etapas que a continuación se describen de manera general en la figura 3:  Costos de transporte: El vidrio recogido a menudo es pesado y voluminoso, lo que aumenta los costos de transporte.  Falta de demanda de productos reciclados: No hay suficiente demanda de productos hechos con vidrio reciclado, por lo que las empresas han sido reacias a utilizarlo. Para la síntesis de la espuma cerámica aislante que se pretende realizar en este proyecto de investigación, contribuye a superar la barrera de "Clasificación Precisa", ya que en el proceso que se implementara, no requiere de una clasificación por color del vidrio reciclado. Por otro lado, se busca atacar la barrera de "Falta de demanda de productos reciclados", mediante el desarrollo de este producto para el mercado de la construcción.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caliza-Carbonato de Calcio (CaCO3)</titulo>
+        <texto>El objetivo este trabajo de investigación es sintetizar una espuma vitrocerámica de bajo costo, utilizando desecho de vidrio y materiales de la región de Chihuahua, como lo es la caliza (CaCO3, la cual fungirá como espumante) cuyos depósitos están en los límites de la zona norte de la ciudad de Chihuahua. Las calizas son rocas sedimentarias que contienen por lo menos 50% de minerales</texto>
+      </seccion>
+      <seccion>
+        <titulo>Piedra Pumicita</titulo>
+        <texto>También conocida como piedra pómez volcánica, es agregado ligero natural con una estructura similar a una esponja y se observa en la forma granulada que se produce a partir del rápido enfriamiento de la lava fundida, en su composición química prevalece el trióxido de sílice y trióxido de aluminio. Debido a la repentina liberación de los gases en la estructura de la piedra pómez durante su enfriamiento y formación, la conectividad de la estructura de poros puede variar desde completamente cerrada hasta completamente abierta. Es un material utilizado bastante en la industria de la construcción debido a su baja densidad (entre 0.4 a 0.9 g/cm 3 ) y su estructura porosa, reduciendo la carga muerta y elaborando concreto liviano estructural, resultando ser aislante térmico, acústico y contra incendios. Este programa fue hecho para beneficiar a las familias que percibían menos de tres salarios mínimos. De acuerdo a Antonio Morales Mendoza, subdelegado de Vivienda de la Delegación de Sedesol en Chihuahua (en ese periodo cercano al año 2009) explicó que para estas casas se utilizó ladrillo pumicita o piedra pómez para que resultasen térmicas y adecuadas para el clima extremoso de la región. A pesar de que ya se ha utilizado, en la construcción moderna no se considera apta para cimientos debido a su porosidad e implícita fragilidad. Su utilización actualmente es en la producción de cemento y hormigones ligeros; también se emplea como roca ornamental. Para fines de este trabajo de investigación la función principal de la pumicita será servir como andamio estructural en la síntesis de la espuma cerámica, ya que cuando el vidrio alcanza la temperatura de ablandamiento comienza a fluir y es aquí donde la pumicita contribuirá para conservar la estructura de la pieza.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tipos de síntesis de Espumas Cerámicas</titulo>
+        <texto>Las espumas celulares son materiales que se caracterizan por tener un alto nivel de porosidad (mayor al 60% en volumen y su acomodo es tridimensional, en donde la orientación de las paredes de sus celdas es aleatoria) y se caracterizan por la presencia de celdas "reconocibles", las cuales son un espacio vacío que posee caras y bordes sólidos. Dichas celdas pueden poseer tamaños entre 10 y 5000 μm Existen espumas celulares de las tres principales clases de familias de materiales: polímeros, cerámicos y metales. Para fines de este trabajo de investigación el enfoque será a espumas cerámicas, las cuales poseen propiedades tales como alta área superficial, estabilidad a altas temperaturas, alta permeabilidad, bajo peso y baja conductividad térmica. Las características que presenta la espuma son esenciales para determinar la aplicación en la que pueden utilizarse. Por ejemplo, las espumas de celda cerrada se utilizan para aislamiento térmico mientras que las de celda abierta se utilizan en aplicaciones que requieran transporte de un fluido tales como filtros y catalizadores. A continuación, en la figura 6, se muestra en el siguiente mapa mental ejemplos de algunas de las principales aplicaciones de las espumas cerámicas (Rocha Rangel, Mediante el método de espumado directo se producen un amplio rango de estructuras y, por lo tanto, también de propiedades. Se pueden alcanzar porosidades de hasta 70%. Se consideran varias aplicaciones para las espumas cerámicas hechas por este método, sin embargo, aún están en etapa de desarrollo. Las espumas producidas por este método difieren de aquellas fabricadas por el método de réplica en dos aspectos principales: 1) estas espumas son menos abiertas y 2) no poseen bordes huecos ni los defectos que surgen como consecuencia de la degradación de la espuma polimérica base en el método de réplica. Estas características generan que las espumas producidas por este método tengan menor permeabilidad y mayor resistencia. Figura 9. Esquema de la fabricación de espumas cerámicas por el método de espumado directo. Hay dos grupos principales de agentes de expansión, que difieren dependiendo de su mecanismo de reacción:  Endotérmicos (consumen calor): Los cuales son utilizados para el desarrollo de este trabajo experimental. Su función radica cuando se agrega calor, estos agentes se descomponen y generan gases neutros en el medio ambiente. Por lo general estos gases son dióxido de carbono y vapor de agua; los ingredientes activos más conocidos son carbonatos (mismos que serán utilizados en el presente estudio). Presentan la ventaja en el hecho que cuando se detiene la adición de calor, la producción de gas se detiene y prosigue cuando se le adiciona más calor. Debido a esto, son fáciles de manejar durante el procesamiento.  Exotérmicos (liberan calor): Al descomponerse liberan calor y gases como nitrógeno, dióxido de carbono y amoníaco. La reacción de descomposición es continua y no puede ser interrumpida por medidas simples de enfriamiento. A diferencia de los endotérmicos se obtiene un rendimiento mucho mayor en la producción de gas, pero una espuma demasiado frágil.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Eficiencia, Ahorro Energético y Confort Térmico</titulo>
+        <texto>Una función básica de la vivienda es proteger a las personas de un clima adverso, y en especial cuando se presentan temperaturas extremas que llegan a tener un efecto en el confort térmico de sus ocupantes. El "confort térmico" es la combinación de temperatura, humedad relativa y grado de actividad y grado de arropamiento en las que el ser humano experimenta una sensación de satisfacción con el ambiente. El aumento del confort está estrechamente ligado a la mejora de la salud lo que conlleva a una serie de repercusiones en los ámbitos personal, social y económico. En lo que respecta al impacto a nivel individual, es importante resaltar que las temperaturas inadecuadas en espacios interiores y la formación de humedad pueden dar lugar a una amplia gama de enfermedades, que van desde afecciones respiratorias y cutáneas hasta problemas cardíacos. En el ámbito social, la mejora del rendimiento en ambientes confortables tiene un impacto positivo tanto en entornos educativos como laborales. Por lo que esta mejora no solo debe ser un objetivo para las viviendas, sino también para las instituciones educativas y los lugares de trabajo. El impacto económico es difícil de medir, ya que es complicado estimar la mejora económica producida por el aumento del rendimiento asociado a la mejora del confort, a la reducción del ausentismo laboral causado por enfermedades asociadas a "edificaciones inadecuadas" y a la reducción del gasto en salud pública. Cuando se presentan condiciones climáticas extremas, es necesario utilizar sistemas de climatización artificial para mantener confortable el interior de la edificación; sin embargo, estos sistemas suelen presentar un alto consumo energético. La generación de energía tiene impactos ambientales. Ahorrar energía ayuda a reducir este impacto y contribuye a combatir los efectos del calentamiento global y del cambio climático. Asimismo, las acciones de eficiencia energética hacen que los gastos en energía disminuyan. No hay energía más limpia y barata que la que no se consume. El ahorro o eficiencia energética consiste en utilizar la energía de mejor manera. Es decir, con la misma cantidad de energía o con menos, se obtienen los mismos resultados. Esto se puede lograr a través del cambio de hábitos, del uso de tecnologías más eficientes, o una combinación de ambos. Teniendo en cuenta la premisa de que buena parte de la energía que se consume en la vida cotidiana procede de la climatización de los edificios en general, (de enfriarlos en verano y calentarse en invierno), gran parte de dicha energía se pierde, debido a la existencia de envolventes de fachadas insuficientemente aisladas. Allí radica la importancia de contar con una envolvente de fachada perfectamente aislada, de cara a evitar la pérdida de energía empleada en climatizar dichos edificios, teniendo en cuenta el impacto medioambiental y el costo cada vez más elevado de dicha energía. En el primer semestre de 2018 se elaboró la primera encuesta ENCEVI (Encuesta Nacional sobre consumo de Energéticos en Viviendas Particulares) con el objetivo de conocer los patrones de consumo energético de las viviendas en México por región. Dicha encuesta reveló lo siguiente: En términos de electrodomésticos para climatización se estima que a nivel nacional el 45% de viviendas particulares en localidades urbanas cuenta con ventiladores (ya sea solo un ventilador o más por vivienda). En la figura 10 se muestra la distribución por número de ventiladores, así como si pertenece a una localidad urbana o rural.  Por otro lado, también encontramos el uso de aire acondicionado (mini-split, aire acondicionado de ventana, etc.). La encuesta indica que actualmente se usan un poco más de 7 millones de equipos de aire acondicionado en viviendas particulares, de los cuales el 48.1% se encuentran en la zona norte del país, que corresponde a la zona más cálida (figura 12).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 12. Distribución del porcentaje de equipos de aire acondicionado en el país, y descripción del tipo de equipo de aire acondicionado. (INEGI, 2018)</titulo>
+        <texto>El tiempo de uso para estos equipos de aire acondicionado el 97% es mayor a 2 horas, en la figura 13 se muestra una gráfica donde indica cual es uso en horas para cada uno de los tipos de aire acondicionado. Figura 13. Distribución porcentual del tiempo de uso de equipos de aire acondicionado en viviendas particulares.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 14. Muestra el porcentaje de viviendas que usa equipos de calefacción, así como el porcentaje de que tipo de electrodoméstico es usado. (INEGI, 2018)</titulo>
+        <texto>Dentro de esta encuesta además se compilaron datos sobre el tiempo de uso de estos equipos de calefacción (figura 15), se observa que la tendencia es usar estos equipos de 2 a 5 horas diarias: Figura 15. Distribución porcentual del tiempo de uso de equipos de calefacción en viviendas particulares. Un buen sistema de aislamiento térmico aporta muchas ventajas. Por un lado, mejora el rendimiento de las instalaciones térmicas, evitando pérdidas innecesarias de calor o frío. Esto supone una disminución de la demanda energética y, por consiguiente, un ahorro a nivel económico y un descenso de emisiones de gases de efecto invernadero. Además, del ahorro energético, contar con una vivienda perfectamente aislada térmicamente, nos va a ofrecer las siguientes ventajas (figura 16):</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 16. Esquema de las ventajas de contar con una vivienda aislada. (Fuente elaboración propia)</titulo>
+        <texto>No obstante, a pesar de todas las ventajas mencionadas anteriormente sobre la importancia de tener un buen aislamiento térmico según la encuesta citada "ENCEVI 2018" en la región cálida de México, es decir en el norte, sólo el 14.9% cuenta con algún tipo de aislante térmico. En la figura 17 y 18, se muestran gráficas detalladas por zona geográfica y zonas de la vivienda.  Falta de conocimiento: Muchos usuarios no están al tanto de cómo el aislamiento térmico ayuda a ahorrar energía y reducir los costos a largo plazo.  Regulaciones deficientes: En el pasado las regulaciones de construcción en México no enfatizaban en la necesidad de aislamiento térmico, lo que ocasionó una falta de incentivos para su uso. En México se han implementado normas y programas para vencer estas barreras respecto al uso de aislantes térmicos, por ejemplo, la "Norma Oficial Mexicana NOM-020-ENER/SCFI-2011" que establece los requisitos de eficiencia energética en edificios en México. Esta norma incluye directrices sobre el uso de aislantes térmicos y otros elementos para mejorar la eficiencia energética en la construcción de viviendas y edificios comerciales. Con esta norma se buscaría atacar la barrera de "Regulaciones deficientes". Por otro lado, en enero del 2017 se publicó en el Diario Oficial de la Federación (DOF) la actualización del PRONASE (Programa Nacional para el Aprovechamiento Sustentable de la Energía) este programa busca impulsar y promover la eficiencia energética a través de 6 objetivos:  Desarrollo de programas de eficiencia energética.  Regulación de la eficiencia energética.  Mecanismos de cooperación.  Fortalecimiento de capacidades institucionales.  Cultura del ahorro de la energía.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materia</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Título, Autores y Año</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Determinar propiedades aislantes</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Calculo de Ahorro Energetico:</titulo>
+        <texto>Con los datos obtenidos de las propiedades aislantes (conductividad, densidad y espesor), y con ayuda del software Transys, calcular el ahorro para una vivienda. por los rayos X, difracta la luz en diferentes ángulos. Estos datos se registran al variar el ángulo de difracción (2θ), lo que proporciona información detallada sobre la estructura cristalina y las propiedades del material. La DRX tiene aplicaciones clave en el análisis cualitativo y cuantitativo de fases, estudios de cambios estructurales bajo condiciones específicas (como temperatura, humedad y presión), y la evaluación de microestructura, que incluye tamaño de cristalita, orientación y estrés residual. También se utiliza en materiales policristalinos en capas, películas finas y estudios de microdifracción en áreas pequeñas. Gracias a su versatilidad, la DRX es una herramienta esencial en la investigación y desarrollo de nuevos materiales, como semiconductores y fármacos, así como en el control de producción en industrias como la minería y la construcción. Su automatización ha mejorado la eficiencia y reducidos costos en aplicaciones industriales. La fase de la estructura cristalina de las materias primas se estudió por DRX utilizando un difractómetro XPert-Pro modelo MPD Panalytical (figura 20), el patrón fue adquirido en geometría Bragg-Brentano trabajando a 40 kV y 35 mA, la radiación fue de Cu-Kα con longitud de onda de 0.154060 nm, en el cual se realizaron los patrones a las muestras de caliza y pumicita.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 20. Difractómetro MPD Panalytical</titulo>
+        <texto>Se realizó un análisis de difracción de rayos X (DRX) a las materias primas para identificar las fases presentes. En la Figura 21, se observa que la caliza está compuesta principalmente por carbonato de calcio en su fase de calcita. Los datos de difracción se confirmaron al compararlos con el patrón de referencia ICDD PDF 00-005-0586, donde se identificó el plano principal (104) a 29.44°. Además, la muestra contiene pequeñas cantidades de aragonita y cuarzo (SiO₂). Figura 21. Patrón de difracción de rayos X para la muestra de caliza En la figura 22 se muestra el patrón de difracción de rayos X realizado a las muestras de Pumicita. Se observa muy amorfo, también se aprecia una colina muy amplia y solo unas pequeñas señales a 27, 28, 30, 36 °, las cuales no fue posible indexar. Esto se entiende claramente ya que la pumicita es un vidrio volcánico con base de feldespatos y cuarzo, todos ellos en forma amorfa. Figura 22. Patrón de difracción de rayos x para la pumicita.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis Termogravimétrico (TGA) de la Caliza</titulo>
+        <texto>El análisis termogravimétrico (TGA), es un tipo de técnica de análisis térmico, se define como el método que mide el peso de una muestra en función del tiempo o la temperatura, mientras esta se somete a un perfil controlado de temperatura en una atmósfera específica. Este programa puede incluir condiciones isotermas, calentamiento a velocidad constante (la más común junto con el modo isoterma), enfriamiento o una combinación de estos. Generalmente, se observa una pérdida de peso, aunque también es posible una ganancia. Las atmósferas utilizadas pueden ser estáticas o dinámicas, con gases como N₂, aire, Ar, CO₂ entre otras. Estas generalmente se introducen bajo condiciones de presión normal. Una característica esencial de la TGA es su capacidad para detectar procesos asociados con cambios de peso, como descomposición, sublimación, reducción, desorción o absorción. El equipo utilizado, conocido como termobalanza, consta de cinco componentes principales: una microbalanza electrónica con su sistema de control, un horno con sensores de temperatura (generalmente un termopar cercano a la muestra, pero sin contacto directo), un programador de temperatura, un controlador de atmósfera para gestionar el tipo de gas y su flujo, y un dispositivo de almacenamiento de datos para registrar el peso y la temperatura. Para este análisis se utilizó un TGA marca TA Instruments modelo Q600 (figura 23), bajo atmósfera de aire con flujo de 50 cm 3 /min, rampa de calentamiento de 10 °C/min. Calentando desde la temperatura ambiente hasta 900 °C.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 23. Analizador termogravimétrico (TGA)</titulo>
+        <texto>Este análisis fue realizado a la caliza con el fin de determinar el grado de pureza, se muestra en la figura 24. En el cual se puede apreciar un comportamiento inerte hasta los 600°C. A partir de aquí hasta los 850 °C se observa una pérdida de peso pronunciada debido a la descomposición del carbonato de calcio. Se cuantificó un 38.6 % de dióxido de carbono que es expulsado quedando un 61 % de residuo inorgánico.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 24. Análisis Termogravimétrico de la caliza</titulo>
+        <texto>La figura 25 muestra los cálculos para determinar el contenido de carbonato de calcio presente en la caliza. Este cálculo se basa en la relación de pesos moleculares y en la reacción química señalada en la figura. Dando una cuantificación del 87.8 % de carbonato de calcio. Figura 25. Cálculos para cuantificación de carbonato de calcio en la caliza. Los resultados obtenidos por TGA muestran un contenido de carbonato de calcio de aproximadamente 88 %, similar a lo reportado por estudios de peralta L.C.L. (2022). Lo que nos indica que es una caliza con un buen contenido de carbonato de calcio, apta para servir como agente formador de poros.</texto>
+      </seccion>
+      <seccion>
+        <titulo>3) Tamizado</titulo>
+        <texto>El tamizado se realizó con ayuda de un tamizador-vibrador disponible dentro del laboratorio de procesamiento en CIMAV. En este caso se tamizó a tamaño de malla 60 equivalente a 250 micras.</texto>
+      </seccion>
+      <seccion>
+        <titulo>4) Pesado y Homogenización de cada Formulación</titulo>
+        <texto>Se definieron 4 formulaciones de acuerdo a la bibliografía consultada. Los porcentajes seleccionados se basaron en estudios previos realizados por Las materias primas fueron pesadas con ayuda de una balanza analítica Ohaus, modelo Explorer y se homogenizaron con ayuda de una espátula. En este caso las formulaciones fueron como lo indica la tabla 4: Tabla 4. Formulaciones seleccionadas para síntesis. Con ayuda de una prensa uniaxial neumática marca Festo a una presión de 5 psi se comprimieron 3 gramos por cinco de cada formulación para elaborar 5 pastillas de cada formulación. Fue necesario humedecer un poco la mezcla para lograr la formación de la pastilla (aproximadamente 3 gotas de agua destilada en cada porción de 3 gramos). Las pastillas obtenidas presentaron un tamaño inicial cercano a 2 cm de diámetro y 0.5 cm de altura.</texto>
+      </seccion>
+      <seccion>
+        <titulo>.1 Caracterización de las espumas cerámicas sintetizadas</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Determinación de Densidad a Espumas Cerámicas Obtenidas</titulo>
+        <texto>Es ampliamente conocido que los materiales de baja densidad suelen ser los mejores aislantes debido a la gran cantidad de aire atrapado en su estructura. El aire es un excelente aislante térmico porque tiene una baja capacidad para transferir calor. Por lo anterior se realizaron ensayos para obtener la Densidad (Método de Arquímedes basado en ASTM D792) (figura 28) de las muestras sintetizadas de cada formulación, y con ello concluir cuales son las mejores formulaciones con un mejor desempeño de aislamiento térmico. Figura 29. Resultado de Densidad para cada tipo de muestra sintetizada. A partir de estos valores se determinó, trabajar solo con las dos formulaciones de menor densidad.  Figura 32. Tomografía computacional de las formulaciones 5-0-95.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conductividad Térmica</titulo>
+        <texto>La conductividad térmica comúnmente representada por λ (lambda) o κ (kappa) es la capacidad inherente de un material para transferir o conducir calor. Es uno de los tres mecanismos principales de transferencia de calor, junto con la convección y la radiación. Estos procesos se describen mediante ecuaciones de tasa específicas, siendo la ecuación para la conducción de calor una aplicación directa de la Ley de Fourier. Este fenómeno ocurre a través de la interacción y agitación molecular en el material, sin implicar el movimiento de masa del sólido. El calor fluye siguiendo un gradiente de temperatura, desplazándose desde regiones con mayor temperatura y energía molecular hacia áreas con menor temperatura y energía. Este flujo continúa hasta que se alcanza el equilibrio térmico. La velocidad de transferencia de calor depende tanto de la magnitud del gradiente de temperatura como de las propiedades térmicas específicas del material. El sentido de escalamiento para fabricar placas aislantes, deriva de proponer un producto comercial capaz de competir con los aislantes tradicionales poliméricos, con todas las ventajas anteriormente mencionadas. Las placas aislantes al tener cierta cantidad de cemento, demerita sus propiedades térmicas, pero por otro lado mejora su integridad estructural, al fabricarse en forma de placas estas serían fáciles de colocar sobre paredes o muros, tanto exteriores como interiores. La metodología propuesta, parte de una vez obtenido el material de espuma cerámica en forma de pellets con bordes irregulares y dimensiones que varían de 2 a 2.5 cm de diámetro por 1.5 cm de espesor (figura 34). Figura 34. Pellets de pastillas para la conformación de la placa aislante La metodología mostrada en la figura 35, inicia al combinar los pellets con cemento portland para la conformación de las placas. La relación de cemento adicionado es de un 30% y el resto lo conforman los pellets elaborados de espuma ceramica. Este porcentaje se obtiene de la valoración de que esta cantidad es la ideal para formar una placa con bordes lisos y planos, al no estar expuestos los pellets de espuma cerámica. Se observó que una proporción menor, los pellets podrían quedar expuestos, esto podría ocasionar que la placas sean susceptibles a deteriorarse más rápidamente por acciones mecánicas o de impacto. Se utilizaron moldes de plástico de plástico con dimensiones de 30 cm X 22 cm X 2.5 cm. Se vertió una pequeña porción de cemento semilíquido, se colocó una cama de pellets y se cubrió con cemento hasta cubrirlos totalmente. Al cabo de 2 días se desmontaron los moldes y se dejaron secar las placas por 3 días más a temperatura ambiente. Posteriormente se caracterizaron, realizando análisis de densidad, conductividad térmica y porcentaje de absorción de agua. Así como la evaluación de ahorro térmico utilizando el software de simulación computacional Trnsys versión 17. Figura 36. Piezas de placas aislantes fabricadas con espuma cerámica.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Estructura de la Placa aislante</titulo>
+        <texto>El registro fotográfico de la figura 37, se realizó utilizando un microscopio óptico de la marca Dino-lite con amplificaciones a 50X. Se observan los cortes transversales de las placas aislantes fabricadas. En las fotografías se ve como los pellets quedan enclaustrados y recubiertos de cemento, obteniéndose superficies lisas en los exteriores de las placas. Las paredes de las placas presentan diferentes grosores, variando de 3 a 5 mm, y en las esquinas de las placas aumenta a 7 mm. Esta variación es debida a que el cemento al estar en forma semilíquida se acumula en las esquinas, ocupando la forma del molde. Figura 37. Registro fotográfico de las placas aislantes en corte transversal.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Determinación de Densidad de las placas aislantes</titulo>
+        <texto>Se determinó la densidad de las pastillas por el método de Arquímedes, ya descrito anteriormente. Se analizaron seis piezas, con cortes en sus partes exterior e interior (tabla 8). El resultado mostró una densidad promedio de 0.9267 g/cm³, en contraste con los 0.684 g/cm³ obtenidos para los pellets de espuma cerámica. Esto indica que la adición de cemento incrementó la densidad, aunque sigue siendo comparable con la del concreto celular, un material ampliamente utilizado en la industria de la construcción, cuyo valor promedio de densidad es de 0.80 g/cm³.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Determinación del Coeficiente de Conductividad Térmica de las placas aislantes</titulo>
+        <texto>Se analizaron 4 muestras de placas aislantes para determinar el coeficiente de conductividad térmica los valores obtenidos se muestran en la tabla 9, obteniéndose un valor promedio de 0.18 W/m K. Este valor aumenta por la adición del cemento. El valor obtenido está clasificado como material aislante intermedio por lo que sus características térmicas solo demeritan un poco, pudiendo funcionar como placas aislantes. Tabla 9. Valores de la determinación del coeficiente de conductividad térmica de la placa aislante.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Determinación del porcentaje de absorción de agua a las placas aislantes</titulo>
+        <texto>La absorción de agua se utiliza para determinar la cantidad de agua absorbida en condiciones específicas. Los factores que afectan la absorción de agua incluyen: tipo de material, temperatura y duración de la exposición. Los datos arrojan información sobre el rendimiento de los materiales con alta exposición al agua o ambientes húmedos. El análisis se basó en la norma ASTM C642 "Standard Test Method for Density, Absorption, and Voids in Hardened Concrete". Se inicia secando las muestras en un horno durante 1 hora a 100°C y luego se colocan en un desecador para enfriar. Inmediatamente después de enfriarse, las muestras se pesan. Luego, el material se sumerge en agua a 23 °C durante 24 horas Las muestras se retiran, se secan con un paño sin pelusa y se pesan. Las muestras deben de ser en forma de discos, con dimensiones de dos pulgadas de diámetro, 0,125" y 0,250" de espesor. Tabla 10. Determinación de absorción de agua en muestras de placas aislantes fabricadas. Los resultados presentados en la tabla 10, dan un valor promedio de 15.2, %. Este valor se clasifica como cemento celular de densidad media, cuyos valores de absorción están alrededor del 15 al 20% y que se usan comúnmente en la fabricación de paneles ligeros o bloques de construcción. Como se ha visto en la experimentación realizada, el material sintetizado se comporta, muy similar al concreto celular en la referencia anexa se toma el valor de capacidad calorífica de 0.88 kJ/KgK para este material</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia>
+      <autores>
+        <autor>Escalamiento</autor>
+      </autores>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Determinación de Densidad de las placas aislantes</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Análisis de Costo Beneficio de Estrategias Pasivas de Climatizacón para Clima Seco: Caso de estudio: vivienda de interés social en Ciudad Juárez</titulo>
+      <autores>
+        <autor>L Alba Gómez</autor>
+        <autor>L Herrera Sosa</autor>
+        <autor>J Hernández Pérez</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Viviendas Morelenses con menos gasto energetico. Hypatya, Revista en línea de Divulgación Científico -Tecnológico del Gobierno del Estado de Morelos</titulo>
+      <autores>
+        <autor>G Álvarez</autor>
+        <autor>M Gijon</autor>
+        <autor>C</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>J Álvarez</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Monitoreo energético y estrategias de RETROFIT para viviendas sociales en clima frío</titulo>
+      <autores>
+        <autor>M Andersen</autor>
+        <autor>C Discoli</autor>
+        <autor>I Martini</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Aislantes térmicos para viviendas de la costa ecuatoriana</titulo>
+      <autores>
+        <autor>F Cabrera</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Reduccion del consumo electrico y CO2 mediante sistemas de ahorro y aislamiento termico aplicados a viviendas en zonas áridas de México</titulo>
+      <autores>
+        <autor>R Calderon</autor>
+        <autor>J Arredodndo</autor>
+        <autor>R Gallegos</autor>
+        <autor>F Mayagoita</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Efectos en el ambiente térmico por recubrimiento en viviendas de interés social, en clima cálido-seco</titulo>
+      <autores>
+        <autor>I Camacho Ixta</autor>
+        <autor>P Elías Lopez</autor>
+        <autor>G Bojorquez Morales</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cerámicas celulares elaboradas a partir de residuos del pulido de baldosas porcelánicas: Efecto del tiempo de residencia</titulo>
+      <autores>
+        <autor>Silva Pereira</autor>
+        <autor>A De Souza Felisberto</autor>
+        <autor>D Daros</autor>
+        <autor>M Luckmann</autor>
+        <autor>G Bernardin</autor>
+        <autor>A</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Optimal conditions and significant factors for fabrication of soda lime glass foam from industrial waste using nano AlN</titulo>
+      <autores>
+        <autor>E Ewais</autor>
+        <autor>M Attia</autor>
+        <autor>A El-Amir</autor>
+        <autor>A Elshenway</autor>
+        <autor>T Fend</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation and characterization of foams from sheet glass and fly ash using carbonates as foaming agents</titulo>
+      <autores>
+        <autor>H Fernandes</autor>
+        <autor>D Tulyaganov</autor>
+        <autor>J Ferreira</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Gasolinamx</autor>
+      </autores>
+      <fecha>2025</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Estudio de Confort Térmico y Ahorro Energético en la vivienda de interés social tipo en el norte del país</titulo>
+      <autores>
+        <autor>V Hernández Córdova</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>la Construcción</titulo>
+      <autores>
+        <autor>H Hernández</autor>
+        <autor>L Meza</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Encuesta Nacional sobre Consumo de Energéticos en Viviendas Particulares. Aguascalientes: Comisión Nacional para el Uso Eficiente de la Energía (CONUEE)</titulo>
+      <autores>
+        <autor>P Hernandez</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Materiales aislantes en la edificación arquitectónica</titulo>
+      <autores>
+        <autor>G Jacobo</autor>
+        <autor>D Vedoya</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>as ventajas del aislamiento. Una mirada a la eficiencia energética del aislamiento</titulo>
+      <autores>
+        <autor>K</autor>
+        <autor>R</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>S Lealba</autor>
+        <autor>J Rubén</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Espumas cerámicas elaboradas a partir de residuos de vidrio sencillos</titulo>
+      <autores>
+        <autor>A Marques</autor>
+        <autor>A Bernardin</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>(interés social, mediante simulación en TRNSYS</titulo>
+      <autores>
+        <autor>I Martín Domínguez</autor>
+        <autor>M Alarcón</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Elaboración de Recubrimientos y Ladrillos Termicos base Espumas Ceramicas de bajo costo para Aplicaciones en Construcciones Aislantes</titulo>
+      <autores>
+        <autor>J Martinez</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Análisis Geoquímico de las calizas de la Cantera Centro Minero Coohornical, municipio de Distracción-La Guajira (Colombia): Aporte en la determinación de su uso como material industrial</titulo>
+      <autores>
+        <autor>L Peralta</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>J Perez</autor>
+        <autor>R Cabanillas</autor>
+        <autor>J Hinojosa</autor>
+        <autor>A Borbón</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>E Pulido Franco</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Manufactura de espumas cerámicas por el método de agentes de sacrificio</titulo>
+      <autores>
+        <autor>E Franco</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fabricacion y Caracterizacion de Estructuras Celulares por Metodo de Replica, Utilizando Alumina Obtenida por Reciclaje</titulo>
+      <autores>
+        <autor>F Quevedo</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Introducción a los materiales cerámicos. Universidad Autónoma Metropolitana, Unidad Azcapotzalco: División de Ciencias Básicas e Ingeniería</titulo>
+      <autores>
+        <autor>E Rocha Rangel</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Determinación de la radiación global incidente en la cd. de Chihuahua, Chih. por método indirecto. spauach</titulo>
+      <autores>
+        <autor>A Rodríguez</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Poliestireno, innovaciones emergentes y daños a la salud: dos caras de la misma moneda</titulo>
+      <autores>
+        <autor>J Ruiz</autor>
+        <autor>R Narro</autor>
+        <autor>F Avalos</autor>
+        <autor>A Galindo</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>El Financiero. Obtenido de</titulo>
+      <autores>
+        <autor>A Sanchez</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Temperatura y rangos de confort térmico en viviendas de bajo costo en clima árido seco</titulo>
+      <autores>
+        <autor>L Sosa</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Glass foams produced from glass bottles and eggshell wastes</titulo>
+      <autores>
+        <autor>M Souza</autor>
+        <autor>B Maia</autor>
+        <autor>L Teixeira</autor>
+        <autor>K De Oliveira</autor>
+        <autor>A Teixeira</autor>
+        <autor>A De Oliveira</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>A Vascones Portilla</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Polystyrene -Synthesis, Production and Applications</titulo>
+      <autores>
+        <autor>J Wunsch</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of glass-ceramic foams using extracted titanium tailing and glass waste as raw materials</titulo>
+      <autores>
+        <autor>C Xi</autor>
+        <autor>F Zheng</autor>
+        <autor>J Xu</autor>
+        <autor>W Yang</autor>
+        <autor>Y Peng</autor>
+        <autor>Y Li</autor>
+        <autor>J Liu</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of glass ceramic foams for thermal insulation applications from coal fly ash and waste glass. Construction and building materials</titulo>
+      <autores>
+        <autor>M Zhu</autor>
+        <autor>R Ji</autor>
+        <autor>Z Li</autor>
+        <autor>H Wang</autor>
+        <autor>L Liu</autor>
+        <autor>Z Zhang</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+  </referencias>
+</tesis>

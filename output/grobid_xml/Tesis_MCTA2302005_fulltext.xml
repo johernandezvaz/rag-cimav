@@ -1,0 +1,1778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="pt">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Luis</forename><surname>Roberto</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Hernández</forename><surname>Nájera</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dra</forename><surname>Norma</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alejandra</forename><surname>Rodríguez Muñoz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dra</forename><surname>Ana</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cecilia</forename><surname>Borbón</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Centro de Investigación de Materiales Avanzados S. C DEPARTAMENTO DE ESTUDIOS DE POSGRADO Durango</orgName>
+								<address>
+									<postCode>2025</postCode>
+									<settlement>Dgo. Febrero</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<address>
+									<settlement>Codirectora de tesis</settlement>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">26DAF4FBE3B67D23E073035301D53929</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-29T18:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="pt">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Emisiones de CO 2 e y uso de energía relacionadas a las propiedades térmicas de ladrillos regionales bajo escenarios de cambio climático </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resumen</head><p>En esta tesis se consideró a la vivienda como fuente de emisiones, puesto que la Agencia Internacional de Energía (IEA) reporta que una cuarta parte de las emisiones mundiales relacionadas con energía provienen del sector residencial; además, la mayor parte de esta energía es por equipos de refrigeración o calefacción para mantener temperaturas de confort térmico. En unión a esto, México está en una situación complicada puesto que se encuentra con un déficit de 14 millones de viviendas, además, un tercio de las viviendas que actualmente son ocupadas se encuentran en malas condiciones, por lo que requieren trabajos de modernización o mantenimiento. Por tanto, es importante continuar la investigación en el sector de la construcción con el fin de brindar vivienda adecuada a la población.</p><p>en la literatura, por tanto, se puede suponer que es un elemento que beneficia el comportamiento térmico de las viviendas locales y, en consecuencia, su consumo energético.</p><p>Para la selección de viviendas se tomó en cuenta la información disponible sobre el desarrollo inmobiliario, así como la situación de vivienda en México, por lo que se decidió por una vivienda unifamiliar de dos habitaciones y un baño, en un terreno de 6m x 16m, muy similar a las viviendas típicas desarrollada en el tipo popular. También se seleccionó una vivienda de dos plantas con cuatro habitaciones y dos y medio baños, desplantada en un terreno de 10m x 20m, que por sus características se podría establecer como una vivienda de tipo medio o tradicional, la cual fue seleccionada por pertenecer a una de las tipologías con mayor consumo de recursos energéticos.</p><p>Las viviendas fueron simuladas en los panoramas RCP 4.5 y RCP 8.5 para los años 2050 y 2100, a fin de considerar la mayor parte de la vida útil de estas y su comportamiento antes los panoramas más desfavorables de cambio climático. Con las variables antes mencionadas se establecieron los casos de estudio que fueron analizados utilizando equipos de aire acondicionado y sin ellos, con el fin de conocer la diferencia en la demanda energética y poder comparar las temperaturas al interior de las viviendas. Gracias a esto se estableció una comparativa del rango de temperaturas en las que se encontrarían las viviendas.</p><p>Por otra parte, se obtuvo la energía necesaria para mantener las viviendas en rangos de confort y con ello establecer las emisiones operativas que se generarían derivadas del uso de estas viviendas.</p><p>Las simulaciones muestran un cambio en las emisiones dentro de los escenarios de los panoramas de cambio climático, en aquellos con los mayores aumentos en la temperatura ambiente se pudo observar una disminución de emisiones producto de la calefacción y un aumento de emisiones producto del enfriamiento; estos cambios son función de las características arquitectónicas y estructura de las viviendas, puesto que la vivienda popular muestra una disminución en sus emisiones por metro cuadrado conforme los escenarios presentaban temperatura ambiente más altas; por su parte, la vivienda tradicional muestra un aumento en sus emisiones ante los mismos escenarios. Ante los resultados obtenidos se destaca la importancia del análisis de la vivienda ante los escenarios de cambio climático y las condiciones actuales para poder brindar confort a los usuarios y disminuir las emisiones del sector residencial.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1">Introducción</head><p>El desarrollo de la sociedad va de la mano con el crecimiento demográfico, el cual trae consigo la necesidad de viviendas que den protección a los habitantes. Estas viviendas son las células de nuestras ciudades ya que son el punto de partida para el desarrollo de las actividades diarias y en ellas pasamos gran parte de nuestras vidas. Es por esto que la vivienda es reconocida como un derecho humano, expresado en lo establecido en el Artículo 4 de la Constitución de los Estados Unidos Mexicanos como "Toda familia tiene derecho a disfrutar de vivienda digna y decorosa. La Ley establecerá los instrumentos y apoyos necesarios a fin de alcanzar tal objetivo" (Secretaría de <ref type="bibr" target="#b84">Salud, 2015)</ref>. En ellas crecemos, descansamos, nos alimentamos y desarrollamos, al realizar una gran variedad de actividades en ellas representan un punto focal para el análisis de confort térmico, consumo energético y emisiones de gases de efecto invernadero.</p><p>Si consideramos la situación actual en México, el análisis y diagnóstico de la vivienda, puede resultar en una medida de remediación, tanto como de prevención. Esto debido a que en México al 2019 existían 34.1 millones de viviendas habitadas, de las cuales la Sociedad Hipotecaria Federal estimó que 9.41 millones se encuentran en malas condiciones <ref type="bibr" target="#b86">(Topelson, 2020)</ref>. A esto podemos agregar lo presentado por Albert Saiz, que menciona que es necesario que se construyan 814 mil viviendas nuevas cada año hasta 2042, para atender el déficit de vivienda actual y lo proyectado de acuerdo al crecimiento poblacional <ref type="bibr" target="#b78">(Saiz et al., 2022)</ref>.</p><p>En contraste a esto se encuentran los datos presentados por el Registro Único de Vivienda (RUV), donde en los últimos 5 años se tiene una media de 168 mil viviendas nuevas por año. Existiendo un cambio en la tendencia donde las viviendas de bajo costo (valor máximo de $405,823 1 ) cada vez se construyen en menor medida, pasando de 33% a 5% y la vivienda tradicional (valor máximo de $898,975 1 ) presenta un aumento de 25% a 47%.</p><p>Ante esto se puede reconocer que existe un área de oportunidad en la construcción de viviendas, de acuerdo a Hábitat para la Humanidad México, actualmente existen 14 millones de familias que no tienen acceso a una vivienda digna (Habitat para la Humanidad México, 2019). Esta necesidad debe ser subsanada considerando los Objetivos de Desarrollo Sostenible (ODS) 11 (Ciudades y comunidades sostenibles) y 7 (Energía asequible y no contaminante), así como buscar disminuir el impacto ambiental de estas viviendas, lo cual se menciona en el ODS 13: Acción por el clima. (Naciones <ref type="bibr" target="#b69">Unidas, 2015)</ref>. Esta meta se vuelve crucial si consideramos que en el 2021 el 23% de las emisiones globales pueden ser imputadas a las viviendas (International Energy Agency, 2023c), estas emisiones son generadas al llevar a cabo diferentes actividades o procesos, pero la mayor parte de esta energía es utilizada en la calefacción y la refrigeración de los espacios. Las emisiones equivalentes provocadas por el enfriamiento de espacios se pueden estimar en 1.02 GtCO2 (International Energy Agency, 2023e), aumentado aproximadamente un 2% anualmente, mientras que 1 En 2023 las provocadas en 2022 por la calefacción se estima en 4.2 GtCO2 (International Energy Agency, 2023d), presentando muy poca variación en los últimos 10 años.</p><p>Este panorama presenta al menos dos opciones viables, una es el uso de equipos de calefacción y refrigeración con una eficiencia más alta y la otra el análisis térmico y la mejora de los espacios construidos para buscar el mayor aprovechamiento de la energía utilizada para estos dos fines.</p><p>Para desarrollar la segunda opción, que es la que se abordó en este proyecto, es necesario reconocer que las propiedades de los materiales que componen los muros y techos de las viviendas son de especial importancia, puesto que, a partir de sus propiedades térmicas, podremos conocer: ¿cuál es la capacidad aislante de los mismos?, ¿cuánto calor se gana o cede dentro de las viviendas? y ¿cómo se refleja esto en la temperatura interior de la misma? Para esto debemos entender que los muros no son sistemas de un solo material, sino que son un elemento compuesto por diferentes materiales, con propiedades y espesores distintos, que darán como resultado una envolvente térmica, que caracterizará al sistema.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2">Estado del arte</head><p>La composición de los muros tiene un alto impacto sobre las propiedades térmicas de una edificación, por tanto, ha recibido la atención de especialistas tanto del área de diseño de materiales como de los que evalúan el desempeño energético de las edificaciones. A continuación, se destacan algunas investigaciones relacionadas con la composición de los ladrillos, los muros y a la simulación de estructuras residenciales; las cuales son pertinentes para este trabajo de investigación (Tabla 1).</p><p>En el trabajo desarrollado por Salleh et al. se realizó una combinación de diversos modelos de regresión lineal para proporcionar un análisis integral de los factores que afectan la temperatura interior de una edificación. En la investigación se observó que el elemento que presentaba la mayor correlación con la temperatura al interior de las edificaciones son los muros, tanto en temporada caliente como fría. El análisis se realizó en edificios tradicionales y pasivos, además mediante el desarrollo de una regresión lineal se pudo comprobar que la temperatura de los muros es una variable estadísticamente significativa para la determinación de la temperatura al interior de la vivienda y por tanto del confort térmico <ref type="bibr" target="#b79">(Salleh et al., 2023)</ref>.</p><p>En diversos trabajos realizados por varios autores <ref type="bibr" target="#b52">(Abohelal et al., 2023;</ref><ref type="bibr" target="#b60">Buratti et al., 2022;</ref><ref type="bibr" target="#b66">Mawra et al., 2023;</ref><ref type="bibr" target="#b88">Venkatesan et al., 2022)</ref>, se han analizado variaciones en la composición de los muros y ladrillos, para conocer el cambio en el consumo de energía. En los estudios desarrollados por Venkatesan et al., se modificó la configuración de los ladrillos dentro del muro creando espacios vacíos, disminuyendo con esto el consumo de energía hasta un 26% <ref type="bibr" target="#b88">(Venkatesan et al., 2022)</ref>. Otro enfoque es el abordado por <ref type="bibr">Abohelal et al. quienes</ref> simularon edificios escolares con muros compuestos por dos tipos de ladrillo, el primero siendo ladrillo rojo local y el segundo ladrillo elaborado con material de reúso, esto resultando en que la cantidad de energía necesaria para brindar el confort térmico disminuiría en 35% <ref type="bibr" target="#b52">(Abohelal et al., 2023)</ref>. Por su parte <ref type="bibr">Buratti et al. y Mawra et al.</ref>, modificaron los ladrillos aumentando la cantidad de vacíos dentro del mismo, agregando aerogel y fibras respectivamente. Buratti et al, obtuvieron una disminución de la conductividad de 0.310 W/m•K a 0.212 W/m•K representando una disminución del 31% <ref type="bibr" target="#b60">(Buratti et al., 2022)</ref>, mientras que Mawra llegó a estimar una conductividad de 0.29 W/m•K al agregar fibras de cáscara de coco en el proceso de elaboración de los ladrillos <ref type="bibr" target="#b66">(Mawra et al., 2023)</ref>.</p><p>En otros trabajos podemos encontrar valores de conductividad y calor especifico como lo elaborado por A.</p><p>Borbón et al. donde se reporta un valor de 0.814 W/m•K y 921 J/kg•K para la conductividad y el calor especifico respectivamente, de ladrillo común <ref type="bibr" target="#b59">(Borbón Almada et al., 2019)</ref>. Por su parte J. Sánchez et al.</p><p>reportan un valor de 0.691 W/m•°C en los ladrillos de arcilla analizados <ref type="bibr" target="#b81">(Sánchez Molina et al., 2020)</ref> y M.</p><p>Villaquirán presenta valores de 0.5352 W/m•K y 1562 J/m 3 •K para conductividad térmica y calor especifico, respectivamente <ref type="bibr" target="#b89">(Villaquirán-Caicedo et al., 2023)</ref>.</p><p>Por su parte, el uso de las Trayectorias de Concentración Representativas (RCP) para la predicción de escenarios futuros ha sido utilizada en diversos trabajos. Attia y Gobin, donde se utilizaron los RCP 4.5 y 8, para estimar las horas de disconfort térmico dentro los edificios de cero emisiones, resultando en la necesidad de aumentar las medidas de diseño amigable con el medio ambiente debido a un aumento previsto en la temperatura al interior de las viviendas <ref type="bibr" target="#b58">(Attia &amp; Gobin, 2020)</ref>. Por su parte Jiménez Torres et al. desarrollaron un análisis de los consumos previstos para 2050 y 2100 en viviendas unifamiliares en México, estimando que el consumo eléctrico, relacionado con la ventilación en México se duplicará en menos de 80 años y estableciendo una correlación entre la humedad relativa y el consumo promedio de las viviendas (Jiménez <ref type="bibr" target="#b64">Torres et al., 2023)</ref>. A propósito de esto D. Evin y A. Ucar desarrollaron el cálculo de emisiones de CO2e generadas bajo diferentes combinaciones de aislantes en edificios en diferentes climas de Turquía a fin de encontrar el de mejor propiedades y espesor óptimo para cada zona climática <ref type="bibr" target="#b62">(Evin &amp; Ucar, 2019)</ref>.</p><p>A través de estos artículos podemos darnos cuenta de la importancia que tienen para la investigación, el estudio de las propiedades térmicas de las edificaciones y por tanto de los muros y sus componentes. De igual manera podemos reconocer que el uso de la simulación, con el fin de pronosticar escenarios posibles, resulta en una herramienta útil para el análisis y diagnóstico de nuestras necesidades energéticas futuras. Se sabe que las emisiones de gases de efecto invernadero en uso residencial y comercial, en países como Estados Unidos pueden llegar a representar hasta un 30% de las emisiones totales (United States Environmental Protection Agency, 2023), consecuentemente la mayor parte del uso doméstico de energía, responde a la búsqueda de mantener temperaturas de confort térmico dentro de las viviendas, esto se logra a través del uso de sistemas de climatización, ventiladores, extractores, etc. Lo que resulta en un ciclo donde nuestra demanda energética va en aumento, al aumentar las horas de operación y el número de equipos, lo cual trae consigo mayores emisiones que provocan un aumento de la temperatura global. Ante este panorama las opciones de mejora se basan en buscar la transición a energías con emisiones contaminantes Emisiones (kgCO2e) menores y realizar mejoras en el tejido habitacional, buscando mejorar la eficiencia energética del mismo y de los sistemas de ventilación, calefacción y aire acondicionado (HVAC).</p><p>La demanda de energía irá en aumento no solo debido a las tendencias actuales, donde se utilizan cada vez más equipos; sino que, si analizamos las condiciones del cambio climático y calentamiento global, las temperaturas se volverán extremas y fenómenos meteorológicos como sequías y olas de calor irán en aumento, será fácil prever que nuestra demanda energética aumentará, pues tendremos que enfrentarnos a situaciones cada vez más adversas. Conocer de qué magnitud será este aumento resulta complicado, pues estará en función de muchas y muy distintas variables tanto arquitectónicas, sociales y tecnológicas, como de factores climáticos y topográficos poco controlables.</p><p>Este proyecto pretende realizar un diagnóstico para conocer en qué medida las propiedades térmicas de un material de alta distribución en nuestra zona, como lo es el ladrillo recocido, pueden afectar al comportamiento de las viviendas en función a su confort térmico, y cómo se verá reflejado en el requerimiento energético de la vivienda, y finalmente en las emisiones operativas de la misma, este diagnóstico se ve como una labor de mayor impacto si consideramos lo presentado en el documento Estado y perspectiva del cambio climático, el estado de Durango excederá el umbral de 2 °C de incremento de temperatura en 2032 con el RCP 8.5 y 2045 con el RCP 4.5 <ref type="bibr" target="#b75">(Porrúa et al., 2023)</ref>.</p><p>A través de este proyecto se realizará un análisis de las propiedades térmicas de ladrillos locales, para conocer el comportamiento térmico del mismo en el contexto de las condiciones climáticas de la zona;</p><p>además, se analizará una estructura habitacional típica, a través de la cual se simularán condiciones climáticas con distintas trayectorias de concentración representativas (RCP, por sus siglas en inglés), las cuales fueron definidas por el Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC), con el fin de conocer el comportamiento térmico y energético de la vivienda.</p><p>El análisis y simulación del comportamiento de los materiales de construcción y por tanto de las viviendas ante posibles escenarios, nos dará la posibilidad de realizar mejoras en el dimensionamiento y planeación de las viviendas, en búsqueda de que estas tengan el mejor comportamiento posible, en función a su eficiencia energética y habitabilidad, lo cual se reflejará en una disminución en las emisiones operativas a causa del uso de equipos de aire acondicionado y una mejor calidad de vida para las familias.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Hipótesis</head><p>A través del estudio de las propiedades termofísicas de los ladrillos regionales y su incorporación en viviendas típicas será posible estimar la diferencia en las emisiones de CO2e producto de mantener condiciones de confort térmico bajo las Trayectorias de Concentración Representativas (RCPs) al 2050 y 2100.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Objetivo general</head><p>Establecer las emisiones de CO2e generadas al aplicar ladrillos regionales en viviendas típicas bajo escenarios de cambio climático.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1">Objetivos específicos</head><p> Identificar zonas de producción de ladrillo rojo recocido y sus características principales.</p><p> Conocer las propiedades térmicas y mecánicas de ladrillos de producción local.</p><p> Establecer modelos de vivienda típicos para estimar por medio de la simulación el requerimiento energético y emisiones al 2050 y 2100. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2">Emisiones</head><p>Este es el término utilizado para hacer referencia a algún contaminante que se encuentra en el ambiente en estado gaseoso o en forma de vapor, debido a su presencia la primera capa que se ve afectada es la atmósfera (Center for Climate and Energy Solutions, 2016). En este caso centraremos nuestra atención a aquellos que aumentan el llamado efecto invernadero, en otras palabras, estos son contaminantes que por sus propiedades impiden que el calor escape de nuestra atmósfera, provocando con esto un aumento en la temperatura global, ejemplos de estos son mencionados en la tabla 3, así como su potencial de calentamiento global y su vida atmosférica. Las emisiones de CO2 relacionadas con el sector de los edificios son aproximadamente un tercio de las emisiones totales anuales, generando 3 Gt de CO2 de manera directa durante el uso de los edificios. Se generan 6.8 Gt de CO2 de manera indirecta a través de la generación de la energía demandada en los mismos y 2.5 Gt de CO2 relacionadas con la construcción de estos (International Energy Agency, 2023a). Estas emisiones antes mencionadas se pueden dividir en dos categorías principales, operativas e incorporadas, las emisiones operativas son aquellas que resultan de la fase de uso de la edificación y están relacionadas a los bienes y servicios utilizados durante esta fase, por su parte las emisiones incorporadas son aquellas generadas durante el ciclo de vida de la edificación para la obtención de materias primas, la construcción de la edificación y la disposición de la misma.</p><p>Es debido a esta gran cantidad de emisiones asociadas al sector de los edificios que se vuelve necesario replantear y estudiar los métodos constructivos actuales, así como el diseño y planeación de los edificios.</p><p>Los materiales utilizados para la construcción requieren ser analizados en función de las emisiones que generan en su ciclo de vida y sus propiedades para generar envolventes que permitan disminuir el requerimiento energético de las estructuras durante su funcionamiento.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3">Cambio climático en México</head><p>Debido a sus características físicas, culturales y sociales, México se puede establecer como vulnerable ante el cambio climático, México tiene una megadiversidad desarrollada en 1,960 millones de kilómetros cuadrados y una distribución del capital desigual, lo cual propicia que el impacto del cambio climático sea variable de región a región. Dentro del territorio nacional se pueden identificar como áridos dos tercios de la superficie y húmedo en el tercio restante.</p><p>El clima se ve regido por la accidentada topografía, los cinturones latitudinales de circulación atmosférica, fenómenos como huracanes en las costas del Caribe y Pacifico y los monzones generados en el verano.</p><p>El aumento en fenómenos de variabilidad climática tiene un gran efecto sobre la población. Esto es debido a que existe una gran variedad de servicios ambientales que tienen impacto sobre la economía del país y calidad de vida (calidad del aire, calidad y suministro de agua, el uso de suelo, conservación de cadenas tróficas), mismos que presentan grandes cambios conforme se agudiza el cambio climático (Rodríguez <ref type="bibr" target="#b77">Moreno et al., 2021)</ref>.</p><p>Cómo parte de los parámetros que se han medido para dimensionar el impacto del cambio climático se encuentra la temperatura media anual; la cual presenta un aumento de entre 1.59 °C y 1.81 °C con respecto de la del siglo XX. Por si sola, esta es una razón para considerar alarmante el aumento en México ya que este se encuentra sobre el aumento global que es de 1.23 °C para el mismo periodo de tiempo. Este cambio no es homogéneo sobre todo el territorio, ni durante todo el año; siendo mayor el aumento en el norte del país. Otro parámetro de interés del cual se ha medida su variación con respecto al siglo pasado es la precipitación la cual presenta un aumento si la analizamos de manera nacional, pero con la peculiaridad de que disminuyó en la región norte y aumentó en el sur del país (Rodríguez <ref type="bibr" target="#b77">Moreno et al., 2021)</ref>.</p><p>México cuenta con una Política Nacional de Cambio Climático; misma que tiene por objetivos disminuir la vulnerabilidad ante el cambio climático en el enfoque social, aumentar la resiliencia de la infraestructura y los sistemas de producción y desarrollar una política de conservación de los ecosistemas. Esta política fue evaluada por primera y última vez en 2018, en esta evaluación se reportó que el 43% de las líneas de acción se encontraban en funcionamiento, 28% tiene rezagos y el resto no contaban con datos de su existencia o avances en las mismas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.4">Panel intergubernamental de expertos sobre el cambio climático</head><p>Es un órgano internacional formado en 1988 por iniciativa del Programa de las Naciones Unidas para el Medio Ambiente (PNUMA), la Organización Meteorológica Mundial (OMM) y la Organización de las Naciones Unidas (ONU), que tiene como objetivo evaluar las producciones científicas, técnicas y socioeconómicas relacionadas con el cambio climático. En la actualidad cuenta con 195 países miembros, así como ONGs y organismos internacionales que actúan como observadores.</p><p>A pesar de ser una organización científica no desarrolla investigaciones ni supervisa los datos relativos al clima, su labor principal es la de elaborar informes sobre el cambio climático, los cuales se desarrollan a través de periodos largos (5 a 6 años), dichos informes tienen relevancia al proporcionar información tomando en cuenta los diversos puntos de vista científicos, siendo objetivos, plurales y transparentes; para el desarrollo de cada informe se aprueba un esquema del contenido del informe, posteriormente se nomina a elementos de la comunidad científica que destaquen en los temas a tratar para ser autores de este, quienes desarrollan borradores del informe que son sometidos a rigurosas y numerosas revisiones por pares y gobiernos, hasta obtener la aprobación formal del mismo (Intergovernmental panel on climate change, n.d.).</p><p>El IPCC cuenta con tres grupos de trabajo y un equipo especial, los cuales están enfocados a diferentes temas relacionados al cambio climático.</p><p> Aspectos físicos y científicos del sistema climático.</p><p> Vulnerabilidad de los sistemas socioeconómicos y naturales.</p><p> Opciones para mitigar el cambio climático.</p><p> Equipo especial, se encarga del programa de inventario de emisiones de gases de efecto invernadero.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.5">Trayectorias de Concentración</head><p>Representativas (RCPs)</p><p>Con el fin de encontrar una guía de lo que sucederá en lo referente al cambio climático, se realizaron diferentes escenarios que se reflejaron en las trayectorias de concentración representativas (RCP), las cuales engloban diversas suposiciones, con respecto a nuestro actuar sobre nuestras emisiones. Las RCP hacen referencia a la concentración de gases de efecto invernadero y que cambios posiblemente causarán en el clima.</p><p>Existen cuatro RCP iniciales 2.6, 4.5, 6.0 y 8.5. Donde los números hacen referencia al forzamiento climático ejercido por los gases de efecto invernadero, que es la cantidad de energía absorbida por la tierra que no es reflejada al espacio y se manifiesta como un aumento en la temperatura, teniendo por unidades el W/m 2 . Ilustración 2 Panoramas de tempera tura media para 2050 y 2100 con las distintas RCP. Elaboración propia con datos extraídos de Meteonorm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.6">Impacto del uso de energía</head><p>Las viviendas son uno de los espacios donde se consume una gran cantidad de energía, el uso habitacional cuenta para aproximadamente el 30% del consumo final de la energía producida y el 26% de las emisiones globales relacionadas con energía (International Energy Agency, 2023a), teniendo también una distribución poco normal, puesto que el 10% de las viviendas con mayores emisiones contribuye con aproximadamente del 34-45% de estas emisiones y siendo las ciudades donde se concentra entre 67-72% de estas emisiones (UN-Habitat, 2022). Con esto podemos inferir una baja democratización en el uso de energías, además de que nos podemos dar cuenta que los sectores de mayor ingreso son también aquellos de mayor demanda.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.7">Vivienda en México</head><p>México cuenta con más de 35 millones de viviendas habitadas, de las cuales más del 90% de ellas cuentan con acceso a electricidad, saneamiento y agua de acuerdo con el INEGI en el 2020. En contraparte a esto, también 9.41 millones de viviendas se encontraban con rezago habitacional en 2018 <ref type="bibr">(INEGI, n.d.)</ref>.</p><p>Por lo que existe una necesidad de mantenimiento o modernización de la vivienda en México. Este problema tiene una de sus causas en la cantidad de asentamientos irregulares, entre 6.3 millones y 7.5 millones de personas se encuentran en esta situación (Pedro Kumamoto, 2024), lo cual es a su vez producido en buena parte por el sector económico informal en México. A través de la política en vivienda ejercida entre 2013 a 2018 podemos ver que el sector de la autoconstrucción, ampliación y modernización se encuentra desfavorecido, puesto que el 66% de los apoyos brindados en este periodo fueron a vivienda nueva formal (Pablo Ampudia, 2020).</p><p>Asimismo, existe un déficit entre el número de viviendas requeridas y las producidas, además de que, debido a factores económicos y políticos, la producción migró de la construcción de casas para la población de bajos recursos a aquella destinadas a un nivel de ingresos medio o alto.  NOM-020-ENER-2011-Eficiencia energética en edificaciones, Envolvente de edificios para uso habitacional: Tiene por objetivo disminuir las ganancias de calor y con ello la energía requerida para acondicionar los espacios a un confort térmico (Gobierno de México, 2017).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.8">Envolvente térmica</head><p>La envolvente térmica de una edificación hace referencia a los elementos que forman un límite entre el ambiente exterior y los espacios habitables, por tanto está conformada losas, muros, cubiertas, columnas, puertas, ventanas, balcones, huecos, lucernarios y otros; la principal función de la envolvente térmica es ser una protección de las condiciones ambientales, por tanto debe ser una barrera ante la entrada de agua, controlar los flujos de calor con el ambiente y la salida de vapor, evitar las corrientes de aire y proveer de aislamiento acústico a la edificación (Sisternes García, 2022).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.9">Transferencia de calor a través de muros</head><p>Los materiales que constituyen un muro se vuelven de vital importancia cuando se busca determinar la transferencia de calor global de un edificio. El coeficiente general de transferencia de calor (U) se puede utilizar para describir su rendimiento térmico de forma simplificada. La ecuación para calcular la transferencia de calor es Q=UA(T1-T0) <ref type="bibr" target="#b61">(Cengel, Yunus, Ghajar, 2023)</ref>, donde Q es la tasa de transferencia de calor, A es el área, T1 y T0 son las temperaturas interior y exterior, y U es coeficiente de transferencia total; el cual se determina como la inversa de la resistencia térmica R. Cuando se analiza la resistencia térmica de un muro, se suma la resistencia de las diferentes capas de las paredes que la integran para determinar el valor R de la pared, pero cuando una capa está compuesta por más de un material se vuelve necesario suponer planos isotérmicos normales al flujo de calor.</p><p>El valor U se ve afectado principalmente por el ancho del material (L) y la conductividad térmica del mismo (λ), los cuales son los principales factores para determinar la transferencia de calor por conducción. Por su parte, la transferencia de calor por convección y radiación en las superficies expuestas se puede incorporar en la conductancia de la superficie interna y externa (hi y ho). Las conductancias se pueden determinar mediante experimentación o se pueden seleccionar de la literatura. Por ejemplo, del Manual de Fundamentos de ASHRAE (ASHRAE, 2017), donde se pueden recuperar valores para superficies ordinarias y reflectantes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.10">Propiedades de los ladrillos</head><p>En el ámbito de la construcción las propiedades que son analizadas comúnmente para la selección de un material de mampostería son las físicas y mecánicas, que hacen referencia a la resistencia a los esfuerzos de compresión y el porcentaje de absorción de agua característico para un material; características enfocadas a su comportamiento termofísico, tales como conductividad térmica y calor específico, no son determinadas usualmente.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.10.1">Absorción de agua</head><p>Es la propiedad que tiene un material de absorber agua en sus poros ya sea por inmersión total en relación con su masa (porcentaje de absorción) o a través de capilaridad por una de sus caras en un periodo determinado (absorción inicial). Está relacionada directamente a propiedades como la permeabilidad y retención de agua del material y tiene incidencia con factores como la durabilidad y resistencia del mismo (ONNCCE, 2013b).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.10.2">Resistencia a la compresión</head><p>Los ladrillos como elementos estructurales de las edificaciones deben cumplir con ciertas características mecánicas para considerarse aptos para su uso, en México estas características están especificadas en la NMX-C-404-ONNCCE-2012 Bloques, tabiques o ladrillos y tabicones para uso estructural -especificaciones y métodos de ensayo, en la cual se establece la resistencia a la compresión (f'c) mínima (capacidad de carga por unidad de área), que deben presentar los mismos (ONNCCE, 2012).</p><p>2.3.10.3 Propiedades termofísicas de los ladrillos.</p><p>Los ladrillos al formar parte de la envolvente térmica brindan sus propiedades termofísicas a la misma, al ser aquellos que volumétricamente representan la mayor parte del muro son un elemento de vital importancia y por ello se debe estimar sus propiedades termofísicas, como los son:  Conductividad térmica. Es la capacidad de transmitir el calor a través de sus moléculas de un material (W/m•K).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head></head><p>Calor específico. Es la energía necesaria para elevar en un grado Kelvin la temperatura de un kg de un material (J/kg•K).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.11">Herramienta de Simulación de Sistemas Transitorios (TRNSYS)</head><p>Es un software desarrollado para la simulación energética, utilizado en un inicio para la evaluación de sistemas de energía solar, y que debido a su flexibilidad y gran capacidad para analizar procesos transitorios ha sido utilizado para diferentes fines tales como; simulación de edificios, procesos térmicos y eléctricos en una edificación; sistemas solares y eólicos, simulación de múltiples sistemas solares fotovoltaicos, eólicos y solares de alta temperatura; geotermia, la simulación en el proceso técnico y térmico; modelado de flujos, con lo que se puede conocer el comportamiento de fluidos como el agua y aire.</p><p>Este software trabaja con dos secciones Kernel, una que se encarga de procesar los datos ingresados y realizar los cálculos, y otra que es una biblioteca de componentes, estos componentes son aquellos que representan los procesos dentro de la simulación; además, estos componentes pueden ser agregados a través de formatos ejecutables DLL y ser programados a través de C++ y Delfi-FORTRAN (TRNSYS, 2019).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Metodología</head><p>La metodología se llevó a cabo a través de dos etapas principales, una etapa de determinación de propiedades y una de simulación. La etapa de determinación de propiedades comprende el diseño de experimentos, a través del cual fue posible establecer el tamaño de muestra adecuado; la recolección de muestras y la adecuación de estas de acuerdo a las pruebas a las que fueron sometidas. Las propiedades determinadas fueron absorción de agua, resistencia a la compresión, calor específico y conductividad térmica. Al finalizar esta etapa, se realizó un análisis de los resultados donde se contrastaron los valores de las propiedades contra materiales similares de la literatura.</p><p>Para la segunda etapa, simulación, se seleccionaron las tipologías de las viviendas y las Rutas de Concentración Representativas (RCPs). A partir de los resultados de la primera etapa, se establecieron los materiales de las envolventes térmicas de las viviendas y se desarrolló un análisis de los diversos parámetros necesarios para la simulación (ganancias de calor, infiltración y rangos de confort). Finalmente, se establecieron los casos de estudio a desarrollar, mismos que fueron simulados en el programa TRNSYS.</p><p>Ilustración 3 Metodología del proyecto</p><p>3.1 Diseño de experimento Al tratarse de una de las zonas de mayor concentración de ladrilleras se decidió analizar las propiedades de los materiales que se producen en esta zona. En este punto se procedió a entrevistar a los productores para conocer las características de su labor, finalmente se seleccionaron tres productores. Los tres productores fueron seleccionados debido a que se identificó que se proveían del mismo banco de material, además de contar con procesos similares de producción (proceso tradicional).</p><p>Ilustración 4 Zonas de producción de ladrillo seleccionadas</p><p>De manera adicional, se seleccionaron dos productores quienes cuentan con métodos de elaboración diferentes al tradicional. El primer material seleccionado fue uno que se comercializa de forma local y corresponde a un ladrillo producido de manera mecanizada en la ciudad de Monterrey. El segundo material corresponde a un productor local que elabora tabiques no horneados, comercializados bajo el nombre de "ladrillo térmico".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.">Tamaño de muestra</head><p>Para seleccionar el tamaño de muestra adecuado para las pruebas térmicas, debido a que no existe una normativa nacional que lo indique, se decidió realizar el cálculo de un análisis de varianza de medias de una vía de la propiedad de mayor interés que es la conductividad térmica, con el fin de conocer si está propiedad presenta una diferencia significativa entre los productores.</p><p>Esto se realizó a través del software Minitab, utilizando la metodología para establecer el tamaño mínimo de muestra para un análisis de varianza de media de una vía, en el que se estableció una potencia de prueba de 0.9 y se tomó como una diferencia significativa el valor de 0.1, esto debido a que en la revisión de literatura fue notorio que valores de 0.1 <ref type="bibr" target="#b60">(Buratti et al., 2022)</ref>, 0.18 <ref type="bibr" target="#b59">(Borbón Almada et al., 2019)</ref> o 0.6 <ref type="bibr" target="#b52">(Abohelal et al., 2023)</ref> representan un impacto en el consumo energético de las viviendas, para la selección de la desviación estándar se tomó en cuenta que autores reportan un valor de 0.02 <ref type="bibr" target="#b60">(Buratti et al., 2022;</ref><ref type="bibr" target="#b68">Munir et al., 2018)</ref> y con la intención de ser mesurados se eligió un valor de 0.4, con estos valores se obtuvo un tamaño mínimo de muestra igual a 6, con esta información y a fin de disminuir la varianza de los datos se optó por tomar 10 piezas para cada muestra.</p><p>El tamaño de muestra para las pruebas de absorción de agua y resistencia a la compresión se hizo en concordancia con las normas NMX-C-036-ONNCCE-2013 (ONNCCE, 2013a) y NMX-C-037-ONNCCE-2013</p><p>(ONNCCE, 2013b), donde se establece un tamaño de muestra mínimo de 5 y 3 piezas respectivamente, se seleccionó un tamaño de muestra de 5 para la prueba de absorción de agua y para la prueba de resistencia a la compresión se seleccionó un tamaño de 10 para empatar con el tamaño seleccionado para las pruebas térmicas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Recolección y adecuación de muestras</head><p>La recolección de muestras se llevó a cabo de manera que todas las muestras fueran extraídas de un solo lote de producción. Es común que la producción de ladrillos sea ordenada en montículos compuestos por 1000 ladrillos los cuales son dispuestos en el patio de almacén. Para la toma de muestras se seleccionaron montículos al azar, de los cuales se tomaron tres muestras, cada uno de una altura diferente dentro del montículo y de una cara diferente. Esto con el fin de buscar que las muestras fueran lo más aleatorias posibles y procedieran de diferentes zonas en el arreglo utilizado durante el proceso de cocción.</p><p>Posteriormente se realizó un proceso de adecuación de las muestras, según las pruebas a las que sería sometida cada muestra.</p><p>Las muestras objeto de análisis de las propiedades de conductividad térmica y calor específico, se ajustaron a dimensiones menores a 15 cm x 15cm x 5 cm. Estas las dimensiones permiten que las muestras sean evaluadas primero en el equipo FOX 200, el cual es un medidor de flujo de calor. Posteriormente estas muestras fueron perforadas para llevar a cabo la medición del calor específico en el equipo Tempos, analizador de propiedades térmicas.</p><p>Las muestras (50), fueron llevadas a peso constante, secándose por un mínimo de 24 horas a 105 °C, verificando que la variación en masa no fuera mayor al 0.2% de la masa inicial de la muestra. Una vez que se cumplió con el criterio de secado, las muestras fueron almacenadas en bolsas selladas para evitar que ganaran humedad. De manera paralela a esto se hizo una medición y etiquetado de las muestras a fin de caracterizarlas en función a su volumen, masa y densidad.</p><p>Las muestras objeto a estimar su absorción de agua ( <ref type="formula">25</ref>), fueron llevadas a peso seco por el método antes descrito y para aquellas muestras analizadas mecánicamente (47), se verificó que no contaran con fracturas y se almacenaron en un espacio a temperatura ambiente y con baja humedad.</p><p>3.3 Determinación de propiedades 3.3.1 Porcentaje de absorción y resistencia a la compresión.</p><p>Se siguió el procedimiento establecido en la norma NMX-C-037-ONNCCE-2013, Determinación de la absorción total y la absorción inicial de agua en bloques, tabiques o ladrillos y tabicones -Método de ensayo (ONNCCE, 2013b), con el fin de determinar los valores de absorción inicial y porcentaje de absorción de las muestras.</p><p>Se llevaron a peso constante; secándose a 105 °C, cuidando que en mediciones sucesivas la diferencia no fuera mayor al 0.2% de la masa. Se registró la masa de la muestra seca (Ms), posteriormente fueron sumergido una de las caras de la muestra, quedando 5 mm por debajo del nivel del agua por 10 minutos, y registrado el peso (M1), a continuación, se aplicó la ecuación 1:</p><formula xml:id="formula_0">𝐶𝑏 = ( ) √<label>(1)</label></formula><p>donde Cb es el coeficiente de absorción inicial en g/(cm 2 x min 0.5 ), Ms la masa seca de la muestra, M1 la masa húmeda, y S la superficie sumergida.</p><p>Para la determinación del porcentaje de absorción las muestras fueron sumergidas totalmente por 24 horas, después se pesaron y se aplicó la ecuación 2:</p><formula xml:id="formula_1">𝐴 = • 100<label>(2)</label></formula><p>Donde A es el porcentaje de absorción de la muestra, Msss la masa húmeda de la misma y Ms la masa seca.</p><p>De igual manera se realizó el ensayo de las muestras a fin de determinar su resistencia a la compresión (fp), lo cual se desarrolló con la prensa de carga axial en el Laboratorio Ciencias Químicas Universidad Juárez del Estado de Durango.</p><p>La medición se realizó aplicando cargas entre 84kg/cm 2 /min a 210kg/cm 2 /min sobre la superficie de la pieza, hasta alcanzar la carga máxima soportada por la misma. Se registró esta medición y se calculó el esfuerzo a compresión de acuerdo con la ecuación 3, establecida en la norma NMX-C-036-ONNCCE-2013 Resistencia a la compresión de bloques, tabiques o ladrillos y tabicones y adoquines -Método de ensayo (ONNCCE, 2013a).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>𝑓𝑝 =</head><p>(3) Donde fp es la resistencia a la compresión de la muestra (MPa), P es la carga máxima (N) y A es el área de bruta transversal a la carga (mm 2 ). Los valores fueron comparados con los valores mínimos establecidos para los bloques de uso estructural en la NMX-C-404-ONNCCE-2012, Bloques, tabiques o ladrillos y tabicones para uso estructural -especificaciones y métodos de ensayo (ONNCCE, 2012).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2">Pruebas termofísicas</head><p>Para el desarrollo de estas pruebas se verificó que las muestras se encontrarán en peso constante y se buscó disminuir la posibilidad de que la humedad del ambiente afectara las muestras sellándose en bolsas después del proceso de secado y manteniéndose almacenadas en un espacio cerrado y a temperatura ambiente.</p><p>Se estimo la densidad de las muestras como primer paso, utilizando para ellos el cálculo de sus dimensiones como lo establece la norma NMX-C-038-ONNCCE-2013 (ONNCCE, 2013a), con lo que se pudo establecer el volumen de las mismas, utilizando una báscula se estimó la masa de cada muestra y se utilizó la fórmula que se muestra a continuación:</p><formula xml:id="formula_2">𝜌 =<label>(4)</label></formula><p>Donde ρ es la densidad de la muestra, m es la masa y V es el volumen de la misma.</p><p>La medición de conductividad térmica de las muestras fue realizada con el instrumento de medición de El equipo cuenta con una placa fría y una caliente, que se encuentran en la parte inferior y superior y se basa en la ley de Fourier en un plano, ecuación 4:</p><formula xml:id="formula_3">𝑞 = -𝐾<label>(5)</label></formula><p>donde q es el flujo de calor (W/m 2 ), K la conductividad de la muestra (W/mᐧK) y dT/dx es el gradiente de temperatura (K/m), el cual puede ser determinado midiendo la diferencia de temperatura en la placa superior e inferior del equipo y el espesor de la muestra, debido que para este caso dT/dx es igual a -∆T/∆x.</p><p>Debido a que las mediciones de temperatura se realizan a través de transductores, es necesario calibrar el equipo con un material de conductividad térmica conocida para así establecer un factor de calibración dependiente de la temperatura (Scal) para cada uno de los transductores, mismo que se será utilizado en la ecuación de cálculo de conductividad térmica que es:</p><formula xml:id="formula_4">𝐾 = 𝑆 𝑇 𝑄 ∆ ∆<label>(6)</label></formula><p>Las mediciones se realizaron por triplicado a temperatura promedio de 24 °C, con una diferencia de temperatura (∆T) de 15 °C.</p><p>La determinación del calor específico se realizó con un sensor tipo aguja (TEMPOS, Meter Group) el cual tiene una sonda de doble aguja tipo SH3, mostrado en la ilustración 6. El TEMPOS es capaz de realizar mediciones de calor específico, resistencia térmica y difusividad térmica en materiales como arcillas, El equipo puede medir la capacidad calorífica volumétrica desde 0.5 MJ/m 3 hasta 4.2 MJ/m 3 , con una exactitud de 0.1 MJ/m 3 , dichas mediciones fueron realizadas a temperatura ambiente. En el apéndice 4 se muestra la ficha técnica del estándar de calibración del equipo.</p><p>Ilustración 6 Equipo TEMPOS con sonda SH3</p><p>El equipo aplica calor a través de una de sus agujas por un tiempo determinado, mientras otra aguja a 6 milímetros de distancia registra la temperatura en el periodo de calentamiento y enfriamiento, con estos datos son utilizados para resolver las ecuaciones 6 y 7 por el método lineal de mínimos cuadrados para encontrar los valores de la conductividad térmica y la difusividad térmica.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>∆𝑇 = 𝐸</head><p>(7)</p><formula xml:id="formula_5">∆𝑇 = 𝐸 ( ) -𝐸<label>(8)</label></formula><p>donde DT es la variación de temperatura, q es el aporte de calor (W/m), K es la conductividad térmica (W/m•K), r es la distancia entre las agujas, D es la difusividad térmica (m 2 /s), t es el tiempo (s), tc el tiempo de calentamiento (s) y Ei es una integral exponencial (Abramowitz y Stegun 1972). Una vez obtenidos los valores de conductividad térmica y difusividad térmica el valor del calor específico volumétrico, Cp (J/m 3 ) se obtiene por la ecuación (8):</p><formula xml:id="formula_6">𝐶𝑝 = (9)</formula><p>3.4 Simulación</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.1">Selección de viviendas</head><p>Se seleccionaron las plantas arquitectónicas presentadas a continuación con el fin de realizar el análisis de viviendas de tipo popular (vivienda 1) y tradicional (vivienda 2) esto debido a la importancia de estudiar el comportamiento térmico de estas tipologías de vivienda en el contexto del actual déficit de vivienda en México.</p><p>De acuerdo con lo presentado por A. Sainz <ref type="bibr" target="#b78">(Saiz et al., 2022)</ref>, la vivienda de tipo popular es aquella que requiere de mayor impulso y desarrollo para cubrir la demanda, y por otra parte la tradicional se encuentra dentro de una de las tipologías que consume energía de manera más intensa, lo cual se traduce en mayores emisiones cuando no es diseñada adecuadamente. Razones por las cuales se considera que el desarrollo del análisis de las viviendas mencionadas contribuirá de manera positiva a la literatura en función de la planeación de viviendas.</p><p>La vivienda 1 (ilustración 7), consiste en una edificación de una planta con 2 habitaciones, 1 sanitario y un área común destinada a cocina y sala, con un área total de 96 m 2 y una superficie construida de 50 m 2 . la distribución y planta arquitectónica corresponde a un modelo típico de vivienda de bajo costo. El perímetro de la recamara 1 está compuesto por 9.93 m de muro de sección tipo A, 2.9 m están expuestos al exterior, y 3.8 m de sección B, 1.8 m colinda al área común. La recamara 2 cuenta con 2 muros de 2.9 m y 3.0 m de sección tipo A, donde el muro de 3.0 m colinda con la vivienda contigua y el muro de 2.9 m con el exterior, los dos muros restantes son de sección tipo B colindando en 3.9 m con el área común y 2.1 m con el baño. El área común cuenta con 13.9 m de muro sección A, de los cuales 6.9 m colinda a la vivienda contigua y el resto con el exterior, el resto del perímetro es contiguo a las áreas antes mencionadas. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.2">Selección de envolvente</head><p>Para la selección de la envolvente, se consideraron los muros de la vivienda y las losas (entrepiso, azotea y desplante). Las propiedades de los materiales que componen las distintas envolventes se presentan a continuación en la Tabla 6. En las viviendas se consideraron muros de acuerdo con los métodos constructivos locales, como la que se muestra en la ilustración 14. La sección A corresponde a los muros utilizados en el exterior y la sección B a aquellos al interior; se consideran juntas de mortero de 1 cm en los cantos de los ladrillos, ladrillos de 12 cm</p><p>x 25 cm x 5 cm y espesores de 1.5 cm para los aplanados de mortero-arena y yeso.</p><p>Ilustración 14 Vistas en sección de muros A y B</p><p>Por su parte, en las viviendas estudiadas se consideraron tres tipos de losas correspondientes a losas de desplante, de entrepiso y de azotea, cada una de ellas cuenta con una sección específica, mostrados en la ilustración 15.</p><p>La losa de desplante está compuesta de una capa de 10 cm de concreto armado, una capa 1 cm de mortero con la función de unir el piso a la losa de concreto y una capa de 1 cm de piso cerámico. La losa de entrepiso se compone de una capa de bovedilla nervada, que a su vez se consideró con una capa de 1 cm de aplanado de yeso, seguida por una capa de 5 cm de poliestireno expandido, a continuación, una capa mixta de 15 cm con una relación en área de 20% concreto y 80% poliestireno y en su parte superior una capa de 5 cm de concreto reforzado, sobre esta estructura se encuentran una capa de 1 cm de mortero pega-piso y otra de 1 cm de piso cerámico. La losa de azotea tiene una estructura formada por una capa de bovedilla nervada con una composición igual a la que se encuentra en la losa de entrepiso.</p><p>Ilustración 15 Vistas en sección de losas 3.4.3 Parámetros para simulación</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.3.1">Ganancias de calor de la vivienda</head><p>Las ganancias de calor al interior de la vivienda fueron analizadas en función del uso de la habitación y la ocupación común en la vivienda, tomando como referencia al manual de ASHRAE <ref type="bibr" target="#b55">(ASHRAE, 2017)</ref>. En la Tabla 7, se muestran los equipos que se tomaron en cuenta para las ganancias de calor en el interior de las viviendas. Las ganancias producto de la ocupación de las áreas térmicas se consideraron de manera que la cantidad de ocupantes fuera consistente durante el día y de acuerdo con el nivel de actividad considerado, fue dividido de la siguiente manera de acuerdo con cada área de análisis. En las Tabla 8, 9 y 10, se muestran las ganancias de calor asociadas a la ocupación de cada área.</p><p>Tabla Ganancias de calor debido a la ocupación de área común </p><p>Donde tc es la temperatura de confort, y tout es la temperatura media mensual, ambas en grados Fahrenheit; con esta temperatura se establece que la temperatura mínima de confort será 4 °F inferior a la temperatura de confort y la máxima 4.5 °F superior. Este modelo supone que los ocupantes son capaces de adaptarse a la temperatura realizando ajustes a través de acciones como alterar la vestimenta, postura, regímenes o niveles de actividad, ventilación, entre otros. Las temperaturas de confort calculadas se pueden consultar en el Apéndice 5, 6, 7 y 8.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.4">Casos de estudio</head><p>En la Tabla 11, se muestra un resumen de las dimensiones y características de las viviendas estudiadas. Se calculó el factor de forma de las viviendas, el cual hace referencia al área superficial sensible a generar intercambios de calor con el exterior, en función de la capacidad de almacenarlo. De acuerdo a la literatura <ref type="bibr" target="#b53">(Arboit et al., 2020)</ref>, se recomiendan valores bajos de factor de forma para viviendas en climas fríos y valores más altos para climas cálidos.</p><p>Las viviendas analizadas tienen un factor de forma de 0.64 (vivienda 1) y 0.58 (vivienda 2), lo cual se considera como un valor adecuado para viviendas localizadas en climas fríos.</p><p>Tabla 11 Descripción de viviendas 1 y 2 En la Ilustración 16, se muestran los casos de estudio considerados para las simulaciones desarrolladas a través del software TRNSYS versión 18, con lo cual se estimó la cantidad de energía requerida para mantener el confort térmico de sus ocupantes y las emisiones de dióxido de carbono equivalentes (CO2e) asociadas al requerimiento energético por climatización (enfriamiento y calefacción).</p><p>Ilustración 16 Casos de estudio planteados para el proyecto</p><p>El cálculo de la energía eléctrica requerida para establecer las temperaturas de confort térmico fue realizado usando el modelo Mirage Inverter X EMF121K, el cual de acuerdo con su ficha técnica <ref type="bibr">(Mirage, n.d.)</ref> cuenta con una capacidad máxima de enfriamiento de 12,500 Btu/h y de calefacción de 13,000 Btu/h, además en la misma establece una relación de eficiencia energética estacional (SEER) de 16 W/W.</p><p>A fin de conocer como el consumo de energía extra impacta en el medio ambiente, se utilizó el factor de emisión del sistema eléctrico nacional el cual establece 0.438 tCO2e/MWh, expedido por la Secretaría de Medio Ambiente y Recursos Naturales (Secretaría de Medio Ambiente y Recursos Naturales, 2024), tomando en consideración las centrales eléctricas que abastecen la red nacional.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Resultados</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Determinación de propiedades</head><p>Dentro de los productores seleccionados se encuentran cuatro productores locales y un distribuidor, quien produce sus ladrillos en la ciudad de Monterrey bajo un proceso industrial, para después ser transportados a la ciudad de Durango, donde son comercializados. Otra distinción importante dentro de los productores locales es que el 5 comercializa sus productos bajo la insignia de "térmicos", pues supone tienen propiedades similares a las de un adobe. La información general de los productores seleccionados se presenta en la siguiente tabla.</p><p>Tabla 12 Productores seleccionados para análisis de ladrillos. Las pruebas mecánicas y la estimación del porcentaje de absorción se realizaron a fin de caracterizar las muestras analizadas, en la tabla 13 podemos observar los resultados de las mismas (en el apéndice 9 y 10 se encuentran los resultados de todas las muestras analizadas) y en la ilustración 17 se muestran los equipos utilizados.</p><p>productores 1 y 5 son tienen una diferencia estadísticamente significativa de los productores 2, 3 y 4, que son los productores locales. Lo que se interpreta como que la diferencia que existe entre ellos es mayor que aquella que se presenta por la variación dentro de cada productor.</p><p>El análisis también muestra que el productor 3 es similar con el productor 2 y 4, pero estos estadísticamente no son similares entre sí, aunque de acuerdo con la diferencia que se establece como significativa y a la revisión de la literatura una variación de 0.04 W/m K no representa un cambio significativo en los consumos energéticos, por tanto, los productores locales se pueden considerar como similares en esta propiedad. En el apéndice 11 se muestran los resultados de todas las pruebas termofísicas realizadas.</p><p>Ilustración 19 Desarrollo de medición de conductividad térmica Ilustración 20 Desarrollo de medición de calor específico Tabla 13 Resultados de pruebas fisicas y mecánicas. En la ilustración 22 se muestran los resultados de la simulación de las viviendas; donde podemos observar que la vivienda 1, ilustración 22.a, reporta una temperatura media de 20.33 °C, con una temperatura mínima de 4.49 °C y una máxima de 34.46 °C. Se observa que la mitad de las temperaturas al interior se encuentran entre 16.03 °C y 24.63 °C. Por su parte la vivienda 2, ilustración 22.b, presenta una temperatura media de 22.42 °C, con una temperatura mínima de 6.17 °C y una máxima de 36.27 °C, en el caso de esta vivienda el 50% de los valores de temperatura se encuentran entre 19.24 °C y 25.72 °C.</p><p>Debido a las diferencias entre sus plantas arquitectónicas, así como la cercanía con las construcciones colindantes existen diferencias claras en el comportamiento térmico en las viviendas estudiadas. La vivienda 1 tiene una media menor, con una desviación estándar de 5.48; siendo mayor a la presentada en la vivienda 2 (4.62).</p><p>Un factor a considerar es que en la vivienda 2, las habitaciones que se encuentran en la planta alta alcanzan temperaturas mayores que las habitaciones y áreas de la planta baja, esto se considera consecuencia de la cantidad de radiación se recibe a través de las losas de azotea y los muros exteriores. Las tres zonas térmicas de la planta alta cuentan con al menos dos muros colindantes con el exterior de la vivienda. Temperaturas bajo escenarios RCP Al evaluar el desempeño térmico de las viviendas con la información climática de los distintos RCPs, pudimos observar a detalle el potencial efecto del cambio climático sobre las temperaturas al interior de las viviendas.</p><p>El visible aumento de temperatura en las viviendas nos da un indicativo del grado de disconfort térmico que se tendrían que tolerar bajo alteraciones térmicas como las supuestas en los RCPs implementados. En las Tablas 14 y 15, se muestra la descripción estadística de las temperaturas interiores con respecto a los RCPs analizados.</p><p>Tabla 14 Descripción estadística de temperatura en vivienda 1 ( °C). En la vivienda 1 (Tabla 14), bajo las condiciones ambientales del RCP 4.5 y 8.5 en 2050, no presenta una gran diferencia de temperaturas. Se observó que la media del escenario RCP 8.5 es mayor por 0.16 °C a la del RCP 4.5 para el mismo año, mientras que al contrastar las temperaturas contra el escenario contemporáneo podemos ver un aumento de 1.25 °C y 1.41 °C, respectivamente. Incluso este ligero incremento de temperaturas tendría un impacto en el confort de los habitantes y en el uso futuro de energía de las viviendas. Por otro lado, en los escenarios proyectados a 2100 donde se puede apreciar una gran diferencia en las temperaturas al interior de la vivienda, con respecto a las temperaturas del escenario contemporáneo; existe un aumento de 2.04 °C en el RCP 4.5 y 3.72 °C en el RCP 8.5.</p><p>En la Vivienda 2 (Tabla 15) al igual que la Vivienda 1 no presenta una gran diferencia entre las temperaturas del escenario RCP 4.5 y 8.5 para 2050, en este caso la diferencia entre sus medias es de 0.18 °C. Esta vivienda presenta un aumento de 1.39 °C y 1.57 °C, con lo que se puede suponer que esta vivienda es ligeramente más susceptible a los cambios de temperatura ambiente. Mientras que los aumentos de temperatura en los escenarios de 2100 se encuentran en 2.29 °C y 4.19 °C, respectivamente.</p><p>Finalmente, en la Ilustración 23 se observa que la vivienda 1 presentan una mayor dispersión que en la vivienda 2, bajo todos los escenarios. Este fenómeno podría ser consecuencia de las características arquitectónicas de cada una. Ya que, por ejemplo, la vivienda 1 cuenta con viviendas colindantes, característica común en este tipo de emplazamientos. Por su parte la vivienda 2, cuenta con pasillos en sus costados, cochera al frente y un jardín en la parte posterior, por lo que esta vivienda tiene todas sus fachadas expuestas a las condiciones ambientales de radiación y temperaturas, por lo que todas sus zonas térmicas alcanzan temperaturas mayores.</p><p>Ilustración 23 Diagrama boxplot y violín de temperaturas en área común de Casa 2 en los panoramas analizados.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2">Análisis de demanda de energía</head><p>El cálculo de la demanda inicial bajo el TMY contemporáneo fue desarrollado a fin de conocer las áreas que requieren un suministro mayor de energía, esta información se muestra en la Ilustración 24. En esta figura podremos ver que, debido al clima de la ciudad de Durango, en ambas viviendas la demanda energética por climatización es mayor para suplir la calefacción, en la vivienda 1 esta representa el 86%, mientras que en la De acuerdo con la información obtenida de la vivienda 1 (Ilustración 24a), la energía requerida para operar los equipos de calefacción en habitaciones representa un 48% de la energía total requerida para este fin; mientras que la utilizada para el enfriamiento de las mismas es el 40%. La energía demandada en ambas habitaciones no supera aquella demandada en el área común; con esto podemos establecer que en esta vivienda el área común representa más de la mitad del requerimiento energético, lo que le convierte en un área de gran importancia y susceptible a proponer mejoras.</p><p>Por otro lado, en la ilustración 24.b se observa que la energía utilizada en la vivienda 2, la calefacción de las habitaciones representa el 58% del consumo y 78% para el enfriamiento. Se puede considerar que debido a que el área común se encuentra en la planta baja y 3 habitaciones se encuentran en la planta alta, estas tienen mayores ganancias de calor al estar más expuestas al ambiente.</p><p>Como se mencionó con anterioridad los comportamientos de ambas viviendas son diferentes debido a sus características arquitectónicas. En la vivienda 2 prevalecen las temperaturas altas, por lo que su demanda de energía para enfriamiento será mayor que en la vivienda 1, por consiguiente, en escenarios de temperaturas más altas tendrá un mayor impacto la energía utilizada en enfriamiento en la vivienda 2. En la ilustración 25 podemos observar tendencia opuestas en la demanda de energía total de las viviendas, aunque los aumentos porcentuales en la energía requerida para enfriamiento son altos en el caso de la vivienda 1, pero aún son de una menor magnitud a aquellos de la vivienda 2, ya que la demanda inicial de energía en ambas viviendas bajo el escenario base se encuentra en 40 kWh para la vivienda 1 y 188 kWh para la vivienda Finalmente, podemos ver en las ilustraciones 28 y 29 que las viviendas presentan tendencias contrarias puesto que en la vivienda 1 la disminución en la demanda para calefacción es menor al aumento de la demanda de enfriamiento. En contraste, en la vivienda 2 la demanda de enfriamiento desde el escenario contemporáneo se encuentra en una magnitud cercana a la de la demanda de calefacción. Al implementar los escenarios con mayores temperaturas, esta se vuelve de mayor importancia llegando a representar hasta 2.5 veces más que la de calefacción en el escenario RCP 8.5 2100.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A) B)</head><p>C)</p><p>Ilustración 28 Diagrama de energía requerida según su fin en Casa 1 en los panoramas analizados, A) consumo total, kWh/año; B) consumo por metro cuadrado, kWh/año m 2 ; C) consumo por metro cubico, kWh/año m 3 .</p><p>Consumo anual (kWh/año m 2 )</p><p>Consumo anual (kWh/año m 3 )</p><p>A pesar de tener diferencias en su estructura y comportamiento en ambas viviendas la aproximadamente la mitad de la energía utilizada en la calefacción es utilizada en el área común, misma que dependiendo de los usos y criterios de los habitantes será o no utilizada. Esta misma tendencia persiste en la vivienda 1 en cuanto a la energía de enfriamiento, probablemente debido a que al tener viviendas a los costados y en la parte posterior las ganancias de calor solo serán a través de la azotea. Significando que la vivienda 1 tendrá menores ganancias de calor que las presentadas en la vivienda 2; y que estas ganancias son mayores debido a que pueden presentarse a través de sus múltiples muros expuestos a las condiciones ambientales exteriores.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2">Análisis de emisiones</head><p>Conocer las emisiones operativas de dióxido de carbono equivalentes (CO2e) asociadas al uso de sistemas de climatización, nos permite brindar un panorama sobre el impacto que tiene el diseño y materiales de construcción de las viviendas y su relación con la generación de emisiones contaminantes. Asimismo, es importante cuantificarlas ya que éstas inducen el calentamiento global, lo cual a su vez hará que la demanda de energía para enfriar los espacios aumente para mantener condiciones de confort de sus habitantes.</p><p>Las emisiones de CO2e anuales generadas en la vivienda 1 (ilustración 30.a) presentan para todos los escenarios una disminución de la pendiente en la parte central, debido a que es la temporada de primaveraverano y las emisiones producto del enfriamiento de las viviendas son menores a las de la calefacción.</p><p>También podemos notar que en los escenarios a 2100 las emisiones son visiblemente menores al resto de los escenarios durante la primavera. Asimismo, se puede notar que en el RCP 8.5 2100 las emisiones aumentan durante el verano y disminuyen de nuevo en el otoño. Esto trae como consecuencia una menor cantidad de emisiones acumuladas al final del año.</p><p>Por su parte la vivienda 2, ilustración 30.b, presenta una tendencia constante durante el año en todos los escenarios a excepción del RCP 8.5 2100. En este escenario, durante la temporada primavera-verano muestra un cambio de pendiente junto con un aumento considerable hasta el final de esta temporada. La diferencia a partir de este punto de este escenario con respecto del resto de los escenarios se mantiene hasta el término del año.</p><p>A partir de la información calculada podemos notar un gran impacto en la temporada de verano para los escenarios desarrollados en 2100, al cual es más susceptible la vivienda 2.</p><p>En la Ilustración 31, se muestran los resultados de las emisiones de CO2e por metro cuadrado de vivienda.</p><p>Se observa que las emisiones al ser producto del consumo de energía eléctrica mantienen las tendencias mencionadas en la figura anterior (Ilustración 30). Algo destacable es que en el escenario contemporáneo las emisiones por metro cuadrado de la vivienda 2 son casi un tercio menores que las de la vivienda 1.</p><p>También es importante mencionar que esta diferencia va disminuyendo en los escenarios subsecuentes.</p><p>Asimismo, es notable que la vivienda 2 muestra una tendencia de aumento de sus emisiones, mientras que en la vivienda 1 éstas disminuyen con respecto al escenario contemporáneo. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Conclusiones</head><p>El desarrollo de este proyecto constó de varias fases, la primera tuvo como fin en recabar información sobre los productores locales de ladrillos, a partir de esta información se seleccionaron productores para conocer propiedades térmicas de los productos locales; lo cual nos permitió tener mayor certeza de que los valores dados durante la simulación representaban el comportamiento de las viviendas locales. Asimismo, las simulaciones desarrolladas tuvieron por fin el conocer el comportamiento térmico de una vivienda tipo en la ciudad de Durango frente a los diversos escenarios propuestos: clima contemporáneo, RCP 4.5 2050, RCP 4.5 2100, RCP 8.5 2050 y RCP 8.5 2100, todo esto a fin de conocer las emisiones generadas por uso de energía para mantener el confort en las viviendas y escenarios analizados.</p><p>A través del análisis de la información de producción de ladrillo rojo recocido en la ciudad, se encontró que los productores locales se encuentran principalmente en el sur, siendo el cuadrante sureste el de mayor densidad ya que alberga a más de la mitad de los productores (93%). Esta distribución se debe muy probablemente a la cercanía con los bancos de material, como lo son los sitios de La loma y El Nayar, donde se han explotado los márgenes del rio El Tunal.</p><p>Al analizar las propiedades de los ladrillos proporcionados por los productores de ladrillo locales, estas muestran baja variación entre ellas (0.0393 W/m•K). Por tanto, se puede considerar que, aunque el proceso de producción es artesanal, los ladrillos analizados en este trabajo tienen propiedades bastante homogéneas y consistentes entre los diversos lotes muestreados. Esto es debido a la baja diferencia entre sus medias y su baja dispersión de resultados; 0.3106±0.044 W/m•K para el productor local 1, 0.3380±0.0169 W/m•K para el productor local 2 y 0.3499±0.0207 W/m•K para el productor local 3.</p><p>Por su parte los ladrillos mecanizados muestran una diferencia de medias considerable y además tienen una conductividad alta con respecto a los ladrillos locales, 0.6164±0.0321 W/m•K. Finalmente, los ladrillos locales D, comercializados como "térmicos", muestran una dispersión de 0.0702 W/m•K en sus resultados, la cual hace difícil compararlos con el resto de los productores. Por lo que se recomendaría realizar un análisis al proceso de este productor en planta para buscar la causa de esta variabilidad en su producto.</p><p>Los ladrillos locales muestran valores de conductividad térmica menores a los que se reportan en otras investigaciones realizadas en ladrillos rojo recocido (este trabajo 0.3328 W/m•K). En trabajos reportados en la literatura se identificaron valores de 0.535 W/m•K <ref type="bibr" target="#b89">(Villaquirán-Caicedo et al., 2023)</ref> Por otro lado, es importante señalar que es común que ante la ausencia de valores de ladrillos rojo recocido por parte de los productores de materiales nacionales, en la práctica se tienden a utilizar los valores encontrados en la literatura como los publicados en la NOM-020-ENER-2011: 0.872-0.698 W/m•K (Secretaria de Energía, 2011) o los que se encuentran en libros de transferencia de calor, los cuales oscilan entre 1.30-0.72 W/m•K <ref type="bibr" target="#b61">(Cengel, Yunus, Ghajar, 2023)</ref>.</p><p>En el desarrollo de las simulaciones se pudo observar que la vivienda 2 tiende a ganar más calor que la vivienda 1. Esto se observó principalmente en las habitaciones de la planta alta, las cuales son áreas con temperaturas más altas, lo cual está asociado a la exposición que tiene esta vivienda a las condiciones de radiación y temperatura ambiente. En la mayoría de los escenarios la temperatura de la vivienda 2 es mayor en casi 2 grados, a consecuencia de que carece de construcciones colindantes. Debido a esta condición las habitaciones de la planta alta son espacios donde se requerirá mayor energía para mantener temperaturas de confort, afectando la habitabilidad de estas. Mientras que, la vivienda 1, tiene mayor dispersión en sus temperaturas (temperaturas altas y temperaturas bajas) y en promedio tiene temperaturas más cercanas a la temperatura ambiente. También como consecuencia de esta dispersión, la vivienda 1 durante la temporada invernal presenta temperaturas menores, más cercanas a la temperatura ambiente, con lo que en esta temporada es en aquella que el disconfort será mayor para los habitantes de la misma.</p><p>Debido al clima templado de la ciudad de Durango, la temporada invernal tiene un gran peso en la demanda de energía para climatización. Por esto, aumentos graduales como los presentados en el RCP 4.5 2050 y RCP 8.5 2050, hacen que disminuya la demanda total, aunque estos comienzan a invertir la tendencia del gasto de energía, pasando de una calefacción dominante a una necesidad de enfriamiento.</p><p>El análisis de la demanda de energía de ambas viviendas muestra que la vivienda 1 a pesar de tener una demanda total menor, al ser considerada tanto por metro cubico como por metro cuadrado, es mas intensa en su requerimiento de energía, pues en todos los escenarios es la vivienda 1 la que tiene una demanda mayor por metro cuadrado y metro cubico. Esto refuerza la importancia de considerar el correcto análisis de este tipo de viviendas puesto que debido a su tipología, su construcción es comúnmente desarrollada en grandes volúmenes de viviendas con la misma planta arquitectónica y envolvente térmica, por tanto el impacto podrá considerarse a partir del volumen total de viviendas desarrolladas con el mismo requerimiento de energía para establecer temperaturas de confort.</p><p>Por otro lado, la vivienda 1 muestra una disminución en sus emisiones totales (emisiones por uso de calefacción y enfriamiento). Esto sucede aun cuando la temperatura ambiente aumenta y en el escenario RCP 8.5 se requiere el doble de energía en contraste con el escenario contemporáneo. Esto sucede debido a que los equipos de calefacción se requieren en mayor proporción y aunque hay crecimiento en la demanda de energía para el enfriamiento, la demanda total resulta menor a la que se requiere cuando se simula con un escenario de temperaturas contemporáneas. En el caso de la vivienda 2, la disminución de la demanda producto de la calefacción es significativa, sin embargo, el aumento de la demanda de enfriamiento suple y sobrepasa esta disminución en los escenarios del año 2100.</p><p>Las emisiones operativas de CO2e para los escenarios contemporáneos durante el invierno son las que tienen mayor impacto en el acumulado anual, por su parte en los escenarios de los distintos RCP en la temporada de verano se presenta un aumento significativo en las emisiones, esto es notorio en el caso del RCP 8.5 2100, donde en la vivienda 1 alcanza los valores de los escenarios RCP 4.5 2050 y RCP 8.5 2050 para después disminuir durante la temporada de otoño y en la vivienda 2 es en este punto donde tiene un aumento que lo pone por encima del resto de los escenarios hasta el final de la simulación.</p><p>La vivienda 1 almacena menos calor que la vivienda 2 debido a su configuración y el bajo volumen de aire capaz de almacenarlo. Es por esto por lo que, al presentarse temperaturas ambiente inferiores, esta tiene mayores emisiones por metro cuadrado que la vivienda 2. Y al aumentar la temperatura ambiente la vivienda 2 se ve incapaz de disipar el calor que recibe, por consiguiente, aumentan sus emisiones al aumentar la energía requerida para enfriamiento.</p><p>Debido a que se identificó una baja conductividad térmica en los ladrillos locales, se recomienda que se consideren las propiedades reales de los ladrillos producidos para evitar que se genere una sobrestimación de la conductividad térmica. Ya que esto se traduciría directamente a un requerimiento energético erróneo en los análisis de edificaciones. El utilizar valores no representativos de los materiales locales en cualquier tipo de cálculo, ya sea analítico o de simulación, llevaría a suponer un flujo de calor más alto entre los elementos constructivos y el medio ambiente. Esto también llevaría a sobreestimar cargas de calefacción y refrigeración en las edificaciones de interés. Finalmente, ya que se encontraron valores atractivos en las propiedades de los ladrillos locales, se recomienda que se realice a futuro un estudio con mayor representatividad del producto a fin de caracterizarlo de una manera extensivamente y con ello aspirar a establecer un valor representativo para la producción local.</p><p>De acuerdo con lo observado sobre el estado inmobiliario del estado y el país, es necesaria la acción para el desarrollo de vivienda digna para la población; y para ello los profesionistas, desarrolladores de vivienda e instituciones gubernamentales relacionadas con los procesos de diseño, dimensionamiento y análisis de las viviendas requieren ser conscientes no sólo de las necesidades actuales de los usuarios, sino también de los escenarios posibles a los que se enfrentaran dichas construcciones y sus habitantes. El análisis de las viviendas frente a los posibles aumentos de la temperatura ambiente en diversos escenarios de cambio climático, como los propuestos en los RCPs, es una herramienta necesaria para la planeación y desarrollo de los proyectos habitacionales. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Apéndices a.1 Calibración de equipos</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Ilustraciones ILUSTRACIÓN 1 .</head><label>1</label><figDesc>EMISIÓN DE GASES DE EFECTO INVERNADERO POR UNIDAD ELÉCTRICA GENERADA. ELABORACIÓN PROPIA CON DATOS DE: UNECE (2021) LIFE CYCLE ASSESSMENT OF ELECTRICITY GENERATION OPTIONS. UNITED NATIONS ECONOMIC COMMISSION FOR EUROPE CC BY ILUSTRACIÓN 2 PANORAMAS DE TEMPERA TURA MEDIA PARA 2050 Y 2100 CON LAS DISTINTAS RCP. ELABORACIÓN PROPIA CON DATOS EXTRAÍDOS DE METEONORM. ILUSTRACIÓN 3 METODOLOGÍA DEL PROYECTO ILUSTRACIÓN 4 ZONAS DE PRODUCCIÓN DE LADRILLO SELECCIONADAS ILUSTRACIÓN 5 EQUIPO FOX 200 ILUSTRACIÓN 6 EQUIPO TEMPOS CON SONDA SH3 ILUSTRACIÓN 7 A) PLANTA ARQUITECTÓNICA Y B) PLANTA DE AZOTEA DE VIVIENDA 1 ILUSTRACIÓN 8 A) DISTRIBUCIÓN DE MUROS EN VIVIENDA 1 B) DISTRIBUCIÓN DE ÁREAS TÉRMICAS ILUSTRACIÓN 9 MODELO SKETCHUP DE VIVIENDA 1 A) FACHADA FRONTAL B) FACHADA POSTERIOR ILUSTRACIÓN 10 PLANTAS ARQUITECTÓNICAS DE VIVIENDA 2 A) PLANTA BAJA B) PLANTA ALTA Y C) PLANTA DE AZOTEA ILUSTRACIÓN 11 PLANTA BAJA VIVIENDA 2 A) DISTRIBUCIÓN DE MUROS Y B) ÁREAS TÉRMICAS EN DISTRIBUCIÓN DE MUROS Y ÁREAS TÉRMICAS ILUSTRACIÓN 12 PLANTA ALTA VIVIENDA 2 A) DISTRIBUCIÓN DE MUROS Y B) ÁREAS TÉRMICAS EN DISTRIBUCIÓN DE MUROS Y ÁREAS TÉRMICAS ILUSTRACIÓN 13 MODELO SKETCHUP DE VIVIENDA 2 A) FACHADA FRONTAL B) FACHADA POSTERIOR ILUSTRACIÓN 14 VISTAS EN SECCIÓN DE MUROS A Y B ILUSTRACIÓN 15 VISTAS EN SECCIÓN DE LOSAS ILUSTRACIÓN 16 CASOS DE ESTUDIO PLANTEADOS PARA EL PROYECTO ILUSTRACIÓN 17 PRUEBAS DE RESISTENCIA A LA COMPRESIÓN ILUSTRACIÓN 18 PRUEBAS DE ABSORCIÓN INICIAL Y PORCENTAJE DE ABSORCIÓN ILUSTRACIÓN 19 DESARROLLO DE MEDICIÓN DE CONDUCTIVIDAD TÉRMICA ILUSTRACIÓN 20 DESARROLLO DE MEDICIÓN DE CALOR ESPECÍFICO ILUSTRACIÓN 21 DIAGRAMA BOXPLOT DE MUESTRAS ANALIZADAS A) RESISTENCIA A LA COMPRESIÓN, B) DENSIDAD, C) CALOR ESPECÍFICO Y D) CONDUCTIVIDAD TÉRMICA 4.2 SIMULACIÓN ILUSTRACIÓN 22 DIAGRAMA BOXPLOT TEMPERATURAS EN A) VIVIENDA 1 Y B) VIVIENDA 2 ILUSTRACIÓN 23 DIAGRAMA BOXPLOT Y VIOLÍN DE TEMPERATURAS EN ÁREA COMÚN DE CASA 2 EN LOS PANORAMAS ANALIZADOS. ILUSTRACIÓN 24 COMPARACIÓN DE ENERGÍA REQUERIDA PARA MANTENER CONDICIONES DE CONFORT TÉRMICO EN A) VIVIENDA 1 Y B) VIVIENDA 2, BAJO ESCENARIO BASE, KWH/AÑO ILUSTRACIÓN 25 COMPARATIVO DE ENERGÍA BASE CONTRA ENERGÍA DE PANORAMA RCP 8.5 2100, A) VIVIENDA 1 Y B) VIVIENDA 2, KWH/AÑO ILUSTRACIÓN 26 ENERGÍA DE CALEFACCIÓN REQUERIDA, A. CONTEMPORÁNEO VIVIENDA 1, B. RCPS VIVIENDA 1, C. CONTEMPORÁNEO VIVIENDA 2, D. RCPS VIVIENDA 2, KWH/AÑO. ILUSTRACIÓN 27 ENERGÍA DE ENFRIAMIENTO REQUERIDA, A. CONTEMPORÁNEO VIVIENDA 1, B. RCPS VIVIENDA 1, C. CONTEMPORÁNEO VIVIENDA 2, D. RCPS VIVIENDA 2, KWH/AÑO. ILUSTRACIÓN 28 DIAGRAMA DE ENERGÍA REQUERIDA SEGÚN SU FIN EN CASA 1 EN LOS PANORAMAS ANALIZADOS, A) CONSUMO TOTAL, KWH/AÑO; B) CONSUMO POR METRO CUADRADO, KWH/AÑO M 2 ; C) CONSUMO POR METRO CUBICO, KWH/AÑO M 3 .. ILUSTRACIÓN 29 DIAGRAMA DE ENERGÍA REQUERIDA SEGÚN SU FIN EN CASA 2 EN LOS PANORAMAS ANALIZADOS, A) CONSUMO TOTAL, KWH/AÑO; B) CONSUMO POR METRO CUADRADO, KWH/AÑO M 2 ; C) CONSUMO POR METRO CUBICO, KWH/AÑO M 3 . ILUSTRACIÓN 30 EMISIONES ACUMULADAS EN VIVIENDA 1 Y 2 EN KGCO2E ILUSTRACIÓN 31 COMPARACIÓN DE EMISIONES REQUERIDAS PARA MANTENER CONDICIONES DE CONFORT TÉRMICO EN A) VIVIENDA 1 Y B) VIVIENDA 2, KGCO2E/M 2 Tablas TABLA 1 ESTADO DEL ARTE ...................................................................................................................................................... TABLA 2 PROTOCOLOS Y CONVENIOS AMBIENTALES ..................................................................................................... TABLA 3 PRINCIPALES GASES DE EFECTO INVERNADERO ............................................................................................ TABLA 4 TABLA DE EFECTOS EN CAMBIO DE TEMPERATURA Y NIVEL DEL MAR PARA CADA RCP. ("REPRESENTATIVE CONCENTRATION PATHWAY," 2021) ......................................................................................TABLA 5 CLASIFICACIÓN DE VIVIENDAS SEGÚN SU VALOR (REGISTRO UNICO DE VIVIENDA, 2019) ............... TABLA 6 MATERIALES SELECCIONADOS .............................................................................................................................. TABLA 7 EQUIPOS CONSIDERADOS ....................................................................................................................................... TABLA 8 GANANCIAS DE CALOR DEBIDO A LA OCUPACIÓN DE ÁREA COMÚN ........................................................ TABLA 9 GANANCIAS DE CALOR DEBIDO A LA OCUPACIÓN DE HABITACIÓN PRINCIPAL. .................................... TABLA 10 GANANCIAS DE CALOR DEBIDO A LA OCUPACIÓN DE HABITACIÓN ......................................................... TABLA 11 DESCRIPCIÓN DE VIVIENDAS 1 Y 2 ...................................................................................................................... TABLA 12 PRODUCTORES SELECCIONADOS PARA ANÁLISIS DE LADRILLOS. ......................................................... TABLA 13 RESULTADOS DE PRUEBAS FISICAS Y MECÁNICAS. ..................................................................................... TABLA 14 DESCRIPCIÓN ESTADÍSTICA DE TEMPERATURA EN VIVIENDA 1 ( °C). .................................................... TABLA 15 DESCRIPCIÓN ESTADÍSTICA DE TEMPERATURA EN VIVIENDA 2 ( °C). .................................................... Apéndices APÉNDICE 1 ESTÁNDAR DE CALIBRACIÓN .......................................................................................................................................... APÉNDICE 2 PRUEBA DE CALIBRACIÓN DE EQUIPO FOX 200 A 22°C ................................................................................................. APÉNDICE 3 PRUEBA DE CALIBRACIÓN DE EQUIPO FOX 200 A 24°C ................................................................................................. APÉNDICE 4 CALIBRACIÓN DE TEMPOS.............................................................................................................................................. APÉNDICE 5 TEMPERATURAS DE CONFORT PARA RCP 4.5 2050 ....................................................................................................... APÉNDICE 6 TEMPERATURAS DE CONFORT PARA RCP 4.5 2100 ....................................................................................................... APÉNDICE 7 TEMPERATURAS DE CONFORT PARA RCP 8.5 2050 ....................................................................................................... APÉNDICE 8 TEMPERATURAS DE CONFORT PARA RCP 8.5 2100 ....................................................................................................... APÉNDICE 9 RESISTENCIA A LA COMPRESIÓN DE LADRILLOS ANALIZADOS ...................................................................................... APÉNDICE 10 ABSORCIÓN INICIAL Y PORCENTAJE DE ABSORCIÓN DE LADRILLOS ANALIZADOS ...................................................... APÉNDICE 11 PROPIEDADES TÉRMICAS DE LADRILLOS ANALIZADOS ................................................................................................</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>conductividad térmica FOX 200 de la marca TA Instruments, mostrado en la ilustración 5. El equipo opera bajo la norma ASTM C518 (Standard Test Method for Steady-State Heat Flux Measurements and Thermal Transmission Properties by Means of the Heat Flow Meter Apparatus) (ASTM_Standard_C518-15, 2015) y fue calibrado con un espécimen de 200 x 200 mm de poliestireno expandido (EPS) #17071335. (Apéndice 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>) Distribución de muros en vivienda 1 b) Distribución de áreas térmicas En la Ilustración 8, se observa que la vivienda 1 se compone por 4 zonas térmicas; recamara 1, recamara 2, baño y área común, las cuales cuentan con las siguientes características:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Sketchup de Vivienda 1 a) fachada frontal b) fachada posteriorLa vivienda 2 (ilustración 10), consiste en una edificación de dos plantas con 4 habitaciones, 2 1/2 sanitarios, un área común en la planta baja destinada a cocina, comedor y sala, y un área destinada a ser estancia en la planta alta, la vivienda cuenta con un área total de 200 m 2 y una superficie construida de 195.88 m 2 , la distribución y planta arquitectónica se desarrollaron considerando una vivienda tradicional. Ilustración 10 Plantas arquitectónicas de Vivienda 2 a) planta baja b) planta alta y c) planta de azotea a) b) Ilustración 11 Planta baja Vivienda 2 a) Distribución de muros y b) Áreas térmicas en Distribución de muros y áreas térmicas a) b) Ilustración 12 Planta alta Vivienda 2 a) Distribución de muros y b) Áreas térmicas en Distribución de muros y áreas térmicas En la ilustración 11 y 12, se observa que la vivienda 2 se compone por 11 zonas térmicas; recamara 1, recamara 2, recamara 3, recamara 4, baño 1, baño 2, pasillo p.b., pasillo p.a., estancia, área social y escalera, las cuales cuentan con las siguientes características: La recamara 1 cuenta con 2 muros de 3.8 m y 4.0 m de sección tipo A, donde el muro ambos muros colindan con el exterior, los dos muros restantes son de sección tipo B colindando en 3.8 m con el área de pasillo p.b. y 4.0 m con el baño 1. La recamara 2 comparte la distribución con la recamara 1, al ser gemela en la planta alta con la diferencia que sus colindancias al interior son con el pasillo p.a. en 3.8 m, estancia en 0.9 m y baño 2 con 3.1 m. La recamara 3 cuenta con dos muros de 4.55 m y 3.8 m de sección A que colindan con el exterior y la casa contigua respectivamente y dos muros de las mismas dimensiones de sección B siendo el de 4.55 m colindante a la estancia y el de 3.8 m con la recámara 4, misma que colinda en 0.9 m con la estancia y 3.1 m con el baño 2 en muros de sección B, y sus muros restantes son en sección A colindantes con el exterior. El área social cuenta con 19.8 m de muro sección A, de los cuales 6.15 m colinda con la vivienda contigua y el resto con el exterior. El perímetro de la estancia está constituido por un muro de 3.4 m de sección A y el resto en sección B. a) b) Ilustración 13 Modelo Sketchup de Vivienda 2 a) fachada frontal b) fachada posterior</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>son consideradas como tabique de arcilla artesanal **SI 404: cumple a los valores establecidos para dicha propiedad en la norma NMX-C-404-ONNCCE-2012, NO 404: no cumple a los valores establecidos para dicha propiedad en la norma NMX-C-404-ONNCCE-2012, N/A: no aplica para material considerado.Simular las viviendas bajo un clima actual (TMY contemporáneo), nos brinda la oportunidad de observar el comportamiento de cada área térmica, revelando así cuales son las áreas que son más susceptibles a aumentar su temperatura en escenarios de mayores temperaturas ambiente. Además, al conocer las plantas arquitectónicas y las temperaturas que resultan de la simulación en cada zona, podemos ver el impacto de factores como la orientación y la cantidad de envolvente expuesta al ambiente. Las primeras simulaciones realizadas se desarrollaron bajo un clima actual, con lo que estas simulaciones brindan un entendimiento base para posteriormente compararlo con potenciales efectos del cambio climático.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>Diagrama boxplot temperaturas en a) Vivienda 1 y b) Vivienda 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>Comparación de energía requerida para mantener condiciones de confort térmico en a) Vivienda 1 y b) Vivienda 2, bajo escenario base, kWh/año</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Energía de enfriamiento requerida, a. Contemporáneo vivienda 1, b. RCPs vivienda 1, c. Contemporáneo vivienda 2, d. RCPs vivienda 2, kWh/año.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Ilustración 31</head><label>31</label><figDesc>Comparación de emisiones requeridas para mantener condiciones de confort térmico en a) Vivienda 1 y b) Vivienda 2, kgCO2e/m 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="12,42.60,192.84,526.92,295.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,42.60,386.28,526.92,295.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,62.28,333.72,487.44,365.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="26,42.60,328.68,526.92,323.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="31,176.28,331.08,259.56,247.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="35,106.80,42.96,184.32,531.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="35,328.08,43.20,186.48,530.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="37,52.56,51.12,246.96,406.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="37,321.84,42.48,246.96,415.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="37,124.08,474.72,376.80,219.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="38,55.20,42.72,228.24,497.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="38,307.68,48.48,236.16,492.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="39,78.96,49.20,227.04,465.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="39,317.04,42.72,227.04,472.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="42,42.60,229.32,526.92,395.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="49,60.24,317.16,227.64,302.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="49,311.16,317.16,227.28,301.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="50,48.00,221.88,248.16,244.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="50,311.16,221.88,250.56,245.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="52,47.76,59.52,257.76,258.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="52,312.00,59.88,256.80,256.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="52,48.00,348.96,253.32,253.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="52,312.00,348.96,252.72,252.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="59,56.40,353.76,241.44,242.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="59,314.88,358.56,241.20,242.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="60,54.00,248.40,241.44,245.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="60,312.24,248.40,241.44,245.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="61,64.80,42.48,482.40,203.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="61,61.68,253.92,482.40,199.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="61,62.40,462.00,482.40,196.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="62,61.68,42.48,482.40,203.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="62,64.80,253.92,482.40,199.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="62,65.52,462.00,482.16,196.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="64,97.68,47.28,425.76,298.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="64,97.68,372.96,425.76,298.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Emisión de gases de efecto invernadero por unidad eléctrica generada. Elaboración propia con datos de: UNECE (2021) Life cycle Assessment of Electricity Generation Options. United Nations Economic Commission for Europe CC BY</head><label></label><figDesc>Dentro del sector energético, el uso de calor y electricidad generaron 14.8 GtCO2 en 2021, de las cuales la generación de electricidad representa el 90%. Actualmente se busca efectuar una transición energética, a pesar de esto entre las fuentes de generación de energía eléctrica, el carbón representa un tercio de la generación global y el gas natural aproximadamente un 20% (International Energy Agency, 2023b). Por esta razón las emisiones generadas por cada MWh generado son un elemento a tener en cuenta.</figDesc><table><row><cell cols="2">1.3 Justificación</cell><cell></cell></row><row><cell cols="2">Tabla 1 Estado del Arte</cell><cell></cell></row><row><cell>Año</cell><cell>Título del artículo</cell><cell>Autores</cell></row></table><note><p>Ilustración 1.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>Tabla 3 Principales gases de efecto invernadero</figDesc><table><row><cell cols="2">Gas de efecto invernadero Fórmula química</cell><cell>Potencial de calentamiento global (kgCO2e)</cell><cell>Vida atmosférica (años)</cell></row><row><cell>Dióxido de carbono</cell><cell>CO2</cell><cell>1</cell><cell>100</cell></row><row><cell>Metano</cell><cell>CH4</cell><cell>25</cell><cell>12</cell></row><row><cell>Óxido nitroso</cell><cell>N2O</cell><cell>265</cell><cell>121</cell></row><row><cell>Clorofluorocarbono 12</cell><cell>CCl2F2</cell><cell>10,200</cell><cell>100</cell></row><row><cell>Hidrofluorocarbono 23</cell><cell>CHF3</cell><cell>12,400</cell><cell>222</cell></row><row><cell>Hexafluoruro de azufre</cell><cell>SF6</cell><cell>23,500</cell><cell>3,200</cell></row><row><cell>Trifluoruro de nitrógeno</cell><cell>NF3</cell><cell>16,100</cell><cell>500</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Tabla 4 Tabla de efectos en cambio de temperatura y nivel del mar para cada RCP. ("Representative Concentration</figDesc><table><row><cell>Pathway," 2021)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">Cambio en temperatura (°C)</cell><cell cols="2">Aumento en el nivel del mar (m)</cell></row><row><cell>RCP</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>2046-2065</cell><cell>2081-2100</cell><cell>2046-2065</cell><cell>2081-2100</cell></row><row><cell>2.6</cell><cell>1.0 (0.4-1.6)</cell><cell>1.0 (0.3-1.7)</cell><cell>0.24 (0.17-0.32)</cell><cell>0.40 (0.25-0.55)</cell></row></table><note><p><p><p>4.</p>5   </p>1.4 (0.9-2.0) 1.8 (1.1-2.6) 0.26 (0.19-0.33) 0.47 (0.32-0.63) 6.0 1.3 (0.8-1.8) 2.2 (1.4-3.1) 0.25 (0.18-0.32) 0.48 (0.33-0.63) 8.5 2.0 (1.4-2.4) 3.7 (2.6-4.8) 0.30 (0.22-0.38) 0.63 (0.45-0.82)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>De acuerdo con UN Hábitat 14 millones de familias carecen de vivienda y en el reporte "Enfrentar el Desafío de la Vivienda en América Latina", se menciona que se necesitan 2.2 millones de viviendas accesibles para la población de bajos recursos. El acceso a una vivienda en México se va complicando debido al aumento de los costos de estas, esto se ve provocado por un aumento en la demanda debido al crecimiento demográfico y una producción deficiente, de acuerdo al Sistema Nacional de Información e Indicadores de En México existen instituciones gubernamentales que facilitan la adquisición de viviendas por parte de la población, como lo son INFONAVIT, FOVISSSTE y CONAVI. Estas instituciones son las encargadas de suministrar y administrar créditos hipotecarios de sus derechohabientes, es por esto que antes de gestionar los créditos, se verifica que las viviendas cumplan con estándares y normativas para su habitabilidad. En contraparte a esto, la vigilancia de que los proyectos de edificación sean realizados de acuerdo con los códigos y normativas vigentes, es menester de las autoridades municipales de cada localidad, pues son ellos quienes expiden los permisos de construcción requeridos, además de monitorear activamente la ciudad a fin de evitar construcciones fuera de los reglamentos de construcción.</figDesc><table><row><cell cols="2">2.3.7.3 Construcción de vivienda y</cell></row><row><cell>normativa</cell><cell></cell></row><row><cell cols="2">Existen en México un conjunto de normas enfocadas a la eficiencia energética en edificaciones, las cuales</cell></row><row><cell cols="2">son elaboradas por la Comisión Nacional para el Uso Eficiente de la Energía (CONUEE), esta normativa se</cell></row><row><cell>puede resumir como:</cell><cell></cell></row><row><cell cols="2"> NOM-018-ENER-2011-Aislantes térmicos para edificaciones: Establece la metodología para</cell></row><row><cell cols="2">medir las propiedades de aislantes térmicos usados en México (Gobierno de México, 2017).</cell></row><row><cell>Clase</cell><cell>Valor (UMAS)</cell></row><row><cell>Económica</cell><cell>0-118</cell></row><row><cell>Popular B1</cell><cell>118-128</cell></row><row><cell>Popular B2</cell><cell>128-158</cell></row><row><cell>Popular B3</cell><cell>158-200</cell></row><row><cell>Tradicional</cell><cell>200-350</cell></row><row><cell>Media</cell><cell>350-750</cell></row><row><cell>Residencial</cell><cell>750-1500</cell></row><row><cell>Residencial plus</cell><cell>más de 1500</cell></row></table><note><p><p><p><p><p><p><p>Vivienda (SNIIV), el registro de viviendas en México disminuyó 24.45% del 2019 al 2022</p><ref type="bibr" target="#b80">(Samanta Escobar, 2024)</ref> </p>2.3.7.1 Organismos que regulan la vivienda</p>2.3.7.2 Tipos de viviendas</p>La clasificación que se utiliza con mayor frecuencia es la desarrollada por el INFONAVIT y utilizada en las métricas de Registro Único de Viviendas, que a partir de 2018 clasifica las viviendas según su valor y de acuerdo con las Unidades Medias de Actualización en 8 categorías.</p>Tabla 5 Clasificación de viviendas según su valor (Registro Unico de</p>Vivienda, 2019)    </p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>3.1.1. Selección de ladrillerasDe acuerdo con información disponible de la Secretaría de Recursos Naturales y Medio Ambiente del Estado de Durango (SRNyMA), el cuadrante sureste de la ciudad de Durango cuenta con el 69% de los productores ladrilleros (Ilustración 4). Estos se concentran principalmente en las colonias Valle del Guadiana, Jardines de Cancún, San Carlos, ejido Benito Juárez, ampliación las Rosas, J. Guadalupe Rodríguez, Industrial Ladrillera y Real Victoria (Gobierno del Estado deDurango, 2006).</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>concreto, alimentos, plásticos, entre otros. El sensor cumple con la ASTM 5334 (Standard Test Method for Determination of Thermal Conductivity of Soil and Rock by Thermal Needle Probe Procedure) (ASTM International, 2022) y la IEEE 442 (IEEE Guide for Thermal Resistivity Measurements of Soils and Backfill Materials) (IEEE 442-2017 Guide for Thermal Resistivity Measurements of Soils and Backfill Materials, 2018).</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>Tabla Ganancias de calor debido a la ocupación de habitación principal.Para la selección de la infiltración adecuada a considerar en las viviendas se tomaron en cuenta las normativas emitidas por otros países debido a la falta de normatividad nacional, después de dicha revisión</figDesc><table><row><cell cols="3">3.4.3.2 Infiltración</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="2">Área común</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Actividad</cell><cell>Horarios</cell><cell cols="4">Horas Ocupantes Q con (W) Q rad (W)</cell></row><row><cell cols="7">Preparación para jornada laboral 6:30-7:30 se seleccionó el valor de 1.28/h emitida por las autoridades francesas para viviendas unifamiliares (Jiménez 1 1 30.79 42.52</cell></row><row><cell>Tiberio, 2022).</cell><cell>Actividad física alta</cell><cell>17:30-19:30</cell><cell>2</cell><cell>2</cell><cell>224.04</cell><cell>215.84</cell></row><row><cell cols="4">Reposo 3.4.3.3 Rangos de confort 19:30-23:00 3.5</cell><cell>1</cell><cell>107.77</cell><cell>148.83</cell></row><row><cell cols="7">Se seleccionaron los rangos de confort térmico utilizando el modelo adaptativo propuesto en el 2021 ASHRAE</cell></row><row><cell cols="7">Handbook-Fundamentals (ASHRAE, 2017), que establece la temperatura media de confort a partir de la</cell></row><row><cell>ecuación:</cell><cell></cell><cell cols="2">Habitación principal</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Actividad</cell><cell>Horarios</cell><cell cols="4">Horas Ocupantes Q con (W) Q rad (W)</cell></row><row><cell></cell><cell cols="3">𝑡 = 75.6 + 0.43(𝑡 -71.6)𝑒𝑥𝑝 -</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Dormir</cell><cell>23:00-6:30</cell><cell>7.5</cell><cell>2</cell><cell>431.08</cell><cell>646.63</cell></row><row><cell></cell><cell cols="2">Preparación para jornada laboral 6:30-7:30</cell><cell>1</cell><cell>1</cell><cell>30.79</cell><cell>42.52</cell></row><row><cell></cell><cell>Actividad física alta</cell><cell>17:30-19:30</cell><cell>2</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell></cell><cell>Reposo</cell><cell>19:30-23:00</cell><cell>3.5</cell><cell>1</cell><cell>107.77</cell><cell>148.83</cell></row><row><cell cols="4">Tabla Ganancias de calor debido a la ocupación de habitación</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="2">Habitación</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Actividad</cell><cell>Horarios</cell><cell cols="4">Horas Ocupantes Q con (W) Q rad (W)</cell></row><row><cell></cell><cell>Dormir</cell><cell>23:00-6:30</cell><cell>7.5</cell><cell>1</cell><cell>215.54</cell><cell>323.31</cell></row><row><cell></cell><cell cols="2">Preparación para jornada laboral 6:30-7:30</cell><cell>1</cell><cell>1</cell><cell>30.79</cell><cell>42.52</cell></row><row><cell></cell><cell>Actividad física alta</cell><cell>17:30-19:30</cell><cell>2</cell><cell>1</cell><cell>112.02</cell><cell>107.92</cell></row><row><cell></cell><cell>Reposo</cell><cell>19:30-23:00</cell><cell>3.5</cell><cell>1</cell><cell>107.77</cell><cell>148.83</cell></row></table><note><p><p>.</p>.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head></head><label></label><figDesc>Tabla 15 Descripción estadística de temperatura en vivienda 2 ( °C).</figDesc><table><row><cell>Escenario</cell><cell>Min</cell><cell cols="2">1er cuartil Mediana</cell><cell>Media</cell><cell>3er cuartil Max</cell><cell></cell></row><row><cell>RCP 4.5 2050</cell><cell>5.57</cell><cell>17.39</cell><cell>22.28</cell><cell>21.58</cell><cell>25.87</cell><cell>35.45</cell></row><row><cell>RCP 4.5 2100</cell><cell>6.86</cell><cell>18.09</cell><cell>23.34</cell><cell>22.37</cell><cell>26.61</cell><cell>35.93</cell></row><row><cell>RCP 8.5 2050</cell><cell>5.82</cell><cell>17.49</cell><cell>22.51</cell><cell>21.74</cell><cell>25.95</cell><cell>36.24</cell></row><row><cell>RCP 8.5 2100</cell><cell>7.38</cell><cell>19.69</cell><cell>24.95</cell><cell>24.05</cell><cell>28.42</cell><cell>37.98</cell></row><row><cell>Escenario</cell><cell>Min</cell><cell cols="2">1er cuartil Mediana</cell><cell>Media</cell><cell>3er cuartil Max</cell><cell></cell></row><row><cell>RCP 4.5 2050</cell><cell>7.84</cell><cell>20.74</cell><cell>24.22</cell><cell>23.81</cell><cell>27.11</cell><cell>38.37</cell></row><row><cell>RCP 4.5 2100</cell><cell>9.22</cell><cell>21.56</cell><cell>25.19</cell><cell>24.71</cell><cell>27.99</cell><cell>38.71</cell></row><row><cell>RCP 8.5 2050</cell><cell>8.17</cell><cell>20.90</cell><cell>24.43</cell><cell>23.99</cell><cell>27.21</cell><cell>38.58</cell></row><row><cell>RCP 8.5 2100</cell><cell>10.24</cell><cell>23.40</cell><cell>27.10</cell><cell>26.61</cell><cell>30.01</cell><cell>40.92</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>De acuerdo con INEGI, más del 90% de las viviendas en México cuentan con muros de algún material resistente como ladrillo o bloque, por esta razón se determinaron las propiedades termofísicas de este tipo de materiales para apoyar a la modernización y diseño de viviendas en México.Para conocer las emisiones relacionadas al uso de energía en las viviendas y su comportamiento a futuro, se han tomado en cuenta las Trayectorias de Concentración Representativas (RCP, por sus siglas en inglés), gracias a las cuales podemos representar aumentos en la temperatura, así como otras variables ambientales, en función de diferentes niveles de concentración de gases invernadero.En este trabajo, se inició con el establecimiento de las zonas de producción de ladrillo rojo recocido de la Ciudad de Durango, la cual de acuerdo a la literatura concentra la mayor parte de sus productores en el sureste de la ciudad. En esta zona se seleccionaron tres productores que de acuerdo con las entrevistas desarrolladas cuentan con métodos de producción similares y se abastecen del mismo banco de material.De manera paralela se seleccionaron dos productores que utilizan métodos diferentes, uno con una producción mecanizada en la ciudad de Monterrey y otro que comercializa sus ladrillos bajo el nombre de ¨térmicos¨, elaborados sin un proceso de cocción y secados al sol con un proceso similar al de los adobes.Se recolectaron muestras de tamaño suficiente para satisfacer la normativa aplicable a cada prueba: absorción de agua y resistencia a la compresión, o a los cálculos del tamaño mínimo de una muestra para análisis de varianza de medias de una vía para las propiedades a determinar que carecen de normativa: conductividad térmica y calor específico. A continuación, se procedió a determinar las propiedades de interés a una temperatura media de 24 °C; de las cuales se obtuvo, a través del análisis de varianza de medias, que entre los productores de ladrillo locales no existe una diferencia significativa en los valores arrojados en la determinación de la conductividad térmica. Además, los valores arrojados se encuentran en el límite inferior del rango establecido para este tipo de material, con valores más cercanos a los reportados sobre ladrillos modificados para mejorar su comportamiento termodinámico que a los de ladrillos tradicionales reportados</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>Muestra 1, Mecanizado, Monterrey, NL; Muestra 2, Tradicional, La loma Dgo; Muestra</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>3, Tradicional, La Loma/ El Nayar, Dgo; Muestra 4, Tradicional, La Loma, Dgo; Muestra 5, Sin cocer, La Loma, Dgo/sintético.Densidad (kg/m 3)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Ilustración 25 Comparativo de energía base contra energía de panorama RCP 8.5 2100, a) Vivienda 1 y b) Vivienda 2, kWh/año Las simulaciones del resto de los escenarios nos indican que, debido al aumento de la temperatura al interior en ambas viviendas, la demanda de energía utilizada para la calefacción disminuye con respecto a los RCPs y años analizados (2050 y 2100), ilustración 26. En ambas viviendas se puede notar como la demanda más grande se encuentra en el consumo bajo el clima contemporáneo, en la vivienda 1 esta demanda disminuye en un 28% frente al RCP 8.5 2100 y en la vivienda 2 esta disminución es aún mayor con un 47%.</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Ilustración 17 Pruebas de resistencia a la compresión Ilustración 18 Pruebas de absorción inicial y porcentaje de absorción En la ilustración 20 y 21 se puede observar el desarrollo de las pruebas para determinar calor específico, así como conductividad térmica, por su parte en la ilustración 19 podemos ver los resultados de las pruebas ejecutadas para resistencia a la compresión, densidad, calor específico y conductividad térmica, donde después de realizar un análisis de varianza de medias a la conductividad térmica, se puede notar que los Por su parte la energía requerida para el enfriamiento de las viviendas va en aumento en los diversos escenarios, en las ilustraciones 27.a y 27.b se puede observar el caso de la vivienda 1, donde la energía entre el escenario base y el escenario RCP 8.5 2100 aumenta en un 95%, en el caso de la vivienda 2, ilustraciones 27.c y 27.d, el aumento es en un 129% entre estos mismos escenarios.  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">1 Hipótesis ............................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">2 Objetivo general ...............................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">2.1 Objetivos específicos ..................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">3 Marco teórico ...................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">3.1 Cambio climático ..........................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Propiedades de los ladrillos ...................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Absorción de agua ..................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">2 Resistencia a la compresión ...............................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<orgName type="collaboration">TRNSYS) ....................................................</orgName>
+		</author>
+		<title level="m">Herramienta de Simulación de Sistemas Transitorios</title>
+		<imprint>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">2 Emisiones ......................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">16</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">3 Cambio climático</title>
+		<author>
+			<orgName type="collaboration">en México ......................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">17</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">climático .................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Trayectorias de Concentración Representativas (RCPs) ....................................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Impacto del uso de energía</title>
+		<author>
+			<orgName type="collaboration">........................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Vivienda en México.......................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Organismos que regulan la vivienda</title>
+		<author>
+			<orgName type="collaboration">....................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">21</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Tipos de viviendas ....................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">21</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">normativa .................. 22</orgName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">3.8 Envolvente térmica .......................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">de muros ................ 22</orgName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Metodología .........................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">25</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Diseño de experimento ..................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">26</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">2 Recolección y adecuación de muestras......................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">27</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Determinación de propiedades ....................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">28</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">la compresión. ........................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">28</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">2 Pruebas termofísicas ....................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">4 Simulación .........................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">33</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Selección de viviendas ...............................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">33</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Selección de envolvente .............................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">40</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">3 Parámetros para simulación ......................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">43</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">......................</orgName>
+		</author>
+		<imprint>
+			<publisher>Ganancias de calor de la vivienda</publisher>
+			<biblScope unit="page">43</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">2 Infiltración ...................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">45</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Rangos de confort ....................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">45</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Casos de estudio ..........................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">45</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Resultados ...........................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">48</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Determinación de propiedades ....................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">48</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">2 Simulación .........................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">53</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Análisis de temperaturas ............................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">53</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Análisis de demanda de energía ..............................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">57</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">Análisis de emisiones .................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">63</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">5 Conclusiones .......................................................................</orgName>
+		</author>
+		<imprint>
+			<biblScope unit="page">66</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">6 Referencias bibliográficas ................................................</orgName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<orgName type="collaboration">Calibración de equipos .................................................... 72 a.2 Temperatura confort .......................................................</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Propiedades físicas y mecánicas de los ladrillos .</title>
+		<imprint/>
+	</monogr>
+	<note>Propiedades térmicas de los ladrillos .......................... 81</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename type="first">Borbón</forename><surname>Almada</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Apéndices ................................................................................</orgName>
+			</affiliation>
+		</author>
+		<title level="m">72 Materiales reciclados aligerados y su influencia en el consumo de energía eléctrica en viviendas económicas</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Ucar Developing a Ceramic Construction Product under Bioclimatic and Sustainable Architecture Principles</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borbón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alpuche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Marincic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ochoa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sánchez</forename><surname>Molina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Climate Change Effects on Belgian Households: A Case Study of a Nearly Zero Energy Building (Attia &amp; Gobin</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Sánchez</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Sánchez</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Díaz</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2019">2019. 2020. 2020. 2023</date>
+			<publisher>Evin &amp; Ucar</publisher>
+		</imprint>
+	</monogr>
+	<note>Energy impact and eco-efficiency of the envelope insulation in residential buildings in Turkey. mullita (Villaquirán-Caicedo et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Carvajal Experimental study of heat transfer coefficients on red clay brick wall</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Villaquirán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Agudelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Viera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<publisher>Venkatesan et al</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Suresh Thermal and acoustic performance of additive aerogel-clay bricks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Venkatesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sivalaksmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buratti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Spaccini Thermo-physical and energy performance of building envelope modified by natural fiber through building information modelling</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buratti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Merli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Belloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mawra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zafar Effect of Recycled Brick Mixture on Energy Efficiency in Building Exteriors</title>
+		<imprint>
+			<date type="published" when="2023">2023. 2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abohelal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Eldarwish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Salleh</surname></persName>
+		</author>
+		<title level="m">Dewer Tropically Adapted Passive Building: A Descriptive-Analytical Approach Using Multiple Linear Regression and Probability Models to Predict Indoor Temperature</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Wagner Assessment of climate change&apos;s impact on energy demand in Mexican buildings: Projection in single-family houses based on Representative Concentration Pathways</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Salleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suleiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Daud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Othman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sokkalingam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Jiménez Torres et al., 2023</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Jiménez</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bienvenido-Huertas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tzuc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Bassam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ricalde Castellanos</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Flota-Bañuelos</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m">Referencias bibliográficas</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Effect of Recycled Brick Mixture on Energy Efficiency in Building Exteriors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abohelal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Eldarwish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dewer</surname></persName>
+		</author>
+		<idno type="DOI">10.13189/cea.2023.110617</idno>
+		<ptr target="https://doi.org/10.13189/cea.2023.110617" />
+	</analytic>
+	<monogr>
+		<title level="j">Civil Engineering and Architecture</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="3471" to="3478" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Determinación del factor forma (FF): el caso del Área Metropolitana de Mendoza</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Arboit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Maglione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mutani</surname></persName>
+		</author>
+		<idno type="DOI">10.30972/crn.28284322</idno>
+		<ptr target="https://doi.org/10.30972/crn.28284322" />
+	</analytic>
+	<monogr>
+		<title level="j">Cuaderno Urbano</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Effect of waste-based micro cellulose fiber as pore maker on characteristics of fired clay bricks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Arslan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gencel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Borazan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sutcu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Erdogmus</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.conbuildmat.2021.124298</idno>
+		<ptr target="https://doi.org/10.1016/j.conbuildmat.2021.124298" />
+	</analytic>
+	<monogr>
+		<title level="j">Construction and Building Materials</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page">124298</biblScope>
+			<date type="published" when="2021-06">2021. June</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">ASHRAE Handbook of Fundamentals</title>
+		<author>
+			<persName><surname>Ashrae</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<pubPlace>Atlanta, GA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Standard Test Method for Steady-State Thermal Transmission Properties by Means of the Heat Flow Meter Apparatus</title>
+		<idno>ASTM_Standard_C518-15</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>ASTM International</publisher>
+			<biblScope unit="page" from="1" to="15" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Standard Test Method for Determination of Thermal Conductivity of Soil and Rock by Thermal Needle Probe Procedure</title>
+		<ptr target="https://www.astm.org/d5334-22.html" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<publisher>ASTM International Standard</publisher>
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Climate change effects on belgian households: A case study of a nearly zero energy building</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Attia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gobin</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/en13205357</idno>
+		<ptr target="https://doi.org/10.3390/en13205357" />
+	</analytic>
+	<monogr>
+		<title level="j">Energies</title>
+		<imprint>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Materiales reciclados aligerados y su influencia en el consumo de energía eléctrica en viviendas económicas</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Borbón Almada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Miranda Pasos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Marincic Lovriha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ochoa De La Torre</surname></persName>
+		</author>
+		<idno type="DOI">10.15174/au.2019.2096</idno>
+		<ptr target="https://doi.org/10.15174/au.2019.2096" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Universitaria</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Thermal and acoustic performance of additive aerogel-clay bricks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buratti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Merli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Belloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Spaccini</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/2385/1/012016</idno>
+		<ptr target="https://doi.org/10.1088/1742-6596/2385/1/012016" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Conference Series</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2385</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Steady Heat Conduction 3-164</title>
+		<author>
+			<persName><forename type="first">Yunus</forename><surname>Cengel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ghajar</surname></persName>
+		</author>
+		<ptr target="https://www.c2es.org/content/main-greenhouse-gases/" />
+	</analytic>
+	<monogr>
+		<title level="m">Main Greenhouse Gases</title>
+		<imprint>
+			<publisher>Center for Climate and Energy Solutions</publisher>
+			<date type="published" when="2016">2023. 2016</date>
+			<biblScope unit="page" from="117" to="132" />
+		</imprint>
+		<respStmt>
+			<orgName>Heat and Mass Transfer</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Energy impact and eco-efficiency of the envelope insulation in residential buildings in Turkey</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Evin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ucar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.applthermaleng.2019.03.102</idno>
+		<ptr target="https://doi.org/10.1016/j.applthermaleng.2019.03.102" />
+	</analytic>
+	<monogr>
+		<title level="j">Applied Thermal Engineering</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="573" to="584" />
+			<date type="published" when="2018">2019. December 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">La hermeticidad al aire en España. Evolución normativa y su importancia para los edificios de consumo casi nulo</title>
+		<author>
+			<persName><surname>Fanosa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.regsciurbeco.2008.06.005%0Ahttps://www.researchgate.net/publication/305320484_SISTEM_PEMBETUNGAN_TERPUSAT_STRATEGI_MELESTARI</idno>
+		<ptr target="http://scioteca.caf.com/bitstream/handle/123456789/1091/RED2017-Eng-8ene.pdf?sequence=12&amp;isAllowed=y%0Ahttp://dx.doi.org/10.1016/j.regsciurbeco.2008.06.005%0Ahttps://www.researchgate.net/publication/305320484_SISTEM_PEMBETUNGAN_TERPUSAT_STRATEGI_MELESTARI" />
+	</analytic>
+	<monogr>
+		<title level="m">buildings#tracking International Energy Agency. (2023b). Electricity</title>
+		<title level="s">Normas Oficiales Mexicanas en Eficiencia Energética -Edificaciones</title>
+		<imprint>
+			<date type="published" when="2011">2011. 2017. 2019. 2018. April 10, 2024. 2023d. 2022</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+	<note>CONTART</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Assessment of climate change&apos;s impact on energy demand in Mexican buildings: Projection in singlefamily houses based on Representative Concentration Pathways</title>
+		<author>
+			<persName><forename type="first">Jiménez</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bienvenido-Huertas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>May Tzuc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bassam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ricalde Castellanos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Flota-Bañuelos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.esd.2022.12.012</idno>
+		<ptr target="https://doi.org/10.1016/j.esd.2022.12.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Energy for Sustainable Development</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="185" to="201" />
+			<date type="published" when="2023-01">2023. January</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Calvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Krinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mukherji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Trisos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aldunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W L</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Connors</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Denton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diongue-Niang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garschagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Geden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zommers</surname></persName>
+		</author>
+		<title level="m">Synthesis report of the IPCC sixth assessment report. An Assessment of the Intergovernmental Panel on Climate Change</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">335</biblScope>
+			<biblScope unit="page">1318</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Thermo-physical and energy performance of building envelope modified by natural fiber through building information modelling</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mawra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K</forename><surname>Alqahtani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zafar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jobe.2023.106117</idno>
+		<ptr target="https://doi.org/10.1016/j.jobe.2023.106117" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Building Engineering</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<date type="published" when="2022">2023. November 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<author>
+			<persName><surname>Mirage</surname></persName>
+		</author>
+		<ptr target="https://www.tiendamirage.mx/index.php?" />
+		<title level="m">Minisplit Inverter Inverter X</title>
+		<imprint/>
+	</monogr>
+	<note>controller=attachment&amp;id_attachment=18&amp;srsltid=AfmBOopcQTGbToM mh181DuUhMH2K4dGLztuVJzkR_sykBk9nL-0oeuOu</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Thermally efficient fired clay bricks incorporating waste marble sludge: An industrial-scale study</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Munir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M S</forename><surname>Kazmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hanif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">U</forename><surname>Khan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclepro.2017.11.060</idno>
+		<ptr target="https://doi.org/10.1016/j.jclepro.2017.11.060" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cleaner Production</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="1122" to="1135" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<author>
+			<persName><forename type="first">Naciones</forename><surname>Unidas</surname></persName>
+		</author>
+		<ptr target="https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/" />
+		<title level="m">Objetivos de Desarrollo Sostenible</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<title level="m" type="main">NMX-C-404-ONNCCE-2012, Industria de la construcción-mampostería-bloques, tabiques o ladrillos y tabicones para uso estructural-especificaciones y métodos de ensayo</title>
+		<author>
+			<persName><surname>Onncce</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>DOF</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">NMX-C-036-ONNCCE-2013</title>
+		<author>
+			<persName><surname>Onncce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Industria de la construcción mampostería-resistencia a la compresión de bloques, tabiques o ladrillos y tabicones y adoquines-método de ensayo</title>
+		<imprint>
+			<publisher>DOF</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">NMX-C-037-ONNCCE, Industria de la construcción -Mampostería</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Onncce ; Edificación</surname></persName>
+		</author>
+		<author>
+			<persName><surname>México</surname></persName>
+		</author>
+		<ptr target="https://onncce.org.mx/venta-de-normas/normas-onncce?view=item&amp;mc=65&amp;mi=55" />
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<author>
+			<persName><forename type="first">Pablo</forename><surname>Ampudia</surname></persName>
+		</author>
+		<ptr target="https://futurociudades.tec.mx/es/los-matices-de-la-vivienda-en-mexico" />
+		<title level="m">Los matices de la vivienda en México | Tec de Monterrey. ITESM</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<author>
+			<persName><forename type="first">Pedro</forename><surname>Kumamoto</surname></persName>
+		</author>
+		<ptr target="https://www.elfinanciero.com.mx/opinion/pedro-kumamoto/2024/01/09/la-vivienda-en-mexico-primera-parte/" />
+		<title level="m">La vivienda en México, primera parte. El Financiero</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Porrúa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Arroyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Raga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>García</surname></persName>
+		</author>
+		<title level="m">Estado y perspectivas del cambio climático en México: un punto de partida</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<ptr target="https://en.wikipedia.org/w/index.php?title=Representative_Concentration_Pathway&amp;oldid=1136356456" />
+		<title level="m">Representative Concentration Pathway</title>
+		<imprint>
+			<publisher>Registro Unico de Vivienda</publisher>
+			<date type="published" when="2019">2019. 2021</date>
+			<biblScope unit="page" from="4" to="7" />
+		</imprint>
+	</monogr>
+	<note>Wikipedia</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">¿Por qué México es un país altamente vulnerable al cambio climático?</title>
+		<author>
+			<persName><forename type="first">Rodríguez</forename><surname>Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Medina García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Diaz Padilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ruiz Corral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Estrada Avalos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mauricio Ruvalcaba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename></persName>
+		</author>
+		<idno type="DOI">10.29312/remexca.v12i25.2819</idno>
+		<ptr target="https://doi.org/10.29312/remexca.v12i25.2819" />
+	</analytic>
+	<monogr>
+		<title level="j">Revista Mexicana de Ciencias Agrícolas</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="45" to="57" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Confronting the Housing Challenge in Latin America Part I -Reflections on the Evolution of the Housing Market in Latin America: Realities and Dreams</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cuellar Ceron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ganitsky White</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.4238950</idno>
+		<ptr target="https://doi.org/10.2139/ssrn.4238950" />
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Electronic Journal</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Tropically Adapted Passive Building: A Descriptive-Analytical Approach Using Multiple Linear Regression and Probability Models to Predict Indoor Temperature</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Salleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Suleiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Daud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Othman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sokkalingam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wagner</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/su151813647</idno>
+		<ptr target="https://doi.org/10.3390/su151813647" />
+	</analytic>
+	<monogr>
+		<title level="j">Sustainability (Switzerland)</title>
+		<imprint>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Crisis de vivienda: Hay un desequilibrio entre salarios, precios y producción habitacional</title>
+		<author>
+			<persName><forename type="first">Samanta</forename><surname>Escobar</surname></persName>
+		</author>
+		<ptr target="https://www.eleconomista.com.mx/econohabitat/Crisis-de-vivienda-Hay-un-desequilibrio-entre-salarios-precios-y-produccion-habitacional-20240306-0149.html" />
+	</analytic>
+	<monogr>
+		<title level="j">El Economista</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Developing a Ceramic Construction Product under Bioclimatic and Sustainable Architecture Principles</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sánchez Molina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sánchez Zúñiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xiomara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fuentes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ciencia e Ingeniería Neogranadina</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">NOM-020-ENER-2011, Eficiencia energética en edificaciones.-Envolvente de edificios para uso habitacional</title>
+		<author>
+			<persName><forename type="first">Secretaria</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Energía</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diario Oficial de La Federación</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1689" to="1699" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">Aviso Factor De Emisión Del Sistema Eléctrico Nacional 2023</title>
+		<ptr target="https://www.gob.mx/cms/uploads/attachment/file/896217/aviso_fesen_2023.pdf" />
+		<imprint>
+			<date type="published" when="2024">2024</date>
+			<publisher>Secretaría de Medio Ambiente y Recursos Naturales</publisher>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page">11320</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<author>
+			<persName><forename type="first">Secretaría</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Salud</forename></persName>
+		</author>
+		<ptr target="https://www.gob.mx/salud/articulos/constitucion-politica-de-los-estados-unidos-mexicano-articulo-4" />
+	</analytic>
+	<monogr>
+		<title level="m">Constitución Política de los Estados Unidos Mexicano</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Envolvente térmica: qué es y cómo afecta al comportamiento energético de los edificios</title>
+		<author>
+			<persName><forename type="first">Á</forename><surname>Sisternes García</surname></persName>
+		</author>
+		<ptr target="https://retokommerling.com/envolvente-termica/" />
+	</analytic>
+	<monogr>
+		<title level="m">#:~:text=La envolvente térmica es el</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>terreno o espacios no habitables</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">United Nations Framework Convention on Climate Change United Nations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Topelson</surname></persName>
+		</author>
+		<ptr target="https://unhabitat.org/news/12-apr-2022/the-ipcc-report-on-mitigation-of-climate-change-reckons-that-net-zero-is-stillUnitedNations" />
+	</analytic>
+	<monogr>
+		<title level="m">The IPCC report on mitigation of climate change reckons that Net Zero is still possible</title>
+		<imprint>
+			<date type="published" when="1992">2020. 2019. 2019. 2022. 1992</date>
+			<biblScope unit="page" from="1" to="33" />
+		</imprint>
+	</monogr>
+	<note>What is TRNSYS?</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<ptr target="https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions" />
+		<title level="m">Sources of Greenhouse Gas Emissions</title>
+		<imprint>
+			<publisher>United States Environmental Protection Agency</publisher>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Experimental study of heat transfer coefficients on red clay brick wall</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Venkatesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sivalaksmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suresh</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10973-021-10896-y</idno>
+		<ptr target="https://doi.org/10.1007/s10973-021-10896-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Thermal Analysis and Calorimetry</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="5949" to="5959" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Villaquirán-Caicedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hernández-Rengifo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Agudelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Viera Ballesteros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Carvajal</surname></persName>
+		</author>
+		<idno type="DOI">10.14482/inde.39.1.624.181</idno>
+		<ptr target="https://doi.org/10.14482/inde.39.1.624.181" />
+	</analytic>
+	<monogr>
+		<title level="j">mullita. Ingeniería y Desarrollo</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="25" to="43" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

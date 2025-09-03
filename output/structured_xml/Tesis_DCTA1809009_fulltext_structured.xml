@@ -1,0 +1,1700 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo>CENTRO DE INVESTIGACIÓN EN MATERIALES AVANZADOS, S. C. POSGRADO Evaluación de un proceso híbrido electrooxidaciónelectrocoagulación (EO -EC) en flujo continuo asistido por modelación hidrodinámica en CFD para la degradación de paracetamol y remoción de fluoruro y arsénico en agua Tesis que como Requisito para Obtener el Grado de Doctorado en Ciencia y Tecnología Ambiental presenta</titulo>
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>Miriam Guzmán</autor>
+      <autor>Dra Liliana</autor>
+      <autor>Reynoso Cuevas</autor>
+      <autor>Manuel Flores</autor>
+      <autor>Hidalgo Durango</autor>
+      <autor>Febrero De</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>RESUMEN</titulo>
+        <texto>La presencia de contaminantes en el agua puede ser de origen natural o antropogénico como resultado de las actividades de la población humana que requieren del uso directo e indirecto del agua. En el agua de tipo superficial y subterránea se encuentran contaminantes de tipo inorgánico, como fluoruro y arsénico, y contaminantes emergentes de tipo farmacéutico, como el paracetamol; Dichos contaminantes tienen efectos nocivos a la salud, perjudican a los organismos acuáticos debido a que algunos de ellos pueden llegar a acumularse en sus diversos órganos, y alteran la calidad de los suelos. En este contexto, los procesos de electrooxidación y electrocogulación han mostrado altas eficiencias en la degradación de paracetamol y remoción de fluoruro y arsénico. Sin embargo, la mayoría de las investigaciones se han llevado a cabo en escala batch y no existe un diseño establecido para los reactores. La implementación de estos procesos a gran escala depende de que se compruebe su eficiencia en sistemas de flujo continuo y de que exista un análisis más detallado del diseño de reactor, además de las altas eficiencias de degradación y remoción. El objetivo del proyecto de investigación consistió en obtener un diseño de reactor asistido por el análisis de hidrodinámica mediante dinámica de fluidos computacional (CFD) y evaluar un proceso de tratamiento de agua para degradar paracetamol y remover fluoruro y arsénico en una misma matriz de agua a través de un proceso híbrido electrooxidación (EO)electrocoagulación (EC) en flujo continuo que pueda ser una opción viable de aplicación en el tratamiento de agua con presencia de dichos contaminantes</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>I. Introducción</titulo>
+        <texto>La presencia de contaminantes en el agua superficial y subterránea representa una problemática global. Algunos de los contaminantes, como el fluoruro, se encuentran en forma aniónica La presencia en el agua de contaminantes de diferente naturaleza ha generado la necesidad de desarrollar tecnologías más avanzadas para su remoción y degradación. Para ello, se han empleado métodos químicos, físicos y biológicos. La remoción de fluoruro y arsénico se ha llevado a cabo por técnicas como adsorción, coagulación química y tecnologías de membrana como ósmosis inversa El proceso de electrocoagulación consiste en la generación electroquímica de especies dentro de la solución acuosa por medio de la aplicación de corriente eléctrica a través de los electrodos de sacrificio. Las especies producidas desestabilizan a las partículas coloidales a través de la neutralización de cargas, lo que produce la formación de coágulos de mayor tamaño en los que quedan atrapados los contaminantes. Dichos coágulos pueden separarse de la solución al flotar o al sedimentarse Este proceso se ha empleado en la remoción de una amplia gama de contaminantes como son metales pesados, compuestos orgánicos, nitratos, fluoruro, arsénico, cianuro y contaminantes emergentes de tipo farmacéutico Por otro lado, el proceso de electrooxidación consiste en la aplicación de corriente eléctrica entre ánodos y cátodos especiales para tratar el efluente que pasa entre ellos. Los electrodos utilizados en dicho proceso son insolubles, estables y de alta durabilidad; entre los de mayor eficiencia se encuentran los electrodos de grafito, platino y ánodos dimensionalmente estables (DSA) A pesar de las altas eficiencias de remoción y degradación obtenidas en estos procesos, una de las limitantes para su aplicación ha sido la falta de un diseño universal de reactor además de que la mayoría de las investigaciones se han realizado a escala batch y no en flujo continuo (López- El amplio campo de aplicación, las altas eficiencias de remoción, así como la problemática creciente de contaminación del agua por causas naturales y antropogénicas, han impulsado el estudio en las tecnologías electroquímicas en los últimos años. Debido a la presencia de diversos contaminantes en el agua es necesario evaluar la factibilidad de diseñar y desarrollar un proceso integral que permita remover varios contaminantes a la vez, con el fin de generar una propuesta de un tren de tratamiento de procesos electroquímicos como solución a la presencia de contaminantes orgánicos e inorgánicos en el agua.</texto>
+      </seccion>
+    </introduccion>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivo General</titulo>
+        <texto>Evaluar la eficiencia de un sistema de electrooxidación (EO) -electrocoagulación (EC) en flujo continuo para la degradación de paracetamol, y remoción de fluoruro y arsénico en agua.</texto>
+      </seccion>
+    </objetivo_general>
+    <justificacion>
+      <seccion>
+        <titulo>II. Justificación</titulo>
+        <texto>Contaminantes como el fluoruro y el arsénico están presentes en el agua de consumo humano en concentraciones que representan un riesgo a la salud de una gran cantidad de personas en diversas partes del mundo. Tan solo en México se estima que más de 3 millones de personas están expuestas debido al consumo de agua contaminada con concentraciones de fluoruro por encima de la dosis de referencia de 0.06 mg/(kg/día), mientras que casi 9 millones de personas están expuestas a concentraciones de arsénico por encima de 10 μg/L (Alarcón-Herrera et al., 2020). Además, la co-ocurrencia de fluoruro y arsénico en agua de consumo humano es un hecho consolidado en México y se estima que aproximadamente 6 millones de personas están expuestas a ambos contaminantes Del mismo modo, en los últimos años el desarrollo de la industria química ha generado residuos complejos y persistentes que se conocen como contaminantes emergentes. Existe una gran variedad de ellos; sin embargo, los de tipo farmacéutico son de interés ya que están presentes en el agua residual como resultado de su elaboración y su administración en seres humanos y animales. La mayoría de estos compuestos no son totalmente metabolizados y por lo tanto son excretados, llegan a las plantas de tratamiento de agua residual donde los procesos convencionales no son lo suficientemente especializados para degradarlos o removerlos en su totalidad. Por ejemplo, el paracetamol es el analgésico de mayor uso a nivel mundial Los procesos electroquímicos de tratamiento de agua han atraído la atención en años recientes debido a sus altas eficiencias de remoción y degradación para una amplia gama de contaminantes. Por su parte el proceso de electrocoagulación (EC) ha demostrado ser eficiente en la remoción de fluoruro y arsénico, mientras que mediante el proceso electrooxidación (EO) se han obtenido altas tasas de degradación de paracetamol. Además, se han evaluado sistemas acoplados EO-EC en los que se tiene como ventaja que los agentes oxidantes y coagulantes se generan de manera simultánea para obtener mayores eficiencias de remoción y degradación. El diseño adecuado de los reactores electroquímicos basado en su caracterización hidrodinámica ha demostrado aumentar su eficiencia. En este contexto, la modelación hidrodinámica mediante dinámica computacional de fluidos (CFD) ha sido una herramienta de gran valor ya que se pueden evaluar diversas geometrías de celda y condiciones de flujo para predecir problemas asociados a la configuración y geometría de la celda antes de la construcción de esta. El aumento en el consumo de recursos hídricos, la presencia de contaminantes de diversa naturaleza en el agua y la falta de tecnologías que permitan tratar agua con este tipo de contaminantes hacen necesario el desarrollo de procesos avanzados de tratamiento. Debido a ello, se propone como tema de esta investigación "Evaluación de un proceso híbrido electrooxidación-electrocoagulación (EO-EC) en flujo continuo asistido por modelación hidrodinámica en CFD para la degradación de paracetamol y remoción de fluoruro y arsénico en agua" con la finalidad de generar una propuesta de solución a la problemática de presencia de diversos contaminantes en el agua como son fluoruro, arsénico y contaminantes emergentes de tipo farmacéutico como el paracetamol.</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>III. Hipótesis</titulo>
+        <texto>El diseño mediante modelación computacional de la hidrodinámica de un proceso acoplado de electrooxidación -electrocoagulación (EO-EC) permite obtener mejores condiciones de operación en el sistema de tratamiento e incrementar la eficiencia de remoción de fluoruro y arsénico, así como la degradación de paracetamol. IV. Objetivos</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>V. Metodología</titulo>
+        <texto>El trabajo de investigación se dividió en dos partes principales, a) la modelación en CFD y b) la parte experimental (Figura 5-1). En la primera, el objetivo fue obtener un diseño adecuado del reactor para que las condiciones hidrodinámicas permitan el desarrollo de las reacciones necesarias para la degradación y remoción de los contaminantes. Por ello, es importante tener una caracterización de la hidrodinámica en cuanto a la distribución de los tiempos de residencia y a la disminución de zonas muertas. Por otro lado, la parte experimental tiene como finalidad validar el modelo teórico mediante realización de las pruebas de remoción de fluoruro y arsénico, así como la degradación de paracetamol en el agua, y con ello determinar la eficiencia del proceso desarrollado. Figura 5-1. Metodología general del trabajo de investigación</texto>
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>Análisis estadístico</titulo>
+        <texto>Los resultados obtenidos de las pruebas experimentales de los procesos electroquímicos a evaluar fueron sometidos al análisis estadístico pertinente con la finalidad de optimizar el proceso por medio de la detección oportuna de las variables con mayor efecto en la eficiencia de degradación y remoción de los contaminantes. El análisis estadístico se llevó a cabo en los paquetes de software estadístico JMP-Pro® y Minitab 17®. El ajuste del modelo se evaluó con respecto al valor R 2 ajustada y su significancia estadística, así como de los factores involucrados en el mismo, fueron examinados usando el valor F y el valor P a un nivel de confianza de 95%.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Simulación CFD de Curvas RTD inyección pulsada</titulo>
+        <texto>Los resultados de hidrodinámica de curvas RTD tipo pulse muestran que el diseño con la entrada normal es más adecuado que el de entrada no normal. La Figura 6-4 muestra una comparación de las gráficas de la curva-C para ambos diseños. El pico de máxima concentración aparece en ambos casos antes del tiempo teórico de 300 s. En el caso del pico del diseño de entrada normal, este aparece un poco antes de los 225 s (Figura 6-4a) mientras que, para la entrada no normal, el pico se presenta antes de los 200 s (Figura 6-4b). El tiempo simulado para ambas curvas fue de 950 s, que es donde se observó que la concentración llegó prácticamente a cero. Song et al. ( En el caso del reactor con entrada no normal, en el tiempo de 950 segundos sigue habiendo presencia del trazador en el canal de entrada lo cual puede deberse a las recirculaciones que mostraron las líneas de corriente de flujo de ese diseño (Figura 6-5). De acuerdo con Fogler (2016) dichas zonas muertas en la zona cercana a la entrada es algo que puede llegar a ocurrir debido a recirculaciones (Figura 6-6). Sin embargo, en el diseño de entrada normal, no se presenta este fenómeno de estancamiento del flujo cerca de la entrada. La difusión del trazador en el reactor con entrada normal se lleva a cabo de manera más uniforme desde el canal de entrada. En cambio, en el diseño de entrada no normal, fue posible observar que la difusión del trazador se lleva a cabo en primera instancia por la parte inferior del reactor, siendo menor la presencia del trazador en la parte superior del canal de entrada y en los demás canales. Figura 6-6. Presencia de zonas muertas en las zonas cercanas a la entrada de un reactor tubular De acuerdo con los resultados obtenidos, los principales problemas que se presentan en ambos reactores son la presencia de zonas muertas o de estancamiento y zonas de canalización. Sin embargo, estos problemas son mayores en el diseño con la entrada no normal, ya que al final de la simulación se muestran zonas donde el trazador se encuentra estancado en el canal de entrada en la parte superior (Figura 6-7b).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Degradación de paracetamol en pruebas batch</titulo>
+        <texto>De acuerdo con el diseño experimental planteado se corrieron 34 pruebas experimentales en escala batch cuyos resultados se muestran en la Tabla 5 del Anexo. La degradación de paracetamol (PCT) estuvo en un rango de 7.8 a 98.5%, dependiendo de la combinación de los factores planteados como variables. El uso de ánodos activos como el grafito han mostrado dificultad para llegar a una completa mineralización del PCT por lo que éste se degrada principalmente a subproductos La Tabla 6 del Anexo muestra los principales subproductos de paracetamol identificados en el agua tratada: 4-Aminofenol (4-AP); 4-Nitrofenol (4-NP); Hidroquinona (HQ) y benzoquinona (BQ); los cuales se asociaron a los picos en los cromatogramas en los tiempos de retención de 1.089, 2.185, 4.340 y 4.781 minutos, respectivamente; mientras que el paracetamol se identificó en un tiempo de retención de 2.431. En esta etapa solo se identificaron los subproductos presentes para, en conjunto con el análisis estadístico, determinar las condiciones óptimas de operación. Los dos subproductos con mayor presencia en el agua tratada fueron HQ y 4-AP (Figura 6-17), mientras que la BQ fue la que menos se detectó en las muestras de agua tratada por lo que se presume que la molécula de paracetamol llegó a degradarse en la mayoría de las pruebas solo hasta hidroquinona  A pH cercano a 3 la especie predominante es Cl2, mientras que en un rango de 3 a 8 se encuentra la especie En el agua tratada el valor de pH tiende a disminuir ligeramente, por lo que a pH inicial los valores de pH final se mantuvieron en 3 o por debajo de dicho valor. En el caso del pH 5 inicial se observó una disminución de pH que se mantuvo en el rango de 3 a 5 (Tabla 6 Anexo). La reducción de pH puede deberse a la reacción de reducción del agua en el cátodo, la cual libera hidrógeno hacia la solución. El pH ácido puede inhibir la reacción de evolución de oxígeno , lo que favorece la eficiencia de degradación de paracetamol Varios estudios han reportado la mayor degradación de paracetamol a un pH ácido En la Figura 6-19 se muestra que el electrolito soporte que promovió una mayor degradación de paracetamol fue el NaCl. Las eficiencias de degradación van del Como se mencionó anteriormente, el uso de NaCl ha mostrado mayores eficiencias debido a que se generan especies oxidantes de cloro y se produce una oxidación indirecta de los compuestos orgánicos. Sin embargo, debido a dichas especies de cloro generadas se pueden presentar compuestos organoclorados como subproductos, lo cual puede ser un problema mayor que el contaminante original a degradar. Aun así, es un hecho que el ion cloruro está presente en el agua subterránea y superficial, por lo que no debería excluirse su presencia en la evaluación de los procesos de electrooxidación Figura 6-19. Degradación de paracetamol con respecto al electrolito de soporte en proceso EO batch. La formación de subproductos halogenados es uno de los problemas que puede llegar a presentarse en el proceso, y es de importancia debido a que muchos de ellos son tóxicos. Las especies activas de cloro producidas pueden formar productos halogenados con restos de los compuestos que se han oxidado, los cuales pueden llegar a ser incluso más persistentes y tóxicos que el compuesto principal a oxidar. Es importante considerar que en la mayoría de los procesos en los que se lleva a cabo una oxidación indirecta el cloro libre es considerado el principal oxidante en la presencia de cloruros En el caso del Na2SO4 como electrolito soporte es posible que parte del •OH producido en la superficie del ánodo de grafito contribuyó a la formación de radical sulfato SO 4 °-así como de peroxidisulfato S 2 O 8 2- Con respecto al efecto de la densidad de corriente se observó que, en general, en las pruebas de tamizado del diseño experimental, la densidad de corriente en su valor alto (4.5 mA/cm 2 ) promueve altas eficiencias de degradación . En las pruebas de punto central en las que la densidad de corriente fue de 3.25 mA/cm también se observa una eficiencia de degradación de 95.7% cuando el electrolito soporte fue NaCl. Por otro lado, incluso al nivel menor de densidad de corriente (2 mA/cm 2 ) se obtuvieron eficiencias de degradación mayores al 90% cuando el electrolito soporte fue NaCl. Esto corrobora el resultado estadístico de que el electrolito soporte es el factor que tiene mayor efecto en la respuesta. En estas pruebas se observó que el ánodo de grafito permite degradar con altas eficiencias paracetamol. Sin embargo, el electrodo de grafito tiene como inconveniente que es propenso a corroerse a densidades de corriente altas y liberar grafito hacia la solución Figura 6-20. Degradación de paracetamol con respecto a la densidad de corriente en proceso EO batch.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Evaluación en flujo continuo del proceso híbrido EO-EC</titulo>
+        <texto>De acuerdo con los resultados del análisis estadístico, en conjunto con los resultados de los subproductos de PCT, se establecieron las condiciones de operación para evaluar el sistema en flujo continuo para la degradación de paracetamol mediante electrooxidación, y remoción de fluoruro y arsénico mediante electrocoagulación. Las concentraciones iniciales de paracetamol, fluoruro y arsénico fueron 1.5 mg/L, 10 mg/L y 100 μg/L, respectivamente. El pH inicial fue de 3, un tiempo de tratamiento de 15 minutos para cada módulo y densidad de corriente de 4.5 mA/cm 2 . El volumen de agua tratada en el tren de tratamiento fue de 3 litros y la experimentación se hizo por duplicado.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Remoción de fluoruro y arsénico</titulo>
+        <texto>Los resultados de remoción de fluoruro y arsénico se muestran en la Tabla 13 del Anexo. Las concentraciones de fluoruro y arsénico fueron evaluadas al final de ambos reactores con muestras tomadas cada 15 minutos. En el caso del fluoruro, éste muestra una ligera disminución en el primer proceso, correspondiente a electrooxidación, a partir de la concentración inicial de 10 mg/L; sin embargo, es notorio que el proceso que logra remover este contaminante es el proceso EC del tren de tratamiento ya que se obtuvieron concentraciones inferiores a 1 mg/L en todas las muestras tomadas a lo largo del tiempo de operación del prototipo (Figura 6-23a). La eficiencia promedio de remoción de fluoruro en el proceso EC fue de 97.56%. Debido a que el pH es uno de los factores que tiene mayor influencia en el proceso de electrocoagulación, ya que es determinante en las especies que pueden presentarse tanto de los contaminantes como de las especies hidrolizadas del metal material del electrodo A dicho pH inicial la remoción de fluoruro se ve favorecida ya que a partir de este se comienza a presentar el ion fluoruro (F -) en solución Figura 6-24. Concentraciones finales de arsénico total en el tren de tratamiento EO-EC En el proceso EC, aunque se remueve arsénico, se observan aumentos en la concentración a lo largo del tiempo de tratamiento que pueden deberse a las diferentes especies de As 3+ y As 5+ producidas en el proceso EO, de acuerdo con las reacciones mencionadas anteriormente. Aunado a lo anterior, el proceso EC produce un lodo que consiste en los flóculos de hidróxidos metálicos en los que los contaminantes son adsorbidos. Durante el proceso EC de ambas pruebas se observó un estancamiento importante de dichos lodos y existe la posibilidad de que se haya presentado desorción de arsénico de los flóculos por las condiciones de pH presentes. Como se mencionó anteriormente, los valores de pH en el efluente del módulo EC estuvieron en promedios de 5.7 y 4.84. Durante dicho proceso, el As 3+ contenido en la solución debe oxidarse a As 5+ y presentarse como HAsO 4 2-,y dicha especie está presente en la solución a partir del pH 6 mientras que hasta pH 7 el As 3+ se presenta como la especie no iónica H 3 AsO 3 la cual se remueve con dificultad a comparación de las especies de As 5+ HAsO 4 2-y H 2 AsO 4 - Es probable que al término del proceso EO, debido a que la reacción de oxidación del arsénico es reversible, este se presente principalmente como As 3+ cuando entra al proceso EC y en este último no se alcanza el pH necesario para que predomine la especie HAsO 4 2-. Por otro lado, el As 3+ que sí logra ser oxidado, ya sea en el proceso EO o en el proceso EC, se remueve en el proceso EC debido a que en el rango de pH de 2 a 6 se presenta la especie H 2 AsO 4 - Zhao et al. (</texto>
+      </seccion>
+    </resultados>
+    <otros>
+      <seccion>
+        <titulo>AGRADECIMIENTOS</titulo>
+        <texto>A Dios. En quien confío, porque me ha demostrado muchas veces que sus planes son mejores que los míos: "Crecerás, a pesar tuyo". Al Sr. Müller. Por enseñarme el valor de la disciplina y la importancia de soñar en grande. Gracias por su cariño, por cada lección y por su apoyo en todo momento, lo llevo en mi corazón eternamente. A mi esposo Mario. Por apoyar cada decisión, por el invaluable apoyo técnico, por su amor e infinita paciencia. A mis hijas Mariana Sofía y Cristina Marlén. La razón de este logro en mi vida. Gracias por esos pequeños abrazos que renuevan mis ganas de salir adelante. A mi madre. Por su esfuerzo para educarme y hacer de mí una buena persona. A mi padre. Que cuida de mí eternamente. A mis suegros. Por su apoyo moral y su disposición para ayudar en cualquier situación. A mi compañera de doctorado y amiga Diana Elisa Soto Nájera. Por ser mi persona vitamina en este proceso, por los abrazos y momentos de felicidad que compartiste conmigo, pero sobre todo por estar en los peores momentos. Gracias infinitas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>RECONOCIMIENTOS</titulo>
+        <texto>Al Departamento de Ingeniería Sustentable CIMAV Subsede Durango, del Centro de Investigación en Materiales Avanzados S.C., por todas las facilidades brindadas para la realización de este proyecto de investigación. A la Dra. Liliana Reynoso Cuevas por ser mi directora de tesis, por compartir sus conocimientos y porque desde el primer día se caracterizó por su accesibilidad y total disposición como docente y como persona. Gracias por el apoyo moral y por creer en mí. Al Dr. Manuel Alberto Flores Hidalgo, codirector de este proyecto, por el apoyo técnico y por todo el apoyo moral que me brindó a lo largo de este proceso. A la Dra. María Teresa Alarcón Herrera, por su confianza y su disposición para apoyar con su amplio conocimiento a la mejora de este trabajo. Al M.C. José Rafael Irigoyen Campuzano, por compartir sus conocimientos y por su amistad. Todo mi respeto y admiración por su calidad humana. Al M.C. Luis Arturo Torres Castañón, por su confianza, disposición y apoyo en todas las actividades llevadas a cabo en el laboratorio. Al grupo de trabajo UJED-CA-129 de la Facultad de Ciencias Químicas de la UJED por todas las facilidades brindadas en el laboratorio de cómputo para la realización de las simulaciones en CFD, y por los gratos momentos vividos. A Lilia Magdalena Bautista Carrillo, técnico del Laboratorio de Espectroscopía y Tamaño de Partícula de CIMAV Subsede Monterrey por el apoyo en la realización de las pruebas FTIR.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Problemática ambiental</titulo>
+        <texto>Las necesidades hídricas y la población mundial han ido en aumento en los últimos años. Sin embargo, la presencia de contaminantes orgánicos e inorgánicos en el agua de consumo humano representa un riesgo latente de salud. Los contaminantes inorgánicos de mayor consideración son el fluoruro y el arsénico, mientras que los contaminantes orgánicos son compuestos sintéticos, que engloban una amplia variedad, provenientes principalmente de industrias de diversas ramas. Debido a su persistencia y a su liberación continua hacia el medio ambiente, estos últimos se han considerado como contaminantes emergentes. Estos no tienen una regulación en la calidad del agua y por ello son considerados como posibles amenazas a los ecosistemas y a la salud humana La problemática ambiental asociada con la presencia de fluoruro y arsénico en agua de consumo ha sido bien documentada en cuanto a sus fuentes y sus efectos en la salud de las personas Con la finalidad de prevenir daños severos a la salud en seres humanos se han establecido límites máximos permisibles en el agua de consumo para estos dos contaminantes. La Organización Mundial de la Salud (OMS) ha establecido 1.0 mg/L y 10 μg/L como concentración máxima permitida para fluoruro y arsénico, respectivamente</texto>
+      </seccion>
+      <seccion>
+        <titulo>2021).</titulo>
+        <texto>Por otro lado, dentro de los contaminantes emergentes aquellos que son de tipo farmacéutico comienzan a ser una preocupación puesto que se han detectado en agua residual, superficial y subterránea No existe una regulación de su presencia en cuanto a calidad de agua. Sin embargo, se han hecho algunas listas de productos que se consideran de mayor preocupación por su presencia en el agua por parte de algunas agencias en diferentes partes del mundo; la Agencia Ambiental de Inglaterra y Wales propuso un sistema de clasificación basado en procedimientos de evaluación de riesgos, persistencia, criterios de bio acumulación y toxicidad, datos de presencia en diversos países, disponibilidad de métodos analíticos adecuados para su determinación, así como el hecho de que fueran compuestos representativos de diversos tratamientos terapéuticos. De esta manera fue hecha una lista en la que aparecen los primeros diez compuestos: lofepramina, dextropropoxyfeno, prociclidina, tramadol, paracetamol, clotrimazol, tioridazina, mebeverina, aminofilina y tamoxifeno El agua de los efluentes de plantas de tratamiento de agua residual es utilizada en agricultura para ciertos cultivos. Esta práctica puede ser la causante de la introducción de productos farmacéuticos y de cuidado personal que se depositan directamente en los suelos, por escorrentía hacia agua superficial y por infiltración pueden llegar al agua subterránea. Las condiciones de vulnerabilidad intrínsecas de los acuíferos, como son el grado de confinamiento, las propiedades hidráulicas, así como las características del suelo cercano, tienen un efecto en el grado de exposición y de contaminación del agua subterránea por contaminantes emergentes de tipo orgánicos. En este contexto, se han detectado concentraciones de algunos fármacos, como la carbamazepina, la cual se encontró en concentraciones por encima de 16 ng/L en agua subterránea de acuíferos confinados y semiconfinados en Francia. Por otro lado, los acuíferos aluviales poco profundos también presentan condiciones que los hacen propensos a los contaminantes emergentes, debido a los tiempos de residencia cortos y a las vías de intercambio con los cuerpos de agua superficial Entre la amplia variedad de compuestos farmacéuticos que se han encontrado en el agua, el paracetamol ha sido uno de los que más ha destacado ya que se ha detectado incluso en agua subterránea. Lo anterior supone un riesgo potencial de que los tres contaminantes, fluoruro, arsénico y paracetamol, se encuentren en coocurrencia en el agua de consumo humano pues en zonas donde la presencia de fluoruro y arsénico está consolidada como un problema de salud, la presencia de compuestos farmacéuticos, como el paracetamol, es una posibilidad latente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Contaminantes emergentes</titulo>
+        <texto>Los contaminantes emergentes provienen de diversas fuentes y tienen diferentes rutas de distribución en el ambiente. Dichos contaminantes representan un riesgo ambiental debido principalmente a su persistencia, su toxicidad y su bio acumulación. Estos ya han sido detectados en agua superficial, agua de pozo, agua de consumo y en efluentes de plantas de tratamiento de agua residual Por otro lado, la recarga de acuíferos es también una potencial fuente de contaminantes emergentes en el agua subterránea En el caso específico de los compuestos farmacéuticos, estos provienen de efluentes de plantas de tratamiento de aguas residuales municipales, tanques sépticos, efluentes de hospitales, actividades pecuarias en las que se construyen y utilizan lagunas de desechos, así como de la aplicación de estiércol en suelos, almacenamiento de residuos industriales, y el intercambio que existe entre agua superficial y agua subterránea (Figura 1-1). La ingesta de medicamentos por parte de seres humanos y animales es un acto cotidiano, y necesario en la mayoría de los casos. Una vez que el medicamento es ingerido, éste comienza a realizar la función para la cual fue diseñado dentro del metabolismo. Posterior a ello, el medicamento en algunos casos es metabolizado y transformado en otros metabolitos, mientras que en otros casos es excretado sin cambio alguno y transportado a través del sistema de drenaje hacia las plantas de tratamiento de aguas residuales. En algunos casos, la fuente de dichas sustancias es directamente una mala disposición de productos farmacéuticos, los cuales son arrojados directamente al sistema de drenaje En el caso de los productos veterinarios, estos son de especial consideración, ya que en la mayoría de los casos, estos no pasan por el sistema de drenaje, y por lo tanto no tienen un tratamiento biológico en las plantas de tratamiento que los degrade en alguna medida</texto>
+      </seccion>
+      <seccion>
+        <titulo>Paracetamol</titulo>
+        <texto>El paracetamol (N-(4-hidroxifenil) acetamida) o acetaminofén es el analgésico mayormente consumido y debido a ello se considera un contaminante emergente, ya que se acumula en los ecosistemas acuáticos causando efectos adversos. Alrededor de un 30 a 55 % del paracetamol consumido por el ser humano es excretado en la orina como sulfato paracetamol y glucuronida paracetamol. Sin embargo, se han detectado concentraciones de paracetamol de 180 mg/L en el influente de plantas de tratamiento de aguas residuales, mientras que en el efluente se llegan a detectar 0.305 mg/L en sistemas que utilizan tanques de aireación, y de 13 mg/L en sistemas de humedales. Debido a ello, se considera que en los sistemas de tratamiento se logra remover gran cantidad de paracetamol La estabilidad del paracetamol disminuye en condiciones ácidas o alcalinas y puede ser lentamente degradado a ácido acético y 4-aminofenol. Posteriormente, el compuesto 4-aminofenol sufre una auto oxidación debido a que es un compuesto fotosensible y termo sensible. El subproducto 4-aminofenol es de consideración por sus efectos a la salud ya que tiene efectos genotóxicos y mutagénicos En el Reino Unido, el paracetamol está clasificado dentro de los tres mayormente prescritos, por lo que el incremento de las concentraciones de paracetamol y otros contaminantes emergentes tiene como resultado la ocurrencia de posibles fenómenos tóxicos en especies en ambientes acuáticos. Debido a que el paracetamol tiene una alta dispersión en la naturaleza su destino en el ambiente, así como su evaluación ambiental, debe ser una prioridad A pesar de que las plantas de tratamiento de aguas residuales logran degradar una parte importante del paracetamol, la ocurrencia de este fármaco en aguas superficiales y subterráneas se ha reportado en algunos estudios (Tabla 1-1). Algunos estudios llevados a cabo en agua subterránea de Europa han mostrado la presencia de paracetamol en regiones de Francia, donde se han detectado concentraciones de 10.3 ng/L de dicho fármaco, mientras que en España también ha sido reportada su presencia en acuíferos en concentraciones de hasta 34.7 ng/L</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tecnologías de tratamiento</titulo>
+        <texto>A pesar de que su presencia en el agua no ha sido aún regulada, la preocupación por el posible impacto a la salud humana y al medio ambiente ha orillado a la búsqueda de una solución a la problemática que representa la presencia de los contaminantes emergentes. En este contexto, se ha investigado la eficiencia de algunos procesos para degradar algunas sustancias consideradas dentro de esta categoría, como algunos antibióticos. Un ejemplo es el empleo de procesos convencionales de tratamiento, como coagulación química mediante policloruro de aluminio y filtración mediante carbón activado granular. Esta técnica mostró buenos resultados de remoción en siete tipos de tetraciclina (43 a 94%) en agua sintética. Sin embargo, dicho proceso muestra una disminución en la eficiencia de remoción cuando se evalúa en agua con alto contenido de componentes orgánicos adicionales al antibiótico de interés, como los contenidos en un agua superficial de río La adsorción en carbón activado ha mostrado perspectivas favorables, sobre todo para compuestos no polares. Sin embargo, la recuperación térmica del carbón activado granular requiere de una gran cantidad de energía, lo que puede derivar en un daño ecológico mucho más grave que la presencia del contaminante emergente en sí Por otro lado, se han evaluado algunos sistemas de degradación de paracetamol mediante procesos con enzimas inmovilizadas en membranas de nano fibras, procesos de degradación con bacterias, y procesos Fenton y Foto-Fenton</texto>
+      </seccion>
+      <seccion>
+        <titulo>Co-ocurrencia de fluoruro y arsénico</titulo>
+        <texto>La coexistencia de fluoruro y arsénico en agua subterránea es una problemática global. Países como China, Argentina, México, Pakistán, entre otros, tienen la presencia de ambos contaminantes en el agua subterránea Esta contaminación en el agua es común en regiones áridas y semiáridas, áreas de actividad geotermal, acuíferos aluviales y en áreas de actividad minera La presencia de ambos contaminantes se ha asociado a ambientes oxidantes en acuíferos, debido a su desorción a partir de óxidos e hidróxidos de hierro cuando existe un pH alto. Sin embargo, también se han encontrado en acuíferos con ambientes reductores, en los cuales el enriquecimiento de arsénico en el agua se debe a la disolución reductiva de óxidos e hidróxidos de hierro, y en el caso del fluoruro es a partir de erosión de minerales como la fluorapatita (Ca5(PO4)3F) Procesos como apoptosis e inflamación en niños y adultos expuestos a altas concentraciones han sido reportados Un estudio reciente hecho por Alarcón-Herrera et al. (</texto>
+      </seccion>
+      <seccion>
+        <titulo>Procesos electroquímicos para la remoción y degradación de contaminantes</titulo>
+        <texto>Los procesos electroquímicos aplicados en el tratamiento de agua han atraído la atención en recientes años debido a que se considera que su operación se lleva a cabo mediante reactivos limpios, los electrones. Aunado a lo anterior, es posible lograr condiciones de reacción y tasas de transferencia de electrones efectivas a través del control de la densidad de corriente y del potencial del electrodo</texto>
+      </seccion>
+      <seccion>
+        <titulo>Electrocoagulación</titulo>
+        <texto>El proceso de electrocoagulación consiste en la generación electroquímica de especies dentro de la solución por medio de la aplicación de corriente eléctrica a través de los electrodos de sacrificio. Las especies producidas desestabilizan a las partículas coloidales a través de la neutralización de cargas, lo que produce la formación de coágulos de mayor tamaño, en los que quedan atrapados los contaminantes. Dichos coágulos pueden separarse de la solución al flotar o sedimentarse Comparado con el proceso de coagulación química, en el proceso de electrocoagulación no es necesario agregar sustancias químicas, ya que las especies metálicas se adicionan por la disolución de los electrodos de sacrificio, mientras que la reacción de reducción llevada a cabo en el cátodo promueve la formación de iones hidroxilo. Dichas especies generadas pueden llegar a formar hidróxidos metálicos bajo ciertas condiciones de mezclado y de pH. Los flóculos formados en este proceso son más estables y resistentes que los que se forman en la coagulación química Los coágulos son formados a partir de la electrodisolución del ánodo de sacrificio, el cual usualmente es de aluminio o hierro, y la producción de iones hidroxilo en el cátodo. En el ánodo se lleva a cabo una reacción de oxidación que produce cationes metálicos (Ecuación 1) mientras que en el cátodo se produce una reacción de reducción del agua que produce hidrógeno gaseoso y iones OH -(Ecuación 2). Donde Z representa el número de electrones transferidos en el proceso de disolución anódica por mol de metal En un proceso que se ve favorecido por la agitación, los cationes metálicos y los iones OH -se combinan para formar hidróxidos metálicos, generalmente de hierro y aluminio, de acuerdo con las reacciones descritas en las Ecuaciones 3-7</texto>
+      </seccion>
+      <seccion>
+        <titulo>Remoción de fluoruro y arsénico mediante electrocoagulación</titulo>
+        <texto>Diversos estudios han demostrado la efectividad que tiene el proceso de electrocoagulación en la remoción exclusiva de fluoruro o arsénico presentes en diversos tipos de agua A pesar de que las reacciones que ocurren en el proceso de electrocoagulación son diversas y complejas, los principales mecanismos de remoción de fluoruro y arsénico son complejación y precipitación. En el mecanismo de complejación, el contaminante actúa como un ligando (L) que une hierro hidratado o hidróxidos de aluminio, como se muestra en las Ecuaciones 8 y 9 En el caso de la remoción de arsénico mediante el uso de electrodos de aluminio, esta ocurre cuando el contaminante es adsorbido en los complejos amorfos de Al(OH) 3 (Ecuación 14), de la misma manera que el fluoruro</texto>
+      </seccion>
+      <seccion>
+        <titulo>Electrooxidación</titulo>
+        <texto>El proceso de electrooxidación consiste en la aplicación de un campo eléctrico entre ánodos y cátodos especiales para tratar el efluente que pasa entre ellos. Los electrodos utilizados en dicho proceso son insolubles, estables y de alta durabilidad; entre los de mayor eficiencia se encuentran los electrodos de grafito, platino y ánodos dimensionalmente estables (DSA) En este proceso, las moléculas de los contaminantes reaccionan directamente en la superficie del ánodo con óxidos superiores que se han formado in situ, o con algún radical hidroxilo adsorbido. La conversión de los contaminantes es definida en mayor parte por la transferencia de masa, mientras que el factor limitante es la evolución de oxígeno que ocurre en el mismo ánodo Una oxidación anódica directa ocurre en el ánodo (M) y en ella los contaminantes se transforman por contacto directo con la superficie del ánodo, por medio de los electrones que oxidan los compuestos orgánicos. Por otro lado, la oxidación indirecta implica la electrogeneración de especies oxidantes en el ánodo, como son especies reactivas de oxígeno, y de especies activas de cloro y otras especies oxidantes que se consideran muy débiles para llevar a cabo una mineralización completa Los materiales que se han utilizado como electrodos en este tipo de procesos son: metales nobles como Pt y Au, diamante dopado con boro (BDD), mezclas de óxidos de metales (DSA), grafito y carbono. De estos, los mayormente utilizados son los electrodos de DSA y BDD, los cuales tienen aplicación en tratamiento de aguas con presencia de pinturas, pesticidas, farmacéuticos y aguas residuales provenientes de industrias. Las excelentes propiedades catalíticas y su resistencia, tanto a la corrosión como a la disolución, los hacen los mejores candidatos para el tratamiento de diversos contaminantes. La actividad catalítica de los electrodos DSA depende de su composición y de su método de fabricación. A pesar de que existe una gran variedad de materiales utilizados como ánodos, muchos de ellos no son convenientes desde el punto de vista costo beneficio, ya que son costosos, no son capaces de tratar grandes volúmenes de agua, y algunos se componen de metales que son potencialmente tóxicos Una manera de clasificar los electrodos es en activos e inactivos (Figura 1-3), según su actividad con respecto a los radicales hidroxilos con su superficie. En los primeros se lleva a cabo una oxidación indirecta mediante especies reactivas de oxígeno debido a la generación del radical hidroxilo adsorbido (•OH) en la superficie del ánodo Donde M se refiere al ánodo y M(•OH) es el radical hidroxilo adsorbido. Los radicales hidroxilos adsorbidos en los electrodos activos pueden interactuar con el material del ánodo formando óxidos mayores (MO), los cuales reaccionan con los contaminantes (R), formando productos de oxidación de los contaminantes (RO), o liberan oxígeno libre, de acuerdo con las Ecuaciones 16-18.</texto>
+      </seccion>
+      <seccion>
+        <titulo>M(•OH) → MO + H</titulo>
+        <texto>+ + e - ( Este comportamiento se presenta con ánodos con bajos sobrepotenciales de la reacción de evolución de hidrógeno, presente en materiales como Pt, carbono, IrO2, RuO2. Como resultado se tiene una menor actividad en la oxidación orgánica. Para evitar las reacciones de evolución de oxígeno y promover grandes cantidades de M(•OH) para la degradación, se debe seleccionar ánodos con altos sobrepotenciales para la reacción de evolución de oxígeno Por otro lado, en electrodos no activos, como PbO2, SnO2-SbO2 o BDD se lleva a cabo una oxidación directa debido a que tienen menor actividad electroquímica hacia la evolución de oxígeno y hay una adsorción más débil de los radicales (•OH). Esto contribuye a disminuir la evolución de oxígeno y a llevar a cabo una mineralización directa de los compuestos orgánicos a través de la reacción descrita en la Ecuación 22 y como resultado, se tiene una mayor tasa de degradación de los contaminantes En ambos casos, tanto con electrodos activos como no activos, la degradación de los contaminantes está en una continua competencia con las reacciones de evolución de oxígeno descritas en las Ecuaciones 18 y 23. Se debe considerar además que, junto con las reacciones que son de utilidad para la degradación de los contaminantes, existen otras reacciones indeseadas que son paralelas, las cuales pueden causar la corrosión de los electrodos, lo que propicia la disolución del ánodo (Ecuación 24), evolución de oxígeno anódico (Ecuación 8 y 9), así como la evolución de gas cloro tóxico (Ecuación 10) cuando existen iones cloruro en la solución La formación de subproductos halogenados es uno de los problemas que puede llegar a presentarse en el proceso, y es de importancia debido a que muchos de ellos son tóxicos. Las especies activas de cloro producidas pueden formar productos halogenados con restos de los compuestos que se han oxidado, los cuales pueden llegar a ser incluso más persistentes y tóxicos que el compuesto principal a oxidar. Es importante considerar que en la mayoría de los procesos en los que se lleva a cabo una oxidación indirecta, como cuando se emplean ánodos DSA, el cloro libre es considerado el principal oxidante en la presencia de cloruros Tabla 1-3. Materiales empleados como ánodos en el proceso de electrooxidación. No activo Colorantes, pesticidas, farmacéuticos Mayor mineralización Electroquímicamente estables. Pesticidas, farmacéuticos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Degradación de paracetamol mediante electrooxidación</titulo>
+        <texto>La degradación de paracetamol se ha llevado a cabo mediante procesos de oxidación avanzada (AOPs por sus siglas en inglés) como ozonización, fotocatálisis y procesos Fenton. Dichas técnicas se basan en la producción del radical hidroxilo (•OH), el cual es un fuerte oxidante capaz de llevar a cabo una mineralización de los compuestos orgánicos hasta convertirlos en CO2 y agua El paracetamol también ha sido degradado mediante procesos biológicos, como es el caso del empleo de enzimas inmovilizadas en membranas de nanofibras en las que se alcanza una eficiencia de degradación de 84.4% en 60 minutos Por otro lado, los procesos electroquímicos de oxidación avanzada (EAOPs, por sus siglas en inglés) se han establecido como tecnologías emergentes promisorias que trabajan bajo el mismo principio de las AOPs de oxidar compuestos mediante radicales hidroxilos generados in situ y adsorbidos en la superficie de ánodos que tienen como característica un alto sobrepotencial para la evolución de oxígeno. Algunos procesos de este tipo son la oxidación anódica, electro Fenton, foto electro Fenton y sono electro Fenton La oxidación anódica o electrooxidación ha mostrado ser efectiva en la degradación de paracetamol en altas concentraciones (hasta 157 mg/L) logrando eficiencias de 100% de degradación Los resultados de dicho estudio revelaron que el electrodo BDD es el más eficiente en la mineralización de paracetamol, seguido por el electrodo de Ti-SnO2, mientras que en el electrodo de Ti-IrO2 el paracetamol fue mayormente degradado solo a benzoquinona. Los autores atribuyen las altas eficiencias de los ánodos BDD y Ti-SnO2 a que la oxidación de la molécula de paracetamol se lleva a cabo indirectamente a través de los radicales hidroxilos producidos, mientras que en el ánodo Ti-IrO2 la oxidación se lleva a cabo en la superficie del electrodo. En general, los ánodos BDD son considerados los más eficientes en degradar contaminantes orgánicos Otro de los materiales que ha sido empleado como ánodo en este proceso es el grafito. Este tipo de electrodos son más económicos que los mencionados anteriormente y han mostrado buenas eficiencias de degradación de paracetamol, permitiendo degradar hasta el 90% a partir de una concentración inicial de 20 mg/L, reduciendo en un 65% el carbono orgánico total (COT) en 240 minutos al aplicar una densidad de corriente de 5.1 mA/cm 2 Como se mencionó anteriormente, en el proceso de electrooxidación ocurre una oxidación del agua lo que produce radicales hidroxilos que se encuentran fisiosorbidos. En ánodos no activos, dicho radical interactúa débilmente con la superficie, reaccionando directamente con el contaminante orgánico; debido a ello es posible llevar a cabo una mineralización completa. En el caso de ánodos activos, se lleva a cabo una quimisorción, formándose un superóxido La degradación de paracetamol ocurre por medio de hidroxilación al haber una interacción con el radical hidroxilo, para producir en primera instancia el compuesto 4-aminofenol y posteriormente 4-nitrofenol, hasta llegar a hidroquinona y acetamida (Figura 1-4). La hidroquinona reacciona nuevamente con el radical hidroxilo para formar benzoquinona, la cual al ser degradada da como resultado ácido cetomalónico, ácido maleico y ácido fúmico, los cuales se oxidan para formar ácido oxálico hasta llegar a la mineralización y obtener CO2. Por su parte, el subproducto acetamida se degrada a ácido oxámico y éste a su vez se degrada hasta formar CO2 La adición de electrolitos de soporte en la solución puede promover la degradación del paracetamol, además de reducir el consumo de energía. Cuando el electrolito de soporte es Na2SO4 se produce el ion S 2 O 8 2-(Ecuación 28, 30 y 31) y radicales sulfato (Ecuación 29) Otro de los electrolitos que ha sido ampliamente utilizado es el NaCl, con el que se han obtenido mejores resultados que con Na2SO4</texto>
+      </seccion>
+      <seccion>
+        <titulo>Procesos híbridos Electrocoagulación-Electrooxidación (EC-EO)</titulo>
+        <texto>Debido a la diferente naturaleza de los contaminantes presentes en el agua estos pueden ser o no susceptibles a la remoción o degradación en determinados procesos. Los procesos convencionales de tratamiento generalmente no son efectivos para remover contaminantes emergentes de naturaleza orgánica, ni contaminantes como fluoruro y arsénico. Es por ello que en últimos años los esfuerzos, en cuanto al desarrollo de tecnologías de tratamiento de agua, se han enfocado en diseñar e implementar sistemas híbridos con dos o más procesos de tratamiento, los cuales han mostrado ser más efectivos que una sola de las técnicas o que los procesos convencionales Los procesos electrocoagulación y electrooxidación recientemente se han estado acoplando en procesos híbridos para la remoción y degradación de diversos contaminantes en aguas residuales textiles, industriales y de refinerías de petróleo para remoción de colorantes, turbidez, carbono orgánico total (COT), demanda química de oxígeno (DQO), entre otros Con ello se confirma que ambos procesos pueden ser empleados para remover estos contaminantes. En el estudio En el proceso se llevan a cabo reacciones de oxidación de oxo-aniones de As 3+ en la superficie del ánodo (Ecuación 32 y 33). Sin embargo, se señala que el proceso de oxidación es reversible en celdas que no están divididas debido a las reacciones de reducción que se producen en el cátodo (Ecuación 34 y 35) en las cuales las especies de As 5+ se reducen (Figura 1-5); por ello se requieren altas densidades de corriente para tener una alta tasa de oxidación, por lo que una celda dividida por una membrana catiónica tiene mejor desempeño incluso a densidades de corriente menores. Además, la presencia de cloruros o sulfatos también tienen un efecto en la tasa de oxidación. Figura 1-5. Transformación de las especies de As 3+ y As 5+ en el proceso de electrooxidación. Adaptado de A pesar de que el proceso de electrooxidación por lo general se emplea para remover contaminantes orgánicos, recientemente se ha estudiado la remoción de farmacéuticos mediante electrocoagulación (Tabla 1-5). Los resultados han sido satisfactorios en remoción de antibióticos como ciprofloxacino, oxitetraciclina y amoxicilina Al momento no se ha evaluado un proceso híbrido EC-EO para remover y degradar compuestos farmacéuticos del agua. Sin embargo, con base en las eficiencias reportadas en ambos procesos, la combinación de ambos procesos puede aumentar la eficiencia de remoción y degradación, así como disminuir la cantidad de subproductos de compuestos orgánicos. Al ser un campo de investigación relativamente reciente, la cantidad de estudios de procesos híbridos EC-EO en flujo continuo es considerablemente reducida en comparación con estudios a escala batch Tabla 1-5. Resumen de condiciones operacionales para la remoción de farmacéuticos en agua mediante el proceso de electrocoagulación.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Fármaco</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Diseño de reactores electroquímicos</titulo>
+        <texto>El diseño de un reactor electroquímico es una etapa indispensable para alcanzar la máxima eficiencia del proceso. Para ello es necesario tomar en cuenta diversos parámetros debido a que el efluente y diversas especies sólidas afectan las condiciones hidrodinámicas en el reactor durante los procesos electrolíticos Con la finalidad de optimizar el proceso en términos de consumo de energía e incrementar la tasa de oxidación, un diseño adecuado de reactor es deseable que tenga las siguientes características (Nava &amp; Ponce de León, 2017): 1.-Bajo costo en cuanto a materiales de construcción, mantenimiento y operación, así como fácil instalación y simplicidad en su escalamiento. 2.-Baja diferencia de potencial en la celda. 3.-Baja caída de presión. 4.-Es preferible una celda no dividida para no aumentar el costo. 5.-Grandes áreas superficiales en los electrodos trabajando a densidades de corriente y potencial uniformes. 6.-Alta tasa de remoción o degradación, las cuales pueden alcanzarse con altas tasas de transporte de masa. Los factores antes mencionados, están asociados con la selección de una geometría adecuada y con el acomodo de los electrodos. Dichos aspectos tienen un efecto en la hidrodinámica del sistema y esta tiene impacto en otros fenómenos y condiciones que se presentan dentro del reactor como la pasivación de los electrodos, el régimen de flujo y las caídas de presión. La transferencia de masa depende de los fenómenos antes mencionados, y determina la formación de flóculos y el acarreo o estancamiento de lodos. Por otro lado, el acomodo de los electrodos determina la distribución de corriente y potencial en la celda. La conjunción de los factores de diseño, fenómenos y condiciones antes mencionadas, tienen influencia en la eficiencia del proceso (Figura 1-6). Figura 1-6. Factores de diseño, fenómenos y condiciones que tienen efecto en la eficiencia de un proceso electroquímico para tratamiento de agua.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Geometría de la celda</titulo>
+        <texto>La eficiencia de un reactor se ve afectada en gran medida por la geometría de la celda y por las configuraciones de los electrodos e implementos de mezclado   Los canales múltiples ofrecen un acomodo más sencillo, pero ofrecen una tasa de flujo pequeña, y es imposible atacar algunos inconvenientes como la pasivación de los electrodos Algunos factores que se ven afectados por la geometría y configuración de la celda son la hidrodinámica del sistema, la transferencia de masa, la distribución de corriente y potencial, así como la pasivación de los electrodos. El diseño de la celda debe ser tal que la distribución de corriente y potencial sea uniforme con la finalidad de optimizar el consumo de energía, la tasa de oxidación y la selectividad</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización hidrodinámica del proceso</titulo>
+        <texto>La caracterización de la hidrodinámica permite conocer variables como los perfiles de velocidad del fluido, los cuales tienen un efecto en la formación de flóculos y en el transporte de los lodos formados. La producción de lodos dentro del proceso de electrocoagulación es algo que debe considerarse a la hora de diseñar un reactor de flujo continuo. El estancamiento de dichos lodos puede convertirse en un problema, el cual puede ser evitado o reducido en gran medida al aumentar el flujo volumétrico La pasivación de los electrodos es otro fenómeno que puede disminuirse mediante el control de la hidrodinámica del proceso. En los reactores que no cuentan con un elemento mezclador y en su lugar tienen electrodos estáticos es común que se forme una capa de óxido en la superficie de los electrodos dando como resultado la pasivación de estos y la disminución de la transferencia de masa y de la eficiencia del proceso, así como un aumento en el consumo de energía eléctrica Mediante la determinación de los patrones de flujo en el fluido se puede determinar la distribución del tiempo de residencia, la cual tiene un efecto en la eficiencia del proceso debido a que los elementos del fluido tienen diferentes tiempos de residencia (Nava &amp; Ponce de León, 2017) y dichas fluctuaciones generan una diferencia en el contacto de las especies coagulantes u oxidantes con los contaminantes e incluso pueden promover o inhibir la formación de los flóculos. La distribución del tiempo de residencia permite conocer la existencia de zonas de estancamiento o zonas muertas dentro del reactor que tienen como resultado que al fluido le tome un tiempo mayor al esperado abandonar el reactor</texto>
+      </seccion>
+      <seccion>
+        <titulo>Distribución de tiempos de residencia</titulo>
+        <texto>Las curvas de distribución de los tiempos de residencia (RTD, por sus siglas en inglés) en un reactor proporcionan información sobre el tiempo de permanencia de En un reactor de tipo flujo pistón ideal, todos los átomos permanecen el mismo intervalo de tiempo en el reactor. Este tiempo es conocido como el tiempo de residencia de los átomos en el reactor, y este parámetro es uno de los más importantes para caracterizar la hidrodinámica de un reactor La distribución de tiempos de residencia se determina experimentalmente mediante la inyección de un trazador en la entrada del reactor en el tiempo cero (t=0) y midiendo en la salida la concentración de éste en función del tiempo. Dos de las metodologías más empleadas para dicho propósito son la inyección de tipo pulse (pulsada) y la inyección de tipo step (escalonada). En la primera de ellas, se inyecta una cantidad determinada de trazador mientras que en la segunda la inyección de trazador es continua en la entrada del reactor hasta que la concentración en la salida iguale a la de entrada. Las curvas típicas de RTD para un flujo pistón se presentan en la Figura 1-9. En el caso de la inyección tipo pulse, la curva concentración vs tiempo obtenida se conoce como curva-C. Posterior a la obtención de la curva-C, es necesario conocer la función de distribución de tiempo de residencia E(t) la cual describe cuánto tiempo han permanecido en el reactor los elementos del fluido. La función E(t) se calcula con la Ecuación 36, en la cual la curva-C es dividida por el área bajo la curva-C La función E(t) sirve también para conocer el tiempo que los elementos de fluido han permanecido en el reactor un intervalo de tiempo de interés (Ec. 37). ∫ 𝐸(𝑡)𝑑𝑡 Para obtener un diseño adecuado de reactor para procesos EO y EC es necesario lograr un mayor entendimiento de las interacciones de los procesos que están involucrados, como son: los mecanismos de reacción electroquímicos, la coagulación, la flotación y la sedimentación. En este contexto, la modelación del proceso es una herramienta de mucha utilidad para mejorar el diseño y reducir costos, tanto de equipamiento como de operación. El modelado permite obtener soluciones precisas y robustas a los problemas que se pueden presentar en el proceso; además es posible predecir el desempeño de la celda en una amplia variedad de condiciones de operación, así como su optimización y reducir costos de consumo de energía</texto>
+      </seccion>
+      <seccion>
+        <titulo>Descripción del funcionamiento del software ANSYS</titulo>
+        <texto>ANSYS es una plataforma de modelación que se compone de diversos módulos; entre ellos Fluent el cual permite modelar el flujo de fluidos y los fenómenos de transporte relacionados en equipos y procesos con diversas características como medios porosos, flujos multifásicos, transferencia de calor, entre otros. El módulo Fluent resuelve las ecuaciones de conservación de masa y momento para todos los tipos de flujo; en los casos de transferencia de calor y compresibilidad, el software resuelve adicionalmente la ecuación de conservación de energía (ANSYS, 2017b). El software de modelación Fluent fue introducido en el año de 1983, y desde entonces ha sido una herramienta poderosa para el diseño ingenieril basado en la simulación de fluidos, transporte de masa y calor, así como fenómenos relacionados a flujos laminares, turbulentos y multifásicos De manera general, una modelación de fluidos computacional en el software ANSYS® requiere del desarrollo de cinco etapas fundamentales (Figura 1-10). El primer paso para realizar la simulación consiste en tener una geometría cargada en el sistema (Geometry) de la cual se desea realizar un modelo. Posterior a ello, se lleva a cabo una etapa de mallado (Mesh), en la que el volumen del dominio se divide en un número determinado de volúmenes sobre los cuales se resuelven simultáneamente las tres ecuaciones de gobierno fundamentales: ecuación de continuidad, de momento y de energía. Posteriormente se lleva a cabo una etapa en el software llamada Setup en la que se establecen las condiciones de frontera; con la finalidad de obtener las ecuaciones  La solución simultánea de las ecuaciones de gobierno se lleva a cabo de manera iterativa y dichas iteraciones se detienen conforme a un criterio de convergencia. Los residuos o residuales son una de las herramientas más importantes a la hora de controlar la convergencia durante el proceso iterativo. Estos, de modo general, representan la diferencia entre los valores de las variables a resolver entre dos iteraciones. Si un código converge, estas diferencias tienden a reducirse hasta alcanzar un valor muy pequeño en el que se estabilizan. En un caso ideal, debería hacerse cero, pero los ordenadores tienen precisión finita, por lo que se puede conseguir que los residuos se estabilicen en torno a seis órdenes de magnitud respecto a los valores iniciales 10 -6 (precisión simple) o incluso valores próximos a los doce órdenes de magnitud 10 -12 (precisión doble), pero nunca se conseguirá que se hagan cero Finalmente, en la sección de Results se puede visualizar los resultados de la solución de las ecuaciones de manera gráfica, puede observarse el comportamiento del fluido en cuanto a su perfil de velocidades el cual indica dónde pueden existir zonas muertas y donde se tienen las mayores velocidades. Es esta etapa donde debe revisarse la veracidad y la congruencia de los resultados para que, si es necesario, se lleve a cabo una etapa de post procesamiento en la que pueden hacerse mejoras en la definición del problema, en las etapas de mallado y set up para mejorar los resultados obtenidos. Para que el proceso sea exitoso es importante considerar la etapa de definición del problema de la cual no existe una sección en el software pero que es crucial pues en ella se establece qué es lo que desea conocerse del proceso que se modelará, sus alcances y los datos requeridos, los cuales pueden ser datos experimentales, calculados o aquellos que se puedan obtener mediante una consulta en la bibliografía. En esta etapa se llevan a cabo cálculos manuales de algunas variables como números adimensionales necesarios para definir régimen de flujo, velocidades y flujos másicos en entradas, entre otros. Una vez concluido el proceso de solución, es posible que sea necesario regresar a esta etapa de la definición del problema para verificar si es necesario modificar alguna variable calculada o verificar la veracidad de los resultados con respecto a los datos iniciales calculados. Por lo tanto, el proceso de modelado comprende seis etapas (Figura 1-11). Una vez que se ha concluido la etapa de mallado, es necesario hacer una verificación de esta mediante la observación de parámetros estadísticos como el tamaño de malla y valores mínimos, máximos y promedio de calidad en las caras, lo cual permite revisar la conectividad de la malla. La elección del tipo de mallado a utilizar depende de la aplicación. Sin embargo, en general, se recomienda que para geometrías simples se utilicen mallas de elementos de tipo cuadrilátero o hexaédrico. Para geometrías moderadamente complejas, se recomienda el uso de mallas no estructuradas de elementos cuadriláteros y hexaedros. Para geometrías relativamente complejas, usar mallas triangulares/tetraédricas con elementos de tipo cuña en las capas de frontera. Finalmente, para geometrías extremadamente complejas, se recomienda usar mallas totalmente triangulares/tetraédricas (ANSYS, 2017a).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Estudio de independencia de malla</titulo>
+        <texto>A pesar de que los estudios científicos con simulaciones computacionales requieren de la obtención de un estudio de independencia de malla, como regla primordial y esencial, no existe un método o procedimiento estándar para su evaluación y validación En teoría, una solución que es independiente de la malla se alcanza cuando la diferencia o cambio entre dos soluciones numéricas tiende a ser insignificante. Para ello, se llevan a cabo una serie de resoluciones y los resultados son comparados. Sin embargo, la selección de las mallas que se probarán, así como la determinación de la solución, que es independiente de la malla, con frecuencia se basan en el criterio de un usuario experimentado basado en su conocimiento propio (Wang &amp; Zhai, 2012). El índice de convergencia de malla (GCI, por sus siglas en inglés) es una metodología utilizada para determinar la influencia de la malla en la evaluación de un parámetro específico. Representa la incertidumbre numérica y se puede comparar con la incertidumbre experimental. Este índice proporciona una estimación del error incluido en la selección de una malla computacional específica con respecto a una solución de referencia obtenida mediante un enfoque asintótico Donde 𝜀 = ∅ 1 -∅ 2 /∅ 2 representa la diferencia de predicción relativa entre la malla gruesa y la malla fina; ∅ 1 y ∅ 2 son la predicción de la malla gruesa y fina respectivamente; 𝑟 es el cambio de malla, ya sea para aumentar el doble o reducir a la mitad. 𝜌 representa el orden del esquema numérico. El coeficiente 𝐹 𝑠 representa un factor de seguridad. De manera que, con un esquema de segundo orden numérico con un valor para 𝑟 = 2 y un factor de seguridad de 3, el GCI es igual al valor absoluto de 𝜀: El factor de seguridad (Fs) puede estar en el rango de 1 a 3, siendo el valor de tres el de máxima seguridad. Si se deseara un factor de 50% de seguridad, el valor del factor debería ser 1.5. Sin embargo, es altamente recomendable utilizar un valor de 3. Por otro lado, en cuestión de los valores para la relación de refinamiento (𝑟), en general se considera que realizar un refinamiento del doble de malla es preferible (𝑟 = 2). Sin embargo, es común encontrarse con limitaciones computacionales debido a la cantidad de elementos generados en la malla. Por ello, es recomendable usar un cambio menor en la resolución de la malla, el cual como mínimo debe representar el 10 por ciento, lo que corresponde a un valor de 1.1 para 𝑟. Cuando se habla de un refinamiento de la malla, entre mayores sean los valores de 𝑟, se puede hablar de estimaciones más confiables Para obtener el GCI es necesario calcular el valor de orden de convergencia 𝑝. Cuando no se cuenta con un resultado exacto del problema que se está analizando, es necesario tener al menos tres soluciones de malla para obtener dicho valor. En el caso de que se lleve a cabo un refinamiento con un valor para 𝑟 constante, el cual no necesariamente tiene que ser 𝑟 = 2, se puede calcular el orden 𝑝 a partir de estas tres soluciones de malla (Roache, 1997): Donde 𝑓 3 , 𝑓 2 , 𝑓 1 corresponden al valor de resultado del parámetro analizado en la malla más gruesa, la malla intermedia y la malla más fina, respectivamente. Por otro lado, también es posible calcular el valor de 𝑝 a partir de los valores de diferencia de predicción relativa entre la malla fina y gruesa en un sistema de tres mallados, 𝜀 12 y 𝜀 23 : En el caso en el que no se conoce una solución exacta, se llevan a cabo al menos tres soluciones de malla y se calculan dos índices de convergencia de malla (GCI), uno que involucre la malla fina y la intermedia (GCI12) y otro para la malla intermedia y gruesa (GCI23). Entonces puede calcularse una constancia aproximada: Si la relación anterior se cumple, puede decirse que se ha alcanzado un rango asintótico de convergencia y que, por lo tanto, los resultados obtenidos son independientes del tamaño de mallado.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Modelación de distribución de tiempos de residencia mediante CFD</titulo>
+        <texto>La distribución de tiempos de residencia (RTD) en un reactor mediante simulación CFD puede hacerse desde el enfoque en el que el trazador es una inyección de partículas a las cuales, como fase discreta desde el marco de referencia Lagrangiano, es posible describir su trayectoria considerando que tienen la misma densidad del fluido de la fase continua (Le Donde 𝑅 𝑖 es la tasa neta de producción de especies i por reacción química y 𝑆 𝑖 es la tasa de adición por la fase dispersa más cualquier fuente definida por el usuario. La ecuación será resuelta por cada N-1 especie, donde N es el total de especies químicas presentes en el sistema. Debido a que la fracción másica debe sumar la unidad, la enésima N fracción másica es determinada como uno menos la suma de N-1 fracciones másicas resueltas. El software resuelve la difusión de las especies en un flujo laminar por medio de la ecuación que representa la ley de Fick: Donde 𝐷 𝑖,𝑚 es el coeficiente de difusión de masa por especie i en la mezcla, 𝑌 𝑖 es la fracción másica de la especie i y 𝐷 𝑇,𝑖 es el coeficiente de difusión térmica. Para llevar a cabo el cálculo es necesario proporcionar el coeficiente de difusión; en el caso de modelado de mezclas diluidas, con especies químicas presentes en una fracción másica muy pequeña en un fluido de arrastre que está presente en una alta concentración, dicho coeficiente puede introducirse como aproximación diluida constante, en la que se introduce una constante como coeficiente de difusión, o como aproximación diluida, en la que se define un coeficiente de difusión constante para cada una de las especies (ANSYS, 2017b). La concentración del trazador con respecto al tiempo dentro del reactor, en un flujo laminar, puede ser descrita por la forma general de la ecuación de difusiónconvección Donde C es la concentración promedio del trazador, t es el tiempo, D es el coeficiente de difusión, u es el vector de velocidad obtenido de la solución de ecuaciones de continuidad y momento del fluido, y 𝐷 𝑇 es la difusividad de Eddy o difusividad turbulenta. Considerando condiciones de mezclado perfecto antes de la entrada y a la salida del reactor, las condiciones de frontera e iniciales pueden establecerse de la siguiente manera De acuerdo con Le (2) la solución de la ecuación de transporte de especies de manera transitoria. Cruz-Díaz et al. ( En estado estable, sin variaciones en la viscosidad ni en la densidad y para un flujo laminar incompresible sin variaciones de energía, el sistema de ecuaciones 42-43, mencionado en la sección 1.6, modela el comportamiento del fluido en tres dimensiones. Posterior a la solución de las ecuaciones de la fase continua en estado estable, se resuelve la ecuación de transporte de especies (Ecuación 49) para el trazador en estado transitorio y se monitorea la concentración promedio en la salida en función del tiempo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Objetivos específicos</titulo>
+        <texto>1.-Diseñar y acoplar un sistema de tratamiento de EO-EC para la degradación de paracetamol mediante electrooxidación y remoción de fluoruro y arsénico mediante electrocoagulación. 2.-Obtener un modelo en CFD de la hidrodinámica del sistema de tratamiento EO-EC para establecer el diseño de los reactores EO y EC. 3.-Determinar las condiciones óptimas de operación del prototipo en flujo continuo. 4.-Determinar la factibilidad técnica para su integración en un sistema de tratamiento de agua.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Diseño del reactor y modelación de la hidrodinámica en CFD</titulo>
+        <texto>Se diseñaron diferentes alternativas de prototipo de reactor, CAD, con el software Creo Parametric 5.0. Las ecuaciones de conservación de masa y momento para obtener el campo de fluido, así como la ecuación de transporte de especies, fueron resueltas mediante el módulo Fluent® del software ANSYS® en estado estable. El mallado se generó en el módulo Mesh y consistió en elementos de tipo hexahédrico aplicando el método Multizone con dos capas de inflation cercanas a las paredes. Se realizó un estudio de independencia de malla mediante índice de convergencia de malla (GCI) para los dominios de flujo de los diseños propuestos, en el cual la variable a monitorear fue la velocidad promedio en la salida. El criterio de convergencia fue de 1×10 -6 para los residuales; se tomó como monitor de convergencia la velocidad promedio a la salida. La entrada de fluido en el software fue establecida como tipo velocity-inlet, el flujo en el dominio como interior, las paredes como wall, siendo una pared estacionaria sin deslizamiento (no slip). El tipo de solucionador (solver) fue basado en presión (pressure-based), puesto que se trata del flujo de un fluido incompresible a baja velocidad. El esquema utilizado fue acoplado (Coupled). En los escenarios simulados en el software fue posible representar las velocidades de flujo gráficamente como contornos de velocidad en x, vectores de velocidad y perfiles de velocidad en todo el dominio del flujo. El fluido a modelar fue agua a 25 °C y se consideraron valores de densidad y viscosidad dinámica de 998.2 kg/m 3 y 0.001003 kg/m•s, respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Curvas RTD teóricas mediante CFD</titulo>
+        <texto>La distribución del trazador fue modelada mediante el módulo de transporte de especies sin reacción en Fluent®. El coeficiente de difusión del trazador se estableció como aproximación diluida constante con valor de 1.91×10 -9 m 2 s -1 que corresponde a KCl 1M El escenario modelado corresponde a un tiempo teórico (τ) de 5 minutos (300 segundos) calculado a partir de τ= V Q ⁄ , donde 𝑉 es el volumen del reactor (m 3 ) y 𝑄 es el flujo volumétrico (m 3 /s). Las ecuaciones de fluido fueron resueltas en primera instancia en estado estable para después resolver la ecuación de transporte de especies en estado transitorio, dependiente del tiempo, aplicando para ello la solución obtenida en el estado estable del flujo. La concentración del trazador a la salida fue monitoreada con respecto al tiempo simulando un método de inyección pulsada de trazador, la cual supone como condiciones iniciales que la totalidad del trazador es inyectado en la entrada en el tiempo cero (t=0). Se resolvieron las ecuaciones para el flujo en estado estable, sin resolver la ecuación de transporte de especies. Posterior a ello, se estableció como condición inicial la fracción másica del trazador como 1; se resolvió la ecuación de transporte de especies en estado transitorio iterando por un paso de tiempo (Time Step) en el que se abarcaron las iteraciones que fueron necesarias para la convergencia de las ecuaciones de fluido en estado estable. Posteriormente se estableció la concentración del trazador como máxima (C=Cmax). Después de resolver un paso de tiempo, se estableció la fracción másica en la entrada igual a cero, puesto que se supone que se hizo una sola inyección de una cantidad determinada de trazador. Posterior a ello se resolvió la ecuación de transporte de especies en estado transitorio.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Integración de área de las curvas concentración vs tiempo y obtención de tiempo de residencia medio</titulo>
+        <texto>Una vez obtenidos los datos de la curva-C (concentración vs tiempo) en la simulación del tiempo de residencia del trazador, se llevó a cabo la integración del área bajo la curva para obtener la función de distribución de tiempo de residencia E(t) (Ecuación 36); para ello se utilizó el software Polymath, el cual divide la curva en dos polinomios, uno para la porción ascendente y otro para la porción descendente de la curva. A partir de ello, mediante un código de programación (Anexo Sección 3), el software permitió calcular el área bajo dicha curva, así como el tiempo de residencia medio (Ecuación 41), la desviación estándar y cualquier intervalo de tiempo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Población y muestra</titulo>
+        <texto>Se determinó la eficiencia de los procesos electroquímicos en muestras de agua sintética y de pozo. En el caso del agua sintética se le adicionó paracetamol en las concentraciones correspondientes para pruebas por lote, mientras que para las pruebas del proceso híbrido EO-EC se empleó agua de pozo a la cual se le adicionó paracetamol y, en algunos casos, fluoruro y arsénico aparte de las concentraciones contenidas en el agua.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Modelos de agua sintética</titulo>
+        <texto>Se prepararon tres soluciones stock: a)100 mg/L de paracetamol a partir de un estándar de referencia de la farmacopea europea; b)1000 mg/L de arsénico (III) a partir de NaAsO2 (J.T.Baker, 98.4%); c)1000 mg/L de F -a partir de NaF (J.T.Baker, 99.5%). Posteriormente se realizaron las diluciones correspondientes con agua desionizada o de pozo, según correspondiera, para obtener las concentraciones de paracetamol, arsénico y fluoruro indicadas en el diseño experimental. La conductividad se ajustó a 850 µS/cm, aproximadamente, con NaCl o Na2SO4 según correspondiera. El pH inicial se ajustó con HCl 1M o NaOH 1M.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Métodos analíticos</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de muestras de agua de pozo</titulo>
+        <texto>El agua de pozo se caracterizó para determinar concentraciones de aniones y cationes mayoritarios. El análisis de los cationes se llevó a cabo por absorción atómica (Avanta GBC) con flama aire-acetileno; los cationes Na + y K + se determinaron por emisión a una longitud de onda de 589.0 nm y 766.5 nm, respectivamente; Ca + y Mg + se determinaron por absorción a longitudes de onda de 422.7 nm y 285.0 nm, respectivamente. La determinación de carbonatos y bicarbonatos (CO 3 -2 y HCO 3 -) se llevó a cabo de acuerdo con la metodología establecida en la NMX-AA-036-SCFI-2001. La determinación de sulfatos (SO 4 2-), cloruros (Cl -) y nitratos (NO 3 -) se llevó a cabo por medio de cromatografía de iones de acuerdo con el método 300.0 de la EPA (EPA,1993) mediante elución isocrática en un equipo Dionex Integrion HPIC equipado con detector de conductividad, columna 2 x 250 mm y un supresor de iones AERS 2 mm. Se determinó arsénico total por medio de absorción atómica con generador de hidruros con flama aireacetileno a una longitud de onda de 189.0 nm. La determinación de fluoruros se llevó a cabo mediante método potenciométrico con electrodo ion selectivo (ISE Fluoride Ion Plus) empleando una mezcla de muestra a temperatura ambiente con TISAB II CTDA en una relación de volumen 1:1. La conductividad y el pH se determinaron en un equipo multiparamétrico Orion Versa Star-Thermo Scientific.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Determinación de paracetamol y subproductos</titulo>
+        <texto>A partir de una solución stock de paracetamol de 100 mg/L se prepararon soluciones para la curva de calibración de concentraciones de 0.02, 0.01, 0.5, 0.8 y 1.0 mg/L mediante las diluciones necesarias con agua grado UPLC. Para el monitoreo de subproductos se prepararon 4 soluciones stock de 50 mg/L de cada uno de los cuatro subproductos: 4-aminofenol (4-AP), 4-nitrofenol (4-NP), hidroquinona (HQ) y p-benzoquinona (BQ). A partir de las soluciones stock se preparó una curva de calibración con los cuatro subproductos en cada punto de calibración, para obtener la curva mostrada en la Tabla 6. Tabla 5-1. Curva de calibración para la identificación y cuantificación de subproductos de paracetamol mediante UPLC nm. Las muestras analizadas fueron previamente filtradas con filtros con tamaño de poro de 0.3 μm.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Subproducto</titulo>
+        <texto>Tabla 5-2. Programa de gradiente empleado en el análisis UPLC para determinación de paracetamol y subproductos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tiempo</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Análisis FTIR en agua tratada</titulo>
+        <texto>Previo al análisis de FTIR se realizó una extracción en fase sólida de dos muestras por duplicado del agua tratada en el sistema EO-EC en flujo continuo, proveniente de la salida de cada uno de los reactores de EO y EC. Dicha extracción se hizo con la finalidad de concentrar los compuestos orgánicos y poder identificarlos mediante el análisis FTIR. Para la extracción en fase sólida se filtró la muestra a través de filtro Watman 1 y se tomaron 100 mL del filtrado los cuales se depositaron en un matraz Erlenmeyer de 125 mL. Se agregaron 50 mg de EDTA sal disódica dihidratada de 99.9% de pureza y el pH fue ajustado a 2 con H2SO4 concentrado. Se usaron cartuchos Waters Oasis HLB acoplados a una bomba de vacío para la extracción en fase sólida. Los cartuchos fueron activados con 0.3 mL de agua desionizada y posteriormente se pasaron a través de los cartuchos 25 mL del agua tratada. El concentrado del cartucho fue eludido con 6 mL de metanol y 3 mL de acetona. Se llevó a cabo una preconcentración con corriente de nitrógeno y se analizó la muestra en un equipo iS50 FT-IR (Thermo Scientific) con ATR cristal de diamante. El espectro empleado fue de 400-4000 cm -1 .</texto>
+      </seccion>
+      <seccion>
+        <titulo>Experimentación</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Pruebas por lote del proceso electrooxidación</titulo>
+        <texto>Las pruebas de degradación se llevaron a cabo en un reactor de acrílico con capacidad para 400 mL de solución a tratar. El reactor y los dispositivos utilizados se muestran en la Figura 5-2. El diseño experimental consistió en un diseño factorial fraccionado 2 7-2 resolución IV, correspondiente a una fracción de un cuarto, de siete factores con dos niveles cada uno, y dos centros. La Tabla 1 del Anexo muestra las corridas experimentales de dicha fracción. Los valores de los niveles de los factores evaluados se muestran en la Tabla 5-3. El diseño fraccionado permite realizar un tamizado de los factores significativos en un proceso ya que se obtiene información sobre los efectos principales e interacciones de orden inferior corriendo solo una fracción de un diseño factorial completo, asumiendo que interacciones de orden superior son insignificantes La variable de respuesta fue el porcentaje de degradación de paracetamol, y los factores considerados como constantes fueron el número de electrodos (dos ánodos de grafito y dos cátodos de acero inoxidable) y la velocidad de agitación (150 rpm) mediante un agitador magnético. Figura 5-2. Dispositivos empleados para las pruebas batch de degradación de paracetamol. Tabla 5-3. Valores de los niveles de los factores evaluados en las pruebas por lote para degradación de paracetamol. Los electrodos se lavaron con HCl al 15% (v/v) y con agua desionizada antes de cada corrida experimental Las corridas experimentales se llevaron a cabo por duplicado con flujo constante de agua de pozo suministrado al reactor mediante una bomba peristáltica, con un tiempo de residencia de 5 y 15 minutos, una densidad de corriente de 4.5 mA/cm 2 y un pH inicial de 5, condiciones de operación óptimas al evaluar el proceso en batch en un trabajo anterior (López- Posterior al tratamiento, se evaluó la eficiencia de remoción con respecto a las concentraciones medidas de fluoruro y arsénico en el efluente a la salida del reactor y en los tanques de almacenamiento.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Pruebas en flujo continuo del sistema EO-EC</titulo>
+        <texto>Las pruebas para la evaluación del sistema electrooxidación-electrocoagulación (EO-EC) se llevaron a cabo por duplicado. El sistema de tratamiento consistió en los reactores de acrílico mencionados en la sección 5.4.2; en el primer reactor se llevó a cabo la degradación de paracetamol mediante electrooxidación con dos ánodos de grafito y dos cátodos de acero inoxidable, mientras que en el segundo reactor se llevó a cabo la remoción de fluoruro y arsénico mediante dos ánodos y dos cátodos de aluminio. Los electrodos empleados para ambos procesos fueron de 75 x 110 mm. Se empleó una tubería de ¼ de pulgada de diámetro para suministrar el agua a los reactores con ayuda de dos bombas peristálticas con un flujo de 22.3 mL/min para un tiempo de residencia teórico de 15 minutos en cada reactor. El agua por tratar fue agua de pozo a la cual se le adicionó paracetamol, fluoruro y arsénico para tener como concentraciones iniciales 1.5 mg/L, 10 mg/L y 100 μg/L, respectivamente. El agua se alimentó en primera instancia en el reactor EO y posteriormente se pasó por un sedimentador. El sobrenadante se almacenó en un tanque para alimentar el reactor EC. Se tomaron 30 mL de muestra en la salida de cada reactor cada 15 minutos, se almacenaron en frascos de vidrio ámbar y se refrigeraron hasta su análisis.</texto>
+      </seccion>
+      <seccion>
+        <titulo>VI. Resultados y discusión 1. Diseño asistido por CFD del reactor</titulo>
+        <texto>El primer diseño de reactor para la etapa de modelado computacional fue un reactor rectangular de un solo canal con flujo horizontal. Este diseño geométrico y el acomodo de los electrodos se seleccionó con base en que un flujo horizontal tiene menores requerimientos de bombeo que un flujo vertical, en el cual se debe vencer la fuerza de gravedad para permitir un flujo ascendente a través de los electrodos. Por otro lado, un reactor de un solo canal ofrece una tasa de flujo mayor que un reactor de canales múltiples, en el cual la distribución de flujo puede no ser uniforme debido a la canalización y a la presencia de zonas muertas. Además, el diseño de un solo canal permite atacar de manera más eficaz el fenómeno de pasivación en los electrodos Este tipo de reactor también promueve que el fluido tenga un comportamiento aproximado de flujo en pistón, en el cual el tiempo de residencia en el reactor de todos los elementos del fluido sea el mismo. Los diseños típicos de reactores de procesos de electrooxidación son en flujo pistón o de mezcla perfecta El primer diseño geométrico tuvo dimensiones de 19 x 14 cm, con doce electrodos con una separación de 1 cm. Se contempló un sistema en el que se llevarían a cabo los procesos EO y EC en un mismo reactor (Figura 6-1). Se propuso que el proceso de electrocoagulación para remoción de fluoruro fuera al inicio del tren de tratamiento debido a que la remoción de fluoruro se ve favorecida a pH ácido cuando el material del electrodo es aluminio. Esto es debido a que las especies insolubles Al(OH) 2 + , Al(OH) 2+ , y Al(OH)3, se forman a un pH de 5.0 a 8.0 Además de los redondeos, se resolvió que fuera un sistema modular en lugar de que ocurrieran los tres procesos en un solo reactor, estos se llevaran a cabo por separado. Cada módulo estuvo compuesto por cuatro electrodos, entre los cuales hay tres canales de reacción (zona entre los electrodos, donde ocurren las reacciones químicas) y se evaluó teóricamente los dos tipos de entrada, paralela y normal al flujo en los canales (Figura 6-2). Este tipo de sistema permitió evaluar con mayor precisión lo que sucede en cada proceso con los tres contaminantes evaluados. Considerando que el reactor inicial se dividió en tres módulos, en el nuevo sistema modular se estableció un tiempo de residencia de 5 minutos por módulo. Los detalles del mallado, así como el estudio de independencia de malla, se muestran en la Sección 2 del Anexo. Los resultados de las líneas de corriente obtenidas como resultado de la simulación en ambos diseños de reactor muestran que en el diseño con la entrada normal (Figura 6-3a) el flujo se distribuye de manera más uniforme en el canal de entrada y a lo largo de los demás canales, mientras que en el diseño con la entrada no normal (Figura 6-3b) se produce una recirculación del flujo en el canal de entrada y posteriormente el flujo se distribuye de manera más uniforme en los siguientes canales de reacción.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Integración de área de las curvas concentración vs tiempo</titulo>
+        <texto>Se realizó la integración del área bajo la curva obtenida de la simulación de la distribución del tiempo de residencia en ANSYS Fluent® (Figura 6-8) para un escenario de 5 minutos de tiempo de residencia teórico. Se tomaron los valores de concentración con respecto al tiempo mostrados en la Tabla 6-1, los cuales fueron extraídos de los resultados numéricos del software. ANSYS Fluent® proporciona todos los valores numéricos de concentración vs tiempo de acuerdo con lo establecido en el set up de la simulación. En este caso se obtuvo un dato de concentración por cada segundo de la simulación transcurrido, es decir 950 datos. Sin embargo, se tomaron los valores por minuto y el valor más alto de la curva para calcular el área bajo la curva ya que en las pruebas experimentales es difícil obtener datos continuos, a menos de que se use un adquisidor de datos. De acuerdo con los cálculos hechos en el software Polymath® (Anexo Sección 3.2), el área bajo la curva tiene un valor de 1.075 (mol • min L ⁄ ) y el tiempo de residencia medio obtenido fue de 5.41 min para el escenario simulado de 5 minutos de tiempo de residencia teórico. La varianza (σ 2 ) tiene un valor de 8.46. Este último parámetro indica la dispersión de la distribución con respecto a la media Se calculó la porción de fluido que permaneció entre 0 y 5 minutos, la cual fue aproximadamente 40%. Por lo tanto, el 60 % del fluido permaneció entre 5 y 15 minutos, tiempo hasta el que la simulación se llevó a cabo para obtener una concentración de trazador prácticamente de cero en la salida. A pesar de ello, el Figura 6-8. Curva de concentración vs tiempo, obtenida de la simulación en Fluent para el caso original. tiempo de residencia medio obtenido es muy cercano al tiempo de residencia teórico. Se analizó un caso en el que se aumentó el flujo volumétrico en la entrada del reactor mediante la simulación en CFD con la finalidad de verificar si es que esto podría acercar el tiempo de residencia medio al valor de tiempo de residencia teórico. Para ello, se aumentó el flujo volumétrico de 0.0013 kg/s a 0.0015 kg/s.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tren de tratamiento EC en flujo continuo para remoción de fluoruro y arsénico</titulo>
+        <texto>La remoción de fluoruro y arsénico se evaluó en un tren de tratamiento que consistió en dos módulos de electrocoagulación. Cada módulo consistió en un reactor (Figura 6-10a), y un sedimentador (Figura 6-10b), en el cual se separaron los lodos generados durante el proceso para que, de esta manera, el agua tratada esté clarificada antes de pasar al siguiente módulo o salir del tren de tratamiento. En la Figura 6-11 se muestra el armado completo del prototipo, con las dos unidades de tratamiento, para arsénico y fluoruros, los sedimentadores correspondientes, y las unidades necesarias para su operación.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización del agua de pozo</titulo>
+        <texto>El agua de pozo seleccionada para evaluar el proceso en flujo continuo fue tomada de la localidad Labor de Guadalupe, en el municipio de Durango, cuyas coordenadas son: 24,16183, -104,59568. Los parámetros evaluados en la caracterización se muestran en la Tabla 6-3. Los resultados obtenidos son promedios de las muestras tomadas por duplicado de acuerdo con la metodología planteada. Las concentraciones de fluoruro (10.10 mg/L) y arsénico (123.70 μg/L) exceden los límites permisibles (1.0 mg/L y 0.01 mg/L, respectivamente), por lo que su consumo representa un riesgo a la salud de la población.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Corridas experimentales</titulo>
+        <texto>Se llevaron a cabo dos corridas experimentales para tiempos de residencia de 5 y 15 minutos, con un flujo de 66.8 mL/min y 22.3 mL/min, respectivamente. La Figura 6-12 muestra el sistema en operación. Se comenzó operando el reactor A, diseñado para la remoción de fluoruro, hasta que el agua clarificada en el sedimentador A llegara al tanque A. Enseguida, el agua tratada pasa al reactor B para remoción de arsénico, el sistema en flujo continuo hasta que el agua de la alimentación principal se agotó. Se tomaron muestras cada 5 o 15 minutos, según correspondiera, en la salida de cada reactor para monitorear la estabilidad del proceso. Además, se tomaron muestras del tanque A para determinar la eficiencia de remoción en el primer módulo, y del tanque B para evaluar la eficiencia del proceso completo. En la Tabla 3 del Anexo se muestran los resultados obtenidos para remoción de fluoruro y arsénico en el tiempo de residencia de 5 minutos. Las concentraciones de arsénico en ambas corridas experimentales disminuyen considerablemente en el reactor A desde una concentración inicial en el agua de pozo de 123.70 µg/L hasta concentraciones por debajo de 10 μg/L, límite máximo permisible de acuerdo con el ajuste de conformidad especificado en la actualización de la NOM-127-SSA1-2021. Sin embargo, se observaron dos puntos de muestreo que sobrepasan dicho límite (16.06 y 13.49 μg/L) lo cual pudo deberse a condiciones propias del sistema como pasivación o estancamiento de lodos en la superficie de los electrodos. La notable disminución en la concentración de arsénico se debe a que las especies coagulantes del reactor A son hidróxidos de aluminio, los cuales también han mostrado tener altas eficiencias de remoción de arsénico Sin embargo, se presentó una acumulación importante de lodos en la tubería de salida de ambos reactores en la primera corrida experimental, lo que impidió obtener la misma cantidad de datos que en la segunda corrida experimental. La acumulación de lodos en la salida y en los canales de reacción se debió principalmente a que el flujo disminuyó para aumentar el tiempo de residencia. Por otro lado, el porcentaje de remoción de fluoruro en el tiempo de tratamiento de 5 minutos tuvo mayores variaciones, y en ambas corridas la concentración final excedió el límite máximo permisible de 1.0 mg/L (Figura 6-14a). Los resultados para el tiempo de residencia de 15 minutos se muestran en la Tabla 5 del Anexo. Para dicho tiempo de tratamiento fue posible alcanzar concentraciones finales por debajo del límite permisible de 1.0 mg/L (SSA, 2021) que se mantuvieron durante la segunda corrida experimental (Figura 6-14b), la cual tuvo una duración de dos horas con cuarenta y cinco minutos; mientras que en la primera corrida se registraron valores inferiores a 1.0 mg/L durante la primera hora de tratamiento para después registrar concentraciones por encima de dicho valor hasta alcanzar un máximo de 1.88 mg/L, lo cual pudo haber sido resultado de los problemas de estancamiento de lodos que se presentaron. En cuanto a los valores de pH, estos mostraron un comportamiento similar en las cuatro corridas experimentales. Es decir, sin importar el tiempo de residencia, el pH en el primer módulo estuvo en un rango de 7 a 9, mientras que en el segundo módulo el aumento fue más notorio con valores entre 10 y 11.5. De acuerdo con Gran parte de los lodos generados se separaron del agua en los sedimentadores A y B, tal como se muestra en la Figura 6-15. Sin embargo, en ambos tiempos de residencia se observó estancamiento de los lodos en los reactores, lo cual fue más notorio y causó mayores problemas en la prueba de tiempo de residencia de 15 minutos, esto puede ser debido a la disminución del flujo de agua, pues los lodos llegaron al canal de salida y se presentaron algunos problemas de taponamiento. En la Figura 6-16 se muestran las dos unidades de electrocoagulación y la formación de lodos que genera problemas en los canales de vaciado hacia el sedimentador.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis estadístico</titulo>
+        <texto>De acuerdo con un análisis de contrastes ejecutado en el programa JMP los efectos significativos resultaron ser electrolito soporte y densidad de corriente (Tabla Anexo). Al maximizar la deseabilidad se obtiene que las condiciones óptimas son, en cuanto a estos dos parámetros, NaCl como electrolito soporte y densidad de corriente de 4.5 mA/cm 2 . La Tabla 8 del Anexo muestra los resultados obtenidos en Minitab, los cuales coinciden con los resultados antes mostrados en JMP en cuanto</texto>
+      </seccion>
+      <seccion>
+        <titulo>Pruebas confirmatorias</titulo>
+        <texto>En las pruebas confirmatorias del maximizado de respuesta y del punto central se obtuvo una degradación prácticamente total del paracetamol en todas las pruebas, incluso en las que el fluoruro y el arsénico no están presentes (Tabla 9 Anexo). Los cuatro subproductos fueron identificados en todas las pruebas. Sin embargo, el 4-AP se presentó en mayor concentración en las pruebas en las que el fluoruro y el arsénico no estaban presentes en la solución (Tabla 10 Anexo), lo que puede sugerir que alguno de estos dos contaminantes tiene una interacción con las moléculas de la degradación y promueven que el 4-aminofenol se oxide en mayor grado. La Figura 6-21 muestra el comportamiento de las concentraciones promedio de los subproductos presentes después de las pruebas confirmatorias. Se observa que el 4-AP se presenta en menor concentración en la prueba de maximizado con presencia de fluoruro y arsénico (0.013 mg/L) mientras que, en las mismas condiciones de operación, sin la presencia de fluoruro y arsénico la concentración de dicho subproducto es mucho mayor (0.133 mg/L). De manera similar, la mayor concentración de 4-AP se presenta en la prueba del punto central sin la presencia de fluoruro y arsénico con una concentración promedio de 0.209 mg/L. Además, en dicha prueba es en la única en la que no se encontró la presencia de BQ, lo cual puede ser por la degradación en menor grado que se llevó a cabo del paracetamol el cual aparentemente se degrada solo hasta hidroquinona bajo dichas condiciones. Estos resultados pueden sugerir que la presencia de fluoruro y arsénico tienen un efecto positivo en la degradación de paracetamol y de sus subproductos; sin embargo, se requieren más pruebas y otro tipo de análisis para verificar los mecanismos bajo los cuales estos contaminantes promueven la degradación de compuestos orgánicos. Figura 6-21. Concentraciones promedio de subproductos de paracetamol en el agua tratada en las pruebas confirmatorias del proceso EO batch. Las líneas de error representan la desviación estándar.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Degradación de paracetamol y subproductos</titulo>
+        <texto>Las concentraciones de paracetamol y presencia de subproductos se evaluaron en muestras tomadas cada 15 minutos a la salida del proceso de EO y a la salida del proceso EC con la finalidad de evaluar el aporte que cada proceso puede ofrecer en la remoción de estos. Todas las muestras se almacenaron en frascos de vidrio ámbar y se conservaron en refrigeración hasta su análisis. Los resultados se muestran en la Tabla 11 del Anexo. La degradación de paracetamol fue prácticamente total en el módulo de electrooxidación y, por lo tanto, no se detectó su presencia en la salida del módulo de electrocoagulación. Estos resultados confirman que las condiciones de operación obtenidas en el proceso EO batch son aplicables para el sistema operando en flujo continuo. En el caso de los subproductos 4-AP, 4-NP, HQ y BQ se identificó su presencia en el efluente del proceso EO en concentraciones promedio máximas de 0.102, 0.024, 0.070 y 0.034 mg/L, respectivamente. Sin embargo, en el efluente del proceso EC se observó una disminución en la concentración promedio de 4-AP para ambas pruebas, mientras que 4-NP, HQ y BQ no fueron detectadas en el efluente de la prueba 1, y en la prueba 2 las concentraciones de dichos subproductos estuvieron por debajo de 0.020 mg/L (Figura 6-22) por lo que se presume que el proceso EC tiene un aporte en la remoción de los subproductos resultantes de la degradación de paracetamol en el proceso de EO. Figura 6-22. Comparación de concentraciones finales de subproductos de PCT en procesos EO y EC en proceso en flujo continuo. Estudios que han evaluado el proceso EC para remover paracetamol han concluido que este contaminante se remueve mediante neutralización de carga y adsorción en los flóculos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis FTIR en agua tratada</titulo>
+        <texto>Con el fin de identificar si se forman compuestos orgánicos de arsénico o fluorados en el proceso de degradación de paracetamol en presencia de fluoruro y arsénico se llevó a cabo un análisis FTIR en muestras de agua tratada al final de los procesos EO y EC del tren de tratamiento. El espectro FTIR del proceso EO se muestra en la Figura 6-25; en las dos muestras analizadas se presenta una señal fuerte a 1014 cm -1 la cual está asociada con la vibración de estiramiento C-F, puesto que señales de 1300-1000 cm -1 se relacionan con la presencia de grupos C-F Figura 6-25. Espectro FTIR del agua tratada en el proceso electrooxidación. La banda de estiramiento O-H se observa de 3800-3000 cm -1 , la cual puede encontrarse en un rango de 4000-2500 cm -1 Figura 6-26. Espectro FTIR del agua tratada en el proceso electrocoagulación. En el caso de compuestos organoarsénicos, los compuestos arsénico-metilados se localizan en el rango espectral de 1100-650 cm -1 , los cuales son localizables por la vibración característica de los grupos metil ρ(CH 3 ) como es el caso del CH 3 AsO 3 2-acuoso reportado a la frecuencia 862 cm -1 a pH 9; el ácido dimetil arsénico (DMA) exhibe las características del ρ(CH 3 ) a frecuencias de 914-879 cm - 1 dependiendo del pH, mientras que las bandas asociadas con las vibraciones de estiramiento As-C en el ácido mono metil arsónico ocurren debajo de 650 cm -1 La posible formación de compuestos órgano arsénicos puede ser la causa de las altas variaciones en la remoción de arsénico del agua en el proceso EC en el tren de tratamiento EO-EC ya que en el proceso EC en el que estaban solo presentes el fluoruro y el arsénico se observaron pocas variaciones y altas eficiencias de remoción. Debido a la presencia simultánea de fluoruro y arsénico en conjunto con un compuesto orgánico, en este caso el paracetamol, y a las reacciones de oxidación que suceden principalmente en el proceso de electrooxidación es posible que puedan formarse subproductos tóxicos de compuestos organofluorados o compuestos orgánicos de arsénico. Por ello se sugiere evaluar mediante análisis más especializados la presencia de este tipo de compuestos en el agua tratada mediante la identificación de enlaces C-F y C-As por FTIR, entre otras técnicas analíticas como RAMAN, UPLC-MS acoplado a espectrometría de masas Aunque existe la posibilidad de la formación de este tipo de compuestos, recientemente varios estudios han demostrado que los procesos electroquímicos electrocoagulación y electrooxidación son aplicables también en la remoción o degradación de per y polifluoralquilos (PFAS)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis de factibilidad técnica</titulo>
+        <texto>La evaluación de la factibilidad técnica es un proceso iterativo que debe realizarse de manera rigurosa, pues de ello dependerá el éxito o fracaso del desarrollo de un prototipo y se deben tomar en cuenta los siguientes factores: 1. Definición de los requisitos técnicos como especificaciones del prototipo, condiciones de operación, funcionalidad, y normativa. 2. Análisis de viabilidad tecnológica que incluya la escalabilidad del prototipo. 3. Evaluar recursos disponibles, requerimientos de capacitación, analizar la infraestructura disponible, y el presupuesto. 4. Determinar la funcionalidad del prototipo con base en una versión de laboratorio que permita realizar pruebas preliminares. 5. Revisión y retroalimentación continua. En ese sentido, el prototipo del proceso híbrido EO-EC que fue desarrollado en este proyecto de tesis cuenta con las especificaciones de las funciones que puede cumplir, como son la densidad de corriente, flujo, y tiempo de tratamiento adecuado para reducir la concentración de elementos como el As, F y paracetamol hasta niveles que cumplan con la legislación vigente. Además, se cuenta con los recursos necesarios para su construcción y la tecnología adecuada para operar el sistema en batch, en continuo, en serie y en paralelo, de manera que se adecue a los requerimientos del tratamiento. En ese sentido, el punto que debe evaluarse en estudios posteriores es la escalabilidad del prototipo de forma que pueda cumplir con demandas futuras o pueda adaptarse a cambios. Otro de los puntos que se consideró para evaluar la factibilidad técnica de la aplicación o incorporación del prototipo en un sistema de tratamiento convencional fue la disposición de recursos humanos; sin embargo, se encontró que las plantas de tratamiento municipales no cuentan con personal suficiente para llevar a cabo su trabajo actual y no dispondrían de personal para poder operar este tipo de sistemas. En cuanto al presupuesto que se debe disponer para la construcción e incorporación del prototipo, se encontró que el costo es razonable en relación con los recursos disponibles dado que el funcionamiento del prototipo cumple con las especificaciones de rendimiento. Por lo tanto, es factible la aplicación e incorporación del prototipo al sistema de tratamiento; sin embargo, se requieren más estudios para determinar su escalabilidad.</texto>
+      </seccion>
+      <seccion>
+        <titulo>VII. Conclusiones y recomendaciones</titulo>
+        <texto>• El proceso de diseño de reactor mediante CFD dio como resultado un diseño de un sistema de tratamiento modular en el que se disminuyeron las zonas de estancamiento de flujo además de permitir el estudio de los dos procesos (electrooxidación y electrocoagulación) de una manera más puntual para determinar el efecto que cada uno de ellos tiene en la degradación y remoción de los contaminantes objetivos del estudio. • La curva concentración vs tiempo muestra un comportamiento de flujo tipo pistón no ideal en el diseño de reactor. La integración del área bajo la curva permitió obtener la función de distribución de tiempo de residencia necesaria para determinar el tiempo de residencia medio (5.41 minutos) para un escenario de tiempo teórico de 5 minutos. Este valor permite corroborar que el modelo de CFD establecido es adecuado para simular la hidrodinámica del reactor. • El diseño de reactor propuesto y el tren de tratamiento construido permitió implementar un proceso de electrocoagulación para la remoción de fluoruro y arsénico en flujo continuo. Se obtuvieron concentraciones finales &lt;1.0 mg/L para fluoruro cuando el tiempo de residencia fue de 15 minutos con eficiencias de remoción de 90.5% y una remoción mayor al 96% para arsénico. • El sistema de tratamiento EO-EC en flujo continuo, con un tiempo de tratamiento de 15 minutos en cada módulo, permitió la degradación de paracetamol en el módulo EO mientras que en el módulo EC se removieron el fluoruro y el arsénico con eficiencias promedio de 97.56% y 61.04%, respectivamente. Además, en el módulo EC se observó una importante disminución en las concentraciones de los subproductos 4-AP, 4-NP, HQ y BQ, por lo que el proceso EC es un complemento para remover los subproductos que son resultado de la oxidación del paracetamol llevada a cabo en el proceso EO. • Los datos experimentales de degradación de paracetamol y remoción de fluoruro y arsénico corroboran que el diseño obtenido a partir de la simulación CFD de la hidrodinámica en diferentes geometrías del reactor dieron como resultado un diseño operativamente funcional. El diseño de reactor obtenido es el resultado del análisis y mejora de cada geometría propuesta evaluada mediante CFD.</texto>
+      </seccion>
+      <seccion>
+        <titulo>RECOMENDACIONES</titulo>
+        <texto>1.-El arsénico y el ion fluoruro pueden presentarse en co-ocurrencia en el agua subterránea y en el agua superficial, por lo que la aplicación potencial del proceso de electrooxidación para degradar contaminantes orgánicos requiere que se investigue más a profundidad cuáles subproductos se generan cuando el fluoruro y el arsénico están presentes en el agua a tratar. 2.-Los resultados obtenidos en el presente estudio muestran que es factible la implementación de ambos procesos en un tren de tratamiento de flujo continuo para el tratamiento de agua que tenga presencia de paracetamol, arsénico y fluoruro. Aunque está fuera del alcance de la presente investigación, se desea alentar al estudio más profundo de los mecanismos envueltos en la degradación y remoción de estos contaminantes, así como las posibles interacciones entre los productos de degradación del paracetamol con el fluoruro y el arsénico, para asegurar que no se formen compuestos más tóxicos cuando se encuentren estos tres contaminantes en el agua y se emplee un proceso de oxidación avanzada.  Se estableció un refinamiento constante a partir del tamaño de elemento establecido anteriormente como inicial, el cual cumple con el criterio de calidad de malla skewness max &lt; 0.95. Dicho refinamiento corresponde al 10% con respecto a la malla inmediata anterior, para tener una relación de 𝑟 = 1.1, mientras que se estableció un factor de seguridad 𝐹 𝑠 = 3. El orden de convergencia 𝑝 fue calculado para cada conjunto de soluciones de tres mallados. El parámetro seleccionado para el estudio de independencia de malla fue la velocidad máxima (m/s) en la salida.</texto>
+      </seccion>
+      <seccion>
+        <titulo>IX. Anexos</titulo>
+        <texto>Posterior al cálculo de los índices de convergencia, se verificó el rango asintótico de convergencia mediante la Ecuación 48 Figura 3. Geometría para modelación cargada en el software de simulación ANSYS. En primera instancia se simularon escenarios con tiempos de residencia 15, 30, 40 y 50 minutos en los dos diseños del reactor que se muestran en la Figura 4, de los cuales uno tiene la entrada con dirección normal al flujo en los canales de reacción (Figura 4a), mientras que el otro tiene la entrada en paralelo (no normal) con la dirección del flujo en los canales (Figura 4b). La Figura 5 muestra la gráfica de residuales obtenida para el escenario de tiempo de residencia de 15 minutos en el reactor con entrada normal, en el que se observa gráficamente la convergencia de solución de las ecuaciones de conservación de masa y conservación de momento, cuando la diferencia entre los residuos fue menor a 1e -06 . Dicho criterio de convergencia se aplicó para los demás tiempos de residencia.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia>
+      <titulo>Removal of ciprofloxacin from hospital wastewater using electrocoagulation technique by aluminum electrode: Optimization and modelling through response surface methodology</titulo>
+      <autores>
+        <autor>S Ahmadzadeh</autor>
+        <autor>A Asadipour</autor>
+        <autor>M Pournamdari</autor>
+        <autor>B Behnam</autor>
+        <autor>H Rahimi</autor>
+        <autor>M Dolatabadi</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cooccurrence of arsenic and fluoride in groundwater of semi-arid regions in Latin America : Genesis , mobility and remediation</titulo>
+      <autores>
+        <autor>M Alarcón-Herrera</autor>
+        <autor>J Bundschuh</autor>
+        <autor>B Nath</autor>
+        <autor>H Nicolli</autor>
+        <autor>I Martín-Dominguez</autor>
+        <autor>M Gutierrez</autor>
+        <autor>V Reyes-Gomez</autor>
+        <autor>D Nuñez</autor>
+        <autor>O Sracek</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cooccurrence, possible origin, and health-risk assessment of arsenic and fluoride in drinking water sources in Mexico: Geographical data visualization</titulo>
+      <autores>
+        <autor>M Alarcón-Herrera</autor>
+        <autor>D Martin-Alarcon</autor>
+        <autor>M Gutiérrez</autor>
+        <autor>L Reynoso-Cuevas</autor>
+        <autor>A Martín-Domínguez</autor>
+        <autor>M Olmos-Márquez</autor>
+        <autor>J Bundschuh</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Removal of arsenate from groundwater by electrocoagulation method</titulo>
+      <autores>
+        <autor>I Ali</autor>
+        <autor>T Khan</autor>
+        <autor>M Asim</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>ANSYS FLUENT Meshing User Guide</titulo>
+      <autores>
+        <autor>I Ansys</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ansys Fluent Theory Guide</titulo>
+      <autores>
+        <autor>I Ansys</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Degradation of paracetamol by advance oxidation processes using modified reticulated vitreous carbon electrodes with TiO2 and CuO</titulo>
+      <autores>
+        <autor>Arredondo Valdez</autor>
+        <autor>H García Jiménez</autor>
+        <autor>G Gutiérrez Granados</autor>
+        <autor>S Ponce De León</autor>
+        <autor>C</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Potable Water Pollution with Heavy Metals , Arsenic , and Fluorides and Chronic Kidney Disease in Infant Population of Aguascalientes</titulo>
+      <autores>
+        <autor>L Arreola-Mendoza</autor>
+        <autor>L Del Razo</autor>
+        <autor>O Barbier</autor>
+        <autor>M Martínez-Saldaña</autor>
+        <autor>F Avelar-González</autor>
+        <autor>F Jaramillo-Juárez</autor>
+        <autor>J Reyes-Sánchez</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hybrid process of electrocoagulation and electrooxidation system for wastewater treatment: A review</titulo>
+      <autores>
+        <autor>Y Asfaha</autor>
+        <autor>A Tekile</autor>
+        <autor>F Zewge</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A kinetic study for the fenton and photo-fenton paracetamol degradation in an annular photoreactor involving assessment of LVRPA. Iberoamerican Conference on Advanced Oxidation Technologies</titulo>
+      <autores>
+        <autor>F Audino</autor>
+        <autor>L Conte</autor>
+        <autor>A Schenone</autor>
+        <autor>M Pérez-Moya</autor>
+        <autor>M Graells</autor>
+        <autor>O Alfano</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Removal of veterinary antibiotics from wastewater by electrocoagulation</titulo>
+      <autores>
+        <autor>W Baran</autor>
+        <autor>E Adamek</autor>
+        <autor>M Jajko</autor>
+        <autor>A Sobczak</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review on sources , toxicity and remediation technologies for removing arsenic from drinking water</titulo>
+      <autores>
+        <autor>A Basu</autor>
+        <autor>D Saha</autor>
+        <autor>R Saha</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>M Benotti</autor>
+        <autor>R Trenholm</autor>
+        <autor>B Vanderford</autor>
+        <autor>J Holady</autor>
+        <autor>B Stanford</autor>
+        <autor>S Snyder</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Occurrence and methods to remove arsenic and fluoride contamination in water</titulo>
+      <autores>
+        <autor>S Bibi</autor>
+        <autor>M Aqeel</autor>
+        <autor>K Jawairia</autor>
+        <autor>S Abida</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Validation and uncertainty estimation of a multiresidue method for pharmaceuticals in surface and treated waters by liquid chromatography-tandem mass spectrometry</titulo>
+      <autores>
+        <autor>M Boleda</autor>
+        <autor>M Galceran</autor>
+        <autor>F Ventura</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Competition between electrochemical advanced oxidation and electrochemical hypochlorination of acetaminophen at boron-doped diamond and ruthenium dioxide based anodes</titulo>
+      <autores>
+        <autor>J Boudreau</autor>
+        <autor>D Bejan</autor>
+        <autor>N Bunce</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mineralization of paracetamol in aqueous medium by anodic oxidation with a boron-doped diamond electrode</titulo>
+      <autores>
+        <autor>E Brillas</autor>
+        <autor>I Sirés</autor>
+        <autor>C Arias</autor>
+        <autor>P Cabot</autor>
+        <autor>F Centellas</autor>
+        <autor>R Rodríguez</autor>
+        <autor>J Garrido</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mineralization of paracetamol in aqueous medium by anodic oxidation with a boron-doped diamond electrode</titulo>
+      <autores>
+        <autor>E Brillas</autor>
+        <autor>I Sirés</autor>
+        <autor>C Arias</autor>
+        <autor>P Cabot</autor>
+        <autor>F Centellas</autor>
+        <autor>R Rodríguez</autor>
+        <autor>J Garrido</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electro-fenton process and related electrochemical technologies based on fenton's reaction chemistry</titulo>
+      <autores>
+        <autor>E Brillas</autor>
+        <autor>I Sirés</autor>
+        <autor>M Oturan</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Emerging organic compounds in European groundwater</titulo>
+      <autores>
+        <autor>S Bunting</autor>
+        <autor>D Lapworth</autor>
+        <autor>E Crane</autor>
+        <autor>J Grima-Olmedo</autor>
+        <autor>A Koroša</autor>
+        <autor>A Kuczyńska</autor>
+        <autor>N Mali</autor>
+        <autor>L Rosenqvist</autor>
+        <autor>M Van Vliet</autor>
+        <autor>A Togola</autor>
+        <autor>B Lopez</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>C Calderón Mólgora</autor>
+        <autor>P Arroyo Martínez</autor>
+        <autor>F Cruz Gutiérrez</autor>
+        <autor>S Garrido Hoyos</autor>
+        <autor>S Gelover Santiago</autor>
+        <autor>R López Corzo</autor>
+        <autor>A Martín Domínguez</autor>
+        <autor>S Pérez Castrejón</autor>
+        <autor>M Quezada Jiménez</autor>
+        <autor>M Rivera Huerta</autor>
+        <autor>L De</autor>
+        <autor>N Segura Beltrán</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of some operational parameters on the arsenic removal by electrocoagulation using iron electrodes</titulo>
+      <autores>
+        <autor>B Can</autor>
+        <autor>R Boncukcuoglu</autor>
+        <autor>A Yilmaz</autor>
+        <autor>B Fil</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical removal of antibiotics from wastewaters</titulo>
+      <autores>
+        <autor>C Carlesi Jara</autor>
+        <autor>D Fino</autor>
+        <autor>V Specchia</autor>
+        <autor>G Saracco</autor>
+        <autor>P Spinelli</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Advanced Physicochemical Treatment Technologies</titulo>
+      <autores>
+        <autor>G Chen</autor>
+        <autor>Y Hung</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>FTIR analysis of water structure and its influence on the flotation of arcanite (K2SO4) and epsomite</titulo>
+      <autores>
+        <autor>F Cheng</autor>
+        <autor>Q Cao</autor>
+        <autor>Y Guan</autor>
+        <autor>H Cheng</autor>
+        <autor>X Wang</autor>
+        <autor>J Miller</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Pharmaceutical products as emerging contaminant in water: relevance for developing nations and identification of critical compounds for Indian environment</titulo>
+      <autores>
+        <autor>P Chinnaiyan</autor>
+        <autor>S Thampi</autor>
+        <autor>M Kumar</autor>
+        <autor>K Mini</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Removal of antibiotics by coagulation and granular activated carbon filtration</titulo>
+      <autores>
+        <autor>K Choi</autor>
+        <autor>S Kim</autor>
+        <autor>S Kim</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Scaling-up an integrated electrodisinfection-electrocoagulation process for wastewater reclamation</titulo>
+      <autores>
+        <autor>S Cotillas</autor>
+        <autor>J Llanos</autor>
+        <autor>I Moraleda</autor>
+        <autor>P Cañizares</autor>
+        <autor>M Rodrigo</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Human pharmaceuticals: Why and how to reduce their presence in the environment. Current Opinion in Green and Sustainable Chemistry</titulo>
+      <autores>
+        <autor>A Courtier</autor>
+        <autor>A Cadiere</autor>
+        <autor>B Roig</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Vibrational spectroscopic characterization of some environmentally important organoarsenicals -A guide for understanding the nature of their surface complexes</titulo>
+      <autores>
+        <autor>S Cowen</autor>
+        <autor>M Duggal</autor>
+        <autor>T Hoang</autor>
+        <autor>H Al-Abadleh</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Design of a new FM01-LC reactor in parallel plate configuration using numerical simulation and experimental validation with residence time distribution (RTD)</titulo>
+      <autores>
+        <autor>M Cruz-Díaz</autor>
+        <autor>E Rivero</autor>
+        <autor>F Almazán-Ruiz</autor>
+        <autor>Á Torres-Mendoza</autor>
+        <autor>I González</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>House hold unit for the treatment of fluoride, iron, arsenic and microorganism contaminated drinking water</titulo>
+      <autores>
+        <autor>V Dhadge</autor>
+        <autor>C Medhi</autor>
+        <autor>M Changmai</autor>
+        <autor>M Purkait</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Pharmaceuticals and personal care products (PPCPs) in the freshwater aquatic environment</titulo>
+      <autores>
+        <autor>A Ebele</autor>
+        <autor>Abou-Elwafa</autor>
+        <autor>M Abdallah</autor>
+        <autor>S Harrad</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review of pollutants removed by electrocoagulation and electrocoagulation/flotation processes</titulo>
+      <autores>
+        <autor>M Emamjomeh</autor>
+        <autor>M Sivakumar</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Applicability of the electrocoagulation process in treating real municipal wastewater containing pharmaceutical active compounds</titulo>
+      <autores>
+        <autor>B Ensano</autor>
+        <autor>L Borea</autor>
+        <autor>V Naddeo</autor>
+        <autor>V Belgiorno</autor>
+        <autor>M De Luna</autor>
+        <autor>M Balakrishnan</autor>
+        <autor>F Ballesteros</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mutation Research / Genetic Toxicology and Environmental Mutagenesis Arsenic and fluoride co-exposure affects the expression of apoptotic and inflammatory genes and proteins in mononuclear cells from children</titulo>
+      <autores>
+        <autor>B Estrada-Capetillo</autor>
+        <autor>M Ortiz-Pérez</autor>
+        <autor>M Salgado-Bustamante</autor>
+        <autor>E Calderón-Aranda</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Pharmaceuticals in freshwater aquatic environments: A comparison of the African and European challenge</titulo>
+      <autores>
+        <autor>S Fekadu</autor>
+        <autor>E Alemayehu</autor>
+        <autor>R Dewil</autor>
+        <autor>B Van Der Bruggen</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Arsenic removal from groundwater by electrocoagulation in a pre-pilot-scale continuous fi lter press reactor</titulo>
+      <autores>
+        <autor>O Flores</autor>
+        <autor>J Nava</autor>
+        <autor>G Carreño</autor>
+        <autor>E Elorza</autor>
+        <autor>F Martínez</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Elements of Chemical Reaction Engineering</titulo>
+      <autores>
+        <autor>H Fogler</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fifth Edit)</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Occurrence and concentrations of pharmaceutical compounds in groundwater used for public drinking-water supply in California</titulo>
+      <autores>
+        <autor>M Fram</autor>
+        <autor>K Belitz</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Determination of arsenic species: A critical review of methods and applications</titulo>
+      <autores>
+        <autor>K Francesconi</autor>
+        <autor>D Kuehnelt</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical advanced oxidation processes for wastewater treatment: Advances in formation and detection of reactive species and mechanisms</titulo>
+      <autores>
+        <autor>S Ganiyu</autor>
+        <autor>C Martínez-Huitle</autor>
+        <autor>M Oturan</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Improvement of Arsenic Electro-Removal from Underground Water by Lowering the Interference of other Ions</titulo>
+      <autores>
+        <autor>A García-Lara</autor>
+        <autor>C Montero-Ocampo</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrocoagulation and advanced electrocoagulation processes: A general review about the fundamentals, emerging applications and its association with other technologies</titulo>
+      <autores>
+        <autor>S Garcia-Segura</autor>
+        <autor>M Eiband</autor>
+        <autor>J De Melo</autor>
+        <autor>C Martínez-Huitle</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical oxidation remediation of real wastewater effluents -A review</titulo>
+      <autores>
+        <autor>S Garcia-Segura</autor>
+        <autor>J Ocon</autor>
+        <autor>M Chong</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mineralization of Drugs in Aqueous Medium by Advanced Oxidation Processes</titulo>
+      <autores>
+        <autor>J Garrido</autor>
+        <autor>E Brillas</autor>
+        <autor>P Cabot</autor>
+        <autor>F Centellas</autor>
+        <autor>C Arias</autor>
+        <autor>R Rodríguez</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simultaneous application of iron and aluminum anodes for nitrate removal: A comprehensive parametric study</titulo>
+      <autores>
+        <autor>F Ghanbari</autor>
+        <autor>M Moradi</autor>
+        <autor>A Mohseni-Bandpei</autor>
+        <autor>F Gohari</autor>
+        <autor>T Mirtaleb Abkenar</autor>
+        <autor>E Aghayani</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Occurrence and fate of emerging contaminants in water environment: A review. Groundwater for Sustainable Development</titulo>
+      <autores>
+        <autor>A Gogoi</autor>
+        <autor>P Mazumder</autor>
+        <autor>V Tyagi</autor>
+        <autor>G Tushara Chaminda</autor>
+        <autor>A An</autor>
+        <autor>M Kumar</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Arsenic and fluoride removal from groundwater by electrocoagulation using a continuous filter-press reactor</titulo>
+      <autores>
+        <autor>A Guzmán</autor>
+        <autor>J Nava</autor>
+        <autor>O Coreño</autor>
+        <autor>I Rodríguez</autor>
+        <autor>S Gutiérrez</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrocoagulation process in water treatment: A review of electrocoagulation modeling approaches</titulo>
+      <autores>
+        <autor>J Hakizimana</autor>
+        <autor>B Gourich</autor>
+        <autor>M Chafi</autor>
+        <autor>Y Stiriba</autor>
+        <autor>C Vial</autor>
+        <autor>P Drogui</autor>
+        <autor>J Naja</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Defluoridation of drinking water using a new flow columnelectrocoagulation reactor (FCER) -Experimental, statistical, and economic approach</titulo>
+      <autores>
+        <autor>K Hashim</autor>
+        <autor>A Shaw</autor>
+        <autor>R Al Khaddar</autor>
+        <autor>M Ortoneda Pedrola</autor>
+        <autor>D Phipps</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent developments and advances in boron-doped diamond electrodes for electrochemical oxidation of organic pollutants</titulo>
+      <autores>
+        <autor>Y He</autor>
+        <autor>H Lin</autor>
+        <autor>Z Guo</autor>
+        <autor>W Zhang</autor>
+        <autor>H Li</autor>
+        <autor>W Huang</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effects of co-existing anions on fluoride removal in electrocoagulation (EC) process using aluminum electrodes</titulo>
+      <autores>
+        <autor>C Hu</autor>
+        <autor>S Lo</autor>
+        <autor>W Kuan</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Arsenic and fl uoride contaminated groundwaters : A review of current technologies for contaminants removal</titulo>
+      <autores>
+        <autor>S Jadhav</autor>
+        <autor>E Bringas</autor>
+        <autor>G Yadav</autor>
+        <autor>V Rathod</autor>
+        <autor>I Ortiz</autor>
+        <autor>K Marathe</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fluoride Removal from Aqueous Solutions by Boehmite</titulo>
+      <autores>
+        <autor>J Jiménez-Becerril</autor>
+        <autor>M Solache-Ríos</autor>
+        <autor>I García-Sosa</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Emerging organic contaminants in groundwater in Spain: A review of sources, recent occurrence and fate in a European context</titulo>
+      <autores>
+        <autor>A Jurado</autor>
+        <autor>E Vàzquez-Suñé</autor>
+        <autor>J Carrera</autor>
+        <autor>M López De Alda</autor>
+        <autor>E Pujades</autor>
+        <autor>D Barceló</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical conversion characteristics of ammonia to nitrogen</titulo>
+      <autores>
+        <autor>K.-W Kim</autor>
+        <autor>Y.-J Kim</autor>
+        <autor>I.-T Kim</autor>
+        <autor>G.-I Park</autor>
+        <autor>E.-H Lee</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study on electrocoagulation parameters (current density, pH, and electrode distance) for removal of fluoride from groundwater</titulo>
+      <autores>
+        <autor>K Kim</autor>
+        <autor>K Baek</autor>
+        <autor>S Ji</autor>
+        <autor>Y Cheong</autor>
+        <autor>G Yim</autor>
+        <autor>A Jang</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemosphere Cocontamination of arsenic and fluoride in the groundwater of unconsolidated aquifers under reducing environments</titulo>
+      <autores>
+        <autor>S Kim</autor>
+        <autor>K Kim</autor>
+        <autor>K Ko</autor>
+        <autor>Y Kim</autor>
+        <autor>K Lee</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Pharmaceuticals in the environment -A short review on options to minimize the exposure of humans, animals and ecosystems</titulo>
+      <autores>
+        <autor>S Klatte</autor>
+        <autor>H Schaefer</autor>
+        <autor>M Hempel</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Treatment of potable water containing low concentration of arsenic with electrocoagulation: Different connection modes and Fe-Al electrodes</titulo>
+      <autores>
+        <autor>M Kobya</autor>
+        <autor>F Ulu</autor>
+        <autor>U Gebologlu</autor>
+        <autor>E Demirbas</autor>
+        <autor>M Oncel</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Treatment of potable water containing low concentration of arsenic with electrocoagulation: Different connection modes and Fe-Al electrodes</titulo>
+      <autores>
+        <autor>M Kobya</autor>
+        <autor>F Ulu</autor>
+        <autor>U Gebologlu</autor>
+        <autor>E Demirbas</autor>
+        <autor>M Oncel</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review on emerging water contaminants and the application of sustainable removal technologies</titulo>
+      <autores>
+        <autor>R Kumar</autor>
+        <autor>M Qureshi</autor>
+        <autor>D Vishwakarma</autor>
+        <autor>N Al-Ansari</autor>
+        <autor>A Kuriqi</autor>
+        <autor>A Elbeltagi</autor>
+        <autor>A Saraswat</autor>
+      </autores>
+      <fecha>2022-03</fecha>
+    </referencia>
+    <referencia>
+      <titulo>River water treatment using electrocoagulation for removal of acetaminophen and natural organic matter</titulo>
+      <autores>
+        <autor>S Kumari</autor>
+        <autor>R Kumar</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>River water treatment using electrocoagulation for removal of acetaminophen and natural organic matter</titulo>
+      <autores>
+        <autor>S Kumari</autor>
+        <autor>R Kumar</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electro-oxidation of As ( III ) with dimensionally-stable and conductive-diamond anodes</titulo>
+      <autores>
+        <autor>E Lacasa</autor>
+        <autor>P Ca</autor>
+        <autor>M Rodrigo</autor>
+        <autor>F Fernández</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrooxidation of As(III) with dimensionally-stable and conductive-diamond anodes</titulo>
+      <autores>
+        <autor>E Lacasa</autor>
+        <autor>P Cañizares</autor>
+        <autor>M Rodrigo</autor>
+        <autor>F Fernández</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Emerging organic contaminants in groundwater: A review of sources, fate and occurrence</titulo>
+      <autores>
+        <autor>D Lapworth</autor>
+        <autor>N Baran</autor>
+        <autor>M Stuart</autor>
+        <autor>R Ward</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Flow field and residence time distribution simulation of a cross-flow gas-liquid wastewater treatment reactor using CFD</titulo>
+      <autores>
+        <autor>Le Moullec</autor>
+        <autor>Y Potier</autor>
+        <autor>O Gentric</autor>
+        <autor>C Pierre Leclerc</autor>
+        <autor>J</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparing the growth and structure of flocs from electrocoagulation and chemical coagulation</titulo>
+      <autores>
+        <autor>S Lee</autor>
+        <autor>G Gagnon</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Survey of 218 organic contaminants in groundwater derived from the world's largest untreated wastewater irrigation system</titulo>
+      <autores>
+        <autor>L Lesser</autor>
+        <autor>A Mora</autor>
+        <autor>C Moreau</autor>
+        <autor>J Mahlknecht</autor>
+        <autor>A Hernández-Antonio</autor>
+        <autor>A Ramírez</autor>
+        <autor>H Barrios-Piña</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Occurrence, sources, and fate of pharmaceuticals in aquatic environment and soil</titulo>
+      <autores>
+        <autor>W Li</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Direct and indirect electrochemical oxidation of amine-containing pharmaceuticals using graphite electrodes</titulo>
+      <autores>
+        <autor>Y Liu</autor>
+        <autor>C Hu</autor>
+        <autor>S Lo</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comprehensive review of floc growth and structure using electrocoagulation: Characterization, measurement, and influencing factors</titulo>
+      <autores>
+        <autor>Y Liu</autor>
+        <autor>X Zhang</autor>
+        <autor>W Jiang</autor>
+        <autor>M Wu</autor>
+        <autor>Z Li</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Diffusion coefficients in aqueous solutions of potassium chloride at high and low concentrations</titulo>
+      <autores>
+        <autor>V Lobo</autor>
+        <autor>A Ribeiro</autor>
+        <autor>L Verissimo</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simultaneous removal of fluoride and arsenic from well water by electrocoagulation</titulo>
+      <autores>
+        <autor>M López-Guzmán</autor>
+        <autor>M Alarcón-Herrera</autor>
+        <autor>J Irigoyen-Campuzano</autor>
+        <autor>L Torres-Castañón</autor>
+        <autor>L Reynoso-Cuevas</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrocoagulation Process: An Approach to Continuous Processes, Reactors Design, Pharmaceuticals Removal, and Hybrid Systems-A Review. Processes</titulo>
+      <autores>
+        <autor>M López-Guzmán</autor>
+        <autor>M Flores-Hidalgo</autor>
+        <autor>L Reynoso-Cuevas</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Degradation of acetaminophen and its transformation products in aqueous solutions by using an electrochemical oxidation cell with stainless steel electrodes</titulo>
+      <autores>
+        <autor>López Zavala</autor>
+        <autor>M Estrada</autor>
+        <autor>E</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electro Coagulation Removal of As from Water : the Role of Phases Formation</titulo>
+      <autores>
+        <autor>A Maldonado-Reyes</autor>
+        <autor>C Montero-Ocampo</autor>
+        <autor>J Medina-García</autor>
+        <autor>S Bolado-Rodríguez</autor>
+        <autor>J Álvarez-Benedí</autor>
+        <autor>A Herrera-Vazquez</autor>
+        <autor>V Castaño</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Performance evaluation of an electrochemical reactor used to reduce Cr(VI) from aqueous media applying CFD simulations</titulo>
+      <autores>
+        <autor>S Martinez-Delgadillo</autor>
+        <autor>H Mollinedo-Ponce</autor>
+        <autor>V Mendoza-Escamilla</autor>
+        <autor>C Gutiérrez-Torres</autor>
+        <autor>J Jiménez-Bernal</autor>
+        <autor>C Barrera-Diaz</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Emerging organic contaminants in surface water and groundwater: A first overview of the situation in Italy</titulo>
+      <autores>
+        <autor>R Meffe</autor>
+        <autor>I De Bustamante</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical advanced oxidation processes for the abatement of persistent organic pollutants</titulo>
+      <autores>
+        <autor>A Mehmet</autor>
+        <autor>P Nidheesh</autor>
+        <autor>M Zhou</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Removal of arsenic from groundwater rich in natural organic matter (NOM) by continuous electrocoagulation/flocculation (ECF)</titulo>
+      <autores>
+        <autor>E Mohora</autor>
+        <autor>S Rončević</autor>
+        <autor>J Agbaba</autor>
+        <autor>A Tubić</autor>
+        <autor>M Mitić</autor>
+        <autor>M Klašnja</autor>
+        <autor>B Dalmacija</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A comprehensive review of electrocoagulation for water treatment : Potentials and challenges</titulo>
+      <autores>
+        <autor>D Moussa</autor>
+        <autor>M El-Naas</autor>
+        <autor>M Nasser</autor>
+        <autor>M Al-Marri</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Removal of petroleum hydrocarbons from contaminated groundwater using an electrocoagulation process: Batch and continuous experiments</titulo>
+      <autores>
+        <autor>G Moussavi</autor>
+        <autor>R Khosravi</autor>
+        <autor>M Farzadkia</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The influence of operational parameters on elimination of cyanide from wastewater using the electrocoagulation process</titulo>
+      <autores>
+        <autor>G Moussavi</autor>
+        <autor>F Majidi</autor>
+        <autor>M Farzadkia</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Removal of pharmaceutical from water with an electrocoagulation process; effect of various parameters and studies of isotherm and kinetic</titulo>
+      <autores>
+        <autor>E Nariyan</autor>
+        <autor>A Aghababaei</autor>
+        <autor>M Sillanpää</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Reactor Design for Advanced Oxidation Processes</titulo>
+      <autores>
+        <autor>J Nava</autor>
+        <autor>C Ponce De León</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simultaneous removal of acetaminophen and ibuprofen from underground water by an electrocoagulation unit: Operational parameters and kinetics</titulo>
+      <autores>
+        <autor>M Negarestani</autor>
+        <autor>M Motamedi</autor>
+        <autor>A Kashtiaray</autor>
+        <autor>A Khadir</autor>
+        <autor>M Sillanpää</autor>
+      </autores>
+      <fecha>2020-08</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical oxidation of perfluorinated compounds in water</titulo>
+      <autores>
+        <autor>J Niu</autor>
+        <autor>Y Li</autor>
+        <autor>E Shang</autor>
+        <autor>Z Xu</autor>
+        <autor>J Liu</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Concentration and risk of pharmaceuticals in freshwater systems are related to the population density and the livestock units in Iberian Rivers</titulo>
+      <autores>
+        <autor>V Osorio</autor>
+        <autor>A Larrañaga</autor>
+        <autor>J Aceña</autor>
+        <autor>S Pérez</autor>
+        <autor>D Barceló</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Sequential use of the electrocoagulationelectrooxidation processes for domestic wastewater treatment</titulo>
+      <autores>
+        <autor>F Özyonar</autor>
+        <autor>M Korkmaz</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochimica Acta The abatement of indigo carmine using active chlorine electrogenerated on ternary Sb2O5 -doped Ti / RuO2-ZrO2 anodes in a fi lter-press FM01-LC reactor</titulo>
+      <autores>
+        <autor>R Palma-Goyes</autor>
+        <autor>J Vazquez-Arenas</autor>
+        <autor>R Torres-Palma</autor>
+        <autor>C Ostos</autor>
+        <autor>F Ferraro</autor>
+        <autor>I González</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Putative Role of Flavobacterium, Dokdonella and Methylophilus Strains in Paracetamol Biodegradation</titulo>
+      <autores>
+        <autor>T Palma</autor>
+        <autor>M Donaldben</autor>
+        <autor>M Costa</autor>
+        <autor>J Carlier</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Arsenic removal via electrocoagulation from heavy metal contaminated groundwater in la Comarca Lagunera México</titulo>
+      <autores>
+        <autor>J Parga</autor>
+        <autor>D Cocke</autor>
+        <autor>J Valenzuela</autor>
+        <autor>J Gomes</autor>
+        <autor>M Kesmez</autor>
+        <autor>G Irwin</autor>
+        <autor>H Moreno</autor>
+        <autor>M Weir</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electro-catalytic Materials ( Electrode Materials ) in Electrochemical Wastewater Treatment. Procedia Engineering</titulo>
+      <autores>
+        <autor>P Patel</autor>
+        <autor>N Bandre</autor>
+        <autor>A Saraf</autor>
+        <autor>J Ruparelia</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical oxidation of paracetamol in water by graphite anode: Effect of pH, electrolyte concentration and current density</titulo>
+      <autores>
+        <autor>S Periyasamy</autor>
+        <autor>M Muthuchamy</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical methods for the removal of anionic contaminants from water -A review</titulo>
+      <autores>
+        <autor>S Pulkka</autor>
+        <autor>M Martikainen</autor>
+        <autor>A Bhatnagar</autor>
+        <autor>M Sillanpää</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Rejection of pharmaceuticals in nanofiltration and reverse osmosis membrane drinking water treatment</titulo>
+      <autores>
+        <autor>J Radjenović</autor>
+        <autor>M Petrović</autor>
+        <autor>F Ventura</autor>
+        <autor>D Barceló</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Challenges and Opportunities for Electrochemical Processes as Next-Generation Technologies for the Treatment of Contaminated Water</titulo>
+      <autores>
+        <autor>J Radjenovic</autor>
+        <autor>D Sedlak</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A comprehensive study of electrochemical disinfection of water using direct and indirect oxidation processes</titulo>
+      <autores>
+        <autor>A Rahmani</autor>
+        <autor>M Samarghandi</autor>
+        <autor>D Nematollahi</autor>
+        <autor>F Zamani</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Arsenic and Fluoride Variations in Groundwater of an Endorheic Basin Undergoing Land-Use Changes</titulo>
+      <autores>
+        <autor>V Reyes-Gómez</autor>
+        <autor>M Alarcón-Herrera</autor>
+        <autor>M Gutiérrez</autor>
+        <autor>D Núñez López</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Treatment technologies for emerging contaminants in water: A review</titulo>
+      <autores>
+        <autor>O Rodriguez-Narvaez</autor>
+        <autor>J Peralta-Hernandez</autor>
+        <autor>A Goonetilleke</autor>
+        <autor>E Bandala</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Removal of hydrated silica, fluoride and arsenic from groundwater by electrocoagulation using a continuous reactor with a twelve-cell stack</titulo>
+      <autores>
+        <autor>M Rosales</autor>
+        <autor>O Coreño</autor>
+        <autor>J Nava</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Pattern of expression of apoptosis and inflammatory genes in humans exposed to arsenic and/or fluoride</titulo>
+      <autores>
+        <autor>M Salgado-Bustamante</autor>
+        <autor>M Ortiz-Pérez</autor>
+        <autor>E Calderón-Aranda</autor>
+        <autor>L Estrada-Capetillo</autor>
+        <autor>P Niño-Moreno</autor>
+        <autor>R González-Amaro</autor>
+        <autor>D Portales-Pérez</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simultaneous removal of fluoride and arsenic from groundwater by electrocoagulation using a filter-press flow reactor with a three-cell stack</titulo>
+      <autores>
+        <autor>M Sandoval</autor>
+        <autor>R Fuentes</autor>
+        <autor>J Nava</autor>
+        <autor>O Coreño</autor>
+        <autor>Y Li</autor>
+        <autor>J Hernández</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simultaneous removal of fluoride and arsenic from groundwater by electrocoagulation using a filter-press flow reactor with a three-cell stack</titulo>
+      <autores>
+        <autor>M Sandoval</autor>
+        <autor>R Fuentes</autor>
+        <autor>J Nava</autor>
+        <autor>O Coreño</autor>
+        <autor>Y Li</autor>
+        <autor>J Hernández</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Computational fluid dynamics simulations of single-phase flow in a filter-press flow reactor having a stack of three cells</titulo>
+      <autores>
+        <autor>M Sandoval</autor>
+        <autor>R Fuentes</autor>
+        <autor>F Walsh</autor>
+        <autor>J Nava</autor>
+        <autor>C De León</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Remediation of per-and polyfluoroalkyls (PFAS) via electrochemical methods</titulo>
+      <autores>
+        <autor>S Sharma</autor>
+        <autor>N Shetti</autor>
+        <autor>S Basu</autor>
+        <autor>M Nadagouda</autor>
+        <autor>T Aminabhavi</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrode materials used for electrochemical oxidation of organic compounds in wastewater</titulo>
+      <autores>
+        <autor>M Shestakova</autor>
+        <autor>M Sillanpa</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrocoagulation process for the removal of co-existent fluoride, arsenic and iron from contaminated drinking water</titulo>
+      <autores>
+        <autor>J Silva</autor>
+        <autor>N Graça</autor>
+        <autor>A Ribeiro</autor>
+        <autor>A Rodrigues</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Spectrometric Identification of Organic Compounds</titulo>
+      <autores>
+        <autor>R Silverstein</autor>
+        <autor>F Webster</autor>
+        <autor>D Kiemle</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Remediation of water pollution caused by pharmaceutical residues based on electrochemical separation and degradation technologies: A review</titulo>
+      <autores>
+        <autor>I Sirés</autor>
+        <autor>E Brillas</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Numerical simulation and exploration of electrocoagulation process for arsenic and antimony removal: Electric field, flow field, and mass transfer studies</titulo>
+      <autores>
+        <autor>P Song</autor>
+        <autor>Q Song</autor>
+        <autor>Z Yang</autor>
+        <autor>G Zeng</autor>
+        <autor>H Xu</autor>
+        <autor>X Li</autor>
+        <autor>W Xiong</autor>
+      </autores>
+      <fecha>2018-07</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation of Influencing Factors and Mechanism of Antimony and Arsenic Removal by Electrocoagulation Using Fe-Al Electrodes</titulo>
+      <autores>
+        <autor>P Song</autor>
+        <autor>Z Yang</autor>
+        <autor>H Xu</autor>
+        <autor>J Huang</autor>
+        <autor>X Yang</autor>
+        <autor>L Wang</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of the anode materials on the electrochemical oxidation efficiency. Application to oxidative degradation of the pharmaceutical amoxicillin</titulo>
+      <autores>
+        <autor>F Sopaj</autor>
+        <autor>M Rodrigo</autor>
+        <autor>N Oturan</autor>
+        <autor>F Podvorica</autor>
+        <autor>J Pinson</autor>
+        <autor>M Oturan</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Organic Molecules</titulo>
+      <autores>
+        <autor>B Stuart</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review of risk from potential emerging contaminants in UK groundwater</titulo>
+      <autores>
+        <autor>M Stuart</autor>
+        <autor>D Lapworth</autor>
+        <autor>E Crane</autor>
+        <autor>A Hart</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fluoride removal from water and wastewater with a bach cylindrical electrode using electrocoagulation</titulo>
+      <autores>
+        <autor>U Tezcan Un</autor>
+        <autor>A Koparal</autor>
+        <autor>U Bakir Ogutveren</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simultaneous removal of arsenic and fluoride from synthetic solution through continuous electrocoagulation: Operating cost and sludge utilization</titulo>
+      <autores>
+        <autor>L Thakur</autor>
+        <autor>H Goyal</autor>
+        <autor>P Mondal</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simultaneous arsenic and fl uoride removal from synthetic and real groundwater by electrocoagulation process : Parametric and cost evaluation</titulo>
+      <autores>
+        <autor>L Thakur</autor>
+        <autor>P Mondal</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simulation of velocity profiles in a laboratory electrolyser using computational fluid dynamics</titulo>
+      <autores>
+        <autor>L Vázquez</autor>
+        <autor>A Alvarez-Gallegos</autor>
+        <autor>F Sierra</autor>
+        <autor>C Ponce De León</autor>
+        <autor>F Walsh</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fluoride in the environment : sources , distribution and defluoridation</titulo>
+      <autores>
+        <autor>M Vithanage</autor>
+        <autor>P Bhattacharya</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Screening of pharmaceuticals and hormones at the regional scale, in surface and groundwaters intended to human consumption</titulo>
+      <autores>
+        <autor>E Vulliet</autor>
+        <autor>C Cren-Olivé</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical waste water treatment: Electrooxidation of acetaminophen</titulo>
+      <autores>
+        <autor>K Waterston</autor>
+        <autor>J Wang</autor>
+        <autor>D Bejan</autor>
+        <autor>N Bunce</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enzymatic removal of paracetamol from aqueous phase: horseradish peroxidase immobilized on nanofibrous membranes</titulo>
+      <autores>
+        <autor>R Xu</autor>
+        <autor>Y Si</autor>
+        <autor>F Li</autor>
+        <autor>B Zhang</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photonic efficiency of the photodegradation of paracetamol in water by the photo-Fenton process</titulo>
+      <autores>
+        <autor>E Yamal-Turbay</autor>
+        <autor>E Ortega</autor>
+        <autor>L Conte</autor>
+        <autor>M Graells</autor>
+        <autor>H Mansilla</autor>
+        <autor>O Alfano</autor>
+        <autor>M Pérez-Moya</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Optimization of electrocoagulation process for efficient removal of ciprofloxacin antibiotic using iron electrode; kinetic and isotherm studies of adsorption</titulo>
+      <autores>
+        <autor>M Yoosefian</autor>
+        <autor>S Ahmadzadeh</autor>
+        <autor>M Aghasi</autor>
+        <autor>M Dolatabadi</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A comprehensive review on contaminants removal from pharmaceutical wastewater by electrocoagulation process</titulo>
+      <autores>
+        <autor>B Zaied</autor>
+        <autor>M Rashid</autor>
+        <autor>M Nasrullah</autor>
+        <autor>A Zularisam</autor>
+        <autor>D Pant</autor>
+        <autor>L Singh</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>M Zamora Pina</autor>
+        <autor>Arí</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Research trends in electrochemical technology for water and wastewater treatment</titulo>
+      <autores>
+        <autor>T Zheng</autor>
+        <autor>J Wang</autor>
+        <autor>Q Wang</autor>
+        <autor>H Meng</autor>
+        <autor>L Wang</autor>
+        <autor>J Wang</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Organic micropollutants paracetamol and ibuprofentoxicity, biodegradation, and genetic background of their utilization by bacteria</titulo>
+      <autores>
+        <autor>J Żur</autor>
+        <autor>A Piński</autor>
+        <autor>A Marchlewicz</autor>
+        <autor>K Hupert-Kocurek</autor>
+        <autor>D Wojcieszyńska</autor>
+        <autor>U Guzik</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Muestra</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>B Tanque</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>R Reactor</autor>
+        <autor>A</autor>
+        <autor>R B: Reactor</autor>
+        <autor>B</autor>
+        <autor>N</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Muestra</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>N</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>N Tanque</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>B Tanque</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Concentración debajo del límite de detección de 1.03 μg/L. Tabla 7</titulo>
+      <autores>
+        <autor>R Reactor</autor>
+        <autor>A</autor>
+        <autor>R B: Reactor</autor>
+        <autor>B</autor>
+        <autor>N</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Los efectos que tienen un valor p menor a 0</titulo>
+    </referencia>
+  </referencias>
+</tesis>

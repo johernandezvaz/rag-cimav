@@ -1,0 +1,2263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo>LISTA DE ABREVIATURAS %p/p Porcentaje en peso CE Celulosa %wtot Porcentaje de pérdida de peso total de las mezclas CeFeO3 Ferrita de cerio °C Grados Celsius CeO2 Dióxido de cerio µm Micrómetro CFE Comisión Federal de Electricidad ACE Acetona CH₃COOH Ácido acético</titulo>
+    <idioma>english</idioma>
+    <autores>
+      <autor>Al Aluminio</autor>
+      <autor>Generación Combinada De Calor</autor>
+      <autor>Electricidad Ar</autor>
+      <autor>Argón Cl</autor>
+      <autor>Ciclo Químico</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>LISTA DE TABLAS</titulo>
+        <texto>Tabla 1. Resumen de los mecanismos de pirólisis para los componentes de la biomasa ______ Tabla 2. Tabla de lotes de biocarbón producidos ____________________________________ Tabla 3. Condiciones de alimentación del reactor RYield para la producción de biocarbón ___ Tabla 4. Condiciones de alimentación del reactor RGibbs _____________________________ Tabla 5. Caracterización de biomasas: Cáscara de cebolla (B1) y corteza de pino (B2) ______ Tabla 6. Análisis elemental (% en peso, base seca) __________________________________ Tabla 8. Distribución de productos del análisis termodinámico realizado en reactor RGibbs __ Tabla 9. Razón CO/CO₂, relación CO/C y selectividad en distintas proporciones de OC/BC __ Tabla 10. Condiciones óptimas de gasificación y producción de CO para las mezclas de biocarbón BC1 y BC2 en presencia de NiWO₄ ______________________________________________</texto>
+      </seccion>
+      <seccion>
+        <titulo>1.4.Biomasa como fuente de bioenergéticos</titulo>
+        <texto>En este contexto, la biomasa se destaca como un recurso valioso para la producción de productos bioenergéticos, como el gas de síntesis, bioaceite y el BC La LCB destaca por su capacidad de transformarse en productos de valor agregado, contribuyendo al cumplimiento de diversos ODS. Durante su ciclo de vida, la LCB recicla CO₂ atmosférico (Ecuación 1), mitigando el cambio climático (ODS 13 1 ) y diversificando la matriz energética mediante la producción de biocombustibles avanzados como el bioetanol y el biodiésel (ODS 7 2 ). Además, su integración en biorrefinerías promueve la industrialización sostenible (ODS 9 3 ), fomenta el empleo verde y fortalece las economías locales, especialmente en áreas rurales. Además, existen combinaciones entre estas categorías, como los residuos agroindustriales, que integran subproductos y desechos generados por actividades agrícolas, industriales y forestales. [24].</texto>
+      </seccion>
+      <seccion>
+        <titulo>Óxidos de tungsteno como portadores de oxígeno</titulo>
+        <texto>Los óxidos de tungsteno se han convertido en materiales de interés para la producción de gas de síntesis mediante CL, gracias a su abundancia, composición altamente ajustable, excepcional estabilidad térmica, notable cinética de reacción, resistencia a la sinterización, estabilidad química en atmósferas de reducción-oxidación y metodologías de síntesis de bajos costos Las propiedades termodinámicas de los óxidos de tungsteno, como se observa en el diagrama de Ellingham (Figura 5b) , confirman su alta selectividad hacia la producción de gas de síntesis, lo que los hace ideales para aplicaciones de CL. El WO3 tiene la capacidad de oxidar CH4 para producir gas de síntesis evitando tanto la formación de depósitos de carbono como la generación de fases de WC a temperaturas elevadas de 1,000°C. Al emplear ZrO2 como soporte, se logra una mayor actividad catalítica debido a la mejora en la dispersión del WO3 alcanzando conversiones de CH4 superiores al 80% y selectividad hacia el CO que excede el 76% Estudios realizados por Song et al. Esto se debe a la naturaleza no estequiométrica de los óxidos de tungsteno, que permite a su red cristalina albergar una gran cantidad de vacantes de oxígeno, lo que a su vez permite que los óxidos deficientes en oxígeno (WOx&lt;3) conserven una fase cristalina estable. Las vacancias de oxígeno actúan como donadores superficiales, mejoran la conductividad eléctrica y la densidad de donadores, optimizando así la adsorción de especies, como como H2 y CO2, en la superficie. Aunque tienen una excelente reactividad hacia el gas de síntesis, estos los óxidos de tungsteno están limitados por sus altas temperaturas de reacción, baja reducibilidad y reactividad con el metano . Página 42</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>LISTA DE FIGURAS</titulo>
+        <texto>Figura 1. Representación esquemática de la estructura de la biomasa lignocelulósica compuesta por a) celulosa (glucosa unida por enlaces β-1,4), b) hemicelulosas (azúcares y ácidos urónicos) y c) lignina (alcoholes p-cumarílico, coniferílico y sinapílico), junto con las capas de la célula vegetal: lamela media, pared celular primaria y membrana plasmática (adaptado</texto>
+      </seccion>
+      <seccion>
+        <titulo>CAPÍTULO 1. INTRODUCCIÓN</titulo>
+        <texto>El crecimiento de la población, los avances tecnológicos, la industrialización y la urbanización han impulsado una creciente demanda global de energía, un recurso fundamental para satisfacer necesidades básicas, impulsar el desarrollo económico y sostener estilos de vida contemporáneos. Actividades esenciales como el transporte de bienes, la producción industrial, la calefacción y la iluminación dependen directamente del acceso a fuentes de energía confiables. Por lo tanto, el desarrollo económico depende directamente del progreso en las tecnologías energéticas. Las emisiones globales de GEI aumentaron un 1.2% de 2021 a 2022, alcanzando un récord de 57.4 GtCO₂e. Además, en 2023, se registraron 86 días con temperaturas superiores a los 1.5 °C por encima de los niveles preindustriales lo que demuestra que, aunque el número de compromisos para alcanzar emisiones netas cero continúa en aumento, la confianza en su implementación sigue siendo baja</texto>
+      </seccion>
+    </introduccion>
+    <justificacion>
+      <seccion>
+        <titulo>DEDICATORIA</titulo>
+        <texto>A Eunice, por ser mi refugio, mi apoyo constante y la fuente de fortaleza que siempre necesito. Gracias por tu amor, tu motivación y por estar a mi lado en cada paso de este camino. Esta dedicación es un reflejo de mi eterna gratitud.</texto>
+      </seccion>
+      <seccion>
+        <titulo>1.6.Justificación</titulo>
+        <texto>La conversión termoquímica de biomasa lignocelulósica derivada de residuos agroalimentarios, marinos, agrícolas y forestales es una alternativa sostenible para generar energía renovable y reducir el uso de combustibles fósiles. Sin embargo, los métodos tradicionales presentan limitaciones en su eficiencia y la generación de emisiones contaminantes. Para abordar estos desafíos, se propone el uso de NiWO₄ como portador de oxígeno, optimizando la descomposición de la biomasa lignocelulósica y la gasificación del biocarbón resultante.</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>1.7.Hipótesis</titulo>
+        <texto>El empleo de NiWO₄ como portador de oxígeno en la gasificación de biocarbón derivado de biomasa lignocelulósica agroindustrial permite alcanzar una conversión del biocarbón a productos gaseosos de al menos un 17% mayor en comparación con el proceso de gasificación convencional. Página 20 de 95 proporcionando resistencia estructural a las paredes celulares de las plantas mediante enlaces covalentes, fuerzas de Van der Waals y puentes de hidrógeno</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>1.5.Conversión de biomasa asistida con portadores de oxígeno</titulo>
+        <texto>La conversión de biomasa ocurre a través de métodos bioquímicos como la fermentación y la digestión anaeróbica, o métodos termoquímicos como HTL, combustión, gasificación y pirólisis Los MexOy basados en Ni, Fe, Cu, Mn y Co han demostrado ser efectivos para la gasificación de LCB, ya que crean efectos sinérgicos que mejoran la transferencia de oxígeno y las reacciones redox, mejorando la selectividad en la formación de productos En este contexto, NiWO₄ emerge como un candidato prometedor para su uso como OC en los procesos de conversión de LCB debido a sus propiedades redox, estabilidad térmica y capacidad para someterse a ciclos repetidos de reducción y oxidación sin una degradación significativa A pesar de su potencial, el uso de NiWO₄ como OC para mejorar la conversión de LCB sigue siendo un área poco explorada. Hasta ahora no se han reportado estudios sobre la conversión de LCB ni la gasificación de su BC derivado utilizando NiWO₄ como OC. Esta investigación busca abordar este vacío en la literatura evaluando el comportamiento del NiWO₄ en la conversión de LCB y BC agroindustrial. Para ello, se establecerán condiciones experimentales óptimas considerando diferentes relaciones OC/LCB mediante TGA. Adicionalmente, se optimizarán las condiciones de síntesis para producir BC a partir de ambas biomasas y se evaluará la eficiencia de conversión del BC en presencia y ausencia de NiWO4, analizando la pérdida de peso y el comportamiento térmico de las mezclas OC/BC en comparación con un material inerte.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Página 26 de 95</titulo>
+        <texto>Los métodos de conversión de biomasa se agrupan en dos categorías principales: bioquímicos y termoquímicos (Figura 2). Los procesos bioquímicos, como la digestión anaeróbica y la fermentación, utilizan microorganismos y enzimas para transformar la biomasa. Por otro lado, los procesos termoquímicos, que incluyen la combustión, la HTL, la gasificación y la pirólisis, implican el tratamiento de la biomasa a altas temperaturas en condiciones específicas de oxígeno. En muchos casos, se combinan estos procesos para optimizar la conversión de la biomasa. Aunque este apartado abordará ambas categorías de conversión, se pondrá un énfasis especial en los procesos termoquímicos, ya que representan el eje central de esta tesis</texto>
+      </seccion>
+      <seccion>
+        <titulo>a. Fermentación</titulo>
+        <texto>Asrani et al. El proceso de fermentación de LCB se inicia con un pretratamiento diseñado para alterar la estructura de la pared celular y exponer principalmente a la CE y HE, utilizando métodos físicos, químicos, fisicoquímicos o biológicos. Luego, la biomasa pretratada se hidroliza para liberar monómeros simples, como glucosa y xilosa. Finalmente, los monómeros obtenidos son fermentados para obtener productos como EtOH, BuOH, ACE, i-BuOH, lípidos, OAs, CO2 e H2 A pesar de que la producción de EtOH, MeOH y OAs por fermentación ha demostrado ser eficiente, con rendimientos de 0.71-0.79 L/kg de azúcares, 0.7 mL/g, 0.4 g/g y 0.1-0.9 g/g respectivamente, este proceso presenta limitaciones por la complejidad de descomponer la LCB, los altos costos de pretratamientos que alcanzan el 40% del proceso y la falta de integración de pretratamiento, hidrólisis y fermentación en un solo paso eficiente</texto>
+      </seccion>
+      <seccion>
+        <titulo>CAPÍTULO 3. METODOLOGÍA</titulo>
+        <texto />
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>Determinación de condiciones óptimas de reacción NiWO4 y biocarbón</titulo>
+        <texto>La información obtenida a partir de los datos TGA de las mezclas OC/BC1, OC/BC2, DC/BC1 y DC/BC2 fue utilizada para calcular dα/dT. Los resultados fueron representados gráficamente mediante la relación dα/dT en función de la temperatura para las distintas proporciones de las mezclas OC/BC y DC/BC. Estas gráficas facilitaron la identificación de las temperaturas correspondientes a las reacciones más relevantes y la comparación directa entre las muestras con y sin el OC.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de NiWO4</titulo>
+        <texto>La caracterización del NiWO4 se realizó utilizando técnicas de FTIR, XRD y SEM-EDS. Los resultados para cada técnica se describen a continuación:</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis composicional y proximal para biomasa</titulo>
+        <texto>Los resultados de los análisis composicional y proximal para B1 y B2 se muestran en la Tabla 5 y son consistentes con estudios previamente reportados sobre biomasas similares El análisis composicional muestra que B2 tiene un mayor contenido de celulosa (44.80%) y hemicelulosa (21.80%) en comparación con B1, que contiene 40.59% y 18.45%, respectivamente. Estas características hacen que B2 sea más adecuada para procesos como la producción de biocombustibles, que se benefician de un alto contenido de CE y HE. En contraste, B1 tiene un mayor contenido de LN (36.74% en comparación con 23.85% en B2, lo que favorece la formación de BC y sus aplicaciones en la remediación de suelos o la captura de carbono Página 54 de 95 El análisis proximal muestra que B2 presenta un mayor contenido de material volátil (68.80%) que B1 (31.24%), lo que favorece la producción de volátiles y bioaceite durante procesos como la pirólisis o la gasificación, mientras que B1 tiene mayor probabilidad de generar BC Tabla 5. Caracterización de biomasas: Cáscara de cebolla (B1) y corteza de pino (B2)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Mezclas biomasa-NiWO4</titulo>
+        <texto>Para analizar el impacto del NiWO4 en la descomposición térmica de las biomasas B1 y B2, varias mezclas se compararon con ZrO2 como material inerte. Los resultados de los análisis TGA para las mezclas OC/B1 y OC/B2 exhiben cómo la variación de la proporción de OC en las mezclas influye en el comportamiento de pérdida de peso durante la descomposición térmica. Los resultados de los análisis TGA de las mezclas OC/B1 y OC/B2 muestran cómo la proporción de OC afecta la pérdida de peso durante la descomposición térmica La Figura 19 muestra las curvas de conversión (Δα) para las proporciones que mostraron una mayor diferencia en pérdida de peso para B1 (7/3, 6/4 y 3/7) y B2 (8/2, 6/4 y 3/7) en diferentes rangos de temperatura. A temperaturas bajas (&lt;400°C), todas las proporciones muestran un comportamiento inicial similar, indicando la deshidratación de la muestra y la conversión de HE y CE. Entre 400°C y 600°C, la proporción 7/3 presenta el mayor grado de conversión para B1 y 6/4 para B2 , reflejando el termino de descomposición de LN y el inicio de formación del BC. Con el propósito de evaluar de manera efectiva el NiWO4 como portador de oxígeno, es necesario analizar su actividad alrededor de las temperaturas de reducción de este material (∼800°C). Por ello, es necesario enfocar el estudio en la etapa de descomposición térmica de la biomasa que corresponde a la fracción del BC. Los análisis TGA presentados en la Figura 18, demostraron que las proporciones 7/3 para B1 y 6/4 para B2 presentan las mayores conversiones a altas temperaturas, lo que indica una mayor degradación del BC en comparación con otras proporciones estudiadas. En estas condiciones, el material con NiWO4 mostró un comportamiento favorable para la conversión del BC y la gasificación del carbón. Por lo tanto, al seleccionar las mezclas 7/3 para B1 y 6/4 para B2, se asegura un análisis detallado del efecto del NiWO4 sobre el BC en condiciones óptimas de temperatura, maximizando así el potencial de producción de gas de síntesis. Página 67 de 95</texto>
+      </seccion>
+    </resultados>
+    <otros>
+      <seccion>
+        <titulo>Sin título</titulo>
+        <texto>and FTIR to assess the effect of NiWO₄ on biochar conversion. Additionally, thermodynamic analyses determined the equilibrium distribution of solid and gaseous products, finding Ni, C, and WC in the solid phase, and CO, CO₂, H₂, H₂O, and CH₄ in the gas phase. Moreover, a sensitivity analysis was conducted to determine the optimal conditions for maximizing CO production and promoting C consumption. The results showed that NiWO₄ significantly improves biochar conversion compared to an inert material, with its reduction influenced by the chemical composition of the BC. XRD, FTIR, TGA analyses, and thermodynamic studies allowed the proposal of a reaction mechanism in which the reduced phases of W and Ni provide evidence of oxygen transfer from OC to BC. Furthermore, the presence of WO₂ and WC in the mixtures suggests a stepwise reduction of NiWO₄, where biochar acts as a reducing agent. These findings will contribute to the application of lignocellulosic biomasses converted into biochar for syngas production from renewable sources.</texto>
+      </seccion>
+      <seccion>
+        <titulo>AGRADECIMIENTOS</titulo>
+        <texto>Expreso mi profundo agradecimiento a la Secretaría de Ciencia, Humanidades, Tecnología e Innovación (SECIHTI) por la beca otorgada, la cual hizo posible la realización de este proyecto de maestría. Al Centro de Investigación en Materiales Avanzados, por brindar la infraestructura necesaria para el desarrollo de este trabajo. A mi asesor, el Dr. Alejandro López Ortiz, por su invaluable orientación y acompañamiento en cada etapa del proyecto. A los revisores, la Dra. Virginia H. Collins Martínez y el Dr. Guillermo González Sánchez, por el tiempo dedicado a la revisión de este trabajo, así como por su guía, correcciones y confianza durante todo el proceso. Al Dr. Javier E. Morales Mendoza por su entusiasmo, dedicación y guía en el proceso teóricoexperimental, al Dr. Jorge L. Domínguez Arvizu y la Dra. Blanca C. Hernández Majalca por su apoyo en la caracterización experimental. A mi familia: a mis padres, por su apoyo incondicional, y a mi hermana Eunice. A mis amigos Mariana y Néstor, por su compañía, motivación y cuidado en los momentos difíciles, convirtiéndose en mi familia lejos de casa. A mis amigos y colegas de laboratorio Felipe, Cristian, Manuel, Kenia, José Luis, Alejandro, Iyiade y Hammed, por su compañerismo, apoyo y las experiencias compartidas a lo largo de este camino. A Gerson, por su acompañamiento, que me brindó seguridad y las herramientas necesarias para alcanzar este objetivo. A la familia Aerial, que, sin saberlo, me brindó tranquilidad en momentos difíciles.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Página 15 de 95</titulo>
+        <texto>El consumo energético también ha tenido que ajustarse a nuevas realidades. En 2020, la pandemia de COVID-19 desestabilizó el mercado energético, principalmente debido al desequilibrio creciente entre la oferta y la demanda de energía. Como resultado, hubo una caída pronunciada de los precios, menor demanda de petróleo, incremento en las emisiones de CO2, interrupciones en el suministro de energía y aumento del desempleo Este conflicto ha deteriorado las relaciones comerciales, generando volatilidad en los precios, escasez y preocupaciones sobre la seguridad energética global. En Europa, aunque los efectos iniciales de las fluctuaciones de precios se moderaron a principios de 2024, con el gas natural acercándose a los niveles previos a la crisis, los costos siguen siendo superiores a los de 2023 debido a la elevada demanda y a la limitada oferta de gas natural licuado. A estas tensiones se suman otros riesgos geopolíticos: las sanciones impuestas a Rusia han incrementado la amenaza de ataques en puntos estratégicos como el Estrecho de Ormuz y el Canal de Suez, que juntos transportan 27.5 millones de barriles diarios de petróleo, principalmente hacia Asia y Europa En este panorama las tensiones geopolíticas, las limitaciones en la oferta y la creciente demanda plantean desafíos para la estabilidad económica y la transición hacia nuevas fuentes de energía. La diversificación de suministros, el impulso a la investigación y el desarrollo tecnológico, así como la cooperación internacional serán esenciales para garantizar un acceso energético seguro y asequible. Sin embargo, la sostenibilidad a largo plazo dependerá de la capacidad de los países para equilibrar las necesidades inmediatas con inversiones estratégicas enfocadas en reducir la dependencia a combustibles fósiles a través del uso de energías renovables.</texto>
+      </seccion>
+      <seccion>
+        <titulo>1.2.Panorama energético nacional</titulo>
+        <texto>En México, el sector energético es pilar del desarrollo económico, productivo y social. En 2020, el país se posicionó como el 13.º mayor productor de petróleo crudo y 25.º en reservas a nivel mundial. A pesar de que el 32.6 % de la electricidad generada en ese año provino de fuentes limpias y la cobertura eléctrica alcanzó un 96.6%, el país aún enfrenta desafíos en materia climática</texto>
+      </seccion>
+      <seccion>
+        <titulo>Página 16 de 95</titulo>
+        <texto>Si bien México fue la primera gran economía emergente productora de petróleo en adoptar legislaciones para mitigar el cambio climático y logró casi triplicar su generación eléctrica a partir de fuentes renovables entre 2015 y 2022, no está cerca de cumplir los objetivos del Acuerdo de París. Actualmente, existe una brecha del 15 % en la implementación de medidas para reducir emisiones de GEI, evidenciando que las acciones adoptadas son insuficientes para alcanzar sus compromisos internacionales Desde 2018, las políticas públicas del gobierno han buscado la autosuficiencia energética a través del fortalecimiento de los recursos nacionales de hidrocarburos, como PEMEX y la CFE, en lugar de priorizar la competencia y la participación privada en el sector energético México se encuentra en una posición geográfica privilegiada para convertirse en una potencia de energía limpia debido a la distribución de recursos renovables y el relativamente bajo costo de generación de este tipo de energía. De acuerdo con un informe del NREL, el país posee un potencial técnico de 24,918 GW en energía solar fotovoltaica, 3,669 GW en energía eólica y 2.5 GW en energía geotérmica El aumento en la demanda energética de México resalta la necesidad de diversificar las fuentes de energía y modernizar la infraestructura, fomentando inversiones que equilibren la seguridad energética con la sostenibilidad climática. Resulta imperativo promover la transición energética y fomentar la investigación orientada a la generación de energía a partir de fuentes renovables.</texto>
+      </seccion>
+      <seccion>
+        <titulo>1.3.Fuentes de energías renovables</titulo>
+        <texto>En respuesta a los desafíos energéticos y climáticos actuales, las fuentes de energías alternativas han surgido como una solución para diversificar la matriz energética, reducir las emisiones de GEI y promover un desarrollo más sostenible. Página 17 de 95 Las energías renovables provienen de fuentes naturales que se regeneran a un ritmo superior al de su consumo. A menudo, son más económicas y generan un mayor número de empleos que los combustibles fósiles en la mayoría de los países. En Estados Unidos, las energías renovables representaron el 9% del consumo total de energía primaria en 2023, equivalente a 8.24 cuatrillones de BTU. Este porcentaje se distribuye entre distintas fuentes renovables, siendo la bioenergía la principal, con un aporte del 60% del total desglosado en un 32% de biocombustibles, 23% de madera y un 5% de residuos de biomasa. La energía eólica tuvo una contribución del 18%, seguida por la solar con el 11%, la hidroeléctrica con el 10% y la geotérmica con un 1%</texto>
+      </seccion>
+      <seccion>
+        <titulo>2.1.1.Celulosa</titulo>
+        <texto>La CE, principal componente de la LCB, es un polímero lineal altamente cristalino compuesto por entre 7000 y 15,000 unidades de β-1,4-D-glucosa</texto>
+      </seccion>
+      <seccion>
+        <titulo>2.1.2.Hemicelulosa</titulo>
+        <texto>A diferencia de la CE, la HE es un heteropolisacárido con una composición variable que integra pentosas, hexosas y ácidos urónicos en una matriz de cadenas cortas, lo que le confiere una estructura amorfa y un menor grado de polimerización. Su cadena principal, generalmente, está formada por unidades repetitivas de monosacáridos, predominantemente xilosa (C5H10O5), enlazadas mediante enlaces β-(1→ 4), con puntos de ramificación en posiciones (1→2), (1→3) y (1→6)</texto>
+      </seccion>
+      <seccion>
+        <titulo>2.1.3.Lignina</titulo>
+        <texto>La LN es un polímero no cristalino con estructura tridimensional altamente irregular. Está formada principalmente por tres unidades monoméricas básicas: Syr, G y p-CumOH, cuyas proporciones Página 22 de 95 varían según la fuente de biomasa. En maderas duras, por ejemplo, predominan las unidades Syr y G en proporciones similares, mientras que en maderas blandas predominan las unidades G, y en biomasa no leñosa se encuentran las tres unidades en diferentes proporciones</texto>
+      </seccion>
+      <seccion>
+        <titulo>2.1.4.Extraíbles</titulo>
+        <texto>Aunque los biopolímeros estructurales de alto peso molecular (CE, HE y LN) dominan la composición química de la LCB, también existen otros componentes poliméricos, conocidos como extraíbles, que están presentes en menor cantidad y no forman parte de la pared celular. Estos extraíbles están compuestos principalmente de terpenos, terpenoides, esteroides, grasas, lípidos, proteínas y compuestos fenólicos, y pueden ser eliminados de la biomasa mediante extracción con solventes orgánicos como EtOH, C6H14 o PhCH3 sin afectar las propiedades mecánicas de la misma</texto>
+      </seccion>
+      <seccion>
+        <titulo>2.1.5.Cenizas</titulo>
+        <texto>Las cenizas son el residuo inorgánico no combustible compuesto principalmente por silicatos (SiO2, Si(OH)4), sales iónicas (NaCl, KCl, NaNO3, KNO3), oxalatos (CaC2O4), carbonatos (CaCO3, MgCO3), óxidos metálicos (Fe2O3, Fe3O4), compuestos de metales alcalinotérreos (CaCl2, MgCl2), fosfatos (Ca3(PO4)2, Mg3(PO4)2) y sulfuros (SO4 2-, SO3 2-) La composición inorgánica de las cenizas impacta durante los procesos termoquímicos de conversión de LCB. Los elementos alcalinos y alcalinotérreos presentes pueden catalizar la descomposición de la biomasa, mientras que los aluminosilicatos pueden fusionarse parcialmente y formar aglomerados</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 1. Representación esquemática de la estructura de la biomasa lignocelulósica compuesta por a) celulosa (glucosa unida por enlaces β-1,4), b) hemicelulosas (azúcares y ácidos urónicos) y c) lignina (alcoholes p-cumarílico, coniferílico y sinapílico), junto con las capas de la célula vegetal: lamela media, pared celular primaria y membrana plasmática (adaptado de</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>2.2.3.Papel de Chihuahua en la producción de biomasa lignocelulósica</titulo>
+        <texto>El estado de Chihuahua destaca a nivel nacional, aportando aproximadamente el 18.2% de los residuos forestales del país, lo que equivale a 6.84 Mt/a en base seca. Este volumen lo posiciona como el segundo mayor contribuyente en residuos forestales, solo superado por Durango Además, Chihuahua genera cerca del 15% del potencial bioenergético nacional derivado de residuos forestales, estimado en más de 500 TJ/año. Su contribución no se limita a los residuos forestales, ya que también sobresale en la producción de residuos agrícolas provenientes de cultivos clave como trigo, maíz, sorgo y cebolla, siendo el principal productor de cebolla en México, con 296,271 Mt/a, equivalentes al 20% de la producción nacional total La ubicación estratégica de Chihuahua en el norte de México, fronteriza con Estados Unidos, fortalece aún más su potencial al facilitar tanto la distribución de residuos agroindustriales como la producción y exportación de productos de valor agregado derivados de éstos Por ello, fomentar la investigación y el desarrollo de tecnologías innovadoras resulta imperativo para optimizar los procesos de conversión de residuos de LCB</texto>
+      </seccion>
+      <seccion>
+        <titulo>2.3.Conversión de biomasa lignocelulósica</titulo>
+        <texto>La biomasa puede ser transformada en formas de energía y productos de alto valor agregado mediante diversos procesos y tecnologías. La selección de una tecnología de conversión específica está determinada por diversos factores, incluyendo las características de la materia prima, su nivel de humedad, la cantidad y calidad de biomasa disponible, su facilidad de acceso, los productos finales deseados, además de criterios económicos como la rentabilidad, la disponibilidad en el mercado y el impacto ambiental</texto>
+      </seccion>
+      <seccion>
+        <titulo>Procesos bioquímicos</titulo>
+        <texto>Página 27 de 95 Los procesos bioquímicos implican el uso de enzimas derivadas de bacterias u otros microorganismos para transformar la biomasa en combustibles gaseosos o líquidos mediante digestión anaeróbica o fermentación. Estos métodos de conversión destacan por una alta selectividad de productos, alto rendimiento y capacidad de operar a diferentes condiciones de temperatura y presión.</texto>
+      </seccion>
+      <seccion>
+        <titulo>b. Digestión anaerobia</titulo>
+        <texto>La digestión anaeróbica es un proceso que convierte la LCB en biogás en ausencia de oxígeno. Este biogás, con un rendimiento estimado de 340 a 380 mL/g por gramo de biomasa, está compuesto principalmente por un 40-65% de CH₄, un 35-55% de CO2 y trazas de H₂ y H₂S. Página 28 de 95 Además, el proceso produce un subproducto rico en nutrientes, conocido como digestato, que puede ser utilizado para la recuperación de suelos y fuentes de C, N y P El proceso de digestión anaeróbica se desarrolla en cuatro etapas consecutivas: hidrólisis, acidogénesis, acetogénesis y metanogénesis, siendo la hidrólisis la etapa limitante del proceso. En esta fase inicial, los carbohidratos, lípidos y proteínas se descomponen en aminoácidos, ácidos grasos, monómeros, azúcares, purinas y pirimidinas, con la ayuda de enzimas producidas por bacterias. Durante la acidogénesis, los productos resultantes de la hidrólisis se transforman en alcoholes y ácidos grasos. Luego, en la acetogénesis, estos compuestos se utilizan como sustratos para generar acetato. Finalmente, durante la metanogénesis, el acetato y CO₂ se emplean para producir biogás mediante la acción de dos grupos de metanógenos: los acetoclásticos y los hidrogenotróficos. Los primeros convierten el acetato en CH4 y CO₂, mientras que los segundos generan CH4 al emplear H2 como donador y CO₂ como aceptor de electrones Actualmente, el biogás generado mediante digestión anaeróbica se utiliza principalmente para la generación de energía térmica, eléctrica y como combustible para vehículos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Procesos termoquímicos</titulo>
+        <texto>La conversión termoquímica se basa en la descomposición térmica de los compuestos orgánicos presentes en la LCB bajo condiciones controladas de oxígeno o en su ausencia total. Este tipo de procesos se divide en cuatro categorías principales: combustión directa, HTL, pirólisis y gasificación Estos procesos destacan por cinéticas de reacción rápidas, tiempos de residencia cortos y el empleo de catalizadores heterogéneos, de bajo costo, alta estabilidad térmica y capacidad de regeneración, diseñados específicamente para optimizar la eficiencia global de las reacciones termoquímicas. Dependiendo de la temperatura de operación, los procesos termoquímicos se clasifican en dos categorías: de baja temperatura, que operan por debajo de los 300 °C, como la HTL; y de alta Página 29 de 95 temperatura, que incluyen la combustión, la gasificación y la pirólisis. En general, el rango de temperaturas puede variar entre 300 °C y 1300 °C, según el tipo de proceso y las condiciones específicas utilizadas La combustión directa convierte la biomasa en calor, mientras que la pirólisis, la gasificación y la HTL permiten obtener tres principales productos: BC (sólido), bioaceite (fracción líquida) y gas de síntesis</texto>
+      </seccion>
+      <seccion>
+        <titulo>c. Combustión directa</titulo>
+        <texto>Durante la combustión directa, la LCB reacciona en presencia de O2, generando calor, CO₂ y vH₂O. Este proceso opera a temperaturas elevadas, entre 800 °C y 1600 °C, y se realiza en hornos, calderas o turbinas. Inicialmente, la biomasa se seca para eliminar el contenido de humedad Posteriormente, la LCB se somete a devolatilización, dejando como residuo un BC sólido. Finalmente, este BC se oxida con O₂, CO₂ y vH₂O, lo que resulta en la formación de cenizas como subproducto final. Este método, considerado una de las formas más antiguas de aprovechamiento de la LCB, ha sido utilizado históricamente para calefacción y cocción, especialmente con biomasa de bajo contenido de humedad. Hasta mediados del siglo XIX, los residuos forestales han sido la principal fuente de energía tanto en Estados Unidos como en otros países y siguen siendo un recurso importante en muchas regiones en desarrollo. Una de las principales ventajas de la combustión directa es su capacidad para procesar una amplia variedad de materias primas. Además, 1 kg de biomasa sometido a este proceso puede generar entre 14 y 19 MJ de energía, y el costo asociado es bajo debido a que requiere un equipo mínimo en comparación con otros sistemas termoquímicos En México, por ejemplo, la generación de electricidad a partir de biomasa tenía, en 2013, una capacidad instalada de 677.8 MW, de los cuales el 89.62% derivaba de la combustión directa del bagazo, un subproducto de la industria azucarera Desde una perspectiva económica y ambiental, la combustión de biomasa no representa la estrategia más eficiente para aprovechar este recurso pues proceso no permite recuperar toda la energía almacenada en los sustratos y, además, la combustión incompleta de LCB provoca un aumento en las emisiones de CO2, CO, NOx, SOx y PM en la atmósfera Página 30 de 95</texto>
+      </seccion>
+      <seccion>
+        <titulo>d. Licuefacción hidrotérmica</titulo>
+        <texto>La HTL es el proceso termoquímico en el cual la biomasa, con o sin catalizador, se transforma en gases, sólidos, bioaceite y fases acuosas en agua caliente comprimida a temperaturas de 250-350 °C, tiempos de reacción de 5-60 min y presiones de 5-35 MPa; posteriormente, se añade un solvente orgánico para extraer y recolectar la fracción de bioaceite Estas características inherentes al medio subcrítico se ven potenciadas con el uso de catalizadores, que representan entre el 5 y el 10% en peso del sistema de reacción. Los catalizadores empleados en el proceso HTL se clasifican en homogéneos, como Na₂CO₃, K2CO3, KOH y CH₃COOH, y heterogéneos, como Pd/C, Pt/C, Ru/C y NiO. Durante el HTL, se llevan a cabo reacciones químicas complejas que convierten las macromoléculas de la biomasa. En una primera etapa, los carbohidratos se transforman en monosacáridos y azúcares a temperaturas de 180-270 °C. Las proteínas se hidrolizan a temperaturas superiores a 200 °C, completándose entre 200 y 250 °C, para formar aminoácidos. Posteriormente, los lípidos se descomponen en ácidos grasos de cadena larga y glicerol a temperaturas de 250-350 °C En una segunda etapa, los compuestos generados durante la hidrólisis sufren reacciones de descomposición, la descarboxilación, desaminación, deshidratación reformado y polimerización. Estas reacciones producen moléculas simples (CO₂, olefinas, alcanos) y compuestos de mayor peso molecular que forman bioaceite. Finalmente, compuestos intermedios son sometidos a transformaciones adicionales de reformado, deshidratación y descomposición generando productos estables como gas de síntesis, CO2, CH4, líquidos (bioaceite y fase acuosa) y sólidos Página 31 de 95 La extracción posterior al HTL implica la separación inicial por gravedad para aislar los sólidos, la fase acuosa y el bioaceite. Los sólidos se filtran al vacío y se procesan mediante extracción con solventes orgánicos, separando fracciones solubles e insolubles. Los sólidos insolubles se secan a 105 °C durante 24 horas para obtener el residuo sólido final. La fracción soluble se evapora y tras la recuperación del solvente se identifica como bioaceite El proceso de HTL es altamente eficiente, ya que evita el secado previo de la biomasa, reduciendo el consumo energético, que representa más del 75% de los requerimientos totales en otros métodos. Además, bioaceite obtenido presenta ventajas como bajo contenido de agua y una eficiencia de conversión superior al 65%. No obstante, el escalamiento industrial del HTL enfrenta desafíos técnicos, como la introducción controlada y constante de mezclas biomasa-agua a alta presión, la necesidad de materiales resistentes a la corrosión bajo condiciones de alta presión y temperaturas moderadas, y el requerimiento de intercambiadores de calor de gran superficie para mejorar la transferencia térmica</texto>
+      </seccion>
+      <seccion>
+        <titulo>e. Pirólisis</titulo>
+        <texto>La pirólisis es la descomposición de la LCB por la acción del calor, en ausencia de O2, utilizando como atmósfera inerte la aplicación de vacío, N₂, Ar, u otros gases inertes, en un rango de temperaturas entre 250 °C y 900 °C. Las distribución de productos de pirólisis dependen los parámetros del proceso: temperatura, velocidad de calentamiento, tiempo de residencia, tamaño y naturaleza de las partículas de LCB Según Haq et al. • Pirólisis lenta: Baja temperatura (&lt;500 °C), baja velocidad de calentamiento (&lt;10 °C/min) y largo tiempo de residencia (minutos a horas). Favorece la formación de BC. • Pirólisis rápida: Alta temperatura (500-650 °C), alta velocidad de calentamiento (&gt;100 °C/s) y corto tiempo de residencia (0.5-2 s). Favorece la producción de bioaceite (70-80 % en peso). • Pirólisis intermedia: Condiciones moderadas de temperatura (450-600 °C), velocidad de calentamiento (10-100 °C/s) y tiempo de residencia (10-30 s). Produce cantidades equivalentes entre BC, bioaceite y volátiles. Página 32 de 95 • Pirólisis flash: Temperaturas y velocidad de calentamiento muy altas (&gt;700 °C; &gt;1000 °C/s) y tiempo de residencia ultracorto (ms). Maximiza la formación de gases no condensables. Durante la pirólisis, la descomposición térmica de los componentes de la LCB se lleva a cabo a través de un conjunto complejo de reacciones químicas (Tabla Página 33 de 95 Con el objetivo de maximizar la conversión de los productos de pirólisis, se han investigado los efectos de diversos catalizadores, destacando los MexOy: Cr₂O₃, Na₂CO₃, K₂CO₃ y CaCO₃. En particular, la combinación de Ni y Al en una proporción de 1:2 logró incrementar los rendimientos de H₂ hasta un 6.45% en procesos de pirólisis catalítica de biomasa, empleando tamaños de partícula de 150-350 µm y un contenido de humedad del 10% Ni/ZrO2 a partir de biomasa de pino</texto>
+      </seccion>
+      <seccion>
+        <titulo>f. Gasificación</titulo>
+        <texto>La gasificación es un proceso termoquímico similar a la pirólisis, pero se distingue por llevarse a cabo en presencia de un agente gasificante, vH₂O, O₂, aire o CO₂, a altas temperaturas. Los agentes gasificantes facilitan las reacciones químicas necesarias para convertir grandes cantidades de biomasa en gas de síntesis, BC, cenizas y alquitranes El proceso de gasificación se compone de cuatro fases: secado, pirólisis, combustión y reducción. Durante la fase de secado, se elimina la humedad de la biomasa mediante la evaporación de compuestos con bajo punto de ebullición. La etapa de pirólisis implica la descomposición térmica de la biomasa en formas volátiles como CO, CO2, hidrocarburos ligeros y líquidos de pirólisis, en un ambiente libre de oxígeno El gas de síntesis obtenido por gasificación debe presentar un mínimo de impurezas y especies inertes para su aprovechamiento en procesos posteriores de síntesis. Tradicionalmente, esta pureza se logra utilizando O2 puro como agente gasificante, lo que implica la incorporación de ASU. En algunos casos, también se emplean WGS y procesos de separación de CO₂, como el Rectisol. Página 34 de 95 Además, los gasificadores convencionales producen grandes cantidades de alquitrán, lo que hace necesario implementar sistemas adicionales de limpieza de gases Para abordar estos desafíos, tecnologías emergentes como la CLG han despertado un creciente interés en los últimos años por el potencial de eliminar la necesidad de ASU, procesos de separación de CO₂ y sistemas de limpieza de gases, o de reducir significativamente su tamaño. El CLG opera utilizando un OC, generalmente un MexOy, que transporta oxígeno en el sistema de manera controlada. Además, el proceso es cíclico: una vez reducido, el OC se regenera al ser reoxidado con aire, asegurando un funcionamiento continuo y eficiente De acuerdo con Lin et al El proceso de BCLRWS fusiona la gasificación de biomasa con la separación de agua utilizando un ciclo químico. Este proceso tiene como objetivo principal obtener gas de síntesis o H2 a partir de la biomasa. En esta técnica, se utilizan dos reactores principales: GR y SR. En GR, la biomasa se convierte en gas de síntesis al interaccionar con el OC en un entorno de alta temperatura Esta conversión de la biomasa en gas de síntesis se ve favorecida por el OC, que interviene en reacciones redox y desempeña una función catalítica en el proceso.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Página 35 de 95</titulo>
+        <texto>Posteriormente, en SR se produce la separación del agua. En este punto, las partículas de OC reducidas previamente entran en contacto con el vH₂O. Durante este proceso de oxidación, el OC regresa a su estado original liberando H2 puro. La gasificación de biomasa se apoya de tecnologías como CLG-SR y BCLRWS además de generar gas de síntesis de alta pureza, disminuye la producción de subproductos no deseados, como alquitrán, y emplea de manera eficiente la biomasa como fuente renovable. La capacidad de integrar esta tecnología en diversas aplicaciones industriales que demandan H2 de alta calidad aumenta su atractivo, potencial en la industria y la investigación enfocada en la producción de energía sostenible Figura 3. Esquema del sistema CLG-SR, (Adaptado de Lin et al.,</texto>
+      </seccion>
+      <seccion>
+        <titulo>2.4.Biocarbón</titulo>
+        <texto>El BC, un material sólido obtenido de la descomposición térmica de LCB durante la pirólisis, se caracteriza por su alto contenido de C, estructura altamente porosa y área superficial, que varía entre 100 y 460 m²/g Frente a otros materiales carbonosos, como los hidrocarburos y el carbón activado, el BC destaca tanto por su método de producción como por sus propiedades, las cuales pueden ser modificadas alterando las condiciones de preparación. Mientras que el hidrocarbón se obtiene mediante carbonización hidrotermal de LCB a bajas temperaturas (130-250 °C) y altas presiones (0.3-4.0 MPa), el BC se produce a temperaturas más altas a temperaturas entre 350 y 700 °C. Aunque comparte con el carbón activado una estructura amorfa y porosa, su abundancia de grupos funcionales (C-O, C=O, COOH, OH) lo hace especialmente adecuado para el desarrollo de materiales carbonosos funcionalizados El proceso de producción de BC es complejo y depende de factores como la biomasa utilizada, la temperatura, el tiempo de residencia, la atmósfera, la presión, así como los mecanismos de conversión de la HE, CE y LN. En particular, la pirólisis de HE y LN produce mayores rendimientos BC en comparación con la celulosa. Durante la pirólisis de la HE, los compuestos que no son químicamente estables después de la deshidratación pueden formar BC a través de reacciones de repolimerización. Por otro lado, la pirólisis de la LN implica la homólisis de los enlaces éter arílicos para generar radicales, que luego se polimerizan de manera aleatoria para producir BC. Con base en la evolución de los compuestos volátiles y la caracterización de los productos obtenidos Cheng et al. En la actualidad, el principal uso del BC es para la captura de carbono y la remediación de suelos, gracias a su capacidad para almacenar carbono de manera estable y mejorar la fertilidad de suelos de cultivos</texto>
+      </seccion>
+      <seccion>
+        <titulo>2.5.El portador de oxígeno</titulo>
+        <texto>Un OC es un material, generalmente compuesto por MexOy, que cuya función es transferir oxígeno de su estructura al combustible, eliminando la necesidad de utilizar oxígeno o vapor de agua durante procesos de gasificación. Durante la reacción, el OC se reduce y permite la conversión de materiales como la LCB o hidrocarburos en productos como gas de síntesis, CO2 y H2O. Después de esta etapa, el OC se regenera al entrar en contacto con un agente oxidante como el aire o vapor de agua, lo que permite su uso en ciclos de liberación y absorción controlada de oxígeno. Su Página 38 de 95 selección y diseño determinan la influyen en la selectividad de los productos y mantienen la estabilidad del ciclo de reacción durante cierto tiempo Las propiedades de los portadores de oxígeno están determinadas principalmente por su fase activa. De acuerdo con Lin et al. y Huang et al. • Capacidad de carga y transporte de oxígeno: Los OCs deben poseer una alta OTC de su estructura química hacia el combustible durante el proceso. • Reactividad redox: Es esencial una cinética rápida y selectiva en las reacciones de oxidaciónreducción. • Propiedades mecánicas: Los OCs deben tener alta resistencia a la abrasión y bajo índice de desgaste. • Estabilidad térmica: Los OCs deben ser resistentes al sinterizado y la aglomeración, manteniendo su estructura y funcionalidad a altas temperaturas durante múltiples ciclos redox. • Selectividad hacia productos deseados: Los OCs deben favorecer la generación de productos específicos, como el gas de síntesis. • Resistencia a la deposición de carbono y contaminantes: Los OCs debe resistir la deposición de carbono y una interacción limitada con los componentes de cenizas a fin de preservar estabilidad operativa. • Compatibilidad económica y ambiental: Los materiales deben ser de bajo costo y no presentar riesgos significativos para el medio ambiente. La OTC es una medida que representa la cantidad de O2, expresada en %p/p, que un OC puede liberar al material combustible por ciclo bajo condiciones de CLG. Un valor alto de OTC conlleva beneficios como la reducción de material necesario en el lecho de reacción y una menor cantidad de circulación de sólidos. El valor teórico de la OTC se determina a partir de la fracción másica del oxígeno de red reducible en el OC, y se expresa matemáticamente en la Ecuación 2 Página 39 de 95 donde mo y mr representan las masas respectivas del OC oxidado y reducido. Sin embargo, en la práctica, la cantidad de oxígeno accesible está limitada por las propiedades termodinámicas de los MexOy, además de factores como la resistencia al transporte de masa, las interacciones químicas con los soportes que forman óxidos mixtos inertes y las condiciones operativas específicas del sistema. Las limitaciones termodinámicas de los OCs están principalmente relacionadas con las altas temperaturas requeridas para su operación. Dado que su interacción con los combustibles es relativamente baja o nula en condiciones normales, se requieren temperaturas elevadas para garantizar una reacción eficiente, restringiendo así la elección OCs a aquellos con puntos de fusión altos para prevenir la sinterización y la aglomeración Una herramienta teórica que permite evaluar la capacidad de un metal para oxidarse o reducirse bajo ciertas condiciones es el análisis mediante diagramas de Ellingham (Figura 5a), los cuales presentan la variación de la energía libre de Gibbs (ΔG) en función de la temperatura para reacciones de oxidación de diferentes metales. Este análisis permite predecir la facilidad de oxidación y reducción de un OC en un sistema CLG. Los MexOy se clasifican según su tendencia a oxidarse en el siguiente orden: Mn &gt; Fe &gt; Co &gt; Ni &gt; Cu. Por esta razón, los elementos cuya capacidad de oxidación es menor que la del Cu no son adecuados en OCs pensados para procesos de CLG, ya que no pueden regenerarse eficientemente en presencia de aire</texto>
+      </seccion>
+      <seccion>
+        <titulo>Página 40 de 95</titulo>
+        <texto>Figura 5. a) Diagrama de Ellingham para la comparación de portadores de oxígeno. b) Zona de óxidos metálicos para el ciclo químico de oxígeno. (Adaptado de Los MexOy han sido extensamente estudiados Biomasa + MexOy → MexOy-1 + H2 + CO + CO2 + CH4 MexOy-1 + ½ O2 → MexOy (4) Diferentes combinaciones de LCB y OC han tenido resultados favorables. Samprón et al emplearon aserrín de pino y Fe2O3/Al2O3 como OC en una unidad de CLG de 1.5 kW, utilizando oxígeno como agente gasificante logrando 38 h de operación continua y contenidos de alquitrán de 1 g/Nm 3 . Por otro lado, la investigación llevada a cabo por Huang et al Aunque se han investigado configuraciones efectivas OC/LCB, recientemente se ha demostrado que la transición hacia el uso de BC en lugar de biomasa en esquemas de CLG ofrece ventajas operativas Debido a las limitaciones termodinámicas de los MexOy, se ha investigado el uso de óxidos mixtos, los cuales combinan las ventajas individuales de los MexOy para superar dichas restricciones. La combinación de diferentes iones en estos materiales puede modificar la movilidad del oxígeno, aumentar la capacidad de almacenamiento de oxígeno y mejorar la estabilidad térmica</texto>
+      </seccion>
+      <seccion>
+        <titulo>2.6.Análisis termodinámico</titulo>
+        <texto>El análisis termodinámico es una herramienta para evaluar la viabilidad de los procesos, ya que permite determinar el equilibrio de fases, la transferencia de energía y las reacciones químicas involucradas. Mediante la minimización de la energía libre de Gibbs, se establecen las condiciones de equilibrio y la distribución de fases, lo cual facilita la predicción de la composición de productos y la optimización de las condiciones operativas, considerando variables como temperatura, presión y alimentación del sistema. A esto se le suma el análisis de sensibilidad, que evalúa cómo los cambios en los parámetros de entrada, como temperatura o alimentación de reactivos, afectan la distribución de productos. Esta combinación de técnicas de análisis no solo permite predecir, el comportamiento del sistema, sino que también evalúa la robustez de un proceso En este contexto, el software Aspen Plus® se ha destacado como una herramienta para realizar estos análisis debido a su capacidad para modelar sistemas complejos. Aspen Plus® incluye modelos de reactores específicos, como RYield y RGibbs, que son utilizados en la simulación de procesos termoquímicos. El reactor RYield se emplea cuando no se cuenta con información cinética, permitiendo definir la conversión de reactivos en productos según el cálculo del balance de masa al asignar fracciones de conversión a cada producto de descomposición, generalmente obtenidas a partir de datos experimentales, análisis elementales o información bibliográfica. Una forma común de calcular estas fracciones es mediante la Ecuación 5: Rendimientocomponente = (1-Fracción de agua) x Fracción del componente en la biomasa (5) La ecuación 5 permite determinar el rendimiento individual de cada componente presente en la biomasa seca para establecer una distribución inicial de productos, como gases, líquidos y sólidos. En cambio, el reactor RGibbs minimiza la energía libre de Gibbs, modelando reacciones rápidas y alcanzando el equilibrio químico y de fases ya que el programa ajusta parámetros como la temperatura y la presión para determinar la composición final del sistema</texto>
+      </seccion>
+      <seccion>
+        <titulo>Página 44 de 95</titulo>
+        <texto>Diversos equipos de investigación han utilizado Aspen Plus® para modelar procesos de conversión de biomasa. Patel et al.,</texto>
+      </seccion>
+      <seccion>
+        <titulo>3.1.Síntesis y caracterización del NiWO4</titulo>
+        <texto>El NiWO₄ se sintetizó utilizando el método de coprecipitación La solución de Na₂WO₄•2H₂O fue añadida gota a gota a la solución de Ni(NO₃)₂•6H₂O a una velocidad de 20 rpm haciendo uso de una bomba peristáltica, bajo agitación continua a temperatura ambiente. El precipitado resultante fue filtrado, lavado, secado, molido y calcinado a 950°C durante 6 horas en un horno tubular. El NiWO₄ sintetizado fue caracterizado XRD en un difractómetro X'Pert Pro MPD con radiación Cu Kα (λ = 1.5418 Å) en un rango de 2θ de 10° a 90° para determinar su estructura cristalina. Para el análisis morfológico y composicional, se empleó SEM-EDS utilizando un microscopio JEOL JSM-7401F. Página 45 de 95</texto>
+      </seccion>
+      <seccion>
+        <titulo>3.2.Obtención y caracterización de biomasa</titulo>
+        <texto>Las muestras de biomasa de cáscara de cebolla (B1) y corteza de pino (B2) se obtuvieron de residuos agroindustriales generados en la región de Chihuahua, México. La caracterización física y química de las muestras se realizó conforme a lo establecido por las normas de la ASTM E871, E872, E1690, E1721, E1755, E1756, E1757 y E1758. Dichos estándares permitieron determinar el contenido de humedad, volátiles, sólidos totales, contenido de cenizas, extractos de etanol y los principales componentes estructurales: HE, CE y LN Las muestras fueron sometidas a un proceso de tamizado utilizando una malla #325, obteniendo fracciones con tamaños de partícula inferiores a 45 µm. La caracterización morfológica ambas biomasas se llevó a cabo mediante SEM, utilizando un microscopio JEOL JSM-6610LV operado a 5.00 kW. Las imágenes obtenidas permitieron evaluar la estructura superficial y confirmar la distribución morfológica de las partículas derivada del proceso de tamizado. La composición elemental inorgánica de las muestras fue determinada mediante ICP-OES, mientras que el análisis para la composición orgánica (CHONS) se llevó a cabo utilizando un analizador elemental Thermo Scientific Flash-Smart. Este análisis permitió cuantificar el contenido de C,H, O, N y S, a partir de lo cual se calculó el EHI</texto>
+      </seccion>
+      <seccion>
+        <titulo>𝐸𝐻𝐼 = 𝐻 -2𝑂 -3𝑁 -2𝑆 𝐶 (7)</titulo>
+        <texto>El comportamiento térmico de las muestras se evaluó mediante TGA. Las mediciones se realizaron en una atmósfera inerte de N₂, utilizando muestras de 15 mg. El rango de temperatura abarcó desde temperatura ambiente hasta 900°C, aplicando tasas de calentamiento de 5°C/min, 10°C/min, 15°C/min y 20°C/min para evaluar el efecto de la rampa de calentamiento sobre la descomposición térmica de la biomasa. Finalmente, para el análisis de los perfiles de descomposición térmica obtenidos mediante TGA, se realizó un ajuste matemático de los datos utilizando un modelo de ajuste de picos Gaussianos. Se empleó el software OriginPro para descomponer las curvas de pérdida de masa en tres picos principales, los cuales representan las etapas de descomposición correspondientes a la degradación de HE, CE y LN</texto>
+      </seccion>
+      <seccion>
+        <titulo>Producción y caracterización de biocarbón</titulo>
+        <texto>El BC se obtuvo mediante un proceso de pirólisis lenta utilizando a partir de residuos de cáscara de cebolla (BC1) y corteza de pino (BC2). Para ambas biomasas, el proceso consistió en una rampa de calentamiento de 5°C/min hasta alcanzar los 450°C, seguida de una isoterma de 60 minutos bajo una atmósfera inerte de N₂, con un flujo constante de 100 ml/min Se emplearon dos métodos de producción para diferentes lotes de biocarbón (Tabla 2): • Horno tubular: El BC obtenido fue tratado químicamente con HCl al 10% y su estabilidad térmica se evaluó mediante TGA, aplicando una rampa de 10°C/min hasta 900°C, seguida de una isoterma de 60 minutos bajo un flujo constante de N₂ (100 ml/min). • Producción in situ: El BC se generó directamente en el TGA, utilizando las mismas condiciones de pirólisis y evaluando su estabilidad térmica en el mismo equipo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>3.4.Preparación de mezclas NiWO4 y biomasa</titulo>
+        <texto>Para evaluar el efecto del NiWO₄ en la conversión de la biomasa, se prepararon mezclas de NiWO₄ y biomasa (OC/B) en proporciones que variaron de 8/2 a 2/8. Se usaron dos tipos de biomasa: • OC/B1: Cáscara de cebolla • OC/B2: Corteza de pino Como referencia, también se analizaron mezclas de control con ZrO₂, un material inerte, denominadas DC/B1 y DC/B2 Página 47 de 95 Las mezclas se calentaron desde temperatura ambiente hasta 900°C a una velocidad de 10°C/min bajo un flujo de 100 ml/min de N₂, seguido de una isoterma de 60 minutos. Se comparó la pérdida de peso total (%wtot) de las mezclas OC/B con las de control (DC/B).</texto>
+      </seccion>
+      <seccion>
+        <titulo>3.5.Determinación de condiciones óptimas de reacción NiWO4 y biomasa</titulo>
+        <texto>Los datos obtenidos de TGA para todas las mezclas se analizaron en función del grado de conversión (𝛼), calculado con la ecuación 8 Donde: • m₀: Masa inicial (T₀) • mᵢ: Masa en una temperatura Tᵢ • m𝑓: Masa final (T𝑓) Además, se calculó la derivada del grado de conversión (d𝛼/dT) mediante diferenciación numérica, empleando el método de diferencias finitas (Ecuación 9-11) y para reducir el ruido en los datos, se aplicó el método de suavizado de regresión local ponderada (LOWESS) sobre las derivadas calculadas. α 𝑖+1 -α 𝑖 𝑇 𝑖+1 -T 𝑖 Para el punto de inicio (9) Las condiciones óptimas de reacción entre NiWO₄ y biomasa se determinaron comparando los grados de conversión de las mezclas OC/B (𝛼OC) y las de control DC/B (𝛼DC). El análisis de los perfiles 𝛼OC vs. 𝛼DC y d𝛼OC/dT vs. d𝛼DC/dT permitió identificar las proporciones óptimas de OC/B a partir de la diferencia en el grado de conversión (Δ𝛼) en el rango de 36°C a 900°C. Una vez determinada la proporción óptima de OC/B, ésta fue utilizada como parámetro para evaluar la eficiencia de la conversión del BC correspondiente bajo condiciones de oxidación parcial. Página 48 de 95</texto>
+      </seccion>
+      <seccion>
+        <titulo>3.6.Preparación de mezclas NiWO4 y biocarbón</titulo>
+        <texto>Las mezclas de NiWO₄ y biocarbón (OC/BC) se prepararon in situ en el TGA siguiendo un procedimiento de dos etapas. En la primera etapa, el biocarbón se obtuvo a partir de biomasa lo descrito en la sección 3.2. Posteriormente, se determinaron las cantidades necesarias para la preparación de las mezclas, considerando dos tipos de biocarbón: • Biocarbón de cebolla (OC/BC1): mezclas con proporciones de 7/3 y 3/7 • Biocarbón de pino (OC/BC2): mezclas con proporciones de 6/4 y 4/6 Para evaluar el efecto del material inerte, se prepararon mezclas de control sustituyendo NiWO₄ por ZrO₂. Estas mezclas se denominaron: • DC/BC1: mezcla de ZrO₂ con biocarbón de cebolla. • DC/BC2: mezcla de ZrO₂ con biocarbón de pino. Las mezclas OC/BC y DC/BC se analizaron mediante analisis TGA desde temperatura ambiente hasta 900°C, con una velocidad de calentamiento de 10°C/min en atmósfera de N2 (100 ml/min), seguida de una isoterma de 60 minutos. Las mezclas OC/BC fueron caracterizadas por XRD y FTIR.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Analisis de termodinámico</titulo>
+        <texto>Se realizó un análisis termodinámico en el software Aspen Plus V14, para evaluar la distribución de productos de las mezclas OC/BC1 y OC/BC2 en el equilibrio con el propósito de determinar las condiciones óptimas de reacción (Figura 6).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 6. Representación esquemática de configuración de reactores y posibles productos de reacción en el análisis termodinámico en Aspen Plus® V14</titulo>
+        <texto>La producción de biocarbón (BC1 y BC2) se simuló en un reactor RYield operando a 450°C y 1 atm (Tabla 3), donde la biomasa (B1 y B2) fue modelada como un componente no convencional y descompuesta en productos sólidos y convencionales, tales como C, H₂, CO, CO₂, N₂, O₂, H₂O, CH₄ y cenizas. La distribución de estos productos se determinó a partir de datos experimentales de la descomposición térmica de la biomasa obtenidos mediante TGA Página 51 de 95</texto>
+      </seccion>
+      <seccion>
+        <titulo>CAPÍTULO 4. RESULTADOS Y DISCUSIÓN</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>FTIR y XRD</titulo>
+        <texto>La Figura 7a muestra el espectro FTIR del NiWO₄, donde se observa una banda de absorción en el rango de 835-850 cm⁻¹, que se atribuye al modo de estiramiento de los enlaces W-O en la estructura Los picos característicos para este material se identificaron alrededor de los ángulos 2θ de 18°, 24°, 25°, 31°, 36° y 55°, correspondientes a los planos cristalográficos (100), (011), ( El tamaño de cristalita promedio se calculó utilizando la ecuación de Scherrer y se obtuvo un valor promedio de 54 nm siendo relativamente menor que los reportados por Huang et al Página 52 de 95</texto>
+      </seccion>
+      <seccion>
+        <titulo>SEM-EDS</titulo>
+        <texto>Las Figura 8a-b presentan micrografías de NiWO₄ obtenidas a aumentos de 5000x y 500x, respectivamente, exhibiendo partículas con morfología poliédrica y zonas de aglomeración, atribuible al proceso de autoensamblado durante el crecimiento de los cristales. La Figura 8d) muestra la distribución de los tamaños de partículas calculadas, variando entre 2 μm y 26 μm, con una distribución sesgada hacia tamaños más pequeños. La curva de ajuste indica una distribución normal con un tamaño de partícula promedio alrededor de 10 μm y una desviación estándar de 1.53 μm. La diferencia entre el tamaño de partícula calculado, en comparación con estudios previos que reportan síntesis de NiWO₄ por coprecipitación con tamaños de partícula a escala nanométrica, se asocia directamente con la temperatura empleada durante la formación del precipitado, aun en el mismo método de síntesis Los resultados del análisis por EDS (Figura 8c) confirman el contenido elemental de Ni, W y O en concordancia con la fórmula química del compuesto en una proporción 1:1:4, además de Página 53 de 95 mostrar trazas de Na homogéneamente dispersadas provenientes del reactivo utilizado durante la síntesis.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis elemental y composición de cenizas de biomasa y biocarbón</titulo>
+        <texto>El análisis elemental y de cenizas realizado para las biomasas B1 y B2, junto con los BC generados a partir de estas biomasas (BC1-1P y BC2-1P, respectivamente) se presentan en la Tabla 6. El análisis elemental indica que B2 tiene un mayor contenido de carbono (52.91%) que B1 (40.44%), sugiriendo un mayor rendimiento energético por unidad de masa. La relación oxígenocarbono (O/C) en B2 (0.39 vs 0.55 en B1) implica que B2 produce un bioaceite con mayor contenido energético y menor presencia de compuestos volátiles</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tabla 6. Análisis elemental (% en peso, base seca)</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Cáscara de cebolla (B1) y corteza de pino (B2) Biocarbón de cebolla (BC1-1) y Biocarbón de pino (BC2-1)</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Parámetro</titulo>
+        <texto>Página 55 de 95 Estas características se reflejan en los BC generados, donde tanto BC1-1P como BC2-1P en donde la relación O/C también se utiliza para evaluar la estabilidad del BC. Según Spokas et al • O/C &lt; 0.2 → Alta estabilidad (vida media &gt; 1000 años). • O/C entre 0.2 y 0.6 → Estabilidad intermedia (vida media entre 100 y 1000 años). • O/C &gt; 0.6 → Baja estabilidad (vida media &lt; 100 años). En este contexto, BC1-1P tiene una relación O/C de 0.13, mientras que BC2-1P presenta un valor de 0.12; ambos valores son considerablemente bajos, lo que indica una alta estabilidad del carbono con una vida media mayor a 1000 años, sugiriendo que tanto el BC generado a partir de cáscara de cebolla como el de corteza de pino tienen un excelente potencial para aplicaciones a largo plazo. Además, la relación H/C evalúa la cantidad de anillos aromáticos fusionados presentes en su estructura, donde un valor de H/C ≤ 0.7 indica un BC con alta estabilidad debido a la predominancia de estructuras aromática El análisis de cenizas (Figura 9) muestra que B1 contiene Ca, Na y Mg en comparación con B2. Estos elementos actúan como catalizadores en la degradación térmica de la biomasa influyendo en el rendimiento y la composición de los productos de la pirolisis. Sin embargo, estos elementos también pueden depositarse en los reactores lo que incrementa los costos operativos y de mantenimiento debido a la formación de escorias Los BC generados (BC1-1P y BC2-1P) reflejan la misma tendencia que sus respectivas biomasas de partida. El BC1-1P conserva un mayor contenido de minerales mientras que BC2-1P muestra una reducción en la cantidad de cenizas, lo que mejora su estabilidad y desempeño en aplicaciones termoquímicas Página 56 de 95 Figura 9. Composición de cenizas de cáscara de cebolla (B1) y corteza de pino (B2) y sus biocarbón (BC1-1P y BC2-1P), con los componentes inorgánicos principales expresados como porcentajes del total de cenizas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis morfológico (SEM) y térmico de las biomasas B1 y B2</titulo>
+        <texto>Las micrografías SEM de las biomasas B1 y B2 se presentan en la (Figura 10a-b). Para B1, la micrografía muestra una estructura porosa con partículas de forma irregular y paredes celulares delgadas, características típicas de la biomasa derivada de cáscara de cebolla. Esta morfología sugiere una menor densidad y una mayor área superficial lo que podría contribuir a una degradación térmica más rápida y un mayor rendimiento de volátiles durante la pirólisis En las Figura 10c-d se muestran las curvas de degradación térmica para las biomasas B1 y B2. En todas las velocidades de calentamiento, la pérdida de peso inicial ocurrió por debajo de 150°C, debido principalmente a la evaporación de la humedad. Se observó una pérdida de masa significativa entre 200°C y 400°C, lo que indica la degradación térmica de hemicelulosa (HE) y celulosa (CE). La fase final de descomposición, que ocurre por encima de 400°C, se atribuye a la degradación de la lignina (LN). Las velocidades de calentamiento más bajas (5°C/min) dieron lugar pérdidas de masa más definidas, particularmente durante la degradación de HE y CE. Sin embargo, a medida que la velocidad de calentamiento aumentó a 20°C/min, la pérdida de masa se desplazó ligeramente hacia temperaturas más altas. Este desplazamiento en las temperaturas de Página 57 de 95 descomposición con velocidades de calentamiento crecientes es consistente con el fenómeno de retraso térmico, donde mayores velocidades de calentamiento impiden que la muestra alcance el equilibrio térmico, requiriendo así temperaturas más altas para su descomposición Las Figura 10e-f muestran la deconvolución de la gráfica de la derivada de peso en función de la temperatura (DTG) para B1 y B2 a una velocidad de calentamiento de 10°C/min. Las mediciones se realizaron utilizando el software Origin Pro y un analizador de ajuste de múltiples picos con una distribución Gaussiana. Esta deconvolución permite separar picos superpuestos en una curva DTG, facilitando la identificación de los diferentes componentes de la biomasa y sus temperaturas de descomposición</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis morfológico (SEM) de los biocarbón</titulo>
+        <texto>Las micrografías SEM y espectros EDS de BC1-1P y BC2-1P se presentan en la Figura 11a-d. BC1-1P presenta una estructura laminar y agrietada con un contenido de carbono del 69.3%, mayor Página 58 de 95 concentración de oxígeno (20.4%) y elementos inorgánicos, principalmente Ca, K y Mg. En contraste, BC2-1P presenta una estructura altamente porosa y reticulada, con mayor contenido de carbono (C: 88.0%) y menor contenido de oxígeno (9.6%), acompañado de menores concentraciones de minerales. Estos resultados están en concordancia con las características de las biomasas de partida y su transformación durante la pirolisis. La biomasa B1, con un mayor contenido de oxígeno y un índice atómico O/C de 0.74, junto con un índice H/C de 1.91, presenta una estructura menos aromática y con mayor proporción de compuestos oxigenados. Esto se traduce en un BC1-1P con un contenido de carbono del 69.3%, acompañado de una mayor concentración de oxígeno (20.4%) y de elementos inorgánicos como Ca, K y Mg, lo cual refleja una carbonización menos eficiente y una retención parcial de volátiles, generando una estructura laminar y agrietada. En contraste, la biomasa B2, con un menor índice atómico O/C (0.39) y H/C (1.3), produce un BC2-1P con un contenido de carbono más alto (88.0%) y un contenido de oxígeno más bajo (9.6%). Esto se correlaciona con un índice O/C reducido a 0.12 y H/C a 0.42, indicando un mayor grado de aromatización y estabilidad térmica del material. La estructura altamente porosa y reticulada observada en BC2 refleja una mayor eliminación de volátiles y un mayor desarrollo de la fase carbonosa durante el proceso de pirolisis</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis térmico de los biocarbón 4.6.1. Producción de biocarbón: Horno tubular</titulo>
+        <texto>El análisis TGA de BC1-1P y BC2-1P (Figura 10a-c) evaluó el impacto del tratamiento con HCl al 10% en la eliminación de compuestos inorgánicos, con el objetivo de aumentar la proporción de carbono fijo y mejorar la estabilidad térmica del biocarbón Para mejorar la reproducibilidad y reducir las diferencias en los perfiles de pérdida de peso, se modificó la producción del BC utilizando crisoles de canoa, con el fin de mejorar la distribución de la muestra, la transferencia de calor y masa, y aumentar la exposición al gas inerte, lo que pudo haber influido en los resultados del lote BC-1P En contraste, BC1-2P y BC2-2P presentan un incremento en la banda de ~1600 cm⁻¹, asociada a vibraciones C=C en anillos aromáticos, así como una mayor condensación aromática en la región de 700-900 cm⁻¹. La disminución de señales en 1000-1300 cm⁻¹ en BC1-2P y BC2-2P sugiere una mayor eliminación de oxígeno en forma de volátiles. Estas diferencias indican que BC1-2P y BC2-2P presentan una mayor condensación aromática lo que puede indicar una mayor estabilidad térmica Al evaluar la descomposición térmica del lote BC2-2P (Figura 14) en diferentes repeticiones, se observaron nuevamente variaciones significativas a pesar de haber sido obtenidas del mismo lote y analizadas bajo las mismas condiciones. La pérdida de peso varió desde 69.7% en BC2-2P hasta 33.5% en BC2-2P-4R, lo que indica una composición heterogénea en el biocarbón. Además, el análisis de XRD realizado tras la descomposición térmica confirma la predominancia de estructuras amorfas en todas las muestras, mientras que las diferencias en la intensidad de los picos sugieren variaciones en el grado de ordenación estructural del carbono dentro del mismo lote Durante la pirólisis en un horno tubular, los compuestos volátiles liberados en las etapas de prepirolisis, pirólisis principal (200-500 °C) y formación de productos carbonosos pueden condensarse sobre la superficie del biocarbón o quedar atrapados en su matriz porosa. Durante la prepirolisis, una evaporación incompleta de humedad y volátiles ligeros favorece la formación de grupos funcionales oxigenados como hidroperóxidos, carboxilos y carbonilos. En las etapas posteriores, la descomposición de HE, CE y LN puede generar compuestos que se condensan dentro del material debido a flujos insuficientes o no uniformes de gas inerte y gradientes de temperatura en el reactor Los resultados destacan la necesidad de optimizar las condiciones de síntesis, garantizando una transferencia de calor uniforme, un flujo constante de gas inerte y un control preciso de las propiedades iniciales de la biomasa precursora para obtener biocarbones con propiedades térmicas más homogéneas y reproducibles. Página 62 de 95</texto>
+      </seccion>
+      <seccion>
+        <titulo>Producción de biocarbón: TGA</titulo>
+        <texto>Con el fin de minimizar los problemas asociados con la acumulación de compuestos volátiles y garantizar un mayor control sobre las condiciones del proceso, se decidió llevar a cabo la producción de BC-3P in situ en el TGA Las dα/dT de las muestras BC1-3P y BC2-3P permiten identificar claramente los procesos de descomposición de HE, CE y LN. En el intervalo de 200-450 °C, se observan picos característicos correspondientes a la descomposición de la HE, mientras que la CE se descompone entre 300-350 °C. Por su parte, la LN presenta una degradación más gradual entre 200-500 °C, contribuyendo a una pérdida de peso continua durante la isoterma a 450 °C por 60 minutos. Tras la primera isoterma, en BC1-3P se observaron ligeras variaciones en la dα/dT, atribuibles a procesos secundarios como la descomposición de compuestos carbonosos más resistentes o atrapados en la matriz porosa del biocarbón. Sin embargo, estas variaciones fueron mínimas, lo que sugiere una mayor homogeneidad estructural y estabilidad térmica en esta muestra. En contraste, BC2-3P presentó mayores fluctuaciones en la dα/dT, lo que podría indicar una menor homogeneidad en su estructura A pesar de estas diferencias en pérdidas de peso, el análisis térmico tras la primera isoterma reveló diferencias en la estabilidad y homogeneidad de los biocarbones, demostrando la efectividad del método in situ para obtener resultados consistentes con mínimas variaciones en la pérdida de peso. Esto se confirmó al producir diferentes lotes de BC en el TGA (Figura 16), usados en las mezclas OC/BC, que mostraron diferencias mínimas: 1-2% en BC1-3P y BC2-3P con rendimientos de 24.2% y 32.7%, respectivamente. Página 63 de 95  La menor presencia de grupos polares (-OH, C-O) y la mayor intensidad de las bandas aromáticas (C=C) en BC2-3P sugieren una mayor eliminación de oxígeno y una estructura aromática más estable, mientras que BC1-3P conserva más grupos oxigenados y alifáticos, indicando un menor grado de carbonización. Estas diferencias en la composición química resultan de las transformaciones químicas y físicas que ocurren durante la pirólisis. La mayor aromaticidad de BC2-3P no solo indica una mayor estabilidad térmica, sino que también una mayor estabilidad química Tras la prueba de estabilidad térmica en las muestras (BC1red-3P y BC2red-3P), se observa la desaparición de grupos hidroxilo y carbonilos (Figura 17a-c). En particular, BC2red-3P, debido a su mayor grado de aromatización y menor contenido de grupos funcionales de oxígeno presenta la aparición de un único pico en 1738 cm⁻¹ dominado por un carbonilo predominante. Por otro lado, la mayor intensidad de las bandas en BC1red-3P sugiere la reducción de estas estructuras, con la formación de estructuras aromáticas estables y la reorganización de algunos grupos oxigenados, resultado de una pirólisis más efectiva. Además, se identifica en esta muestra la presencia de grupos hidroxilo libres posiblemente ubicados en la superficie del biocarbón Página 65 de 95</texto>
+      </seccion>
+      <seccion>
+        <titulo>Mezclas biocarbón-NiWO4</titulo>
+        <texto>Se prepararon cuatro mezclas para evaluar el efecto del OC en la conversión del biocarbón: OC/BC1-3P 7/3 y 3/7; OC/BC2-3P 6/4 y 4/6. Todas las muestras fueron comparadas con sus respectivas proporciones utilizando un material inerte como referencia. Al comparar el efecto del OC en los BC frente a sus respectivas biomasas de partida, se observa que el efecto del OC es más evidente a temperaturas más bajas en las mezclas con biocarbón (Figura 20a-b,d-e). Página 68 de 95 • En mezclas OC/BC, la interacción ocurre alrededor de 600 °C. • En mezclas OC/B, este proceso se produce alrededor de 800 °C. Esta diferencia se atribuye a la mayor proporción de compuestos volátiles en la biomasa, los cuales se liberan a temperaturas más bajas y pueden interferir en la transferencia de oxígeno del OC. La liberación temprana de volátiles genera una atmósfera rica en hidrocarburos y CO, lo que favorece una reacción gas-sólido menos eficiente, ya que estos compuestos tienen menor capacidad reductora y pueden adsorberse en el OC, bloqueando sitios activos. Esto retrasa el efecto del OC y su reducción hasta temperaturas más altas En contraste, en las mezclas con biocarbón, el mayor contenido de carbono fijo promueve una reacción sólido-sólido más directa, permitiendo la reducción del OC a temperaturas más bajas Los resultados indican que el efecto del OC se vuelve notable a temperaturas superiores a 600 °C: • En las mezclas DC/BC1-3P y OC/BC1-3P, la diferencia de peso fue del 17.3% para la proporción 7/3 y del 13.2% para la proporción 3/7. • En las mezclas DC/BC2-3P y OC/BC2-3P, la pérdida de peso fue del 20.2% en la mezcla 6/4 y del 17.1% en la mezcla 4/6. Aunque la diferencia en la pérdida de peso comienza a notarse alrededor de 600 °C, lo que indica el inicio de la reacción entre el biocarbón y el oxígeno liberado por el OC, el análisis de dα/dT muestra que el cruce de las curvas alrededor de 700 °C marca el punto donde esta reacción se vuelve dominante, diferenciando claramente las muestras con y sin OC. El análisis de dα/dT entre BC1-3P y BC2-3P (Figura 20c-f) indica que el tipo de biocarbón afecta la temperatura de conversión. En particular, BC2-3P exhibe una mayor estabilidad térmica en comparación con BC1-3P, lo que retrasa la conversión del material en 50 °C. Las mezclas con mayor cantidad de OC (OC/BC1-3P 7/3 y OC/BC1-3P 6/4) mantienen una mayor conversión después de los 700°C, favoreciendo la conversión del biocarbón a temperaturas más altas. En contraste, la mezcla con menos OC (OC/BC1-3P 3/7) muestra una disminución en el grado de conversión debido a la menor disponibilidad de oxígeno. En todas las mezclas analizadas, los difractogramas muestran picos de alta intensidad asociados a la formación de fases metálicas de Ni y W, con predominancia de los picos correspondientes a W. La identificación de estas fases se realizó mediante las cartas cristalográficas para Ni (ICDD: 00-004-0850) y W (ICDD: 00-004-0806). Las mezclas OC/BC1-3P 7/3 y OC/BC2-3P 6/4 muestran una mayor conversión de NiWO₄ a sus fases metálicas, aunque la presencia de picos residuales sugiere una conversión incompleta del OC debido a su presencia en exceso en la mezcla. En comparación con el biocarbón precursor, los patrones XRD de las mezclas muestran una disminución en la amorficidad de las fases grafíticas y la conversión parcial del carbono grafítico a WC (ICDD: 00-025-1047) (R17-R18). Simultáneamente, la reducción incompleta de NiWO₄, utilizando el carbono fijo del biocarbón como agente reductor, se evidencia por la formación de WO₂ (ICDD: 00-048-1827) como intermediario hacia la reducción total Las diferencias en la intensidad de los picos de WO₂ y WC entre las mezclas OC/BC1-3P y OC/BC2-3P presentan una correlación directa con los resultados obtenidos mediante espectroscopía FTIR. En BC1-3P, la presencia de bandas intensas en las regiones asociadas a grupos oxigenados (-OH, C-O, C=O) y alifáticos (C-H) indica un menor grado de carbonización, mientras que en BC2-3P predominan estructuras aromáticas (C=C) y hay una menor proporción de grupos funcionales polares (R14). Esta diferencia sugiere que BC2-3P ha experimentado un Página 71 de 95 proceso de carbonización más extenso, lo que reduce la cantidad de especies oxigenadas que podrían interferir en la reducción completa de NiWO₄. En las mezclas OC/BC1-3P, las señales FTIR en las regiones características de C=C, C=O y C-O confirman que algunos grupos funcionales del biocarbón permanecen sin degradar completamente tras la reducción y el desplazamiento de la banda de W-O (~791 cm⁻¹) sugiere una reducción por pasos del NiWO₄, en concordancia con la detección de WO₂ por XRD Página 72 de 95</texto>
+      </seccion>
+      <seccion>
+        <titulo>Analisis termodinámico</titulo>
+        <texto>El análisis termodinámico de las mezclas OC/BC1-3P y OC/BC2-3P en Aspen permitió evaluar efecto entre OC y BC en la evolución de los productos sólidos y gaseosos. Los productos obtenidos en la salida del reactor RGibbs se presentan en la Tabla 7 en la expresados en flujos de masa (kg/h). La distribución de productos sólidos presentadas en las Figura 23 evidencia que el NiWO4 se reduce completamente hacia Ni metálico y WC a temperaturas superiores de 500°C. Las mezclas con una mayor proporción de OC (OC/BC1-3P 7/3 y OC/BC1-3P 6/4) favorecen la formación de WC, sin presencia de C en el primer caso y con una acumulación mínima en el segundo. En contraste, las mezclas con una menor proporción de OC (OC/BC1-3P 3/7 y OC/BC2-3P 4/6) presentan una mayor cantidad de C sin reaccionar y una menor producción de WC. En todas las muestras evaluadas, el CO es el principal componente gaseoso, alcanzando su máximo en la etapa final de la reacción. Esto indica que el proceso favorece la gasificación parcial del C mediante la reducción del NiWO₄. Asimismo, se observa que la selectividad hacia la producción de CO en lugar de CO₂ se manifiesta alrededor de los 650°C en todas las mezclas, con un incremento significativo en la generación de CO, atribuible al efecto del OC Al comparar la selectividad del transportador de oxígeno hacia la producción de CO, calculada mediante la Ecuación 22, se observa que las mezclas con una mayor proporción de OC presentan una selectividad más alta, lo que indica una conversión más eficiente del carbono hacia CO en lugar de CO₂ (Tabla 8). proporciones la oxidación parcial del C es más favorable porque una menor cantidad de OC limita la oxidación completa del CO en CO₂. Además, se observa una relación CO/CO₂ elevada en estas mezclas, lo que respalda la tendencia observada hacia la generación de CO Sin embargo, aunque estas proporciones promueven la producción de CO, también se observa una mayor acumulación de C sólido debido a la conversión incompleta del C. Esto se evidencia en las relaciones CO/C más altas (14.67 y 1.27 para OC/BC1 3/7 y OC/BC2 4/6, respectivamente), lo que indica que, a pesar de la alta producción de CO, parte del C no se convierte completamente y se deposita como sólido. Dado estos resultados, resulta necesario evaluar otras proporciones de OC/BC que permitan maximizar la producción de CO mientras inhibe la producción de C sólido. Página 75 de 95</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis de sensibilidad</titulo>
+        <texto>El análisis de sensibilidad realizado para la conversión de biocarbón (BC1 y BC2) en presencia de NiWO₄ permitió identificar las condiciones óptimas para la producción de CO y consumo de C (Tabla 9). Se estudiaron diferentes rangos de temperatura y proporciones de NiWO₄ en relación con las alimentaciones de BC1 y BC2, con el objetivo de analizar las tendencias en la conversión de los compuestos. Para BC1, la producción máxima de CO alcanzó 86.71 kg/h con una alimentación de 30 kg/h de NiWO₄, correspondiente a una proporción OC/BC1 de 4/6. En contraste, BC2 alcanzando una producción de CO de 115.39 kg/h, pero requiriendo una mayor cantidad de NiWO₄ (165 kg/h), con una proporción OC/BC2 de 7/3. Estos resultados indican que BC2 presenta una mayor reactividad hacia la producción de CO, aunque a costa de un mayor consumo de NiWO₄. En cuanto a la temperatura, BC1 requirió al menos 895°C para evitar residuos de C sólido, mientras que BC2 logró este mismo efecto a una temperatura inferior, aproximadamente 865°C. Esto sugiere que BC2 favorece la producción de CO y asegura la conversión completa del C a temperaturas más bajas, lo que podría mejorar la estabilidad operativa del reactor y optimizar la eficiencia del proceso, al reducir el consumo energético. La selección del BC dependerá de los objetivos específicos del proceso. BC1 destaca por su eficiencia en el consumo de OC, lo que lo hace más adecuado en aplicaciones donde se busca minimizar el uso del OC sin comprometer la conversión del BC. En contraste, BC2 permite una mayor producción de CO, lo que resulta ventajoso cuando se requiere maximizar la producción de gas de síntesis, especialmente aquellos en los que se busca una mayor relación CO/H₂.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Página 78 de 95</titulo>
+        <texto>Si la prioridad es reducir costos y optimizar el uso de NiWO₄, BC1 representa la mejor opción. En cambio, si el objetivo es maximizar la producción de CO, BC2 es la alternativa más adecuada, aunque debe considerarse el mayor consumo de NiWO₄.  La reducción comienza alrededor de los 700°C, cuando el NiWO₄ reacciona con el biocarbón, sufriendo una reducción parcial y generando Ni, WO₂ y CO₂.</texto>
+      </seccion>
+      <seccion>
+        <titulo>• Reacción de gasificación del carbono (c)</titulo>
+        <texto>A esta temperatura, también puede ocurrir la reacción de Boudouard, en la cual el C reacciona con CO₂ para producir 2CO.</texto>
+      </seccion>
+      <seccion>
+        <titulo>• Reducción de WO₂ (d)</titulo>
+        <texto>A 800°C, el WO₂ puede reducirse al reaccionar con C, dando lugar a la formación de W y CO₂ o, alternativamente, reaccionando con 2C para producir W y 2CO.</texto>
+      </seccion>
+      <seccion>
+        <titulo>• Formación de CaCO₃ (e)</titulo>
+        <texto>Página 80</texto>
+      </seccion>
+      <seccion>
+        <titulo>• Reacciones con W (f)</titulo>
+        <texto>El W generado puede reaccionar de diferentes maneras: o Con C, formando WC. o Con 2CO, produciendo WC y CO₂. o Con 2CO₂, regenerando WO₂ y 2CO. • Reducción completa de NiWO₄ (g) A 800°C, el NiWO₄ puede reducirse completamente en presencia de carbono, generando Ni, W y 4CO, o alternativamente, Ni, W y 2CO₂. Página 81 de 95 CAPÍTULO 5. CONCLUSIONES • Los análisis XRD de las mezclas NiWO4/Biocarbón confirman reducción de NiWO₄ a sus fases metálicas de Ni y W, con picos más intensos para W. • La reducción de W y Ni comprueba la transferencia de oxígeno del OC al biocarbón, dominando la reacción a ~700°C. • La identificación de WO₂ y WC en las mezclas sugiere un mecanismo de reducción por pasos del NiWO₄ actuando el biocarbón como agente reductor. • La correlación entre XRD y FTIR confirma que la reducción de NiWO₄ está influenciada por la composición del biocarbón: o En OC/BC1-3P, la reducción de NiWO₄ es parcial, evidenciada por WO₂ y grupos oxigenados en FTIR. o En OC/BC2-3P, la ausencia de bandas FTIR sugiere una reducción más completa, facilitada por la mayor reactividad del biocarbón. • La reducción del NiWO₄ facilita la gasificación parcial del C, promoviendo la formación de CO como principal producto gaseoso. • A temperaturas cercanas a 650°C, el proceso muestra una alta selectividad hacia CO en lugar de CO₂, lo que indica que el NiWO₄ contribuye a la conversión controlada del carbono.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia>
+      <titulo>An overview of global energy scenarios by 2040: identifying the driving forces using cross-impact analysis method</titulo>
+      <autores>
+        <autor>S Ghasemian</autor>
+        <autor>A Faridzad</autor>
+        <autor>P Abbaszadeh</autor>
+        <autor>A Taklif</autor>
+        <autor>A Ghasemi</autor>
+        <autor>R Hafezi</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Executive Summary -World Energy Outlook 2024 -Analysis</titulo>
+      <fecha>2025-01-13</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Some Perspectives for the Gasification Process in the Energy Transition World Scenario</titulo>
+      <autores>
+        <autor>E Monteiro</autor>
+        <autor>S Ferreira</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <fecha>2024-01-14</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Covid-19 shock: Development of strategic management framework for global energy</titulo>
+      <autores>
+        <autor>A Chofreh</autor>
+        <autor>F Goni</autor>
+        <autor>J Klemeš</autor>
+        <autor>S Seyed Moosavi</autor>
+        <autor>M Davoudi</autor>
+        <autor>M Zeinalnezhad</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>D Birol</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Whose energy sovereignty? Competing imaginaries of Mexico's energy future</titulo>
+      <autores>
+        <autor>I Torres</autor>
+        <autor>J Niewöhner</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <fecha>2025-01-14</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Energy demand outlook in Mexico</titulo>
+      <autores>
+        <autor>K Partida</autor>
+      </autores>
+      <fecha>2025-01-14</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ley para el Aprovechamiento de Energías Renovables y el Financiamiento de la Transición Energética</titulo>
+      <fecha>2025-01-04</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>| Faolex</autor>
+      </autores>
+      <fecha>2025-01-04</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A comprehensive review on agricultural waste production and onsite management with circular economy opportunities</titulo>
+      <autores>
+        <autor>M Rao</autor>
+        <autor>S Botsa</autor>
+        <autor>T Rao</autor>
+        <autor>S Goddu</autor>
+        <autor>C Vijayasanthi</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>R Bracho</autor>
+        <autor>J Alvarez</autor>
+        <autor>A Aznar</autor>
+        <autor>C Brancucci</autor>
+        <autor>G Brinkman</autor>
+        <autor>A Cooperman</autor>
+        <autor>F Flores-Espino</autor>
+        <autor>W Frazier</autor>
+        <autor>C Gearhart</autor>
+        <autor>O Fernández</autor>
+        <autor>D Hurlbut</autor>
+        <autor>A Kolker</autor>
+        <autor>B Kroposki</autor>
+        <autor>E Lantz</autor>
+        <autor>G Maclaurin</autor>
+        <autor>B Roberts</autor>
+        <autor>P Lankao</autor>
+        <autor>G Saur</autor>
+        <autor>G Stark</autor>
+        <autor>H Sky</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>What is renewable energy?, United Nations</titulo>
+      <autores>
+        <autor>U Nations</autor>
+      </autores>
+      <fecha>2025-01-14</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Catalytic conversion of lignocellulosic biomass to fine chemicals and fuels</titulo>
+      <autores>
+        <autor>C.-H Zhou</autor>
+        <autor>X Xia</autor>
+        <autor>C.-X Lin</autor>
+        <autor>D.-S Tong</autor>
+        <autor>J Beltramini</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>GIS-based modeling of residual biomass availability for energy and production in Mexico</titulo>
+      <autores>
+        <autor>D Lozano-García</autor>
+        <autor>J Santibañez-Aguilar</autor>
+        <autor>F Lozano</autor>
+        <autor>A Flores-Tlacuahuac</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Advances in Valorization of Lignocellulosic Biomass towards Energy Generation</titulo>
+      <autores>
+        <autor>I Haq</autor>
+        <autor>K Qaisar</autor>
+        <autor>A Nawaz</autor>
+        <autor>F Akram</autor>
+        <autor>H Mukhtar</autor>
+        <autor>X Zohu</autor>
+        <autor>Y Xu</autor>
+        <autor>M Mumtaz</autor>
+        <autor>U Rashid</autor>
+        <autor>W Ghani</autor>
+        <autor>T Choong</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <fecha>2025-01-14</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The Role of Biomass in the Sustainable Development Goals: A Reality Check and Governance Implications</titulo>
+      <autores>
+        <autor>A Müller</autor>
+        <autor>J Weigelt</autor>
+        <autor>A Götz</autor>
+        <autor>O Schmidt</autor>
+        <autor>L Alva</autor>
+        <autor>I Matuschke</autor>
+        <autor>U Ehling</autor>
+        <autor>T Beringer</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Exploiting agricultural biomass via thermochemical processes for sustainable hydrogen and bioenergy: A critical review</titulo>
+      <autores>
+        <autor>M Ashfaq</autor>
+        <autor>G Bilgic Tüzemen</autor>
+        <autor>A Noor</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Treatment of Agroindustrial Biomass Residues: A Sustainable Approach</titulo>
+      <autores>
+        <autor>S Vaz</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Industrial hydrogen production technology and development status in China: a review</titulo>
+      <autores>
+        <autor>S Chai</autor>
+        <autor>G Zhang</autor>
+        <autor>G Li</autor>
+        <autor>Y Zhang</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass gasification for sustainable energy production: A review</titulo>
+      <autores>
+        <autor>Ö Tezer</autor>
+        <autor>N Karabağ</autor>
+        <autor>A Öngen</autor>
+        <autor>C Çolpan</autor>
+        <autor>A Ayol</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass-Based Chemical Looping Gasification: Overview and Recent Developments</titulo>
+      <autores>
+        <autor>N Nguyen</autor>
+        <autor>F Alobaid</autor>
+        <autor>P Dieringer</autor>
+        <autor>B Epple</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical looping gasification coupled with steam reforming of biomass using NiFe2O4: Kinetic analysis of DAEM-TI, thermodynamic simulation of OC redox, and a loop test</titulo>
+      <autores>
+        <autor>Y Lin</autor>
+        <autor>H Wang</autor>
+        <autor>Z Huang</autor>
+        <autor>M Liu</autor>
+        <autor>G Wei</autor>
+        <autor>Z Zhao</autor>
+        <autor>H Li</autor>
+        <autor>Y Fang</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Reduction and oxidation kinetics of NiWO4as an oxygen carrier for hydrogen storage by a chemical looping process</titulo>
+      <autores>
+        <autor>P González-Vargas</autor>
+        <autor>J Salinas-Gutiérrez</autor>
+        <autor>M Meléndez-Zaragoza</autor>
+        <autor>J Pantoja-Espinoza</autor>
+        <autor>A López-Ortiz</autor>
+        <autor>V Collins-Martínez</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermodynamic evaluation during the reduction of MWO4 (M = Fe</titulo>
+      <autores>
+        <autor>A López-Ortiz</autor>
+        <autor>M Meléndez-Zaragoza</autor>
+        <autor>J Salinas Gutiérrez</autor>
+        <autor>P González-Vargas</autor>
+        <autor>V Collins-Martínez</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Ni) with methane for the production of hydrogen-syngas</titulo>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Lignocellulosic biomass and carbohydrates as feed-stock for scalable production of 5-hydroxymethylfurfural</titulo>
+      <autores>
+        <autor>A Kumar</autor>
+        <autor>A Chauhan</autor>
+        <autor>P Shaifali</autor>
+        <autor>Das</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Lignocellulosic biomass as sustainable feedstock and materials for power generation and energy storage</titulo>
+      <autores>
+        <autor>F Wang</autor>
+        <autor>D Ouyang</autor>
+        <autor>Z Zhou</autor>
+        <autor>S Page</autor>
+        <autor>D Liu</autor>
+        <autor>X Zhao</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Physico-Chemical Evolution in Lignocellulosic Feedstocks During Hydrothermal Pretreatment and Delignification</titulo>
+      <autores>
+        <autor>S Nanda</autor>
+        <autor>J Maley</autor>
+        <autor>J Kozinski</autor>
+        <autor>A Dalai</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cellulose Nanocrystals: Chemistry, Self-Assembly, and Applications</titulo>
+      <autores>
+        <autor>Y Habibi</autor>
+        <autor>L Lucia</autor>
+        <autor>O Rojas</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis and Self-Assembly of Cellulose Microfibrils from Reconstituted Cellulose Synthase</titulo>
+      <autores>
+        <autor>S Cho</autor>
+        <autor>P Purushotham</autor>
+        <autor>C Fang</autor>
+        <autor>C Maranas</autor>
+        <autor>S Díaz-Moreno</autor>
+        <autor>V Bulone</autor>
+        <autor>J Zimmer</autor>
+        <autor>M Kumar</autor>
+        <autor>B Nixon</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cell Wall Chemistry, Handbook of Wood Chemistry and Wood Composites</titulo>
+      <autores>
+        <autor>R Rowell</autor>
+        <autor>R Pettersen</autor>
+        <autor>J Han</autor>
+        <autor>J Rowell</autor>
+        <autor>M Tshabalala</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Lignocellulosic biomass pyrolysis mechanism: A state-ofthe-art review</titulo>
+      <autores>
+        <autor>S Wang</autor>
+        <autor>G Dai</autor>
+        <autor>H Yang</autor>
+        <autor>Z Luo</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>J Okolie</autor>
+        <autor>S Nanda</autor>
+        <autor>A Dalai</autor>
+        <autor>J Kozinski</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fate of p-hydroxycinnamates and structural characteristics of residual hemicelluloses and lignin during alkaline-sulfite chemithermomechanical pretreatment of sugarcane bagasse</titulo>
+      <autores>
+        <autor>F Reinoso</autor>
+        <autor>J Rencoret</autor>
+        <autor>A Gutiérrez</autor>
+        <autor>A Milagres</autor>
+        <autor>J Del Río</autor>
+        <autor>A Ferraz</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Pathways of lignocellulosic biomass conversion to renewable fuels</titulo>
+      <autores>
+        <autor>N Reddy</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of Chemical Composition on Heating Value of Biomass: A Review and Bibliometric Analysis</titulo>
+      <autores>
+        <autor>B Esteves</autor>
+        <autor>U Sen</autor>
+        <autor>H Pereira</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Extractives of Tree Biomass of Scots Pine (Pinus sylvestris L.) for Biorefining in Four Climatic Regions in Finland-Lipophilic Compounds, Stilbenes, and Lignans, Forests</titulo>
+      <autores>
+        <autor>E Verkasalo</autor>
+        <autor>M Roitto</autor>
+        <autor>V Möttönen</autor>
+        <autor>J Tanner</autor>
+        <autor>A Kumar</autor>
+        <autor>P Kilpeläinen</autor>
+        <autor>L Sikanen</autor>
+        <autor>H Ilvesniemi</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Reactivity Effects of Inorganic Content in Biomass Gasification: A Review</titulo>
+      <autores>
+        <autor>A Trubetskaya</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass combustion systems: A review on the physical and chemical properties of the ashes</titulo>
+      <autores>
+        <autor>L Nunes</autor>
+        <autor>J Matias</autor>
+        <autor>J Catalão</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review of agronomic and environmental properties of inorganic compounds in biochars</titulo>
+      <autores>
+        <autor>W Shi</autor>
+        <autor>W Lian</autor>
+        <autor>S Tian</autor>
+        <autor>X Gong</autor>
+        <autor>Q Yu</autor>
+        <autor>Z Guo</autor>
+        <autor>X Zhang</autor>
+        <autor>B Ma</autor>
+        <autor>R Bian</autor>
+        <autor>J Zheng</autor>
+        <autor>K Cheng</autor>
+        <autor>G Pan</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fungal systems for lignocellulose deconstruction: From enzymatic mechanisms to hydrolysis optimization</titulo>
+      <autores>
+        <autor>F Ren</autor>
+        <autor>F Wu</autor>
+        <autor>X Wu</autor>
+        <autor>T Bao</autor>
+        <autor>Y Jie</autor>
+        <autor>L Gao</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass and biomass-based energy supply and demand</titulo>
+      <autores>
+        <autor>J Popp</autor>
+        <autor>S Kovács</autor>
+        <autor>J Oláh</autor>
+        <autor>Z Divéki</autor>
+        <autor>E Balázs</autor>
+        <autor>Bioeconomy</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Potential Use of Industrial Biomass Waste as a Sustainable Energy Source in the Future</titulo>
+      <autores>
+        <autor>T Kalak</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Annual biomass variation of agriculture crops and forestry residues, and seasonality of crop residues for energy production in Mexico</titulo>
+      <autores>
+        <autor>J Honorato-Salazar</autor>
+        <autor>J Sadhukhan</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Assessing the Cost of Biomass and Bioenergy Production in Agroindustrial Processes</titulo>
+      <autores>
+        <autor>E Martinez-Hernandez</autor>
+        <autor>M Amezcua-Allieri</autor>
+        <autor>J Aburto</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Distribution and potential of bioenergy resources from agricultural activities in Mexico</titulo>
+      <autores>
+        <autor>I Valdez-Vazquez</autor>
+        <autor>J Acevedo-Benítez</autor>
+        <autor>C Hernández-Santiago</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bioenergy potential in Mexico-status and perspectives on a high spatial distribution</titulo>
+      <autores>
+        <autor>M Rios</autor>
+        <autor>M Kaltschmitt</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Wheat straw, corn stover, sugarcane, and Agave biomasses: chemical properties, availability, and cellulosic-bioethanol production potential in Mexico</titulo>
+      <autores>
+        <autor>C Hernández</autor>
+        <autor>C Escamilla-Alvarado</autor>
+        <autor>A Sánchez</autor>
+        <autor>E Alarcón</autor>
+        <autor>F Ziarelli</autor>
+        <autor>R Musule</autor>
+        <autor>I Valdez-Vazquez</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Agriculture certifies safety in production and packaging of onion in Chihuahua, gob.mx</titulo>
+      <autores>
+        <autor>S De S</autor>
+      </autores>
+      <fecha>2025-01-04</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>G Alemán-Nava</autor>
+        <autor>V Casiano-Flores</autor>
+        <autor>D Cárdenas-Chávez</autor>
+        <autor>R Díaz-Chavez</autor>
+        <autor>N Scarlat</autor>
+        <autor>J Mahlknecht</autor>
+        <autor>J.-F Dallemand</autor>
+        <autor>R Parra</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Economy, employment, equity, quality of life, education, health and public safety | Data México</titulo>
+      <autores>
+        <autor>Chihuahua</autor>
+      </autores>
+      <fecha>2025-01-04</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Prospectivas del Sector Energético, gob.mx</titulo>
+      <autores>
+        <autor>S De Energía</autor>
+      </autores>
+      <fecha>2025-01-04</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Conversion of biomass to biofuels and life cycle assessment: a review</titulo>
+      <autores>
+        <autor>A Osman</autor>
+        <autor>N Mehta</autor>
+        <autor>A Elgarahy</autor>
+        <autor>A Al-Hinai</autor>
+        <autor>A Al-Muhtaseb</autor>
+        <autor>D Rooney</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass Waste Conversion Technologies and Its Application for Sustainable Environmental Development-A Review</titulo>
+      <autores>
+        <autor>G Kataya</autor>
+        <autor>D Cornu</autor>
+        <autor>M Bechelany</autor>
+        <autor>A Hijazi</autor>
+        <autor>M Issa</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Variation of lignocellulosic biomass structure from torrefaction: A critical review</titulo>
+      <autores>
+        <autor>H Ong</autor>
+        <autor>K Yu</autor>
+        <autor>W.-H Chen</autor>
+        <autor>M Pillejera</autor>
+        <autor>X Bi</autor>
+        <autor>K.-Q Tran</autor>
+        <autor>A Pétrissans</autor>
+        <autor>M Pétrissans</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A comprehensive review on thermochemical, and biochemical conversion methods of lignocellulosic biomass into valuable end product</titulo>
+      <autores>
+        <autor>M Awasthi</autor>
+        <autor>T Sar</autor>
+        <autor>S Gowd</autor>
+        <autor>K Rajendran</autor>
+        <autor>V Kumar</autor>
+        <autor>S Sarsaiya</autor>
+        <autor>Y Li</autor>
+        <autor>R Sindhu</autor>
+        <autor>P Binod</autor>
+        <autor>Z Zhang</autor>
+        <autor>A Pandey</autor>
+        <autor>M Taherzadeh</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>14 -Production of Fermented Beverages: Shedding Light on Indian Culture and Traditions</titulo>
+      <autores>
+        <autor>P Asrani</autor>
+        <autor>V Patial</autor>
+        <autor>R Asrani</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The path forward for lignocellulose biorefineries: Bottlenecks, solutions, and perspective on commercialization</titulo>
+      <autores>
+        <autor>A Chandel</autor>
+        <autor>V Garlapati</autor>
+        <autor>A Singh</autor>
+        <autor>F Antunes</autor>
+        <autor>S Da Silva</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A comprehensive review of engineered biochar: Production, characteristics, and environmental applications</titulo>
+      <autores>
+        <autor>H Kazemi Shariat</autor>
+        <autor>M Panahi</autor>
+        <autor>Y Dehhaghi</autor>
+        <autor>A.-S Ok</autor>
+        <autor>B Nizami</autor>
+        <autor>S Khoshnevisan</autor>
+        <autor>M Mussatto</autor>
+        <autor>M Aghbashlo</autor>
+        <autor>S Tabatabaei</autor>
+        <autor>Lam</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A complete review on biochar: Production, property, multifaceted applications, interaction mechanism and computational approach</titulo>
+      <autores>
+        <autor>K Jeyasubramanian</autor>
+        <autor>B Thangagiri</autor>
+        <autor>A Sakthivel</autor>
+        <autor>J Dhaveethu Raja</autor>
+        <autor>S Seenivasan</autor>
+        <autor>P Vallinayagam</autor>
+        <autor>D Madhavan</autor>
+        <autor>S Malathi</autor>
+        <autor>B Devi</autor>
+        <autor>Rathika</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chapter 17 -Concomitant bioenergy production and wastewater treatment employing microbial electrochemical technologies</titulo>
+      <autores>
+        <autor>M Ghangrekar</autor>
+        <autor>S Kumar</autor>
+        <autor>A Ahmad</autor>
+        <autor>S Das</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical reactions in the hydrothermal liquefaction of biomass and in the catalytic hydrogenation upgrading of biocrude</titulo>
+      <autores>
+        <autor>B Hao</autor>
+        <autor>D Xu</autor>
+        <autor>G Jiang</autor>
+        <autor>T Sabri</autor>
+        <autor>Z Jing</autor>
+        <autor>Y Guo</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass to biofuels using hydrothermal liquefaction: A comprehensive review</titulo>
+      <autores>
+        <autor>H Shahbeik</autor>
+        <autor>H Kazemi Shariat</autor>
+        <autor>M Panahi</autor>
+        <autor>G Dehhaghi</autor>
+        <autor>A Guillemin</autor>
+        <autor>H Fallahi</autor>
+        <autor>H Hosseinzadeh-Bandbafha</autor>
+        <autor>M Amiri</autor>
+        <autor>D Rehan</autor>
+        <autor>H Raikwar</autor>
+        <autor>B Latine</autor>
+        <autor>B Pandalone</autor>
+        <autor>C Khoshnevisan</autor>
+        <autor>L Sonne</autor>
+        <autor>A.-S Vaccaro</autor>
+        <autor>V Nizami</autor>
+        <autor>S Gupta</autor>
+        <autor>J Lam</autor>
+        <autor>R Pan</autor>
+        <autor>B Luque</autor>
+        <autor>W Sels</autor>
+        <autor>M Peng</autor>
+        <autor>M Tabatabaei</autor>
+        <autor>Aghbashlo</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hydrothermal liquefaction -A sustainable technique for present biofuel generation: Opportunities, challenges and future prospects</titulo>
+      <fecha>2025</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hydrothermal liquefaction -A sustainable technique for present biofuel generation: Opportunities, challenges and future prospects</titulo>
+      <autores>
+        <autor>J Mozas Santhose Kumar</autor>
+        <autor>R Prakash</autor>
+        <autor>P Panneerselvam</autor>
+      </autores>
+      <fecha>2025</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermochemical Production of Hydrogen from Biomass: Pyrolysis and Gasification</titulo>
+      <autores>
+        <autor>J Alvarado-Flores</autor>
+        <autor>J Alcaraz-Vera</autor>
+        <autor>M Ávalos-Rodríguez</autor>
+        <autor>E Guzmán-Mejía</autor>
+        <autor>J Rutiaga-Quiñones</autor>
+        <autor>L Pintor-Ibarra</autor>
+        <autor>S Guevara-Martínez</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A critical review on biomass pyrolysis: Reaction mechanisms, process modeling and potential challenges</titulo>
+      <autores>
+        <autor>A Vuppaladadiyam</autor>
+        <autor>S Varsha</autor>
+        <autor>V Vuppaladadiyam</autor>
+        <autor>E Sikarwar</autor>
+        <autor>K Ahmad</autor>
+        <autor>M Pant</autor>
+        <autor>A Pandey</autor>
+        <autor>S Bhattacharya</autor>
+        <autor>A Sarmah</autor>
+        <autor>S.-Y Leu</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effects of cellulose, hemicellulose and lignin on thermochemical conversion characteristics of the selected biomass</titulo>
+      <autores>
+        <autor>V Pasangulapati</autor>
+        <autor>K Ramachandriya</autor>
+        <autor>A Kumar</autor>
+        <autor>M Wilkins</autor>
+        <autor>C Jones</autor>
+        <autor>R Huhnke</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Catalytic pyrolysis of biomass: influence of the catalyst pretreatment on gas yields</titulo>
+      <autores>
+        <autor>L Garcı</autor>
+        <autor>M Salvador</autor>
+        <autor>J Arauzo</autor>
+        <autor>R Bilbao</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass to hydrogen-rich syngas via catalytic steam reforming of bio-oil</titulo>
+      <autores>
+        <autor>G Chen</autor>
+        <autor>J Yao</autor>
+        <autor>J Liu</autor>
+        <autor>B Yan</autor>
+        <autor>R Shan</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical looping gasification and sorption enhanced gasification of biomass: A perspective</titulo>
+      <autores>
+        <autor>J Dai</autor>
+        <autor>K Whitty</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Syngas production from chemical looping gasification of rice husk-derived biochar over iron-based oxygen carriers modified by different alkaline earth metals</titulo>
+      <autores>
+        <autor>A Abdalazeez</autor>
+        <autor>T Li</autor>
+        <autor>Y Cao</autor>
+        <autor>W Wang</autor>
+        <autor>S Abuelgasim</autor>
+        <autor>C Liu</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass chemical-looping gasification coupled with water/CO2-splitting using NiFe2O4 as an oxygen carrier</titulo>
+      <autores>
+        <autor>F He</autor>
+        <autor>Z Huang</autor>
+        <autor>G Wei</autor>
+        <autor>K Zhao</autor>
+        <autor>G Wang</autor>
+        <autor>X Kong</autor>
+        <autor>Y Feng</autor>
+        <autor>H Tan</autor>
+        <autor>S Hou</autor>
+        <autor>Y Lv</autor>
+        <autor>G Jiang</autor>
+        <autor>Y Guo</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The comparison study of multiple biochar stability assessment methods</titulo>
+      <autores>
+        <autor>J Chen</autor>
+        <autor>P Wang</autor>
+        <autor>L Ding</autor>
+        <autor>T Yu</autor>
+        <autor>S Leng</autor>
+        <autor>J Chen</autor>
+        <autor>L Fan</autor>
+        <autor>J Li</autor>
+        <autor>L Wei</autor>
+        <autor>J Li</autor>
+        <autor>Q Lu</autor>
+        <autor>L Leng</autor>
+        <autor>W Zhou</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Development of Biochar-Based Functional Materials: Toward a Sustainable Platform Carbon Material</titulo>
+      <autores>
+        <autor>W.-J Liu</autor>
+        <autor>H Jiang</autor>
+        <autor>H.-Q Yu</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The emerging role of biochar in the carbon materials family for hydrogen production</titulo>
+      <autores>
+        <autor>A Bhakta</autor>
+        <autor>R Fiorenza</autor>
+        <autor>K Jlassi</autor>
+        <autor>Z Mekhalif</autor>
+        <autor>A Ali</autor>
+        <autor>M Chehimi</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Insight into biomass pyrolysis mechanism based on cellulose, hemicellulose, and lignin: Evolution of volatiles and kinetics, elucidation of reaction pathways, and characterization of gas, biochar and biooil</titulo>
+      <autores>
+        <autor>D Chen</autor>
+        <autor>K Cen</autor>
+        <autor>X Zhuang</autor>
+        <autor>Z Gan</autor>
+        <autor>J Zhou</autor>
+        <autor>Y Zhang</autor>
+        <autor>H Zhang</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation of BaFe2O4 oxygen carrier modified by supports in chemical looping gasification of biochar</titulo>
+      <autores>
+        <autor>A Abdalazeez</autor>
+        <autor>T Li</autor>
+        <autor>X Liu</autor>
+        <autor>Y Cao</autor>
+        <autor>W Wang</autor>
+        <autor>S Abuelgasim</autor>
+        <autor>C Liu</autor>
+        <autor>S Meng</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Partial oxidation of biomass gasification tar with oxygen transport membranes</titulo>
+      <autores>
+        <autor>L Aguilera</autor>
+        <autor>M Puig-Arnavat</autor>
+        <autor>S Ovtar</autor>
+        <autor>J Gurauskis</autor>
+        <autor>J Ahrenfeldt</autor>
+        <autor>U Henriksen</autor>
+        <autor>P Hendriksen</autor>
+        <autor>R Kiebach</autor>
+        <autor>A Haugen</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical looping gasification of biochar to produce hydrogen-rich syngas using Fe/Ca-based oxygen carrier prepared by coprecipitation</titulo>
+      <autores>
+        <autor>Z Hu</autor>
+        <autor>Z Miao</autor>
+        <autor>H Chen</autor>
+        <autor>J Wu</autor>
+        <autor>W Wu</autor>
+        <autor>Y Ren</autor>
+        <autor>E Jiang</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Syngas production from chemical looping gasification of rice husk-derived biochar over iron-based oxygen carriers modified by different alkaline earth metals</titulo>
+      <autores>
+        <autor>A Abdalazeez</autor>
+        <autor>T Li</autor>
+        <autor>Y Cao</autor>
+        <autor>W Wang</autor>
+        <autor>S Abuelgasim</autor>
+        <autor>C Liu</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review of chemical looping combustion technology: Fundamentals, and development of natural, industrial waste, and synthetic oxygen carriers</titulo>
+      <autores>
+        <autor>S Daneshmand-Jahromi</autor>
+        <autor>M Sedghkerdar</autor>
+        <autor>N Mahinpey</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical looping gasification of biomass with Fe2O3/CaO as the oxygen carrier for hydrogen-enriched syngas production</titulo>
+      <autores>
+        <autor>Q Hu</autor>
+        <autor>Y Shen</autor>
+        <autor>J Chew</autor>
+        <autor>T Ge</autor>
+        <autor>C.-H Wang</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review of Biomass Chemical Looping Gasification in China</titulo>
+      <autores>
+        <autor>Y Lin</autor>
+        <autor>H Wang</autor>
+        <autor>Y Wang</autor>
+        <autor>R Huo</autor>
+        <autor>Z Huang</autor>
+        <autor>M Liu</autor>
+        <autor>G Wei</autor>
+        <autor>Z Zhao</autor>
+        <autor>H Li</autor>
+        <autor>Y Fang</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Exploring the migration and transformation of lattice oxygen during chemical looping with NiFe2O4 oxygen carrier</titulo>
+      <autores>
+        <autor>Z Huang</autor>
+        <autor>N Gao</autor>
+        <autor>Y Lin</autor>
+        <autor>G Wei</autor>
+        <autor>K Zhao</autor>
+        <autor>A Zheng</autor>
+        <autor>Z Zhao</autor>
+        <autor>H Yuan</autor>
+        <autor>H Li</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Development of Stable Oxygen Carrier Materials for Chemical Looping Processes-A Review</titulo>
+      <autores>
+        <autor>Y Vos</autor>
+        <autor>M Jacobs</autor>
+        <autor>P Van Der</autor>
+        <autor>I Voort</autor>
+        <autor>F Van Driessche</autor>
+        <autor>A Snijkers</autor>
+        <autor>Verberckmoes</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Discovery of Oxygen Carriers by Mining a First-Principle Database</titulo>
+      <autores>
+        <autor>J Brorsson</autor>
+        <autor>V Rehnberg</autor>
+        <autor>A Arvidsson</autor>
+        <autor>H Leion</autor>
+        <autor>T Mattisson</autor>
+        <autor>A Hellman</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical Looping Technology: Oxygen Carrier Characteristics</titulo>
+      <autores>
+        <autor>S Luo</autor>
+        <autor>L Zeng</autor>
+        <autor>L.-S Fan</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Developing Oxygen Carriers for Chemical Looping Biomass Processing: Challenges and Opportunities</titulo>
+      <autores>
+        <autor>L Yu</autor>
+        <autor>W Zhou</autor>
+        <autor>Z Luo</autor>
+        <autor>H Wang</autor>
+        <autor>W Liu</autor>
+        <autor>K Yin</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass Chemical Looping Gasification of pine wood using a synthetic Fe2O3/Al2O3 oxygen carrier in a continuous unit</titulo>
+      <autores>
+        <autor>I Samprón</autor>
+        <autor>L De Diego</autor>
+        <autor>F García-Labiano</autor>
+        <autor>M Izquierdo</autor>
+        <autor>A Abad</autor>
+        <autor>J Adánez</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characteristics of biomass gasification using chemical looping with iron ore as an oxygen carrier</titulo>
+      <autores>
+        <autor>Z Huang</autor>
+        <autor>F He</autor>
+        <autor>Y Feng</autor>
+        <autor>R Liu</autor>
+        <autor>K Zhao</autor>
+        <autor>A Zheng</autor>
+        <autor>S Chang</autor>
+        <autor>Z Zhao</autor>
+        <autor>H Li</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inert chemical looping conversion of biochar with iron ore as oxygen carrier: Products conversion kinetics and structural evolution</titulo>
+      <autores>
+        <autor>Q Hu</autor>
+        <autor>Q Mao</autor>
+        <autor>X Ren</autor>
+        <autor>H Yang</autor>
+        <autor>H Chen</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hydrogen-rich syngas production with tar elimination via biomass chemical looping gasification (BCLG) using BaFe2O4/Al2O3 as oxygen carrier</titulo>
+      <autores>
+        <autor>J Yan</autor>
+        <autor>R Sun</autor>
+        <autor>L Shen</autor>
+        <autor>H Bai</autor>
+        <autor>S Jiang</autor>
+        <autor>Y Xiao</autor>
+        <autor>T Song</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biochar in global carbon cycle: Towards sustainable development goals</titulo>
+      <autores>
+        <autor>K Shoudho</autor>
+        <autor>T Khan</autor>
+        <autor>U Ara</autor>
+        <autor>M Khan</autor>
+        <autor>Z Shawon</autor>
+        <autor>M Hoque</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermodynamic analysis of MnWO4 as an oxygen carrier in a chemical looping scheme for hydrogen production</titulo>
+      <autores>
+        <autor>J López Van Der Horst</autor>
+        <autor>F Pompeo</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Reaction performance of Ce-enhanced hematite oxygen carrier in chemical looping reforming of biomass pyrolyzed gas coupled with CO2 splitting</titulo>
+      <autores>
+        <autor>G Wei</autor>
+        <autor>H Zhou</autor>
+        <autor>Z Huang</autor>
+        <autor>A Zheng</autor>
+        <autor>K Zhao</autor>
+        <autor>Y Lin</autor>
+        <autor>G Chang</autor>
+        <autor>Z Zhao</autor>
+        <autor>H Li</autor>
+        <autor>Y Fang</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Screening of NiFe2O4 Nanoparticles as Oxygen Carrier in Chemical Looping Hydrogen Production</titulo>
+      <autores>
+        <autor>S Liu</autor>
+        <autor>F He</autor>
+        <autor>Z Huang</autor>
+        <autor>A Zheng</autor>
+        <autor>Y Feng</autor>
+        <autor>Y Shen</autor>
+        <autor>H Li</autor>
+        <autor>H Wu</autor>
+        <autor>P Glarborg</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Unraveling the atomic interdiffusion mechanism of NiFe2O4 oxygen carriers during chemical looping CO2 conversion</titulo>
+      <autores>
+        <autor>D Song</autor>
+        <autor>Y Lin</autor>
+        <autor>S Fang</autor>
+        <autor>Y Li</autor>
+        <autor>K Zhao</autor>
+        <autor>X Chen</autor>
+        <autor>Z Huang</autor>
+        <autor>Z Zhao</autor>
+        <autor>H Huang</autor>
+        <autor>F Li</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ceria-zirconia stabilised tungsten oxides for the production of hydrogen by the methane-water redox cycle</titulo>
+      <autores>
+        <autor>A Sim</autor>
+        <autor>N Cant</autor>
+        <autor>D Trimm</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of Oxygen Carrier on the Autothermicity of a Chemical-Looping Reforming Process for Hydrogen Production</titulo>
+      <autores>
+        <autor>J López Van Der Horst</autor>
+        <autor>M Volpe Giangiordano</autor>
+        <autor>F Suarez</autor>
+        <autor>F Perez</autor>
+        <autor>M Gatti</autor>
+        <autor>G Santori</autor>
+        <autor>F Pompeo</autor>
+      </autores>
+      <fecha>2025</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Kinetic Study of Methane Partial Oxidation by Chemical Looping Process using NiWO4 as an Oxygen Carrier for Syngas Production</titulo>
+      <autores>
+        <autor>P Gonzalez-Vargas</autor>
+        <autor>J Salinas-Gutiérrez</autor>
+        <autor>M Melendez</autor>
+        <autor>V Collins-Martínez</autor>
+        <autor>A Lopez</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Oxygen-Deficient Tungsten Oxide as Versatile and Efficient Hydrogenation Catalyst</titulo>
+      <autores>
+        <autor>J Song</autor>
+        <autor>Z.-F Huang</autor>
+        <autor>L Pan</autor>
+        <autor>J.-J Zou</autor>
+        <autor>X Zhang</autor>
+        <autor>L Wang</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermodynamic analysis and process simulation of syngas production from methane using CoWO4 as oxygen carrier</titulo>
+      <autores>
+        <autor>A López-Ortiz</autor>
+        <autor>P González-Vargas</autor>
+        <autor>M Meléndez-Zaragoza</autor>
+        <autor>V Collins-Martínez</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Aspen Plus® Simulation Studies of Steam Gasification in Fluidized Bed Reactor for Hydrogen Production Using Palm Kernel Shell</titulo>
+      <autores>
+        <autor>M Hussain</autor>
+        <autor>L Tufa</autor>
+        <autor>Y Suzana</autor>
+        <autor>H Zabiri</autor>
+        <autor>S Taqvi</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Transformation of biosolids to biochar: A case study</titulo>
+      <autores>
+        <autor>S Patel</autor>
+        <autor>S Kundu</autor>
+        <autor>J Paz-Ferreiro</autor>
+        <autor>A Surapaneni</autor>
+        <autor>L Fouche</autor>
+        <autor>P Halder</autor>
+        <autor>A Setiawan</autor>
+        <autor>K Shah</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Technoeconomic and sensitivity analysis of coconut coir pith-biomass gasification using ASPEN PLUS</titulo>
+      <autores>
+        <autor>A Alnouss</autor>
+        <autor>P Parthasarathy</autor>
+        <autor>M Shahbaz</autor>
+        <autor>T Al-Ansari</autor>
+        <autor>H Mackey</autor>
+        <autor>G Mckay</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simulation of a 1MWth biomass chemical looping gasification process based on kinetic and pyrolysis models</titulo>
+      <autores>
+        <autor>M Dai</autor>
+        <autor>T Guo</autor>
+        <autor>X Hu</autor>
+        <autor>J Ma</autor>
+        <autor>Q Guo</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis of NiWO4 nano-particles in low-temperature molten salt medium</titulo>
+      <autores>
+        <autor>Z Song</autor>
+        <autor>J Ma</autor>
+        <autor>H Sun</autor>
+        <autor>W Wang</autor>
+        <autor>Y Sun</autor>
+        <autor>L Sun</autor>
+        <autor>Z Liu</autor>
+        <autor>C Gao</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass pyrolysis: A review on recent advancements and green hydrogen production</titulo>
+      <autores>
+        <autor>A Vuppaladadiyam</autor>
+        <autor>S Vuppaladadiyam</autor>
+        <autor>A Awasthi</autor>
+        <autor>A Sahoo</autor>
+        <autor>S Rehman</autor>
+        <autor>K Pant</autor>
+        <autor>S Murugavelh</autor>
+        <autor>Q Huang</autor>
+        <autor>E Anthony</autor>
+        <autor>P Fennel</autor>
+        <autor>S Bhattacharya</autor>
+        <autor>S.-Y Leu</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Progressive deconvolution of biomass thermogram to derive lignocellulosic composition and pyrolysis kinetics for parallel reaction model</titulo>
+      <autores>
+        <autor>H Kim</autor>
+        <autor>S Yu</autor>
+        <autor>M Kim</autor>
+        <autor>C Ryu</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Kinetic analysis of complex solid-state reactions. A new deconvolution procedure</titulo>
+      <autores>
+        <autor>A Perejón</autor>
+        <autor>P Sánchez-Jiménez</autor>
+        <autor>J Criado</autor>
+        <autor>L Pérez-Maqueda</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Slow pyrolysis of agro-food waste to produce biochar and activated carbon for adsorption of pollutants from model wastewater</titulo>
+      <autores>
+        <autor>B Patra</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomass chemical-looping gasification coupled with water/CO2-splitting using NiFe2O4 as an oxygen carrier</titulo>
+      <autores>
+        <autor>F He</autor>
+        <autor>Z Huang</autor>
+        <autor>G Wei</autor>
+        <autor>K Zhao</autor>
+        <autor>G Wang</autor>
+        <autor>X Kong</autor>
+        <autor>Y Feng</autor>
+        <autor>H Tan</autor>
+        <autor>S Hou</autor>
+        <autor>Y Lv</autor>
+        <autor>G Jiang</autor>
+        <autor>Y Guo</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermogravimetric characterization of biomass properties: A review</titulo>
+      <autores>
+        <autor>O Olatunji</autor>
+        <autor>S Akinlabi</autor>
+        <autor>M Mashinini</autor>
+        <autor>S Fatoba</autor>
+        <autor>O Ajayi</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Processing thermogravimetric analysis data for isoconversional kinetic analysis of lignocellulosic</titulo>
+      <autores>
+        <autor>J Cai</autor>
+        <autor>D Xu</autor>
+        <autor>Z Dong</autor>
+        <autor>X Yu</autor>
+        <autor>Y Yang</autor>
+        <autor>S Banks</autor>
+        <autor>A Bridgwater</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Case study of corn stalk</titulo>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A correlation for calculating HHV from proximate analysis of solid fuels</titulo>
+      <autores>
+        <autor>J Parikh</autor>
+        <autor>S Channiwala</autor>
+        <autor>G</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biochar higher heating value estimative using thermogravimetric analysis</titulo>
+      <autores>
+        <autor>L Malucelli</autor>
+        <autor>G Silvestre</autor>
+        <autor>J Carneiro</autor>
+        <autor>E Vasconcelos</autor>
+        <autor>M Guiotoku</autor>
+        <autor>C Maia</autor>
+        <autor>M Carvalho Filho</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of the thermal treatment in the crystallization of NiWO4 and ZnWO4</titulo>
+      <autores>
+        <autor>A De Oliveira</autor>
+        <autor>J Ferreira</autor>
+        <autor>M Silva</autor>
+        <autor>S De Souza</autor>
+        <autor>F Vieira</autor>
+        <autor>E Longo</autor>
+        <autor>A Souza</autor>
+        <autor>I Santos</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Amorphous NiWO4 Nanospheres with High-Conductivity and -Capacitive Performance for Supercapacitors</titulo>
+      <autores>
+        <autor>Y Huang</autor>
+        <autor>Y Gao</autor>
+        <autor>C Liu</autor>
+        <autor>Z Cao</autor>
+        <autor>Y Wang</autor>
+        <autor>Z Li</autor>
+        <autor>Y Yan</autor>
+        <autor>M Zhang</autor>
+        <autor>G Cao</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hydrothermal synthesis of NiWO4 crystals for high performance non-enzymatic glucose biosensors</titulo>
+      <autores>
+        <autor>S Mani</autor>
+        <autor>V Vediyappan</autor>
+        <autor>S.-M Chen</autor>
+        <autor>R Madhu</autor>
+        <autor>V Pitchaimani</autor>
+        <autor>J.-Y Chang</autor>
+        <autor>S.-B Liu</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Heat treatment influence on structural and optical properties of NiWO4 crystals</titulo>
+      <autores>
+        <autor>A Sales</autor>
+        <autor>B Ibiapina</autor>
+        <autor>G Sales</autor>
+        <autor>J Cruz-Filho</autor>
+        <autor>A Lima</autor>
+        <autor>G Da Paz</autor>
+        <autor>R Garcia</autor>
+        <autor>A Correa</autor>
+        <autor>B Viana</autor>
+        <autor>G Gusmão</autor>
+        <autor>C Santos</autor>
+        <autor>G Luz</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electronic structure, growth mechanism, and sonophotocatalytic properties of sphere-like self-assembled NiWO4 nanocrystals</titulo>
+      <autores>
+        <autor>F Rosal</autor>
+        <autor>A Gouveia</autor>
+        <autor>J Sczancoski</autor>
+        <autor>P Lemos</autor>
+        <autor>E Longo</autor>
+        <autor>B Zhang</autor>
+        <autor>L Cavalcante</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structural characterization, morphology, optical and colorimetric properties of NiWO4 crystals synthesized by the co-precipitation and polymeric precursor methods</titulo>
+      <autores>
+        <autor>Y Oliveira</autor>
+        <autor>M Costa</autor>
+        <autor>A Jucá</autor>
+        <autor>L Silva</autor>
+        <autor>E Longo</autor>
+        <autor>N Arul</autor>
+        <autor>L Cavalcante</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The nonenzymatic browning of pine bark during thermal treatment: Color and chemical changes, color kinetics and insights into mechanisms</titulo>
+      <autores>
+        <autor>G.-Y Yao</autor>
+        <autor>X.-P Chen</autor>
+        <autor>Z.-Y Long</autor>
+        <autor>X.-B Du</autor>
+        <autor>J.-Z Liang</autor>
+        <autor>X.-J Wei</autor>
+        <autor>L.-L Wang</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Extraction and characterization of cellulose microfibers from cornhusk for application as reinforcing agent in biocomposite</titulo>
+      <autores>
+        <autor>M Moghaddam</autor>
+        <autor>F Gheshlagh</autor>
+        <autor>M Moezzi</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermogravimetric pyrolysis of onion skins: Determination of kinetic and thermodynamic parameters for devolatilization stages using the combinations of isoconversional and master plot methods</titulo>
+      <autores>
+        <autor>K Açıkalın</autor>
+        <autor>G Gözke</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Extraction and Characterization of Cellulose and Lignin from Sawdust</titulo>
+      <autores>
+        <autor>M Sánchez</autor>
+        <autor>S Requejoa</autor>
+        <autor>E De León</autor>
+        <autor>N Péreza</autor>
+        <autor>H Maldonadoh</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Extraction and Characterization of Cellulose Microfibers from Agricultural Wastes of Onion and Garlic</titulo>
+      <autores>
+        <autor>D Reddy</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermochemical processes for biofuels production from biomass</titulo>
+      <autores>
+        <autor>N Canabarro</autor>
+        <autor>J Soares</autor>
+        <autor>C Anchieta</autor>
+        <autor>C Kelling</autor>
+        <autor>M Mazutti</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review of the stability of biochar in soils: predictability of O:C molar ratios</titulo>
+      <autores>
+        <autor>K Spokas</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biochar stability assessment by incubation and modelling: Methods, drawbacks and recommendations</titulo>
+      <autores>
+        <autor>L Leng</autor>
+        <autor>X Xu</autor>
+        <autor>L Wei</autor>
+        <autor>L Fan</autor>
+        <autor>H Huang</autor>
+        <autor>J Li</autor>
+        <autor>Q Lu</autor>
+        <autor>J Li</autor>
+        <autor>W Zhou</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biochar physicochemical properties: pyrolysis temperature and feedstock kind effects</titulo>
+      <autores>
+        <autor>A Tomczyk</autor>
+        <autor>Z Sokołowska</autor>
+        <autor>P Boguta</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characterization of biochars to evaluate recalcitrance and agronomic performance</titulo>
+      <autores>
+        <autor>A Enders</autor>
+        <autor>K Hanley</autor>
+        <autor>T Whitman</autor>
+        <autor>S Joseph</autor>
+        <autor>J Lehmann</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of pyrolysis pressure and heating rate on radiata pine char structure and apparent gasification reactivity</titulo>
+      <autores>
+        <autor>E Cetin</autor>
+        <autor>R Gupta</autor>
+        <autor>B Moghtaderi</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>L Esteban</autor>
+        <autor>P De Palacios</autor>
+        <autor>I Heinz</autor>
+        <autor>P Gasson</autor>
+        <autor>A García-Iruela</autor>
+        <autor>F García-Fernández</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The impact of the thermal lag on the interpretation of cellulose pyrolysis</titulo>
+      <autores>
+        <autor>K Czajka</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermal and Kinetic Studies on Biomass Degradation via Thermogravimetric Analysis: A Combination of Model-Fitting and Model-Free Approach</titulo>
+      <autores>
+        <autor>T Emiola-Sadiq</autor>
+        <autor>L Zhang</autor>
+        <autor>A Dalai</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of Acid-and Alkali-Modified Biochar for Removal of Methylene Blue Pigment</titulo>
+      <autores>
+        <autor>C Liu</autor>
+        <autor>W Wang</autor>
+        <autor>R Wu</autor>
+        <autor>Y Liu</autor>
+        <autor>X Lin</autor>
+        <autor>H Kan</autor>
+        <autor>Y Zheng</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Production of acid-treated-biochar and its application to remediate low concentrations of Al(III) and Ni(II) ions in the water contaminated with red mud</titulo>
+      <autores>
+        <autor>E Restiawaty</autor>
+        <autor>Y Bindar</autor>
+        <autor>K Syukri</autor>
+        <autor>O Syahroni</autor>
+        <autor>S Steven</autor>
+        <autor>R Pramudita</autor>
+        <autor>Y Budhi</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Production and characterization of biochar produced from slow pyrolysis of pigeon pea stalk and bamboo</titulo>
+      <autores>
+        <autor>S Sahoo</autor>
+        <autor>V Vijay</autor>
+        <autor>R Chandra</autor>
+        <autor>H Kumar</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent developments in investigating reaction chemistry and transport effects in biomass fast pyrolysis: A review</titulo>
+      <autores>
+        <autor>K Ansari</autor>
+        <autor>B Kamal</autor>
+        <autor>S Beg</autor>
+        <autor>Md Wakeel Khan</autor>
+        <autor>M Khan</autor>
+        <autor>M Al Mesfer</autor>
+        <autor>Mohd Danish</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Changes in Biochar Functional Groups and Its Reactivity after Volatile-Char Interactions during Biomass Pyrolysis</titulo>
+      <autores>
+        <autor>B Li</autor>
+        <autor>D Liu</autor>
+        <autor>D Lin</autor>
+        <autor>X Xie</autor>
+        <autor>S Wang</autor>
+        <autor>H Xu</autor>
+        <autor>J Wang</autor>
+        <autor>Y Huang</autor>
+        <autor>S Zhang</autor>
+        <autor>X Hu</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Impacts of different activation processes on the carbon stability of biochar for oxidation resistance</titulo>
+      <autores>
+        <autor>Z Xu</autor>
+        <autor>M He</autor>
+        <autor>X Xu</autor>
+        <autor>X Cao</autor>
+        <autor>D Tsang</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Consistency of biochar properties over time and production scales: A characterisation of standard materials</titulo>
+      <autores>
+        <autor>O Mašek</autor>
+        <autor>W Buss</autor>
+        <autor>A Roy-Poirier</autor>
+        <autor>W Lowe</autor>
+        <autor>C Peters</autor>
+        <autor>P Brownsort</autor>
+        <autor>D Mignard</autor>
+        <autor>C Pritchard</autor>
+        <autor>S Sohi</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biochar surface functional groups as affected by biomass feedstock, biochar composition and pyrolysis temperature</titulo>
+      <autores>
+        <autor>R Janu</autor>
+        <autor>V Mrlik</autor>
+        <autor>D Ribitsch</autor>
+        <autor>J Hofman</autor>
+        <autor>P Sedláček</autor>
+        <autor>L Bielská</autor>
+        <autor>G Soja</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The influence of sample mass (scaling effect) on the synthesis and structure of non-graphitizing carbon (biochar) during the analytical pyrolysis of biomass</titulo>
+      <autores>
+        <autor>R Nair</autor>
+        <autor>P Kißling</autor>
+        <autor>A Schaate</autor>
+        <autor>A Marchanka</autor>
+        <autor>M Shamsuyeva</autor>
+        <autor>P Behrens</autor>
+        <autor>D Weichgrebe</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Rapid pyrolysis of biochar prepared from slow and fast pyrolysis: The effects of particle residence time on char properties</titulo>
+      <autores>
+        <autor>Q Shen</autor>
+        <autor>H Wu</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>C Călin</autor>
+        <autor>E.-E Sîrbu</autor>
+        <autor>M Tănase</autor>
+        <autor>R Győrgy</autor>
+        <autor>D Popovici</autor>
+        <autor>I Banu</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation on the Mass Loss of Bamboo Biochar by Thermogravimetric Analysis</titulo>
+      <autores>
+        <autor>M Saedon</autor>
+        <autor>Z Jamellodin</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Assessment of the use of biochar from the slow pyrolysis of walnut and almond shells as an energy carrier</titulo>
+      <autores>
+        <autor>A Fernandez Brizuela</autor>
+        <autor>D Zalazar</autor>
+        <autor>E García</autor>
+        <autor>R Torres</autor>
+        <autor>P Torres-Sciancalepore</autor>
+        <autor>G Parthasarathy</autor>
+        <autor>G Mckay</autor>
+        <autor>G Fouga</autor>
+        <autor>R Mazza</autor>
+        <autor>Rodriguez</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characterization and kinetic analysis of lignocellulosic and algal biochar combustion</titulo>
+      <autores>
+        <autor>S Ram</autor>
+        <autor>V Vasudev</autor>
+        <autor>X Ku</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Onion skin waste as a valorization resource for the by-products quercetin and biosugar</titulo>
+      <autores>
+        <autor>I Choi</autor>
+        <autor>E Cho</autor>
+        <autor>J.-H Moon</autor>
+        <autor>H.-J Bae</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biochar from Lemon Stalks: A Highly Active and Selective Carbocatalyst for the Oxidation of Sulfamethoxazole with Persulfate</titulo>
+      <autores>
+        <autor>S Giannakopoulos</autor>
+        <autor>J Vakros</autor>
+        <autor>Z Frontistis</autor>
+        <autor>I Manariotis</autor>
+        <autor>D Venieri</autor>
+        <autor>S Poulopoulos</autor>
+        <autor>D Mantzavinos</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Properties of biochar derived from wood and high-nutrient biomasses with the Página 94 de 95</titulo>
+      <autores>
+        <autor>R Domingues</autor>
+        <autor>P Trugilho</autor>
+        <autor>C Silva</autor>
+        <autor>N De-Melo</autor>
+        <autor>L Melo</autor>
+        <autor>Z Magriotis</autor>
+        <autor>M Sánchez-Monedero</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biochar characterization of invasive Pennisetum purpureum grass: effect of pyrolysis temperature</titulo>
+      <autores>
+        <autor>S Ph</autor>
+        <autor>Afroze</autor>
+        <autor>B Muhammad</autor>
+        <autor>S Rahman</autor>
+        <autor>N Aslfattahi</autor>
+        <autor>J Taweekun</autor>
+        <autor>A Azad</autor>
+        <autor>M Bakar</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Predicting Cu and Zn sorption capacity of biochar from feedstock C/N ratio and pyrolysis temperature</titulo>
+      <autores>
+        <autor>A Rodríguez-Vila</autor>
+        <autor>H Selwyn-Smith</autor>
+        <autor>L Enunwa</autor>
+        <autor>I Smail</autor>
+        <autor>E Covelo</autor>
+        <autor>T Sizmur</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigating the properties and agronomic benefits of onion peel and chicken feather-derived biochars</titulo>
+      <autores>
+        <autor>A Adeniyi</autor>
+        <autor>E Emenike</autor>
+        <autor>A Ezzat</autor>
+        <autor>K Iwuozor</autor>
+        <autor>O Abd-Elkader</autor>
+        <autor>H Al-Lohedan</autor>
+        <autor>T Ojeyemi</autor>
+        <autor>H Saka</autor>
+        <autor>S Emmanuel</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The Chemical Characterisation of the Maritime Pine Bark Cultivated in Northern Portugal</titulo>
+      <autores>
+        <autor>D Barros</autor>
+        <autor>É Fernandes</autor>
+        <autor>M Jesus</autor>
+        <autor>L Barros</autor>
+        <autor>J Alonso-Esteban</autor>
+        <autor>P Pires</autor>
+        <autor>M Vaz</autor>
+        <autor>Velho</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Impact of Biomass Source and Pyrolysis Parameters on Physicochemical Properties of Biochar Manufactured for Innovative Applications</titulo>
+      <autores>
+        <autor>A Uroić Štefanko</autor>
+        <autor>D Leszczynska</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Kinetic study of different biomass pyrolysis and oxygen-enriched combustion</titulo>
+      <autores>
+        <autor>B Castells</autor>
+        <autor>I Arenillas</autor>
+        <autor>N Manic</autor>
+        <autor>D Stojiljkovic</autor>
+        <autor>L Pejic</autor>
+        <autor>J García-Torrent</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of the Mass Conversion Degree of an Oxygen Carrier on Char Conversion and Its Implication for Chemical Looping Gasification</titulo>
+      <autores>
+        <autor>V Purnomo</autor>
+        <autor>D Mei</autor>
+        <autor>A Soleimanisalim</autor>
+        <autor>T Mattisson</autor>
+        <autor>H Leion</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>CO2-gasification kinetics of biomass char with a red mud oxygen carrier for chemical looping combustion</titulo>
+      <autores>
+        <autor>J Xu</autor>
+        <autor>T Song</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Kinetics of solid reactions with gas intermediates in chemical looping combustion</titulo>
+      <autores>
+        <autor>J Zeng</autor>
+        <autor>J Yuan</autor>
+        <autor>L Jiang</autor>
+        <autor>S Chen</autor>
+        <autor>S Zhang</autor>
+        <autor>Z Li</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Selectivity of CO2 reduction reaction to CO on the graphitic edge active sites of Fe-single-atom and dual-atom catalysts: A combined DFT and microkinetic modeling</titulo>
+      <autores>
+        <autor>A Nuruddin</autor>
+        <autor>A Saputro</autor>
+        <autor>A Maulana</autor>
+        <autor>F Rusydi</autor>
+        <autor>F Akbar</autor>
+        <autor>H Yudistira</autor>
+        <autor>H Dipojono</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical looping gasification of biomass char in fluidized bed and CO2-enriched atmosphere</titulo>
+      <autores>
+        <autor>F Miccio</autor>
+        <autor>L Polchri</autor>
+        <autor>A Murri</autor>
+        <autor>E Landi</autor>
+        <autor>V Medri</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of equivalence ratio on the CO selectivity of Fe/Ca-based oxygen carriers in biomass char chemical looping gasification</titulo>
+      <autores>
+        <autor>N Xue</autor>
+        <autor>Z Wang</autor>
+        <autor>J Wu</autor>
+        <autor>T He</autor>
+        <autor>J Zhang</autor>
+        <autor>J Li</autor>
+        <autor>J Wu</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Predictions of burnout times of biomass char using experimentally determined CO to CO2 ratio</titulo>
+      <autores>
+        <autor>K Kwong</autor>
+        <autor>L Mleczko</autor>
+        <autor>W Moujar</autor>
+        <autor>J Bakhti</autor>
+        <autor>E Dennis</autor>
+        <autor>Marek</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>CO/CO2 ratio in biomass char oxidation</titulo>
+      <autores>
+        <autor>A Anca-Couce</autor>
+        <autor>P Sommersacher</autor>
+        <autor>A Shiehnejadhesar</autor>
+        <autor>R Mehrabian</autor>
+        <autor>C Hochenauer</autor>
+        <autor>R Scharler</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+  </referencias>
+</tesis>

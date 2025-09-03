@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="es">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">CENTRO DE INVESTIGACIÓN EN MATERIALES AVANZADOS, S.C</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Departamento</forename><surname>De</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Medio</forename><surname>Ambiente</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><surname>Energia</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Daniel</forename><forename type="middle">Arturo</forename><surname>Leal</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chávez</forename><surname>Chihuahua</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chih</forename><surname>Enero</surname></persName>
+						</author>
+						<title level="a" type="main">CENTRO DE INVESTIGACIÓN EN MATERIALES AVANZADOS, S.C</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1BF7DF2DBE742084DDD2F95761ED8F4F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-08-29T18:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Modelación y experimentación de un colector solar de tubos evacuados para su optimización a través de un flujo variable"</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="es">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lista de Figuras</head> <ref type="bibr" target="#b39">(Pathak, 2022)</ref> <p>......... Figura 5. Procesos industriales que requieren energía térmica <ref type="bibr" target="#b29">(Kalogirou S. A., 2013)</ref> ........ Figura 6. Esquema de un sistema de colector sola de tubos evacuados con PCM y la configuración dual PCM del sistema de calentamiento de agua <ref type="bibr" target="#b38">(Papadimitratos, 2016)</ref> ...... Figura 7. Ganancia energética del sistema de circulación forzada en un sistema solar de calentamiento de agua en diferentes estrategias de funcionamiento: Bing Bang, Swtiching, Solución propuesta <ref type="bibr" target="#b35">(Ntsaluba, 2016)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lista de Tablas</head><p>Tabla 1. Características generales del colector <ref type="bibr">(Apricus, Technical Information, ETC-30 Solar Collector, 2015)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introducción</head><p>En la actualidad, el ámbito ambiental ha sido de gran interés para la comunidad científica, ya que fenómenos como el cambio climático la contaminación ambiental (en cuerpos de agua, atmosférica y de suelos) han afectado notablemente la biosfera, la salud y la economía en relación con el ser humano. Por lo que se ha optado por la generación de conocimiento relacionada con la mitigación, conservación y protección del medio ambiente. De manera que la aplicación de energías renovables es una opción notable. Este tipo de energías benefician al suministro energético en favor de reducir el uso de energías proveniente de fuentes no renovables como, por ejemplo: fuentes de combustible fósil, gas natural, aceites y carbón. Por lo anterior, la crisis del crecimiento energético y su demanda es uno de los mayores problemas del siglo 21 <ref type="bibr" target="#b31">(Khan, 2016)</ref>. Esto se relaciona con la generación de energía eléctrica, donde a nivel nacional, en 2015, el 80% de la electricidad se generó a través de combustibles fósiles. En concreto, el 50% se generó en centrales de ciclo combinado que utilizan gas natural, el 13% en centrales termoeléctricas que utilizan crudo y derivados, el 11% en centrales de carbón, el 4% en centrales de turbo gas que utilizan gas natural y Diesel, el 2% en combustión interna y fluidizada plantas de lecho que utilizan Diesel y otros combustibles fósiles y el 20% a través de energías limpias (10% hidroeléctrica, 4% nuclear, 3% eólica, 2% geotérmica y solar, 1% bioenergía) (Villalba-Pastrana, 2024).</p><p>En realidad, el consumo energético es inevitable ya que este es necesario para aplicaciones cotidianas e industriales como: calentamiento, iluminación, transportación y producción <ref type="bibr" target="#b30">(Kartal, 2024)</ref>. Además, que la producción de energía es una de las causas más impactantes en la degradación ambiental <ref type="bibr" target="#b34">(Mukhtarov, 2022)</ref>. Debido a esta situación, se ha potenciado el desarrollo de tecnología, diseños y métodos, que generen un ahorro energético y optimicen el aprovechamiento de la energía de origen natural como lo son: la energía solar, energía eólica, hidráulica, geotérmica y la bioenergía. En donde se destacan tecnologías que han logrado aplicar dichos recursos renovables, por ejemplo: sistemas de energía solar térmica, sistemas de biodigestión, sistemas fotovoltaicos, autogeneración de energía eléctrica a partir de biogás, aerogeneradores, bombas de calor geotérmicas, sistemas maremotérmicos, colectores solares, entre otros. Además, que, según la Agencia Internacional de Energía (IEA, por sus siglas en ingles), la derivación de la energía mundial proveniente de combustibles fósiles es de un 82%, donde señalan que ese valor ha sido constante durante los últimos 25 años. Sin embargo, con el desarrollo y la aplicación tecnológica de fuentes renovables se espera que disminuya hasta una 75% para el año 2035 <ref type="bibr" target="#b31">(Khan, 2016)</ref>. Por lo tanto, la contribución científica a los sistemas de energía renovable representa un escalón más arriba para alcanzar dicha cifra, sin embargo, esto representa un desafío notable para el área de la ciencia energética.</p><p>Para lograr la disminución de la producción energética por fuentes no renovables, entra en gran importancia el desarrollo de tecnología para la aplicación de energías alternativas lo cual se entiende por la energía que se obtiene de fuentes naturales, es decir virtualmente inagotables, ya sea por la inmensa cantidad de energía que contienen o por ser capaces de regenerarse por medio naturales: como lo son el agua, el viento, el sol, entre otros <ref type="bibr" target="#b51">(Spiegeler, 2016)</ref>. En la siguiente figura se muestran las fuentes de energía renovable a nivel mundial <ref type="bibr">(Ellabban O. A.-R., 2014)</ref>. Como se puede notar en la Figura 1, el recurso solar en comparación con otros es inmenso, no obstante, el aprovechamiento de este en materia energética es uno de los grandes desafíos de este siglo. Por tanto, nuevamente se expone una oportunidad de generación de conocimiento que contribuya al aprovechamiento de energía solar y su aplicación directa a las necesidades básicas y complejas de la propia humanidad. Por lo tanto, la energía solar es uno de los recursos energéticos renovables más utilizados y se obtiene mediante sistemas como: colectores solares térmicos, fotovoltaicos (PV) e híbridos <ref type="bibr" target="#b0">(Ahmed, 2021)</ref>.</p><p>Como se mencionó anteriormente, cada aplicación de las tecnologías de energías alternativas tiene su fuente: para el caso de esta investigación, de la presente tesis, es la energía solar, siendo el sol una de las fuentes de energía más abundantes en la Tierra, tal como se muestra en la Figura 1. Además, naturalmente la energía solar disponible que llega a la superficie de la tierra con una cantidad de potencia de 120 petavolts (120 × 10 15 ), lo que significa que la cantidad de energía recibida del sol en un solo día puede satisfacer la demanda energética del mundo entero por más de 20 años <ref type="bibr" target="#b6">(Chu, 2011)</ref>. Como se mencionó para su aplicación, existen una gran variedad de sistemas tecnológicos de energía solar en los que se encuentran los sistemas solares de calentamiento de agua, donde son de los mejores ejemplos de aplicación de colectores solares térmicos en tecnologías de energía renovable. Esto debido a sus características: bajo costo, bajo impacto en el calentamiento global y larga vida útil. Lo que depende del área geográfica, las condiciones climáticas, la disponibilidad de radiación solar y la disposición del sistema, que pueden mejorar el rendimiento térmico <ref type="bibr" target="#b0">(Ahmed, 2021)</ref>. Esto se hace notar en la siguiente figura, donde dependiendo de la región geográfica el recurso solar disponible es variante publicado por (World Bank Group, 2019).</p><p>Figura 2. Potencial fotovoltaico de varios países en base diaria y anual para el potencial de energía fotovoltaica <ref type="bibr">(World Bank Group, 2019)</ref> Por lo anterior, se estudió un sistema de colector solar para agua caliente, el cual es un tipo de intercambiador de calor que convierte la radiación solar en una forma útil de energía interna del fluido circulante <ref type="bibr" target="#b12">(Duffie, 2020)</ref>. Utilizado para el calentamiento de agua por energía solar, el cual está basado en la captación de la irradiancia solar y de esta manera ser usada para obtener agua caliente de uso residencial, comercial e industrial, calefacción para piscinas, e incluso generación de vapor. Los componentes de un sistema solar de calentamiento de agua están basados en tres elementos principales: el tanque de almacenamiento de agua, el fluido de trabajo y el colector solar. Este último, puede ser de distintos tipos: de panel plano, de tubos evacuados y de discos parabólicos <ref type="bibr" target="#b39">(Pathak, 2022)</ref>, tal como se muestra en la Figura 4. Por lo tanto, existen diferentes configuraciones a la hora de emplear un sistema de colectores solares, por ejemplo, para obtener un rango de temperatura de 20 a 80 °C, están los colectores de placa plana <ref type="bibr" target="#b49">(Sharma, 2011)</ref>, también existen los colectores solares de tubos evacuados, los cuales alcanzan un rango de temperatura de 50 hasta 200 °C <ref type="bibr" target="#b29">(Kalogirou S. A., 2013)</ref>. Además, que este representa el 77.8% de los sistemas de calentamiento de agua por energía solar térmica <ref type="bibr" target="#b21">(Gautam, 2017)</ref>.</p><p>Entre la variedad de tipos de colectores solares, se utilizó un colector de tubos evacuados el cual utiliza tubos de vidrio con vacío paralelos o tiras de metal que contienen tubos absorbentes dentro de cada tubo individual. El transporte de calor a través de los tubos absorbentes incluye el flujo de agua o fluido que se desee cambiar su temperatura <ref type="bibr" target="#b41">(Plante, 2014)</ref>. Este tipo de colectores muestran un buen rendimiento térmico y mayor eficiencia en comparación con los de placa plana para aplicaciones de baja temperatura debido a su transportabilidad, ser más económico y rentable <ref type="bibr" target="#b5">(Chopra, 2018)</ref>. Destacando que los colectores de tubos evacuados son considerados de menor costo y con menor perdida de calor que los de placa plana <ref type="bibr" target="#b28">(Kalogirou S. , 2003)</ref>. Esto, se le puede atribuir al espacio vacío que se genera dentro del tubo, mejorando la captación de energía solar, reduciendo así las perdidas por convección y conducción, además que la forma cilíndrica de esta clase de colectores permite tener un reflejo de la radiación solar entre los mismos colectores, aprovechando el fenómeno de reflexión de la radiación solar, Alcanzando así una eficiencia de hasta un 60.7%, en comparación con un 46.1% para los colectores de placa plana <ref type="bibr" target="#b46">(Sabiha, 2015)</ref>.</p><p>Estos son sistemas alternativos, que contribuyen al uso de energía renovable. Esta clase de aplicaciones indicó que, a finales del 2012, la capacidad termo solar mundial en operación alcanzó un estimado de 282 GWh y para los sistemas de colectores solares de agua caliente alcanzó 255 GWh <ref type="bibr">(Ellabban O. A.-R., 2014)</ref>. Esto indica que es una tecnología que ha tenido gran crecimiento en el siglo actual, y que se está convirtiendo en una alternativa para el uso de agua caliente, lo cual es uno de los objetivos de esta investigación. Además, a nivel mundial los países que más han aplicado esta tecnología son China, Alemania, Turquía, Brasil y la India <ref type="bibr">(Ellabban O. A.-R., 2014)</ref>. Donde se destaca a nivel mundial que entre el 15 % al 20 % del consumo de energía eléctrica, es usada para la producción de agua caliente <ref type="bibr" target="#b39">(Pathak, 2022)</ref>. Por lo que un sistema de colector solar térmico es una gran opción para reducir el consumo de combustibles fósiles y los efectos que impactan negativamente al medio ambiente. Ya sea para aplicaciones domésticas o industriales. Como, por ejemplo, para el uso de agua caliente doméstica, sistemas de desalinización, generación de aire caliente y producción de electricidad. En la siguiente figura se muestra un esquema típico de los colectores solares para el calentamiento de agua descrito por <ref type="bibr" target="#b39">(Pathak, 2022)</ref>.</p><p>Figura 3. Esquema de sistemas activo y pasivo de calentamiento de agua utilizando energía solar <ref type="bibr" target="#b39">(Pathak, 2022)</ref> Figura 4. Componentes de sistemas solares de calentamiento de agua <ref type="bibr" target="#b39">(Pathak, 2022)</ref> Por lo anterior, los sistemas de colectores solares de tubos evacuados son una gran oportunidad para el aprovechamiento de energía solar, por su alta eficiencia y su bajo nivel de pérdida de calor. Sin embargo, como en todo sistema térmico, existen pérdidas de calor debido procesos de la transferencia de calor, por lo cual, existen varios parámetros que pueden mejorar la eficiencia de estos sistemas, desde la caracterización de los materiales, el análisis de la transferencia de calor, el fluido de transferencia de calor en el heat pipe, la estructura del intercambiador de calor (manifold), hasta los fenómenos de transporte que el fluido debe tener para alcanzar un mayor rendimiento, con el objetivo de obtener la temperatura salida deseada. Por lo tanto, se presentan algunos desafíos que van desde la propia integración de estos sistemas, la selección de los dispositivos que lo componen y su optimo funcionamiento. para volver más atractivo la aplicación de estos sistemas, la investigación basada en la obtención de una mayor eficiencia, mediante la variación de dichas características, significa un mayor aprovechamiento energético proveniente de Sol. Lo cual da como resultado un mayor interés por parte de la sociedad y la industria, ya que esta clase de sistemas de energías alternativas puede representar ahorros económicos, respecto al uso de energía convencional.</p><p>De tal manera que se propone optimizar un sistema de colector solar de tubos evacuados a través de un sistema de control que manipule el flujo volumétrico, para que de esta manera otorgue un cambio de temperatura específico para diferentes niveles de irradiancia. Por lo que se realizó la experimentación con diferentes flujos constantes analizar el comportamiento que tiene sobre la temperatura de salida, la eficiencia térmica y la potencia calorífica transferida al fluido. Así mismo se realizaron diferentes simulaciones utilizando el software TRNSYS, el cual es un programa de simulación en áreas energéticas para procesos transitorios y en este caso, para el sistema de energía solar de un colector. Se realizó un comparativa del sistema convencional de aplicación de estos sistemas, el cual utiliza un flujo constante, con respecto al sistema propuesto, definido como sistema de control de flujo variable o SCFV por sus siglas. Proponiendo así, un modo de operación diferente, el cual mejora el comportamiento térmico de este sistema de calentamiento de agua y volviéndolo un dispositivo más eficiente, al caracterizar y modelar el flujo volumétrico en función de un gradiente de temperatura específico y la irradiancia recibida.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1">Antecedentes</head><p>La energía es necesaria para cualquier necesidad industrial, doméstica y en cualquier sector de servicios para el ser humano. Esta dependencia está marcada por hace años y seguirá siendo un factor fundamental para la modernización y el desarrollo social, económico, académico, sanitario y científico. En el caso de la energía térmica y la industria, un 35% del consumo energético está en el sector industrial, de ese porcentaje 30% de la industria utiliza energía térmica a temperatura cercanas a los 150 °C, 22% entre el rango de temperatura de 150 a 400°C y 48% a altas temperaturas mayores a los 400°C <ref type="bibr" target="#b33">(Kumar, 2019)</ref>. Este dato es relevante para mostrar que existe una necesidad de obtener rangos de temperaturas específicos, en relación con la obtención de un modelo de estimación y optimización para el flujo de un sistema de colector solar de tubos evacuados como se pretende en esta tesis. A menudo, en la industria se pueden aplicar sistemas de colectores solares de gran tamaño, debido a las cargas de calefacción elevadas y constantes, que pueden generar costes de generación de calor solar muy bajos, el cual es aplicado en sistemas textiles, farmacéuticas, procesamiento de alimentos, secado, lavado, esterilización y pasteurización. <ref type="bibr" target="#b47">(Schmitt, 2016)</ref>.</p><p>En la siguiente figura se muestran algunos de estos ejemplos.</p><p>Figura 5. Procesos industriales que requieren energía térmica <ref type="bibr" target="#b29">(Kalogirou S. A., 2013)</ref> Por lo tanto, los avances en cuanto a las nuevas técnicas y tecnologías de estos sistemas son realmente notorios desde los últimos años, por lo que actualmente existe un gran número de artículos de investigación que proponen mejoras para el progreso de estas tecnologías. Tal es el caso del artículo de revisión <ref type="bibr">(Evangelisti, 2019)</ref>, donde se exponen los últimos avances en cuanto los sistemas que utilizan la radiación solar, describiendo los distintos tipos de colectores solares desde un análisis energético, así como los efectos en cada uno de los componentes y sus materiales, también exponen la novedosa aplicación de nano fluidos como fluidos de trabajo. En el mismo artículo de revisión, presentan que, hasta la fecha de la publicación, hay más de 17,000 artículos de investigación y más de 14,000 trabajos de experimentación, demostrando el interés notable de este campo de investigación. También detallan en sus conclusiones la importancia del enfoque del análisis térmico para la mejora de la eficiencia. Sin embargo, no se menciona la aplicación de un modelo y su posterior experimentación para el control del flujo del fluido de transferencia de calor, como una opción para mejorar el rendimiento del sistema de colectores solares de tubos evacuados.</p><p>A continuación, se muestran algunos estudios en relación a la optimización de este sistema de colectores, basándose en distintos enfoques, priorizando los estudios en los cuales se determina una tasa de flujo óptimo para el funcionamiento del colector, lo cual es el objetivo de esta investigación: optimizar el rendimiento del colector solar de tubos evacuados bajo el control y modelación del flujo másico en función de la irradiancia recibida y los rangos de temperatura de operación para distintas aplicaciones. Donde el límite teórico de eficiencia energética de un colector solar térmico está representado por la cantidad de radiación solar que puede interceptar y absorber <ref type="bibr">(Evangelisti, 2019)</ref>.</p><p>Uno de los métodos para mejorar la funcionalidad del calor generado en la obtención y mantenimiento de agua caliente, es el método de materiales de cambio de fase (PCM, por sus siglas en ingles), en el cual busca aprovechar los cambios de fase del tubo de calor, proporcionando agua caliente durante una mayor demanda de tiempo cuando la radiación solar es insuficiente. En el artículo <ref type="bibr" target="#b38">(Papadimitratos, 2016)</ref>, los materiales que proponen se componen por una fase dual compuesta por tritriacontano y eritritol, con temperaturas de fusión de 72°C y 118 °C, respectivamente. Donde obtienen una mejora de la eficiencia del 26% para el funcionamiento normal y 66% para el modo de estancamiento, esto se compara con los calentadores de agua convencionales que no tienen materiales de cambio de fase. En principio el uso de estos materiales permite un almacenamiento de calor durante un periodo más largo, para utilizar el agua caliente cuando se demanda, en donde se obtuvieron gradientes de temperatura máxima de 8 °C y 15°C de los modos normal y de estancamiento.</p><p>Sin embargo, el flujo masico utilizado fue un valor fijo alrededor 0.0126 kg/s, por lo que este parámetro no es variable, como sí se busca en esta tesis.</p><p>Figura 6. Esquema de un sistema de colector sola de tubos evacuados con PCM y la configuración dual PCM del sistema de calentamiento de agua <ref type="bibr" target="#b38">(Papadimitratos, 2016)</ref> Los modelos matemáticos permiten resolver problemas reales, a través de un lenguaje matemáticos que representan un fenómeno físico de algún sistema. De tal manera, que es posible obtener una perspectiva más amplia del fenómeno a estudiar. El caso de los sistemas solares no es la excepción. Para fines de estudio de la presente investigación, la determinación del flujo para un sistema de colectores térmicos es fundamental. Como es el caso de estudio <ref type="bibr" target="#b52">(Sultan, 2021)</ref>, donde proponen una función para el flujo másico de un flujo de un fluido forzado, con el objetivo de calcular el punto de eficiencia máxima, derivada de ecuaciones de regímenes de flujos laminares, transitorios y turbulentos. Para lo cual, se aplica a un sistema fotovoltaico solar térmico (photovoltaic solar thermal collector, PVT, por sus siglas en ingles), donde se busca generar calor y electricidad. Este sistema propone una convección forzada a través de una bomba o ventilador, según se utilice agua o aire, respectivamente. La determinación del flujo optimo, es determinado por el número de Reynolds, el cual nos indica el tipo de flujo: laminar, transitorio y turbulento, y a partir de este, utilizar los modelos matemáticos propuestos, según el tipo de flujo. Las ecuaciones que se presentan en este artículo presentan un procedimiento a considerar para determinar el flujo para el sistema de colector solar de tubos evacuados que se pretende estudiar.</p><p>Un caso similar <ref type="bibr" target="#b20">(Garg, 1995)</ref>, estudia un sistema cerrado PVT que opera bajo la variación de la radiación solar y la temperatura ambiente diaria. Donde utilizaron una simulación para obtener la eficiencia diaria en valores de tiempo promedio, variando los flujos másicos, de la observación de un flujo optimo diario. Para ello, basaron la operación de acuerdo con la bomba, operada en dos tiempos de encendido y apagado, en función de la radiación solar y la temperatura ambiente, determinando el flujo másico critico de 0.03 kg/s para una eficiencia de 8.1%. Cabe señalar que este artículo fue realizado en los años noventa, de tal manera que los avances en cuanto a los sistemas de colectores solares aún seguían en progreso, debido a que no es comparable con las condiciones tecnológicas y científicas para la actualidad. Sin embargo, se asemeja al objetivo de esta investigación y representa una excelente metodología a utilizar y experimentar.</p><p>En otro artículo <ref type="bibr" target="#b35">(Ntsaluba, 2016)</ref> o, proponen la optimización del flujo de una bomba, por circulación forzada, de un sistema de colector solar de placa plana, donde el objetivo es maximizar la transferencia energética de la circulación de un fluido, definiendo la temperatura en un tanque de almacenamiento de agua caliente. El modelo se basa en la primera y la segunda ley de la termodinámica, considerando la diferencia entre la energía extraída del colector solar y la suma de la energía extraída por un intercambiador de calor, bajo dos ciclos de circulación forzada utilizando dos bombas. Aplicaron distintas estrategias para la variación del funcionamiento de este sistema. La primera la denominan Bang-Bang, con flujos másicos de 0.00001 kg/s hasta 0.01 kg/s, a diferentes periodos de radiación solar, ver figura. La segunda estrategia la denominaron switching, refiriéndose al apagado y encendido de la bomba, el cual pretende alternar límites máximos y mínimos, donde requiera un flujo másico especifico, con el objetivo de mantenerse durante periodos donde la disponibilidad de radiación solar no es la deseada. Esta estrategia pretende reducir las pérdidas de potencia de la bomba y las pérdidas térmicas. Estas dos técnicas se comparan con a la solución propuesta por el modelo, obteniendo un impacto de perdidas térmicas del 6.03%, 7.34% y 5.54%, utilizando las estrategias bang-bang, encendido-apagado (switching) y la solución propuesta, respectivamente. Mostrando un incremento del 7.28% en la cantidad de calor extraído. De tal manera que este artículo ofrece una alternativa para la aplicación y control de un flujo forzado mediante una bomba hidráulica.</p><p>Figura 7. Ganancia energética del sistema de circulación forzada en un sistema solar de calentamiento de agua en diferentes estrategias de funcionamiento: Bing Bang, Swtiching, Solución propuesta <ref type="bibr" target="#b35">(Ntsaluba, 2016)</ref> Adicional a los artículos de investigación en relación con la modelación de la tasa de flujo, se encuentra un estudio basado en el estudio de los perfiles de temperatura, las características de transferencia de calor y la eficiencia térmica de un colector solar de placa plana a diferentes tasas de flujo de aire, realizado por <ref type="bibr" target="#b42">(Rani, 2020)</ref>. Para el cual, utilizaron un análisis multivariante al considerar diferentes factores bajo condiciones de convección natural y convección forzada. En cual justifican que de acuerdo con <ref type="bibr" target="#b33">(Kumar, 2019)</ref>, existe una mejora en la eficiencia térmica máxima de un colector, cuando se aumenta el flujo másico del aire desde 0.0007 kg/s hasta 0.022 kg/s, con eficiencias de 25.2% y 43.4%, respectivamente. Para esto, argumentan que el factor de flujo másico es una variable que influye en el desempeño térmico de un colector solar, sin embargo, la determinación de un flujo optimo está relacionado con otros factores: temperatura, irradiancia, convección de transferencia de calor y los tubos de evacuados. Si bien, el estudio realizado por <ref type="bibr" target="#b42">(Rani, 2020)</ref>, es utilizado para sistemas solar para aire, un estudio sobre sistemas de calentamiento solar de agua es una ventana de oportunidad para desarrollar, como lo es uno de los objetivos de esta investigación. En tal articulo utilizan métodos numéricos y de experimentación. Para esto las relaciones de las variables tienden a ser lineales, debido al comportamiento de la capacidad solar a lo largo del día. Analizando el desempeño del sistema a flujo másico de aire de 0.006 kg/s, 0.1 kg/s, 0.015 kg/s y 0.02 kg/s, las temperaturas a medir fueron: la temperatura de entrada del aire, la temperatura después del salir del colector, la temperatura el vidrio y en el plato absorbente de los colectores y la temperatura ambiente. Donde capturaron valores de irradiancia y de temperatura por periodos de 30 minutos. Luego, analíticamente determinaron los coeficientes de transferencia de calor, la eficiencia térmica, el análisis de incertidumbre en las mediciones y un análisis multivariante, con el objetivo de encontrar resultados de correlación de los distintos flujos másico, las temperaturas medidas y la irradiancia solar.</p><p>Entre los resultados se destaca el aumento de la eficiencia térmica de un 22.53% hasta una 32.3%, con respecto a los flujos de 0.006 kg/s a 0.02 kg/s. Además, encontraron una correlación en relación con intensidad de la energía solar y la temperatura de salida del aire, donde que esta influenciada positivamente por la temperatura del vidrio, el plato absorbente y la temperatura ambiente. Debido a la relación en cuanto al incremento de la intensidad solar y el incremento del coeficiente de transferencia de calor debido a la convección y la radiación captada por el colector. De tal manera que la información presentada en este artículo presenta herramientas analíticas, experimentales y estadísticas para la optimización de sistemas de energía solar, por lo que representa un caso de estudio que puede ser utilizado fines de esta tesis, ya que se comparte objetivos similares. Sin embargo, para nuestro caso, el fluido de En cuanto a los resultados de la eficiencia del colector a distintos flujos para diferentes modelos de predicción (HWB, ISO 9806, ANN) y balance de energía se muestran en la Figura 8. De la misma forma se muestran en la Figura 9 la predicción de la temperatura de salida.</p><p>Figura 9. Resultados para la aproximación de la temperatura de salida <ref type="bibr" target="#b9">(Diez, 2019)</ref> Esta investigación propone un modelo de predicción con un nivel alto de R 2 del 0.999. Con un procedimiento muy similar al que se busca en esta investigación, sin embargo, el flujo másico optimo no es determinado, como si lo es la temperatura de la salida, por lo que este estudio es de gran interés para considerar los modelos HWB e ISO 9806 para evaluarlo con el modelo propuesto está presente investigación. Otro modelo de control optimo es propuesto por <ref type="bibr" target="#b3">(Badescu, 2007)</ref>, basado en un algoritmo de optimización de trayectorias por programación matemática (TOMP, por sus siglas en ingles), para la caracterización de la tasa del flujo másico optimo en colectores de placa plana. Donde determinaron que el flujo másico optimo aumenta conforme se aproxima al atardecer y al amanecer, en relación con incremento de la temperatura del fluido. Esto nos indica que, puede existir una relación dependiente de la irradiancia recibida, donde en la misma investigación argumenta la buena</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2">Justificación</head><p>Las energías alternativas sin duda son una opción para mitigar los efectos negativos del uso de las fuentes fósiles al medio ambiente, incluso en la actualidad la aplicación de estas energías está generando un mayor interés en la sociedad. Sin embargo, aún existe la tarea que a través de la innovación y el desarrollo de estas tecnologías se tengan un mayor impacto en los sistemas de energía. De tal manera que la mejora y la optimización de los sistemas de energías alternativas, como lo son los sistemas de calentamiento de agua por medio de colectores solares de tubos evacuados, representan el punto de partida para impulsar el uso de estos sistemas térmicos. Ya que, al revisar una serie de artículos de investigación relacionados con la optimización de colectores solares en relación con el flujo, se encuentra que no hay como tal una propuesta basada en la optimización a través de un flujo variable para distintas irradiancias, siendo entonces que la propuesta de esta tesis se puede considerar como una notable primicia en la técnica del uso de colectores solares. De tal manera que los puntos más relevantes que justifican esta investigación son: 1) Se estudia el flujo óptimo para un colector solar de tubos evacuados, la mayor parte de las investigaciones reportadas utilizan colectores de placa plana (los cuales manejan un modo totalmente distinto en el proceso de intercambio de calor). 2) Se determina el comportamiento del flujo másico en función de la irradiancia recibida en el colector, la temperatura de entrada y la temperatura ambiente. 3) La validación experimental, teórica y por métodos de simulación que se desarrolló, permite obtener una optimización para el flujo, y logrando estimar un comportamiento para un año típico en la Cd. de Chihuahua. 4) La determinación de este modelo permite iniciar futuros trabajos de investigación con el objetivo de emplear un sistema de control digital que manipule el flujo instantáneamente en función de dicho modelo, es decir de diferentes niveles de irradiancia. Por lo tanto, esta propuesta representa una mejora al modo de operación, ahorros de consumo energético por fuentes externas y una utilidad de funcionalidad mayor, ya que, al determinar el flujo óptimo de operación según las condiciones diaria, representaría una manera de considerar los sistemas de colectores solares más interesantes para su aplicación, ya sea en el sector industrial como en el doméstico.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3">Hipótesis</head><p>El control de flujo en un colector solar de tubos evacuados mejora la eficiencia térmica y la capacidad de transferencia de calor al fluido, por lo cual es posible determinar el flujo optimo d en función de los niveles de irradiancia y las condiciones de temperatura de entrada y ambiente.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.4">Objetivo General</head><p>Determinar los flujos óptimos a distintos niveles de irradiancia de un colector solar de tubos evacuados en función de la temperatura ambiente, la temperatura de entrada, la temperatura de salida, y la irradiancia recibida.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.5">Objetivos específicos</head><p>1.</p><p>Obtener una base de datos de irradiancia y de temperaturas ambiente en la Cd. de Chihuahua, así como lecturas de temperatura de entrada y de salida del fluido en el colector solar a distintos flujos volumétricos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Simular en TRNSYS el comportamiento del colector solar en distintas condiciones y en distintas conexiones en serie de colectores.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head><p>Establecer un sistema de control de flujo variable en TRNSYS que sea capaz de modificar el flujo en función de la irradiancia recibida, para un cambio de temperatura específico con la finalidad de optimizar el flujo dentro del colector solar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.</head><p>Evaluar el modelo propuesto de flujo variable y el convencional de flujo constante para conexiones en serie de colectores en TRNSYS, para un análisis energético y de consumo. Esto con el objetivo de encontrar las diferencias en cuanto a la temperatura de salida y del desempeño termodinámico en los dos modos de operación: normal y el propuesto.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Marco teórico</head><p>El avance en tecnologías para el aprovechamiento de la energía solar ha permitido el desarrollo de sistemas cada vez más eficientes y adaptables a distintas condiciones climáticas.</p><p>Entre estos sistemas destacan los colectores solares de tubos evacuados (ETSC, por sus siglas en inglés), los cuales aprovechan principios termodinámicos para transformar la radiación solar en calor utilizable. Estos dispositivos, mediante el empleo de un diseño sofisticado que incluye cámaras de vacío y tubos de transferencia térmica, logran minimizar las pérdidas de calor al entorno y optimizar la captación de energía solar. En esta sección, se analizarán las características y fundamentos operativos de los colectores solares de tubos evacuados, haciendo énfasis en su estructura, funcionamiento y eficiencia térmica, así como su relevancia en la optimización del aprovechamiento energético en diversas aplicaciones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Colectores solares de tubos evacuados</head><p>Los colectores solares de tubos evacuados (ETSC, por su nombre en inglés, Evacuated tube solar collectors), están conformados por dos tubos concéntricos de vidrio: interior y exterior, el exterior esta recubierto por un material absorbente, mientras el interior es transparente, de tal manera que una de sus características principales es el vació que se genera, permitiendo que sea utilizado en cualquier temporada del año. Dentro de estos dos tubos se encuentra uno de cobre, denominado heat pipe, por su nombre en inglés, el cual contiene un fluido, que tiene la característica de tener un bajo punto de evaporación, donde el fluido más utilizado es alcohol, el cual es capaz de evaporarse a bajas temperaturas <ref type="bibr">(Evangelisti, 2019)</ref>. De tal manera que la radiación solar pasa a través de los tubos transparente y absorbente, provocando que el tubo interior de cobre (generando cambios de fase evaporación y condensación dentro de este tubo) se caliente. Por consiguiente al elevar la temperatura del fluido en el heat pipe y llegar al punto de evaporación convirtiéndose en vapor, este se elevaba hasta la cabeza del heat pipe, por lo que este vapor llega a estar en contacto con la sección del intercambiador de calor manifold (por su nombre en inglés), donde a través de este dispositivo pasa una tubería la cual lleva el agua o el fluido que se desea cambiar su temperatura, considerando como el fluido de trabajo, donde uno de los más utilizados en sistemas solares es el agua, esto debido al ser no toxico, económico y de fácil disposición <ref type="bibr" target="#b23">(Hussain, 2018)</ref>. Entonces, al pasar el agua por el manifold y al mismo este último estar en contacto con la cabeza del heat pipe ocurre el fenómeno de transferencia de calor por conducción hacia el agua, por consiguiente, el fluido dentro del heat pipe pierde energía y disminuye su temperatura pasando a un estado de condensación, descendiendo por efecto de gravedad, por lo que regresará a la sección del evaporador, y es entonces que este se convierte en un ciclo continuo, siempre y cuando la irradiancia sea considerable. Por esto, se realizan arreglos en serie de estos tubos logrando que el agua que pasa a través del manifold aumente su temperatura para alcanzar los requerimientos de temperatura según su aplicación.</p><p>Figura 10. Componentes de un sistema de colector solar de tubos evacuados (Apricus, Evacuated tube solar collector, 2024)</p><p>Para estos sistemas de colectores solares se considera que el ángulo de radiación solar sea perpendicular a los tubos, esto para permitir que los tubos aprovechen la máxima cantidad de radiación solar. Además, como se mencionó anteriormente, dentro del tubo existe una cámara de vacío la cual actúa como un aislante térmico, permitiendo que haya una mejor transferencia hacia el fluido dentro del heat pipe, evitando perdidas de calor al ambiente, este mecanismo se muestra de mejor manera en la siguiente figura.</p><p>Figura 11. Diagrama de la absorción de energía solar y el proceso térmico dentro del heat pipe <ref type="bibr" target="#b48">(Shafieian, 2019)</ref> El vació empleado en estos sistemas es una característica a favor de los colectores solares de tubos evacuados (ETSC), ya que su desempeño, no se ve restringido en condiciones de bajas temperaturas o por el viento, ya que el vacío en el interior del tubo reduce las perdidas por convección y conducción dentro del tubo de vació <ref type="bibr" target="#b48">(Shafieian, 2019)</ref>. Así mismo, los tubos evacuados tienen una ventaja geométrica que permite realizar un seguimiento pasivo de la energía solar recibida, además que el ángulo de inclinación con respecto a la horizontal de la posición del colector, en su colocación de máxima irradiancia anual maximiza las ganancias de calor anualmente <ref type="bibr" target="#b48">(Shafieian, 2019)</ref>.</p><p>En cuanto a la eficiencia térmica de este sistema, se relaciona con el coeficiente de perdida, el cual incluye perdidas por conducción y convección. Aunque las pérdidas de calor por conducción y convección son minimizadas por la alta temperatura alcanzada dentro del vació del tubo, se puede lograr temperaturas muy altas con un nivel de eficiencia considerable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Características del colector solar de tubos evacuados ETC-30</head><p>En las siguientes tablas muestran las características físicas y técnicas del colector solar tubo evacuados Apricus ETC-30. Ver Anexo. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Análisis termodinámico del colector solar</head><p>Los colectores solares son un tipo especial de intercambiadoras de calor, los cuales transforman la radiación solar en calor aprovechable, el cual se transfiere a un fluido que circulo por dicho colector. (S., 2017), como se muestra en la Figura 12. Durante el proceso de captación de radiación solar, existe transferencia de calor entre el colector y el medio ambiente por medio de conducción, convección y radiación. Así que para poder llevar acabo un balance de energía en el colector, es necesario incluir estas transferencias de calor <ref type="bibr" target="#b45">(Sabiha MA, 2015)</ref>. De tal manera que el calor útil entregado por el colector 𝑄 𝑈 , es la diferencia entre la energía transferida al fluido de trabajo 𝑆 y las pérdidas de calor entre el colector y los alrededores 𝑄 𝐿 .</p><formula xml:id="formula_0">𝑄 𝑈 = 𝑆 -𝑄 𝐿<label>(1)</label></formula><p>Figura 12. Esquema del proceso de transferencia de calor en un tubo de vacío, el intercambiador de calor y el fluido circundante <ref type="bibr" target="#b13">(Elbahjaoui, 2019)</ref> El modelo básico de desempeño energético se expone como la aplicación de la radiación solar al colector y la medición de la temperatura de entrada y la temperatura de salida y el flujo másico, por lo tanto, el calor útil se define como <ref type="bibr" target="#b12">(Duffie, 2020)</ref>:</p><formula xml:id="formula_1">𝑄 𝑈 = 𝑚̇𝐶 𝑝 (𝑇 𝑜𝑢𝑡 -𝑇 𝑖𝑛 )<label>(2)</label></formula><p>De tal manera que el desempeño energético del colector solar se define como la eficiencia dada por el calor útil sobre la irradiancia recibida en un área determinada, tal como se muestra en la siguiente ecuación.</p><formula xml:id="formula_2">𝜂 = 𝑄 𝑈 𝐴 𝑐 𝐺 = 𝑚̇𝐶 𝑝 (𝑇 𝑜𝑢𝑡 -𝑇 𝑖𝑛 ) 𝐴 𝑐 𝐺<label>(3)</label></formula><p>La ecuación que describe el desempeño térmico de un colector operando en condiciones estables se puede escribir en términos de la irradiancia incidente mediante la siguiente ecuación:</p><formula xml:id="formula_3">𝑄 𝑈 𝐴 𝑐 = 𝐹 𝑅 (𝜏𝛼)𝐼 -𝐹 𝑅 𝑈 𝐿 (𝑇 𝑚 -𝑇 𝑎𝑚𝑏 )<label>(4)</label></formula><p>Donde 𝐹 𝑅 es el factor de remoción, el cual es una función del flujo másico y tiene un valor entre 0 a 1. La diferencia de temperatura está dada entre la temperatura promedio del fluido</p><formula xml:id="formula_4">𝑇 𝑚 = 𝑇 𝑖𝑛 + 𝑇 𝑜𝑢𝑡 -𝑇 𝑖𝑛 2</formula><p>y la temperatura ambiente. El coeficiente de perdida de calor 𝑈 𝐿 está en función de la temperatura ambiente y la temperatura del colector. La transmitancia 𝜏 del vidrio de los tubos evacuados y la absorbancia 𝛼, dependen del ángulo de incidencia. Para eso existen distintos modelos que describen la eficiencia energética de un colector, en este caso de estudio se usa la descrita por la norma internacional ISO 9806, de tal manera que, considerando las variables anteriores la eficiencia térmica del colector se define como: );</p><formula xml:id="formula_5">𝜂 = 𝑎 0 - 𝑎 1 (𝑇 𝑚 -𝑇 𝑎𝑚𝑏 ) 𝐺 - 𝑎 2 (𝑇 𝑚 -𝑇 𝑎𝑚𝑏 ) 2 𝐺<label>(</label></formula><p>𝑎 2 es el coeficiente de perdidas térmicas dependiente de la temperatura ( 𝑊 𝑚 2 𝐾 2 ); 𝑇 𝑎 es la temperatura ambiente en (°C); 𝑇 𝑚 es la temperatura media del fluido de trabajo en (°C) y 𝐺 es la irradiancia solar en el plano del colector solar en (𝑊/𝑚 2 ).</p><p>Contemplando estos parámetros, la eficiencia térmica instantánea se termina de la siguiente manera.</p><formula xml:id="formula_6">𝜂 = 𝑎 0 - 𝑎 1 (𝑇 𝑚 -𝑇 𝑎 ) 𝐺 - 𝑎 2 (𝑇 𝑚 -𝑇 𝑎 ) 2 𝐺 (6)</formula><p>Esta ecuación, tiene la finalidad de calcular la eficiencia térmica cuando la superficie del colector recibe la radiación normalmente respecto al plano del colector, cuestión que solo en ocasiones ocurre, ya que generalmente esta irradiancia se recibe con cierto ángulo de incidencia. Este ángulo se mide entre el haz de radiación y la normal a la superficie del colector. </p><formula xml:id="formula_7">𝐾 𝜃 = 𝐾 𝜃𝑏 + 𝐾 𝜃𝑑<label>(7)</label></formula><p>Esto define como la eficiencia que se tiene con el ángulo de incidencia dividido por la eficiencia con la incidencia normal. Representando a 1 en el caso de que la irradiancia total recibida por el colector fuera irradiación directa. Donde para colectores de placas plana el IAM disminuye a medida que aumenta el ángulo de incidencia, es decir cuanto más sea el ángulo menor es la eficiencia. Así, si la geometría del colector no es plana, como es el caso del colector de tubos evacuados, entonces la eficiencia máxima no es necesariamente con una incidencia normal. Es posible y a menudo lo que es, que la máxima eficiencia se dé en otro ángulo. Esto es debido a que cuando la incidencia es totalmente normal, los tubos están expuesto a la máxima cantidad de radiación solar y es por lo que es utilizado como punto de referencia para el valor de IAM igual a 1. A este ángulo, sin embargo, algo de luz se pierde entre los tubos y por lo tanto cuando este ángulo cambia, la luz puede ser reflejada hacia los tubos vecinos, logrando tener una mayor absorbancia de la radiación solar (Peter <ref type="bibr" target="#b40">Kovacs, 2012)</ref>.</p><p>Por lo anterior con el IAM es posible describir un seguimiento pasivo causado por el absorbedor cilíndrico durante todo el día. Esta característica permite que el colector reciba más del 20% de la irradiación solar que un colector plano <ref type="bibr">(Apricus, ETC Solar Collector Product , 2016)</ref>. Como se muestra en la siguiente figura.</p><p>Figura 14. Esquema de seguimiento pasivo para un ETC Considerando el IAM, la ecuación (6) para la eficiencia energética resulta ser:</p><formula xml:id="formula_8">𝜂 = 𝐹 𝑅 (𝜏𝛼)𝐾 𝜃 - 𝑎 1 (𝑇 𝑚 -𝑇 𝑎 ) 𝐼 - 𝑎 2 (𝑇 𝑚 -𝑇 𝑎 ) 2 𝐼 (8)</formula><p>Para el caso del colector solar de tubos evacuados Apricus ETC-30, se muestran los modificadores de ángulo de incidencia longitudinal y transversal de la siguiente tabla (Apricus, ETC Solar Collector Product , 2016) y figura (P. <ref type="bibr" target="#b37">Gao, 2014)</ref>. Figura 16. Equipo de experimentación</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Diseño del experimento</head><p>El sistema para realizar la experimentación consta de los siguientes componentes: sistema de almacenamiento de agua y tubería, Sistema de bombeo de agua, colector solar, caudalímetro, caudalímetro, piranómetro, termopares. Dichos componentes se describen a continuación. El sistema de almacenamiento de agua consta de un termotanque con una capacidad de 500 L. Para fines de las mediciones experimentales ejecutadas en el presente trabajo, se verifico el llenado de este tanque hasta su capacidad máxima al inicio de cada medición, esto con la finalidad de homogenizar las condiciones de presión dentro del mismo en cada día de medición. El termotanque está conectado a una tubería de cobre de ½ pulgada, el cual transporta el fluido en todo el sistema con ayuda de una bomba presurizadora modelo Aqua Pak MINI60-12/1127 de 1/3 HP. Esta bomba suministró el flujo requerido y se reguló mediante una válvula de aguja marca Parker de ¼ de pulgada. Se evaluaron 5 flujos distintos: 0.5, 0.75, 1.0, 1.25 y 1.50 L/min. Para fines de establecer este flujo, se midió el caudal, utilizando un caudalímetro másico MASS 2100, este dispositivo se basa en la ley de movimiento de Coriolis, donde se conecta a una transmisor SITRANS FCT30, con un error lineal del 0.1% <ref type="bibr" target="#b50">(Siemens, 2011)</ref> que cuenta con una respuesta de alta precisión del caudal, el cual suministra mediciones de estado, que consta de: caudal másico, caudal volumétrico, densidad, temperatura. La medición de la irradiancia fue realizada con un piranómetro modelo SPM11-V 2100, con un error de medición del 3%, capturando los datos en intervalos Para obtener la base de datos experimentales, se evaluó el comportamiento de los 5 flujos anteriormente mencionados. Donde para cada flujo, se experimentó en periodos de la 10:00 am a 3:00 pm aproximadamente. Con esto, se obtuvieron valores de la irradiancia global, temperatura ambiente, temperatura de entrada y temperatura de salida y la cantidad de flujo.</p><p>Obteniendo de esta manera una base de datos ideal para realizar la modelación y simulación del sistema y así obtener el comportamiento del flujo. Cabe señalar que este sistema no es de recirculación, el agua caliente a través de una tubería de cobre se transporta hacia un depósito tipo tinaco para el almacenamiento de agua caliente, evitando la mezcla de temperaturas del agua dentro del mismo tanque.</p><p>En la Figura 17 se muestra el diagrama del diseño de experimentos, el cual describe el proceso por el cual se llevó a cabo la experimentación. Se definieron como valores constantes la transmitancia, absorbancia, área, materiales del colector, flujo volumétrico y como variables: temperatura ambiente, irradiancia y temperatura de entrada y salida del fluido, para así obtener como respuesta la eficiencia térmica del colector solar y el calor transferido al fluido.</p><p>Figura 17. Parámetros y variables del experimento Parametros: transmitancia, absorbancia, área, materiales del colector.</p><p>Intervalo temporal de medición: 10 am. a 3:00 pm.</p><p>Variables: temperatura ambiente, temperatura entrada, irradiancia y flujo</p><p>Colector solar de tubos evacuados , ETC-30</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PROCESO DE TRANSFERENCIA DE CALOR EN COLECTOR SOLAR DE TUBOS EVACUADOS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Medición experimental</head><p>La medición de temperatura ambiente, temperatura de entrada, temperatura de salida e irradiancia se realizó entre los meses de agosto y noviembre para los flujos de 0.5, 0.75, 1.0, 1.25 y 1.50 L/min, los cuales se controlaron con la válvula que se muestra a continuación.</p><p>Gracias a esto, se obtuvo una base de datos para su futuro análisis termodinámico, donde se obtuvo el calor transferido, el cambio de temperatura y la eficiencia térmica para cada lapso establecido. En la siguiente Figura 18 se muestra de manera simbólica el sistema que se implementó para dicha experimentación, Donde 1, 2, 3, y 4 corresponde al sensor del caudalímetro, termopar de entrada, piranómetro y termopar de salida, respectivamente.</p><p>Figura 18. Esquema del sistema de calentamiento de agua con un colector solar de tubos evacuados</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Simulación del sistema</head><p>La modelación del sistema del colector solar convencional de flujo constante se realizó utilizando el software TRANSYS (Thermal Energy System Specialists, 2005), en donde se utilizó un TMY (Año Meteorológico Típico) específicamente para la Ciudad de Chihuahua, utilizando la base de datos característicos ambientales de la locación para temperatura ambiente e irradiancia. Para el sistema de colector solar de tubos evacuados se aplicó las características del colector ETC-30, ver Tabla 1. Para la comparativa con los datos experimentales de 0.5, 0.75, 1.0, 1.25 y 1.5 L/min se realizó una simulación durante los meses de agosto a noviembre bajo la condición de 35 ° de temperatura de entrada, esto al ser la temperatura promedio determinada por la experimentación. El sistema gráfico que se implementó se muestra en la siguiente figura.  Finalmente, se diseñó de un sistema de control de flujo variable denominado por sus siglas, SCFV. Este sistema tiene la función de modificar el flujo entrante al colector solar en función de la temperatura de salida que se desea alcanzar, para cualquier nivel de irradiancia captado por el colector, lo cual permite llegar a una aproximación de la temperatura deseada, 𝑇 𝑠𝑒𝑡 . Es decir, dependiendo de la cantidad de potencia en el área determinada del colector, el flujo se convierte en una variable, logrando a través de un controlador captar esta señal que se interconecta con una bomba de flujo variable, indicando la cantidad de flujo necesaria para alcanzar la temperatura deseada.</p><p>La metodología del diseño de control inicia de igual manera que los sistemas anteriores, se utilizó el TMY característico de la Ciudad de Chihuahua, este es utilizado para proveer la temperatura de ambiente y la irradiancia hacia el colector durante todo el año. Para implementar el sistema de control, se utilizó el controlador de retroalimentación iterativo (tipo 22), donde calcula la señal de control (u) necesaria para mantener la variable controlada 𝑦 = 𝑓(𝑇 𝑜𝑢𝑡 ) en el punto de ajuste (𝑦 𝑠𝑒𝑡 = 𝑇 𝑠𝑒𝑡 ). Este controlador realiza las iteraciones necesarias para proporcionar un seguimiento preciso del punto de ajuste. Este controlador se utiliza para modelar un controlador de retroalimentación real (por ejemplo, PID) que adaptaría su señal de control de forma continua o utilizando un paso de tiempo discreto mucho más corto que el paso de tiempo de simulación que se tiene en TRNSYS. Además, el controlador tiene una señal on/off y se pueden fijar límites para la señal de control. El controlador de retroalimentación iterativo utiliza un método secante para calcular la señal de control que pone a cero (o minimiza) el error de seguimiento (𝑒 = 𝑦 𝑠𝑒𝑡 -𝑦). Es entonces que este controlador recibe la señal del (𝑦 𝑠𝑒𝑡 = 𝑇 𝑠𝑒𝑡 ) que se determina de forma manual en un componente llamado set pointer, donde se define la variable anterior y el on/off para irradiancias mayores a los 100 W/m 2 . El controlador envía una señal de control a una bomba (tipo 110), este modela una bomba de velocidad variable que puede mantener cualquier caudal de salida entre cero y un valor máximo, en este caso este valor es el descrito por la ficha técnica del colector, 2 L/min. El caudal másico de la bomba varía linealmente con la configuración de la señal de control, enviada por el controlador (tipo 22). Dicho controlador modifica el flujo que entra al colector, donde a la salida de este se obtiene una temperatura de salida que es comparada con la temperatura de salida y con el error de seguimiento, realizando así el número de iteraciones necesarias para alcanzar la temperatura de salida deseada. Cabe señalar que la entrada al controlador es únicamente la temperatura de salida del colector, de manera que implícitamente se considera la irradiancia recibida, al considerar el flujo en función de la irradiancia recibida. El diseño del sistema SCFV se puede observar en la siguiente figura. Para establecer la temperatura de salida de 60 °C, se buscó la temperatura estándar que se cuenta en los termotanques, ya que el suministro de agua caliente es una parte integral principalmente en hogares, residencias, hoteles, e industria y una de las aplicaciones de mayor frecuencia es el uso de agua caliente de tipo sanitario, en donde se emplean sistemas mixtos, donde serán calderas mixtas o calentadores de gas que proporcionen agua caliente y calefacción al mismo tiempo, donde lo más utilizado suelen ser las calderas de gas. En estos sistemas, es aconsejable que la temperatura del agua caliente sanitaria esté entre los 40 y 50ºC. Por otro lado, los sistemas que llevan incorporados un acumulador como algunas calderas y termos eléctricos, la temperatura deberá ser más alta, para poder calentar en poco tiempo el agua almacenada para cuando esta sea demandada. Esta temperatura debe oscilar entre los 55 y 60ºC <ref type="bibr" target="#b22">(Greenheiss, 2022)</ref>. También este rango de temperatura es utilizado para limpieza de tipo industrial <ref type="bibr" target="#b7">(Córdova Cornejo, 2019)</ref>. En la siguiente figura se muestra un sistema convencional de agua sanitaria utilizando caldera. <ref type="bibr" target="#b26">(Internacional, 2023)</ref>. Cabe señalar el que sistema SFCV puede ser aplicado para cualquier otra temperatura de salida. Finalmente se realizó una comparativa entre el sistema propuesto y el convencional en conexiones en series para las características anteriores, enfocado en la cantidad de agua que alcanza la temperatura de 60 °C, así como la energía en kWh requerida para la cantidad de agua que no alcanza la temperatura desea aplicada en una caldera de gas LP. Una vez considerados estos factores, se procede a analizar y discutir el alcance que tendría un sistema respecto a otro y el ahorro energético que representaría el SCFV.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Resultados</head><p>En el capítulo presente se expondrán los resultados obtenidos en la experimentación del colector solar ETC-30, para los flujos de estudio. También, los obtenido de la simulación realizada en TRNSYS, donde se presenta un comportamiento del sistema para los meses de agosto a noviembre, así como una proyección anual examinando los flujos de estudio.</p><p>Además, se exponen el comportamiento de un sistema en serie de colectores solares, así como la propuesta de dicha tesis de investigación: el sistema de control de flujo variable y, por último, un caso de optimización del flujo para la aplicación de agua para un baño caliente considerando el nivel de irradiancia de mayor frecuencia en la locación presente.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Resultados experimentales</head><p>Para analizar el comportamiento de cada uno de los flujos de estudio: 0.5, 0.75, 1.0, 1.25 y 1.5 L/min, se graficaron los resultados de la relación entre calor transferido al fluido y la temperatura de salida en función de la irradiancia, así como la eficiencia térmica. El calor transferido se calculó basado en el modelo ISO-9806 utilizando la siguiente ecuación:</p><formula xml:id="formula_9">𝑄 ̇= 𝐴 • 𝐺 (𝜂 0 - 𝑎 1 (𝑡 𝑚 -𝑡 𝑎 ) 𝐺 - 𝑎 2 (𝑡 𝑚 -𝑡 𝑎 ) 2 𝐺 )<label>(9)</label></formula><p>Esta ecuación permite modelar el comportamiento del calor transferido al fluido en un colector solar, en particular este modelo corresponde al estándar internacional por la ISO 9806 <ref type="bibr" target="#b9">(Diez, 2019)</ref> . Donde el desempeño energético del colector solar es calculado de acuerdo con el termino llamado diferencia de temperatura reducida, usando la temperatura media en el colector solar, como se muestra en la siguiente expresión:</p><formula xml:id="formula_10">𝑇 𝑚 = 𝑇 𝑖𝑛 + (𝑇 𝑜𝑢𝑡 -𝑇 𝑖𝑛 ) 2 (10)</formula><p>De acuerdo con el reporte de prueba <ref type="bibr" target="#b43">(Rheinland, 2014)</ref> del ETC-30 los coeficientes de la ecuación (9) se muestran en la siguiente tabla.</p><p>Tabla 4. Coeficientes del colector solar ETC-30 respecto al área de apertura (2.84 m 2 )</p><p>Conversión factor 𝜂 0 0.714 ± 0.002 Coeficiente de transferencia de calor 𝑎 1</p><p>1.243 ± 0.148 Coeficiente de transferencia de calor dependiente de temperatura 𝑎 2 0.009 ±0.022</p><p>La temperatura de salida resultante de la experimentación de los meses de agosto a noviembre del 2024 se muestra en el siguiente gráfico.    Para los flujos de 0.5, 0.75, 1.0, 1.25 y 1.5 L/min, se calculó un promedio respecto a la temperatura de salida de 80.6, 63.7, 58.6, 51.52 y 48.6 °C respectivamente, como se muestra en la Tabla 6. En cuanto a la eficiencia se observa que al tener un Δ𝑇 menor, la eficiencia del colector se aproxima más al límite teórico de 0.714. Para el calor de la potencia calorífica promedio se nota que no hay una variación significativa en relación con el flujo, ya que este factor no es incluido en el modelo ISO 9806, para esto se utiliza la siguiente ecuación: 𝑄 ̇= 𝑚̇𝐶 𝑝 (𝑇 𝑜𝑢𝑡 -𝑇 𝑖𝑛 ), donde: 𝑚̇ (𝑘𝑔/𝑠) es el flujo másico y 𝐶 𝑝 = 4186 (𝐽/𝑘𝑔 • 𝐶°) , es el calor específico para el caso del agua, también se realizó un ajuste de la curva experimental con respecto un modelo de regresión, para de esta manera visualizar el comportamiento de la potencia calorífica en función del flujo, como se puede observar en la siguiente figura.</p><p>Figura 27. Potencia calorífica en función del flujo para un nivel de irradiancia de 200 a 1200 W/m2, obtenido experimentalmente Para la Figura 27, se consideró un ajuste de la curva resultante de la experimentación, al considerar una regresión lineal para de esta manera mostrar la tendencia que se esperaría tener, al considerar diferentes flujos de entrada, donde esta potencia sigue un comportamiento lineal, estableciendo que la potencia depende del flujo circundante, de tal manera que al disminuir el flujo la potencia necesaria para elevar la temperatura es menor que la de un flujo mayor, esto sin duda sigue el comportamiento de transferencia de calor por convección, donde al tener una menor área de contacto del flujo con la tubería del manifold, menor es la transferencia de calor. Indicando también una respuesta a la disminución de eficiencia térmica relacionada con el flujo, ya que como se ha mostrado en la Figura 26, la potencia calorífica disminuye con el flujo, y por lo tanto la eficiencia también, de acuerdo con la ecuación 𝜂 = 𝑄 ̇/𝐺 • 𝐴.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Resultados simulación (TRNSYS)</head><p>En apartado de resultados de simulación, como se mencionó en la sección anterior, se utilizó el software TRNSYS, el cual permitió estudiar el desempeño del colector solar para la Ciudad de Chihuahua, esta aplicación es útil para procesos de tipo transitorio para la simulación energética solar utilizando un Año Meteorológico Típico (TMY, por sus siglas en ingles), es decir se utilizó un conjunto de datos meteorológicos con valores de datos para cada 10 minutos del año, como lo son: la temperatura ambiente y la irradiancia total. Con lo anterior se logró obtener una representación gráfica de la temperatura de salida y la eficiencia térmica.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1">Sistema de flujo constante</head><p>A modo de comparativa con respecto los resultados experimentales, primero se simuló el comportamiento del colector solar para los meses de agosto a noviembre de un TMY, para los flujos de estudio. Donde se consideró una temperatura de entrada de 35 °C ya que este fue el promedio generado en la experimentación. Como se puede notar en la Figura 28, referente a la temperatura de salida experimental para distintos flujos, la tendencia de mayor aproximación a la respuesta de salida es cuadrática, por lo que se calcularon los siguientes modelos de regresión polinómica de segundo grado, con el objeto de determinar modelos matemáticos que permitan predecir el comportamiento de cada flujo en función de la irradiancia. Estos modelos se muestran en la siguiente tabla, de acuerdo con la siguiente ecuación.</p><p>Tabla 7. Modelos cuadráticos para la temperatura de salida en función de la irradiancia para distintos flujos De acuerdo con la Tabla 7 para los flujos de estudio, se discuten los modelos cuadráticos relacionados con los distintos flujos y la temperatura de salida, se obtienen valores de aproximados de R 2 de 0.863, siendo entonces que el modelo obtenido por la simulación realizada el 86.3% de la respuesta de salida, temperatura de salida, en función de la irradiancia recibida. Como se puede notar en la Figura 28 cercano a los 1000 W/m 2 , la respuesta de temperatura presenta un descenso y posteriormente un aumento considerablemente mayor, esto se puede justificar debido que al ser una simulación y no considerar demás factores como la nubosidad, temperatura ambiente, viento, la corrección de la tubería, desgaste de los materiales ópticos del colector, entre otros. No obstante, se refleja el comportamiento ideal que se esperaría obtener bajo condiciones de control muy específicas, principalmente donde la temperatura de entrada es constante, ya que prácticamente este es un factor que se podría considera variable, pero controlable. En suma, con la irradiancia que recibe el colector (mayor a los 1000 W/m 2 ), la capacidad del colector para elevar la temperatura del fluido incremente considerablemente, debido a la gran cantidad de potencia que se está recibiendo, por lo que podría explicar el resto del porcentaje que no es capaz de explicar los modelos matemáticos de la Tabla 7.   Los valores de temperatura de salida esperado entre los meses de agosto a noviembre son de 64.2, 55.78, 49.96, 47.03 y 45.05 °C para los flujos 0.5, 0.75, 1.0, 1.25 y 1.5 L/min, respectivamente, donde se tienen diferencias respecto a los de experimentación son 16.4, 7.9, 8.64, 4.5 y 3.55°C, (ver Tabla 6 y Figura 28). Esta diferencia se puede deber a múltiples factores, ya que al tratarse de una simulación las condiciones ambientales son ideales, ya que únicamente se considera la temperatura ambiente y la irradiancia, sin considerar el fenómeno de nubosidad, además que para el caso de la simulación se consideró un valor de temperatura de entrada de 35 °C, por lo que este facto podría contribuir a las diferencias en cuantos a los promedios de temperatura de salida promedio. No obstante, la simulación presente se expone como una modelación del comportamiento que se esperaría tener en este lapso, ya que se está se caracterizando el valor esperado en cada flujo, como se muestra en la Tabla 8. En cuanto los valores los esperados de cambio de temperatura (ver Figura 29 y Tabla 8) se puede identificar a que nivel de irradiancia es posible obtener un Δ𝑇 específico de acuerdo con el flujo aplicado, por lo cual se podría determinar una optimización para la aplicación de estos flujos. Por ejemplo, si la condición es alcanzar una temperatura de 45 °C (propuesta para un baño caliente), el flujo de 1.5 L/min sería considerado óptimo para este caso, en relación con los resultados presentes, teniendo un cambio de temperatura promedio de 10.55 °C, según una temperatura de entrada de 35 °C. De tal manera que, por lo anterior, esta simulación en conjunto con la experimentación permite identificar el comportamiento que cada flujo podría tener, definiendo cual sería el más adecuado según aplicación y condiciones.  Para el caso de la potencia calorífica de la Figura 32 se utilizó la ecuación 𝑄 ̇= 𝑚̇𝐶 𝑝 Δ𝑇, en donde se utilizó como eje secundario la temperatura de salida. Esto permite identificar la potencia calorífica necesaria es necesaria para lograr cierta temperatura de salida específica, por ejemplo, a un nivel de irradiancia de 800 a 900 W/m 2 la temperatura de salida promedio es de aproximadamente <ref type="bibr">72.15, 60.2, 54.05, 50.32, 47.</ref>8 °C, para los flujos de 0.5, 0.75, 1.0, 1.25 y 1.5 L/min, respectivamente, donde es necesario una potencia calorífica de <ref type="bibr">1302.24, 1324.27, 1335.5, 1342.3 y 1346.8</ref> W, respecto a los flujos de estudio. De esta manera se destaca el comportamiento del flujo en relación con la potencia, donde al tener un mayor flujo, es necesario una potencia calorífica mayor, lo cual está relacionado con la temperatura de salida.</p><formula xml:id="formula_11">𝑻 𝒐𝒖𝒕 = 𝑏 2 𝑮 𝟐 + 𝑏 1 𝑮 + 𝑏 0<label>(9)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2">Sistema de colectores en serie con flujo constante (SCSFC)</head><p>De manera similar, se evaluó el comportamiento del sistema de colectores en serie de flujo constante, por sus siglas SCSFC, para distintas configuraciones en serie de colectores solares, con la finalidad de analizar los resultados correspondientes a la temperatura de salida, y la eficiencia térmica.</p><p>Figura 33. Temperatura de salida para diferentes conexiones en serie de colectores solares de tubos evacuados para un flujo de 2 L/min</p><p>Como se mencionó con anterioridad a modo de comparativa de los sistemas convencional (SCSFC) y el propuesto (SCFV), se simuló las conexiones en serie de 1, 2, 3, 4, y 5 colectores solares a un flujo constante de 2 L/min y el sistema de control, para una temperatura deseada de 60 °C y una temperatura de entrada de 35 °C. Como se puede observar en la Figura 33, la temperatura de salida es proporcional al número de colectores solares conectados en serie, esto indica que, a mayor número de colectores, mayor será el cambio de temperatura. Cabe señalar que la temperatura de salida de cada colector conectado en serie con otro se convierte en la temperatura de entrada, y que así mismo el área captada aumenta, según los colectores en serie, donde el calor transferido según la norma ISO-9806, se convierte en la siguiente ecuación. Donde el índice 𝑖 = 1,2,3,4,5 representa la cantidad de colectores en serie. Figura 34. Eficiencia térmica para diferentes conexiones en serie de colectores solares de tubos evacuados a un flujo de 2 L/min También se destaca que las configuraciones de conexiones en serie de colectores solares, afecta en la eficiencia, ver Figura 34, ya que, al tener una mayor cantidad de colectores solares conectados en serie, la potencia de entrada aumenta, ya que el área de captación es proporcional al número de colectores solares, de tal manera que la capacidad de aprovechar esta potencia de entrada disminuye con respecto al número de colectores en serie. Por lo anterior el sistema SCSFC es considerable al lograr una temperatura de salida mayor, con un mayor número de colectores, sin embargo, la eficiencia térmica disminuye. Es necesario mencionar que para estos resultados el flujo es constante de 2 L/min, y que a su vez este es el punto nominal para el colector ETC-30 utilizado, no obstante, es posible modificar este flujo a uno variable que permita lograr una temperatura de salida deseada, ya que como se mostró con anterioridad, el factor del flujo es inversamente proporcional a la temperatura de salida, es decir disminuir el flujo repercutiría en un aumento en la temperatura de salida. Por otra parte esta modificación según las necesidades de la salida se relaciona con la eficiencia térmica, ya que esta disminuye al aumentar la temperatura, por lo que para un futura aplicación es necesario conocer las necesidad de temperatura de salida, y la cantidad de agua que se requiere a esa temperatura, ya que como se puede ver en la Figuras 34, la temperatura de salida, donde al estar en función de niveles de irradiancia distintos se puede indicar en que intervalos de este es posible alcanzar dicha temperatura de salida, ya que a irradiancia bajas la temperatura de salida es menor. Por lo que el factor de la irradiancia es notable en todas las figuras anteriores, puesto que permite optimizar la aplicación de colectores solares, identificando el recurso solar óptimo para un mejor aprovechamiento de este, generando así una mejor funcionalidad de los colectores solares como alternativa a los sistemas de calentamiento de agua a base de calderas. También se destaca que para el caso de la ciudad de Chihuahua para una inclinación de 29° (debido a que con esta inclinación se obtiene la mayor captación de energía promedio anual) del colector solar simulado, el recurso solar de mayor frecuencia se encuentra entre una irradiancia de 900 a 925 W/m 2 , con 116 kWh/m 2 Leal- <ref type="bibr" target="#b4">(Chávez, 2019)</ref>, donde a partir de los 700 W/m 2 es cuando aumenta la aportación energética.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3">Sistema de control de flujo variable</head><p>Con lo anterior, se ha presentado alternativas al modo de configuración y operación convencional de colectores solares, lo cual se señalan propuestas de gran relevancia para la mejora del desempeño de este sistema a través del flujo. Sin embargo, hasta este punto se ha considerado un flujo constante, de tal manera que lo destacable de esta tesis de investigación, es la propuesta de un sistema de control capaz de convertir el flujo en una variable, según los niveles de irradiancia, especificando la temperatura de salida deseada. Este sistema se le denomina, sistema de control de flujo variable (por sus siglas, SCFV). A continuación, se presenta un caso particular con un Δ𝑇 (𝑇 𝑖𝑛 = 35 °𝐶 para el caso de estudio) específico para diferentes niveles de irradiancia, donde en la siguiente Figura 33 se presenta la temperatura de salida lograda con el sistema de control SCFV para las temperaturas deseadas de: 60, 70, 80, 90 y 100°C, así como el comportamiento de la eficiencia térmica en cada uno de los casos, para un nivel de irradiancia de 200 a 1200 W/m 2 .</p><p>Figura 35. Temperatura de salida para un sistema de control de flujo variable (SCFV)</p><p>De acuerdo con la Figura 33, el SCFV simulado en TRNSYS logra alcanzar la temperatura de salida para un TMY de la Ciudad de Chihuahua, donde se calculó un porcentaje anual de efectividad de 99.99, 99.81, 99.52, 98.86 y 98.25%, para las temperaturas 𝑇 𝑠𝑒𝑡 de 60, 70, 80, 90 y 100 °C, respectivamente, con una tolerancia de error de seguimiento en la simulación de 0.005 °C (este fue el asignado en el sistema de control de TRNSYS). Indicando que a 𝑇 𝑠𝑒𝑡 mayores, la efectividad anual del sistema del control disminuye, teniendo una mayor variación en irradiancia menores a los 455 W/m 2 , ya que como se puede observar en la Figura 33, el sistema de control estabiliza la temperatura de salida después de un nivel de irradiancia para cada temperatura deseada: 300, 400, 415, 425 y 455 W/m 2 , respectivamente. Por lo que el sistema de control es inestable para irradiancias bajas. Sin embargo, después de estos niveles, la temperatura de salida se estabiliza, permitiendo lograr la temperatura deseada.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.4">Comparativa de los sistemas SCSFC y SCFV</head><p>En las siguientes dos figuras se presenta los resultados correspondientes al comportamiento de la temperatura de salida, para un Δ𝑇 = 25 °𝐶, es decir la temperatura deseada es 𝑇 𝑠𝑒𝑡 = 60 °𝐶, en donde se compara el sistema convencional SCSFC y SCFV para este objetivo.</p><p>También se presenta la relación de potencia calorífica transferida al fluido y la adicional necesaria para alcanzar la temperatura deseada por fuentes externas de calor como calderas. Se presenta una tabla comparativa entre el sistema propuesto (SCFV) y convencional (SCFV) en función de la cantidad de agua que alcanza la temperatura deseada 𝑇 𝑠𝑒𝑡 = 60 °𝐶, y la cantidad que no alcanza dicha temperatura, así como la energía necesaria anual para elevar la temperatura de salida del fluido después del colector a la temperatura 𝑇 𝑠𝑒𝑡 , a través de una caldera de gas LP con una eficiencia del 0.85, considerando un costo de gas LP de $10.59/L del mes de noviembre (CRE, 2024) y una densidad energética para el gas LP <ref type="bibr" target="#b11">(DOF, 1996)</ref>.</p><p>Al considerar un intervalo de irradiancia de 300 a 1200 ( 𝑊 𝑚 2 ).</p><p>Tabla 10. Comparativa de sistemas de un sistema de flujo variable con respecto a sistemas de flujo constante (2 L/min) en serie, para cantidad de flujo anual, energía adicional, volumen y costo de gas. Por lo anterior, la comparativa de los sistemas SCSFC y SCFV, se ve reflejado en la Figura 38 y 39, para el caso particular donde se especifica una temperatura 𝑇𝑠𝑒𝑡=60 °𝐶. Se puede observar que el sistema SCFV en un rango de 300 a 1200 W/m 2 , tiene una mayor proximidad a los 60 °C que cualquier de las 5 configuraciones de colectores solares en serie, en donde el sistema de flujo constante de mayor proximidad es el de 4 colectores solares en serie, sin embargo, su funcionamiento optimo es a partir de los 600 W/m 2 , que es donde se logra alcanzar una temperatura de salida más cercano a la temperatura 𝑇𝑠𝑒𝑡. Ya que al considerar 5 colectores en serie la temperatura de salida supera los 60 °C que se desean alcanzar para su futura aplicación y de forma contraria los sistemas de 1, 2 y 3 colectores en serie es insuficiente para dicho propósito, como se muestra en la Tabla 10. Por lo anterior desde la referencia de la temperatura de salida el SCFV representa un sistema de mayor conveniencia para el propósito de una temperatura 𝑇𝑠𝑒𝑡=60 °𝐶 estable. Sin embargo, es necesario considerar la cantidad de agua que se requiere para su aplicación, ya que al utilizar de sistema SCFV la cantidad de agua que se aproxima a los 60 °C es menor que la lograda con sistema de 4 colectores en serie, esto significa que si la demanda de agua al año es de aproximadamente 370, 000 litros de agua aproximadamente se requieren 2.25 colectores solares bajo el sistema SCFV para cumplir la demanda de flujo anual, no obstante, la energía adicional (kWh) para los 237,580 litros al año donde 𝑇𝑜𝑢𝑡&lt;60°𝐶, se requiere un total de 2,419.2 kWh para elevar su temperatura hasta los 60 °C, para un sistema de 4 colectores. Esta energía adicional puede ser aplicada por un gas de tipo gas LP, lo cual representa un costo en la cantidad de volumen de gas LP necesario para aumentar la temperatura. Por lo que al visualizar la Figura 39 y la Tabla 10, se puede notar que el calor transferido aumenta de forma lineal en función de la irradiancia y que a su vez aumenta con la cantidad de colectores en serie, de manera inversa a un mayor número de colectores, menor será la potencia calorífica adicional necesaria. Sin embargo, el sistema SCFV, en contraste con un sistema SCSFC de 4 colectores en serie, la energía adicional es despeciable. Cabe señalar que estas comparaciones no consideran un análisis profundo de costo y beneficio, desde el punto de vista económico y de consumo, por lo que únicamente se presenta de manera breve los alcances que se tendría entre un sistema y otros, con relación a la cantidad de L/año, la energía adicional, el volumen de gas LP y el costo de gas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sistema</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.5">Caso de optimización del flujo</head><p>Por último, se presenta un caso para la optimización del flujo utilizando la modelación obtenida de la aplicación de un SCFV para la utilización de agua caliente a una 𝑇 𝑠𝑒𝑡 = 40°𝐶, con una temperatura de entrada ambiente 𝑇 𝑖𝑛 = 25 °𝐶, en donde se obtuvo un modelo matemático y el comportamiento de la temperatura de salida para este caso en particular, en un nivel de irradiancia de 200 a 1200 W/m 2 .</p><p>Figura 40. Flujo variable descrito por el SCFV para una temperatura de salida de 40°C de un TMY Tabla 11. Modelo matemático de segundo grado para la optimización del flujo para un baño caliente a una temperatura Tset=40°C La Figura 40 describe el comportamiento promedio que se obtendría del SCFV en un TMY de la Ciudad de Chihuahua, en donde se calculó una efectividad anual del 100%, con un total de 248,207.60 L/año con una temperatura de 40°𝐶, con un margen de error del ±0.5 °C.</p><p>Además, como se puede mostrar en la Figura 40, el flujo variable en función de la irradiancia recibida al colector tiene una tendencia cuadrática, de manera que la ecuación 13 y la Tabla 11, describen el modelo matemático para un caso de baño de agua caliente. En donde el modelo es capaz de explicar la variable de respuesta, es decir el 𝑉 ̇(𝐺), con un R 2 del 0.99943, con un 𝛼 = 0.5. De tal manera que la confiabilidad de este modelo propuesto es considerablemente buena. Por lo que esto permite identificar el flujo optimo que se esperaría aplicar en un sistema de control SCFC para un nivel de irradiancia específico, por ejemplo, al considerar el recurso solar de mayor frecuencia de la Ciudad de Chihuahua según <ref type="bibr" target="#b4">(Chávez, 2019)</ref>, de 900 a 925 W/m 2 , de tal manera que según el modelo propuesto el flujo óptimo para este nivel de irradiancia se estima es de 1.86 L/min, lo cual se aproxima al nominal de 2 L/min del colector ETC-30 utilizado. Esta optimización permite entonces identificar el flujo optimo necesario para alcanzar una temperatura de salida de 40 °C, lo cual, para un caso de un baño caliente, es posible identificar el momento en el cual se realiza dicha aplicación, seguido de la irradiancia estimada según el TMY, para ese tiempo y de esta manera determinar el flujo optimo ideal para este caso. De tal manera que este caso permite visualizar y proyectar el alcance de la optimización del flujo a través de un sistema de control. Donde a trabajo futuro es posible construir este sistema de control y aplicarlo de manera experimental al sistema, para de esta manera evaluar el comportamiento del colector solar en este nuevo sistema de operación "Flujo Variable". No obstante, como se mostró anteriormente la modelación del flujo para un Δ𝑇 específico permite identificar el flujo óptimo para un sistema convencional de flujo constante a un nivel de irradiancia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Conclusiones</head><p>Al obtener una base de datos experimentales a distintas variaciones de flujos constantes, de irradiancia y de temperaturas de: entrada, ambiente y salida, fue posible describir el comportamiento que un colector solar de tubos evacuados podría tener. Esto se hace notar en el comportamiento de la temperatura de salida, la cual incrementa con la irradiancia y decrece al aumentar el flujo, esto presentó una tendencia lineal. Determinando modelos lineales de un R 2 considerablemente como bueno de 0.9, 0.8, 0.95, 0.92 y 0.92 para los flujos constantes de 0.5, 0.75, 1.0, 1.25 y 1.5 L/min, destacando que estos se obtuvieron bajo condiciones experimentales, donde la temperatura de entrada fue ligeramente variable. De manera similar que a un flujo constante es posible identificar el cambio de temperatura promedio, para un nivel de irradiancia, sin embargo, la eficiencia térmica y la potencia calorífica, es proporcional al flujo, es decir, a menor flujo el comportamiento de la eficiencia disminuye, así como la potencia.</p><p>Simular el comportamiento del colector solar de tubos evacuados ETC-30 para los flujos de estudio, permitió calcular modelos matemáticos de segundo orden, para la temperatura de salida en función de la irradiancia. Esta diferencia de tendencia con respecto a la experimental sugiere realizar una colección de datos de manera anual, para que de esta manera sea posible utilizar dicha base de datos en TRNSYS y ponderar el comportamiento simulado que el colector tendría bajo estas condiciones de entrada, esto claramente se puede considerar como un trabajo futuro, con la finalidad de realizar una mejora comparativa de la simulación y la experimentación. No obstante, lo simulado permitió describir modelos matemáticos con un grado de nivel de explicación de respuesta considerablemente bueno con un R 2 promedio de 0.85 para los distintos flujos de estudio. Además, fue posible corroborar el comportamiento de la eficiencia térmica obtenida experimentalmente, llegando a concluir que, al obtener un cambio de temperatura mayor, la eficiencia disminuye, la cual es proporcional al flujo aplicado. En cuanto los valores de temperatura de salida promedio en un año típico en la Ciudad de Chihuahua son de <ref type="bibr">65.6, 55.77, 50.72, 47.6 y 45.65</ref> °C para los flujos 0.5, 0.75, 1.0, 1.25 y 1.5 L/min, respectivamente, donde se tienen diferencias de 15, 8, 7.8, 4 y 3°C, con respecto a los medidos en la experimentación.</p><p>En cuanto al sistema de colectores en serie con flujo constante (SCSFC) simulado en TRNSYS, se concluye que al operar bajo un flujo constante es posible obtener una relación entre la temperatura de salida y la cantidad de colectores conectados en serie, en donde se obtuvo que, al tener una mayor colección de colectores en serie, la temperatura de salida aumenta, sin embargo, la eficiencia disminuye de forma proporcional a los colectores en serie.</p><p>El diseño e implementación de un sistema de control de flujo variable (SCFV) realizado en TRNSYS, permitió encontrar mejoras notables al modo de operación convencional de flujo constante. Donde al determinar un Δ𝑇 especifico para una aplicación de agua caliente dependiente de factores como el flujo, la irradiancia, la temperatura de entrada, salida y de ambiente, un sistema de control de flujo variable (SCFV) es una propuesta de gran relevancia, ya que ofrece una optimización del flujo, determinando la cantidad de flujo según el nivel de irradiancia, para así obtener una aproximación a la temperatura deseada, sin la necesidad de implementar un sistema de conexión en serie de flujo constante (SCSFC) de colectores solares o la aplicación de fuentes externas de calor, como el caso de calderas. Representando así un ahorro en la energía adicional requerida para la alcanzar la temperatura de salida deseada. Donde para las temperaturas 𝑇 𝑠𝑒𝑡 de 60, 70, 80, 90 y 100 °C se estimó una efectividad anual del 99.99, 99.81, 99.52, 98.86 y 98.25%, respectivamente, con respecto a los L/año, en un nivel de irradiancia de los 300 a los 1200 W/m 2 , al considerar un margen de ±0.5 °C, con una tolerancia de error de seguimiento en la simulación de 0.005 °C.</p><p>Al comparar los sistemas SCSFC y SCFV, en cuanto, a la temperatura de salida para el caso de estudio de una temperatura deseada de 60 °C, por gran diferencia el SCFV da mejores resultados, resaltando que logra el 99.99% de efectividad anual, en comparación con el 38.63% del SCSFC de 4 colectores. Por lo que un SCFV podría representar un ahorro energético con respecto el uso de calderas como fuente de calor adicional para alcanzar las temperaturas de aplicación deseada. Aunque a este punto es importante destacar que como trabajo futuro se propone la realización de un análisis en profundidad del alcance: costo y beneficio, en materia económica y energética de un SCFV en comparación con uno de flujo constante y la aplicación de una caldera como fuente externa de calor, para de esta manera realizar una comparativa más justa, enfocado a proyectos de inversión industrial o residencial.</p><p>Además, se concluye que un sistema de control SCFV permite optimizar el flujo de una manera notable, ya que como se mostró para el caso de agua para un baño caliente, es posible identificar el flujo óptimo para un nivel de irradiancia especifico, con el objetivo de lograr un cambio de temperatura deseado, obteniendo un modelo matemático de segundo orden a un nivel de explicación de la respuesta del flujo en función de la irradiancia de un R 2 del 0.9999, al considerar un nivel de significancia del 0.05, permitiendo identificar que al nivel de irradiancia de mayor frecuencia en la Ciudad de Chihuahua (900 a 925 W/m 2 ), el flujo optimo resulta ser de 1.86 L/min. Por lo anterior un sistema de control de flujo variable para la optimización de un colector solar de tubos evacuados, es una propuesta de gran relevancia ya que este amplia el panorama de aplicaciones de los sistemas termo solares actuales, en donde se buscan características de temperatura específicas para su aplicación, ya sea en sistemas de cogeneración, termotanques, sistemas de refrigeración, sistemas termos solares, sistemas híbridos, entre otros. De esta manera realizar el prototipo SCFV y su implementación experimental sería un gran avance para las ciencias de energías alternativas y el uso de tecnologías termo solares.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anexos</head><p>En las siguientes tablas muestran las características físicas y técnicas del colector solar tubo evacuados Apricus ETC-30. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Colector</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figura 1 .</head><label>1</label><figDesc>Figura 1. Recursos energéticos renovables del mundo ........................................................... Figura 2. Insolación solar de varios países en base diaria y anual para el potencial de energía fotovoltaica (World Bank Group, 2019) .................................................................... Figura 3. Esquema de sistemas activo y pasivo de calentamiento de agua utilizando energía solar (Pathak, 2022) ................................................................................................................ Figura 4. Componentes de sistemas solares de calentamiento de agua<ref type="bibr" target="#b39">(Pathak, 2022)</ref> ......... Figura 5. Procesos industriales que requieren energía térmica<ref type="bibr" target="#b29">(Kalogirou S. A., 2013)</ref> ........ Figura 6. Esquema de un sistema de colector sola de tubos evacuados con PCM y la configuración dual PCM del sistema de calentamiento de agua<ref type="bibr" target="#b38">(Papadimitratos, 2016)</ref> ...... Figura 7. Ganancia energética del sistema de circulación forzada en un sistema solar de calentamiento de agua en diferentes estrategias de funcionamiento: Bing Bang, Swtiching, Solución propuesta<ref type="bibr" target="#b35">(Ntsaluba, 2016)</ref> ................................................................................... Figura 8. Comportamiento del colector solar para modelos (HWB, ISO 9806 y ANN) con el valor RMSE y R2 respecto al balance energético (Diez, 2019) ........................................... Figura 9. Resultados para la aproximación de la temperatura de salida (Diez, 2019) ......... Figura 10. Componentes de un sistema de colector solar de tubos evacuados (Apricus, Evacuated tube solar collector, 2024) ................................................................................... Figura 11. Diagrama de la absorción de energía solar y el proceso térmico dentro del heat pipe (Shafieian, 2019) .......................................................................................................... Figura 12. Esquema del proceso de transferencia de calor en un tubo de vacío, el intercambiador de calor y el fluido circundante. (Elbahjaoui, 2019) ................................... Figura 13. Ángulo de incidencia........................................................................................... Figura 14. Esquema de seguimiento pasivo para un ETC .................................................... Figura 15. Modificador del ángulo de incidencia sobre el ángulo de incidencia cuasi dinámico ............................................................................................................................... Figura 16. Equipo de experimentación ................................................................................. Figura 17. Parámetros y variables del experimento ............................................................. Figura 18. Esquema del sistema de calentamiento de agua con un colector solar de tubos evacuados ............................................................................................................................. Figura 19. Sistema de colector solar de tubos evacuados en TRNSYS ............................... Figura 20. Sistemas de colectores solares de tubos evacuados en serie para un análisis termodinámico a un flujo de 2 L/min. .................................................................................. Figura 21. Diseño de sistemas de control de flujo variable (SCFV) .................................... Figura 22. Sistema de agua sanitaria calientes (ASC) .......................................................... Figura 23. Temperatura de salida experimental para distintos flujos ................................... Figura 24. Cambio de temperatura experimental ................................................................. Figura 25. Eficiencia térmica experimental .......................................................................... Figura 26. Potencia calorífica transferida al fluido experimental (modelo ISO 9806) ........</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Figura 1. Recursos energéticos renovables del mundo ........................................................... Figura 2. Insolación solar de varios países en base diaria y anual para el potencial de energía fotovoltaica (World Bank Group, 2019) .................................................................... Figura 3. Esquema de sistemas activo y pasivo de calentamiento de agua utilizando energía solar (Pathak, 2022) ................................................................................................................ Figura 4. Componentes de sistemas solares de calentamiento de agua<ref type="bibr" target="#b39">(Pathak, 2022)</ref> ......... Figura 5. Procesos industriales que requieren energía térmica<ref type="bibr" target="#b29">(Kalogirou S. A., 2013)</ref> ........ Figura 6. Esquema de un sistema de colector sola de tubos evacuados con PCM y la configuración dual PCM del sistema de calentamiento de agua<ref type="bibr" target="#b38">(Papadimitratos, 2016)</ref> ...... Figura 7. Ganancia energética del sistema de circulación forzada en un sistema solar de calentamiento de agua en diferentes estrategias de funcionamiento: Bing Bang, Swtiching, Solución propuesta<ref type="bibr" target="#b35">(Ntsaluba, 2016)</ref> ................................................................................... Figura 8. Comportamiento del colector solar para modelos (HWB, ISO 9806 y ANN) con el valor RMSE y R2 respecto al balance energético (Diez, 2019) ........................................... Figura 9. Resultados para la aproximación de la temperatura de salida (Diez, 2019) ......... Figura 10. Componentes de un sistema de colector solar de tubos evacuados (Apricus, Evacuated tube solar collector, 2024) ................................................................................... Figura 11. Diagrama de la absorción de energía solar y el proceso térmico dentro del heat pipe (Shafieian, 2019) .......................................................................................................... Figura 12. Esquema del proceso de transferencia de calor en un tubo de vacío, el intercambiador de calor y el fluido circundante. (Elbahjaoui, 2019) ................................... Figura 13. Ángulo de incidencia........................................................................................... Figura 14. Esquema de seguimiento pasivo para un ETC .................................................... Figura 15. Modificador del ángulo de incidencia sobre el ángulo de incidencia cuasi dinámico ............................................................................................................................... Figura 16. Equipo de experimentación ................................................................................. Figura 17. Parámetros y variables del experimento ............................................................. Figura 18. Esquema del sistema de calentamiento de agua con un colector solar de tubos evacuados ............................................................................................................................. Figura 19. Sistema de colector solar de tubos evacuados en TRNSYS ............................... Figura 20. Sistemas de colectores solares de tubos evacuados en serie para un análisis termodinámico a un flujo de 2 L/min. .................................................................................. Figura 21. Diseño de sistemas de control de flujo variable (SCFV) .................................... Figura 22. Sistema de agua sanitaria calientes (ASC) .......................................................... Figura 23. Temperatura de salida experimental para distintos flujos ................................... Figura 24. Cambio de temperatura experimental ................................................................. Figura 25. Eficiencia térmica experimental .......................................................................... Figura 26. Potencia calorífica transferida al fluido experimental (modelo ISO 9806) ........</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>........................................................................................................... Tabla 2. Ángulo modificador de incidencia para el ETC-30. ............................................... Tabla 3. Información técnica del Colector Solar Apricus ETC-30 (Apricus, 2015) ............ Tabla 4. Coeficientes del colector solar ETC-30 respecto al área de apertura (2.84 m 2 ) ..... Tabla 5. Modelos lineales para la temperatura de salida en función de la irradiancia para distintos flujos ...................................................................................................................... Tabla 6. Promedios de la experimentación para distintos flujos para un nivel de irradiancia de 200 a 1100 W/m 2 ............................................................................................................. Tabla 7. Modelos cuadráticos para la temperatura de salida en función de la irradiancia para distintos flujos ...................................................................................................................... Tabla 8. Promedios de la simulación para distintos flujos para un nivel de irradiancia de a 1100 W/m 2 ......................................................................................................................... Tabla 9. Modelos cuadráticos para el flujo en función de la irradiancia para distintos Tset . Tabla 10. Comparativa de sistemas de un sistema de flujo variable con respecto a sistemas de flujo constante (2 L/min) en serie, para cantidad de flujo anual, energía adicional, volumen y costo de gas. ........................................................................................................ Tabla 11. Modelo matemático de segundo grado para la optimización del flujo para un baño caliente a una temperatura Tset=40°C ................................................................................... Nomenclatura 𝑄 𝑈 : Calor útil 𝑆: Energía transferida por el fluido de trabajo 𝑄 𝐿 : 𝑃érdidas de calor entre el colector y los alrededores 𝑚: ̇ Flujo másico 𝐶 𝑝 : Calor especifico 𝑇 𝑜𝑢𝑡 : Temperatura salida 𝑇 𝑖𝑛 : Temperatura de entrada 𝜂: Eficiencia 𝐴 𝑐 : Área 𝐺: Irradiancia 𝐹 𝑅 : Factor de remoción 𝜏: Transmitancia 𝛼: Absorbancia 𝑇 𝑚 : Temperatura media 𝐾 𝜃 : Modificador del ángulo de incidencia 𝐾 𝜃𝑏 : Irradiancia Directa 𝐾 𝜃𝑑 : Irradiancia Difusa 𝜂: Factor de conversión de eficiencia 𝑎 1 : Coeficiente de transferencia de calor 𝑎 2 : Coeficiente de transferencia de calor dependiente de la temperatura 𝑇 𝑠𝑒𝑡 : Temperatura deseada Δ𝑇: Cambio de temperatura 𝑄 ̇: Potencia Calorífica</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figura 1 .</head><label>1</label><figDesc>Figura 1. Recursos energéticos renovables del mundo</figDesc><graphic coords="10,195.00,377.23,256.50,239.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>5) Los parámetros 𝑎 0 , 𝑎 1 y 𝑎 2 están disponibles para cualquier colector que haya sido validad de acuerdo con los estándares de la American Society of Heating, Refrigerating and Air-Conditioning Engineers Inc. (por sus siglas en ingles ASHRAE) y evaluado por la Solar Rating &amp; Certification Corporation SRCC. El valor 𝜂 0 es la eficiencia óptica del colector solar ( 𝑇 𝑚 -𝑇 𝑎 𝐺 ) = 0; 𝑎 1 es el coeficiente de perdidas térmicas para (𝑇 𝑚 -𝑇 𝑎 ) = 0 en (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figura 13 .</head><label>13</label><figDesc>Figura 13. Ángulo de incidencia</figDesc><graphic coords="32,223.50,70.85,164.75,114.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Tabla 2 .Figura 15 .</head><label>215</label><figDesc>Figura 15. Modificador del ángulo de incidencia sobre el ángulo de incidencia cuasi dinámico</figDesc><graphic coords="33,181.27,539.51,249.45,156.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figura 19 .</head><label>19</label><figDesc>Figura 19. Sistema de colector solar de tubos evacuados en TRNSYS</figDesc><graphic coords="38,210.00,191.85,191.45,99.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figura 20 .</head><label>20</label><figDesc>Figura 20. Sistemas de colectores solares de tubos evacuados en serie para un análisis termodinámico a un flujo de 2 L/min.</figDesc><graphic coords="38,46.50,494.21,518.85,134.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figura 21 .</head><label>21</label><figDesc>Figura 21. Diseño de sistemas de control de flujo variable (SCFV)</figDesc><graphic coords="40,182.15,133.50,288.50,167.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figura 22 .</head><label>22</label><figDesc>Figura 22. Sistema de agua sanitaria calientes (ASC)</figDesc><graphic coords="41,110.70,99.55,390.57,147.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figura 23 .</head><label>23</label><figDesc>Figura 23. Temperatura de salida experimental para distintos flujos</figDesc><graphic coords="43,151.87,273.18,310.28,265.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figura 25 .</head><label>25</label><figDesc>Figura 25. Eficiencia térmica experimental En cuanto a la eficiencia térmica mostrada en a la Figura 25, se observa cómo al utilizar un flujo de menor cantidad como es el de 0.5 /min, el comportamiento de eficiencia disminuye considerablemente, donde la transferencia de calor puede estar ocasionado debido a perdidas por la potencia calorífica total que se está utilizando para cambiar la temperatura del fluido, ya que al tener un flujo mayor a este, el comportamiento de la eficiencia térmica mejora, consecuente al tener mayor cantidad de agua, donde el calor suministrado al fluido es mejor aprovechado que uno de menor flujo, donde la eficiencia térmica y la potencia calorífica aumenta con el flujo, sin embargo al modelo utilizado este presenta una comportamiento lineal, donde al ser proporcional a la irradiancia, el calor transferido aumenta conforme incremente la irradiancia recibida. También se puede notar como el límite teórico utilizado para el colector ETC-30 de 0.714 se respeta según las características del colector solar y el modelo ISO-9806 utilizado para estos cálculos.</figDesc><graphic coords="46,166.50,70.85,278.55,228.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figura 26 .</head><label>26</label><figDesc>Figura 26. Potencia calorífica transferida al fluido experimental (modelo ISO 9806) En la siguiente tabla se muestras los valores promedios para cada uno de flujos utilizados en la experimentación.</figDesc><graphic coords="47,151.15,70.85,309.67,233.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figura 28 .</head><label>28</label><figDesc>Figura 28. Temperatura de salida (TRNSYS), para distintos flujos</figDesc><graphic coords="49,189.30,412.78,253.85,216.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figura 29 .</head><label>29</label><figDesc>Figura 29. Cambio de temperatura (TRNSYS) para distintos flujos</figDesc><graphic coords="51,183.68,142.63,244.64,205.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figura 31 .</head><label>31</label><figDesc>Figura 31. Eficiencia térmica (TRNSYS) para distintos flujos También se destaca que el comportamiento de la eficiencia térmica y la potencia calorífica es justo el encontrado en la experimentación, donde a menor flujo se tiene un resultado menor de estas dos variables. Esto se puede observar gráficamente en la Figuras 31 y 32.</figDesc><graphic coords="53,195.50,71.20,239.30,190.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figura 32 .</head><label>32</label><figDesc>Figura 32. Potencia calorífica (TRNSYS) para distintos flujos en relación con la temperatura de salida</figDesc><graphic coords="53,153.50,380.41,304.95,217.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figura 36 .</head><label>36</label><figDesc>Figura 36. Eficiencia térmica de un sistema de control (SCFV)</figDesc><graphic coords="58,147.68,70.85,316.61,260.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figura 37 .</head><label>37</label><figDesc>Figura 37. Modelos matemáticos de segundo grado para el flujo en función de la irradiancia a diferentes Tset De tal manera que se destacan los modelos matemáticos que es posible obtener del comportamiento del flujo (L/min) en el SCFV, en función de la irradiancia de 200 a 1100 W/m 2 , como se muestra en la Figura 37. Por lo tanto, es posible definir ecuaciones de segundo grado obtenidos de una simulación de 8760 horas correspondientes a los 365 días del año para un TMY de la Cd. De Chihuahua, descritos por la siguiente ecuación.</figDesc><graphic coords="59,151.45,70.85,309.06,264.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figura 38 .</head><label>38</label><figDesc>Figura 38. Comparativa del sistema propuesto (SCFV) y el convencional (SCSFC) de la temperatura de salida</figDesc><graphic coords="61,177.45,457.48,282.85,229.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="11,146.68,501.54,318.65,167.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,163.25,391.17,306.50,195.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="37,85.05,350.37,441.90,151.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="45,178.25,124.13,274.25,228.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="57,160.60,170.44,282.40,201.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="62,122.75,70.85,366.48,245.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="64,175.75,353.09,267.75,197.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>de 1 minuto, promediando las muestras mediante el software Smart Explorer V2.0.2.0 de KIPP &amp; Zonen. También se midió la temperatura: ambiente, de entrada, y de salida del fluido, donde se utilizaron termopares conectado a un termómetro digital multicanal 88598 4ch K SD LOGGER, con 4 termopares tipo K<ref type="bibr" target="#b25">(Instrument, 2019)</ref>. Finalmente, el colector solar utilizado en este estudio fue un Apricus ETC-30(Apricus, Technical Information, </figDesc><table><row><cell cols="2">Tabla 3. Información técnica del Colector Solar Apricus ETC-30 (Apricus, 2015)</cell></row><row><cell>Colector Solar Apricus ETC-30</cell><cell></cell></row><row><cell>Área de apertura</cell><cell>2.84 m 2</cell></row><row><cell>Factor de conversión 𝜼</cell><cell>0.714</cell></row><row><cell>Coeficiente de transferencia de calor 𝒂 𝟏</cell><cell>1.243 W/(m 2 K)</cell></row><row><cell>Coeficiente de transferencia de calor dependiente de la temperatura 𝒂 𝟐</cell><cell>0.009 W/(m 2 K)</cell></row><row><cell>Potencia máxima</cell><cell>2014 W</cell></row><row><cell>Máxima presión de operación</cell><cell>800 kPa</cell></row><row><cell>Capacidad volumétrica</cell><cell>0.7901</cell></row><row><cell>Máximo flujo recomendado</cell><cell>2 L/m</cell></row></table><note><p><p><p>Solar</p>Collector, 2015)</p>, el cual consta de 30 tubos evacuados de vidrio de borosilicato, con absorbente de Cu-AL/N-SS, y en el interior un tubo de calor de cambio de fase (heat pipe) de cobre. El colector se encuentra ubicado a 28.7174° latitud, -106.1335 longitud. Instalado Con 29° de inclinación con respecto al horizontal del suelo y 0° respecto al azimut. Las mediciones experimentales se realizaron desde el mes de agosto hasta noviembre del presente año. Para fines de la experimentación y del análisis se presenta la información técnica del colector Apricus ETC-30 que se muestra en la siguiente tabla.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>También se obtuvo los gráficos correspondientes del cambio de temperatura Δ𝑇 = 𝑇 𝑜𝑢𝑡 -𝑇 𝑖𝑛 , la eficiencia térmica calculada 𝜂 y la potencia calorífica transferida al fluido 𝑄 ̇, que se muestra en las siguientes figuras.</figDesc><table><row><cell>Flujo (</cell><cell>𝒍 𝒎𝒊𝒏</cell><cell>)</cell><cell>𝒃 𝟐</cell><cell>𝒃 𝟏</cell><cell>𝒃 𝟎</cell><cell>𝑹 𝟐</cell></row><row><cell cols="2">0.5</cell><cell></cell><cell>-0.000045</cell><cell>0.088</cell><cell>28.99</cell><cell>0.863</cell></row><row><cell cols="2">0.75</cell><cell></cell><cell>-0.00003</cell><cell>0.0602</cell><cell>30.93</cell><cell>0.863</cell></row><row><cell cols="2">1.0</cell><cell></cell><cell>-0.000023</cell><cell>0.0455</cell><cell>31.92</cell><cell>0.863</cell></row><row><cell cols="2">1.25</cell><cell></cell><cell>-0.0000187</cell><cell>0.0366</cell><cell>32.52</cell><cell>0.863</cell></row><row><cell cols="2">1.5</cell><cell></cell><cell>-0.0000157</cell><cell>0.0306</cell><cell>32.92</cell><cell>0.863</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Simulación: Valores promedio Temperatura de salida Cambio de temperatura Eficiencia térmica Potencia calorífica</head><label></label><figDesc></figDesc><table><row><cell cols="5">Tabla 8. Promedios de la simulación para distintos flujos para un nivel de irradiancia de 200 a 1100</cell></row><row><cell></cell><cell>W/m 2</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Flujo (𝒍/𝒎𝒊𝒏)</cell><cell>𝑇 𝑜𝑢𝑡 (°𝐶)</cell><cell>Δ𝑇 (°𝐶)</cell><cell>𝜂</cell><cell>𝑄 ̇ (𝑊)</cell></row><row><cell>0.5</cell><cell>64.1861</cell><cell>29.18187</cell><cell>0.65671</cell><cell>1017.81438</cell></row><row><cell>0.75</cell><cell>54.78657</cell><cell>19.78591</cell><cell>0.66619</cell><cell>1035.03332</cell></row><row><cell>1.0</cell><cell>49.96547</cell><cell>12.03185</cell><cell>0.67105</cell><cell>1043.7895</cell></row><row><cell>1.25</cell><cell>47.03318</cell><cell>12.5245</cell><cell>0.67401</cell><cell>1049.09087</cell></row><row><cell>1.5</cell><cell>45.06163</cell><cell>10.0594</cell><cell>0.676</cell><cell>1052.64515</cell></row></table><note><p>Figura 30. Comparativa de temperatura de salida para la experimentación y la simulación a distintos flujos constantes</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head></head><label></label><figDesc>lo cual indica que la calidad en la predicción para el flujo optimo (para una temperatura de entrada de 35 °C) en función de la irradiancia es notablemente alta, mostrando que existe una correlación de determinación aceptable. De esta manera es posible predecir el flujo óptimo para un nivel de irradiancia específico, al desear una temperatura de salida deseada utilizando el sistema de control SCFV, además con este modelo es posible optimizar el flujo constante que podría ser aplicado a un sistema convencional. Sin embargo, como se puede observar en la Figura 34 y la Tabla 9, al obtener los flujos promedios anuales para una temperatura de 100 °C, en el sistema de control SCFV, la variación de este es considerablemente alta, obteniendo un R 2 de 0.329, no obstante, al contrastar este resultado con el comportamiento de la temperatura de salida en Figura 32, se puede observar que esta temperatura de salida es lograda con un nivel de efectividad del 98.5%, a partir de los 455 es la temperatura de salida, es decir, la temperatura de salida es inversamente proporcional al flujo, . Por lo que controlar el flujo a una temperatura 𝑇 𝑠𝑒𝑡 mayor a los 90 °C, como lo es el caso de los 100 °C, presenta variaciones mayores, sin tener un comportamiento específico, como si se presenta en los casos de 60, 70, 80 y 90 °C. De tal manera que, al ser estos resultados de una simulación, es posible mejorar el desempeño de este sistema de control para valores de temperatura altos, señalando que eventualmente el tipo de fluido que se está utilizando en la simulación se puede especificar al indicar la densidad del fluido, por lo que esto también podría ser un factor por considerar cuando se busque lograr temperaturas de salida altas.</figDesc><table><row><cell cols="5">De acuerdo con la Figura 34, el flujo tiene un comportamiento cuadrático para las</cell></row><row><cell cols="5">temperaturas 𝑇 𝑠𝑒𝑡 de 60, 70, 80 y 90 °C, con valores de R 2 superior al 95%, al considerar un</cell></row><row><cell cols="5">𝛼 = 0.05, W/m 2 , donde anualmente se logra obtener 60,423.21 L/año a una temperatura de 100 °C, de</cell></row><row><cell cols="5">un total de 61,498 L/año, es decir únicamente 1,074 L/año no llegan a la temperatura</cell></row><row><cell cols="5">deseada, por lo tanto discutir la variación del flujo para este caso es destacable, ya que es</cell></row><row><cell cols="5">posible obtener la temperatura esperada, sin embargo no es posible obtener un modelo</cell></row><row><cell cols="5">𝑽 ̇= 𝑏 2 𝑮 𝟐 + 𝑏 1 𝑮 + 𝑏 0 matemático confiable. Esta variación se puede deber a distintos factores, ya que el intervalo (12)</cell></row><row><cell cols="5">de flujo para un nivel de irradiancia de 200 a 1200 W/m 2 , está entre los 0.05 a los 0.356</cell></row><row><cell cols="5">Tabla 9. Modelos cuadráticos para el flujo en función de la irradiancia para distintos Tset L/min, lo cual indica que, para lograr una temperatura alta, como lo es el caso de los 100 °C,</cell></row><row><cell cols="5">el sistema de control modifica el flujo de manera considerable, sin un patrón de</cell></row><row><cell cols="5">𝑻 𝒔𝒆𝒕 comportamiento estable. Por lo tanto, al operar con una cantidad de flujo bajo y pasar por el 𝒃 𝟐 𝒃 𝟏 𝒃 𝟎 𝑹 𝟐</cell></row><row><cell cols="5">60°C manifold, la transferencia de calor hacia el fluido llega hasta una temperatura cercana a la de -5.7E-7 0.00187 -0.12857 0.9972</cell></row><row><cell cols="5">70°C evaporación ya que en este caso se está utilizando agua, indicando que a irradiancia mayores -1.9E-7 0.0009802 0.03628 0.98132</cell></row><row><cell cols="5">80°C requieren un flujo mayor, es decir próximo a los 0.356 L/min, un flujo considerablemente 1.04E-7 0.0003583 0.18258 0.94829</cell></row><row><cell>90°C</cell><cell>6.38E-8</cell><cell>0.0003965</cell><cell>0.14403</cell><cell>0.96929</cell></row><row><cell>100°C</cell><cell>2.93E-7</cell><cell>-0.0002987</cell><cell>1842</cell><cell>0.329</cell></row></table><note><p>bajo, caso contrario a niveles de irradiancia menores es necesario un flujo de menor cantidad, esta es consecuencia del comportamiento físico del cambio de temperatura de salida, el cual de acuerdo con los resultados anteriores en simulación y experimentación, a menor flujo, mayor</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>𝑽 ̇ℎ𝑜𝑡 𝑏𝑎𝑡ℎ = 𝑏 2 𝑮 𝟐 + 𝑏 1 𝑮 + 𝑏 0</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>(13)</cell></row><row><cell>𝑻 𝒔𝒆𝒕</cell><cell>𝒃 𝟐</cell><cell>𝒃 𝟏</cell><cell>𝒃 𝟎</cell><cell>𝑹 𝟐</cell></row><row><cell>40°C</cell><cell>-1.54708E-6</cell><cell>0.00386</cell><cell>-0.37347</cell><cell>0.99943</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>transferencia de calor es agua, por lo que los principios, metodología y fundamentos expuesto son relevantes para esta clase de estudio, a pesar de que para este caso utilizan aire, pero a pesar de ello, se exponen estrategias que podrían ser utilizadas para la metodología y desarrollo de la investigación para la presente tesis.Un modelo basado en redes neuronal artificiales (ANNs, por sus siglas en inglés) basados en técnicas de inteligencia computacional artificial, para la predicción de la temperatura de salida en un colector solar de placa plana usando datos de irradiancia, temperatura ambiente, temperatura de entrada, con 3 diferentes flujos de agua: 1, 1.6 y 2 L/min, fue realizado por<ref type="bibr" target="#b9">(Diez, 2019)</ref> , donde realizaron comparaciones con su modelo propuesto y con otros modelos internacionales de colectores solares: ISO 9806 y Hottel-Whillier-Bliess (HWB), estos dos últimos son los más utilizadas por empresas solares. La metodología ANN que propusieron les permitió determinar un modelo de alta precisión, sin la necesidad de conocer las características técnicas del colector solar, las cuales pueden variar con uso, como la transmitancia del cristal y absorbancia de la placa absorbente, para distintas velocidades de la bomba.Figura 8. Comportamiento del colector solar para modelos (HWB, ISO 9806 y ANN) con el valor RMSE y R2 respecto al balance energético<ref type="bibr" target="#b9">(Diez, 2019)</ref> </p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>correlación que existe con esta variable. Por lo que esto representa un fundamento por el cual la realización de esta investigación resulta ser de interés y relevancia, ya que incluso el autor, propone el desarrollo de un controlador automático de flujo optimo, como futuro trabajo de investigación y aunque no es el objetivo, la determinación de una función de que determine dicha optimización del flujo másico, resulta ser de gran avance.En principio, el desempeño de un colector solar de tubos evacuados depende en términos de la eficiencia energética y la temperatura caliente que el agua puede alcanzar, lo cual puede ser afectado por cambios en la irradiancia, el flujo, la temperatura de entrada y la temperatura ambiente,<ref type="bibr" target="#b32">(Kotb, 2019)</ref>. Por lo anterior, la optimización de un sistema de colectores solares de tubos evacuados basado en determinar el flujo másico optimo según las condiciones de irradiancia y gradientes de temperatura, representa una alternativa en la innovación y desarrollo del mejoramiento del desempeño y la eficiencia térmica de estos sistemas, ya que actualmente, como se mencionó anteriormente, sí existen casos de estudio de optimización a partir del flujo másico, sin embargo para sistemas de calentamiento de agua caliente, utilizando colectores solares de tubos evacuados específicamente, no se encontró hasta la fecha algún estudio que muestre un desarrollo semejante. Por lo tanto, la novedad de esta propuesta para este sistema representa una de las justificaciones y motivaciones para llevar a cabo esta investigación.</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Recent progress in solar water heaters and solar collectors: A comprehensive review</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Ahmed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thermal Science and Engineering Progress</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">100981</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Technical Information, ETC-30 Solar Collector</title>
+		<author>
+			<persName><surname>Apricus</surname></persName>
+		</author>
+		<idno>A11-01.3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Apricus</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="2015">2015. 2016</date>
+		</imprint>
+	</monogr>
+	<note>ETC Solar Collector Product</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Evacuated tube solar collector</title>
+		<author>
+			<persName><surname>Apricus</surname></persName>
+		</author>
+		<ptr target="https://www.apricus.com/html/solar_collector.htm" />
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Optimal control of flow in solar collectors for maximum exergy extraction</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Badescu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International journal of heat and mass transfer</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">21-22</biblScope>
+			<biblScope unit="page" from="4311" to="4322" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Diseño Mecánico y Termodinámico de un Expansor para un Ciclo Rankine Orgánico Alimentado con Colector Solar para Cogeneración Domestica</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Chávez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>CENTRO DE INVESTIGACIÓN EN MATERIALES AVANZADOS, S.C</publisher>
+			<pubPlace>Chihuahua, Chih</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Global advancement on experimental and thermal analysis of evacuated tube collector with and without heat pipe systems and possible applications</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Chopra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied energy</title>
+		<imprint>
+			<biblScope unit="volume">228</biblScope>
+			<biblScope unit="page" from="351" to="389" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Review and comparison of different solar energy technologies</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">&amp;</forename><surname>Chu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Global Energy Network Institute (GENI)</title>
+		<meeting><address><addrLine>San Diego, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="52" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Córdova</forename><surname>Cornejo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Ricardo Palma -URP</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><surname>Cre</surname></persName>
+		</author>
+		<title level="m">Precios máximos aplicables de Gas LP. Comisión reguladora de energía</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Modelling of a flat-plate solar collector using artificial neural networks for different working fluid (water) flow rates</title>
+		<author>
+			<persName><surname>Diez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solar Energy</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Modelling of a flat-plate solar collector using artificial neural networks for different working fluid (water) flow rates</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Diez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-G.-R.-G.-S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solar Energy</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><surname>Dof</surname></persName>
+		</author>
+		<title level="m">Diario Oficial de la Federeación</title>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Solar engineering of thermal processes, photovoltaics and wind</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Duffie</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Performance evaluation of a solar thermal energy storage system using nanoparticle-enhanced phase change material</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Elbahjaoui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International journal of hydrogen energy</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2013" to="2028" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Renewable energy resources: Current status, future prospects and their enabling technology. Renewable and sustainable energy reviews</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Ellabban</surname></persName>
+		</author>
+		<author>
+			<persName><surname>-R</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="748" to="764" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Renewable energy resources: Current status, future prospects and their enabling technology. Renewable and sustainable energy reviews</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Ellabban</surname></persName>
+		</author>
+		<author>
+			<persName><surname>-R</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="748" to="764" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Latest advances on solar thermal collectors: A comprehensive review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Evangelisti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">109318</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Latest advances on solar thermal collectors: A comprehensive review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Evangelisti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">109318</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Latest advances on solar thermal collectors: A comprehensive review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Evangelisti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">109318</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Latest advances on solar thermal collectors: A comprehensive review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Evangelisti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019. 109318</date>
+			<biblScope unit="volume">114</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Some aspects of a PV/T collector/forced circulation flat plate solar water heater with solar cells</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Garg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy conversion and management</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="87" to="99" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A review on technical improvements, economic feasibility and world scenario of solar water heating system</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Gautam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="541" to="562" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Temperatura del agua caliente sanitaria | Greenheiss</title>
+		<author>
+			<persName><surname>Greenheiss</surname></persName>
+		</author>
+		<ptr target="https://www.greenheiss.com/temperatura-agua-caliente-sanitaria/" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>Obtenido de Greenheiss</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Advances in solar thermal harvesting technology based on surface solar absorption collectors: A review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Hussain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solar Energy Materials and Solar Cells</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="123" to="139" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A review of nano fluid role to improve the performance of the heat pipe solar collectors</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Hussein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Procedia</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="417" to="424" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Operation manual 88598 4ch K SD LOGGER</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Instrument</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Agua caliente sanitaria: elementos y clasificación del sistema</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Internacional</surname></persName>
+		</author>
+		<ptr target="https://www.kin.energy/blogs/post/agua-caliente-sanitaria-elementos-y-clasificaci%C3%B3n-del-sistema" />
+	</analytic>
+	<monogr>
+		<title level="m">Obtenido de Kinenergy</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duffie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename></persName>
+		</author>
+		<title level="m">Solar Engineering of Thermal Processes</title>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The potential of solar industrial process heat applications</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalogirou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Energy</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="337" to="361" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Solar energy engineering: processes and systems</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Kalogirou</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Academic press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Impact of environmental tax on ensuring environmental quality: Quantilebased evidence from G7 countries</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Kartal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cleaner Production</title>
+		<imprint>
+			<biblScope unit="volume">440</biblScope>
+			<biblScope unit="page">140874</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Solar power technologies for sustainable electricity generation-A review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Khan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="414" to="425" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Optimum number and arrangement of evacuated-tube solar collectors under various operating conditions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Kotb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy conversion and management</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">112032</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">lobal advancement of solar thermal energy technologies for industrial process heat and its future prospects: A review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Conversion and Management</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="885" to="908" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The impact of carbon pricing on international competitiveness in the case of Azerbaijan</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mukhtarov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Science and Pollution Research</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="33587" to="33594" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Optimal flow control of a forced circulation solar water heating system with energy storage units and connecting pipes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Z</forename><surname>Ntsaluba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable Energy</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="108" to="124" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Outlook</surname></persName>
+		</author>
+		<title level="m">International energy outlook</title>
+		<meeting><address><addrLine>Outlook</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page">485</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Qualification of a Solar Collector in accordance with DIN EN 12975-1</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename></persName>
+		</author>
+		<idno>DIN EN 12975</idno>
+		<imprint>
+			<date type="published" when="2006">2014. 2011. 2006</date>
+			<pubPlace>Shanghai</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Evacuated tube solar collectors integrated with phase change materials</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Papadimitratos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solar Energy</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="10" to="19" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Recent development in thermal performance of solar water heating (SWH) systems</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Pathak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Today: Proceedings</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="778" to="785" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A Guide to the Standard EN 12975</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Kovacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename></persName>
+		</author>
+		<idno>IEE/08/593</idno>
+	</analytic>
+	<monogr>
+		<title level="j">QAiST</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Solar energy, photovoltaics, and domestic hot water: a technical and economic guide for project planners, builders, and property owners</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Plante</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Academic Press</publisher>
+			<biblScope unit="page" from="41" to="73" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Thermal characteristics of a flat plate solar collector: Influence of air mass flow rate and correlation analysis among process parameters</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">&amp;</forename><surname>Rani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solar Energy</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="464" to="511" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Qualification of a Solar Collector in accordance with</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rheinland</surname></persName>
+		</author>
+		<idno>DIN EN 12975-1: 2011; DIN EN 12975</idno>
+		<imprint>
+			<date type="published" when="2006">2014. 2006</date>
+			<pubPlace>Shanghai</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Test Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<title level="m">Solar Energy Engineering: Processes and Systems</title>
+		<meeting><address><addrLine>San Diego Caligornia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier´s Science &amp; Technology</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">91</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Progress and latest developments of evacuated tube solar collectors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sabiha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.rser.2015.07.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Renew Sustain Energy Rev</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1038" to="1054" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Progress and latest developments of evacuated tube solar collector</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sabiha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Renewable and Sustainable Energy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1038" to="1054" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Classification of industrial heat consumers for integration of solar heat</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Energy Procedia</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="650" to="660" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Thermal performance of an evacuated tube heat pipe solar water heating system in cold season</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Shafieian</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="644" to="657" />
+		</imprint>
+	</monogr>
+	<note>Applied thermal engineering</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Performance model of a novel evacuated-tube solar collector based on minichannels</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">&amp;</forename><surname>Sharma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solar Energy</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="881" to="890" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Coriolis flowmeters, SITRANS F C MASS</title>
+		<author>
+			<persName><surname>Siemens</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2011. 2100 Di 1.5</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Spiegeler</surname></persName>
+		</author>
+		<title level="m">Definición e información de energías renovables</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Alternative determination of critical mass flow rate for the photovoltaic solar thermal collector in forced fluid mode</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Sultan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thermal Energy System Specialists, L</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">100805</biblScope>
+			<date type="published" when="2005">2021. 2005</date>
+		</imprint>
+		<respStmt>
+			<orgName>TRNSYS. Obtenido de Wisconsin University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Case Studies in Thermal Engineering</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Environmental impacts of water, food and energy nexus in Mexico City from an Organizational Life Cycle approach</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Villalba-Pastrana</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">World Bank Group, E. S.</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">City and Environment Interactions</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">100143</biblScope>
+			<date type="published" when="2019">2024. 2019</date>
+			<publisher>Photovoltaic Power Potential</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

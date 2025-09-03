@@ -1,0 +1,5 @@
+# Ignorar archivo en la raíz
+/alumnos-filtrados-20250826-1548\ -\ alumnos-filtrados-20250826-1548.csv
+
+# Ignorar archivo dentro de la carpeta RAG
+/RAG/alumnos-filtrados-20250826-1548\ -\ alumnos-filtrados-20250826-1548.csv

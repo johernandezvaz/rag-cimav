@@ -1,0 +1,1615 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo />
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>Un Especial Agradecimiento</autor>
+      <autor>Jesús Salvador</autor>
+      <autor>Uribe Chavira</autor>
+      <autor>Daniel Lardizábal Gutiérrez</autor>
+      <autor>Dra María</autor>
+      <autor>Luisa Ríos</autor>
+      <autor>Dra Adriana</autor>
+      <autor>Alvídrez Lechuga</autor>
+      <autor>Al Luis</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <introduccion>
+      <seccion>
+        <titulo>CAPÍTULO I I. Introducción</titulo>
+        <texto>El escenario global actual se caracteriza por una creciente conciencia ambiental. En este contexto, la preocupación por los daños ecológicos y los riesgos para la salud asociados con materiales tóxicos ha impulsado la investigación hacia el desarrollo de materiales avanzados y métodos de fabricación alternativos, lo que resulta clave para diversas aplicaciones emergentes. A medida que la investigación avanza en la mitigación de estos riesgos, se busca superar las limitaciones convencionales en el desarrollo de nuevos materiales, abriendo paso a una era de innovaciones tecnológicas y progreso industrial. En particular, los materiales compósitos avanzados, junto con nuevas técnicas de manufactura, como la Manufactura Aditiva (MA), ofrecen oportunidades significativas para mejorar la eficiencia estructural en campos tan diversos como la electrónica avanzada, la construcción, la ingeniería aeroespacial y la biomedicina Dentro de este panorama, las superficies mínimas triplemente periódicas (TPMS) han sido estudiadas por su capacidad para imitar las propiedades del hueso trabecular En paralelo, los compuestos polímero-cerámicos han emergido como materiales innovadores debido a su excepcional relación resistencia-peso</texto>
+      </seccion>
+    </introduccion>
+    <objetivos>
+      <seccion>
+        <titulo>I.8 Objetivos</titulo>
+        <texto />
+      </seccion>
+    </objetivos>
+    <objetivo_general>
+      <seccion>
+        <titulo>I.8.1 Objetivo general</titulo>
+        <texto>Elaborar un andamio poroso complejo y ligero, a partir de una TPMS, de un filamento elaborado de PLA/BaTiO3/G utilizando la MA para su fabricación.</texto>
+      </seccion>
+    </objetivo_general>
+    <justificacion>
+      <seccion>
+        <titulo>I.6 Justificación</titulo>
+        <texto>Los andamios porosos actualmente están en tendencia para aplicaciones biomédicas, sin embargo, no se limita. La constante demanda de materiales compósitos con propiedades multifuncionales utilizables en los diferentes procesos de fabricación, ha impulsado la necesidad de explorar innovaciones en el ámbito de la ciencia de materiales. Sin embargo, aún existen desafíos significativos en el desarrollo de materiales compósitos que combinen ligereza y alta resistencia mecánica. Esto tiene implicaciones directas en la mejora de la eficiencia, la seguridad y la sostenibilidad de las aplicaciones industriales en las que se puedan implementar estos andamios porosos.</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>I.7 Hipótesis</titulo>
+        <texto>Será posible desarrollar y analizar un nuevo material compuesto de PLA/BaTiO₃/G, apto para impresión de andamios porosos, complejos y ligeros (TPMS P-type) mediante impresión 3D (FDM) con tecnología comercial, que sea capaz de mostrar una resistencia a la compresión ≥100 MPa.</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>I.2 Optimización topológica en el diseño estructural</titulo>
+        <texto>La optimización topológica es una metodología avanzada que permite diseñar estructuras eficientes al manipular estratégicamente la distribución del material dentro de un espacio. Inspirada en principios de topología, esta técnica preserva las propiedades fundamentales de una estructura mientras maximiza su rendimiento mecánico, eléctrico, térmico u óptico. Esta metodología es fundamental en industrias como la aeroespacial y la biomédica, donde se diseñan estructuras multifuncionales con geometrías optimizadas. En el ámbito aeroespacial, estas optimizaciones permiten reducir el peso de los componentes sin comprometer su resistencia, mejorando la eficiencia en los procesos de fabricación. En el sector biomédico, se aplican para desarrollar implantes y prótesis que imitan la estructura porosa del hueso humano, favoreciendo la osteointegración y la distribución de cargas de manera más natural</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.1 Fabricación del compósito</titulo>
+        <texto>El proceso de fabricación de un compósito depende en gran medida de la elección de materiales adecuados y de las fases en las que estos se presenten. En la literatura se han descrito diversos métodos para elaborar compuestos con matriz polimérica de ZCB, 85 gr. de PLA y 5 ml de glicerol. En el presente trabajo se propuso desarrollar un filamento polímero-cerámico PLA/BT/G, con el fin de evaluar su viabilidad para la impresión 3D. Para ello, se emplearon pellets de PLA 4060D (NatureWorks, LLC) con composición química (C₃H₄O)ₙ, polvos comerciales de BaTiO₃ (pureza del 99% y tamaño de partícula &lt;3 µm) y glicerol (pureza del 99.5%), ambos adquiridos de Sigma-Aldrich Chemical Co. Inc. (USA). Siguiendo la estrategia propuesta por Rodríguez-Pacheco et al., se establecieron como concentraciones óptimas 10 gr. de BT, 85 gr. de PLA y 5 ml de glicerol, lo que permitió obtener un filamento con una extrusión uniforme y propiedades adecuadas para su posterior aplicación.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura III.6 Análisis termogravimétrico de la muestra PLA10BT5G para la obtención del contenido inorgánico posterior al método de MEX.</titulo>
+        <texto>El residual o contenido de ceniza que se observa es de 5.7% en peso. Esto evidencia la pérdida de aproximadamente el 4.3% de BaTiO3, sugiriendo que la metodología propuesta de mezclar físicamente mediante el empaquetamiento del polvo cerámico con glicerol en los pellets repercute en la pérdida de material, siendo más viables otras técnicas de mezclado, como la sugerida por Este comportamiento establece un margen térmico de seguridad por debajo de 280°C para evitar la degradación durante la extrusión, aspecto esencial a la hora de procesar el material mediante modelado por FDM. El análisis por CDB de PLA10BT5G (Figura III.7), pone en evidencia el carácter amorfo del material, ya que no se aprecian picos de fusión o cristalización que indiquen transiciones exotérmicas o endotérmicas significativas. El primer flujo de calor revela una transición vítrea (Tg)</texto>
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>III.1 Cambios estructurales y microestructurales</titulo>
+        <texto>En la Figura III.1 y Figura III.2 se presentan los resultados del refinamiento Rietveld para la muestra BT, PLA10BT5G y A-PLA10BT5G donde se distinguen:  Yobs (señal experimental): Representa los valores de intensidad obtenidos experimentalmente en función de 2θ.  Ycalc (señal calculada): Corresponde al patrón de difracción simulado a partir del modelo estructural propuesto (fases tetragonal y ortorrómbica).  Residual (diferencia Yobs -Ycalc): Indica la diferencia punto a punto entre los valores experimentales (Yobs) y los calculados (Ycalc). Un trazo cercano a cero sugiere un buen ajuste en la mayoría de los ángulos.  Posiciones de Bragg (marcas en la parte inferior en color verde): Señalan los ángulos de difracción donde se esperan los picos de cada fase identificada, de acuerdo con la información cristalográfica (T: grupo espacial P4mm; O: grupo espacial Amm2). Por otra parte, la bondad de ajuste (χ²), definida como (Rwp/Rexp)², se utiliza para evaluar la calidad del refinamiento. Los valores de Rwp (factor R ponderado) y Rexp (factor R esperado) se expresan como porcentajes y cuantifican la calidad del ajuste en un refinamiento Rietveld. Rwp mide la discrepancia entre los datos experimentales y el modelo calculado, ponderada según las incertidumbres de cada punto. Por su parte, Rexp representa el valor teórico mínimo de discrepancia basado en la estadística de los datos, es decir, el ajuste ideal que se esperaría si solo estuvieran presentes errores experimentales. Aunque se sugiere que, para una cuantificación aceptablemente precisa, el valor debería ser inferior al 10%, esta regla es algo ambigua. Lo esencial es que el refinamiento resulte químicamente plausible y que la superposición entre los datos experimentales y los calculados sea visualmente satisfactoria. El análisis del refinamiento del patrón de difracción de rayos X confirman la presencia de dos fases cristalinas (T y O) para la muestra BT. La similitud en las posiciones de Bragg entre las fases tetragonal, ortorrómbica y romboédrica explica por qué fue necesario incluir múltiples fases en el modelo para lograr un ajuste adecuado. Además, a partir de este refinamiento se puede determinar la proporción relativa de cada fase. Para este refinamiento se consideraron ambas fases (Figura III.1a). La fase tetragonal, reconocida como la forma ferroeléctrica más estable del BaTiO₃ a temperatura ambiente, se evidencia por la división del pico entre 45° y 46° en 2θ, que corresponde a los planos (002) y (200) (Figura III.1b). Figura III.1 a) Patrón de difracción de rayos X de la muestra BT refinado a través del método de Rietveld con su proporción de la fase tetragonal y ortorrómbica obtenido mediante el software FullProf Suite, resaltando b) el pico característico correspondiente a la fase tetragonal. Se obtuvo una proporción de fases en la muestra, con un 67.31% para la fase tetragonal y un 32.69% de la fase ortorrómbica, y con una bondad de ajuste de 1.57%. Estos valores son relevantes, ya que conocer la distribución exacta de las fases nos permite correlacionar la estructura cristalina con las propiedades funcionales del material. A diferencia del patrón de la muestra BT, en los difractogramas de PLA10BT5G (Figura III.2a) y A-PLA10BT5G (Figura III.2c) se observa una curvatura pronunciada en el rango 20° &lt; 2θ &lt; 26°, lo que provoca la casi desaparición del pico (100) y se extiende a lo largo de todo 2θ, indicando la naturaleza amorfa del PLA.</texto>
+      </seccion>
+    </resultados>
+    <conclusiones>
+      <seccion>
+        <titulo>CAPÍTULO IV IV. Conclusiones</titulo>
+        <texto> Se logró la fabricación de un filamento compuesto de PLA/BT/G mediante la técnica de MEX y la impresión de un andamio poroso (TPMS P-type) mediante la técnica FDM.  La técnica de extrusión en caliente (MEX) se demostró efectiva para la elaboración del filamento.  Se logró la optimización del diseño de andamios porosos utilizando software CAD (SolidWorks).  Se logró una mayor precisión en el control del mallado y mejoró la calidad final de las impresiones 3D.  Por DRX se confirma la presencia de dos fases cristalinas (tetragonal y ortorrómbica).  El análisis por ATG, CDB y reológico lograron a identificar la temperatura óptima de impresión, garantizando que el material mantenga la fluidez y adhesión de capas sin comprometer la integridad estructural del polímero, demostrando que el filamento es apto para utilizarse como material de impresión.  La configuración de impresión, así como el control de la temperatura ambiente y la estabilidad del equipo resultan cruciales para la obtención de impresiones de alta calidad.  Las pruebas mecánicas demostraron que el filamento presenta una resistencia a la compresión de 153.33 MPa, una mayor resistencia a la compresión en comparación con el filamento comercial.  La evaluación mecánica de los andamios muestra que los eventos de colapso progresivo en las celdas estructurales del andamio elaborado con el filamento PLA10BT5G lo hace más adecuado para aplicaciones donde la estabilidad y la ductilidad son críticas.</texto>
+      </seccion>
+    </conclusiones>
+    <otros>
+      <seccion>
+        <titulo>Índice de Figuras</titulo>
+        <texto>Figura I.</texto>
+      </seccion>
+      <seccion>
+        <titulo>I.1 Eficiencia estructural y respuesta mecánica de los materiales</titulo>
+        <texto>En la ingeniería moderna, la eficiencia estructural se basa en la capacidad de una estructura para soportar cargas y resistir deformaciones con el menor uso de material posible. Optimizar esta eficiencia no solo mejora el rendimiento, sino que también reduce el impacto ambiental y los costos de producción. Para evaluar el comportamiento de los materiales bajo carga, es fundamental comprender su respuesta mecánica, que describe su reacción ante fuerzas estáticas o dinámicas. Esta respuesta se analiza a través de la relación esfuerzo-deformación e involucra propiedades clave como rigidez, resistencia y ductilidad Un aspecto esencial en la eficiencia estructural es la capacidad de una estructura para soportar cargas sin deformarse permanentemente. Esto significa que, cuando se aplica una carga, la estructura se deforma, pero al retirarla, debe volver a su forma original. A este fenómeno se le conoce como deformación elástica, y está gobernado por la ley de Hooke para esfuerzos (Ecuación I.1).</texto>
+      </seccion>
+      <seccion>
+        <titulo>=</titulo>
+        <texto>Ecuación I.1 Donde: Siendo este esfuerzo una carga por unidad de área: Y la deformación unitaria, la deformación lineal que experimenta el material por unidad de longitud en la dirección de aplicación de la fuerza.</texto>
+      </seccion>
+      <seccion>
+        <titulo>= ' (</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Ecuación I.3</titulo>
+        <texto>Donde: Para caracterizar esta respuesta mecánica en los materiales, se realizan ensayos como la prueba de compresión, que permite determinar la capacidad de un material para soportar cargas antes de alcanzar su deformación plástica o fractura. Estos ensayos son esenciales en diversas industrias, como la construcción, la biomédica y la automotriz.</texto>
+      </seccion>
+      <seccion>
+        <titulo>I.1).</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Capítulo I</titulo>
+        <texto>Al controlar la composición, orientación y disposición de las fases en los materiales, es posible ajustar sus propiedades para cumplir con requisitos específicos, reduciendo el volumen de material sin comprometer la resistencia. Figura I.1 Representación esquemática de la estructura celular porosa del hueso trabecular y vista en sección de la red TPMS Split-P que se asemeja a la morfología del hueso trabecular Los avances en este campo han permitido la creación de sistemas complejos y de alto rendimiento, como las superficies mínimas triplemente periódicas (TPMS), que combinan eficiencia estructural con propiedades mecánicas y funcionales mejoradas. Estas innovaciones han revolucionado el diseño de componentes en manufactura aditiva, proporcionando soluciones ligeras, resistentes y adaptadas a condiciones extremas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>I.3 Superficies Mínimas Triplemente Periódicas (TPMS)</titulo>
+        <texto>Las superficies mínimas triplemente periódicas (Figura I.2), son aquellas superficies geométricas que constan de una superficie con curvatura media cero y exhiben periodicidad sin límites a lo largo del espacio tridimensional. Las superficies mínimas representan configuraciones de equilibrio de tensiones superficiales, lo que significa que no hay fuerzas netas que tiendan a deformar la superficie en ninguna dirección, y, por ende, se entiende que, debido a dicho equilibrio, estas superficies son considerables estables. Figura I.2 Seis geometrías representativas del tipo TPMS a una fracción de volumen de 0.2. Adaptado de Este tipo de superficies surgen a partir de la teoría de superficies mínimas la cual es desarrollada dentro del área de las matemáticas y la geometría diferencial. Esta teoría es descrita mediante ecuaciones diferenciales parciales para lograr describir superficies que tienen la propiedad de minimizar el área superficial dentro de un determinado volumen y presentan simetría traslacional en ℝ³, y se distinguen por mantener curvaturas medias constantes en todas las direcciones. Este tipo de superficies han sido desarrolladas y evolucionado a lo largo del tiempo. La historia de la teoría de las superficies mínimas comienza en el siglo XVIII, cuando el matemático francés Joseph-Louis Lagrange comenzó a estudiar las propiedades de las superficies que minimizan ciertas integrales de energía. Sin embargo, fue el matemático alemán Carl Friedrich Gauss quien formuló por primera vez las ecuaciones fundamentales para las superficies mínimas El descubrimiento de estas superficies fue realizado a nivel teórico y matemático por el matemático belga Eugène Charles Catalan Estas superficies actualmente son utilizadas y estudiadas por la triple periodicidad que puede encontrarse en las reacciones de polimerización orgánica e inorgánica, al igual que en las simetrías cristalográficas (Figura I.3) Figura I.</texto>
+      </seccion>
+      <seccion>
+        <titulo>I.3.1 Superficies de Schwarz</titulo>
+        <texto>Bajo un contexto general, la clasificación de todas las TPMS actualmente conocidas sigue siendo un problema matemático abierto Las superficies de Schwarz son las más conocidas y utilizadas actualmente para el diseño de estructuras ligeras dirigida hacia diferentes aplicaciones</texto>
+      </seccion>
+      <seccion>
+        <titulo>Capítulo I</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>I.4 Manufactura Aditiva</titulo>
+        <texto>La fabricación o manufactura aditivas (MA), comúnmente conocida como impresión 3D, es una tecnología que ha ido evolucionando en la última década. Esto ha permitido la fabricación de componentes tridimensionales mediante la adición de material, a diferencia a los métodos tradicionales, los cuales implican la sustracción o conformación de materiales La MA tiene un vasto espectro de procesos y técnicas que se pueden catalogar por sus diferentes aplicaciones y particularidades. Cada técnica ofrece diversas ventajas, sin embargo, todas coinciden con una mayor libertad de diseño, facilidad de crear prototipos y, generalmente, una reducción del desperdicio de material. Desde la estereolitografía (SLA) hasta la inyección de aglutinante (BJ), estas técnicas ofrecen una versatilidad al abordar la diversidad de requerimientos en la fabricación, sin embargo, varios de estos métodos implican un incremento en el desperdicio del material que se requiere para realizar la impresión, largos tiempos de espera después del proceso de impresión, complejidades en el procesamiento y un riguroso tratamiento térmico posterior</texto>
+      </seccion>
+      <seccion>
+        <titulo>I.4.1 Moldeado por Deposición Fundida (FDM)</titulo>
+        <texto>El proceso de fabricación aditiva por Modelado por Deposición Fundida (FDM) (en inglés, Fusion Filament Fabrication, FFF), es una tecnología de impresión en la cual son utilizados materiales termoplásticos para construir objetos capa por capa. En comparación con otras técnicas, la impresión por FDM es uno de los procesos más ampliamente utilizados dentro de la amplia gama de MA debido a que es más asequible en térmicos de adquisición y materiales utilizados, además de que, tanto los softwares de modelado 3D, de corte y los equipos son intuitivos y fáciles de operar Figura I. En términos de la modelación 3D, existe una amplia gama de softwares. Comúnmente, los softwares para el diseño 3D proporcionan diversas herramientas que permiten el diseño de estructuras o geometrías, desde sencillas hasta complejas. Este tipo de softwares usualmente requieren de una licencia para su manejo, lo cual podría considerarse un costo adicional para el proceso de impresión, sin embargo, también existen aquellos que son de acceso libre. Los softwares más utilizados para el diseño previo a la impresión son el Autodesk Fusion 360 (Autodesk, Inc.), SolidWorks (Dassault Systèmes) y Blender (Blender Foundation). Antes de realizar la impresión, el modelo tridimensional es dividido en capas delgadas (slices) mediante un software de rebanado, el cual genera las instrucciones (código G) necesarias para dirigir la impresora. Las impresoras FDM permiten la utilización de una variedad de materiales (generalmente termoplásticos), tal como PLA, ABS, PETG, entre otros Los parámetros de resolución dentro de la impresión por FDM están intrínsecamente relacionados con la precisión en los ejes X, Y, Z y acabado final deseado. Estos parámetros pueden ajustarse según el material utilizado y la especificación de cada equipo, siendo de especial interés el espesor de la capa depositada para la elaboración de la pieza. Dependiendo de la calidad y acabado deseados es importante considerar varios factores. Figura I.5 Andamios tipo TPMS impresos con la técnica FDM mediante una impresora industrial tipo EOS P 110 Uno de ellos es el diámetro de la boquilla que es por el cual el material es extruido, el cual influye directamente en la precisión y resolución de la impresión. Otro aspecto importante es la temperatura de extrusión, la cual está relacionada con el tipo de material (capacidad de fluencia y viscosidad) y equipo utilizado. Es decir, si se requiere una impresión de alta calidad que se realice con una deposición uniforme, precisa y que cuente con buena adherencia, la impresora tendrá que contar con una resolución vertical más fina, la cual a su vez estará sujeta a un menor diámetro de boquilla y a una temperatura de extrusión adecuada dependiendo del material que se esté utilizando, que, en consecuencia, disminuirá la velocidad y aumentará los tiempos de impresión. La impresión por FDM puede construir directamente estructuras sólidas con geometrías complejas de manera más dinámica, rápida y efectiva, y que, en algunos casos, pueden prescindir de la sinterización como paso adicional</texto>
+      </seccion>
+      <seccion>
+        <titulo>I.5 Materiales compósitos</titulo>
+        <texto>Un material compuesto (o compósito) se constituye por la combinación de dos o más materiales, de los cuales cada uno posee propiedades físicas y químicas distintas. Estos diversos constituyentes otorgan atributos distintivos al compuesto. Sin embargo, es discernible dentro del compuesto que los diferentes materiales no se disuelven ni se mezclan entre sí, ya que tienen una interfaz finita entre ellos. En la última década, se ha tratado de crear compuestos o cerámicas multifuncionales libres de plomo. Un ejemplo de estas cerámicas es el BaTiO3. El titanato de bario (BT) es uno de los materiales ferroeléctricos más utilizados desde su descubrimiento en 1945 durante la Segunda Guerra Mundial El análisis estructural revela que el BT en su fase tetragonal, es un cristal no centrosimétrico y que, al ser sometido bajo un estrés mecánico externo, el cristal de BT exhibe una fuerte polaridad eléctrica debido al desplazamiento de Ti 4+ dentro de la celda unitaria tetragonal véase Figura I.6. En consecuencia, el BT sigue siendo estudiado dentro de diversas áreas ya que presenta un buen acoplamiento electromecánico. Además, que se ha demostrado ser un candidato prometedor para diversas aplicaciones biomédicas ya que posee una mejor biocompatibilidad en comparación de otras cerámicas. Figura I. Es un polímero versátil, reciclable y compostable, cuenta con una alta transparencia, alto peso molecular y es fácilmente procesable. Debido a esto, es considerado como uno de los poliésteres más prometedores debido a su bio absortividad y capacidad de ser compostable demostrando ser un biopolímero prometedor en diversas aplicaciones de salud y siendo altamente utilizado como polímero imprimible en 3D debido a su facilidad de procesamiento, buenas propiedades mecánicas (resistencia a la tracción: ~50 MPA; temperatura de fundido (Tm): 160 -180 °C; temperatura de transición vítrea (Tg): 60 -65 °C) Los compuestos cerámicos y polímero-cerámicos, en particular, aquellos basados en BT, ofrecen propiedades piezoeléctricas y bioactivas prometedoras. La combinación de materiales cerámicos con PCL y PLA han demostrado tener aplicaciones significativas en una gran diversidad de áreas, aprovechando tanto las propiedades mecánicas, eléctricas, piezoeléctricas, así como las bioactivas de estos materiales.</texto>
+      </seccion>
+      <seccion>
+        <titulo>I.8.2 Objetivos específicos</titulo>
+        <texto> Obtener el compósito de PLA/ BaTiO3/G por el método de extrusión (MEX).  Evaluar a través de reología los parámetros de viscosidad y los comportamientos viscoelásticos en función de la frecuencia y la temperatura en las diferentes etapas del procesamiento, en comparación con un filamento comercial para impresión.  Obtener las propiedades térmicas y de estabilidad del filamento. Así como, estimar el contenido residual de carga inorgánica, a través de análisis termogravimétrico (ATG) y calorimetría diferencial de barrido (CDB).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Capítulo I</titulo>
+        <texto> Realizar la caracterización estructural del BaTiO3 por medio de la difracción de rayos X (DRX). Determinar los parámetros de celda a través del refinamiento por el método de Rietveld usando el programa de FullProf Suite.  Analizar los parámetros microestructurales (tamaño y forma de la partícula); la composición química elemental y su distribución mediante microscopía electrónica de barrido (MEB) y la espectroscopía de dispersión de los rayos X (EDX).  Diseñar la celda primitiva de Schwarz unitaria mediante su ecuación, utilizando lenguaje de programación Python y el software SolidWorks.  Generar un andamio poroso a través del compósito PLA/BaTiO3/G mediante la impresión 3D, por el método de Modelado por Deposición Fundida (FDM).  Evaluar las propiedades mecánicas (módulo de elasticidad; el módulo de rigidez y deformación) a compresión para obtener su resistencia máxima.</texto>
+      </seccion>
+      <seccion>
+        <titulo>CAPÍTULO II II. Metodología experimental</titulo>
+        <texto>En este capítulo se condensan las técnicas de elaboración del filamento de PLA/BaTiO3/G, de impresión y caracterizaciones realizadas para la óptima impresión de los andamios P-type. Para la obtención del compósito, se utilizó polvo cerámico comercial de BaTiO3, pellets comerciales de PLA 4060D y glicerol puro. La mezcla, así como la obtención del filamento de 0.175 ± 0.012 cm de diámetro fue mediante el método de extrusión (MEX). Posteriormente, se obtuvo el diseño de la estructura primitiva de Schwarz y el andamio mediante el software SolidWorks. Durante la etapa de caracterización se utilizaron difracción de rayos X (DRX), microscopía electrónica de barrido (SEM), espectroscopia de rayos X de energía dispersiva (EDS), análisis termogravimétricos (ATG), calorimetría de barrido diferencial (CDB), análisis reológico rotacional y oscilatorio (DMA). Finalmente, se evaluaron las condiciones de impresión necesarias y se utilizó el filamento obtenido en una impresora comercial para evaluar su factibilidad de impresión y obtención del andamio poroso.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.1.1 Mezclado por extrusión</titulo>
+        <texto>El mezclado por extrusión en caliente (MEX, por sus siglas en inglés), es un procesamiento de materiales poliméricos a temperaturas superiores que su temperatura de transición vítrea (Tg) para lograr la mezcla a nivel molecular de aglutinantes termoplásticos y/o polímeros con compuestos activos. Figura II.1 Proceso de obtención del filamento mediante la técnica MEX. Este proceso consta de 5 pasos esenciales para la elaboración de nuestro filamento (Figura II.1). En un primer paso, se requiere el secado de los materiales para garantizar 0% de humedad en los materiales. Para ello, se secaron los polvos de BT al igual que los pellets de PLA en un horno (Fisher Scientific 281A Isotemp Vacuum Oven) a 60°C por 4 hrs. Posteriormente en el segundo paso, se procedió a la humectación de los pellets de PLA con glicerol hasta garantizar una distribución completa, para después añadir el BT en polvo con el objetivo de crear una capa de BT sobre los pellets humectados. En el tercer paso se procedió a colocar los pellets empaquetados en la tolva del extrusor (Brabender Plasticorder). Este fue configurado a 15 RPM, con una temperatura de extrusión en el dado de 155 °C y una temperatura del tornillo de 140 °C. Tras este proceso, el filamento, designado como PLA10BT5G, obtuvo un moldeo mediante un equipo con rodillos para garantizar la homogeneidad en su diámetro, de 0.175 ± 0.012 cm. Este diámetro es requerido para la utilización del filamento en la impresora. Después de este proceso, el filamento se bobinó en un carrete.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.2 Diseño de andamio</titulo>
+        <texto>Para el diseño del andamio poroso se eligió la superficie primitiva de Schwarz (mejormente conocida como P-type), esto debido a que es la TPMS menos compleja de modelar e imprimir en comparación de las demás superficies conocidas (Figura II.2). En la siguiente parte del código se generan puntos x, y, z, para una tabulación. Posteriormente se llama a la función previamente programada para que, al darle los puntos generados, nos dé un escalar que representa el valor de la función implícita para esos puntos usando NumPy. Posteriormente, con esos escalares obtenidos se generan polígonos por el método de marching cubes que se encuentra dentro del módulo de skimage. Finalmente, se procede a graficar en el Notebook los polígonos utilizando Matplotlib con el fin de tener una vista previa de nuestro modelo 3D y proceder a la creación del archivo con extensión .stl mediante el módulo stl para poder procesar el archivo en el slicer de elección. Dado al resultado obtenido por este método, se decidió no utilizar la superficie como modelo de impresión debido a problemas con el resultado de mallado y manejo de la superficie al tratar de manejar el offset para proponer el tamaño de poro (Figura II.5a). Se concluyó que la malla generada por este proceso es útil para geometrías complejas, sin embargo, resultó complicado de manejar para el software propuesto la realización del laminado del modelo. Cabe mencionar que, en este programa se puede optimizar para generar modelos más manejables, pero esto conlleva más tiempo de desarrollo. Como solución a esta problemática, se decidió generar el andamio mediante el software SolidWorks v.2015 de igual manera que el andamio anterior, a partir de la ecuación previamente mencionada. Además, en el proceso de las pruebas con la geometría, fue notorio que las mallas generadas por un software CAD (Figura II.5b) son menos propensas a ser rechazadas por el software UltiMaker Cura. Este cambio de diseño a un software tipo CAD surgió ante la necesidad de mejorar el mallado y controlar el tamaño de poro de una manera más sencilla.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.3 Impresión 3D</titulo>
+        <texto>En todos los tipos de impresión 3D, el software de laminado es una herramienta esencial para transformar un modelo digital en una pieza física. Su función principal es dividir el diseño en capas y generar instrucciones precisas para la impresora, asegurando que el proceso de fabricación aditiva se lleve a cabo de manera eficiente y con resultados óptimos. Sin embargo, además de la configuración de los parámetros de impresión, la calibración del equipo es indispensable para garantizar una impresión de calidad.</texto>
+      </seccion>
+      <seccion>
+        <titulo>a) b)</titulo>
+        <texto>La impresión 3D, en general, requiere una cuidadosa configuración de parámetros, ya que estos influyen directamente en la calidad final de la pieza impresa. Factores como la velocidad de impresión, la temperatura de la boquilla y de la cama, la altura de capa y la densidad de relleno desempeñan un papel crucial en la precisión y resistencia del objeto resultante. Un ajuste adecuado de estas variables no solo mejora la fidelidad del modelo impreso, sino que también optimiza el tiempo y el uso de material, garantizando una impresión exitosa. En este trabajo, todas las impresiones fueron realizadas en una impresora Creality Ender-3 (Creality, Shenzhen, China), con una boquilla de impresión de 0.40 mm (Figura II.6a).</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.3.1 Calibración y configuración de impresión</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>II.3.1.1 Calibración del equipo</titulo>
+        <texto>La calibración del equipo en impresión 3D es un paso fundamental para garantizar la calidad y precisión de las piezas fabricadas  Nivelación de la cama y calibración del eje Z: Una cama desnivelada o una altura incorrecta del eje Z pueden afectar la adherencia de la primera capa, causando fallas en la impresión. Para evitarlo, se debe ajustar la nivelación de la cama y calibrar el eje Z para asegurar que la boquilla esté a la distancia óptima. Si la boquilla está demasiado cerca, el filamento no fluirá correctamente y puede obstruirse; si está demasiado lejos, la pieza no se adherirá y podría despegarse.  Ajuste de los E-steps y flujo del filamento: el extrusor debe depositar la cantidad exacta de material indicada por el software. Una mala calibración del flujo del filamento puede provocar: o Subextrusión: provoca capas incompletas y piezas frágiles. o Sobreextrusión: genera acumulación de material y pérdida de precisión. Para verificar esto, se marca una sección del filamento y se extruye una cantidad específica; si la extrusión no coincide, se ajustan los E-steps.  Control de temperatura y retracción: La temperatura inadecuada de la boquilla puede afectar el flujo del filamento. Una temperatura baja causa subextrusión, es decir, ocurre cuando la impresora no deposita el material suficiente, mientras que una alta (sobrextrusión) puede generar goteo y encordado. Un ajuste de la temperatura de la boquilla adecuada en base de los requerimientos de cada tipo de filamento y configurar los parámetros de retracción, ayuda a evitar hilos entre las secciones de la impresión.  Estabilidad del cabezal: Un cabezal de impresión suelto, correas flojas o pérdida de pasos en los motores pueden provocar desplazamientos de capas, afectando la alineación de la pieza. Verificar y ajustar que las correas estén correctamente tensadas y que los motores funcionen adecuadamente. Para garantizar una buena calidad de impresión, se decidieron abordar dichos aspectos de calibración debido a que la calidad de las piezas en un inicio resultó con defectos significativos, como la presencia de huecos en la pieza y desplazamiento de capas (Figura II.6b). La calibración del equipo significó una mejora significativa en cuanto a calidad y estabilidad de las piezas impresas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.3.1.2 UltiMaker Cura</titulo>
+        <texto>UltiMaker Cura es un software de código abierto diseñado para la preparación de modelos de impresión en 3D. Su función principal es convertir un diseño tridimensional en instrucciones específicas de impresión mediante código G-code, el cual contiene los parámetros configurados para la impresión, capa por capa. Este software ofrece la posibilidad de seleccionar configuraciones predeterminadas en función del tipo de material a utilizar, así como opciones avanzadas que permiten una optimización detallada del proceso de impresión. Entre los parámetros ajustables se incluyen la temperatura de impresión por capa, la temperatura de la cama, la velocidad de impresión, la altura de capa y la densidad de relleno, entre otros. Para evaluar el desempeño del software, se realizaron pruebas de impresión utilizando dos tipos de filamento: un filamento comercial de PLA (Hatchbox 3D) y el filamento PLA/BT/G. Las muestras obtenidas con el filamento comercial se identificaron como CH-PLA, mientras que las fabricadas con el filamento experimental fueron denominadas PLA10BT5G. El proceso de laminado se llevó a cabo utilizando UltiMaker Cura V5.6.0, empleando su perfil predeterminado de alta calidad (Super Quality) para PLA. No obstante, las primeras impresiones, tanto con el filamento comercial como con el filamento desarrollado, presentaron inconsistencias, como problemas de adhesión entre capas y superficies con acabados deficientes. En un primer intento, se optó por un perfil de impresión preconfigurado en el software, ajustado según el material y la calidad deseada. Inicialmente, se seleccionó PLA como material de impresión y se eligió el perfil de Super Quality (Tabla II.1). Las primeras pruebas se realizaron con dos estructuras: una celda unitaria P-type de 0.15 x 0.15 mm y un andamio compuesto de 4 × 4 × 4 celdas con una configuración de 0.15 × 0.15 x 0.15 mm, con un tamaño de celda unitaria de 3.75 mm y un diámetro de poro de 1.88 mm. (Figura II.6b). Figura II.6 a) Equipo utilizado para la realización de las impresiones, b) resultados obtenidos a una temperatura ambiente de ⁓30°C para la celda P-type de CH-PLA y PLA10BT5G, así como los resultados para el andamio con la configuración predeterminada Super Quality de Ultimaker Cura. Las impresiones observadas en la Figura II.6b, permitieron ver la calidad de impresión resultante de la configuración señalada en la Tabla II.1 para ambos casos. La impresión del andamio con dimensiones de 0.15 × 0.15 mm utilizando el filamento desarrollado no pudo realizarse con la configuración predeterminada del software, ya que se identificaron varios de los defectos abordados en la sección II.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4 Métodos de caracterización</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>II.4.1 Difracción de Rayos X (DRX)</titulo>
+        <texto>La difracción de Rayos X es una técnica ampliamente utilizada que permite conocer la estructura cristalina en los materiales. Esta técnica permite obtener patrones mediante la interacción de los rayos X con los átomos de un material cristalino, a partir de la difracción y dispersión de las ondas producidas por dicha interacción Entre las principales ventajas de la DRX se destacan su carácter no destructivo y la capacidad de proporcionar información detallada sobre la estructura cristalina. A partir del análisis de las posiciones y las intensidades de los picos en el difractograma, es posible determinar los parámetros de red, identificar las fases presentes, evaluar el grado de cristalinidad y detectar defectos o tensiones internas en la red. Esto se logra gracias a la Ley de Bragg (Figura II.7), que establece la condición para la interferencia constructiva de los rayos X difractados por los planos cristalinos (Ecuación II.1). Figura II.7 Esquema de interacciones de difracción de rayos X con los planos del cristal. Los rayos incidentes (en negro) interactúan con los átomos (en azul) en los planos de la red cristalina, difractando el rayo con el mismo ángulo en direcciones opuestas. ;? = 9@AB;(C)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Ecuación II.1</titulo>
+        <texto>Donde: La generación del patrón de difracción se basa en la interacción de los rayos X con la muestra. Los rayos incidentes se dispersan y se difractan en función de la distribución atómica del material, lo que produce picos característicos en el difractograma. En materiales cristalinos, estos picos son agudos y bien definidos, mientras que en los materiales amorfos se observa un único pico amplio o "halo", reflejo del desorden atómico a corto y largo alcance. Asimismo, los picos pueden presentar desplazamientos, desdoblamientos o cambios en su ancho (FWHM, Full Width at Half Maximum por sus siglas en inglés), los cuales dependen del tamaño de cristal, las microtensiones en la red y los errores instrumentales. El tamaño de cristal se relaciona directamente con el ancho de los picos de difracción; esta relación se cuantifica mediante la ecuación de Scherrer, dada por: Las microtensiones en la red cristalina (ɛ) pueden ser determinadas por la siguiente ecuación: Para finalmente en combinación de las ecuaciones II.2 y II.3, obtener los FWHM: El análisis de las posiciones e intensidades de los picos en el difractograma permite determinar la estructura cristalina, los parámetros de red, la presencia de fases secundarias y el grado de cristalinidad de un material. Esta técnica resulta especialmente útil para confirmar la naturaleza de las fases identificadas por otros métodos y para cuantificar su proporción mediante la comparación del patrón experimental con bases de datos de difracción disponibles. La interpretación de estos patrones se realiza mediante software especializado, como En el análisis mediante el software Match! fue posible identificar en las tres muestras las reflexiones del BaTiO3 con la estructura tetragonal (T), grupo espacial P4mm, No. 99 (ICSD 15453)</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.1.1 Refinamiento por el método de Rietveld</titulo>
+        <texto>El refinamiento Rietveld es un método computacional inventado por Hugo Rietveld, utilizado para el ajuste de un modelo cristalográfico teórico a los datos experimentales de DRX, buscando minimizar la diferencia entre un modelo cristalino teórico conocido a los datos experimentales de difracción, mediante el ajuste de parámetros como tamaño de celda, aproximación en la forma de los picos, factores de escala o incluso fracciones de fase mediante la minimización de la diferencia entre ambos por la técnica de mínimos cuadrados no lineales. Con este procedimiento, se logra un conocimiento más preciso de la estructura cristalina, de la microestructura y de la proporción cuantitativa de fases, resultando especialmente útil en sistemas multifásicos o cuando se requiere una caracterización estructural muy detallada. En este trabajo, el refinamiento Rietveld fue realizado para conocer cuantitativamente las fases presentes en el material y evidenciar posibles cambios en la estructura cristalina. Los refinamientos se llevaron a cabo utilizando el software FullProf Suite considerando como modelo los parámetros de red reportados por Kwei et al.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.1.2 Método de Armónicos Esféricos simetrizados</titulo>
+        <texto>Los armónicos esféricos son un método matemático para modelar el ensanchamiento de los picos de difracción, relacionado con el tamaño de los dominios cristalinos (cristalitas) y microdeformaciones. Constituyen una aproximación más avanzada que el método de Scherrer, pues permiten describir la anisotropía en el tamaño de los dominios y la forma de estos. Con este enfoque, se obtiene una estimación más confiable del tamaño promedio de los cristalitos y de posibles anisotropías estructurales o tensionales presentes en la muestra Figura II.8 Partes reales de los armónicos esféricos hasta tercer orden ( =0,1,2,3), para grados entre -3 ≤ ≤3, con lóbulos en color claro (cian) indicando valores positivos y lóbulos en color oscuro (rojo) indicando valores negativos. Para cada orden n dado, cada fila de la tabla contiene 2 +1 modos. Adaptado de Para calcular el tamaño aparente de cristal en Fullprof Suite se emplea una normalización propuesta por M. Järvinen (1993) Ecuación II.5 donde los términos ^_`( G, a) son las funciones de armónicos esféricos dependientes de los ángulos de elevación (G) y azimut (a), ^_ corresponden a los polinomios de Legendre, con i como el orden y j el grado (con 0 ≤ j ≤ i). Para la paridad (P) la paridad par (p = +), la función es coseno y para la paridad impar (p = -), es seno. La norma # ^_ se define de manera que el máximo de la función es 1. Se distinguen dos familias de armónicos simetrizados: los armónicos axiales, correspondientes a simetrías de sitio no cúbicas y los armónicos cúbicos, que se utilizan cuando el sitio posee simetría cúbica. En este estudio se empleó el modelo anisotrópico para determinar el tamaño aparente de la cristalita mediante el software GFourier v.04.06 y la metodología descrita por Uribe (2023) donde describe el cálculo del tamaño de cristalita (Ecuaciones II.6 y II.7) por el método de Thompson-Cox-Hastings (TCH) pseudo-Voigt con divergencia axial. Ecuación II.7 Donde e f y e g corresponden a las contribuciones Gaussiana y Lorentziana en el ensanchamiento del pico, h f es el parámetro de mezcla Gaussiano, Y corresponde al parámetro de aproximamiento del perfil del pico en su forma isotrópica y "(i j ) es la función del modelo anisotrópico del tamaño de cristal aparente</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.2 Microscopía Electrónica</titulo>
+        <texto>La microscopía electrónica es una técnica de caracterización avanzada que utiliza un haz de electrones (en lugar de luz visible) para obtener imágenes de alta resolución y analizar la morfología, topografía y composición de materiales a escalas micro, nano o atómicas. A diferencia de los microscopios ópticos, su resolución puede alcanzar hasta 0.1 nm, permitiendo visualizar detalles imposibles de detectar con métodos convencionales.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.2.1 Microscopía Electrónica de Barrido (MEB)</titulo>
+        <texto>La microscopía electrónica de barrido MEB o SEM (en inglés: Scanning Electron Microscopy), es un instrumento que permite la observación a una alta resolución y caracterización de materiales mediante el barrido de su superficie, permitiendo examinar sus características tal como la estructura, topografía y densidad de los distintos componentes. Derivado del impacto de los electrones primarios en la superficie de la muestra, es posible obtener información diversa y complementaria por medio de detectores adecuados que están en función de las energías de emisión de cada tipo. Los tipos de interacciones electrón-muestra y los sistemas de detección en la MEB más comunes son:  Electrones secundarios (SE): Los electrones secundarios son generados por la colisión de los electrones incidentes con los átomos superficiales de la muestra (colisiones inelásticas). Cuando el haz de electrones primarios incide sobre la muestra, se emiten electrones con energías inferiores a los 50 eV. Estos electrones tienen energías bajas (de 3 a 5 eV), y son procedentes de las capas electrónicas de los átomos de la muestra, y son expulsados del átomo dejando vacantes (vacíos) que se llenan con electrones de capas más externas. Los SE con los detectores adecuados, nos ofrecen la imagen topográfica de la superficie examinada en blanco y negro de la muestra, siendo la señal más adecuada para observación por ser la de mayor resolución.  Electrones retrodispersados (BSE): Cuando el haz incide sobre la superficie de la muestra hay diversos electrones que viajan más internamente en la muestra, y estos, no colisionan, sin embargo, rebotan (colisión elástica) y escapan de la misma. Suelen tener una energía superior a los 50eV. El detector de electrones retrodispersados ofrece una imagen de superficie de menor resolución en comparación a la imagen obtenida con los SE. Su ventaja consiste en que es sensible a las variaciones en el número atómico de los elementos presentes en la superficie.  Rayos X Característicos (EDS): Los fotones de rayos X (energía) desprendidos en la interacción de los SE son característicos de cada elemento. Por esta razón, es posible saber qué elementos forman parte de nuestra muestra por medio de la espectroscopia de energía dispersiva (EDS). El analizador por dispersión de energía de rayos X (EDS) es una técnica de análisis no destructiva donde la radiación utilizada son los rayos X característicos que son emitidos por la muestra como resultado del bombardeo de electrones. El análisis de esta radiación proporciona información analítica sobre la composición del total o de zonas de la muestra de hasta unas cuantas micras de diámetro. Para la obtención de las micrografías se emplearon dos microscopios electrónicos de barrido el Hitachi SU3500 y el JEOL JSM-7401F, lo que permitió complementar la información obtenida. El SU3500 se utilizó para observar la morfología, topografía y distribución homogénea de las partículas de BT sobre la matriz de PLA con glicerol, mientras que el JEOL JSM-7401F aportó imágenes de mayor resolución para un análisis detallado. Debido a la forma cilíndrica del filamento, las muestras se prepararon en cortes transversales y se recubrieron con oro (Au) para proteger la matriz polimérica. Adicionalmente, se determinó el tamaño aparente de las partículas mediante el análisis de varias micrografías con el software ImageJ</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.3 Análisis Térmicos</titulo>
+        <texto>Los análisis térmicos permiten caracterizar el comportamiento de los materiales bajo un programa de temperatura controlado, examinando fenómenos como la descomposición, la fusión, la oxidación o las transiciones de fase. Estas técnicas son utilizadas para determinar la estabilidad térmica, la temperatura de procesamiento y la presencia de componentes volátiles, entre otras características</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.3.1 Análisis Termogravimétrico (ATG)</titulo>
+        <texto>El análisis termogravimétrico (ATG) mide la variación de la masa de la muestra mientras esta se calienta (o enfría) a una velocidad controlada, generalmente bajo atmósfera inerte u oxidante. El resultado es una curva termogravimétrica que muestra la pérdida (o ganancia) de masa en función de la temperatura o del tiempo, lo que permite identificar temperaturas de descomposición y cuantificar etapas asociadas a procesos de eliminación de compuestos volátiles, reacciones de oxidación o degradaciones específicas. A partir de este análisis, se puede también inferir la cantidad de residuos no volátiles o cenizas que permanecen tras la descomposición. El análisis de la muestra PLA10BT5G fue realizado en un analizador térmico simultaneo (SDT Q600 TA Instruments) a temperatura ambiente (25.53°C) hasta los 800°C. La rampa de temperatura utilizada fue a razón de 10°C/min en una atmósfera de aire con un flujo de 50 ml/min. Para este análisis se utilizó un porta muestra de alúmina, y el peso de la muestra fue de 18.82 mg.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.3.2 Calorimetría Diferencial de Barrido (CDB)</titulo>
+        <texto>La calorimetría diferencial de barrido (CDB) es una caracterización que registra la diferencia de flujo de calor entre la muestra y una referencia cuando ambas están sujetas a un mismo programa de calentamiento o enfriamiento. Dicho registro se representa como un termograma que delata transiciones de fase (fusión, cristalización o transición vítrea), así como la energía asociada a dichas transiciones. Dicho análisis fue llevado a cabo de igual manera para la muestra PLA10BT5G en el analizador térmico simultaneo. Este constó de dos ciclos de calentamiento realizados de una temperatura ambiente (29.92°C) hasta los 250°C, a razón de 10°C/min. La atmosfera fue de nitrógeno para evitar la oxidación o reacciones secundarias de la muestra durante el ensayo, con un flujo de 50 ml/min. Para este análisis se utilizó un porta muestra de alúmina, y el peso de la muestra fue de 16.53 mg.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.4 Reología</titulo>
+        <texto>La reología es la rama de la física que estudia cómo los materiales se deforman y fluyen bajo la aplicación de fuerzas o tensiones. Es fundamental ya que permite el análisis de la relación entre un esfuerzo aplicado y la deformación resultante en materiales, abarcando tanto el régimen puramente viscoso como elásticamente dominante y, especialmente, los comportamientos viscoelásticos intermedios presentes en muchos polímeros En la ciencia de polímeros, las propiedades reológicas determinan su comportamiento durante el procesamiento y afectan las características finales del producto. Por ejemplo, la viscosidad y la elasticidad de un polímero influyen en su capacidad para ser moldeado o extruido, haciendo estas caracterizaciones ampliamente realizadas en procesos industriales. En la MA, especialmente en técnicas como FDM, comprender la reología de los materiales es crucial para conocer el comportamiento de los materiales de impresión. Esto es debido a que las propiedades reológicas del polímero fundido afectan el flujo a través de la boquilla de la impresora, la adhesión entre capas y la resolución de la pieza final. Un control adecuado de estos parámetros asegura impresiones de alta calidad y precisión. En esta prueba se caracterizaron tres muestras (pellet de PLA, filamento de PLA y PLA10BT5G) a 180 °C, utilizando un reómetro MCR501 con geometría plato-plato de 25 mm. Se aplicó una rampa logarítmica de velocidad de corte, desde 0.001 s⁻¹ hasta 100 s⁻¹, con un total de 31 puntos de medición distribuidos de forma logarítmica (6 puntos por década).</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.4.2 Barrido de frecuencia (G' y G")</titulo>
+        <texto>En un barrido de frecuencia, la muestra es sometida a un ensayo de deformación oscilatoria a distintas frecuencias y se registran el módulo elástico o de almacenamiento (G') y el módulo viscoso o de pérdida (G"). G' representa la parte elástica de la respuesta, es decir, la energía que el material es capaz de almacenar y recuperar; mientras que G" representa la parte viscosa, asociada a la energía disipada en forma de calor. Este análisis es especialmente relevante en polímeros fundidos, donde la disposición interna de las cadenas o partículas se ve fuertemente afectada por la velocidad a la que se deforma. A bajas frecuencias, el comportamiento líquido domina cuando G" &gt; G'. A medida que esta aumenta, el material transita de un estado más viscoso a uno más elástico, donde puede predominar el comportamiento sólido cuando G' &gt; G". El punto de cruce de G' y G" suele indicar un cambio estructural o de fase del material, donde se evidencia un comportamiento dominado por la pérdida (viscoso) a uno dominado por el almacenamiento (elástico). Para esta evaluación, se realizó un barrido de frecuencia con el fin de determinar los módulos G' y G". Dicho barrido abarcó frecuencias de 100 Hz a 0.147 Hz en escala logarítmica, aplicando una deformación de 0.1 %. En total, se obtuvieron 18 puntos de medición bajo condiciones de fundido a 180 °C para las cuatro muestras (PLA pellet, PLA Filamento, PLA10BT5G y CH-PLA), utilizando un reómetro MCR501 con geometría plato-plato de 25 mm.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.4.3 Viscosidad compleja (η*)</titulo>
+        <texto>En ensayos oscilatorios, donde se aplica una deformación o esfuerzo periódico y se mide la respuesta sinusoidal de la muestra, es posible definir la viscosidad compleja p * . Esta magnitud integra la parte elástica (almacenamiento de energía) y la parte viscosa (pérdida de energía) en un único valor, y varía con la frecuencia de oscilación. Un material viscoelástico puede comportarse más como un sólido elástico a frecuencias elevadas y más como un fluido viscoso a frecuencias bajas, y la viscosidad compleja refleja ese comportamiento dual. La respuesta de resistencia viscoelástica es fundamental para evaluar la procesabilidad y comportamiento viscoelástico bajo condiciones de extrusión o deposición. La impresión 3D, especialmente en técnicas como FDM o la extrusión de materiales compuestos, requiere que el material tenga una viscosidad adecuada para fluir correctamente a través de la boquilla sin generar atascos, pero que también sea capaz de mantener su forma tras la deposición sin colapsar o deformarse. Para la obtención de los valores de η* en las muestras PLA pellet, PLA Filamento, PLA10BT5G y CH-PLA se aplicaron las mismas condiciones experimentales utilizadas en el barrido de frecuencia, ya que este método incorpora el análisis de la viscosidad compleja.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.4.4 Barrido de temperatura (E' y E")</titulo>
+        <texto>En el ámbito del Análisis Mecánico Dinámico (DMA), un barrido de temperatura evalúa los módulos E' (módulo de almacenamiento o la energía que se almacena y se puede recuperar) y E" (módulo de pérdida o la energía disipada en forma de calor) mientras la muestra se somete a cambios de temperatura. A diferencia de G' y G" que se miden en fluidos, E' y E" se determinan en materiales sólidos mediante pruebas de deformación uniaxial (ya sea en tensión, compresión o flexión). Ambos conjuntos de parámetros reflejan la naturaleza viscoelástica del material, aunque se obtienen en condiciones de prueba distintas. Al incrementar la temperatura, se pueden detectar fenómenos como la transición vítrea (Tg), la fusión o la aparición de fases elásticas más blandas, según el material. Generalmente, al aumentar la temperatura, E' disminuye, especialmente en el rango de la transición vítrea en polímeros mientras que E" suele aumentar en la misma región de transición. Este tipo de información es esencial para identificar rangos de temperatura adecuados de procesamiento, uso o almacenamiento, así como para prever la pérdida de propiedades mecánicas que pueda acompañar a un calentamiento excesivo. La relación de comportamiento (tan δ) es un parámetro que indica la capacidad del material para disipar energía. Un pico en tan δ suele coincidir con la Tg reflejando el punto en el cual el material alcanza la máxima viscoelasticidad. Esta prueba fue realizada para dos muestras: PLA Filamento y PLA10BT5G, con el objetivo de conocer la variación en la Tg entre el polímero sin carga ni aditivos y el filamento fabricado. Se llevó a cabo a una temperatura inicial de 25°C, con una rampa de calentamiento de 10°C/min hasta alcanzar los 180°C, con el equipo DMA RSA III.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.5 Pruebas Mecánicas</titulo>
+        <texto>Las pruebas mecánicas, tal y como se comentó en la sección I.1, constituyen un conjunto de procedimientos experimentales que buscan cuantificar la respuesta del material ante cargas estáticas o dinámicas, siendo las más comunes las pruebas de tracción, compresión, flexión, dureza, impacto, fatiga y fluencia. Dentro de estas, la prueba de compresión adquiere una importancia crucial en la caracterización de la resistencia y deformabilidad de materiales frágiles o de aquellos destinados a soportar cargas axiales elevadas, permitiendo determinar propiedades como el límite elástico en compresión (σᵧ), esfuerzo máximo (σmáx), el esfuerzo último (σf), la rigidez (K) y el módulo de elasticidad (E). Con estos parámetros, es posible optimizar diseños y pronosticar el desempeño de componentes en condiciones reales de operación, convirtiendo estas pruebas en herramientas esenciales para la selección adecuada de materiales en campos variados, tal como la ingeniería civil, aeroespacial, mecánica y otras disciplinas afines, donde el conocimiento preciso de la respuesta mecánica bajo compresión permite prevenir fallas catastróficas y reducir costos de mantenimiento, evidenciando así su relevancia indiscutible en la ciencia e ingeniería de materiales. En estudios de ingeniería de tejidos se ha observado que, al superar aproximadamente el 50% de deformación, la estructura comienza a acumular microtensiones y a perder capacidad para redistribuir la carga de manera homogénea. Al establecer un límite de deformación del 60%, se crea una ventana previa al colapso total, que permite identificar la capacidad de carga del andamio sin exponerlo a la carga máxima que podría desencadenar su falla Para este estudio, los ensayos fueron realizados utilizando el equipo de ensayos universales INSTRON 3382 con una celda de carga de 10 ton, a una velocidad de 2 mm/min y hasta el 60% de deformación. Para determinar el valor real de E en ambos filamentos, se analizaron cinco muestras de cada material, todas con geometría cúbica sólida de dimensiones variables (debido a lo abordado en el siguiente capítulo), tal como se presenta en la Tabla III.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.5.1 Esfuerzo-Deformación</titulo>
+        <texto>En este tipo de prueba a compresión, la muestra es colocada y es sometida a un régimen de carga uniaxial. El σ aplicado es registrado conforme a la deformación resultante, usualmente expresada como alargamiento o ɛ. A partir de la curva resultante, se pueden determinar valores como el límite elástico, el punto de fluencia y el esfuerzo máximo, así como el E (módulo de Young o pendiente de la región elástica) y la deformación de ruptura. Estas magnitudes son fundamentales para evaluar la ductilidad o fragilidad del material, y la energía absorbida hasta la rotura (área bajo la curva) se asocia con la tenacidad.</texto>
+      </seccion>
+      <seccion>
+        <titulo>II.4.5.2 Carga-Deformación</titulo>
+        <texto>De manera análoga a la prueba anterior, se registra la relación entre la carga aplicada y la deformación sufrida por la muestra, tal como se expresó en la sección I.1, aunque en ocasiones se presenta directamente en esas unidades antes de convertirlas a esfuerzo y deformación ingenieril. Esta representación es útil para ver la linealidad de la respuesta y estimar en qué punto aparece la no linealidad asociada a la plasticidad. La magnitud de la carga en función de la elongación puede resultar más intuitiva en ciertas aplicaciones industriales, donde se trabaja con una forma y área de sección transversal conocidas, antes de convertir esos valores en las variables de ingeniería estandarizadas. En el análisis de la respuesta mecánica de los andamios fue determinada con una altura promedio efectiva (Tabla II.3), ya que, debido a la geometría de la estructura tipo TPMS, no es posible definir un área transversal representativa que capture de manera precisa la distribución de esfuerzos dentro del andamio. Dado que la estructura está conformada por 16 celdas unitarias Ptype por nivel y un total de 4 niveles en la dirección de carga (Figura II.9), se adoptó un criterio de normalización de la respuesta mecánica. Figura II.9 Criterio de normalización empleado para la evaluación mecánica de los andamios P-type. Para este trabajo, se utilizaron varias técnicas de caracterización para la evaluación del filamento PLA/BT/G. Se analizó mediante difracción de rayos X (DRX) las fases presentes del cerámico comercial utilizado (BT), así como de las muestras PLA10BT5G y A-PLA10BT5G para evidenciar los cambios en la estructura presentados por el método de obtención del filamento y la impresión. Se corroboró el tamaño promedio de partícula, así como la distribución de la carga en la matriz mediante microscopía electrónica de barrido (MEB) y espectroscopía de rayos X de energía dispersiva (EDS). El análisis reológico rotacional, el análisis termogravimétrico (ATG) y el análisis calorimétrico (CDB), evidenciaron las propiedades de flujo del filamento, mientras que el análisis mecánico dinámico (DMA) indicó que la inclusión de BT mejoró la rigidez del material compuesto. Finalmente, se optimizó la configuración de impresión para la obtención de las muestras en sólido, así como para la impresión de los andamios con ambos filamentos. La evaluación de los andamios fabricados con el filamento PLA/BT/G mediante pruebas mecánicas a compresión revelaron su capacidad para soportar cargas ≥ 100 MPa.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tabla II.3 Altura promedio de los andamios ACH-PLA impresos sin control de temperatura ambiente y los andamios APLA10BT5G sin control (MA, MB y MC) y con control (M1, M2, M3) de temperatura ambiente.</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Muestra</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Figura III.2 Patrones de DRX del a) compuesto extruido PLA10BT5G, visualizando el desdoblamiento del pico característico tegragonal b) y c) de la muestra impresa (A-PLA10BT5G) con el filamento,ilustrando de nueva cuenta el pico característico d) obtenido para visualizar sus cambios.</titulo>
+        <texto>También se visualiza una disminución en la intensidad y un ensanchamiento de los picos de difracción, lo que puede interpretarse de dos maneras: por un lado, podría indicar heterogeneidades químicas (es decir, variaciones o no uniformidad en la composición) y, por otro, una reducción en el tamaño de las cristalitas. Este último resulta en un mayor ensanchamiento de los picos, ya que es característico de defectos y microtensiones generadas. Además, factores instrumentales como la contribución de la radiación Kα (la cual incluye la Kα-1 principal y la Kα-2, con aproximadamente la mitad de intensidad, visible generalmente a partir de 50° de 2θ), pueden influir en el perfil de los picos, aunque esta última contribución se minimiza en mediciones con monocromador. Es importante destacar que la variación de los parámetros de red no debe correlacionarse de forma directa con el ensanchamiento de los picos. Un corrimiento de los picos hacia ángulos menores (izquierda) indica un aumento en los parámetros de red (y, por ende, en el volumen de la celda), mientras que un desplazamiento hacia ángulos mayores (derecha) sugiere una reducción</texto>
+      </seccion>
+      <seccion>
+        <titulo>III.1.1 Cálculo del tamaño de cristalita por el método de Armónicos Esféricos Simetrizados</titulo>
+        <texto>En la Figura III.3 se muestran los modelos de las formas de las cristalitas de las muestras en las direcciones cristalográficas (001), (010) y (100). Los tamaños aparentes obtenidos fueron de 66.48 nm y 49.47 nm para BT y PLA10BT5G respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura III.3 Forma promedio de las cristalitas en los planos (010), (001) y (100) de las muestras en BT y PLA10BT5G, a partir del método SPH con el criterio de TCH pseudo-Voigt en el software GFourie.</titulo>
+        <texto>Las líneas internas de las cristalitas representan su relieve, el cual fue también posible de visualizar en 3D (Figura III.4). La cercanía de estas líneas refleja el nivel de textura presente en la superficie. Al comparar los resultados, se observan variaciones en la forma y el tamaño de las cristalitas, posiblemente inducidas por la técnica MEX. En el polvo de BT, las cristalitas tienen una forma similar a un cubo, mientras que en el filamento extruido se aprecian morfologías con picos prominentes. Esta diferencia probablemente se debe a la estructura cristalográfica inherente del BT, combinada con las restricciones impuestas por la matriz de PLA durante la formación del compuesto. Figura III.</texto>
+      </seccion>
+      <seccion>
+        <titulo>III.2 Distribución de partículas en matriz</titulo>
+        <texto>Las micrografías obtenidas con SE confirmaron la presencia de partículas de BT embebidas dentro de la matriz de PLA. No obstante, se identificaron características específicas en la morfología que podrían influir en el desempeño del filamento durante el proceso de impresión 3D, tal y como se comenta en otros trabajos En la Figura III.5a, es posible observar partículas de BT dispersas a lo largo de la matriz polimérica, aunque en ciertas regiones se evidenciaron aglomeraciones significativas (Figura</texto>
+      </seccion>
+      <seccion>
+        <titulo>III.5b-c).</titulo>
+        <texto>Estas aglomeraciones presentan una morfología facetada (Figura III.5b), con estructuras cúbicas dispuestas. Estas zonas de concentración local de BT elucidan un problema de fabricación, ya que puede llegar a comprometer la impresión por la falta de uniformidad del material al introducir heterogeneidades en la dispersión de la carga cerámica.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura III.5 Micrografías por electrones secundarios de (a) Sección transversal con aumentos de X1000, (b) x5000 y c) x1000 del filamento PLA10BT5G, mientras que (d) muestra tamaño promedio de partícula. Al realizar una exploración a lo largo de la muestra, se realizó un (e) acercamiento para evaluación de las aglomeraciones, mientras que las imágenes (e-h) muestran el mapeo elemental de Ba, Ti y O, respectivamente.</titulo>
+        <texto>La superficie de la matriz de PLA mostró una textura rugosa, acompañada de áreas con características particulares. En la Figura III.5a, son visibles zonas con valles que dan apariencia de hundimientos en la superficie donde es posible observar partículas de BT. Estas zonas podrían deberse a tensiones internas generadas durante el procesamiento o al impacto de las partículas</texto>
+      </seccion>
+      <seccion>
+        <titulo>Conteo (unidades) Tamaño de partícula (µm)</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Conteo (unidades)</titulo>
+        <texto>embebidas. Además, también se identificaron aglomeraciones en áreas que parecen formar montículos que alteran la continuidad de la matriz, simulando irregularidades o protuberancias. Adicionalmente, las partículas de BT embebidas parecieran interactuar con la matriz de forma disruptiva, generando huecos o fracturas alrededor de ellas (Figura III.5b). Esta interacción, junto con la distribución no uniforme de las partículas (Figura III.5c) y la presencia de defectos como huecos y aglomeraciones, da indicios que pudiese representar un problema al imprimir, dado que tales características podrían dar lugar a inconsistencias en la fluidez del material, la adhesión entre capas y la calidad final de las piezas impresas. En la Figura III.5d se realizó el histograma para la medición del tamaño promedio de partícula, mediante una de las micrografías obtenidas y el software ImageJ. La distribución del tamaño de partícula por MEB estar en acuerdo con lo estipulado por el proveedor, dando un tamaño promedio de 1.15 ± 0.16 µm. El análisis elemental mediante espectroscopía de rayos X de dispersión de energía (EDS) complementó las observaciones morfológicas. En el espectro correspondiente al mapeo elemental de la matriz (Figura III.5e-h), se identificaron señales de Ba y Ti. Esta concentración, en comparación con la concentración inicial de 10% utilizada en la mezcla, indica que la proporción del cerámico en la matriz no es representativa en esta región, posiblemente debido a problemas de dispersión o sedimentación durante la extrusión del filamento, sugiriendo una corroboración adicional por análisis termogravimétrico para conocer la carga inorgánica total contenida en el compósito. Los hallazgos en los análisis de DRX, MEB, el cálculo del tamaño de cristalita permite una comprensión profunda de la microestructura. El análisis de DRX reveló una disminución en la intensidad y un ensanchamiento de los picos de difracción, indicando una posible reducción en la cristalinidad del material. Este fenómeno puede atribuirse a la distribución no uniforme de las partículas de BT en la matriz de PLA, observada en Figura III.5. Estas irregularidades en la distribución pueden generar tensiones internas y distorsiones en la red cristalina, contribuyendo al ensanchamiento de los picos de difracción. El cálculo del tamaño de cristalita utilizando el método de armónicos esféricos mostró una variación en la morfología de las cristalitas tras el proceso de extrusión. Mientras que el BT puro presentaba cristalitas con formas aproximadamente esféricas, en el material compuesto se observaron cristalitas con morfologías más complejas y picos prominentes. Estas alteraciones microestructurales tienen implicaciones directas en el comportamiento mecánico del material. Las tensiones internas y las distorsiones en la red cristalina pueden actuar como puntos de concentración de esfuerzo, facilitando la nucleación y propagación de grietas bajo carga. Además, la distribución heterogénea de las partículas de BT puede conducir a una transferencia de carga ineficiente entre la matriz y las partículas de refuerzo, afectando negativamente la resistencia y la tenacidad del material compuesto.</texto>
+      </seccion>
+      <seccion>
+        <titulo>III.3 Comportamiento térmico del filamento PLA10BT5G</titulo>
+        <texto>En el Figura III.6 es posible observar una pequeña pérdida de masa, cercana al 1.5% de pérdida de peso en torno a 150°C, atribuible a la volatilización de residuos con bajo peso molecular, posibles trazas de humedad o residual del glicerol. Posteriormente, a los 364.1°C tiene lugar la descomposición principal del PLA, donde se produce la mayor liberación de compuestos volátiles y se observa un descenso marcado en la masa. En torno a 422.8°C aparece un segundo evento asociado a una fracción de polímero que no se ha degradado por completo, lo que da lugar a la formación de un carbón amorfo. Bajo atmósferas inertes, este char tendería a permanecer como residuo carbonoso, mientras que en condiciones oxidantes podría convertirse en CO₂</texto>
+      </seccion>
+      <seccion>
+        <titulo>DTG (%/T)</titulo>
+        <texto>364.1 °C alrededor de 60.5°C, mientras que en el segundo flujo la Tg se observa a 57.5°C. Este desplazamiento refleja la relajación de las cadenas poliméricas durante la primera subida de temperatura, fenómeno que conduce a una ligera reorganización interna y explica la reducción en el valor de Tg en el calentamiento subsecuente. Figura III.7 Curvas de flujo de calor para el filamento PLA10BT5G. La ausencia de reacciones térmicas adicionales confirma que el material mantiene su estructura molecular esencialmente amorfa incluso tras varios ciclos de calentamiento, lo que se traduce en un comportamiento uniforme a temperaturas superiores a la Tg y en la imposibilidad de desarrollar regiones cristalinas que alteren sus propiedades mecánicas. Tanto la estabilidad térmica evidenciada en el ATG como la identificación de la temperatura de transición vítrea en la CDB son factores determinantes para la fabricación aditiva por FDM. Al mantener la temperatura de extrusión entre el rango de ablandamiento y un valor inferior al de degradación, se garantiza la fluidez necesaria para formar capas con buena adhesión, al tiempo que se conserva la integridad del polímero. Esta información es esencial para definir perfiles de procesamiento que optimicen la calidad de las piezas impresas y el desempeño mecánico final del producto.  A través de bajas velocidades de corte, el comportamiento lineal de la viscosidad inicial (eta 0) se relaciona con el peso molecular del polímero. Un descenso pronunciado en la viscosidad indica diferentes distribuciones de peso molecular, como se puede observar en la gráfica. Esto es que, en lugar de tener una distribución uniforme de peso molecular, se observa una variedad de pesos moleculares. A medida que aumenta la velocidad de corte, las cadenas con diferentes pesos moleculares fluyen a diferentes ritmos, alineándose eventualmente y provocando una caída en la viscosidad. La disminución en el PLA10BT5G puede atribuirse a la cantidad de PLA utilizada. Esto y en conjunto con la presencia del aditivo y la carga, lo que reduce el peso molecular original. En una matriz polimérica, una carga bien interactuada tiende a reforzar y aumentar la viscosidad Aunque el filamento pretende estar formulado para extrusión a altas velocidades, las velocidades típicas de impresión 3D son bajas (entre 20 y 500 mm/s). Las propiedades del material no disminuyeron significativamente a las velocidades de corte sugeridas para impresión 3D, lo que favorece su fluidez y, por ende, potencia su uso en impresoras 3D. Figura III.9 Respuesta de resistencia viscoelástica para cada una de las muestras a 180°C. Como se observa en la Figura III.9, el pellet y el PLA extruido muestran una diferencia de aproximadamente 100 Pa•s. Este aumento en la p * del PLA extruido refleja un incremento en la rigidez aparente del material a bajas frecuencias. Sugiriendo que el proceso de extrusión puede haber influido en la estructura interna del material, aumentando su resistencia viscoelástica.  Analizando los puntos de cruce de G' y G" en el recuadro de la Figura III.10, se puede observar que el PLA Filamento y el PLA10BT5G tienen puntos de cruce similares en términos de frecuencia y módulo. Para el PLA extruido, el punto de cruce es de aproximadamente 60,000 Pa, mientras que para el PLA10BT5G es de alrededor de 65,000 Pa, ambos a ~22 Hz. Por el contrario, el CH-PLA tiene un punto de cruce significativamente más alto, alcanzando 116,000 Pa a ~53 Hz. Esta variación en los puntos de cruce para el PLA10BT5G y el PLA Filamento se correlaciona típicamente con un mayor peso molecular, un mayor grado de enredo de la cadena y tiempos de relajación más largos, lo que resulta en una masa fundida más elástica y, por lo tanto, una mayor resistencia en fundido Los estudios reológicos indicaron que, aunque la adición de BT afecta significativa su comportamiento viscoelástico, éste se mantiene comparable al de un PLA extruido sin carga, lo que sugiere que las modificaciones en la formulación no alteraron drásticamente sus propiedades viscoelásticas. Esto es particularmente relevante en impresión 3D, donde la estabilidad del material bajo diferentes velocidades de corte favorece su procesabilidad y permite mantener una buena calidad de impresión sin afectar significativamente la fluidez. Además, la capacidad del material para mantener su forma tras la extrusión contribuye a una mayor precisión en la deposición capa por capa y reduce la necesidad de estructuras de soporte adicionales, minimizando el desperdicio de material. Los resultados obtenidos indican que el filamento PLA10BT5G exhibe una elasticidad fundida mejorada, lo que facilita la impresión de estructuras intrincadas sin comprometer la estabilidad de la pieza final.  Ambos materiales muestran propiedades viscoelásticas distintas acorde a la temperatura.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Como es observable en la</titulo>
+        <texto>El PLA extruido exhibe una transición más marcada entre su comportamiento elástico y viscoso, indicado por un pico más alto en tan δ comparado con PLA10BT5G. La utilización de glicerol y el BT, tal como se evidencia, redujo la temperatura máxima de trabajo efectiva, evidenciado por una tan δ máxima más baja y una curva más amplia. Un tan δ más alto es útil para determinar temperaturas críticas de procesamiento, mientras que el área bajo la curva de tan δ indica la capacidad del material para absorber energía durante ciclos dinámicos, relevante para aplicaciones que requieren amortiguación o absorción de impactos. Figura III.12 Barrido de temperatura para obtención de temperatura de transición vítrea (Tg) de la muestra PLA10BT5G. La combinación de los análisis por ATG, CDB y DMA permitieron identificar la temperatura óptima de impresión, garantizando que el material mantenga la fluidez y adhesión de capas sin comprometer la integridad estructural del polímero.</texto>
+      </seccion>
+      <seccion>
+        <titulo>III.5 Condiciones óptimas de impresión</titulo>
+        <texto>Una vez realizada la evaluación del filamento con las técnicas mencionadas en las secciones previas, fue posible comprender de mejor manera el comportamiento de éste, en comparación a un filamento diseñado para impresión por FDM. En base a estos resultados, se modificaron los parámetros de impresión para ambos filamentos. Los resultados obtenidos con estos nuevos parámetros demostraron una mejora en términos de calidad de impresión. Sin embargo, fue posible evidenciar que la resolución propia del equipo limitaba la miniaturización impresión de los andamios. Tras varias pruebas y evaluar todos los resultados, el tamaño del andamio 4 x 4 x 4 que presentó un mejor resultado de impresión fue de 25.50 x 25.50 x 25.50 mm, con un tamaño de celda unitaria de 6.37 mm en sus tres dimensiones y un tamaño de poro de 3.05 mm. Las condiciones generales de impresión utilizadas en todas las muestras a partir de dicha evaluación se detallan en la Tabla III.1. Para mitigar este efecto, el equipo fue trasladado a un área donde se pudo controlar la temperatura entre 24 °C ± 1°C, lo que resultó en una mejora significativa en la calidad de impresión y en un control dimensional más preciso en relación con el modelo y el resultado de impresión, evidenciando variaciones mínimas en las dimensiones finales (Figura III.14). Este control térmico no solo optimizó la precisión dimensional y la calidad de las impresiones, sino que también mejoró la resistencia y desempeño mecánico del andamio en las pruebas de compresión. Figura III.14 a) Resultado en precisión dimensional y calidad de impresión con los parámetros optimizados, mientras que b) muestra el resultado de impresión de los blancos utilizados para determinar las propiedades mecánicas de ambos filamentos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>III.6 Evaluación de la respuesta mecánica</titulo>
+        <texto>La respuesta mecánica del filamento PLA10BT5G se evaluó en comparativa con el CH-PLA. En la Figura III.15a-b se observan las curvas carga-desplazamiento obtenidas para las 5 muestras CH-PLA y PLA10BT5G, respectivamente. Los gráficos obtenidos para las muestras CH-PLA muestran un comportamiento muy similar uno a otro, a excepción de la muestra M5, la cual tiene un desplazamiento mayor. Esto puede deberse a defectos en la impresión, ya que las muestras fueron fabricadas bajo condiciones de temperatura descritas en la sección anterior. Las muestras correspondientes a PLA10BT5G evidencian una mayor resistencia a la compresión en comparación de las muestras CH-PLA. De igual manera, M1 y M3 tienden a mostrar un comportamiento ligeramente diferente al resto. En la Figura III.15c-d se presentan las curvas promedio resultante de cargadesplazamiento de CH-PLA y PLA10BT5G. Al inicio, ambas muestras presentan una respuesta lineal, cuyo parámetro de rigidez lineal (K) se obtiene a partir de la pendiente de la curva en la región elástica. En este contexto, la rigidez se entiende como la capacidad del material para resistir la deformación; es decir, cuanto mayor sea la rigidez, menor será la deformación para una carga dada. La carga máxima (Fₘₐₓ) corresponde al punto en el que el material alcanza su máximo esfuerzo antes de que se produzca una caída o un cambio en la pendiente, lo que indica el inicio del proceso de falla estructural. Para CH-PLA, se determinó una rigidez de K = 40,666.48 N/mm y una Fₘₐₓ de 39,798.24 N, lo que sugiere una menor resistencia a la compresión. En contraste, para PLA10BT5G la rigidez es ligeramente inferior, K = 37,195.19 N/mm, pero la Fₘₐₓ alcanza los 53,944.85 N, demostrando una mayor capacidad para soportar carga antes de fallar. Esta aparente contradicción se explica porque una menor rigidez implica una mayor flexibilidad. Es decir, la mayor capacidad de deformación de PLA10BT5G permite absorber y distribuir la energía aplicada de manera más eficaz, lo que se traduce en una resistencia superior a la compresión a pesar de tener un valor de rigidez menor. Posteriormente, ambos materiales continúan soportando carga hasta alcanzar su carga última (Fúltimo) al 60% de deformación, indicando el punto final de fractura. Limitar la evaluación mecánica a una deformación del 60% resulta fundamental para garantizar la seguridad en aplicaciones biomédicas, como en el diseño de prótesis y andamios para regeneración tisular. La rigidez y la carga máxima se determinan en función de cómo responde el material a la deformación; sin embargo, evaluar la carga hasta el 100% de deformación implica someter al material a condiciones extremas que podrían provocar una falla catastrófica, comprometiendo la integridad estructural y, en consecuencia, la seguridad del usuario. Es importante señalar que, dado que se comparan las propiedades mecánicas del material en bulto con las de un andamio poroso fabricado con el mismo material, no es adecuado utilizar una curva unitaria de r -t, ya que el andamio no posee una sección transversal constante. En su lugar, es más conveniente analizar la rigidez lineal, que considera tanto el material como la geometría del objeto. La K relaciona la fuerza con la deformación en una dirección específica, mientras que el módulo de Young (E) expresa la rigidez del material por unidad de área. No obstante, ambas curvas cumplen la ley de Hooke en la zona elástica, lo que permite extrapolar la comparación para determinar la rigidez del andamio (ver sección II.4.5.2 para una mayor explicación). Un aspecto interesante es la diferenciación en las zonas de deformación. Mientras que CH-PLA exhibe una transición directa de la zona elástica a la zona plástica, el material PLA10BT5G presenta una zona intermedia elastoplástica, lo que sugiere una capacidad de absorción de energía mayor antes de la falla</texto>
+      </seccion>
+      <seccion>
+        <titulo>III.7 Comportamiento mecánico de andamios</titulo>
+        <texto>En la Figura III.17a-b, se presentan las curvas " -v por celda obtenidas para los andamios fabricados con CH-PLA (a) y PLA10BT5G (b). Se observa que, en ambas gráficas, hay una variabilidad en los picos de carga registrados para las distintas muestras, lo cual puede atribuirse a factores de impresión como la orientación, la adhesión entre capas y la temperatura del ambiente durante la fabricación. La heterogeneidad en la respuesta mecánica es más evidente en el caso del PLA10BT5G, como se observa en la mayor dispersión de las curvas, en comparación con el CH-PLA.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura III.17 Evaluación de andamios mediante su curva carga-desplazamiento. Donde a) y b) evidencian el comportamiento de las celdas unitarias de cada muestra, mientras que c) y d) corresponden al promedio de ambas para CH-PLA y PLA10BT5G respectivamente; e) representa la condición inicial para llevar a cabo la prueba en todas las muestras, mientras que f) y g) evidencian el comportamiento de falla para CH-PLA y PLA10BT5G respectivamente.</titulo>
+        <texto>Las curvas promedio de carga-desplazamiento por celda unitaria se muestran en (c) y (d), obtenidas al normalizar la fuerza considerando la cantidad de celdas en el andamio. En ambas curvas, se identifican tres crestas principales (marcadas como *1, *2 y *3), que representan la carga última soportada " wxy por cada nivel de celdas 4×4 antes del colapso progresivo. Una vez que un nivel colapsa, la carga es redistribuida entre los niveles restantes, reduciendo temporalmente la fuerza registrada hasta que el siguiente nivel entra en colapso. A pesar de que el andamio consta de cuatro niveles, generalmente solo tres crestas son claramente visibles, ya que la carga se redistribuye de manera no uniforme en el último nivel, lo que hace que su colapso sea menos evidente. En la Figura III.17c, correspondiente al promedio de las curvas de las muestras CH-PLA, se observa un comportamiento similar, pero aquí no colapsa un nivel completo de celdas, sino grupos particulares de ellas. Esto genera una disminución más gradual en la curva, con variaciones menos marcadas entre los picos. En contraste, en el promedio obtenido para PLA10BT5G (Figura III.17d), la tendencia ascendente es más pronunciada, lo que sugiere una mejor resistencia a la compresión progresiva. Esto podría estar relacionado con la estructura del material y su capacidad de distribuir las cargas de manera más eficiente entre las celdas. Es observable que la tendencia en CH-PLA tiene un comportamiento más errático y descendente debido a la manera en que las celdas colapsan de forma no uniforme. Esto puede estar relacionado con una mayor variabilidad en la calidad de impresión y una menor resistencia estructural. En contraste, PLA10BT5G muestra una tendencia ascendente más clara. Esto sugiere que el material tiene una mejor capacidad de absorción de carga progresiva, lo cual podría deberse a una mejor cohesión entre capas o una mayor resistencia a la deformación en su estructura celular. Un factor clave en estas diferencias puede estar relacionado con los parámetros de impresión y el control de temperatura. En la Figura III.17b, se observa una mayor variabilidad en las mediciones para PLA10BT5G, lo que sugiere que las muestras fueron menos homogéneas. Cabe aclarar que la curva etiquetada como M no forma parte del promedio mostrado en la Figura III.17d, ya que corresponde a una primera evaluación de andamios impresos sin control de temperatura, donde M (o MC) fue el único resultado que se logró obtener debido al fallo presentado en las muestras MA y MB. Estos andamios, fabricados bajo las mismas condiciones que los CH-PLA, presentaron defectos significativos (como se discutió en las secciones II.3.1.2 y III.5), lo que afectó su rendimiento mecánico. Esta comparación es esencial, ya que permite destacar la diferencia en resistencia a la compresión entre los andamios impresos sin control de temperatura y aquellos fabricados bajo condiciones óptimas. Adicionalmente, se puede notar que en las muestras CH-PLA (Figura III.17a, c), las curvas presentan fluctuaciones más pronunciadas, lo que indica que la carga se distribuye de manera más heterogénea a lo largo del desplazamiento. Esto puede deberse a una mayor variabilidad en la adherencia entre capas, diferencias en la estructura interna debido a imprecisiones en la impresión o una mayor susceptibilidad al colapso localizado de celdas individuales en lugar de un colapso uniforme por niveles. En contraste, las curvas de los andamios PLA10BT5G son más suaves, con picos más definidos y un ensanchamiento particular, lo que sugiere una mejor distribución de carga entre las celdas, mayor resistencia a la compresión antes de la falla y una progresión más uniforme en la fractura del material, permitiendo soportar más carga antes del colapso. El análisis de las imágenes obtenidas durante las pruebas de compresión evidenció diferencias significativas en la forma y dirección de las fracturas entre los andamios CH-PLA y PLA10BT5G. Las imágenes de la Figura III. Los ACH-PLA (Figura III.18a) muestran una fractura más irregular y menos uniforme. Se observa que las fallas se inician en zonas específicas, y que en todos los casos, la falla tiende a propagarse de manera diagonal generando un patrón a 45°, elucidando una propagación preferencial de la estructura y sugiriendo que las uniones entre celdas fueron los puntos críticos donde la carga se redistribuyó hasta alcanzar un colapso total. Estos puntos de fallo son comúnmente denominados puntos de inicio de fisura. Además, las líneas punteadas rojas indican la propagación de la fractura, que avanza de manera no homogénea en todos los casos, posiblemente debido a la fragilidad del material, variabilidad en la calidad de impresión y a la orientación de las capas en la impresión. El tipo de falla que se observa en ACH-PLA M2, donde la fractura se inicia en un punto central y se propaga diagonalmente hacia los bordes inferiores del andamio (de adentro hacia afuera). De manera similar, la muestra ACH-PLA M3 presentó una deformación que también se concentró en el centro de la estructura, sin embargo, esta falla comenzó de los bordes superiores al centro. Este tipo de falla ocurre cuando el material experimenta una combinación de esfuerzos de compresión y cizalladura, y es denominada falla por cortante diagonal o cizalladura inclinada. En estructuras celulares o materiales porosos sometidos a carga axial, como en este caso, la falla suele comenzar en la zona de máxima concentración de esfuerzos y propagarse diagonalmente debido a la redistribución de tensiones dentro de la estructura En los andamios APLA10BT5G (Figura III.18b), las fracturas son más uniformes y siguen un patrón de colapso secuencial. La falla es iniciada en los puntos indicados por las flechas rojas, pero el colapso de las celdas ocurre de manera progresiva, permitiendo que el material soporte más carga antes del colapso final (Figura III. Los andamios MA y MB presentaron fallas prematuras atribuibles a defectos de impresión, que generaron una mayor porosidad y menor cohesión entre capas (como se señala con líneas punteadas y flechas en la imagen). En MA, el fallo se evidenció en la parte superior, con el colapso total de tres celdas unitarias del primer nivel a 1m 7s al 8.64% de deformación. De manera similar, en MB se observó un fallo en la parte superior del tercer nivel y el colapso de una celda en el cuarto nivel inferior derecho, a los 59s y un 7.8%, debido a una deficiente adhesión entre capas (ver sección II.4.5). Esta inestabilidad presentada en ambos andamios impidió completar la prueba. Además, en la muestra MC se detectó un fallo inicial en diagonal, similar al observado en las muestras ACH-PLA. Las deficiencias de impresión observadas en la Figura III.18b se manifiestan en la aparición de poros entre celdas, resultado de imprimir bajo condiciones no óptimas. En contraste, las muestras elaboradas con un control de temperatura y una configuración óptima para ese filamento muestran una reducción significativa de estos defectos. Este fenómeno fue resultado por un proceso de subextrusión, que compromete la cohesión y, en última instancia, la integridad estructural del andamio. En relación con la geometría de la celda (P-type) y cómo afecta la propagación de las fracturas, el tipo de falla en la zona media de las celdas (señaladas con círculos punteados en rojo) es consistente en todas las muestras, independientemente del tipo de material utilizado para su fabricación. La fractura inicia en la parte media horizontal de la celda (el plano perpendicular a la aplicación de la carga), donde hay una mayor concentración de esfuerzos debido a la forma cóncava del arco de las celdas, lo que genera un punto débil. Este tipo de falla en la celda es una fractura por compresión localizada, que es esperada en la mayoría de las estructuras celulares bajo carga axial. La orientación de la carga en relación con la orientación de las capas también es un factor crucial, ya que la dirección de impresión influye en la resistencia direccional del material (anisotropía). Cabe destacar que las TPMS, debido a su estructura de celdas repetitivas, también han sido objeto de investigación por su similitud con las estructuras cristalinas. Un ejemplo de ello es la TPMS primitiva, que se ha asociado con la disposición cristalina del cloruro de cesio (CsCl) Tras los resultados obtenidos, resulta interesante considerar el análisis del tensor de rigidez de dicho cristal, así como la identificación de los planos cristalográficos con mayor y menor rigidez. Esto podría revelar una posible correlación entre la orientación de los planos cristalográficos y los tipos de falla mecánica que ocurren en una TPMS, dado su parecido estructural. Estas observaciones abren nuevas preguntas para el estudio del comportamiento mecánico y los mecanismos de falla en TPMS, lo que podría ser un área de particular interés para futuras investigaciones.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia>
+      <titulo>Interactions between Metal Oxides and Biomolecules: from Fundamental Understanding to Applications</titulo>
+      <autores>
+        <autor>M Limo</autor>
+        <autor>A Sola-Rabada</autor>
+        <autor>E Boix</autor>
+        <autor>V Thota</autor>
+        <autor>Z Westcott</autor>
+        <autor>V Puddu</autor>
+        <autor>C Perry</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Aligned porous barium titanate/hydroxyapatite composites with high piezoelectric coefficients for bone tissue engineering</titulo>
+      <autores>
+        <autor>Y Zhang</autor>
+        <autor>L Chen</autor>
+        <autor>J Zeng</autor>
+        <autor>K Zhou</autor>
+        <autor>D Zhang</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Morphological and X-ray diffraction studies of crystalline hydroxyapatite-reinforced polycaprolactone</titulo>
+      <autores>
+        <autor>A Baji</autor>
+        <autor>S Wong</autor>
+        <autor>T Liu</autor>
+        <autor>T Li</autor>
+        <autor>T Srivatsan</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bacteriostatic Behavior of PLA-BaTiO3 Composite Fibers Synthesized by Centrifugal Spinning and Subjected to Aging Test</titulo>
+      <autores>
+        <autor>F Boschetto</autor>
+        <autor>H Doan</autor>
+        <autor>P Vo</autor>
+        <autor>M Zanocco</autor>
+        <autor>K Yamamoto</autor>
+        <autor>W Zhu</autor>
+        <autor>T Adachi</autor>
+        <autor>K Kinashi</autor>
+        <autor>E Marin</autor>
+        <autor>G Pezzotti</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A Comprehensive Review of Strategies toward Efficient Flexible Piezoelectric Polymer Composites Based on BaTiO3 for Next-Generation Energy Harvesting</titulo>
+      <autores>
+        <autor>A Bouhamed</autor>
+        <autor>S Missaoui</autor>
+        <autor>A Ben Ayed</autor>
+        <autor>A Attaoui</autor>
+        <autor>D Missaoui</autor>
+        <autor>K Jeder</autor>
+        <autor>N Guesmi</autor>
+        <autor>A Njeh</autor>
+        <autor>H Khemakhem</autor>
+        <autor>O Kanoun</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Designing Smart Biomaterials for Tissue Engineering</titulo>
+      <autores>
+        <autor>F Khan</autor>
+        <autor>M Tanaka</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Modern Applications of Polymer Composites in Structural Industries: A Review of Philosophies, Product Development, and Graphical Applications</titulo>
+      <autores>
+        <autor>I Oladele</autor>
+        <autor>L Onuh</autor>
+        <autor>S Siengchin</autor>
+        <autor>M Sanjay</autor>
+        <autor>S Adelani</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>3D printed piezoelectric BNNTs nanocomposites with tunable interface and microarchitectures for self-powered conformal sensors</titulo>
+      <autores>
+        <autor>J Zhang</autor>
+        <autor>S Ye</autor>
+        <autor>H Liu</autor>
+        <autor>X Chen</autor>
+        <autor>X Chen</autor>
+        <autor>B Li</autor>
+        <autor>W Tang</autor>
+        <autor>Q Meng</autor>
+        <autor>P Ding</autor>
+        <autor>H Tian</autor>
+        <autor>X Li</autor>
+        <autor>Y Zhang</autor>
+        <autor>P Xu</autor>
+        <autor>J Shao</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Performance Enhancement of Flexible Piezoelectric Nanogenerator via Doping and Rational 3D Structure Design For Self-Powered Mechanosensational System</titulo>
+      <autores>
+        <autor>Y Zhang</autor>
+        <autor>M Wu</autor>
+        <autor>Q Zhu</autor>
+        <autor>F Wang</autor>
+        <autor>H Su</autor>
+        <autor>H Li</autor>
+        <autor>C Diao</autor>
+        <autor>H Zheng</autor>
+        <autor>Y Wu</autor>
+        <autor>Z Wang</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomecánica y hueso (I): Conceptos básicos y ensayos mecánicos clásicos</titulo>
+      <autores>
+        <autor>D Guede</autor>
+        <autor>P González</autor>
+        <autor>J Caeiro</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomecánica y hueso (y II): ensayos en los distintos niveles jerárquicos del hueso y técnicas alternativas para la determinación de la resistencia ósea</titulo>
+      <autores>
+        <autor>J Caeiro</autor>
+        <autor>P González</autor>
+        <autor>D Guede</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Stress and strain distribution within the intact femur: compression or bending?</titulo>
+      <autores>
+        <autor>M Taylor</autor>
+        <autor>K Tanner</autor>
+        <autor>M Freeman</autor>
+        <autor>A Yettram</autor>
+      </autores>
+      <fecha>1996</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bone substitutes: a review of their characteristics, clinical use, and perspectives for large bone defects management</titulo>
+      <autores>
+        <autor>G Fernandez De Grado</autor>
+        <autor>L Keller</autor>
+        <autor>Y Idoux-Gillet</autor>
+        <autor>Q Wagner</autor>
+        <autor>A.-M Musset</autor>
+        <autor>N Benkirane-Jessel</autor>
+        <autor>F Bornert</autor>
+        <autor>D Offner</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A critical review of the biomechanical stress analysis of the human femur</titulo>
+      <autores>
+        <autor>E Gdoutos</autor>
+        <autor>D Raftopoulos</autor>
+        <autor>J Baril</autor>
+      </autores>
+      <fecha>1982</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The mechanical properties of human tibial trabecular bone as a function of metaphyseal location</titulo>
+      <autores>
+        <autor>S Goldstein</autor>
+        <autor>D Wilson</autor>
+        <autor>D Sonstegard</autor>
+        <autor>L Matthews</autor>
+      </autores>
+      <fecha>1983</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Insights into the effects of tensile and compressive loadings on human femur bone</titulo>
+      <autores>
+        <autor>R Havaldar</autor>
+        <autor>S Pilli</autor>
+        <autor>B Putti</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bone Mechanical Properties in Healthy and Diseased States</titulo>
+      <autores>
+        <autor>E Morgan</autor>
+        <autor>G Unnikrisnan</autor>
+        <autor>A Hussein</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical properties of human cancellous bone in the femoral head</titulo>
+      <autores>
+        <autor>C Schoenfeld</autor>
+        <autor>E Lautenschlager</autor>
+        <autor>P Meyer</autor>
+      </autores>
+      <fecha>1974</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bone grafting, orthopaedic biomaterials, and the clinical need for bone engineering</titulo>
+      <autores>
+        <autor>A Brydone</autor>
+        <autor>D Meek</autor>
+        <autor>S Maclaine</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Exact computation of the triply periodic Schwarz P minimal surface</titulo>
+      <autores>
+        <autor>P Gandy</autor>
+        <autor>J Klinowski</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical behavior of TPMS-based scaffolds: a comparison between minimal surfaces and their lattice structures</titulo>
+      <autores>
+        <autor>X Guo</autor>
+        <autor>X Zheng</autor>
+        <autor>Y Yang</autor>
+        <autor>X Yang</autor>
+        <autor>Y Yi</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Experimental and Computational Investigation of Lattice Sandwich Structures Constructed by Additive Manufacturing Technologies</titulo>
+      <autores>
+        <autor>N Kladovasilakis</autor>
+        <autor>P Charalampous</autor>
+        <autor>K Tsongas</autor>
+        <autor>I Kostavelis</autor>
+        <autor>D Tzetzis</autor>
+        <autor>D Tzovaras</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Triply periodic minimal surface (TPMS) porous structures: from multi-scale design, precise additive manufacturing to multidisciplinary applications</titulo>
+      <autores>
+        <autor>J Feng</autor>
+        <autor>J Fu</autor>
+        <autor>X Yao</autor>
+        <autor>Y He</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Design and Analysis of Biomedical Scaffolds Using TPMS-Based Porous Structures Inspired from Additive Manufacturing</titulo>
+      <autores>
+        <autor>R Verma</autor>
+        <autor>J Kumar</autor>
+        <autor>N Singh</autor>
+        <autor>S Rai</autor>
+        <autor>K Saxena</autor>
+        <autor>J Xu</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chapter 4 -Triply periodic minimal surface porous implants to reconstruct bone defects</titulo>
+      <autores>
+        <autor>R Verma</autor>
+        <autor>N Singh</autor>
+        <autor>S Rai</autor>
+        <autor>S Kumta</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Construction of Bio-Piezoelectric Platforms: From Structures and Synthesis to Applications</titulo>
+      <autores>
+        <autor>Q Xu</autor>
+        <autor>X Gao</autor>
+        <autor>S Zhao</autor>
+        <autor>Y.-N Liu</autor>
+        <autor>D Zhang</autor>
+        <autor>K Zhou</autor>
+        <autor>H Khanbareh</autor>
+        <autor>W Chen</autor>
+        <autor>Y Zhang</autor>
+        <autor>C Bowen</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Insights into the mechanical properties of several triply periodic minimal surface lattice structures made by polymer additive manufacturing</titulo>
+      <autores>
+        <autor>I Maskery</autor>
+        <autor>L Sturm</autor>
+        <autor>A Aremu</autor>
+        <autor>A Panesar</autor>
+        <autor>C Williams</autor>
+        <autor>C Tuck</autor>
+        <autor>R Wildman</autor>
+        <autor>I Ashcroft</autor>
+        <autor>R Hague</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Novel 3D printed TPMS scaffolds: microstructure, characteristics and applications in bone regeneration</titulo>
+      <autores>
+        <autor>J Ma</autor>
+        <autor>Y Li</autor>
+        <autor>Y Mi</autor>
+        <autor>Q Gong</autor>
+        <autor>P Zhang</autor>
+        <autor>B Meng</autor>
+        <autor>J Wang</autor>
+        <autor>J Wang</autor>
+        <autor>Y Fan</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of porosity variation strategy on the performance of functionally graded Ti-6Al-4V scaffolds for bone tissue engineering</titulo>
+      <autores>
+        <autor>X.-Y Zhang</autor>
+        <autor>G Fang</autor>
+        <autor>L.-L Xing</autor>
+        <autor>W Liu</autor>
+        <autor>J Zhou</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Three-dimensional (3D) printed scaffold and material selection for bone repair</titulo>
+      <autores>
+        <autor>L Zhang</autor>
+        <autor>G Yang</autor>
+        <autor>B Johnson</autor>
+        <autor>X Jia</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>3D Printing of Piezoelectric Barium Titanate-Hydroxyapatite Scaffolds with Interconnected Porosity for Bone Tissue Engineering</titulo>
+      <autores>
+        <autor>C Polley</autor>
+        <autor>T Distler</autor>
+        <autor>R Detsch</autor>
+        <autor>H Lund</autor>
+        <autor>A Springer</autor>
+        <autor>A Boccaccini</autor>
+        <autor>H Seitz</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A multiscale optimisation method for bone growth scaffolds based on triply periodic minimal surfaces</titulo>
+      <autores>
+        <autor>E Lehder</autor>
+        <autor>I Ashcroft</autor>
+        <autor>R Wildman</autor>
+        <autor>L Ruiz-Cantu</autor>
+        <autor>I Maskery</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Selective Laser Melting Fabrication of Porous Ti6Al4V Scaffolds With Triply Periodic Minimal Surface Architectures: Structural Features, Cytocompatibility, and Osteogenesis</titulo>
+      <autores>
+        <autor>J Lv</autor>
+        <autor>W Jin</autor>
+        <autor>W Liu</autor>
+        <autor>X Qin</autor>
+        <autor>Y Feng</autor>
+        <autor>J Bai</autor>
+        <autor>Z Wu</autor>
+        <autor>J Li</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>3D-Printed Piezoelectric Porous Bioactive Scaffolds and Clinical Ultrasonic Stimulation Can Help in Enhanced Bone Regeneration</titulo>
+      <autores>
+        <autor>P Sikder</autor>
+        <autor>P Nagaraju</autor>
+        <autor>H Naganaboyina</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Gaussian curvature-driven direction of cell fate toward osteogenesis with triply periodic minimal surface scaffolds</titulo>
+      <autores>
+        <autor>Y Yang</autor>
+        <autor>T Xu</autor>
+        <autor>H.-P Bei</autor>
+        <autor>L Zhang</autor>
+        <autor>C.-Y Tang</autor>
+        <autor>M Zhang</autor>
+        <autor>C Xu</autor>
+        <autor>L Bian</autor>
+        <autor>K</autor>
+        <autor>-K Yeung</autor>
+        <autor>J Fuh</autor>
+        <autor>X Zhao</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>3D printing of polymer matrix composites: A review and prospective</titulo>
+      <autores>
+        <autor>X Wang</autor>
+        <autor>M Jiang</autor>
+        <autor>Z Zhou</autor>
+        <autor>J Gou</autor>
+        <autor>D Hui</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biodegradable PLA-ZnO nanocomposite biomaterials with antibacterial properties, tissue engineering viability, and enhanced biocompatibility</titulo>
+      <autores>
+        <autor>W Chong</autor>
+        <autor>S Shen</autor>
+        <autor>Y Li</autor>
+        <autor>A Trinchi</autor>
+        <autor>D Pejak</autor>
+        <autor>I Simunec</autor>
+        <autor>A Louis) Kyratzis</autor>
+        <autor>C Sola</autor>
+        <autor>Wen</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effectiveness assessment of TiO2 -Al2 O3 nano-mixture as a filler material for improvement of packaging performance of PLA nanocomposite films</titulo>
+      <autores>
+        <autor>F Yakdoumi</autor>
+        <autor>A Hadj-Hamou</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of the particle size on the performance of BaTiO3 piezoelectric ceramics produced by additive manufacturing</titulo>
+      <autores>
+        <autor>X Chen</autor>
+        <autor>J Sun</autor>
+        <autor>B Guo</autor>
+        <autor>Y Wang</autor>
+        <autor>S Yu</autor>
+        <autor>W Wang</autor>
+        <autor>J Bai</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Graphite nanoplatelets and/or barium titanate/polymer nanocomposites: fabrication, thermomechanical properties, dielectric response and energy storage</titulo>
+      <autores>
+        <autor>A Patsidis</autor>
+        <autor>K Kalaitzidou</autor>
+        <autor>D Anastassopoulos</autor>
+        <autor>A Vradis</autor>
+        <autor>G Psarras</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Persson, 3D-printed PLA/HA composite structures as synthetic trabecular bone: A feasibility study using fused deposition modeling</titulo>
+      <autores>
+        <autor>D Wu</autor>
+        <autor>A Spanou</autor>
+        <autor>A Diez-Escudero</autor>
+        <autor>C</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>3D Printing of Piezoelectric Barium Titanate-Hydroxyapatite Scaffolds with Interconnected Porosity for Bone Tissue Engineering</titulo>
+      <autores>
+        <autor>C Polley</autor>
+        <autor>T Distler</autor>
+        <autor>R Detsch</autor>
+        <autor>H Lund</autor>
+        <autor>A Springer</autor>
+        <autor>A Boccaccini</autor>
+        <autor>H Seitz</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Selective laser melted Ti6Al4V split-P TPMS lattices for bone tissue engineering</titulo>
+      <autores>
+        <autor>M Rezapourian</autor>
+        <autor>I Jasiuk</autor>
+        <autor>M Saarna</autor>
+        <autor>I Hussainova</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of BaTiO3 on the aging process of PLA fibers obtained by centrifugal spinning</titulo>
+      <autores>
+        <autor>F Boschetto</autor>
+        <autor>H Doan</autor>
+        <autor>P Vo</autor>
+        <autor>M Zanocco</autor>
+        <autor>W Zhu</autor>
+        <autor>W Sakai</autor>
+        <autor>K Kinashi</autor>
+        <autor>E Marin</autor>
+        <autor>G Pezzotti</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>PA1111/BaTiO3 nanocomposites with surprisingly enhanced piezoelectricity at low filler content via in-situ compositing process</titulo>
+      <autores>
+        <autor>J Guo</autor>
+        <autor>P Fu</autor>
+        <autor>Z Qiu</autor>
+        <autor>C Chen</autor>
+        <autor>S Wang</autor>
+        <autor>K Zhang</autor>
+        <autor>X Zhang</autor>
+        <autor>X Qiao</autor>
+        <autor>W Zhao</autor>
+        <autor>H Zhao</autor>
+        <autor>Q Zhao</autor>
+        <autor>M Liu</autor>
+        <autor>X Pang</autor>
+        <autor>Z Cui</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Development and Characterization of 3D Printed Multifunctional Bioscaffolds Based on PLA/PCL/HAp/BaTiO3 Composites</titulo>
+      <autores>
+        <autor>E Mystiridou</autor>
+        <autor>A Patsidis</autor>
+        <autor>N Bouropoulos</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Polymer-Ceramic composites: A state of art review and future applications</titulo>
+      <autores>
+        <autor>R Kumar</autor>
+        <autor>R Singh</autor>
+        <autor>M Hashmi</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review on 3D printed piezoelectric energy harvesters: Materials, 3D printing techniques, and applications</titulo>
+      <autores>
+        <autor>A Megdich</autor>
+        <autor>M Habibi</autor>
+        <autor>L Laperrière</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Construction of Bio-Piezoelectric Platforms: From Structures and Synthesis to Applications</titulo>
+      <autores>
+        <autor>Q Xu</autor>
+        <autor>X Gao</autor>
+        <autor>S Zhao</autor>
+        <autor>Y Liu</autor>
+        <autor>D Zhang</autor>
+        <autor>K Zhou</autor>
+        <autor>H Khanbareh</autor>
+        <autor>W Chen</autor>
+        <autor>Y Zhang</autor>
+        <autor>C Bowen</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mecánica de materiales</titulo>
+      <autores>
+        <autor>R Hibbeler</autor>
+        <autor>J Murrieta Murrieta</autor>
+        <autor>J Molina Solís</autor>
+        <autor>S Sánchez</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Materials science and engineering: an introduction, 10th edition</titulo>
+      <autores>
+        <autor>W Callister</autor>
+        <autor>D Rethwisch</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>On the Piezoelectric Effect of Bone</titulo>
+      <autores>
+        <autor>E Fukada</autor>
+        <autor>I Yasuda</autor>
+      </autores>
+      <fecha>1957</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Piezoelectric materials for tissue regeneration: A review</titulo>
+      <autores>
+        <autor>A Rajabi</autor>
+        <autor>M Jaffe</autor>
+        <autor>T Arinzeh</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Persson, 3D-printed PLA/HA composite structures as synthetic trabecular bone: A feasibility study using fused deposition modeling</titulo>
+      <autores>
+        <autor>D Wu</autor>
+        <autor>A Spanou</autor>
+        <autor>A Diez-Escudero</autor>
+        <autor>C</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Design procedure for triply periodic minimal surface based biomimetic scaffolds</titulo>
+      <autores>
+        <autor>F Günther</autor>
+        <autor>M Wagner</autor>
+        <autor>S Pilz</autor>
+        <autor>A Gebert</autor>
+        <autor>M Zimmermann</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Design and Analysis of Biomedical Scaffolds Using TPMS-Based Porous Structures Inspired from Additive Manufacturing</titulo>
+      <autores>
+        <autor>R Verma</autor>
+        <autor>J Kumar</autor>
+        <autor>N Singh</autor>
+        <autor>S Rai</autor>
+        <autor>K Saxena</autor>
+        <autor>J Xu</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Disquisitiones generales circa superficies curvas</titulo>
+      <autores>
+        <autor>C Gauss</autor>
+      </autores>
+      <fecha>1828</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mémoire sur les surfaces dont les rayons de courbures en chaque point, sont égaux et les signes contraires</titulo>
+      <autores>
+        <autor>E Catalan</autor>
+      </autores>
+      <fecha>1855</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Gesammelte Mathematische Abhandlungen, 1st ed</titulo>
+      <autores>
+        <autor>H Schwarz</autor>
+      </autores>
+      <fecha>1890</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Infinite periodic minimal surfaces without self-intersections</titulo>
+      <autores>
+        <autor>A Schoen</autor>
+      </autores>
+      <fecha>1970-06-19</fecha>
+    </referencia>
+    <referencia>
+      <titulo>How Nature Adapts Chemical Structures to Curved Surfaces</titulo>
+      <autores>
+        <autor>H Von Schnering</autor>
+        <autor>R Nesper</autor>
+      </autores>
+      <fecha>1987</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Triply Periodic Minimal Surfaces -A Novel Design Approach for Lightweight CRC Structures</titulo>
+      <autores>
+        <autor>S Wiesenhuetter</autor>
+        <autor>T Goertzen</autor>
+        <autor>I Vakaliuk</autor>
+        <autor>M Curbach</autor>
+        <autor>S Scheerer</autor>
+        <autor>A Niemeyer</autor>
+        <autor>J Noennig</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fabrication and mechanical characterization of 3D printed vertical uniform and gradient scaffolds for bone and osteochondral tissue engineering</titulo>
+      <autores>
+        <autor>S Bittner</autor>
+        <autor>B Smith</autor>
+        <autor>L Diaz-Gomez</autor>
+        <autor>C Hudgins</autor>
+        <autor>A Melchiorri</autor>
+        <autor>D Scott</autor>
+        <autor>J Fisher</autor>
+        <autor>A Mikos</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>L Zhou</autor>
+        <autor>J Miller</autor>
+        <autor>J Vezza</autor>
+        <autor>M Mayster</autor>
+        <autor>M Raffay</autor>
+        <autor>Q Justice</autor>
+        <autor>Z Al Tamimi</autor>
+        <autor>G Hansotte</autor>
+        <autor>L Sunkara</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Additive manufacturing of advanced ceramic materials</titulo>
+      <autores>
+        <autor>Y Lakhdar</autor>
+        <autor>C Tuck</autor>
+        <autor>J Binner</autor>
+        <autor>A Terry</autor>
+        <autor>R Goodridge</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review of melt extrusion additive manufacturing processes: II. Materials, dimensional accuracy, and surface roughness</titulo>
+      <autores>
+        <autor>B Turner</autor>
+        <autor>S Gold</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Piezoelectric polymers as biomaterials for tissue engineering applications</titulo>
+      <autores>
+        <autor>C Ribeiro</autor>
+        <autor>V Sencadas</autor>
+        <autor>D Correia</autor>
+        <autor>S Lanceros-Méndez</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Experiment-Based Process Modeling and Optimization for High-Quality and Resource-Efficient FFF 3D Printing</titulo>
+      <autores>
+        <autor>A Elkaseer</autor>
+        <autor>S Schneider</autor>
+        <autor>S Scholz</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Impact of the Fused Deposition (FDM) Printing Process on Polylactic Acid (PLA) Chemistry and Structure</titulo>
+      <autores>
+        <autor>M Cuiffo</autor>
+        <autor>J Snyder</autor>
+        <autor>A Elliott</autor>
+        <autor>N Romero</autor>
+        <autor>S Kannan</autor>
+        <autor>G Halada</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Blending and functionalisation modification of 3D printed polylactic acid for fused deposition modeling</titulo>
+      <autores>
+        <autor>Y Li</autor>
+        <autor>L Huang</autor>
+        <autor>X Wang</autor>
+        <autor>Y Wang</autor>
+        <autor>X Lu</autor>
+        <autor>Z Wei</autor>
+        <autor>Q Mo</autor>
+        <autor>Y Sheng</autor>
+        <autor>S Zhang</autor>
+        <autor>C Huang</autor>
+        <autor>Q Duan</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Surface Modification of 3D Printed PLA Objects by Fused Deposition Modeling: A Review</titulo>
+      <autores>
+        <autor>E Baran</autor>
+        <autor>H Erbil</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Melt processed PLA/PCL blends: Effect of processing method on phase structure, morphology, and mechanical properties</titulo>
+      <autores>
+        <autor>J Urquijo</autor>
+        <autor>G Guerrica-Echevarría</autor>
+        <autor>J</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Polylactic Acid/Cellulose Fibres Based Composites for Food Packaging Applications</titulo>
+      <autores>
+        <autor>E Popa</autor>
+        <autor>M Rapa</autor>
+        <autor>O Popa</autor>
+        <autor>G Mustatea</autor>
+        <autor>V Popa</autor>
+        <autor>A Mitelut</autor>
+        <autor>M Popa</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Analysis of the rheological property and crystallization behavior of polylactic acid (Ingeo TM Biopolymer 4032D) at different process temperatures, E-Polymers</titulo>
+      <autores>
+        <autor>H Yoo</autor>
+        <autor>S.-Y Jeong</autor>
+        <autor>S.-W Choi</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Novel 3D printing filaments: PLA and zinc carbonate basic composites for laser-assisted thermal decomposition</titulo>
+      <autores>
+        <autor>L Rodriguez-Pacheco</autor>
+        <autor>D Lardizabal-Gutierrez</autor>
+        <autor>J Pantoja-Espinoza</autor>
+        <autor>L De</autor>
+        <autor>La Torre-Saenz</autor>
+        <autor>I Estrada-Moreno</autor>
+        <autor>F Paraguay-Delgado</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparison of physical and mechanical properties of PLA, ABS and nylon 6 fabricated using fused deposition modeling and injection molding</titulo>
+      <autores>
+        <autor>M Lay</autor>
+        <autor>N Thajudin</autor>
+        <autor>Z Hamid</autor>
+        <autor>A Rusli</autor>
+        <autor>M Abdullah</autor>
+        <autor>R Shuib</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical behavior of TPMS-based scaffolds: a comparison between minimal surfaces and their lattice structures</titulo>
+      <autores>
+        <autor>X Guo</autor>
+        <autor>X Zheng</autor>
+        <autor>Y Yang</autor>
+        <autor>X Yang</autor>
+        <autor>Y Yi</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Applications of PLA in modern medicine</titulo>
+      <autores>
+        <autor>V Destefano</autor>
+        <autor>S Khan</autor>
+        <autor>A Tabada</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Symmetry changes in barium titanate at low temperatures and their relation to its ferroelectric properties</titulo>
+      <autores>
+        <autor>H Kay</autor>
+        <autor>P Vousden</autor>
+        <autor>Xcv</autor>
+      </autores>
+      <fecha>1949</fecha>
+    </referencia>
+    <referencia>
+      <titulo>BaTiO3-based piezoelectrics: Fundamentals, current status, and perspectives</titulo>
+      <autores>
+        <autor>M Acosta</autor>
+        <autor>N Novak</autor>
+        <autor>V Rojas</autor>
+        <autor>S Patel</autor>
+        <autor>R Vaish</autor>
+        <autor>J Koruza</autor>
+        <autor>G Rossetti</autor>
+        <autor>J Rödel</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Functional Dielectrics for Electronics</titulo>
+      <autores>
+        <autor>Y Poplavko</autor>
+        <autor>Y Yakymenko</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electron density distribution and microstructural spherical harmonic calculation of BaTiO3 powders and ceramics</titulo>
+      <autores>
+        <autor>J Uribe-Chavira</autor>
+        <autor>G Herrera-Pérez</autor>
+        <autor>C Santillán-Rodríguez</autor>
+        <autor>R Sáenz-Hernández</autor>
+        <autor>J Matutes-Aquino</autor>
+        <autor>M Grijalva-Castillo</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Multiscale architected porous materials for renewable energy conversion and storage</titulo>
+      <autores>
+        <autor>S Hoseini</autor>
+        <autor>A Seyedkanani</autor>
+        <autor>G Najafi</autor>
+        <autor>A Sasmito</autor>
+        <autor>A Akbarzadeh</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Impact of the Fused Deposition (FDM) Printing Process on Polylactic Acid (PLA) Chemistry and Structure</titulo>
+      <autores>
+        <autor>M Cuiffo</autor>
+        <autor>J Snyder</autor>
+        <autor>A Elliott</autor>
+        <autor>N Romero</autor>
+        <autor>S Kannan</autor>
+        <autor>G Halada</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>3D printing of polylactic acid: recent advances and opportunities</titulo>
+      <autores>
+        <autor>T Joseph</autor>
+        <autor>A Kallingal</autor>
+        <autor>A Suresh</autor>
+        <autor>D Mahapatra</autor>
+        <autor>M Hasanin</autor>
+        <autor>J Haponiuk</autor>
+        <autor>S Thomas</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Sustainable Biopolymer Composites From Perlite, Plasticized and Unplasticized Poly(Lactic Acid)</titulo>
+      <autores>
+        <autor>H Karahan Toprakci</autor>
+        <autor>D Savcı</autor>
+        <autor>O Toprakçı</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A Review on Factors Affecting the Mechanical Properties of Additively-Manufactured Lattice Structures</titulo>
+      <autores>
+        <autor>R Liu</autor>
+        <autor>W Chen</autor>
+        <autor>J Zhao</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>C Suryanarayana</autor>
+        <autor>M Norton</autor>
+        <autor>X-Ray Diffraction</autor>
+        <autor>U Springer</autor>
+        <autor>M Boston</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Elements of X-ray diffraction</titulo>
+      <autores>
+        <autor>B Cullity</autor>
+        <autor>S Stock</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>An X-ray diffraction study of tetragonal barium titanate</titulo>
+      <autores>
+        <autor>H Evans</autor>
+      </autores>
+      <fecha>1961</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Crystal structure of dense nanocrystalline BaTiO3 ceramics</titulo>
+      <autores>
+        <autor>C Xiao</autor>
+        <autor>C Jin</autor>
+        <autor>X Wang</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent advances in magnetic structure determination by neutron powder diffraction</titulo>
+      <autores>
+        <autor>J Rodríguez-Carvajal</autor>
+      </autores>
+      <fecha>1993</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structures of the ferroelectric phases of barium titanate</titulo>
+      <autores>
+        <autor>G Kwei</autor>
+        <autor>A Lawson</autor>
+        <autor>S Billinge</autor>
+        <autor>S Cheong</autor>
+      </autores>
+      <fecha>1993</fecha>
+    </referencia>
+    <referencia>
+      <titulo>X-ray diffraction analysis by Rietveld refinement of FeAl alloys doped with terbium and its correlation with magnetostriction</titulo>
+      <autores>
+        <autor>J Uribe-Chavira</autor>
+        <autor>G Herrera-Pérez</autor>
+        <autor>C Santillán-Rodríguez</autor>
+        <autor>R Sáenz-Hernández</autor>
+        <autor>J Matutes-Aquino</autor>
+        <autor>M Grijalva-Castillo</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Rietveld refinement guidelines</titulo>
+      <autores>
+        <autor>L Mccusker</autor>
+        <autor>R Von Dreele</autor>
+        <autor>D Cox</autor>
+        <autor>D Louër</autor>
+        <autor>P Scardi</autor>
+      </autores>
+      <fecha>1999</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Application of symmetrized harmonics expansion to correction of the preferred orientation effect</titulo>
+      <autores>
+        <autor>M Järvinen</autor>
+      </autores>
+      <fecha>1993</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bayesian Inference for Acoustic Direction of Arrival Analysis Using Spherical Harmonics</titulo>
+      <autores>
+        <autor>N Xiang</autor>
+        <autor>C Landschoot</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Symmetry and its Implications</titulo>
+      <autores>
+        <autor>K Kurki-Suonio</autor>
+        <autor>I</autor>
+      </autores>
+      <fecha>1977</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mapas de densidad electrónica y cálculos de esféricos armónicos microestructurales en cerámicos de BaTiO3 obtenidos por spark plasma sintering</titulo>
+      <autores>
+        <autor>J Uribe-Chavira</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study of micro-structural effects by powder diffraction using the program FULLPROF</titulo>
+      <autores>
+        <autor>J</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>NIH Image to ImageJ: 25 years of image analysis</titulo>
+      <autores>
+        <autor>C Schneider</autor>
+        <autor>W Rasband</autor>
+        <autor>K Eliceiri</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Characterisation of Polymers by Thermal Analysis</titulo>
+      <autores>
+        <autor>W Groenewoud</autor>
+        <autor>Thermogravimetry</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparison of injection moulded, natural fibre-reinforced composites with PP and PLA as matrices</titulo>
+      <autores>
+        <autor>J Mofokeng</autor>
+        <autor>A Luyt</autor>
+        <autor>T Tábi</autor>
+        <autor>J Kovács</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Viscoelastic properties of polymers</titulo>
+      <autores>
+        <autor>J Ferry</autor>
+      </autores>
+      <fecha>1980</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermal, mechanical, and rheological properties of plasticized poly( L -lactic acid</titulo>
+      <autores>
+        <autor>H Ge</autor>
+        <autor>F Yang</autor>
+        <autor>Y Hao</autor>
+        <autor>G Wu</autor>
+        <autor>H Zhang</autor>
+        <autor>L Dong</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>N Xue</autor>
+        <autor>X Ding</autor>
+        <autor>R Huang</autor>
+        <autor>R Jiang</autor>
+        <autor>H Huang</autor>
+        <autor>X Pan</autor>
+        <autor>W Min</autor>
+        <autor>J Chen</autor>
+        <autor>J.-A Duan</autor>
+        <autor>P Liu</autor>
+        <autor>Y Wang</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Rietveld refinement of Debye-Scherrer synchrotron X-ray data from Al2 O3</titulo>
+      <autores>
+        <autor>P Thompson</autor>
+        <autor>D Cox</autor>
+        <autor>J Hastings</autor>
+      </autores>
+      <fecha>1987</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microstructural parameters from X-ray diffraction peak broadening</titulo>
+      <autores>
+        <autor>T Ungár</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Origin of ferroelectricity in perovskite oxides</titulo>
+      <autores>
+        <autor>R Cohen</autor>
+      </autores>
+      <fecha>1992</fecha>
+    </referencia>
+    <referencia>
+      <titulo>3D Printing of BaTiO3 Piezoelectric Ceramics for a Focused Ultrasonic Array</titulo>
+      <autores>
+        <autor>J Cheng</autor>
+        <autor>Y Chen</autor>
+        <autor>J.-W Wu</autor>
+        <autor>X.-R Ji</autor>
+        <autor>S.-H Wu</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Generation of Electric Potentials by Bone in Response to Mechanical Stress</titulo>
+      <autores>
+        <autor>C Bassett</autor>
+        <autor>R Becker</autor>
+      </autores>
+      <fecha>1962</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enhanced Dielectric Properties of Recycled PLA/BaTiO3 Nanocomposites: Towards Sustainable Capacitor Applications</titulo>
+      <autores>
+        <autor>K Meeporn</autor>
+        <autor>H Okcu</autor>
+        <autor>L Johnston</autor>
+        <autor>G Morvezen</autor>
+        <autor>B Borgnic</autor>
+        <autor>S Flury</autor>
+        <autor>D Muñoz-Rojas</autor>
+        <autor>V Mareau</autor>
+        <autor>A Sylvestre</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Challenges to Improve Extrusion-Based Additive Manufacturing Process of Thermoplastics toward Sustainable Development</titulo>
+      <autores>
+        <autor>A Patti</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fracture behavior of anisotropic 3Dprinted parts: experiments and numerical simulations</titulo>
+      <autores>
+        <autor>M Khosravani</autor>
+        <autor>S Rezaei</autor>
+        <autor>H Ruan</autor>
+        <autor>T Reinicke</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effects of Print Orientation on Mode-I Fracture Toughness of Additively Manufactured PLA: Simulation by XFEM</titulo>
+      <autores>
+        <autor>B Paygozar</autor>
+        <autor>R Gorguluarslan</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Stress concentration targeted reinforcement using multi-material based 3D printing</titulo>
+      <autores>
+        <autor>H Singh</autor>
+        <autor>A Santos</autor>
+        <autor>D Das</autor>
+        <autor>R Ambekar</autor>
+        <autor>P Saxena</autor>
+        <autor>C Woellner</autor>
+        <autor>N Katiyar</autor>
+        <autor>C Tiwary</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Experimental study on the effect of filamentextrusion rate on the structural, mechanical and thermal properties of material extrusion 3Dprinted polylactic acid (PLA) products</titulo>
+      <autores>
+        <autor>L Lendvai</autor>
+        <autor>I Fekete</autor>
+        <autor>D Rigotti</autor>
+        <autor>A Pegoretti</autor>
+      </autores>
+      <fecha>2025</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Stiff-Elongated Balance of PLA-Based Polymer Blends</titulo>
+      <autores>
+        <autor>M Mendoza-Duarte</autor>
+        <autor>I Estrada-Moreno</autor>
+        <autor>P García-Casillas</autor>
+        <autor>A Vega-Rios</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Biomechanics of cellular solids</titulo>
+      <autores>
+        <autor>L Gibson</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cellular solids: structure &amp; properties</titulo>
+      <autores>
+        <autor>L Gibson</autor>
+        <autor>M Ashby</autor>
+      </autores>
+      <fecha>1988</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of the manufacturing parameters on the tensile and fracture properties of FDM 3D-printed PLA specimens</titulo>
+      <autores>
+        <autor>L Marșavina</autor>
+        <autor>C Vălean</autor>
+        <autor>M Mărghitaș</autor>
+        <autor>E Linul</autor>
+        <autor>N Razavi</autor>
+        <autor>F Berto</autor>
+        <autor>R Brighenti</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Limitations of composite strength theory for predicting the ultimate strengths of layered 3D printing polymers</titulo>
+      <autores>
+        <autor>G Zhang</autor>
+        <autor>X Zheng</autor>
+        <autor>Q Wang</autor>
+        <autor>Y Ni</autor>
+        <autor>F Liu</autor>
+        <autor>K Zhao</autor>
+        <autor>L Xu</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+  </referencias>
+</tesis>

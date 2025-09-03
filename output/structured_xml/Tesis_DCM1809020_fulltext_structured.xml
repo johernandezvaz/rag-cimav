@@ -1,0 +1,1115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo>DOCTORADO EN CIENCIA DE MATERIALES</titulo>
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>Departamento De</autor>
+      <autor>Estudios De Posgrado</autor>
+      <autor>M Sonia</autor>
+      <autor>Estefanía Hernández Sánchez</autor>
+      <autor>José Nava</autor>
+      <autor>Juan Pablo</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>RESUMEN</titulo>
+        <texto>En esta tesis se evaluó el potencial inhibidor de extractos naturales de Ruta graveolens y Origanum majorana sobre la corrosión del acero inoxidable austenitco en medio ácido (HCl 1 M), mediante técnicas gravimétricas, electroquímicas (polarización potenciodinámica y espectroscopía de impedancia electroquímica) y estudios teóricos basados en la teoría del funcional de la densidad (DFT), como optimización de la geometría molecular, cálculo de frecuencias vibracionales, cálculo de energías del estado neutro, catiónico y aniónico asimismo reactividad global y fracción de electrones transferidos. Los resultados experimentales indicaron una eficiencia inhibidora superior al 80%, atribuida a la presencia de compuestos como rutina, ácido caféico y ácido rosmarinico. Los estudios de adsorción mostraron que los extractos se ajustan al modelo de Langmuir, sugiriendo una interacción química entre las moléculas y la superficie del acero. Por otro lado, los cálculos teóricos realizados con el funcional B3LYP y la base 6-311G(d,p) en fase solvente (etanol) permitieron predecir la reactividad de los compuestos mediante parámetros como energía de HOMO/LUMO, potencial químico, dureza, y fracción de electrones transferidos. Se concluye que los extractos evaluados son inhibidores verdes eficaces y sustentables, con fuerte correlación entre los resultados teóricos y experimentales, y con gran potencial de aplicación industrial.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ABSTRACT</titulo>
+        <texto>This thesis evaluated the corrosion inhibition potential of natural extracts from Ruta graveolens and Origanum majorana on austenitic stainless steel in an acidic medium (1 M HCl), using gravimetric techniques, electrochemical methods (potentiodynamic polarization and electrochemical impedance spectroscopy), and theoretical studies based on Density Functional Theory (DFT), including molecular geometry optimization, vibrational fequency calculations, energy evaluations of the neutral, cationic, and anionic states, as well as global reativity and electron transfer fraction. Experimental results indicated an inhibition efficiency greater than 80%, attributed to the presence of compounds such as rutin, caffeic acid, and rosmarinic acid. Adsorption studies showed that the extracts followed the Langmuir model, suggesting a chemical interaction between the molecules and the steel surface. On the oher hand, theoretical calculations using the B3LYP funtional and the 6-311G (d,p) basis set in solvent phase (ethanol) allowed the prediction of compund reactivity through parameters such as HOMO/LUMO energies, chemical potential, hardness, and electron transfer fraction. It is concluded that the evaluated extracts are effective and sustainable green inhibitors, with a strong correlation between theoretical and experimental results, and great potential for industrial application.</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>INTRODUCCIÓN</titulo>
+        <texto>La corrosión es el ataque destructivo de un material resultado de su interacción con el medio ambiente. Las severas consecuencias de este proceso, lo han convertido en un problema de importancia mundial. Además, nuestra cotidiana cercanía hacia esta forma de degradación, causa paros de plantas, desperdicio de recursos valiosos, pérdida o contaminación de productos, reducción de la eficiencia de procesos, mantenimientos y sobre diseños costosos; también pone en peligro la seguridad e higiene del proceso industrial y aún más importante, la integridad física de las personas involucradas en el mismo. Asimismo, la corrosión puede generar un daño al medio ambiente con accidentes relacionados a la flora y fauna. Otro aspecto, es el efecto de la corrosión sobre los recursos limitados, hace algunas décadas se le prestó poca atención al reciclaje, en la actualidad, se practica ampliamente y el reciclaje de productos metálicos, papel y plásticos es algo común, ya que ayuda a conservar los recursos limitados y finitos. La prevención y protección contra la corrosión detiene la degradación de metales y materiales, y por lo tanto contribuye de manera significativa a la conservación de los recursos con un daño mínimo al ecosistema. Las aleaciones de hierro son por hoy el material metálico más utilizado en la construcción a nivel mundial debido a su bajo costo y alta resistencia mecánica. Sin embargo, su naturaleza química lo conlleva a un deterioro, por lo cual debe ser protegido a través de la aplicación de distintos métodos. Los aceros y aleaciones utilizados en las diferentes actividades son susceptibles a diferentes mecanismos de corrosión debido a su exposición a diversos medios corrosivos. Uno de los métodos para reducir la corrosión es la adición de inhibidores, el estudio de estos ha traído una innumerable variedad de compuestos, estos estudios reportan el uso tanto de inhibidores orgánicos e inorgánicos los cuales inhiben la corrosión de diferentes aceros y medios de corrosión. Entre los diversos métodos de protección contra la corrosión disponible, el empleo de los inhibidores es el método más popular, debido a su síntesis económica, facilidad de uso y alta eficiencia. Estos inhibidores forman películas protectoras sobre la superficie metálica que separa al metal de la solución agresiva y por lo tanto inhiben la corrosión. Los más efectivos y eficientes son los inhibidores orgánicos que tienen enlaces dobles, heteroátomos (P, S, N y O) y los que contienen compuestos inorgánicos como cromatos, dicromatos y nitritos. Sin embargo, debido a su toxicidad, hay una urgente necesidad de desarrollar una nueva clase de inhibidores de corrosión con baja toxicidad, respetuosos con el medio ambiente y alta eficiencia. Existen antioxidantes naturales los cuales pueden ser usados como inhibidores de corrosión. Estos inhibidores orgánicos pueden ser sinterizados o extraídos de hierbas aromáticas y plantas medicinales. Para evaluar los inhibidores se añaden los extractos naturales a un medio ácido a diferentes concentraciones y temperaturas y asimismo evaluar la corrosión. La estabilidad de las películas adsorbidas del inhibidor que se forma sobre la superficie del metal para protegerlo contra la corrosión depende de propiedades fisicoquímicas de la molécula como; grupos funcionales, aromaticidad, efectos estéricos, densidad electrónica de los átomos donadores, el tipo de medio donde se presenta la corrosión y la naturaleza de la interacción entre el inhibidor y la superficie metálica. Debido a la creciente conciencia de la "química verde" en el campo de la ciencia y la tecnología de la corrosión en todo el mundo, existe la necesidad de obtener y/o sintetizar inhibidores de corrosión amigables con el medio ambiente. La química verde es una serie de principios que reduce la utilización o producción de sustancias tóxicas en la fabricación, diseño y aplicación de productos químicos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>OBTENCIÓN DE EXTRACTOS</titulo>
+        <texto>Las obtenciones de los extractos de plantas mejorana y ruda se realizaron utilizando un equipo Soxhlet, la figura 19 muestra la representación de procedimiento a continuación descrito: 1. Preparación de la muestra. Se pesaron 8 gramos de mejorana (Origanum majorana). 2. Cartucho. La muestra se coloca dentro de un cartucho de celulosa. Este cartucho se coloca dentro de la cabina de extracción del equipo. 3. Colocación del solvente. El solvente utilizado fue etanol y la cantidad utilizada fue de 150 ml en el matraz en forma de balón de fondo plano. Se armó el equipo Soxhet, utilizando un soporte universal. 4. Calentamiento. Se utilizó una parrilla eléctrica para calentar el solvente a su temperatura de ebullición. Refrigeración. Se utilizó un baño líquido conectado a un refrigerante de vidrio tipo rosario. 5. Operación. Una vez que el equipo se armó, el agua del refrigerante se puso en funcionamiento, el cartucho estaba cargado con muestra e introducido en la cabina de extracción y el solvente en el matraz, se encendió la parrilla y se comenzó con la operación. se llevó a la temperatura de ebullición del solvente (etanol) a 78 °C, este comenzó a evaporarse y condensar por la acción del refrigerante, cayendo gotas sobre el cartucho comenzando la extracción de la planta. Conforme el solvente se evapora y condensa entra en contacto con la muestra y extrae los componentes dentro de la misma esto se aprecia por el cambio de color del solvente cuando este vuelve a su color original el proceso termina y se retira el extracto. El mismo procedimiento se llevó a cabo para la preparación del extracto de Ruta graveolens.</texto>
+      </seccion>
+    </introduccion>
+    <objetivo_general>
+      <seccion>
+        <titulo>OBJETIVO GENERAL</titulo>
+        <texto>Extraer, caracterizar y evaluar inhibidores de corrosión a partir de extractos de plantas, como alternativa de protección para un acero inoxidable austenítico tipo 304 en un medio de ácido clorhídrico 1 M a diferentes temperaturas, empleando técnicas gravimétricas, electroquímicas y cálculos de química computacional buscando una relación entre los resultados experimentales y teóricos.</texto>
+      </seccion>
+    </objetivo_general>
+    <justificacion>
+      <seccion>
+        <titulo>JUSTIFICACIÓN</titulo>
+        <texto>Los inhibidores de corrosión convencionales presentan altos niveles de toxicidad, debido a su naturaleza inorgánica. Se busca generar una posible alternativa de solución a lo antes expuesto, evaluando las propiedades de inhibición de extractos de plantas, aplicada a un acero inoxidable tipo 304 en una solución de ácido clorhídrico 1 M.</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>HIPÓTESIS</titulo>
+        <texto>Las propiedades inhibidoras de corrosión de extractos de Ruta graveolens y Origanum majorana disminuirán la velocidad de corrosión para un acero inoxidable tipo 304 en un medio de ácido clorhídrico 1 M.</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>EXTRAPOLACIÓN DE TAFEL</titulo>
+        <texto>Existen dos métodos para determinar la velocidad de corrosión por técnicas de corriente directa: Extrapolación de Tafel y Resistencia a la polarización. Tafel encontró en forma experimental que, a menudo, el flujo neto de corriente variaba linealmente con la magnitud de la desviación que tiene el potencial de equilibrio. La técnica de extrapolación de Tafel se fundamenta en la teoría de potencial mixto, la cual establece que la reacción anódica (oxidación) como catódica (reducción) se lleven a cabo simultáneamente, de modo que la densidad de corriente total es igual a la diferencia de las densidades de corriente de las dos reacciones y esto se puede expresar como la siguiente ecuación: 𝑖= densidad total de corriente 𝑖 𝑎 = densidad de corriente anódica 𝑖 𝑐 = densidad de corriente catódica Un caso especial es cuando un metal se corroe espontáneamente, dando origen a que la contribución anódica y catódica sean iguales, pero de diferente signo ocasionando una corriente neta igual a cero. Por lo tanto, la velocidad de corrosión será espontanea. 𝑖 𝑐𝑜𝑟𝑟 = densidad de corriente de corrosión Como se ha notado, medir la velocidad de corrosión de una forma directa no es posible, porque siempre se obtendrá un valor igual a cero; por esta razón se utiliza la ecuación de Butler -Volmer. Esta técnica hace uso de porciones de la curva de polarización lo suficientemente alejadas del potencial de corrosión para que uno de los términos exponenciales de la ecuación, sea despreciable y pueda ignorarse. Esta técnica se utiliza para medir la corriente de corrosión (𝑖 𝑐𝑜𝑟𝑟 ) de tal forma que se pueda calcular la velocidad de corrosión. Una curva de Tafel puede proporcionar directamente la (𝑖 𝑐𝑜𝑟𝑟 ) o las pendientes de Tafel (𝑏 𝑎 y 𝑏 𝑐 ). Las pendientes de Tafel son empleadas con el valor de 𝑅𝑝 para calcular 𝑖 𝑐𝑜𝑟𝑟 . La figura 7 a continuación, muestra esquemáticamente lo anterior: Figura 7 Extrapolación de Tafel para estimar la velocidad de corrosión, 𝑖 𝑐𝑜𝑟𝑟</texto>
+      </seccion>
+      <seccion>
+        <titulo>EXTRACCIÓN SOXHLET</titulo>
+        <texto>Es el método estándar de extracción de muestras sólidas más utilizadas desde su diseño en el siglo pasado, además de muchos métodos de la EPA y de la FDA, el procedimiento puede aplicarse a distintos tipos muestras sólidas, la muestra debe ser anhidra, porque el solvente se puede disolver parcialmente en agua. En este procedimiento la muestra solida finamente pulverizada se coloca en un cartucho de material poroso que se sitúa en la cámara del extractor soxhlet (ver figura 16), se calienta el disolvente extractante, situado en el matraz, se condensan sus vapores que caen gota a gota sobre el cartucho que contiene la muestra, extrayendo los analitos solubles. Cuando el nivel del disolvente condensado en la cámara alcanza la parte superior del sifón lateral, el disolvente, con los analitos disueltos, asciende por el sifón y retorna al matraz de ebullición. Este proceso se repite hasta que se completa la extracción de los analitos de la muestra y se concentra en el disolvente.</texto>
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>POTENCIALES DE INTERCAMBIO Y CORRELACIÓN</titulo>
+        <texto>La parte central de los cálculos DFT, es dada por el potencial de intercambio y correlación, en el cual se basa la exactitud de los resultados obtenidos mediante la aplicación de esta teoría.  Aproximación de densidad local (LDA). Es la aproximación más simple y asume que la densidad puede ser trata localmente como en un gas de electrones uniforme, es decir, la energía de intercambio y correlación en cada punto del sistema es la misma, o bien, puede ser equivalente a a aquella donde la densidad es una función que varía lentamente. [48], B3P86 B3LYP: Una de las versiones más utilizadas es B3LYP, que significa Becke, 3 parámetros, Lee-Yang-Parr. MINNESOTA 06 M06: Funcional híbrido global con 27% de intercambio de HF. Destinado a termoquímica de grupo principal e interacciones no covalentes, termoquímica de metales de transición y organometálicos. Por lo general, es el más versátil de las funcionales 06, y debido a esta gran aplicabilidad, puede ser ligeramente peor que M06-2X para propiedades específicas que requieren un alto porcentaje de intercambio de HF, como la termoquímica y la cinética.</texto>
+      </seccion>
+      <seccion>
+        <titulo>REPRESENTACIÓN GRAFICA DE LA MOLÉCULA</titulo>
+        <texto>Se utilizó Gauss View 6.0 El programa facilita la construcción de la molécula mediante herramientas que rotan, acercan, seleccionan enlaces y examinar los resultados de los diferentes cálculos ya realizados.</texto>
+      </seccion>
+    </resultados>
+    <otros>
+      <seccion>
+        <titulo>Dedicatoria:</titulo>
+        <texto>A Dios, por su infinita misericordia y fidelidad en cada etapa de este camino. A Jesús, mi Salvador, por ser mi fuerza en la debilidad, mi consuelo en la angustia y mi alegría en medio del esfuerzo. A la Santísima Virgen María, porque a través del Santo Rosario sentí el llamado de Dios y su amorosa intercesión transformó mi vida. En medio de este proceso, su guía nos llevó a consagrar nuestro matrimonio ante Dios y a caminar más cerca de su Hijo. Gracias, Madre, por acompañarme con tu ternura y por interceder silenciosamente en cada paso de este camino académico y espiritual.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Agradecimientos:</titulo>
+        <texto>A mi esposo, por estar a mi lado en los momentos más significativos de este proceso. Gracias por tu amor, tu abrazo en los días difíciles, y por recordarme que no estoy sola. Tu apoyo ha sido parte esencial en la culminación de este sueño. A mis hijos, quienes son mi mayor inspiración y motivo. Su alegría y existencia le dieron sentido a cada esfuerzo. A mi bebé, aún en mi vientre, gracias por acompañarme con paciencia y ternura en esta etapa final. A mis padres, por enseñarme el valor del esfuerzo, la fe y la educación.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Su ejemplo y apoyo han sido fundamentales desde mis primeros pasos hasta hoy.</titulo>
+        <texto>A mis asesores de tesis, por su guía, exigencia y compromiso. Gracias por su tiempo, conocimientos y orientación constante. Al comité académico, por su guía, exigencia y compromiso. Su acompañamiento fue clave para llevar a buen término este trabajo. A mis profesores, por sembrar en mí el deseo de seguir aprendiendo y por ser ejemplo de entrega al conocimiento. A mis compañeras y compañeros de laboratorio, gracias por cada colaboración, cada conversación, y cada momento compartido que hizo este camino más ameno. Al Centro de Investigación en Materiales Avanzados (CIMAV), por brindarme las herramientas, el espacio y el entorno académico para desarrollarme profesionalmente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Al Consejo Nacional de Ciencia y Tecnología (CONACYT), por el apoyo económico otorgado durante el desarrollo de mis estudios de doctorado.</titulo>
+        <texto>A quienes, con sus oraciones, palabras o acciones, fueron instrumentos de Dios para que este proyecto llegara a su fin. Gracias por estar, por creer en mí y por acompañarme, aun desde la distancia. Este trabajo es fruto de constancia, amor, fe y esperanza. Que sirva como testimonio de que, con Dios y con el amor de quienes nos rodean, los sueños sí se alcanzan.</texto>
+      </seccion>
+      <seccion>
+        <titulo>TABLA DE CONTENIDO</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>ÍNDICE DE FIGURAS</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>DEFINICIÓN DE CORROSIÓN</titulo>
+        <texto>La corrosión puede definirse en términos generales o específicos dependiendo de la perspectiva de la cual se define. Por ejemplo, la corrosión en medios acuosos se define como un proceso electroquímico. En términos más generales, se define como la degradación del material causada por un ambiente agresivo (agua, aire, dióxido de carbono, líquidos orgánicos, sales fundidas o azufre gaseoso). El termino corrosión tiene origen latín. La palabra rodere que significa "roer", y corrodere la cual tiene el siguiente significado "piezas roídas" La corrosión es más que un simple fenómeno natural, esta es costosa e insegura, es un fenómeno que involucra la economía, así como trágicos accidentes que involucran la pérdida de vidas humanas. La mayoría de los metales se encuentran en la naturaleza en forma de compuestos tales como óxidos, sulfuros, silicatos o carbonatos. La razón, es la estabilidad termodinámica de los compuestos en comparación con la de los metales. La extracción de un metal de un mineral, es por un medio una reacción de reducción. La reducción del óxido de hierro con carbono como agente reductor da lugar al hierro metálico, como se muestra en la siguiente ecuación: Mientras que la oxidación del hierro metálico para producir óxido marrón conocido comúnmente como "óxido" es la corrosión. La extracción de hierro del óxido debe realizarse cuidando las condiciones del proceso para que la reacción inversa no ocurra. [2]</texto>
+      </seccion>
+      <seccion>
+        <titulo>FORMAS DE CORROSIÓN</titulo>
+        <texto>La forma de actuar del proceso corrosivo en las diferentes zonas activas del material y del medio que lo rodea, causan daños específicos en la microestructura del mismo, de esta forma podemos clasificar a la corrosión según el tipo de ataque que produzca. Corrosión uniforme; la corrosión uniforme es caracterizada por un ataque que se produce de forma uniforme en toda la superficie o en una gran fracción de la superficie total. El adelgazamiento general se lleva a cabo hasta el colapso. En base al volumen desperdiciado esta es la forma más importante de corrosión. Corrosión localizada; como su nombre lo indica, se trata de ataques puntuales o en ciertas zonas de las superficies del metal, dentro de esta podemos clasificarlas en:  Corrosión por picadura: llamado comúnmente Pitting corrosion, esta es una forma de corrosión localizada en donde cavidades o agujeros en el material. Se considera que las picaduras son más peligrosas que el daño por corrosión uniforme por ser más difíciles de detectar, predecir y diseñar contra ellas.  Corrosión intergranular: este ataque se localiza en los límites de grano del material metálico. Aquí se pierde la coherencia entre los granos y el material. Reduciendo significativamente sus propiedades mecánicas. Este tipo de corrosión puede ser causada por impurezas en los límites de grano.  Corrosión por hendidura: la corrosión por hendiduras es una forma localizada de corrosión donde la presencia de aberturas entre componentes metal-metal o metal-no metal puede dar principio a una corrosión localizada en este sitio.  Corrosión galvánica: la corrosión galvánica se produce cuando dos materiales metálicos disimiles se ponen en contacto en presencia de un electrolito, existe una diferencia de potencial eléctrico y sirve como fuerza directriz para el paso de corriente eléctrica a través del agente corrosivo de tal forma que el flujo de corriente corroe uno de los metales del par formado.  Corrosión bajo tensión: se presenta cuando un metal está sometido simultáneamente a la acción de un medio corrosivo y a tensiones mecánicas de tracción. Se forman fisuras que pueden ser transgranulares o intergranulares y que se propagan hacia el interior del metal, hasta que las tensiones se relajan o el metal se fractura.  Corrosión erosión: es la aceleración o incremento en la velocidad de degradación o ataque en un metal a causa de un movimiento relativo entre un fluido corrosivo y la superficie del metal.  Corrosión fatiga: se requiere la presencia de un medio corrosivo específico y la presencia de esfuerzos cíclicos aplicados al metal para que este proceso se lleve a cabo.  Corrosión en alta temperatura: se describe como la reacción de un metal a altas temperaturas en un ambiente gaseoso circundante (oxígeno, nitrógeno, azufre, carbono, cloro, hidrógeno, etc.)  Corrosión por microorganismos: la corrosión bacteriana incluye todo fenómeno de destrucción en el cual los microorganismos actúan, ya sea directamente o por medio de sustancias provenientes de su metabolismo. [3]</texto>
+      </seccion>
+      <seccion>
+        <titulo>ELECTROQUÍMICA</titulo>
+        <texto>Una reacción electroquímica se define como una reacción química en la cual existe transferencia de electrones, es decir, es una reacción química que involucra procesos de oxidación y reducción. La definición puede ser mejor comprendida observando en detalle una reacción típica de corrosión, por ejemplo, la reacción de zinc con ácido clorhídrico: Cuando la reacción se escribe de esta forma es obvio que el ion cloruro no participa en forma directa en la reacción, puesto que el ion cloruro aparece en ambos miembros de la ecuación y no es alterado por la reacción de corrosión es decir la valencia del ion cloruro permanece sin cambio, de acuerdo con lo anterior la ecuación 1.2 se puede escribir en forma simplificada como: Esta última ecuación indica que la corrosión del zinc en ácido clorhídrico consiste simplemente en la reacción entre el zinc y los iones hidrógeno que producen iones zinc y gas hidrógeno. Durante esta reacción el zinc es oxidado a iones zinc, es decir, la valencia del zinc se incrementa y, simultáneamente, los iones hidrógeno son reducidos a gas hidrógeno disminuyendo su valencia. Por lo tanto, la ecuación 1.2 puede ser simplificada aún más al dividirla en una reacción de oxidación y una reacción de reducción: Oxidación (reacción anódica): Reducción (reacción catódica): Una reacción de oxidación tal como la ecuación 1.4 significa un incremento en el estado de oxidación o valencia con producción de electrones, mientras que la reacción de reducción representa una disminución en el estado de oxidación o valencia y el consumo de electrones (ecuación 1.5). Todo proceso de corrosión necesita por lo menos una reacción de oxidación y una reacción de reducción, por lo que podemos resumir que las reacciones de corrosión son de naturaleza electroquímica. Debido a esto, es posible dividir el proceso de la corrosión en reacciones anódicas y reacciones catódicas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>DEFINICIÓN DE ELECTRODO</titulo>
+        <texto>Los electrodos son superficies en las cuales tienen lugar las semi reacciones de oxidación y reducción, y pueden o no participar en las reacciones. Los que no reaccionan reciben el nombre de electrodos inertes, y sin que importe el tipo de celda, electrolítica o galvánica, se identifican de la siguiente manera. El</texto>
+      </seccion>
+      <seccion>
+        <titulo>CELDAS ELECTROQUÍMICAS</titulo>
+        <texto>En una celda se llevan a cabo reacciones de tipo electroquímico ya sea para generar una corriente de electrones o para producir una reacción química. Las celdas electroquímicas se clasifican en dos tipos: Las celdas electrolíticas: son aquellas en las que la energía de una fuente externa hace que ocurran reacciones químicas no espontaneas (favorecen la formación de reactivos) por suministro de corriente eléctrica. Este proceso se conoce como electrólisis. Se compone de un recipiente donde se encuentra el material de reacción equipado con electrodos sumergidos en el material de reacción y conectados a una fuente de corriente directa. Se utilizan electrodos inertes que no participen en la reacción. En las celdas, el ánodo es el electrodo positivo y el cátodo es el electrodo negativo. La dirección de flujo espontanea de electrones o partículas con carga negativa es de negativo a positivo. En la figura 1, se muestra un ejemplo de una celda electrolítica utilizada para la obtención de metales activos mediante electrolisis de sólidos fundidos (descomposición de NaCl). Figura 2 Celda galvánica de Zn-Cu.</texto>
+      </seccion>
+      <seccion>
+        <titulo>TÉCNICAS ELECTROQUÍMICAS</titulo>
+        <texto>Las técnicas electroquímicas se basan en las leyes de Faraday. Estas relacionan el flujo de masa por unidad de área y el tiempo, con el flujo de corriente generada por la transferencia de electrones que se desprenden de una superficie metálica en un electrolito. La rapidez de estas técnicas para evaluar el proceso de la corrosión en tiempo real, las ponen muy por encima del método gravimétrico. El proceso de corrosión se compone de dos reacciones electroquímicas que ocurren al mismo tiempo, cuando un metal se expone en un electrolito; por esta razón, las técnicas electroquímicas constituyen una herramienta muy valiosa para hacer mediciones y estudios del proceso de corrosión e incluso al nivel interfase entre el sustrato metálico y las capas de productos de corrosión formados. Para hacer mediciones electroquímicas, se requiere de armar una celda electroquímica, la cual tiene los siguientes componentes:  Electrodo de trabajo: Usualmente se toma del material base sujeto a corrosión.  Electrodo de referencia: Puede ser de calomel saturado (Hg/HgSO4), Cu/SO4 o también de Ag/AgCl.  Electrodo auxiliar: Típicamente, se utiliza una barra de grafito o un alambre de platino.  Electrolito: Es el medio donde está expuesto el electrodo de trabajo, y es donde se produce la conducción iónica. Además, se requiere de un equipo electrónico de medición denominado potenciostato y/o una fuente de poder (ver figura 3). El método de medición más sencillo es la de potenciales de corrosión (𝐸 𝑐𝑜𝑟𝑟 ) el cual es una medida termodinámica que nos indica la estabilidad del proceso de corrosión, y representa el potencial mixto entre las reacciones anódicas y catódicas presentes en todo proceso de corrosión. Sin embargo, esta medición no indica nada sobre la cinética del proceso. Para estudiar la cinética del proceso de corrosión se utilizan otras técnicas más completas las cuales se clasifican en métodos de corriente directa (CD) y de corriente alterna (CA). Como se mencionó anteriormente, las técnicas electroquímicas se pueden dividir de dos maneras: técnicas de corriente directa (CD) y de corriente alterna (CA). Se denominan técnicas de CD porque la señal externa que se utiliza para la polarización o perturbación del sistema, es de corriente directa. Las técnicas CD se aplican de manera potenciostática, potenciodinámica, galvanostática y galvanodinámica. En general, la aplicación potenciodinámica en las técnicas de extrapolación de Tafel y de resistencia a la polarizacion lineal (Rp) son las más comunes. Entre las técnicas de corriente alterna (CA) importantes se tiene la impedancia electroquimica, donde el sistema se le suministra una señal de CA con determinada magnitud y frecuencia, y la técnica de voltamperometría. Los métodos electroquímicos que no requieren de una perturbación (polarización) utilizan un amperímetro de resistencia cero, para el monitoreo del parámetro cinético conocido como ruido en corriente. La medición de las variables corriente y voltaje obtenidas por medio de alguna técnica electroquímica pueden proporcionar información sobre la velocidad de corrosión en diferentes sustratos, con o sin recubrimientos, efectos de pasividad, tendencia a picaduras, entre otros.</texto>
+      </seccion>
+      <seccion>
+        <titulo>CURVAS DE POLARIZACIÓN POTENCIODINÁMICAS</titulo>
+        <texto>Es una herramienta muy valiosa para estudiar la cinética y los mecanismos de reacción del proceso de corrosión. Consiste en el control del potencial o la corriente aplicando un barrido a velocidad constante, registrando el barrido de potencial en el rango seleccionado y graficando la corriente generada entre el electrodo de trabajo y el electrodo auxiliar, a este método se le llama curva de polarización y es la representación gráfica del potencial contra el logaritmo de la densidad de la corriente. Aquí se manifiestan las curvas de polarización anódica (oxidación u disolución metálica) y la curva de polarización catódica (reducción del oxígeno). Para este método se utiliza la extrapolación de las pendientes de Tafel.</texto>
+      </seccion>
+      <seccion>
+        <titulo>POLARIZACIÓN</titulo>
+        <texto>Desde un punto de vista cinético, en un sistema cualquiera en el cual tenga lugar el fenómeno de corrosión, existe un balance entre las reacciones anódicas y catódicas sobre la superficie del metal, dando lugar a un potencial de equilibrio entre ambas reacciones. La polarización es el desplazamiento del potencial de equilibrio. Una forma de representar la polarización de un material es a través de los diagramas de Evans se observa en la figura 5, en los que se relaciona la densidad de corriente con el potencial aplicado o viceversa. De esta manera se obtiene una curva para cada proceso, ya sea oxidación o reducción ver figura 5a). Por razones de simplicidad en la construcción gráfica, se acostumbra a representar ambos procesos, (anódico o de oxidación y catódico o de reducción) en un mismo cuadrante con lo que se obtiene como se indica en la figura 5-b), el diagrama de Evans o Evans-Tafel si en lugar de utilizar la corriente se emplea el logaritmo de corriente en la figura 5-c).</texto>
+      </seccion>
+      <seccion>
+        <titulo>CONSTRUCCIÓN DE CURVAS DE POLARIZACIÓN</titulo>
+        <texto>Para obtener información cinética sobre la conducta anódica o catódica de un sistema electrometalúrgico, es necesario conocer las curvas de polarización (relaciones E vs log i) de cada una de las reacciones electroquímicas que lo componen. Las curvas de polarización se pueden determinar aplicando una corriente constante y midiendo el potencial establecido entre el electrodo de trabajo y un electrodo de referencia, por ejemplo, calomel. En la figura 6 se muestra la conexión de una celda de tres electrodos a un potenciostato/galvanostato. Al repetir este procedimiento para diferentes valores de corriente, midiendo en cada caso el nuevo potencial alcanzado, se obtienen las curvas de polarización galvanostáticas. Figura 6 Prueba de corrosión empleando un potenciostato/galvanostato. Otra forma para determinar la relación E vs log i, es aplicando un potencial constante y determinando la forma en la que varía la corriente. Estas curvas se denominan potenciostáticas y son las que encuentran mayor aplicación en los estudios del comportamiento de metales. El aparato más empleado para la determinación de tales curvas se llama potenciostato.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ESPECTROSCOPIA DE IMPEDANCIA ELECTROQUÍMICA</titulo>
+        <texto>Las técnicas de corriente directa requieren de grandes periodos de tiempo para alcanzar el estado estacionario y, por ende, para proporcionar los datos experimentales requeridos. Todo dependerá del sistema objeto de estudio, que será desde microsegundos cuando se trate de un proceso controlado por polarización por activación o transferencia de carga, hasta minutos u horas si es un proceso controlado por difusión y adsorción. La corriente alterna puede pasar a través de la interfase metal-disolución, como consecuencia de la reacción electródica, corriente faradaica, o debido a la carga y descarga de la doble capa eléctrica, corriente no faradaica; la suma de ambas representa la corriente total. La impedancia (Z) es un término que describe la resistencia eléctrica (R), utilizado en circuitos de corriente alterna (CA). Esta técnica utiliza mediciones de impedancia sobre un intervalo de frecuencias que proporcionan gran cantidad de información en estudios fundamentales de electroquímica, pero su aplicación a la ciencia de corrosión es relativamente nueva. En la actualidad, esta técnica se ha implantado de tal manera que ha tenido un enorme impacto en el estudio de diversos problemas de corrosión La impedancia faradaica, también llamada espectroscopia de impedancia electroquímica, permite distinguir diferentes procesos que se llevan a cabo en la interfase electrodo-medio corrosivo; tales como: 1) Transferencia de carga. 2) Adsorción de compuestos. 3) Fenómenos de transporte de materia. Unas de las principales ventajas de la técnica de impedancia es que la utilización de una señal periódica proporciona la relación señal-ruido para señales pequeñas, y que a una frecuencia suficientemente baja el módulo de impedancia igualara la resistencia a la polarización. A diferencia de la resistencia 𝑅 en corriente directa, la impedancia de un circuito de CA depende de la frecuencia de la señal que sea aplicada, es decir: La teoría matemática que fundamenta la técnica EIS, describe la impedancia de un sistema en términos de un componente real y un componente imaginario (asociado a √ -1). Siendo una técnica de bajo campo (no destructiva), la señal de excitación, expresada como función del tiempo, tiene la forma: La respuesta en corriente a la señal de potencial impuesto es también sinusoidal, y de la misma frecuencia (𝜔) pero de diferente amplitud y fase en la forma: Considerando un circuito con una resistencia y un capacitor en paralelo, con una impedancia igual a: La parte real de 𝑍 es 𝑅 y la parte imaginaria es 1/𝑗𝜔𝐶. Si esta ecuación se representa en un diagrama 𝑍 = 𝑍´+ 𝑍" (donde 𝑍´= componente real y 𝑍" = componente imaginario) tendremos: De la figura anterior, puede notarse que, a bajas frecuencias, la impedancia es puramente resistiva. Si se agrega una resistencia en serie al anterior circuito RC en paralelo, esta puede representar la resistencia del electrolito (solución). En este caso, el resultado es que el semicírculo se mueve a valores mayores en el eje de 𝑍´ (impedancia real) como se observa en la siguiente figura: Figura 9 Componentes real (𝑍´) e imaginario ( 𝑍" ) de la impedancia total (𝑍) para un circuito RC en paralelo que considera la resistencia de la solución a diferentes frecuencias. En los procesos simples anteriores, C es considerada como la capacitancia de la doble capa (𝐶𝑑𝑙), la cual estará en paralelo con la impedancia de la reacción, y .R = 𝑅 𝑐𝑡 ,donde 𝑅 𝑐𝑡 es la resistencia a la transferencia de carga. Para una reacción simple, un circuito eléctrico equivalente es el llamado "Circuito de Randles", ver figura 10. Aquí, 𝑅 𝑐𝑡 está en serie con la impedancia de Warburg. Figura 10 Circuito de Randles, representando equivalente eléctrico de un proceso de corrosión simple. En este caso, un gráfico de 𝑍" vs 𝑍´ tendría la siguiente forma:</texto>
+      </seccion>
+      <seccion>
+        <titulo>INHIBIDORES DE CORROSIÓN</titulo>
+        <texto>Por definición, un inhibidor de la corrosión es una sustancia química que, cuando es añadida en una concentración pequeña en un medio, la tasa o velocidad de corrosión decrece eficazmente. La eficiencia de un inhibidor puede ser expresada como: 𝑉𝐶 𝑆 : es la velocidad de corrosión sin inhibidor. 𝑉𝐶 𝐶 : es la velocidad de corrosión con inhibidor. En general, la eficiencia de un inhibidor aumenta al incrementar la concentración, por ejemplo, típicamente un buen inhibidor daría una eficiencia del 95% a una concentración de 0.008% y 90% a una concentración de 0.004% Un inhibidor de corrosión puede mitigar la corrosión de dos maneras. En algunos casos, el inhibidor puede alterar el medio corrosivo en un entorno no corrosivo o menos corrosivo a través de su interacción con las especies reactivas o corrosivas. En otros casos, este interactúa con la superficie del metal y protege al metal de la corrosión.</texto>
+      </seccion>
+      <seccion>
+        <titulo>CLASIFICACIÓN DE LOS INHIBIDORES DE CORROSIÓN</titulo>
+        <texto>Con base en su modo de interacción, pueden clasificarse en a) modificadores del medio y b) inhibidores de adsorción. En el caso de los modificadores del medio, la acción del mecanismo de inhibición es una simple interacción con las especies corrosivas en el electrolito, y de este modo previene el ataque del metal por las especies agresivas, por ejemplo, los secuestrantes de oxígeno, tales como hidracina o sulfito de sodio en conjunto con nitrato de cobalto y biocidas, estos utilizados habitualmente en la inhibición de la corrosión microbiológica. En el caso de soluciones neutras y alcalinas, la reducción de oxígeno es una reacción catódica, el cual puede ser mitigada por los eliminadores de oxígeno y esto inhibe la corrosión. En el caso de los inhibidores que se adsorben en la superficie del metal e inhiben la corrosión hay dos pasos i) transporte del inhibidor a la superficie del metal y ii) interacciones metal-inhibidor. El proceso es análogo al transporte de una molécula de medicamento en el cuerpo al sitio requerido seguido por su interacción con el sitio para proporcionar alivio a la molestia. El paso más importante implica la interacción del metal con la molécula del inhibidor. Dependiendo si la reacción catódica o anódica es afectada por el inhibidor, este se clasifica como inhibidor catódico, inhibidor anódico o inhibidor mixto (el cual suprime ambas reacciones). [2]</texto>
+      </seccion>
+      <seccion>
+        <titulo>ADSORCIÓN DE UN INHIBIDOR A LA SUPERFICIE DE UN METAL</titulo>
+        <texto>Generalmente la inhibición de la corrosión es debida a la adsorción de una molécula de inhibidor a la interfase de solución-metal, la cual es acompañada por el cambio de potencial entre el electrodo y la solución debido a una distribución de cargas eléctricas no uniformes en la interfase. La interfase de electrolito-metal se caracteriza por una doble capa eléctrica, en ocasiones triple. La figura 13 representa la primera capa que es una película de cargas en la superficie del metal causado por una deficiencia o exceso de electrones. La segunda capa (región A) es formada a un lado de la solución de la interfase especialmente por iones adsorbidos. Los centros de estas cargas forman el plano interno de las moléculas adsorbidas del agua en la superficie del metal, y a su vez se adsorben en porciones sobre la superficie metal puro. Estos iones son conocidos como iones determinantes del potencial. Las cargas son balanceadas en parte por iones hidratados de la carga opuesta en el plano externo del Helmholtz en la región B llamados contraiones. Al lado externo de esta área (región C) es conocida como la capa difusa de Gouy-Chapman, donde la concentración de los contraiones decrece hacia el electrolito y balancean la carga neta cerca de la superficie del metal. Los iones formados en la capa doble son distribuidos no solo por el movimiento cinético y el campo eléctrico de la superficie sino también por la interacción química especifica entre los iones y la interfase, esto es, donde la región A fue alcanzada por los iones. Estas interacciones dependen de la distancia y engloban enlaces hidrógenos y covalentes y enlaces π o interacciones hidrofóbicas que no ocurren en la región externa. Figura 13 Representación esquemática de la doble capa eléctrica.</texto>
+      </seccion>
+      <seccion>
+        <titulo>INHIBIDORES DE CORROSIÓN VERDES</titulo>
+        <texto>De acuerdo con la literatura un inhibidor de corrosión orgánico debe contar con átomos de nitrógeno, azufre u oxígeno en sus estructuras o grupos funcionales electronegativos y electrones п de enlaces dobles o triples.</texto>
+      </seccion>
+      <seccion>
+        <titulo>REVISIÓN DE LA LITERATURA: INHIBIDORES VERDES</titulo>
+        <texto>A lo largo de los siglos, las plantas han sido utilizadas por los seres humanos para sus necesidades básicas tales como la producción de alimentos, refugios, ropa, abonos, fragancias, medicamentos y por últimos, pero no menos importante, como inhibidores de la corrosión. El uso de los productos naturales como inhibidores de la corrosión se remonta a 1930 cuando los extractos de plantas de Celidonia (Chelidonium majus) y otras plantas fueron utilizadas por primera vez en el decapado con H2SO4. Después de eso, el interés en el uso de productos naturales como inhibidores de corrosión aumento sustancialmente y los científicos en todo el mundo reportaron varios extractos de plantas; Hojas de Oputia extract y Aleo eru, cascara de naranja y mango dieron la adecuada protección al acero en 5% y 10% de HCl a 25 y 40 °C Recientemente el desarrollo de los inhibidores de corrosión verde está en auge debido a la creciente popularidad de la química verde en el área de la ciencia y tecnología. En las últimas décadas, el uso de extractos de plantas como inhibidores de corrosión ha traído significativamente la atención por su riesgo ambiental reducido, menor costo, amplia disponibilidad y alta efectividad de inhibición, es por ello que estos materiales se ha convertido en candidatos adecuados para remplazar los inhibidores de corrosión sintéticos tradicionales los cuales son caros y tóxicos. Una revisión en la literatura muestra que diferentes extractos a partir de hojas, raíces, tallos, cortezas y pulpas se han empleado de manera efectiva como inhibidores sostenibles contra la corrosión. Los siguientes artículos sobre extractos de plantas han sido publicados, estudios de plantas como Salvia officinalis mostró una eficiencia del 96% a 2500 mg/L Osmanthus fragan mostró una eficiencia del 94% a 340 mg/L Mangrove tannins mostró una eficiencia de inhibición del 89% a 6000 mg/L, Jasminum tannis mostró una eficiencia de inhibición del 92% a 1000 mg/L Lawsonia inermis mostró una eficiencia del 92% a 1200 mg/L semillas de rábano mostraron una eficiencia del 79% a 10 mg/L A través de estos estudios, se está de acuerdo que el rendimiento de inhibición de los extractos de plantas a menudo se atribuye a la presencia en su composición de compuestos orgánicos como taninos, alcaloides, carbohidratos, aminoácidos y proteínas. Estos compuestos orgánicos contienen funciones polares con átomos de nitrógeno y oxígeno, además de dobles enlaces o anillos aromáticos en su estructura molecular los cuales son los principales centros de adsorción.</texto>
+      </seccion>
+      <seccion>
+        <titulo>REVISIÓN DE LA LITERATURA: INHIBIDORES ALTERNATIVOS CON APLICACIÓN A UN ACERO INOXIDABLE AUSTENITICO AISI 304</titulo>
+        <texto>En la última década el desarrollo de inhibidores de corrosión alternativos para el acero inoxidable AISI 304 ha sido estudiado. En 2017 se reportó el uso del extracto de Calotropis procera como inhibidor de la corrosión para un acero inoxidable austenitico 304 utilizando técnicas como espectroscopia de impedancia electroquímica, curvas de polarización y pérdida de peso obteniendo una eficiencia máxima del 75.3% A pesar de la variedad de informes sobre el uso de extractos de plantas como inhibidores verdes para aceros inoxidables en soluciones acidas, sigue siendo necesario investigar otros extractos de plantas como inhibidores de corrosión de uso potencial en aplicaciones industriales. La Ruta graveolens es una planta aromática perteneciente a la familia Rutaceae que se utiliza con frecuencia en aplicaciones medicinales La Origanum majorana es también una planta herbácea perteneciente a la familia Lamiaceae, cultivada por su aroma parecido al del orégano. Al igual que la Ruta graveolens, esta planta ha sido utilizada en forma de extracto para ser evaluada como inhibidor de la corrosión para un acero al carbono obteniendo resultados positivos Por lo tanto, el presente estudio examina el extracto de Ruta graveolens y Origanum majorana como inhibidores de la corrosion en un acero inoxidable austenitico 304 expuesto en una solución de HCl 1 M.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ISOTERMAS DE ADSORCIÓN</titulo>
+        <texto>La adsorción de sustancias en disolución se conoce por lo menos desde 1785 por los trabajos de T. Lowitz. La adsorción se distingue de la adsorción en que esta última implica la acumulación de la sustancia adsorbida en todo el volumen del adsorbente, no solamente en la superficie. Podemos distinguir dos comportamientos límites de adsorción, fisisorción y quimisorción, aunque es frecuente observar comportamientos intermedios.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ADSORCIÓN FÍSICA O FISISORCIÓN</titulo>
+        <texto>Las moléculas del gas se mantienen unidas a la superficie del solido por medio de fuerzas Van der Waals (interacciones dipolares, dispersión y/o inducción).  Es una interacción débil.  Es un proceso exotérmico en el que los calores liberados, ΔHads = -(20-40 kJ/mol) son semejantes a las entalpias de condensación de la sustancia adsorbida.  La energía liberada es adsorbida en forma de vibración por la red del sólido y ΔHads por el aumento de temperatura de la muestra.  La molécula fisisorbida mantiene su identidad ya que la energía es insuficiente para romper el enlace, aunque su geometría puede estar distorsionada.  La fisisorción es un proceso no especifico ya que las fuerzas que intervienen y no existe una selectividad marcada entre el adsorbato y adsorbente.  La fisisorción se produce en multicapas. Sobre una capa de gas fisisorbida puede adsorberse otra. La ΔHads para la primera capa viene determinada por las fuerzas entre adsorbente (M) y adsorbato (A), mientras que la ΔHads para la capa siguiente depende de las interacciones A-A y por tanto es similar a la entalpía de condensación como se muestra en la figura 14. Figura 14 Adsorción física o fisisorción.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ADSORCIÓN QUÍMICA O QUIMISORCIÓN</titulo>
+        <texto>Fue propuesta por Langmuir en 1916. En este caso las moléculas de gas o soluto se mantienen unidas a la superficie formando un enlace químico fuerte  Se trata de una interacción más fuerte que la fisisorción.  Las entalpias de quimisorción son mucho mayores que las de fisisorción y del orden de las que se liberan en la formación de enlaces químicos, ΔHads = -100-500 KJ/mol. Si en la quimisorción se produce formación y rotura de enlaces podrían esperarse valores de ΔHads tanto positivos como negativos (al igual que en las reacciones químicas ordinarias). Sin embargo, la quimisorción es exotérmica normalmente. La razón es que un proceso espontaneo requiere ΔG&lt;0 y dado que la libertad de traslación del adsorbato se reduce, ΔS&lt;0 y necesariamente ΔHads debe ser menor que cero. Puede haber excepciones si el adsorbato se disocia y/o tiene una movilidad elevada sobre la superficie.  La quimisorción es específica.  Dado que implica la formación de un enlace adsorbato y el adsorbente, el proceso se detiene tras la formación de una monocapa sobre la superficie. Aunque solo una capa puede estar quimisorbida puede producirse adsorción física de nuevas capas de adsorbato sobre la primera.  En general, la quimisorción implica la rotura y formación de enlaces, por lo que la molécula quimisorbida no mantiene la misma estructura electrónica (enlaces) que en fase gaseosa. La cantidad de material adsorbido en un sistema depende de la temperatura y la presión o la concentración del adsorbato. Si la temperatura se mantiene constante durante el experimento, el grado de adsorción puede estudiarse como función de la presión o la concentración y generar así lo que se conoce como la isoterma de adsorción.</texto>
+      </seccion>
+      <seccion>
+        <titulo>TIPOS DE ISOTERMAS DE ADSORCIÓN</titulo>
+        <texto>Las isotermas experimentales pueden clasificarse en cinto tipos de acuerdo con S. Brunauer, la figura 15 representa los diferentes tipos y a continuación de describen cada uno de ellos:  TIPO I. Denominada isoterma de Langmuir, corresponde a una adsorción en monocapa. La cantidad adsorbida aumenta con la presión o la concentración hasta alcanzar un valor límite correspondiente al recubrimiento de la superficie por una monocapa. Es la isoterma característica de un proceso únicamente de quimisorción.  TIPO II. Es indicativo de una adsorción física en multicapa. El rápido ascenso inicial corresponde a la formación de la primera capa, que tiene en este caso una constante de formación mayor que para el resto de las capas (la entalpia de formación de la primera capa es más negativa que para el resto de las capas). Al seguir aumentando la presión o la concentración se forma la segunda capa de moléculas adsorbidas, seguidas de otra más.  TIPO III. Corresponde también a una adsorción física en multicapas, pero donde la constante de equilibrio de formación de la primera capa es igual que para las siguientes (no se observa diferencia entre el llenado de la primera capa y del resto).  TIPO V Y IV. Corresponde a adsorción en multicapas sobre materiales porosos. Difieren del tipo II y III por la presencia de una rama horizontal (saturación) y un ciclo de histéresis debido a la condensación por la forma irregular de los capilares.  Su adsorción es independiente de la ocupación de las posiciones vecinas (las moléculas adsorbidas no interactúan entre sí). El proceso dinámico de adsorción se puede plantear como: Ka: Constante de velocidad para la adsorción. Kd: Constante de velocidad para la desorción. Para expresar el grado de extensión de la adsorción se introduce la fracción de recubrimiento q. teniendo en cuenta que sobre cada posición solo puede adsorberse una molécula. Si consideramos una cinética de primer orden respecto a cada miembro, se obtiene que la velocidad de adsorción sea proporcional al número de colisiones entre las moléculas de la fase gaseosa y las posiciones de adsorción vacías, ya que solo se forma una monocapa:  Así mismo, la ecuación 2.14 se puede linealizar, volteando la ecuación y sustituyendo las presiones por las concentraciones de cada uno de los reactivos lo que resulta de la siguiente manera: La ecuación anterior resulta muy práctica para comprobar si el comportamiento experimental se ajusta a la expresión. También se debe mencionar que n = número de moléculas de agua desplazadas de la superficie del metal por una molécula del inhibidor adsorbido; el valor de n depende de la sección transversal del área de la molécula orgánica con respecto a la molécula del agua. La adsorción de las moléculas orgánicas ocurre debido a la interacción entre la energía en la superficie del metal y el inhibidor es más fuerte que la interacción de la energía en la superficie del metal y las moléculas del agua. Cuando el equilibrio es alcanzado en el proceso descrito es posible obtener diversas expresiones de gráficos de isotermas de adsorción, por lo tanto, el grado de protección de la superficie (θ= IE (%) / 100) puede ser obtenido en función de la concentración del inhibidor.</texto>
+      </seccion>
+      <seccion>
+        <titulo>TERMODINÁMICA</titulo>
+        <texto>La termodinámica examina solo los fenómenos que se refieren a los equilibrios o a las sucesiones continuas de los estados de equilibrio, es decir, a los procesos infinitamente lentos. El método termodinámico se emplea para resolver los más variados problemas de las diferentes ramas de la ciencia.</texto>
+      </seccion>
+      <seccion>
+        <titulo>PARÁMETROS TERMODINÁMICOS DE LAS ISOTERMAS DE</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>ADSORCIÓN</titulo>
+        <texto>Los parámetros termodinámicos de las isotermas de adsorción son los siguientes: el cambio en la energía libre estándar de Gibbs (ΔG), la entalpia estándar (ΔH) y entropía estándar (ΔS). El análisis de estos parámetros permite estimar la factibilidad del proceso de adsorción, así como el efecto de la temperatura sobre el mismo. Estos parámetros pueden ser calculados dependiendo de los valores estimados de la constante de equilibrio, K, a partir de las isotermas de adsorción a diferentes temperaturas, de la siguiente manera: Donde CH2O es la concentración de moléculas de agua (en mL/L) en la interfase de metal/solución. Así mismo los valores obtenidos de ΔGads son graficados contra la temperatura de acuerdo a la siguiente ecuación: El intercepto de líneas representa los valores de ΔHads. Introduciendo los valores en la ecuación 1.20 los valores ΔSads son calculados para todas las temperaturas estudiadas. Esta ecuación se utiliza en la primera instancia a nivel de sistemas de gases ideales, pero su uso puede ser extendido a adsorción en interfaes sólido-líquido muy diluido, ya que ello implica que la distancia intermolecular es lo suficientemente grande para garantizar un comportamiento del tipo gas ideal.</texto>
+      </seccion>
+      <seccion>
+        <titulo>QUÍMICA COMPUTACIONAL</titulo>
+        <texto>A finales de los años setenta apareció un nuevo campo de conocimiento, impulsado por los químicos dedicados a la obtención de medicamentos. Se originó la química computacional, que fue impulsada por las compañías farmacéuticas importantes del mundo. Enrico Clementien 1980, empleo el térmico "química computacional" en muchos de sus primeros trabajos, no lo define en forma explícita, pero se puede establecer de su lectura que es, el empleo de la mecánica cuántica y la mecánica estadística, así como aspectos de la física molecular y fisicoquímica, con el fin de determinar propiedades moleculares. También del contexto del Manual de química computacional, donde tampoco se da una definición específica del término, se puede concluir que esta consiste en determinar la estructura y las propiedades moleculares a través de la resolución de modelos matemáticos empleando computadoras. En 1985 aparece la que podría ser la primera definición formal de esta disciplina por Hopfinger: Modelado cuantitativo del comportamiento químico empleando una computadora y los formalismos de la química teórica. Ragué Schleyer la definió como el modelado preciso de todos los aspectos de la química real empleando cálculos en lugar de experimentos. También hay que precisar que los términos química teórica y química computacional no son sinónimos. La química teórica está asociada con la búsqueda de mejores teorías para describir cantidades determinadas experimentalmente e incluye el desarrollo de la química cuántica, la mecánica cuántica y la mecánica estadística en modelos tendientes a explicar la realidad física del fenómeno de la reactividad. Estos desarrollos se pueden transformar en algoritmos con los que se pueden desarrollar programas de computadora, susceptibles de programarse, así que la química teórica es proveedora de los métodos que pueden aplicarse en química computacional y que se enriquece con ellos desarrollos generados por el modelado molecular la mecánica molecular, la dinámica molecular, el desarrollo de interfases graficas etc.[41]</texto>
+      </seccion>
+      <seccion>
+        <titulo>¿QUÉ SE PUEDE CALCULAR?</titulo>
+        <texto>Dado un conjunto de núcleos y el número de electrones de cada molécula, la aplicación de los conceptos generados por la química teórica permite calcular propiedades como:  Los arreglos geométricos de los átomos que corresponden a moléculas estables y a estados de transición.  Las energías relativas de varias moléculas.  Sus propiedades: momento dipolar, polarizabilidad, etc.  Propiedades espectroscópicas como corrimientos químicos y constantes de acoplamiento, frecuencias vibracionales, etc.  Propiedades termoquímicas.  La rapidez con la que sucede una reacción.  La dependencia de algunas propiedades, como la estructura molecular con el tiempo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>MÉTODOS COMPUTACIONALES</titulo>
+        <texto>Anteriormente, la química teórica explicaba fenómenos químicos mediante la física clásica, sin embargo, su investigación y su desarrollo fue innovándose hasta incluir en ella la física cuántica, la cual se basa en las ecuaciones de Erwin Schrödinger, incluyendo cálculos y matemáticas avanzadas. Como se mencionó anteriormente la química computacional abarca un amplio rango de métodos matemáticos que pueden dividirse en dos grandes categorías: Mecánica molecular: aplica las leyes de la física clásica al núcleo molecular sin considerar explícitamente a los electrones. Mecánica cuántica: se basa en la ecuación de Shrödinger para describir una molécula con un tratamiento directo de la estructura electrónica y que se subdivide a su vez en dos clases según el tratamiento realizado, métodos semiempirico, métodos de ab initio ("desde el principio") y métodos DFT. La razón es que la función de onda, depende de tres coordenadas espaciales, así como también de las coordenadas de spin, mientras que la densidad electrónica depende solamente de las tres coordenadas espaciales. Hohenberg y Kohn (1964) demostraron que la energía de un sistema químicos en estado basal, es solamente una función de la densidad electrónica. su primer teorema, que señala que la energía del estado fundamental depende únicamente de la densidad de electrones. Su segundo teorema demostró que, al minimizar la energía del sistema de acuerdo con la densidad de electrones, se puede obtener la energía del estado fundamental. La teoría DTF representa una forma alternativa de los métodos ab-initio convencionales, al introducir los efectos de la correlación electrónica en la resolución de la ecuación de Shrödinger, alcanza una exactitud similar a otros métodos de cálculo en menos tiempo y con una menor inversión desde el punto de vista computacional.</texto>
+      </seccion>
+      <seccion>
+        <titulo>MÉTODOS DE EXTRACCIÓN: SÓLIDO-LÍQUIDO</titulo>
+        <texto>Cuando se trata de una muestra sólida, se pulveriza y a continuación se extraen los analitos mediante un disolvente en el que sean muy solubles, que los diferencie de las sustancias presentes en la matriz, que han de ser muy insolubles en este disolvente. Los métodos y equipos para realizar esta técnica de describen a continuación:</texto>
+      </seccion>
+      <seccion>
+        <titulo>OBJETIVOS ESPECÍFICOS</titulo>
+        <texto> Desarrollar un inhibidor de la corrosión para acero inoxidable tipo 304 a partir de extractos etanólicos de plantas: Ruta graveolens y Origanum majorana.  Determinar las eficiencias de inhibición de la corrosión de los extractos mediante técnicas gravimétricas y electroquímicas.  Identificar las moléculas con mayor actividad de inhibición a la corrosión y estudiarlas teóricamente para obtener propiedades moleculares relacionadas con la corrosión.  Determinar la relación que existe entre las propiedades moleculares y el comportamiento inhibidor de la corrosión.</texto>
+      </seccion>
+      <seccion>
+        <titulo>CAPÍTULO 2: MATERIALES Y MÉTODOS</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>ACERO INOXIDABLE AUSTENÍTICO TIPO 304</titulo>
+        <texto>El acero inoxidable austenítico 304 se evalúa en esta investigación, gracias a su frecuente uso y su resistencia relativamente débil frente a la corrosión (dentro de la familia de los inoxidables), lo que permite evaluar más fácilmente la influencia del medio. Pueden ser encontrados en ambientes hostiles que contienen químicos agresivos, entre ellos soluciones ácidas que promueven reacciones químicas, ocasionando la corrosión. Las dimensiones de las muestras de los especímenes fueron 1.25 cm de diámetro y 1 cm de largo. Todos los especímenes con excepción los utilizados en pérdida de masa fueron encapsulados con resina epóxica dejando un área expuesta de 1.27 cm 2 para los experimentos electroquímicos. La tabla 1 contiene la composición química del acero en porcentaje en peso.</texto>
+      </seccion>
+      <seccion>
+        <titulo>MEDIO: ÁCIDO CLORHÍDRICO 1M</titulo>
+        <texto>Las soluciones acidas de ácido sulfúrico y ácido clorhídrico tienen una amplia aplicación industrial: decapado y limpieza industrial. Los aceros inoxidables presentan una película protectora que contiene óxidos/hidróxidos de cromo, la presencia del ion cloruro es dañina para esta película de pasivación e induce un ataque localizado (corrosión por picadura), principal falla de estos materiales. El acero inoxidable 304 es susceptible a la corrosión en soluciones con cloruros, los iones cloruro crean área localizadas de corrosión, llamadas picaduras, que pueden extenderse por debajo de las películas protectoras de cromo y comprometer la integridad estructural.</texto>
+      </seccion>
+      <seccion>
+        <titulo>PREPARACIÓN DE LA SOLUCIÓN ÁCIDA</titulo>
+        <texto>La solución ácida se preparó con ácido clorhídrico (HCl) al 37% marca J.T. Baker para una solución 1 molar empleando agua destilada. Para preparar la solución de HCl se aplica la siguiente ecuación, que corresponde al cálculo de molaridad: moles de soluto entre el volumen de solución. Refiriéndose el primer término un litro de solución a preparar, por la concentración de la solución requerida, por el peso molecular del HCl, por el porcentaje de pureza del ácido y finalmente por su densidad, nos da los mililitros necesarios para preparar la solución 1 M de HCl.</texto>
+      </seccion>
+      <seccion>
+        <titulo>RUTA GRAVEOLENS</titulo>
+        <texto>Ruta graveolens comúnmente llamada Ruda, es una planta nativa del sur de Europa y norte de África Esta planta se ha utilizado principalmente para tratar enfermedades del aparato digestivo (utilizada en infusiones muy diluidas de medio gramo por 250 ml de agua, evita problemas como la indigestión, gases y ardor del estómago. El extracto de Ruta graveolens fue evaluado con la técnica pérdida de masa, mostrando una eficiencia del 95% y por las técnicas electroquímicas EIS y CP reportando eficiencias del 98% y 99% dando como resultado una inhibición en la corrosión del acero al carbono 1018 en un medio ácido de HCl 1M. Debido a la alta eficiencia mostrada resulta prometedor evaluarla en acero inoxidable austenítico tipo 304. Esta planta constituye una valiosa fuente de antioxidantes naturales como vitaminas, compuestos fenólicos y flavonoides. [59]</texto>
+      </seccion>
+      <seccion>
+        <titulo>ORIGANUM MAJORANA</titulo>
+        <texto>Es una planta herbácea de hoja perenne perteneciente a la familia Lamiaceae también conocida como la mejorana dulce. El género Origanum alberga alrededor de novecientas especies diferentes, las cuales se utilizan para aromatizar bebidas alcohólicas, productos alimenticios y perfumería debido a su aroma especiado. Además, de su importancia comercial, tales plantas se han utilizado tradicionalmente como condimento y especias para alimentos como sopas, embutidos y carnes. Estudios recientes demuestran propiedades antimicrobianas Es nativa de Asia, pero se comercializo en Europa donde fue una de las favoritas de los griegos y romanos. Sus hojas son suaves, ovaladas, 0.5 -1.5 cm de largo, 0.2 -0.8 cm de ancho. Su textura es extremadamente suave debido a la presencia de numerosos pelos. La figura 18 muestra su morfología. La mejorana se usa sobre todo para aliviar o tratar afecciones digestivas como ulceras del estómago. Se puede utilizar en infusión (5g/250 ml de agua). Se ha reportado en la literatura que el extracto de Origanum majorana puede ser utilizado como inhibidor de la corrosión para un acero al carbono 1018. Mediante la evaluación de técnicas electroquímicas como lo son las curvas de polarización, el extracto mostro una eficiencia del 90%. Es por ello que el uso de esta planta para aplicación del acero inoxidable austenitico tipo 304 resulta prometedora. Muchos estudios se han llevado a cabo hasta ahora para investigar la composición química de los aceites esenciales y extractos etanólicos/metanólicos de la mejorana en los cuales destacan los ácidos fenólicos y flavonoides.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ANÁLISIS GRAVIMÉTRICO</titulo>
+        <texto>El acero de trabajo (acero inoxidable AISI 304) se adquirió localmente en la compañía LEVINSON en forma de barra cilíndrica de diámetro de ½ pulgada y 6 metros de longitud. Se realizaron cortes de un 1 cm de longitud en una cortadora EXOTOM de la marca Struers. Finalizando los cortes se procedió a la preparación metalográfica, el desbaste se realizó en una pulidora marca LECO, mediante papel de carburo de silicio, iniciando con tamaño de grano 60 y terminando en 600. Al finalizar la preparación metalográfica, los especímenes se limpiaron ultrasónicamente sumergiéndolos completamente en etanol, con periodos de 15 minutos, remplazado el etanol sucio por limpio, en un equipo de ultrasonido de la marca BRANSON. Después se secaron con la ayuda una pistola de aire para la volatilización de la solución de limpieza y finalmente se colocaron en bolsas tipo "zip ploc" para su identificación y se colocaron en el desecador. En la figura 20 se muestran imágenes de procedimiento antes descrito. Se registró el peso inicial de las muestras en una balanza Sartorius modelo MC210S de resolución 0.00001 g. A la par, se registró la altura promedio de cada espécimen utilizando un vernier como se observa en la figura 21.  En la figura 23 se observa la representación de experimento, las celdas donde se llevó a cabo, fueron botellas de vidrio de 237 mL previamente lavadas con jabón, enjuagadas con agua destilada y etiquetadas. En cada recipiente se colocan perlas de ebullición para evitar la corrosión por hendidura, después se colocaron las muestras de acero preparadas previamente en cada recipiente, luego se agregaron 50 mL de ácido clorhídrico 1 M y la cantidad correspondiente del extracto, cada uno en diferente recipiente, además se utilizaron blancos (sin extracto) como referencia. Los recipientes se cubrieron con plástico para evitar el contacto con el oxígeno y se mantuvieron durante diferentes tiempos y concentraciones a 25 °C. Estas pruebas se hicieron por triplicado. El experimento se realizó bajo la norma ASTM G31. Figura 23 Representación esquemática de la prueba pérdida de masa.</texto>
+      </seccion>
+      <seccion>
+        <titulo>PÉRDIDA DE MASA A 40 Y 60 °C</titulo>
+        <texto>Para realizar las pruebas de pérdida de masa a 40 y 60 °C se utilizó un baño maría como el que se aprecia en la figura 24, es importante mencionar que previo a este análisis se realizó una calibración al mismo para evitar desajustes de las temperaturas requeridas, la curva de calibración se realizó con un termopar. Figura 24 Representación de la prueba pérdida de masa en baño María. De igual manera se utilizó el esquema experimental de la anterior figura 24, en botellas de vidrio de 237 ml, con 50 ml de HCl 1 M y se adicionaron diferentes concentraciones de los extractos a diferentes tiempos, por triplicado y se utilizaron blancos como referencia a 40 y 60 °C. El experimento también se realizó bajo la norma ASTM G31.</texto>
+      </seccion>
+      <seccion>
+        <titulo>LIMPIEZA DE MUESTRAS</titulo>
+        <texto>Al término de la prueba las muestras fueron retiradas dependiendo del tiempo de exposición y a continuación lavadas de acuerdo a la norma ASTM G1, para un acero inoxidable, la cual describe el siguiente procedimiento: calentar de 5-10 minutos una solución al 10% de ácido nítrico. Después de la limpieza, se enjuagaron con etanol y se secaron con una pistola de aire y finalmente se pesaron registrando así el peso después de la prueba, el procedimiento se describe en la figura 25. Figura 25 Limpieza acida de muestras después de la prueba pérdida de peso.</texto>
+      </seccion>
+      <seccion>
+        <titulo>CALCULO DE LA EFICIENCIA DEL EXTRACTO</titulo>
+        <texto>La pérdida de peso se dio como resultado, al obtener la masa de las muestras antes y después de la inmersión a diferentes condiciones experimentales. De acuerdo a la siguiente ecuación se determina la pérdida de masa por unidad de área. ∆m = m1-m2 A (2.4) Donde m1 es la masa del espécimen antes de la prueba y m2 es la masa después de la prueba en miligramos y A es el área en centímetros cuadrados. La eficiencia de inhibición (% η) del extracto se calcula utilizando la ecuación: Donde ∆m1 es la pérdida de masa por unidad de área del espécimen sin inhibidor y ∆m2 es la pérdida de masa por unidad de área del espécimen con inhibidor.</texto>
+      </seccion>
+      <seccion>
+        <titulo>PRUEBAS ELECTROQUÍMICAS</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>CURVAS DE POLARIZACIÓN</titulo>
+        <texto>Se usó una celda de tres electrodos para mediciones electroquímicas. El electrodo auxiliar fue un cable de platino, el electrodo de referencia fue un electrodo de Ag/AgCl y el electrodo de trabajo fue el acero inoxidable 304 encapsulado con resina y soldado a un cable de cobre con un área expuesta de 1.27 cm 2 . Antes de cada experimento, el electrodo fue pulido mecánicamente con varios grados de papel de lija de carburo de silicio hasta grado 600. Luego limpiado ultrasónicamente en alcohol etílico durante 3 periodos con un tiempo 2 minutos. Las curvas de polarización se registraron utilizando un potenciostato modelo Gill AC y una computadora con software con datos para procesar los resultados. El electrodo de trabajo fue inmerso dentro de la celda de corrosión por 30 minutos para establecer un estado estable. Después de medir el potencial de circuito abierto, las curvas de polarización potenciodinámica fueron obtenidas con una velocidad de barrido de 1 mV/s en un rango de potencial de -350 a 500 mV. Figura 26 Representación esquemática de la prueba electroquímica para la obtención de curvas de polarización.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ESPECTROSCOPIA DE IMPEDANCIA ELECTROQUÍMICA</titulo>
+        <texto>Las pruebas de impedancia se realizaron en una estación de trabajo con un potenciostato AUTOLAB. Las mediciones de impedancia se realizaron potencial de circuito abierto en una gama de frecuencias de 100kHz a 0.01 Hz con una perturbación de la amplitud de la señal de CA de ± 10 mV. En este caso, el porcentaje de eficiencia se calculó a partir de los valores utilizando la siguiente ecuación:</texto>
+      </seccion>
+      <seccion>
+        <titulo>Donde:</titulo>
+        <texto>𝑅 𝑐𝑡 = Resistencia a la transferencia de carga sin extracto. 𝑅 𝑐𝑡 0 = Resistencia a la transferencia de carga con extracto. La figura 27 representa el procedimiento que se llevó a cabo para la obtención de los diagramas de Nyquist. Esta prueba se realizó bajo la norma ASTM G3 y G 106, las pruebas se realizaron por triplicado a 25, 40 y 60 °C. Figura 27 Representación esquemática de la prueba electroquímica para la obtención de diagramas de Nyquist.</texto>
+      </seccion>
+      <seccion>
+        <titulo>CROMATOGRAFÍA LÍQUIDA DE ALTA RESOLUCIÓN</titulo>
+        <texto>El análisis de los extractos de Ruta graveolens y Origanum majorana se llevaron a cabo utilizando un cromatógrafo de líquidos de la marca Thermo DIONEX Ultimate 3000. La separación se llevó a cabo en una columna Quasar C18 de 250mm x 4.6mm y tamaño de partícula de 5µm a temperatura ambiente. La cual fue adquirida a la compañía Perkin Elmer. La fase móvil consistió en: agua 0.1% y ácido sulfúrico (línea A) y acetronitrilo (línea B). El gradiente fue el siguiente: 90%A/10%B 0 -12min, 70%A/30%B 12 -14min, 60%A/40%B 14 -18min, 50%A/50%B 18 -20min, 20%A/80%B 20 -24min, 10%A/90%B 24 -28min, 0%A/100%B 28-30 min. El volumen de inyección fue de 20 µL y la longitud de onda de 270nm. Los picos fueron identificados mediante la comparación de los tiempos de retención de los estándares analizados en las mismas condiciones. Los estándares de compuestos fenólicos y flavonoides fueron adquiridos en Sigma -Aldrich. Se prepararon soluciones con concentraciones de 500ppm disueltos en etanol. Todos los productos químicos fueron de grado analítico. La figura 28 representa el procedimiento realizado para este análisis. Figura 28 Procedimiento empleado para el análisis de los extractos por cromatografía liquida de alta resolución de los extractos de Ruta graveolens y Origanum majorana.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ESTUDIO TEÓRICO DE LAS MOLÉCULAS PRESENTES EN EXTRACTOS</titulo>
+        <texto>Se realizaron estudios químico-cuánticos para determinar propiedades moleculares que presentan una mayor influencia en la eficiencia de inhibición de corrosión del extracto de mejorana utilizando la Teoría de Funcionales de la Densidad (DTF). Llevando acabo la siguiente metodología. Primero se determina el sistema molecular a evaluar. Segundo se hace una validación calculando la frecuencia y optimizando la geometría molecular del sistema. Por último, se realizan los cálculos de los parámetros químicos a evaluar potencial de ionización, afinidad electrónica, electronegatividad y dureza química. Esta metodología empleada se presenta en el diagrama de la figura 29. Figura 29 Diagrama de metodología empleada para el estudio teórico de las moléculas identificadas en los extractos de Ruta graveolens y Origanum majorana.</texto>
+      </seccion>
+      <seccion>
+        <titulo>PROGRAMA DE TRABAJO</titulo>
+        <texto>Los cálculos de propiedades moleculares de interés, se realizaron en el programa Gaussian 09, estas propiedades fueron calculadas en solución por ser fenómenos de corrosión electroquímica que involucran la interacción con un electrolito.</texto>
+      </seccion>
+      <seccion>
+        <titulo>PROPIEDADES MOLECULARES CALCULADAS</titulo>
+        <texto> Potencial de ionización. Es la energía mínima necesaria para arrancar un electrón de un átomo o molécula específica a una distancia tal que no exista interacción electrostática entre el ion y el electrón. Y está dada por la siguiente expresión: Este proceso es conocido por la diferencia en electronegatividades, y la suma de los parámetros de dureza química, actúa como una resistencia. La ecuación de transferencia de electrones es una forma química de la ley de Ohm. Esta demuestra que los electrones fluirán desde el sistema de baja electrónica hacia aquel de alta electronegatividad.  En el análisis del extracto de Origanum majorana se muestra en la figura 31, donde se encontró la presencia de ácidos fenólicos como: ácido caféico, ácido vanílico y ácido rosmarinico, y un flavonoide: rutina. Las moléculas identificadas en ambos extractos por medio del análisis cromatógrafico se emplearán para realizar el estudio teórico por medio del cálculo de química computacional para la obtención de las propiedades moleculares relacionadas con la corrosión. Ruta graveolens (rutina, ácido caféico, acido pcoumarico y apigenina. Origanum majorana (rutina, ácido caféico, ácido vanílico y ácido rosmarínico).</texto>
+      </seccion>
+      <seccion>
+        <titulo>ANÁLISIS GRAVIMÉTRICO</titulo>
+        <texto>El análisis gravimétrico es un método cuantitativo utilizado para medir y monitorear la corrosión externa o interna en metales. Implica observar la diferencia de masa sobre un determinado intervalo de tiempo. Con estos valores se puede obtener la eficiencia de inhibición de la corrosión. Se realizó el estudio de este experimento para evaluar el comportamiento de inhibición de dos extractos Ruta graveolens y Origanum majorana.</texto>
+      </seccion>
+      <seccion>
+        <titulo>PÉRDIDA DE MASA DEL EXTRACTO RUTA GRAVEOLENS A 25, 40 Y 60 °C</titulo>
+        <texto>El desempeño del extracto de Ruta graveolens a diferentes concentraciones: 150, 300, 450 y 600 ppm y diferentes temperaturas 25, 40 y 60 ºC para un acero inoxidable austenítico tipo 304 en un medio ácido 1M HCl se muestra a continuación. En la tabla 2 se observan las pérdidas de masa y la desviación estándar de estos datos, la velocidad de corrosión, fracción de cobertura y el porcentaje de eficiencia. Tabla 2 Efecto de la concentración del extracto de Ruta graveolens y de la temperatura sobre el porcentaje de eficiencia a partir de las mediciones de pérdida de masa.  En las siguientes graficas se muestra el comportamiento del extracto de Ruta graveolens, en la figura 32 a) la velocidad de corrosión contra el tiempo de inmersión y en la figura 32 b) el porcentaje de eficiencia contra la concentración empleada del extracto. Figura 32 Gráficos de: a) pérdida de masa contra tiempo de inmersión y b) porcentajes de eficiencia de las muestras evaluadas con extracto de Ruta graveolens en un medio ácido 1M HCl a 25 °C. En la figura 32 a) se observa la velocidad de corrosión del acero inoxidable austenítico 304 contra el tiempo de inmersión, para las muestras sin extracto se obtuvo una velocidad de corrosión de 0.3729 mg cm -2 mientras que para una muestra de acero con extracto se obtuvo 0.0309 mg cm -2 para un tiempo de 8 horas (tiempo total de la prueba), lo cual indica que el extracto de R. graveolens actúa como inhibidor de la corrosión. En la figura 32 b) se observan los porcentajes de eficiencia obtenidos, los valores más altos se obtuvieron con la concentración de 600 ppm con 95% a 2 horas, 94% a 4 horas, 92% a 6 horas y 89% a 8 horas, mientras que para la concentración de 150 ppm se obtuvieron eficiencias de 91 y 91% a 2 y 4 horas, 86% a 6 horas y 80% a 8 horas. Figura 33 Gráficos de: a) pérdida de masa contra tiempo de inmersión y b) porcentajes de eficiencia de las muestras evaluadas con extracto de Ruta graveolens en un medio ácido 1M HCl a 40 °C. En la figura 33 a) se muestra la velocidad de corrosión de la muestra de acero en presencia del extracto de Ruta graveolens a 40 °C, la velocidad de corrosión para la muestra sin extracto a 8 horas fue de 0.4421 mg cm -2 mientras que para una muestra de acero con la concentración de 600 ppm del extracto a ese tiempo fue del 0.1436 mg cm -2 , esto indica que el extracto está actuando como inhibidor de la corrosión. Para la figura 33 b) podemos observar los porcentajes de eficiencia obtenidos para una temperatura de 40 °C las cuales fueron para una concentración de 600 ppm 83% a un tiempo de 2 horas, 79% a 4 horas, 75% a 6 horas y 68% a 8 horas. Mientras que para la concentración del extracto 150 ppm se obtuvieron 69% a 2 horas, 68% a 4 horas, 68% a 6 horas y 60% a 8 horas. Figura 34 Gráficos de: a) pérdida de masa contra tiempo de inmersión y b) porcentajes de eficiencia de las muestras evaluadas con extracto de Ruta graveolens en un medio ácido 1M HCl a 60 °C. En la figura 34 a), se muestran las velocidades de corrosión obtenidas para el acero a 60 °C sin extracto la velocidad de corrosión obtenida a el tiempo de exposición máximo fue de 0.5413 mg cm -2 mientras que para una muestra con la concentración más alta y al mismo tiempo de exposición fue del 0.1802 mg cm -2 , lo cual indica que el inhibidor disminuye la velocidad de corrosión del acero austenítico 304. La figura 34 b), representa los porcentajes obtenidos los cuales se obtuvieron con la concentración de 600 ppm, 80% a 2 horas, 77% a 4 horas, 75% a 6 horas y 67% a 8 horas. Los resultados obtenidos experimentalmente del método de pérdida de masa revelan que la velocidad de corrosión del acero austenitico 304 bajan con la adición del Ruta graveolens, obteniendo el mayor porcentaje de eficiencia a 600 ppm. Sin embargo, al incrementar la temperatura y el tiempo de inmersión este disminuye.</texto>
+      </seccion>
+      <seccion>
+        <titulo>PÉRDIDA DE MASA DEL EXTRACTO ORIGANUM MAJORANA A 25, 40 Y 60 °C</titulo>
+        <texto>El desempeño del extracto de Origanum majorana a diferentes concentraciones: 150, 300, 450 y 600 ppm y diferentes temperaturas 25, 40 y 60 ºC para un acero inoxidable austenítico tipo 304 en un medio ácido 1 M HCl se muestra a continuación. La tabla 3 muestra los valores obtenidos de la prueba experimental pérdida de masa: velocidad de corrosión, desviación estándar, fracción de cobertura y porcentaje de eficiencia. Tabla 3 Efecto de la concentración del extracto de Origanum majorana y de la temperatura sobre el porcentaje de eficiencia a partir de las mediciones de pérdida de masa.  La figura 35 a) representa la velocidad de corrosión contra el tiempo de inmersión, en este gráfico se puede observar una mayor pérdida de masa por unidad de área para la muestra inmersa en el ácido clorhídrico 1 M sin presencia de extracto, las muestras inmersas en el ácido clorhídrico con presencia de extracto obtuvieron una pérdida de masa de 0.2546 mg/cm 2 mientras que para una muestra de acero con una concentración de 600 ppm un valor de 0.051 mg/cm 2 por un tiempo de inmersión para ambas muestras de 8 horas. Para el tiempo de inmersión de 2 horas el acero sin extracto obtuvo un valor del 0.1728 mg/cm 2 y el acero con extracto 0.0253 mg/cm 2 . Esto nos indica que el extracto de Origanum majorana logra disminuir la pérdida de masa por unidad de área del acero austenítico 304. La figura 35 b) representa el porcentaje de eficiencia contra la concentración empleada del extracto. El porcentaje de eficiencia máximo fue de 85.25% con una concentración de 600 ppm a 2 horas. A un tiempo de inmersión de 4 horas 83.70%, 78.65% a 6 horas y 79.84% a 8 horas a una temperatura de 25 °C. Figura 35 Gráficos de: a) pérdida de masa contra tiempo de inmersión y b) porcentajes de eficiencia de las muestras evaluadas con extracto de Origanum majorana en un medio ácido 1M HCl a 25 °C. La figura 36 a), representa gráficamente la pérdida de masa por el tiempo de inmersión de las muestras de acero austenítico 304 en ácido clorhídrico 1M a 40 °C. para el tiempo de inmersión de 8 horas el acero sin extracto obtuvo 0.4749 mg/cm 2 y con extracto 0.1081 mg/cm 2 y a un tiempo de inmersión de 2 horas el acero sin extracto 0.2131 mg/cm 2 y con extracto 0.0355 mg/cm 2 . Estos valores indican que el extracto inhibe la pérdida de masa existiendo un incremento en la temperatura. La figura 36 b), representa los porcentajes de las muestras de acero inmersas en el ácido clorhídrico 1 M con diferentes concentraciones. La concentración de 600 ppm obtuvo las eficiencias mayores, en un tiempo de 2 horas de exposición al medio se obtuvo una eficiencia del 83.3%, a un tiempo de exposición de 4 horas el 83.04%, a 6 horas 80.15% y a 8 horas 77.22%. se puede observar una disminución de la eficiencia al aumento de la temperatura y al tiempo de exposición del medio. Figura 36 Gráficos de: a) pérdida de masa contra tiempo de inmersión y b) porcentajes de eficiencia de las muestras evaluadas con extracto de Origanum majorana en un medio ácido 1M HCl a 40 °C. La grafica 37 a), representa la pérdida de masa por unidad de área contra el tiempo de inmersión de la prueba a 60 °C. En un tiempo de inmersión de 2 horas la muestra sin extracto perdió 0.2736 mg/cm 2 y con 600 ppm del extracto de Origanum majorana 0.0510 mg/cm 2 y en un tiempo de inmersión de 8 horas la muestra de acero sin extracto 0.5413 mg/cm 2 y con extracto 0.1030 mg/cm 2 . Estos valores indican que el extracto está disminuyendo la pérdida de masa. La grafica 37 b), representa los porcentajes de eficiencia obtenidos de las muestras inmersos en un medio de ácido clorhídrico 1 M a 60 °C. Para un tiempo de exposición de 2 horas se obtuvo una eficiencia del 81.36%, para 4 horas 78.10%, para 6 horas 76.89% y para 8 horas 76.10%. Estos porcentajes indican que con un incremento de la temperatura la eficiencia del extracto se mantiene considerablemente. Figura 37 Gráficos de: a) pérdida de masa contra tiempo de inmersión y b) porcentajes de eficiencia de las muestras evaluadas con extracto de Origanum majorana en un medio ácido 1M HCl a 60 °C.  El porcentaje de eficiencia fue calculado y se presenta en la tabla 4 que muestra la temperatura de la prueba, la concentración del extracto, el potencial de corrosión (𝐸 𝑐𝑜𝑟𝑟 ) la pendiente anódica ( 𝑏 𝑎 ), la pendiente catódica ( 𝑏 𝑐 )la densidad de corriente de corrosión ( 𝑖 𝑐𝑜𝑟𝑟 ), la velocidad de corrosión en milímetros por año (𝐶 𝑅 ) y el porcentaje de eficiencia calculado (%𝐸). Los resultados muestran que, al aumentar la concentración de inhibidor, las densidades de corriente de corrosión disminuyen independientemente de la temperatura. Por el contrario, los aumentos de la temperatura en los experimentos causaron un aumento de las densidades de corriente de corrosión observadas. Los resultados indican que los valores no muestran una variación significativa para la solución del acero sin extracto y las diferentes concentraciones, por lo que no se puede establecer una relación especifica entre 𝐸 𝑐𝑜𝑟𝑟 y la concentración del inhibidor. Es decir, no existe un cambio significativo en el potencial de corrosión con el aumento de la concentración del extracto. Una comparación de los valores de las constantes de Tafel anódica y catódica para la solución del blanco y la añadida con extracto presentan valores diferentes, es decir, las ramas anódica y catódica de las curvas de polarización están desplazadas hacia densidades de corriente de corrosión más bajas, muy posiblemente debido a un efecto de bloqueo de las moléculas del extracto adsorbidas Además, los valores de la constante catódica de Tafel sugieren que la adición de un inhibidor ralentiza la reacción catódica de evolución del hidrogeno. También es pertinente mencionar que, con el aumento de la temperatura de ensayo, disminuyen los valores de la densidad de corriente de corrosión y la eficacia de inhibición. Los cambios en las pendientes anódicas y catódicas confirman la influencia del inhibidor en la reacciones anódicas y catódicas. De lo anterior se deduce que el extracto de Ruta graveolens funciona como inhibidor tipo mixto</texto>
+      </seccion>
+      <seccion>
+        <titulo>CURVAS DE POLARIZACIÓN POTENCIODINÁMICA DE ORIGANUM</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>MAJORANA</titulo>
+        <texto>El comportamiento de polarización potencio dinámica del acero inoxidable 304 en ácido clorhídrico 1M en presencia de varias concentraciones de Origanum majorana se puede observar en la figura 39. Los parámetros como el potencial de corrosión, la densidad de corriente de corrosión y las pendientes de Tafel anódicas y catódicas se derivaron de estas curvas. El porcentaje de eficiencia fue calculado y se presenta en la tabla 5 que muestra la temperatura de la prueba, la concentración del extracto, el potencial de corrosión (𝐸 𝑐𝑜𝑟𝑟 ), la pendiente anódica (𝑏 𝑎 ), la pendiente catódica (𝑏 𝑐 ), la densidad de corriente de corrosión (𝑖 𝑐𝑜𝑟𝑟 ), la velocidad de corrosión en milímetros por año (𝐶 𝑅 ) y el porcentaje de eficiencia calculado (%𝐸).  Los resultados de este experimento electroquímico muestran que, al aumentar la concentración de inhibidor, las densidades de corriente de corrosión disminuyen independientemente de la temperatura y en relación a las de las muestran sin extracto. Al igual que el comportamiento de la Ruta graveolens, los aumentos de la temperatura en los ensayos con el extracto de Origanum majorana causaron un aumento de las densidades de corriente de corrosión observadas. Los valores de las constantes de Tafel anódica y catódica para la solución con extracto y con extracto presentan valores diferentes por que las ramas anódica y catódica de las curvas de polarización están desplazadas hacia densidades de corriente de corrosión más bajas. La curva anódica sin extracto muestra un comportamiento bastante diferente, es decir, la curva muestra un proceso de activación, véase la figura 39. Además, los valores de la constante catódica de Tafel sugieren que la adición de un inhibidor ralentiza la reacción catódica de evolución del hidrogeno. Los cambios en las pendientes anódicas y catódicas confirman la influencia del inhibidor en la reacciones anódicas y catódicas. De lo anterior se deduce que el extracto de Origanum majorana funciona como inhibidor tipo mixto. Como puede observarse, la velocidad de corrosión del acero austenítico 304 en una solución de ácido clorhídrico 1 M a 25, 40 y 60 °C el extracto disminuye en más de un 61.04 % y alcanza una eficiencia de 89.96% a 600 ppm, lo que evidencia la eficacia del extracto como inhibidor de la corrosión.</texto>
+      </seccion>
+      <seccion>
+        <titulo>DIAGRAMAS DE NYQUIST RUTA GRAVEOLENS</titulo>
+        <texto>La figura 40 muestra las gráficas de Nyquist obtenidas a partir de las mediciones de impedancia para un acero inoxidable austenítico 304 expuesto a un medio de ácido clorhídrico 1 M en presencia de diferentes concentraciones del extracto de Ruta graveolens a 25, 40 y 60 °C, observándose en todos los casos la presencia de un bucle capacitivo considerable en todo el rango de frecuencias estudiado. Como puede observarse, el diámetro de las gráficas de Nyquist aumenta con el incremento de la concentración del extracto, lo que indica un aumento de los valores, es decir, el fortalecimiento de la película inhibidora La impedancia máxima se obtiene a una concentración de 600 ppm del extracto de Ruta gravolens. Un único semicírculo muestra la presencia de un único proceso de transferencia de carga durante la disolución, que no se ve afectado por la presencia de una o una combinación de moléculas inhibidoras En general, este circuito corresponde a la clásica disposición en paralelo de la resistencia de transferencia de carga (𝑅 𝑐𝑡 ) y un elemento de fase (𝐶𝑃𝐸) , ambos en serie con la resistencia de la solución (𝑅 𝑠 ). Estos gráficos de Nyquist se utilizan ampliamente para el análisis de datos de impedancia electroquímica, donde los datos de impedancia real se representan en el eje x, mientras que los datos imaginarios negativos se representan en el eje y. Los gráficos de Nyquist utilizan componentes eléctricas, definidos por circuitos equivalente, para analizar las características de impedancia dependientes de la frecuencia. Figura 41 Modelo de circuito equivalente de Randles para el inhibidor estudiado. En la tabla 6 se puede observar que los valores de 𝑅 𝑐𝑡 aumentan con el incremento de la concentración del extracto, y esto implica que el proceso de transferencia a la resistencia de carga se detenga debido a la adsorción de moléculas inhibidoras en la interfase metal/solución Además, el valor en la solución del blanco es mayor que en presencia de las concentración del extracto, lo que puede contribuirse a un aumento del espesor de la doble capa e implica la posibilidad de una fuerte adsorción del inhibidor en la superficie del metal Tabla 6 Datos de espectroscopia de impedancia electroquímica obtenidos con/sin extracto de Ruta graveolens en un medio HCl 1 M a varias temperaturas. Basándose en los resultados de pérdida de masa, polarización potenciodinámica y espectroscopio de impedancia electroquímica la concentración del extracto muestra que las mayores eficiencias corresponden a 600 ppm, independientemente de la temperatura del ensayo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>DIAGRAMAS DE NYQUIST ORIGANUM MAJORANA</titulo>
+        <texto>La figura 42 muestra las gráficas de Nyquist obtenidas a partir de las mediciones de impedancia para un acero inoxidable austenítico 304 expuesto a un medio de ácido clorhídrico 1 M en presencia de diferentes concentraciones del extracto de Origanum majorana a 25, 40 y 60 °C. Los gráficos de la figura 42 de Nyquist representan una forma semicircular característica que suele observarse en los electrodos sólidos. Esta característica puede atribuirse a varios factores, como la rugosidad de la superficie, la falta de homogeneidad del electrodo, la presencia de contaminantes, la discontinuidad del electrodo y la adsorción de inhibidores Valores altos de 𝑅 𝑐𝑡 existe una buena resistencia a la corrosión, el aumento de estos valores con el aumento en las concentraciones del extracto es atribuido al aumento de una capa de adsorción aislante en el contacto metal/solución que conduce a un aumento de la eficiencia del extracto en este caso a 600 ppm del extracto de Origanum majorana. Tabla 7 Datos de espectroscopia de impedancia electroquímica obtenidos con/sin extracto de Origanum majorana en un medio HCl 1 M a varias temperaturas.   En la figura 44 se observa la morfología del acero inoxidable austenítico con y sin presencia de extracto de Origanum majorana en un medio HCl 1M a las temperaturas del ensayo. En las morfologías de las imágenes 44 a), 44 c) y 44 e) se muestran las superficies del acero sin extracto en las cuales se puede apreciar un deterioro considerable que aumenta con la temperatura, grietas crecen en tamaño y en número. Para las muestras de las imágenes 44 b), 44 d) y 44 f) del acero inoxidable austenitico con presencia del extracto de Origanum majorana se aprecia un deterioro menor en comparación con las muestras sin extracto. Estas morfologías obtenidas por microscopia electrónica de barrido muestran que el extracto actúa como buen inhibidor d la corrosión del acero.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ISOTERMAS DE ADSORCIÓN</titulo>
+        <texto>Las isotermas de adsorción se utilizan generalmente para predecir la naturaleza de la interacción de las moléculas en la superficie del sustrato mediante el mecanismo de adsorción.   Otro parámetro termodinámico importante es la energía libre de adsorción (𝛥𝐺). La constante de adsorción (𝐾 𝑎𝑑𝑠 ) está relacionada con la energía libre estándar de adsorción y se calcula con la siguiente ecuación:</texto>
+      </seccion>
+      <seccion>
+        <titulo>ESTUDIO TEÓRICO COMPUTACIONAL</titulo>
+        <texto>La adición de químicos al medio en el que se encuentra expuesto el acero mejorará las propiedades físicas, como la morfología y la resistencia mecánica. Por lo tanto, la adición de inhibidores de corrosión ayudará a disminuir el grado de desgaste que se genera por diversos medios a los cuales el acero está expuesto. Se han utilizado compuestos orgánicos y siguen utilizándose como inhibidores de la corrosión para reducir la velocidad de corrosión de acero inoxidables en entornos ácidos. Es importante mencionar que a continuación se muestran los resultados de un barrido de conjunto base y funcionales para elegir el de mayor correlación. Se realizó con la molécula de ácido ursólico por ser reportada en la literatura para ambos extractos. Cuando se realizó este barrido no se tenía el análisis por cromatografía de líquidos de alta resolución de los extractos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ESTUDIO TEÓRICO PARA DETERMINAR FUNCIONAL Y CONJUNTO</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>BASE</titulo>
+        <texto>Este estudio se realizó con base en lo encontrado en un extracto reportado la presencia de ácido ursólico en los extractos etanólicos de Origanum majorana y Ruta graveolens En las últimas décadas, investigaciones teóricas basadas en cálculos químicos cuánticos han sido propuestos como una herramienta poderosa para predecir una serie de parámetros directamente relacionados con las propiedades inhibitorias de la corrosión de cualquier compuesto químico. La efectividad de un inhibidor de corrosión puede estar relacionada con su estructura molecular, estructura electrónica, hidrofobicidad y solubilidad. En la mayoría de los estudios de inhibición, la formación de complejos de superficie donador-aceptor son entre los electrones pi del inhibidor y los orbitales vacantes d del metal. La tabla 11 muestra los valores calculados para estas energías donde se muestra información clave para comprender las capacidades del aceptor donante. Según estos resultados, puede deducirse que la inhibición de la corrosión es debida a los valores de energía HOMO disminuye en el siguiente orden: ácido caféico &gt;rutina &gt;acido p-cumarico &gt; apigenina. La eficiencia de inhibición de los compuestos orgánicos e inorgánicos aumenta con la capacidad de donar electrones a la superficie metálica. El valor de la energía LUMO de la molécula indica la capacidad para aceptar electrones Un inhibidor de corrosión adecuado debe tener una base de Lewis fuerte La dureza química es un parámetro que indica la resistencia de un sistema a interactuar con el medio circundante. En cuanto a la dureza química (η), un compuesto con dureza baja tiene un alto rendimiento de inhibición, como es el caso de la rutina, que presento el valor más bajo de los compuestos presentes en la molécula. La dureza química y la electronegatividad se utilizaron para calcular la fracción de electrones transferidos. Tabla 11 Reactividad química global y energía electrónica calculadas con B3LYP/6-311G (d,p) en fase solvente. Todos los valores están en eV.  Los valores obtenidos fueron positivos en la interacción de las moléculas señaladas en el extracto de Ruta graveolens y el acero inoxidable austenitico 304, lo que indica que la transferencia de carga fluye desde la superficie metálica hacia las moléculas del extracto, respectivamente. Esto implica que la superficie metálica actúa como donante de electrones, y las moléculas actúan como aceptoras de electrones. También se tuvo en cuenta el contenido de los principales elementos de aleación del acero, como el cromo y el níquel. Sus valores se muestran en la tabla 12. Se observó que la rutina tiene el valor más alto de transferencia de electrones, mientras que la molécula de apigenina el valor más bajo, ambos en relación con el átomo de hierro. En cuanto al átomo de cromo, la transferencia de electrones la apigenia fue inferior a la de la rutina. Finalmente, en el caso del átomo de níquel, hay una mayor transferencia de electrones por parte de la rutina comparada con la menor, en este caso, la apigenina.   Como se vio anteriormente, HOMO es un parámetro asociado a la habilidad de la molécula a ser donadora de electrones. Altos valores indican una atendencia favorable de la molécula a donar electrones y así apropiarse de una molécula aceptora. LUMO indica la habilidad de la molécula a aceptar electrones. Valores bajos de LUMO indican una alta probabilidad de tener molecular aceptoras de electrones. Para que un inhibidor de la corrosión obtenga eficiencias elevadas dependerá de valores altos en HOMO y bajos en LUMO.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Molécula</titulo>
+        <texto>La tabla 13 muestra los valores calculados de las energías HOMO y LUMO. Los valores de energía HOMO en orden decreciente: en el siguiente orden: ácido rosarínico &gt; ácido caféico &gt; rutina &gt; ácido vanílico. Los valores de energía LUMO en orden decreciente son los siguientes: ácido vinílico &gt; ácido caféico &gt; ácido rosmarínico &gt; rutina. La diferencia entre las energías HOMO y LUMO (𝛥𝐸) involucra resultados de eficiencias, si este valor de energía disminuye, la reactividad de la molécula aumenta, por consiguiente, incrementa las propiedades de inhibición de la molécula y se presentan en orden decreciente: ácido vanílico &gt; ácido rosmarínico &gt; ácido caféico &gt; rutina. El valor de electronegatividad explica la transferencia de electrones entre el metal y los resultados muestran que la rutina presenta el valor más alto de electronegatividad mostrado en los resultados del cálculo, es decir, muestra una alta tendencia a atraer electrones. De igual manera presento el valor más bajo de dureza química (η), por lo tanto, tiene un alto rendimiento en la inhibición.</texto>
+      </seccion>
+      <seccion>
+        <titulo>FRACCIÓN DE ELECTRONES TRANSFERIDOS DE LAS MOLÉCULAS ENCONTRADAS EN EL EXTRACTO DE ORIGANUM MAJORANA</titulo>
+        <texto>Valores de la fracción de electrones transferidos fueron obtenidos en la interacción de las moléculas señaladas anteriormente, lo que indica también que la transferencia de carga fluye desde la superficie metálica hacia las moléculas del extracto. También se tuvo en cuenta el contenido de los principales elementos de aleación del acero, como el cromo y el níquel. Sus valores se muestran en la tabla 14. Se observó que la rutina tiene el valor más alto de transferencia de electrones, mientras que la molécula de ácido vanílico el valor más bajo, ambos en relación con el átomo de hierro. En cuanto al átomo de cromo, la transferencia de electrones el ácido vinílico fue inferior a la de la rutina. Finalmente, en el caso del átomo de níquel, hay una mayor transferencia de electrones por parte de la rutina nuevamente con el ácido vinílico.  Se observó una disminución en la eficiencia inhibitoria con el aumento de la temperatura, lo que sugiere una adsorción física y una posible desestabilización de las especies activadas a temperaturas elevadas.  Las curvas de polarización y los diagramas de Nyquist confirmaron que ambos extractos actúan como inhibidores mixtos, reduciendo la densidad de corriente de corrosión y aumentando las resistencias a la transferencia de carga, siendo la Ruta graveolens ligeramente más efectiva.  Los datos ajustados ala isoterma de Langmuir indican que la adsorción de los compuestos sobre la superficie del acero 304 es homogénea, con energía libres de adsorción (ΔG ads ) negativas, lo que confirma la espontaneidad del proceso.  La validación del método B3LYP/ 6-311G (d,p) en fase solvente etanol, a través del ácido ursólico, mostro buenos niveles de correlación estructural y espectral, permitiendo la aplicación confiable del mismo para los compuestos activos de los extractos.  Los cálculos de reactividad química global y la fracción de electrones transferidos coincidieron con los resultados experimentales. La rutina, el ácido caféico y el ácido rosmarínico presentaron mayor capacidad de interacción con la superficie metálica, lo que respalda su eficacia inhibitoria.  Los resultados respaldan el uso de extractos de Ruta graveolens y Origanum majorana como una alternativa verde económica y menos tóxica en comparación con inhibidores sintéticos, con potencial para aplicaciones industriales de protección anticorrosiva.</texto>
+      </seccion>
+      <seccion>
+        <titulo>RECOMENDACIONES PARA TRABAJOS</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>POSTERIORES:</titulo>
+        <texto> Utilizar otros medios de extracción.  Trabajar con otro tipo de acero inoxidable.  Realizar experimentos con ambientes con flujo.  Realizar las distribuciones HOMO y LUMO puntualizando las zonas de ataque nucleofílico y electrolítico.  Realizar estudios de dinámica molecular.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <autores>
+        <autor>Cromatografía</autor>
+        <autor>De</autor>
+      </autores>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>A Green and Sustainable Approach for Mild Steel Acidic Corrosion Inhibition Using Leaves Extract: Experimental and DFT Studies</titulo>
+      <autores>
+        <autor>C Verma</autor>
+        <autor>M Quraishi</autor>
+        <autor>E Ebenso</autor>
+        <autor>I Bahadur</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green corrosion inhibitors, Theory and Practice</titulo>
+      <autores>
+        <autor>V Sastri</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>CORROSION HANDBOOK, THIRD EDIT</titulo>
+      <autores>
+        <autor>R Revie</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Más allá de la herrumbre</titulo>
+      <autores>
+        <autor>J</autor>
+        <autor>J Genescá</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Métodos Experimentales en la Ciencia de la Corrosión Impedancia Electroquímica</titulo>
+      <autores>
+        <autor>José Luis</autor>
+        <autor>Ramírez Reyes</autor>
+        <autor>Jorge Uruchurtu Chavarín</autor>
+      </autores>
+      <fecha>2015-02</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Espestroscopía de impedancia electroquímica en corrosión</titulo>
+      <autores>
+        <autor>J Flores</autor>
+        <autor>R Romero Durán</autor>
+        <autor>J Llongeras</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Handbook of Corrosion Engineering Library of Congress Cataloging-in-Publication Data</titulo>
+      <autores>
+        <autor>P Roberge</autor>
+        <autor>R Pierre</autor>
+      </autores>
+      <fecha>1999</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Rollinia occidentalis extract as green corrosion inhibitor for carbon steel in HCl solution</titulo>
+      <autores>
+        <autor>P Alvarez</autor>
+        <autor>M Fiori-Bimbi</autor>
+        <autor>A Neske</autor>
+        <autor>S Brandán</autor>
+        <autor>C Gervasi</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion inhibition by naturally occurring substances-IX. The effect of the aqueous extracts of some seeds, leaves, fruits and fruit-peel on the corrosion of Al in NaOH</titulo>
+      <autores>
+        <autor>A</autor>
+        <autor>A Saleh</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>I</autor>
+      </autores>
+      <fecha>1983</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Studies on Plant Materials as Corrosion Inhibitors</titulo>
+      <autores>
+        <autor>K Srivastav</autor>
+        <autor>P Srivastava</autor>
+      </autores>
+      <fecha>1981</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhibition of mild steel corrosion in 1N H2SO4medium by acid extract of nyctanthes arbortristis leaves</titulo>
+      <autores>
+        <autor>R Saratha</autor>
+        <autor>V Vasudha</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion inhibition of mild steel by ethanolic extracts of Ricinus communis leaves</titulo>
+      <autores>
+        <autor>R Ananda Louise Sathiyanathan</autor>
+        <autor>S Maruthamuthu</autor>
+        <autor>M Selvanayagam</autor>
+        <autor>S Mohanan</autor>
+        <autor>N Palaniswamy</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion inhibitory action of some plant extracts on the corrosion of mild steel in acidic media</titulo>
+      <autores>
+        <autor>M Al-Otaibi</autor>
+        <autor>A Al-Mayouf</autor>
+        <autor>M Khan</autor>
+        <autor>A Mousa</autor>
+        <autor>S Al-Mazroa</autor>
+        <autor>H Alkhathlan</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The inhibition of mild steel Corrosion in 1N HCl solution by Melia Azedarach leaves extract</titulo>
+      <autores>
+        <autor>P Sivakumar</autor>
+        <autor>M Karuppusamy</autor>
+        <autor>K Vishalakshi</autor>
+        <autor>A Srikanth</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion Inhibition of Mild steel in 1N HCl Media by Acid Extract of Spathodea Campanulata Leaves</titulo>
+      <autores>
+        <autor>K Shanmuga Priya</autor>
+        <autor>V Vasudha</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhibition of the corrosion of mild steel in H 2 SO 4 by 5</titulo>
+      <autores>
+        <autor>N Eddy</autor>
+        <autor>P Ekwumemgbo</autor>
+        <autor>S Odoemelam</autor>
+        <autor>N Eddy</autor>
+        <autor>P Ekwumemgbo</autor>
+        <autor>S Odoemelam</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green approach to corrosion inhibition of 304 stainless steel in hydrochloric acid solution by the extract of Salvia officinalis leaves</titulo>
+      <autores>
+        <autor>N Soltani</autor>
+        <autor>N Tavakkoli</autor>
+        <autor>M Khayatkashani</autor>
+        <autor>M Jalali</autor>
+        <autor>A Mosavizade</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Adsorption and corrosion inhibition of Osmanthus fragran leaves extract on carbon steel</titulo>
+      <autores>
+        <autor>L Li</autor>
+        <autor>X Zhang</autor>
+        <autor>J Lei</autor>
+        <autor>J He</autor>
+        <autor>S Zhang</autor>
+        <autor>F Pan</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Musa Paradisiaca Extract as a Green Inhibitor for Corrosion of Mild Steel in 0.5 M Sulphuric Acid Solution</titulo>
+      <autores>
+        <autor>R Mayanglambam</autor>
+        <autor>V Sharma</autor>
+        <autor>G Singh</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhibition by Jasminum nudiflorum Lindl. leaves extract of the corrosion of aluminium in HCl solution</titulo>
+      <autores>
+        <autor>S Deng</autor>
+        <autor>X Li</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion Inhibition of Mild Steel by Extract of Bryophyllum Pinnatum Leaves in Acidic Solution</titulo>
+      <autores>
+        <autor>D Verma</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhibition effect of Dendrocalamus brandisii leaves extract on aluminum in HCl, H 3PO 4 solutions</titulo>
+      <autores>
+        <autor>X Li</autor>
+        <autor>S Deng</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhibitory action of Phyllanthus amarus extracts on the corrosion of mild steel in acidic media</titulo>
+      <autores>
+        <autor>P Okafor</autor>
+        <autor>M Ikpi</autor>
+        <autor>I Uwah</autor>
+        <autor>E Ebenso</autor>
+        <autor>U Ekpe</autor>
+        <autor>S Umoren</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhibition by Ginkgo leaves extract of the corrosion of steel in HCl and H 2SO 4 solutions</titulo>
+      <autores>
+        <autor>S Deng</autor>
+        <autor>X Li</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Natural products for materials protection: Corrosion protection of aluminium in hydrochloric acid by Kola nitida extract</titulo>
+      <autores>
+        <autor>D Njoku</autor>
+        <autor>I Ukaga</autor>
+        <autor>O Ikenna</autor>
+        <autor>E Oguzie</autor>
+        <autor>K Oguzie</autor>
+        <autor>N Ibisi</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The impact of some factors on the inhibitory action of Radish seeds aqueous extract for mild steel corrosion in 1M H2SO4solution</titulo>
+      <autores>
+        <autor>E Noor</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green approach to corrosion inhibition of mild steel in hydrochloric acid and sulphuric acid solutions by the extract of Murraya koenigii leaves</titulo>
+      <autores>
+        <autor>M Quraishi</autor>
+        <autor>A Singh</autor>
+        <autor>V Singh</autor>
+        <autor>D Yadav</autor>
+        <autor>A Singh</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhibition of the corrosion of steel in HCl, H2SO4solutions by bamboo leaf extract</titulo>
+      <autores>
+        <autor>X Li</autor>
+        <autor>S Deng</autor>
+        <autor>H Fu</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Use of Butea monosperma extract as green corrosion inhibitor for mild steel in 0.5 M H2SO4</titulo>
+      <autores>
+        <autor>A Saxena</autor>
+        <autor>D Prasad</autor>
+        <autor>R Haldhar</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Evaluation of Thymus vulgaris plant extract as an eco-friendly corrosion inhibitor for stainless steel 304 in acidic solution by means of electrochemical impedance spectroscopy, electrochemical noise analysis and density functional theory</titulo>
+      <autores>
+        <autor>R Moshrefi</autor>
+        <autor>A Ehsani</autor>
+        <autor>M Hosseini</autor>
+        <autor>M Mahjani</autor>
+        <autor>H Shiri</autor>
+        <autor>R Safari</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Studies on the adsorption of heptamolybdate ions on AISI 304 stainless steel from acidic HCl solution for corrosion inhibition</titulo>
+      <autores>
+        <autor>Y Albrimi</autor>
+        <autor>A Addi</autor>
+        <autor>J Douch</autor>
+        <autor>M Hamdani</autor>
+        <autor>R Souto</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chalcones as Environmentally-Friendly Corrosion Inhibitors for Stainless Steel Type 304 in 1 M HCl Solutions</titulo>
+      <autores>
+        <autor>A Fouda</autor>
+        <autor>K Shalabi</autor>
+        <autor>R Shohba</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Silybum marianum extract as a natural source inhibitor for 304 stainless steel corrosion in 1.0M HCl</titulo>
+      <autores>
+        <autor>N Soltani</autor>
+        <autor>N Tavakkoli</autor>
+        <autor>M Kashani</autor>
+        <autor>A Mosavizadeh</autor>
+        <autor>E Oguzie</autor>
+        <autor>M Jalali</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Adenine as an effective corrosion inhibitor for stainless steel in chloride solution</titulo>
+      <autores>
+        <autor>M Scendo</autor>
+        <autor>J Trela</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green approach to corrosion inhibition of 304 stainless steel in hydrochloric acid solution by the extract of Salvia officinalis leaves</titulo>
+      <autores>
+        <autor>N Soltani</autor>
+        <autor>N Tavakkoli</autor>
+        <autor>M Khayatkashani</autor>
+        <autor>M Jalali</autor>
+        <autor>A Mosavizade</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ruta graveolens and rutin , as its major compound : investigating their effect on spatial memory and passive avoidance memory in rats</titulo>
+      <autores>
+        <autor>S Asgharian</autor>
+        <autor>M Hojjati</autor>
+        <autor>M Ahrari</autor>
+        <autor>E Bijad</autor>
+        <autor>F Deris</autor>
+        <autor>Z Lorigooini</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Anti-Corrosion Performance of Ruta Graveolens Essential Oil as A Green Inhibitor for Mild Steel in 1 M HCl : Evaluations of Electrochemical, DFT and Monte Carlo</titulo>
+      <autores>
+        <autor>M Manssouri</autor>
+        <autor>A Chraka</autor>
+        <autor>I Raissouni</autor>
+        <autor>A Wahby</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Excellent Anticorrosion Behavior of Ruta Graveolens Extract (RGE) for Mild Steel in Hydrochloric Acid: Electro Analytical Studies on the Effect of Time, Temperature, and Inhibitor Concentration</titulo>
+      <autores>
+        <autor>K Anupama</autor>
+        <autor>K Shainy</autor>
+        <autor>A Joseph</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Origanum majorana Extracts as Mild Steel Corrosion Green Inhibitors in Aqueous Chloride Medium</titulo>
+      <autores>
+        <autor>H Challouf</autor>
+        <autor>N Souissi</autor>
+        <autor>M Ben Messaouda</autor>
+        <autor>R Abidi</autor>
+        <autor>A Madani</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>P Atkins</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Introducción a la química computacional</titulo>
+      <autores>
+        <autor>G Cuevas</autor>
+        <autor>F Cortés</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Métodos y Usos de la Química Computacional Computational Chemistry Methods and its Applications</titulo>
+      <autores>
+        <autor>A Valles-Sánchez</autor>
+        <autor>L Rosales-Marines</autor>
+        <autor>L Eugenia</autor>
+        <autor>S Lorena</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Publisher's Note</titulo>
+      <autores>
+        <autor>S Pople</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comportamiento De Inhibidores 'Verdes' En La Corrosión De Acero 1018 En Medios Ácidos</titulo>
+      <autores>
+        <autor>J Flores-De-Los-Ríos</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhomogeneous Electron Gas*</titulo>
+      <autores>
+        <autor>P Hohenberg</autor>
+        <autor>W Kohn</autor>
+      </autores>
+      <fecha>1964</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Basics of the density functional theory</titulo>
+      <autores>
+        <autor>J Bretonnet</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Introduction to COMPUTATIONAL CHEMISTRY</titulo>
+      <autores>
+        <autor>F Jensen</autor>
+      </autores>
+      <fecha>1999</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ab Initio Calculation of Vibrational Absorption and Circular Dichroism Spectra Using Density Functional Force Fields</titulo>
+      <autores>
+        <autor>P</autor>
+        <autor>F Devlin</autor>
+        <autor>C Chabalowski</autor>
+        <autor>M Frisch</autor>
+      </autores>
+      <fecha>1994</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Density-functional thermochemistry . III . The role of exact exchange</titulo>
+      <autores>
+        <autor>A Becke</autor>
+      </autores>
+      <fecha>1992-12</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A new mixing of Hartree-Fock and local density-functional theories</titulo>
+      <autores>
+        <autor>A Becke</autor>
+      </autores>
+      <fecha>1993</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The M06 suite of density functionals for main group thermochemistry , thermochemical kinetics , noncovalent interactions , excited states , and transition elements : two new functionals and systematic testing of four M06-class functionals and 12 other fun</titulo>
+      <autores>
+        <autor>Y Zhao</autor>
+        <autor>D Truhlar</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characterizing and Understanding the Remarkably Slow Basis Set Convergence of Several Minnesota Density Functionals for Intermolecular Interaction Energies</titulo>
+      <autores>
+        <autor>N Mardirossian</autor>
+        <autor>M Head-Gordon</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Atomic orbital basis sets</titulo>
+      <autores>
+        <autor>F Jensen</autor>
+      </autores>
+      <fecha>2012-02</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ciencias Ambientales, Determinación del contenido graso de leche en polvo: extración Soxhlet</titulo>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of H2SO4 addition on the corrosion behaviour of AISI 304 austenitic stainless steel in methanol-HCl solution</titulo>
+      <autores>
+        <autor>M Ray</autor>
+        <autor>V Singh</autor>
+        <autor>*</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High-resolution gaschromatographic analysis of the secondary metabolites obtained by subcritical-fluid extraction from Colombian rue (Ruta graveolens L.)</titulo>
+      <autores>
+        <autor>E Stashenko</autor>
+        <autor>R Acosta</autor>
+        <autor>J Martínez</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fototoxicidad tras exposición a ruta graveolens</titulo>
+      <autores>
+        <autor>P Zayas-Pinedo</autor>
+        <autor>F Gabilondo-Zubizarreta</autor>
+        <autor>V Torrero-López</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Antioxidant and antimicrobial phenolic compounds from extracts of cultivated and wild-grown Tunisian Ruta chalepensis</titulo>
+      <autores>
+        <autor>I Ouerghemmi</autor>
+      </autores>
+      <fecha>2016-06</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Assessment of Total Phenolic Content , In Vitro Antioxidant and Antibacterial Activity of Ruta graveolens L. Extracts Obtained by Choline Chloride Based Natural Deep Eutectic Solvents</titulo>
+      <autores>
+        <autor>L Obtained</autor>
+        <autor>V Pavi</autor>
+        <autor>D Flaˇ</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>ANTIMICROBIAL AND ANTIPROTOZOAL EFFECT OF SWEET MARJORAM (Origanum majorana L.)</titulo>
+      <autores>
+        <autor>M Kozłowska</autor>
+        <autor>A Laudy</autor>
+        <autor>B Starościak</autor>
+        <autor>A Napiórkowski</autor>
+        <autor>L Chomicz</autor>
+        <autor>Z Kazimierczuk</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of marjoram extract treatment on the cytological and biochemical changes induced by cyclophosphamide in mice</titulo>
+      <autores>
+        <autor>N Al-Harbi</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhibitory effects of spice extracts on the growth of Aspergillus parasiticus NRRL2999 strain</titulo>
+      <autores>
+        <autor>M Özcan</autor>
+      </autores>
+      <fecha>1998</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microscopic evaluation and physicochemical analysis of Origanum majorana Linn leaves</titulo>
+      <autores>
+        <autor>B Pimple</autor>
+        <autor>A Patel</autor>
+        <autor>P Kadam</autor>
+        <autor>M Patil</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Rollinia occidentalis Extract as Green Corrosion Inhibitor for Carbon Steel in HCl Solution</titulo>
+      <autores>
+        <autor>A Alvarez</autor>
+        <autor>M Fiori-Bimbi</autor>
+        <autor>A Neske</autor>
+        <autor>S Brand</autor>
+        <autor>C Gervasi</autor>
+        <autor>S Brand</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>In situ synthesis , electrochemical and quantum chemical analysis of an amino acid-derived ionic liquid inhibitor for corrosion protection of mild steel in 1M HCl solution</titulo>
+      <autores>
+        <autor>E Kowsari</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Surface Interaction and Corrosion Inhibition of Mild Steel in Hydrochloric Acid Using Pyoverdine , an Eco-Friendly Bio-molecule</titulo>
+      <autores>
+        <autor>K Shainy</autor>
+        <autor>P Ammal</autor>
+        <autor>K Unni</autor>
+        <autor>S Benjamin</autor>
+        <autor>A Joseph</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical evaluation of green corrosion inhibitor based on ground coffee waste in Petroleum fields</titulo>
+      <autores>
+        <autor>S Elhady</autor>
+        <autor>E Zaki</autor>
+        <autor>F El-Azabawy E Olfat</autor>
+        <autor>Irene</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Molecular dynamic simulation , quantum chemical calculation and friendly corrosion inhibitor for stainless steel ( SS-410 ) in acidic medium</titulo>
+      <autores>
+        <autor>N Bhardwaj</autor>
+        <autor>P Sharma</autor>
+        <autor>L Guo</autor>
+        <autor>O Dagdag</autor>
+        <autor>V Kumar</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Sustainable and Green Corrosion Inhibition of Mild Steel : Insights from Electrochemical and Computational Approaches</titulo>
+      <autores>
+        <autor>A Rizi</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The inhibitive effect of some bis-N , S-bidentate Schiff bases on corrosion behaviour of 304 stainless steel in hydrochloric acid solution</titulo>
+      <autores>
+        <autor>M Behpour</autor>
+        <autor>S Ghoreishi</autor>
+        <autor>N Soltani</autor>
+        <autor>M Salavati-Nisari</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Journal of Industrial and Engineering Chemistry Akebia trifoliate koiaz peels extract as environmentally benign corrosion inhibitor for mild steel in HCl solutions : Integrated experimental and theoretical investigations</titulo>
+      <autores>
+        <autor>M Zhang</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion inhibition of mild steel by 2-( 2-methoxybenzylidene ) hydrazine-1-carbothioamide in hydrochloric acid solution : Experimental measurements and quantum chemical calculations</titulo>
+      <autores>
+        <autor>H Ferkous</autor>
+        <autor>S Djellali</autor>
+        <autor>R Sahraoui</autor>
+        <autor>Y Benguerba</autor>
+        <autor>H Behloul</autor>
+        <autor>A Çukurovali</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The capability of ultrafiltrated alkaline and organosolv oil palm ( Elaeis guineensis ) fronds lignin as green corrosion inhibitor for mild steel in 0 . 5 M HCl solution</titulo>
+      <autores>
+        <autor>M Hussin</autor>
+        <autor>A Abdul</autor>
+        <autor>M Nasir</autor>
+        <autor>M Ibrahim</autor>
+        <autor>N Brosse</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bee Wax Propolis Extract as Eco-Friendly Corrosion Inhibitors for 304SS in Sulfuric Acid</titulo>
+      <autores>
+        <autor>F Gapsari</autor>
+        <autor>R Soenoko</autor>
+        <autor>A Suprapto</autor>
+        <autor>W Suprapto</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion Inhibition of Honeycomb Waste Extracts for 304 Stainless Steel in Sulfuric Acid Solution</titulo>
+      <autores>
+        <autor>F Gapsari</autor>
+        <autor>K Madurani</autor>
+        <autor>F Simanjuntak</autor>
+        <autor>A Andoko</autor>
+        <autor>H Wijaya</autor>
+        <autor>F Kurniawan</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inhibitory Effect of Ursolic Acid Purified from Origanum majorana L. on the Acetylcholinesterase</titulo>
+      <autores>
+        <autor>Y Chung</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Structure of ursolic acid ethanol solvate</titulo>
+      <autores>
+        <autor>A Simon</autor>
+        <autor>C Delage</autor>
+        <autor>M Saux</autor>
+        <autor>A Chulia</autor>
+        <autor>A Najid</autor>
+        <autor>M Rigaud</autor>
+      </autores>
+      <fecha>1992</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Simultaneous Quantification of Bioactive Triterpene acids ( Ursolic acid and Oleanolic acid ) in Different Extracts of Eucalyptus globulus ( L ) by HPTLC Method</titulo>
+      <autores>
+        <autor>A Gupta</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Quantum chemical study of thiaozole derivatives as corrosion inhibitors based on density functional theory</titulo>
+      <autores>
+        <autor>B Tu</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>On the alleged importance of the molecular electron-donating ability and the HOMO-LUMO gap in corrosion inhibition studies</titulo>
+      <autores>
+        <autor>A Kokalj</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Determination of corrosion inhibition effects of amino acids : Quantum chemical and molecular dynamic simulation study</titulo>
+      <autores>
+        <autor>S Kaya</autor>
+        <autor>T Burak</autor>
+        <autor>C Kaya</autor>
+        <autor>I Obot</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Quantum Chemical Assessment of Two</titulo>
+      <autores>
+        <autor>J Bhawsar</autor>
+        <autor>P Jain</autor>
+        <autor>M Rani</autor>
+      </autores>
+    </referencia>
+  </referencias>
+</tesis>

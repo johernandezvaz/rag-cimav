@@ -1,0 +1,936 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo />
+    <idioma>spanish</idioma>
+    <autores />
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>Resumen</titulo>
+        <texto>Las redes neuronales han emergido como una técnica altamente efectiva para el modelado y control de sistemas tanto lineales como no lineales, lo que permite abordar una variedad significativa de problemáticas mediante una metodología unificada. En consecuencia, su popularidad ha experimentado un notable incremento debido al amplio espectro de aplicaciones en diversas áreas y especialidades. Es por esta razón que se considera su aplicación para el proceso de secado, que es un proceso unitario que conlleva la eliminación de agua mediante evaporación, produciendo un producto con contenido de humedad reducido. Este proceso puede ser afectado por la variabilidad de las condiciones climáticas, tal como se observa en el secador solar tipo túnel analizado en este trabajo. Por ello, en la presente investigación se han desarrollado dos modelos basados en redes neuronales de perceptrón multicapa (MLP, por sus siglas en inglés), diseñados para predecir las cinéticas de secado y los parámetros operacionales de una cámara de secado solar tipo túnel. Para este propósito, el modelo fue entrenado con datos recopilados a través de sensores ubicados dentro de la cámara de secado y bajo las condiciones ambientales externas. Realizando 14 experimentos para entrenar el modelo y obtener las cinéticas de secado de alimentos y el comportamiento térmico de la cámara. Tras el entrenamiento, el modelo fue validado para predicciones y sus hiperparámetros fueron optimizados para mejorar la precisión y la eficiencia, reduciendo errores. El modelo demostró una alta capacidad para generalizar y predecir con precisión las dinámicas del proceso, proporcionando una herramienta eficiente para la predicción de estas condiciones. Permitiendo la modificación de estrategias en función de las condiciones futuras proyectadas, otorgando una ventaja competitiva y asegurando una mayor eficiencia y sostenibilidad.</texto>
+      </seccion>
+    </resumen>
+    <antecedentes>
+      <seccion>
+        <titulo>Antecedentes</titulo>
+        <texto>La energía solar, parte de las energías renovables, se ha empleado durante muchos años para el proceso de secado, permitiendo así la preservación de frutas y vegetales, cereales y otros productos de la agricultura. El secado es uno de los métodos más antiguos empleados para la agricultura y el almacenamiento de alimentos, el cual ha sido utilizado desde los inicios de la humanidad, dado que ofrece al ser humano una oportunidad de supervivencia en períodos de escasez de alimentos, momentos en los que el secado les permite tener reservas de alimentos, lo que permite la supervivencia Los métodos utilizados para el secado comenzaron con el tradicional secado a cielo abierto, en el cual el producto se distribuye sobre el suelo, ya sea de tierra, cemento, piso, techo o cualquier superficie plana que esté expuesta a la radiación solar y a las corrientes de aire naturales La inteligencia artificial permite optimizar procesos y predecir comportamientos, como el trabajo de Morales D. y colaboradores en el cual mediante una red neuronal artificial predicen la radiación solar En el caso de los sistemas de secado tecnificados se presentan dos problemas principales: por el lado de diseño no se tiene una herramienta que pueda predecir o simular las condiciones de un secador y, por el lado de control, el cual en cierto tipo de alimentos como los probióticos En el caso del proceso del secado solar es considerado como no lineal. Esto se debe a que la tasa de secado no es constante y puede variar en función de múltiples factores, como la temperatura, la humedad relativa del aire, la velocidad del aire y las características del producto que se está secando Los sistemas de control son cruciales en muchos ámbitos. Sin embargo, existen diferencias fundamentales entre el enfoque clásico (diseño basado en teoría bien establecida) y el uso de redes neuronales. Estas diferencias son descritas por P.L. de Vaal Haciendo que puedan desempeñar un papel crucial tanto para el control como para la predicción en sistemas donde tener un modelo matemático del sistema es complejo. Aprovechando estas capacidades de las redes neuronales, es posible abordar problemas de control demasiado complejos para los métodos clásicos. Las redes neuronales pueden aprender de los datos y adaptarse a entornos cambiantes, lo que las convierte en una herramienta flexible y potente para las aplicaciones de control. A diferencia de los modelos matemáticos tradicionales, que requieren una comprensión precisa de las relaciones subyacentes entre las variables, las redes neuronales pueden aprender de los ejemplos y adaptarse a nuevas situaciones, lo que posibilita su implementación en diversas aplicaciones vinculadas al ámbito del control. El estudio realizado por Farhat Mahmood Una investigación adicional desarrollada por Zehui Jia Destacaron las redes LSTM por su sobresaliente capacidad predictiva, con un coeficiente de determinación (R 2 ) mayor a 0.98, lo que evidencia una alta exactitud El trabajo realizado por Francik S lawomir El modelo general RNA1 incorpora todas las variables de entrada, mientras que los otros tres se enfocan en tipos individuales de pretratamiento. En el modelo más eficaz (RNA1), los valores del error absoluto medio porcentual (MAPE) oscilaron entre un 5.88 % y un 7.02 % en distintos conjuntos de datos: entrenamiento, prueba y validación La investigación realizada por Muhammed Emi Topal De manera análoga, contar con un sistema capaz de predecir el comportamiento de la cámara de secado contribuye significativamente a la optimización del proceso, esto a raíz de identificar las condiciones óptimas de secado, como la temperatura y el tiempo de secado, incrementando la eficiencia del proceso, reduciendo el gasto energético y maximizando la calidad del producto final. Esto adquiere particular relevancia en la industria alimentaria, donde la calidad del producto constituye un aspecto fundamental. Comprender el comportamiento de una cámara de secado a lo largo del tiempo, o su desempeño bajo determinadas cargas, conlleva un proceso más eficiente, ya que minimiza las pérdidas relacionadas con productos mal secados o desperdicio de alimentos, reduciendo los costos de experimentación y mejorando la planificación del proceso de secado.</texto>
+      </seccion>
+    </antecedentes>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivos 1.4.1. Objetivo general</titulo>
+        <texto>Desarrollar un modelo predictivo basado en redes neuronales que posea la capacidad de predecir tanto la temperatura como la humedad relativa dentro de una cámara de secado, además de predecir la cinética de secado de alimentos en un secador solar de productos agroindustriales.</texto>
+      </seccion>
+    </objetivo_general>
+    <hipotesis>
+      <seccion>
+        <titulo>Hipótesis</titulo>
+        <texto>El desarrollo de un sistema basado en redes neuronales artificiales entrenado con datos experimentales del secado de diversos productos, permitirá predecir la temperatura y la humedad relativa dentro de la cámara de secado, así como la cinética de secado de productos alimenticios.</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>Secado solar tradicional</titulo>
+        <texto>La mayoría de los países en desarrollo todavía utilizan métodos tradicionales de secado. Los productos se secan en el suelo, sobre cemento o incluso en carreteras bajo el sol, donde se contaminan con polvo e insectos y se pierden por roedores, pájaros y otros animales. Además, las condiciones climáticas pueden ocasionar pérdidas en la cantidad y calidad del producto final</texto>
+      </seccion>
+      <seccion>
+        <titulo>Algunos conceptos importantes en los algoritmos evolutivos son:</titulo>
+        <texto>Selección: La selección de padres es un proceso que se lleva a cabo de forma aleatoria, utilizando una variedad de métodos para aumentar la probabilidad de que los individuos más destacados de una comunidad sean elegidos para cruzarse con otro padre seleccionado. Esto es crucial asegurar que las personas más talentosas de la población tengan una mayor probabilidad de reproducirse en comparación con las personas menos talentosas. Sin embargo, es importante dar la oportunidad de selección a los individuos con un rendimiento inferior, ya que estos pueden tener características útiles en su genotipo. Lo que puedo ayudar a resolver el problema, para lograr esto existen diferentes métodos para decidir cómo y cuándo darles la oportunidad a estos individuos de reproducirse como la selección aleatoria, el ranking lineal, a selección por ruleta, el emparejamiento variado inverso y la selección por torneo. Cruce: Después de la selección, los individuos elegidos se transforman en los "padres", quienes se unirán en pares para generar nuevas soluciones o "hijos", que poseen la información genética de ambos progenitores siendo los nuevos aspirantes para la próxima generación, este proceso se denomina como cruce y equivale a la etapa reproductiva. El cruce se asocia con un valor probabilístico que representa la probabilidad de que los "Padres" tengan o no descendencia estos valores de probabilidad suelen ser elegidos entre el 0.6 y el 0.9. Esto dependerá del problema en cuestión. Mutación: En la mutación, cada miembro de la población la experimenta de manera diferente. Debido a que de forma aleatoria se altera de manera aleatoria el valor de alguno de los genes del genotipo de un individuo particular en nuestra población, por lo que es poco probable por no decir imposible que obtengan la misma mutación. Esta operación es crucial para el algoritmo porque facilita la exploración del espacio de búsqueda del problema de una forma que solo podría realizarse mediante la operación de cruce. Evaluación: Su propósito es dirigir la búsqueda dentro del espacio de soluciones del problema. En esta etapa, es necesario obtener un valor real que refleje el nivel de adaptación o funcionamiento del individuo como solución a nuestro problema a partir del fenotipo del individuo. Esta evaluación suele comenzar con una función objetivo o función de "fitness". Reemplazo: Es el proceso por el cual los hijos reemplazan a todos o a algunos padres de la población anterior. Existe una variedad de maneras de realizar este proceso. Algunos se asignan en función del número de hijos que reemplazan a un padre como lo son los modelos generacionales y estacionarios. El modelo generacional implica la creación de una población completamente nueva en cada generación, mientras que el modelo estacionario solo algunos de los padres son reemplazados por nuevos individuos. Elitismo: El elitismo consiste en como su nombre lo indica en preservar a las mejores personas esto a través de las generaciones para que puedan transmitir su valiosa información genética a las generaciones futuras y de esta forma ir mejorando la "raza". Este sistema protege a los individuos más destacados de una comunidad de los procesos de selección, cruce y mutación, asegurando que permanezcan intactos en la próxima generación. Algunos ejemplos de algoritmos evolutivos que utilizan estos conceptos son:</texto>
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>Variables Rango</titulo>
+        <texto>Capas ocultas 1 a 10 Los resultados para la RNA 1 se muestran a continuación en la Figura 5.3 en los cuales se obtuvo un error máximo de 30.76 % con una arquitectura de 3-8-4-9-1-8 con 4 capas ocultas y un error mínimo de 4.97 % con una arquitectura de 3-4-7-7-3-3-8 con 5 capas ocultas (Figura 5.6) siendo esta la arquitectura utilizada para la RNA 1. R 2 evalúa la exactitud con la que las predicciones generadas por el modelo se alinean con los datos reales o esperados. Un valor cercano a 1 sugiere que el modelo captura de manera significativa la variabilidad de los datos, mientras que un valor que se aproxima a 0 indica que su capacidad de explicación de dicha variabilidad es mínima. En la Figura 5.4 se ilustra la relación entre los valores pronosticados por la red neuronal y los valores observados, tanto para el conjunto de datos utilizados en el entrenamiento 5.4a como para aquellos empleados en la prueba Figura 5.4b, demostrando cómo las predicciones del modelo se ajustan a los valores reales. En dicha representación se observa un ajuste notable para el conjunto de entrenamiento, con un valor de R 2 train = 0.9965 que puede interpretarse como el modelo explicando el 99.65 % de la variabilidad de los datos de entrenamiento, lo que evidencia un aprendizaje eficiente de las relaciones dentro de este conjunto. De igual manera, el modelo explica el 97.93 % de la variabilidad en el conjunto de datos de prueba R 2 test = 0.97929, lo que indica su capacidad para generalizar a datos inéditos durante el entrenamiento. Además, la diferencia entre ambos valores de R 2 es mínima (0.01721), lo cual sugiere que el modelo no ha incurrido en un sobreajuste respecto a los datos de entrenamiento y es competente para capturar patrones en datos nuevos con una precisión similar a la alcanzada durante el entrenamiento.  Los resultados para la RNA 2 se muestran a continuación en la Figura 5.7 en los cuales se obtuvo un error máximo de 9.49 % con una arquitectura de 17-1-3 con 1 capa oculta y un error mínimo de 0.67 % con una arquitectura de 17-6-6-3-3 con 3 capas ocultas, recordando que la RNA 2 tiene como objetivo la predicción del peso en función del tiempo. Se presenta un modelo con un error menor al 1 %.  En la Figura 5.9 se muestra la relación entre los valores predichos por la red neuronal y los valores reales, tanto para el conjunto de datos utilizados en el entrenamiento (Figura 5.9a) como para aquellos empleados en la prueba (Figura 5.9b), demostrando cómo las predicciones del modelo se ajustan a los valores reales. Se observa un ajuste excelente para el conjunto de entrenamiento, con un valor de R 2 train = 0.99988 y para el conjunto de datos de prueba R 2 test = 0.99984, Ambos valores de R 2 están extremadamente cerca de 1, lo que indica que el modelo explica casi toda la variabilidad de los datos tanto en el conjunto de entrenamiento como en el de prueba. Esto sugiere que el modelo está capturando muy bien las relaciones entre las variables de entrada y la salida.       Demostrando una aproximación considerablemente precisa en comparación con la real, aunque se presentan algunas discrepancias en el caso de la temperatura (Figura 5.13). En lo referente a la humedad relativa, se observan en (Figura 5.14) ciertos picos bajo determinadas condiciones; sin embargo, al igual que en el caso de la temperatura, se alcanza una aproximación bastante exacta con un margen de error inferior al 6 %.    Al igual que en el experimento anterior, las temperaturas y humedades estimadas corresponden a las condiciones presentes en el interior de la cámara de secado, como se muestra en la Figura 4.3. Los resultados son bastante satisfactorios, ya que se logra un error de menos del 6 %, a pesar de que este experimento se realizó durante un periodo más corto que el anterior. Los valores se aproximan bastante a las condiciones reales tanto de temperatura (Figura 5.16) como de humedad relativa (Figura 5.17) las métricas con las que fue evaluado indican un buen desempeño. ya que el modelo predice temperatura y humedad relativa dentro de la cámara de secado es probable que haya aprendido correlaciones intrínsecas entre ellas, como alguna relacion entre la temperatura y la humedad relativa, esto podría indicar que el modelo no solo funciona si no que entiende patrones físicos lo cual podría ser una señal de robustez y suponiendo una mejora frente al modelo presentado por Farhat Mahmood y colaboradores, el cual únicamente predice la temperatura</texto>
+      </seccion>
+    </resultados>
+    <conclusiones>
+      <seccion>
+        <titulo>CONCLUSIONES</titulo>
+        <texto>Se recopilaron datos históricos y experimentales a través de 14 experimentos que permitieron la obtención de parámetros operacionales como la temperatura, la humedad relativa interna y ambiental, así como el peso de las muestras en tiempo real, lo que sirvió para generar una base de datos para el entrenamiento del modelo neuronal. Mediante el uso de algoritmos evolutivos se identificó y seleccionó un modelo adecuado para la red neuronal, siendo este el perceptrón multicapa en cascadeforward, el cual demostró un desempeño superior en comparación con otros modelos, obteniendo un MAPE de 4.64 % y un valor de R 2 de 0.99 para la RNA1 (predicción de temperatura y humedad relativa dentro de la cámara de secado), mientras que para la RNA2 (predicción de la cinética de secado) se obtuvo un MAPE de 0.49 % y un valor de R 2 de 0.99. Al validar experimentalmente el modelo, se logró predecir para las condiciones operacionales de la cámara de secado con un margen de error inferior al 6 % y para las predicciones de las cinéticas de secado menos del 2 % , demostrando así ser un modelo adecuado para la estimación de las variables operacionales. Con el desarrollo de este trabajo se logró demostrar que la implementación de las redes neuronales aplicadas a procesos de secado es una buena herramienta, ya que facilita la planificación del proceso y de la carga, así como las fechas óptimas de secado. Este análisis es aplicable a la cinética de secado, al tiempo que también permite prever la temperatura y la humedad relativa dentro de la cámara de secado, lo que posibilita determinar por cuánto tiempo se podría mantener una temperatura específica dadas ciertas condiciones ambientales. De igual manera, el modelo RNA 1 puede ser aplicado a un sistema de control inteligente para controlar la temperatura y la humedad relativa en sistemas de secado tecnificados.</texto>
+      </seccion>
+    </conclusiones>
+    <otros>
+      <seccion>
+        <titulo>AGRADECIMIENTOS</titulo>
+        <texto>Deseo expresar mi más sincero agradecimiento a todas las personas que, de una u otra forma, contribuyeron a que este trabajo fuera posible. En primer lugar, agradezco profundamente a mis asesores, el Dr. Erick y la Dra. Alma, por su invaluable guía, paciencia y apoyo a lo largo de este proceso. Su conocimiento y orientación fueron fundamentales para la realización de este trabajo. A los miembros de mi comité, el Mtro. Jorge, el Dr. Ángel y el Dr. Ignacio, les agradezco por su tiempo, retroalimentación y consejos, los cuales enriquecieron significativamente mi investigación. Su compromiso y, sobre todo, su exigencia me motivaron a mejorar constantemente. Extiendo mi gratitud a los investigadores y profesores del CIMAV que, con su disposición y conocimientos, me ayudaron a resolver dudas y me brindaron consejos que fortalecieron mi formación académica y profesional. A mis compañeros y amigos, quienes compartieron conmigo momentos de estrés y alegrías, gracias por su apoyo, motivación y compañía en este camino. Agradezco con todo mi corazón a mi familia, a mis padres y hermanos por su amor incondicional, paciencia y apoyo en cada etapa de este proceso. Su confianza en mí ha sido mi mayor fortaleza. Y finalmente, a Dios por permitirme coincidir con todos ustedes. A todos ustedes, gracias.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ÍNDICE GENERAL</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Secado Solar</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>ÍNDICE DE TABLAS</titulo>
+        <texto>2.1. Ventajas y desventajas de los diferentes tipos de secadores solares</texto>
+      </seccion>
+      <seccion>
+        <titulo>Comparativa aprendizaje automático y termodinámica tradicional</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>CAP ÍTULO 1</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>INTRODUCCI ÓN</titulo>
+        <texto>Los países miembros de la ONU (Organización de las Naciones Unidas) en el 2015 aprobaron el mayor plan de acción global para un mundo más inclusivo y próspero llamado agenda 2030, el cual consiste en 169 metas que deberán ser cumplidas para el año 2030, dichas metas se pueden resumir en 17 objetivos los cuales son llamados "Objetivos de Desarrollo Sostenible" (ODS), mismos que buscan eliminar la pobreza, salvaguardar el planeta y garantizar la prosperidad para todos los seres vivos de la tierra, cada meta posee objetivos concretos Sin embargo, la pérdida y desperdicio de alimentos no es únicamente una inquietud social o humanitaria, sino también ambiental. Al desechar alimentos, también se desperdicia toda la energía y agua necesaria para su cultivo, recolección, transporte y empaquetado. De acuerdo con información reciente, el despilfarro y la pérdida alimentaria generaron entre el 8 % y el 10 % de las emisiones globales de gases de efecto invernadero (GEI) y una significativa disminución de la biodiversidad al tomar casi un tercio de las tierras agrícolas a nivel global, representando un gasto cercano a 1 billón de dólares Una manera de disminuir la pérdida y desperdicio de alimentos es mediante la preservación y conservación de alimentos, esto ayuda a minimizar el derroche y garantizar un uso más eficaz de los recursos, entre los métodos de conservación más destacados se incluyen: la conservación en frío, que inhibe los agentes alterantes (algunos de manera total y otros de forma parcial), lo que facilita la preservación de alimentos a largo plazo y el tratamiento térmico, cuyo objetivo es neutralizar o aniquilar los agentes patógenos Estas fuentes de energía verde no solo contribuyen a disminuir los GEI (Gases de Efecto Invernadero), sino que además fomentan la autonomía energética y disminuyen la contaminación, aportando al séptimo objetivo "energía asequible y no contaminante" de los objetivos de desarrollo sostenible La implementación de energías renovables demanda el uso de sistemas de control sofisticados para asegurar su eficiencia y estabilidad</texto>
+      </seccion>
+      <seccion>
+        <titulo>Objetivos específicos</titulo>
+        <texto>1. Desarrollar una base de datos experimental de secado solar de productos alimenticios. 2. Desarrollar y optimizar un modelo de red neuronal para predecir las variables de temperatura, humedad relativa así como la cinética de secado. 3. Evaluación, mediante pruebas experimentales, del rendimiento de la red neuronal desarrollada utilizando los indicadores R 2 , RM SE y M AP E.</texto>
+      </seccion>
+      <seccion>
+        <titulo>CAP ÍTULO 2</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>SECADO SOLAR</titulo>
+        <texto>El secado es un proceso en el que intervienen los mecanismos de transferencia de calor y transferencia de masa, para eliminar la humedad de los alimentos, lo que permite la inhibición del crecimiento de microorganismos y bacterias que pueden causar su deterioro e intoxicación alimentaria</texto>
+      </seccion>
+      <seccion>
+        <titulo>Generalidades del Secado</titulo>
+        <texto>El secado es un método esencial para preservar los alimentos y tal vez el más antiguo. Se refiere a la acción que contribuye a disminuir la humedad en los alimentos hasta alcanzar una condición en la que el material alimentario no puede ser deteriorado por microorganismos, esto a causa de la actividad del agua (a w ), que representa la disponibilidad de agua libre en un producto para propiciar reacciones químicas, crecimiento microbiano y germinación de esporas donde: p: presión parcial del vapor de agua sobre el producto húmedo a una temperatura específica p o : presión parcial del agua pura en saturación y a la misma temperatura Los estilos de secado se pueden clasificar en función del tipo de secado o en función de la circulación del aire por convección natural o convección forzada (secadores pasivos o secadores activos)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Secado solar</titulo>
+        <texto>La forma más antigua de conservar alimentos es el secado solar. Desde hace miles de años, la humanidad ha utilizado la energía solar para secar productos perecederos, lo que permite la conservación natural de una gran variedad de alimentos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Secado solar tecnificado</titulo>
+        <texto>Para solucionar los problemas del secado solar tradicional se ha tecnificado el proceso de secado, obteniendo sistemas donde la energía solar puede utilizarse como fuente principal de energía (secador solar) o como fuente adicional (secador híbrido). El secador solar híbrido está diseñado para superar las limitaciones del secado solar tradicional, como la dependencia de las condiciones climáticas y la vulnerabilidad a factores ambientales</texto>
+      </seccion>
+      <seccion>
+        <titulo>Clasificación del secado solar</titulo>
+        <texto>Según los autores, Patil y Gawande proponen una clasificación general donde el principal distintivo es el tipo de convección, sea convección natural, también denominados sistemas pasivos o de circulación natural, o convección forzada, también conocidos como sistemas activos.  Sin embargo, Ekechukwu y Norton los clasifican principalmente en la disposición del diseño de los componentes del sistema y el modo de utilización de la energía solar. Figura 2.2 Figura 2.2: Clasificación de secadores solares según Ekechukwu y Norton</texto>
+      </seccion>
+      <seccion>
+        <titulo>Secadores del tipo convección natural</titulo>
+        <texto>En los secadores solares de convección natural (pasivos), el aire se calienta y se mueve de manera natural gracias a la fuerza de flotación o a la presión del viento, o a una combinación de ambos. Un secador solar de convección natural típico se compone de una cámara recubierta de vidrio, en la cual el aire es calentado mediante la irradiancia solar. Esta cámara también funciona como cámara de secado y está conectada a una chimenea. Por lo general, son económicos, se construyen con materiales disponibles localmente y no dependen de la red eléctrica. Los secadores pasivos están diseñados para secar pequeñas cantidades de frutas y verduras, ya que requieren menos espacio en comparación con otros métodos de secado El proceso de secado mediante convección natural (o secado pasivo) produce el flujo de aire a través de fuerzas de flotación</texto>
+      </seccion>
+      <seccion>
+        <titulo>Secadores del tipo convección forzada</titulo>
+        <texto>En los secadores de convección forzada (también llamados secadores activos), el aire fluye a través de un ventilador o soplador eléctrico, que funciona con energía eléctrica</texto>
+      </seccion>
+      <seccion>
+        <titulo>Secadores solares híbridos</titulo>
+        <texto>Los secadores solares híbridos combinan la energía solar con sistemas de calefacción eléctricos o de combustibles fósiles. Figura 2.5 pueden tener ventiladores adicionales para garantizar la circulación del aire, funcionando en modo de convección forzada y pueden utilizar el aire calentado por energía solar y, en caso de no ser suficiente, se recurre a la calefacción operada por energía eléctrica o combustibles fósiles para alcanzar las temperaturas necesarias, como ocurre en la noche o en épocas de baja insolación, como las temporadas de lluvias. Este sistema se controla automáticamente para mantener las condiciones de secado adecuadas</texto>
+      </seccion>
+      <seccion>
+        <titulo>Secadores Activos</titulo>
+        <texto>Independiente del clima y condiciones ambientales Más sofisticados y caros que los secadores pasivos Períodos de secado más cortos que los secadores pasivos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Secadores Solares Híbridos</titulo>
+        <texto>Permitir un mejor control del secado. Más costoso y puede causar dependencia del combustible/gas. La capacidad de operar sin sol reduce la pérdida de producto. Puede ser más rápido que un secador tipo pasivo y activo. Tabla 2.1: Ventajas y desventajas de los diferentes tipos de secadores solares</texto>
+      </seccion>
+      <seccion>
+        <titulo>Contenido de humedad</titulo>
+        <texto>La calidad de los productos está influenciada por el contenido y estado del agua, tanto libre como ligada, en productos alimentarios y no alimentarios. El método analítico más frecuente en el procesamiento de alimentos es el "contenido de humedad" el cual se refiere a la cantidad de agua en alimentos y otras sustancias El contenido de humedad presente en un producto puede expresarse de dos maneras: base húmeda ( % w.b) y base seca ( % d.b).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Base Húmeda</titulo>
+        <texto>Utilizando base húmeda, los kg de agua por kg de materia es denotado como "m". y se calcula de la siguiente manera</texto>
+      </seccion>
+      <seccion>
+        <titulo>Base seca</titulo>
+        <texto>En base seca, los kg de agua por kg de materia seca de producto se denotan como "M " y se calculan de la siguiente manera: M = contenido de humedad en base seca (db) m w = masa de agua en el producto m d = masa de material seco del producto Algunos autores representan el contenido de humedad de cualquier material preferentemente en base seca, mientras que para los productos agrícolas, se muestra en base húmeda La manera de determinar el contenido de humedad en un material o producto puede realizarse mediante diversas técnicas, siendo el método más habitual para determinar el contenido de humedad el secado en horno (Figura 2.6). En este procedimiento, se elige un pequeño volumen del producto para ser usado como muestra y se calienta en un horno a una presión y temperatura determinadas hasta que la humedad se disipa totalmente. El peso calculado es el peso en seco, mientras que la pérdida de peso se refiere a la cantidad de humedad presente (a) Inicio de la prueba (b) Final de la prueba Figura 2.6: Analizador de humedad</texto>
+      </seccion>
+      <seccion>
+        <titulo>Curvas de secado</titulo>
+        <texto>Las características de secado de cualquier producto se pueden explicar con el uso de tres curvas trazadas 1. Variación del contenido de humedad en función del tiempo 2. Velocidad de secado en función del tiempo 3. Tasa de secado en función del tiempo del contenido de humedad</texto>
+      </seccion>
+      <seccion>
+        <titulo>Cinéticas de secado</titulo>
+        <texto>La cinética del secado se centra en cómo cambia la cantidad promedio de humedad con el tiempo. Por lo tanto, la cinética del secado aborda aspectos como la cantidad de humedad evaporada, el tiempo de secado, el consumo energético, entre otros</texto>
+      </seccion>
+      <seccion>
+        <titulo>Curvas de velocidad de secado</titulo>
+        <texto>Durante el proceso de secado, el cambio en el contenido de humedad de un producto se establece con el transcurso del tiempo y se representa a través de una curva. Esta curva detalla la disminución en la humedad de un producto y se determina la velocidad de secado correspondiente. La curva de secado varía de un producto a otro, ya que se basa principalmente en el tipo de material y su estructura Figura 2.7: Curvas de velocidad de secado Periodo de velocidad constante (1-2): La superficie del producto se encuentra saturada y el desplazamiento de la humedad ocurre a través de una difusión a una velocidad constante. Primer periodo de velocidad descendente (2-3): La humedad del producto llegó a su nivel crítico de humedad y la superficie del producto carece de humedad suficiente para que se evapore con facilidad. El producto se seca de manera continua, formando una línea recta. Segundo periodo de velocidad descendente (3-4): La superficie del producto se encuentra prácticamente seca y la transferencia de humedad desde el interior hacia su superficie ocurre a una velocidad constante.</texto>
+      </seccion>
+      <seccion>
+        <titulo>CAP ÍTULO 3</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>REDES NEURONALES ARTIFICIALES</titulo>
+        <texto>Las redes neuronales biológicas están constituidas por hasta 10 11 neuronas conectadas entre sí, conformando el sistema nervioso y el cerebro. Tomando como base esta inspiración biológica, se han desarrollado sistemas inteligentes basados en modelos simplificados de las redes neuronales biológicas, estos sistemas procesan la información de forma no convencional y no requieren modelos de referencia, dando lugar a las redes neuronales artificiales</texto>
+      </seccion>
+      <seccion>
+        <titulo>Concepto de una RNA</titulo>
+        <texto>Una red neuronal artificial (RNA o ANN por sus siglas en inglés) es un modelo computacional cuya estructura trata de asemejarse a la estructura de las neuronas cerebrales (neuronas biológicas). Una RNA puede aprender de datos con los cuales se entrena para reconocer patrones, clasificar o pronosticar eventos futuros Donde φ representa una función de activación y estas pueden ser de tipo escalón o umbral, lineal a tramos, sigmoidal, trigonométricas, etc</texto>
+      </seccion>
+      <seccion>
+        <titulo>Arquitectura de redes neuronales</titulo>
+        <texto>En términos generales, existen tres clases distintas de arquitecturas neuronales que se pueden identificar. Estas son redes neuronales unicapa, redes neuronales multicapa y redes neuronales recurrentes</texto>
+      </seccion>
+      <seccion>
+        <titulo>Diseño de una red neuronal</titulo>
+        <texto>En 1997, David H. Wolpert y William G. Macready demostraron a través de su renombrado teorema, "No Free Lunch Theorems for Optimization", que no existe un algoritmo de optimización que sea universalmente superior para abordar todos los problemas de optimización existentes 1. Restringir la arquitectura de la red, lo que se logra mediante el uso de conexiones locales conocidos como campos receptivos 2. Restringir la elección de pesos sinápticos, que se implementa mediante el uso de peso compartido Aplicando estas dos técnicas se podría reducir significativamente el número de parámetros libres, no obstante, el espacio de todas las arquitecturas neuronales posibles es vasto, ya que incluye combinaciones infinitas de capas, conexiones y funciones. Este espacio es comparable en magnitud al espacio de todas las funciones diferenciables que pueden ser representadas por estas arquitecturas</texto>
+      </seccion>
+      <seccion>
+        <titulo>Proceso de aprendizaje</titulo>
+        <texto>Como se mencionó anteriormente, las redes neuronales artificiales (RNA) surgen de una inspiración biológica y lo mismo ocurre con el proceso de aprendizaje, así como para los humanos existen diferentes maneras de aprender algo, en las redes ocurre lo mismo y estas se pueden clasificar según el autor en dos categorías</texto>
+      </seccion>
+      <seccion>
+        <titulo>Aprendizaje supervisado</titulo>
+        <texto>El aprendizaje supervisado o aprendizaje a partir de ejemplos consiste en el uso de datos o conjuntos de datos previamente etiquetados, acompañados de la salida correcta para enseñar o entrenar algoritmos y de esta manera ser capaz de replicar la salida de la forma más parecida a la deseada. Este tipo de aprendizaje es utilizado en el aprendizaje memorístico (rote learning), diferentes modelos de clasificación como las listas o árboles de decisión, máquinas de vector de soporte (SVM), Naive Bayes, regresión logística o lineal, Bosque aleatorio, K vecino más cercano. Métodos que se caracterizan por su principal enfoque en categorizar datos en clases o categorías predefinidas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Aprendizaje no supervisado</titulo>
+        <texto>El aprendizaje no supervisado, también conocido como aprendizaje por observación o "sin profesor", consiste en el uso de datos o conjuntos de datos sin etiqueta. Es aquí donde se observa la principal diferencia con el aprendizaje supervisado. En este tipo de aprendizaje, se busca que el sistema sea capaz de encontrar patrones y relaciones por sí solo, sin que exista información adicional o la "supervisión", obligando al sistema a decidir sobre cómo agrupar o clasificar los datos del conjunto de entrenamiento.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Aprendizaje reforzado</titulo>
+        <texto>Este tipo de aprendizaje proviene de una de las formas mediante la cual animales y algunos humanos aprenden, el aprendizaje animal implica alterar su conducta basándose en la información obtenida de su entorno, lo que les permite prever situaciones futuras y adaptar su comportamiento. Siguiendo con el comportamiento animal, la mejor forma de describir este proceso de aprendizaje es con una situación común, cuando nuestra mascota hace algo bien, normalmente se le felicita, con una caricia o algún premio, en cambio, si se comporta de una forma no deseada, se le suele regañar o castigar, regresando al aprendizaje automático este se puede describir como un aprendizaje a prueba y error, en el cual, tras una experimentación exitosa, se recompensa a la red (refuerzo positivo); en el caso de fallar, se penaliza (refuerzo negativo). Realimentando la red, el refuerzo positivo es la señal que sirve como señal de su-pervisión, por lo tanto, este tipo de aprendizaje puede clasificarse en un aprendizaje de tipo supervisado</texto>
+      </seccion>
+      <seccion>
+        <titulo>El perceptrón</titulo>
+        <texto>El perceptrón es considerado por diferentes autores como la forma más simple de una red neuronal, siendo ampliamente utilizado en la clasificación de patrones linealmente separables. En 1958, Rosenblatt propone el perceptrón, dando inicio al primer modelo basado en el aprendizaje supervisado. Este método se basa en una sola neurona con pesos ajustables y un umbral, (donde los pesos se refieren a valores numéricos asignados a cada conexión entre las entradas y la neurona del perceptrón, y el umbral o bias es un valor adicional utilizado para ajustar la salida antes de la aplicación de la función de activación) lo que permite determinar si un patrón dado pertenece a una clase en particular o no. Teniendo como principal objetivo lograr una correcta separación de los diferentes patrones a través de un hiperplano o dicotomía, permitiendo clasificarlos de manera eficiente y precisa donde el algoritmo de aprendizaje del perceptrón consiste en:</texto>
+      </seccion>
+      <seccion>
+        <titulo>El perceptrón multicapa</titulo>
+        <texto>En el libro de Minsky y Papert (1969) se presentaba un análisis detallado del perceptrón, causando un estancamiento en el desarrollo de las redes neuronales artificiales causado por su mayor desventaja presentada por Minsky y Papert, siendo esta su falta de habilidad para solucionar problemas de clasificación que no sean separables linealmente, y no fue hasta cinco años después, en 1974, cuando P. Werbos desarrolló el perceptrón multicapa, el cual permite resolver este problema 1. La red posee una función de activación lineal o no lineal en su modelo. 2. La red alberga una o varias capas ocultas entre la capa de entrada y la capa de salida. 3. La red muestra un elevado nivel de conexión, cuyo rango se determina por los pesos sinápticos de la red. Sin embargo, estas características son responsables de las deficiencias que tiene el perceptrón multicapa. La existencia de una forma distribuida de no linealidad y la elevada interconexión de la red dificultan la realización de un análisis teórico de un perceptrón multicapa. De la misma manera, la utilización de neuronas o capas ocultas complica la visualización del proceso de aprendizaje Capa de entrada 1 a capa oculta y Capa de salida 2 a capa oculta Capas ocultas Figura 3.3: Modelo de una red neuronal del tipo perceptrón multicapa La función de las neuronas ocultas es actuar como detectores de características que desempeñan un papel fundamental. A medida que avanza el proceso de aprendizaje, las neuronas empiezan a "descubrir" características fundamentales caracterizando los datos de entrenamiento. Esto se realiza mediante una transformación no lineal de los datos de entrada, creando un nuevo espacio denominado "espacio de características". En este espacio, se simplifica el proceso de clasificación patrones, debido a que esto se lleva a cabo mediante una transformación no lineal de los datos, resultaría inviable utilizar un perceptrón simple para tal propósito</texto>
+      </seccion>
+      <seccion>
+        <titulo>Aprendizaje por lotes</titulo>
+        <texto>En el método por lotes de aprendizaje supervisado, los ajustes a los pesos de las conexiones en una red neuronal de perceptrón multicapa se realizan después de presentar todos los ejemplos del conjunto de entrenamiento, lo cual se considera una "época" de entrenamiento. En otras palabras, la función de costos en este método se basa en el error promedio, calculado sobre todos los ejemplos del conjunto. Los ajustes en los pesos de la red se hacen al final de cada época, en lugar de después de cada ejemplo individual. Así, se puede observar la evolución del aprendizaje de la red trazando el valor del error promedio frente al número de épocas de entrenamiento.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Aprendizaje en línea</titulo>
+        <texto>Este es un método de aprendizaje supervisado en el que los ajustes de los pesos sinápticos de la red neuronal se realizan después de cada ejemplo de entrenamiento, en lugar de procesar todo el conjunto de datos o al final de cada época como ocurre en el aprendizaje por lotes. Esto permite a la red actualizar los pesos continuamente ajustándolos de manera más rápida y dinámica, adaptándose a nuevos datos de manera inmediata. Dado que los datos de entrenamiento se presentan a la red de forma aleatoria, el uso del aprendizaje en línea facilita la búsqueda en el espacio de peso multidimensional de naturaleza estocástica, es por esta razón que el método de aprendizaje en línea a veces es denominado método estocástico. Esta estocasticidad tiene el efecto deseable de hacer menos probable que el proceso de aprendizaje quede atrapado en un mínimo local, ventaja sobre el aprendizaje por lotes</texto>
+      </seccion>
+      <seccion>
+        <titulo>Generalización</titulo>
+        <texto>La generalización se refiere a la capacidad de las redes neuronales artificiales para aplicar el conocimiento adquirido durante la fase de entrenamiento a un conjunto de datos nuevos que no fueron utilizados para el entrenamiento. En otras palabras, cómo la red neuronal puede predecir o clasificar adecuadamente las entradas nuevas que no forman parte del conjunto de entrenamiento previo</texto>
+      </seccion>
+      <seccion>
+        <titulo>Algoritmos Bio-Inspirados</titulo>
+        <texto>Los algoritmos bio-inspirados son un tipo de algoritmo computacional inspirado en la naturaleza como los procesos y sistemas biológicos, para resolver problemas en áreas como la optimización, búsqueda, clasificación, aprendizaje automático entre otros</texto>
+      </seccion>
+      <seccion>
+        <titulo>Algoritmos Genéticos</titulo>
+        <texto>Los algoritmos genéticos (AG) también conocidos como algoritmos evolutivos (AE) son técnicas adaptativas empleadas para solucionar problemas relacionados con optimización y búsqueda. Se fundamentan en los procesos genéticos de los seres vivos. Charles Darwin en el origen de las especies estableció por primera vez que las poblaciones naturales a lo largo de generaciones evolucionan de acuerdo con los principios de selección natural y "supervivencia del más apto". Siguiendo estos principios, los algoritmos genéticos pueden imitar este proceso y crear soluciones a problemas del mundo real</texto>
+      </seccion>
+      <seccion>
+        <titulo>Optimización de enjambre de partículas</titulo>
+        <texto>La optimización de enjambre de partículas (PSO por sus siglas en inglés) fue presentada por primera vez por Kennedy y Russell donde: v i (t): Velocidad de la partícula i en el instante t. ω: Factor de inercia o peso de inercia, controla la exploración global frente a la explotación local. Ω: peso de inercia, que disminuye linealmente P ibest y P gbest : Representan la mejor posición visitada por una partícula y la mejor posición visitada por el enjambre antes de la iteración actual t, respectivamente. La actualización de la posición se aplica mediante la ecuación 3.5 en función de la nueva velocidad y la posición actual. x i (t + 1) = x i (t) + v i (t + 1) (3.5) donde: x i (t): Posición de la partícula i en el instante t.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Colonias de abejas artificiales</titulo>
+        <texto>Karaboga presentó el algoritmo ABC (artificial bee colony algorithm) por primera vez en 2005, este algoritmo se basa en el comportamiento de las abejas cuando buscan alimento 1. Empleadas: abejas alimentadas por una fuente de alimento 2. Observadoras: abejas que observan cómo bailan las otras abejas y eligen fuentes de alimento basándose en cómo bailan. 3. Exploradoras: abejas que abandonan su fuente de alimento para encontrar otra. Cada fuente de alimento es una posible solución al problema de optimización y, como en la naturaleza, es más probable que las personas se sientan atraídas por fuentes con una mayor cantidad de alimento</texto>
+      </seccion>
+      <seccion>
+        <titulo>Algoritmos evolutivos para el entrenamiento de redes neuronales</titulo>
+        <texto>Como se indicó previamente, la estructura o topología de una red neuronal artificial es esencial para establecer su capacidad de aprendizaje y generalización. Una red con escasas neuronas puede enfrentar un gran desafío al aprender una tarea (Underfitting), sin embargo, tener demasiadas neuronas puede adaptar excesivamente su salida a los patrones de entrenamiento (Overfitting), lo que disminuye su habilidad para generalizar ante nuevos patrones. Una de las técnicas más usadas para seleccionar la arquitectura es mediante un proceso de prueba y error, variando los parámetros hasta obtener el desempeño deseado Existen métodos como aproximaciones automáticas, como los algoritmos incrementales, el cual comienza con una red neuronal pequeña y va agregando neuronas o capas conforme a los criterios establecidos, o el método pruning, el cual hace todo lo contrario; empieza con una red neuronal gigante y va eliminando conexiones</texto>
+      </seccion>
+      <seccion>
+        <titulo>Elección de los pesos iniciales</titulo>
+        <texto>En diversos experimentos, Thimm y Fiesler descubrieron que la inicialización de los pesos de una red neuronal es esencial para conseguir una convergencia rápida en las redes neuronales del tipo MLP, dado que los resultados del entrenamiento de la red se determinan por el punto del espacio de búsqueda del que se inicie</texto>
+      </seccion>
+      <seccion>
+        <titulo>Elección de la arquitectura de la red</titulo>
+        <texto>El diseño de la arquitectura de una red neuronal artificial es importante debido a que esta definirá su capacidad de aprendizaje y generalización. La elección puede trabajarse como un problema de búsqueda en el espacio de todas las arquitecturas limitadas para cada problema donde cada punto representa una arquitectura de red posible</texto>
+      </seccion>
+      <seccion>
+        <titulo>Evolución de la regla de aprendizaje</titulo>
+        <texto>Se basa en el uso de algoritmos genéticos para el ajuste de los parámetros como la tasa de aprendizaje y el momento</texto>
+      </seccion>
+      <seccion>
+        <titulo>El control en el proceso de secado</titulo>
+        <texto>El control en el proceso de secado tiene como objetivo mantener las condiciones operacionales lo más cercanas posible a los puntos de consigna, compensando cualquier desviación potencial. En la mayoría de los casos, el resultado objetivo es el contenido de humedad final, y la variación en el contenido de humedad final determina el desempeño del control. La Figura 3.6 muestra la estructura del control universal asistido por computadora que utiliza dos circuitos de retroalimentación de proceso y producto Figura 3.6: Estructura de un sistema de control centrada en la calidad del producto. Los sistemas de control asistidos por computadora constan de dos partes diferenciadas, el controlador, el cual ajusta las condiciones del proceso en función del observador para obtener la calidad deseada, y el observador, el que observa y colecta información acerca de las variables del proceso o los cambios en la calidad del producto. Para lograr atributos de calidad deseables (contenido de humedad, tamaño, color y textura) del producto seco. El sistema de control se vuelve sensible a los cambios en la calidad de los alimentos a través de parámetros de calidad monitorizados por sensores, como resultado, el sistema de control ajusta los parámetros operativos en relación con la calidad del producto, y el objetivo general del proceso de secado sería mantener el producto dentro de especificaciones de calidad estrictas. El sistema de control utiliza esta retroalimentación, empleando algoritmos como lo son ON/OFF, un proporcional-integral-derivado (PID) o neuro-difuso, siendo estos sistemas de control tradicionales</texto>
+      </seccion>
+      <seccion>
+        <titulo>Control inteligente</titulo>
+        <texto>Cuando vamos a secar un producto, se tiene una incertidumbre sobre las características estructurales de cada alimento y esto genera una incertidumbre sobre su comportamiento ante las diferentes condiciones operacionales del secador. Mismas que tienen un efecto particular sobre la cinética de secado, es decir, sobre su comportamiento ante diferentes condiciones de secado y cuando se empiezan a tener este tipo de incertidumbres, cuando las características no son siempre las mismas, o el medio ambiente nos puede generar perturbaciones, todas estas no linealidades hacen que un sistema de control tradicional como lo sería un PID quede descartado, ya que no podría lidiar con estas no linealidades, ocasionando un muy alto error. Es por eso que las redes neuronales se han establecido como una técnica para el modelado y control de sistemas lineales o no lineales, permitiendo solucionar una gran cantidad de problemas con una misma técnica. Esto ha ocasionado un aumento de popularidad debido a su gran número de aplicaciones, siendo el control uno de los beneficiados. En muchos casos, se puede combinar el control tradicional y el control inteligente para optimizar un controlador existente. Esto presenta algunas ventajas y desventajas, como ventajas tenemos, su facilidad y gradual implementación, la mejora significativa en el seguimiento sin un aumento significativo en el ruido, en cuanto a sus desventajas se requiere un controlador tradicional estabilizante en lazo cerrado, no se reduce el efecto de perturbaciones en el sistema</texto>
+      </seccion>
+      <seccion>
+        <titulo>. Productos a secar</titulo>
+        <texto>Para la obtención de datos de secado se obtuvo de manera experimental el proceso de secado de diferentes alimentos, con un intervalo de tiempo de 5 min. esto con el objetivo</texto>
+      </seccion>
+      <seccion>
+        <titulo>Adquisidor de datos</titulo>
+        <texto>El sistema está conformado por cuatro sondas diseñadas para medir la temperatura y la humedad relativa dentro de la cámara de secado. Dichas sondas se encuentran distribuidas a lo largo del túnel en intervalos de 40 cm (Figura 4.3), compartiendo el mismo bus de comunicación con tres celdas de carga. Estas celdas de carga se calibran utilizando un peso certificado de 300 g y son puestas a cero antes de cada ensayo (Figura 4.3).     Para el proceso de predicción, los datos recopilados en el paso previo se emplearán como conjunto de entrenamiento, por tanto, para llevar a cabo esta tarea, el primer paso en todo diseño neuronal corresponde a la selección de entradas y salidas Entradas Salidas</texto>
+      </seccion>
+      <seccion>
+        <titulo>RNA 1</titulo>
+        <texto>Temperatura ambiente Humedad Relativa ambiente Irradiancia Solar Temperaturas y humedades dentro de la cámara de secado</texto>
+      </seccion>
+      <seccion>
+        <titulo>RNA 2</titulo>
+        <texto>Temperatura ambiente Humedad Relativa ambiente Irradiancia Solar Temperatura del aire dentro de la cámara de secado Humedad Relativa dentro de la cámara de secado Peso inicial total Peso inicial en cada báscula Producto Cinética de secado por cada báscula Tabla 4.6: Entradas y salidas del modelo neuronal Para el diseño de la arquitectura de la red neuronal, se realizó de dos maneras, la primera mediante un análisis paramétrico, y la segunda utilizando algoritmos evolutivos. Como primer caso se evaluaron 4 arquitecturas de red: Patternnet, Feedforwardnet, Cascadeforwardnet y Fitnet, las cuales se describen a continuación [73, 1. Patternnet: Son redes enfocadas al reconocimiento de patrones, son prealimentadas y pueden ser entrenadas para asignar entradas a clases particulares. se caracterizan por los datos objetivo ya que deben consistir en vectores donde todos sus valores sean cero, a excepción de un único elemento, el cual está en la posición i, para denotar la clase que representan. 2. Feedforwardnet: Se componen de múltiples capas, donde la capa inicial establece una conexión directa con la entrada de la red. Cada capa subsiguiente se enlaza con la que la precede, hasta que las capas finales producen la salida de la red. Estas redes son versátiles, apropiándose de cualquier aplicación que necesite una relación de entrada a salida definida. Una red feedforward que incorpora una capa intermedia junto con una cantidad adecuada de neuronas en las capas ocultas puede adaptarse a cualquier problema que requiera la correspondencia entre entradas y salidas de aplicación. 3. Cascadeforwardnet: Estas redes muestran similitudes con las redes Feedforwardnet convencionales, pero integran enlaces adicionales desde la entrada y cada una de las capas previas hacia las capas subsecuentes. Una red en cascada compuesta por dos o más capas es capaz de aprender cualquier relación finita entre entrada y salida con elevada precisión, siempre que cuente con un número adecuado de neuronas ocultas. 4. Fitnet:Consiste en una red neuronal multicapa clásica caracterizada por la presencia de capas ocultas y una capa de salida lineal, utilizada para tareas de regresión y ajuste de curvas. Con el mismo conjunto de datos y los mismos parámetros, únicamente variando la arquitectura, mismas que fueron evaluadas y se mantuvieron las que presentaron un mejor rendimiento para seguir con las siguientes etapas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>EV del rendimiento de la RNA</titulo>
+        <texto>Se evaluó la cercanía entre los valores obtenidos reales y las proyecciones del modelo mediante el coeficiente de determinación (R 2 ) (Ec. 4.1 ), el error cuadrático medio (RMSE) (Ec. 4.2) y el error absoluto medio porcentual (MAPE) (Ec. 4.3), que se utilizan habitualmente en aplicaciones de aprendizaje automático donde: SCE es la suma de cuadrados de error SCR es la suma de cuadrados de regresión ción y diseño de arquitecturas de redes neuronales Para ambos casos el proceso del AG es representado en la Figura 4.9 donde para el caso de nuestro primer código la población corresponde a un número de capas ocultas y neuronas para cada capa oculta y para el segundo la población representa los pesos iniciales de la red neuronal. Inicio En la Figura 5.1, se ilustra la variación de la humedad libre en diferentes alimentos a lo largo del tiempo. En alimentos como la carne de res (Figura 5.1e), la manzana de Canatlán (Figura 5.1a) y el limón agrio (Figura 5.1b), se detectó una disminución significativa de la humedad durante las dos primeras horas. Por el contrario, productos como la uva globo rojo (Figura 5.1d) y el chile poblano (Figura 5.1f) requirieron un periodo más prolongado en su proceso de secado. Aunque la humedad libre inicial es distinta entre todos los tratamientos, se puede apreciar que la curva de secado de la manzana de Canatlán (Figura 5.1a) guarda similitudes con la del limón agrio (Figura 5.1b). El equilibrio de humedad de una muestra, a una temperatura y humedad del aire determinadas, se alcanza cuando el contenido de humedad del material no presenta cambios apreciables con el tiempo de procesamiento. Esto se logró en algunos alimentos como la uva globo rojo (Figura 5.1d), mientras que en otros, como el limón agrio (Figura 5.1b), no se alcanzó tal estado. Las cinéticas de secado mencionadas se llevaron a cabo como parte del proceso de entrenamiento de la red neuronal. No obstante, en la Figura 5.1, únicamente se ilustran las cinéticas correspondientes a una balanza y a una sola prueba para aquellos alimentos que fueron sujetos a pruebas repetidas. Asimismo, los alimentos como la uva globo rojo (Figura 5.1d) y el chile poblano (Figura 5.1f) experimentaron dificultades en la adquisición de datos debido a interrupciones en la conexión wifi, lo que dio lugar a caídas abruptas en el registro de peso. A continuación se presentan las cinéticas de secado de cada producto evaluado:</texto>
+      </seccion>
+      <seccion>
+        <titulo>Algoritmo evolutivo</titulo>
+        <texto>El algoritmo evolutivo utilizado se describe en la Figura 4.9, utilizando el elitismo entre individuos para la reproducción se realizaron 8, 066 entrenamientos para el desarrollo de la RNA 1 y 5, 475 para el entrenamiento de la RNA 2, ambas con la configuración mostrada en la Tabla 5.3.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Desempeño del modelo RNA 2 en pruebas experimentales</titulo>
+        <texto>Considerando que el objetivo de la RNA 2 es predecir la pérdida de peso de diversos alimentos en función del tiempo, se llevaron a cabo 2 pruebas experimentales. El tercer experimento corresponde al 15 de octubre de 2024 con las siguientes condiciones mostradas en la Tabla 5.10, experimento en el cual se optó por secar carne de res.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Condiciones</titulo>
+        <texto>Estado Carga de la cámara Carne de res Velocidad promedio del aire dentro de la cámara 1.5 m/s Flujo volumétrico de agua en los calentadores solares de agua (CSA) 7 L/min Tabla 5.10: Condiciones experimento 3 Así mismo, las condiciones climáticas durante el experimento se encuentran en la siguiente    Aunque se obtuvo una estimación bastante precisa, durante la duración de este experimento se produjo una interrupción en el servicio de internet. Como se observa en la Figura 5.21, ocurrió una disminución en el peso debido a la pérdida de comunicación con el servidor, resultado del problema de conectividad. A pesar de la pérdida de datos, esto no afecta la evaluación del modelo, manteniéndose un margen de error por debajo del 2 %. CAP ÍTULO 6</texto>
+      </seccion>
+      <seccion>
+        <titulo>Trabajo Futuro</titulo>
+        <texto>Desarrollar una base de datos más robusta que abarque una variedad de secadores, incluyendo los de tipo solar, híbrido, convencionales, entre otros, con diversas geometrías, tipo túnel, tipo invernadero, etcétera. Ubicados en diferentes zonas geográficas con el objetivo de comprobar hasta dónde llega la capacidad de generalización de las redes neuronales y confirmar si es posible predecir el comportamiento de un secador en otras ubicaciones geográficas y condiciones climáticas, mismas que afectan el comportamiento de los secadores. Al integrar estos datos al modelo neuronal, este podría mejorar significativamente las aplicaciones y alcances del mismo. Para mejorar la base de datos, es necesario el refinamiento de los sistemas de adquisición de datos, especialmente el de peso, esto con el propósito de obtener datos de cinéticas de secado sin ruido en las lecturas o perturbaciones de las mismas. Por otro lado, también es importante la integración del modelo neuronal en modelos de control ya establecidos, para mejorar el error de los controles tradicionales o en secadores donde no exista algún sistema de control. Con el objetivo de optimizar y automatizar el proceso de secado utilizando estrategias de aprendizaje y predicción.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Lista de publicaciones</titulo>
+        <texto />
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia />
+    <referencia>
+      <titulo>Secadores del tipo</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Secadores del tipo convección forzada</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Algoritmos evolutivos para el entrenamiento de redes neuronales</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <autores>
+        <autor>Metodología</autor>
+      </autores>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Diseño de la arquitectura para una RNA</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>3.1. Desempeño del modelo RNA 1 en pruebas experimentales</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Desempeño del modelo RNA 2 en pruebas experimentales</titulo>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Conclusiones</autor>
+      </autores>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Clasificación de secadores solares según Ekechukwu y Norton [11]</titulo>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Secador solar de convección forzada [11, 45]</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Representación de un perceptrón Fuente</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Página web alojada en los servidores del CIMAV (link)</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Analisis de sensibilidad para RNA</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Configuración para el algoritmo evolutivo</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Parámetros evaluados experimento 1</titulo>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Parámetros evaluados experimento 2</titulo>
+    </referencia>
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia />
+    <referencia>
+      <titulo>Objetivos y metas de desarrollo sostenible. es</titulo>
+      <autores>
+        <autor>Maria Gamez</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Objetivo 2: Poner fin al hambre</titulo>
+      <autores>
+        <autor>Maria Gamez</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>El mundo desperdicia más de 1.000 millones de platos de comida al día</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Pérdida y desperdicio de alimentos</titulo>
+      <autores>
+        <autor>Fao</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Thermal performance of a passive, mixed-type solar dryer for tomato slices (Solanum lycopersicum)))</titulo>
+      <autores>
+        <autor>López Vidaña</autor>
+        <autor>Erick César</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Alex Martynenko</autor>
+        <autor>Andreas Bück</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ingeniería de control moderna</titulo>
+      <autores>
+        <autor>Katsuhiko Ogata</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Inteligencia artificial y energías renovables</titulo>
+      <autores>
+        <autor>N Romero</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Drying</titulo>
+      <autores>
+        <autor>Pedro Fito</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Solar Drying Technology Concept, Design, Testing, Modeling, Economics, and Environment</titulo>
+      <autores>
+        <autor>Om Prakash</autor>
+        <autor>Anil Kumar</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The thin-layer drying characteristics of corn))</titulo>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>(Caracterización y evaluación de la eficiencia térmica y de secado en un deshidratador híbrido (solar -gas))</titulo>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A comprehensive review of solar dryers incorporated with phase change materials for enhanced drying efficiency))</titulo>
+      <autores>
+        <autor>A Abuelnuor</autor>
+        <autor>Abueluor</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A logical calculus of the ideas immanent in nervous activity</titulo>
+      <autores>
+        <autor>Warren Mcculloch</autor>
+        <autor>Walter Pitts ; Warren</autor>
+        <autor>S Mcculloch</autor>
+        <autor>Walter Pitts</autor>
+      </autores>
+      <fecha>1943</fecha>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Fundamentos históricos y filosóficos de la inteligencia artificial)). En: UCV-HACER 1</titulo>
+      <autores>
+        <autor>Luis Barrera Arrestegui</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Entrenamiento de una red neuronal artificial para la predicción de la radiación solar)). En: II Congreso Argentino de Energías Sustentadles</titulo>
+      <autores>
+        <autor>D Morales</autor>
+        <autor>Martín</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Neural networks for the heat and mass transfer prediction during drying of cassava and mango))</titulo>
+      <autores>
+        <autor>J Hernández-Pérez</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Redes neuronales artificiales en predicción de series de tiempo. una aplicacion a la industria</titulo>
+      <autores>
+        <autor>R Luis Escobar</autor>
+        <autor>H Valdes</autor>
+        <autor>Santiago Zapata</autor>
+        <autor>C</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>P Dufour</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Assessing the effects of different drying methods and minimal processing on the sustainability of the organic food quality))</titulo>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>(A Review on Solar Drying Devices: Heat Transfer, Air Movement and Type of Chambers)</titulo>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Análisis comparativo de algoritmos de control pid, fuzzy y predictivo aplicado a sistemas seguidores de la posición del sol para la captación de energía solar usando paneles fotovoltaícos)). spa. Tesis de mtría</titulo>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>What is classical control and when is it better than artificial intelligence?</titulo>
+      <autores>
+        <autor>P De Vaal</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Data-driven robust model predictive control for greenhouse temperature control and energy utilisation assessment))</titulo>
+      <autores>
+        <autor>Farhat Mahmood</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Data-driven robust model predictive control for greenhouse temperature control and energy utilisation assessment))</titulo>
+      <autores>
+        <autor>Farhat Mahmood</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Deep Learning Prediction of Moisture and Color Kinetics of Apple Slices by Long Short-Term Memory as Affected by Blanching and Hot-Air Drying Conditions))</titulo>
+      <autores>
+        <autor>Zehui Jia</autor>
+        <autor>Yanhong Liu Y Hongwei</autor>
+        <autor>Xiao</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Modeling the Drying Process of Onion Slices Using Artificial Neural Networks))</titulo>
+      <autores>
+        <autor>Francik</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Artificial Neural Network Modeling Techniques for Drying Kinetics of Citrus medica Fruit during the Freeze-Drying Process)). En: Processes</titulo>
+      <autores>
+        <autor>Muhammed Emin Topal</autor>
+        <autor>Birol S ¸ahin Y Serkan</autor>
+        <autor>Vela</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Adaptive Neuro-Fuzzy Inference System and Artificial Neural Network Models for Predicting Time-Dependent Moisture Levels in Hazelnut Shells (Corylus avellana L.) and Prina (Oleae europaeae L.))) En: Processes 12</titulo>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Food y Agriculture Organization of the United Nations</titulo>
+      <fecha>1983</fecha>
+    </referencia>
+    <referencia>
+      <titulo>(Control automático de condiciones ambientales en domótica usando redes neuronales artificiales)</titulo>
+      <autores>
+        <autor>Mauricio Henríquez</autor>
+        <autor>Patricio Palma</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Food dehydration by solar energy)). En: C R C</titulo>
+      <autores>
+        <autor>D Salunkhe</autor>
+        <autor>H Bolin</autor>
+        <autor>Daryl Lund</autor>
+      </autores>
+      <fecha>1982</fecha>
+    </referencia>
+    <referencia>
+      <titulo>(A comprehensive review of the cyber-attacks and cyber-security on load frequency control of power systems)</titulo>
+      <autores>
+        <autor>M Athira</autor>
+        <autor>Nader Mohan</autor>
+        <autor>Meskin Y Hasan</autor>
+        <autor>Mehrjerdi</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Model identification and fuzzy control of the temperature inside an active hybrid solar indirect dryer))</titulo>
+      <autores>
+        <autor>Naji Abdenouri</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>CFD: An Innovative and Effective Design Tool for the Food Industry))</titulo>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Predicting and classification of software reliability using ensemble learning))</titulo>
+      <autores>
+        <autor>Getachew Mekuria</autor>
+        <autor>Habtemariam</autor>
+      </autores>
+      <fecha>2025</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Modelling and control of greenhouse system using neural networks))</titulo>
+      <autores>
+        <autor>A Manonmani</autor>
+      </autores>
+      <fecha>2018-02-03</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mathematical modeling and performance evaluations of a wood drying process using photovoltaic thermal and double-pass solar air collectors))</titulo>
+      <autores>
+        <autor>Salwa Chtioui</autor>
+        <autor>Ahmed Khouya</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Deshidratador solar y secado solar de alimentos</titulo>
+      <autores>
+        <autor>Gastronomía Solar</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Solar Drying Technology)). En: Food Engineering Reviews</titulo>
+      <autores>
+        <autor>Janjai Y B K Bala</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Experimental performance of a new design of solar dryer for drying osmotically dehydrated cherry tomatoes))</titulo>
+      <autores>
+        <autor>S Nabnean</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review on solar tunnel greenhouse drying system</titulo>
+      <autores>
+        <autor>Rajendra Patil</autor>
+        <autor>Rupesh Gawande</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review of solar-energy drying systems II: an overview of solar drying technology</titulo>
+      <autores>
+        <autor>O V Ekechukwu Y B Norton</autor>
+      </autores>
+      <fecha>1999</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Performance of various solar dryer types integrating latent heat storage for drying agricultural products: An up-to-date review))</titulo>
+      <autores>
+        <autor>Aissa Atia</autor>
+        <autor>Mohamed Teggar</autor>
+        <autor>Abdelghani Laouer</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review of solar dryers for agricultural and marine products</titulo>
+      <autores>
+        <autor>A Fudholi</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review: Water and methods employed for moisture determination in food)</titulo>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mathematical Modeling of Thin Layer Drying Kinetics and Moisture Diffusivity Study of Pretreated Moringa oleifera Leaves Using Fluidized Bed Dryer))</titulo>
+      <autores>
+        <autor>Shobhit Ambawat</autor>
+        <autor>Alka Sharma</autor>
+        <autor>Ramesh Saini</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Redes neuronales Conceptos fundamentales y aplicaciones a control autmatico</titulo>
+      <autores>
+        <autor>Edgar Nelson</autor>
+        <autor>Sánchez Camperos</autor>
+        <autor>Alma Yolanda</autor>
+        <autor>Alanís García</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The MathWorks Inc. ¿Qué es una red neuronal? 2024. url: The%20MathWorks</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Neural networks and learning machines</titulo>
+      <autores>
+        <autor>Simon Haykin Y Simon</autor>
+        <autor>S Haykin</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>No Free Lunch Theorems for Optimization</titulo>
+      <autores>
+        <autor>G David H Wolpert Y William</autor>
+        <autor>Macready</autor>
+      </autores>
+      <fecha>1997</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The nonlinearity coefficient -a practical guide to neural architecture design</titulo>
+      <autores>
+        <autor>George Philipp</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Gallant. Neural network learning and expert systems</titulo>
+      <autores>
+        <autor>I Stephen</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Redes neuronales y deep learning</titulo>
+      <autores>
+        <autor>Fernando Berzal</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Alma Alanis</autor>
+        <autor>Nancy Arana-Daniel Y</autor>
+        <autor>Carlos López-Franco</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>David Beasley</autor>
+        <autor>David Bull Y Ralph R Martin</autor>
+      </autores>
+      <fecha>1993</fecha>
+    </referencia>
+    <referencia>
+      <titulo>(Particle swarm optimization)</titulo>
+      <autores>
+        <autor>J Kennedy</autor>
+        <autor>R Eberhart</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>An idea based on honey bee swarm for numerical optimization</titulo>
+      <autores>
+        <autor>Dervis Karaboga</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Artificial bee colony algorithm: a survey</titulo>
+      <autores>
+        <autor>Chand Jagdish</autor>
+        <autor>Harish Bansal</autor>
+        <autor>Shimpi Sharma</autor>
+        <autor>Jadon Singh</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>España Castillo</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Neural network initialization))</titulo>
+      <autores>
+        <autor>G Thimm</autor>
+        <autor>E Fiesler</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Control inteligente: definición y beneficios</titulo>
+      <autores>
+        <autor>Iccsi</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Design and prediction method of dual working medium solar energy drying system))</titulo>
+      <autores>
+        <autor>Wengang Hao</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Design of an Intelligent Instrument Communication System Based on RS485 Bus))</titulo>
+      <autores>
+        <autor>Hong Kuang</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>About us -Sensirion</titulo>
+      <autores>
+        <autor>A Sensirion</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>SHT4xI -Digital 4th Gen., High-Accuracy, 16-bit, Industrial Grad, Relative Humidity and Temperature Sensor</titulo>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Load cell manufacturer, strain gauge, pressure sensor supplier -ht sensor technology co</titulo>
+    </referencia>
+    <referencia>
+      <titulo>TAL220 Parallel beam load cell</titulo>
+      <autores>
+        <autor>Ht Sensor Technology</autor>
+        <autor>Co</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>kipp &amp; zonen. History -kipp &amp; zonen</titulo>
+    </referencia>
+    <referencia>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>About espressif -espressif systems</titulo>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>2w2vc-1_seealso</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Adaptive Neuro-Fuzzy Inference System and Artificial Neural Network Models for Predicting Time-Dependent Moisture Levels in Hazelnut Shells (Corylus avellana L.) and Prina (Oleae europaeae L.))) En: Processes 12</titulo>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The MathWorks. Coeficiente de determinación (R cuadrado)</titulo>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Acerca de MathWorks. publisher: MATLAB</titulo>
+    </referencia>
+    <referencia>
+      <titulo>The MathWorks. Choose a Multilayer Neural Network Training Function</titulo>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>NeuralSens: Sensitivity Analysis of Neural Networks))</titulo>
+      <autores>
+        <autor>Jaime Pizarroso</autor>
+        <autor>José Portela</autor>
+        <autor>Antonio Muñoz</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+  </referencias>
+</tesis>

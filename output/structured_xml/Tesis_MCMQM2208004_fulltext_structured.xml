@@ -1,0 +1,1256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo />
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>Manuel Ávila López</autor>
+      <autor>Andrea Cárcamo</autor>
+      <autor>Jael Briones</autor>
+      <autor>Edgar Homero</autor>
+      <autor>Melisa Trejo</autor>
+      <autor>Armando Castillo</autor>
+      <autor>Ana Amparan</autor>
+      <autor>Assael Márquez</autor>
+      <autor>Martin Bladimir</autor>
+      <autor>Lucía Del Carmen</autor>
+      <autor>Jessica Martínez</autor>
+      <autor>Mario Hidrogo</autor>
+      <autor>Guillermo González</autor>
+      <autor>Fausto Camacho</autor>
+      <autor>Ángel Chávez</autor>
+      <autor>Claudia Osuna</autor>
+      <autor>David Castillo</autor>
+      <autor>Nayely Cortes</autor>
+      <autor>Oscar Nevárez</autor>
+      <autor>Carlos Rodríguez</autor>
+      <autor>Isaac Silvestre</autor>
+      <autor>Rodolfo Raygoza</autor>
+      <autor>Rodolfo Peraza</autor>
+      <autor>Samuel Loaiza</autor>
+      <autor>Alison Loaeza</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>Impresión 3D de celulosa</titulo>
+        <texto>La síntesis de andamios tridimensionales porosos a base de celulosa ha presentado un creciente interés científico en el área, al ser insoluble en agua, los hidrogeles de CNFs son coloides de gran interés para ser utilizados como bio-tintas imprimibles, y gracias a la manufactura aditiva se puede lograr una mejora sobre los métodos tradicionales como lo es "casting". Concretamente, la técnica de impresión DIW requiere de ciertas propiedades reológicas necesarias en las tintas de hidrogeles para su exitosa impresión y evitar que su estructura colapse, algunas de ellas son: el comportamiento de adelgazamiento por cizallamiento, una baja viscosidad (&lt;10 Pa•s) a típicas velocidades de corte (50 s -1 ), una alta viscosidad (&gt;1000 Pa•s) a bajas tazas de corte (0.01 s -1 ), y un suficiente límite elástico tal que, se cuente con un líquido tixotrópico tipo gel (G'&gt;G''). Koh J. et. al.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Crecimiento in situ de ZnO en bio-soportes de nanocelulosa impresos en 3D</titulo>
+        <texto>La Figura 19 resume las condiciones de síntesis y muestra mediante imágenes de SEM los recubrimientos y morfologías de ZnO obtenidas sobre los bio-soportes impresos en 3D basados en hidrocoloides de nanocelulosa a partir de las formulaciones "geles de CNFs" y "geles de CNFs/precursor de Zn". Inicialmente, los impresos se entrecruzaron con CaCl2 al 2% conforme a lo sugerido en la literatura, pero se incrementó al 3%, para obtener impresos más resistentes, ya que, cuanto mayor es la concentración de CaCl2, mayor es la unión del enlace de entrecruzado de Ca 2+ y el grupo carboxilato del alginato de sodio. Se observó que, al incrementar el número de capas impresas, los bio-soportes presentaban mayor resistencia, probando desde 10 hasta 20 capas de impresión, éstos últimos fueron los ideales y se establecieron 20 capas de impresión en las rutas 8-10. Como se observó en los experimentos preliminares, resumidos en la Tabla 4, al añadir un perímetro de impresión por cada capa mejoraba la resistencia a la manipulación por lo que a partir de la ruta 4 se estableció esta condición de impresión. Las rutas 3, 5, 6 y 10 se realizaron siguiendo el procedimiento por baño químico y las rutas 1, 2, 4, 7, 8 y 9 siguiendo el proceso hidrotermal. En cuanto a la coloración de los bio-soportes decorados con ZnO en las diferentes rutas utilizadas, se observó que de forma general los crecimientos con proceso hidrotermal dieron tonalidades cafés en los impresos 3D y las soluciones del medio, e incluso aun cuando tuvieran el perímetro de impresión los bio-soportes, estos se fracturaban y/o disolvían durante la síntesis, lo que puede ser atribuido a degradaciones de la celulosa y del alginato de sodio debido a la alta presión y temperatura al que son sometidos los impresos dentro del reactor de teflón, con lo cual, para esos casos, no se pudo cuantificar el contenido exacto de ZnO crecido mediante gravimetría, aun cuando los decorados cubrieran en totalidad la superficie (como sucedió en la ruta 7, 8 y 9). Por lo contrario, en las vías de baño químico, las soluciones y decorados resultaron en tonos blancos, conforme a la sal precursora de ZnO, implicando que no se produjo daños al material, a excepción de la ruta 3, donde la ausencia de perímetro por capa provocó fracturas al bio-soporte 3D durante la síntesis y agitación en el reactor de síntesis. Si bien, las síntesis involucrando baño químico garantizaban la integridad del material, fue necesario encontrar los parámetros y condiciones de reacción necesarios para lograr recubrimientos completos y con altos contenidos de ZnO en peso, sin dañar la matriz de celulosa. Partiendo con los bio-soportes 3D de CNFs, la ruta 1 presentó morfologías tipo varilla con diámetros promedio de 300 nm y 1.38 μm de longitud, la ruta 2 presentó formas tipo bordes huecos hexagonales con un diámetro promedio de 3 μm, y la ruta 3 presentó formas esféricas de 466 nm de diámetro promedio. En estas 3 rutas, se observa una pobre decoración del bio-soporte impreso de CNFs, observándose muchos huecos o lugares vacíos en la superficie del biomaterial. El hecho de que el ZnO exhibe una buena polaridad hace que sea difícil dispersarlo uniformemente en materiales nanocelulósicos. La ruta 7 mostró formas tipo tuercas de 1.23 μm de longitud y 1.2 μm de diámetro, aparentemente no se produjo fracturas en la matriz de celulosa, pero el color marrón/amarillo en la solución y el bio-soporte 3D implicaba una posible pérdida de material orgánico, entonces, el contenido de 0.1108 g de ZnO medido podría ser erróneo. Se encontró que cuanto mayor era la temperatura y las horas en el proceso hidrotermal, mayor era el daño en la matriz de celulosa, incluso si se incrementaban las capas, como se muestra en la ruta 8 cuyas morfologías resultantes fueron del tipo cabeza de tornillo hexagonales en el rango de 800-900 nm de diámetro, obteniendo los materiales más fracturados, y contrariamente, los más recubiertos. Los vastos recubrimientos mostrados en esta ruta generaron interés en calcular el contenido de Zn en la muestra decorada del bio-soporte con 11 capas de impresión, empleando espectrometría ICP como alternativa, donde el resultado del análisis químico reportó un contenido de masa del 48.44 % correspondiente a Zn, a partir de las fracciones del bio-soporte 3D recuperado (0.094 g analizados). La ruta 9 mostró partículas de ZnO con formas tipo escamas, y otras partículas de menor tamaño, que no crecieron lo suficiente para adoptar la forma, lo que implica que las condiciones subsecuentes necesitaban una temperatura más alta para lograr una morfología definida, como se siguió en la ruta 8. Finalmente, la ruta 10 exhibió formas tipo tuercas con un diámetro promedio de 1 μm y longitud de 0.72 μm, con 0.1319 g de ZnO soportado, siendo el contenido más alto obtenido. Esta ruta fue la elegida como el mejor recubrimiento y se seleccionó para la aplicación en las pruebas de degradación fotocatalítica de MPLs de PS, debido a la morfología de tuerca hexagonal bien definida, una superficie muy bien decorada evidenciada en su homogeneidad, una alta porosidad y buena integridad del bio-soporte 3D impreso después de ser sometido a los procesos de crecimiento de ZnO.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 19. Condiciones de síntesis, caracterización por SEM del crecimiento in situ de</titulo>
+        <texto>ZnO en bio-soportes impresos 3D de nanocelulosa y representación esquemática de las morfologías obtenidas en función de las rutas de síntesis. Adicionalmente, la caracterización por mapeo de análisis elemental EDX (Figura 20) del decorado de la ruta 10 expone la distribución elemental de Zn, a comparación del bio-soporte 3D CNFs/precursor Zn (sin decorar), así, el %masa pasó de 9.57 % a 83 %, y el %atómico pasó de 2.18 % a 51.18 %, por lo cual se confirma que el método de utilizar en la bio-tinta semillas de precursor mejoró el contenido de ZnO soportado. A continuación, se discute con mayor profundidad los mecanismos inherentes a ello. El grupo COO -en la superficie de la celulosa interacciona electrostáticamente con el Zn 2+ . 𝑍𝑛 2+ + 2𝑂𝐻 -→ 𝑍𝑛 (𝑂𝐻) 2 ( En medio acuoso el nitrato de zinc hexahidratado, y acetato de zinc dihidratado se disocian (ecuación 19) y (ecuación 20). Al introducir el hidróxido de amonio en la solución de nitrato, o acetato, debido a la atracción de Zn 2+ y OH -se forma un precipitado de Zn(OH)2 (ver ecuación 21 y 22). A su vez, el hidróxido de amonio ofrece OH -promoviendo O para ZnO, por último, la alta presión y temperatura de los reactores promovieron el crecimiento de ZnO (ver ecuación 23). El mecanismo general de interacción propuesto para el crecimiento in situ de ZnO en los bio-soportes nanocelulósicos se muestra en la Figura 21. Mediante la adición de grupos ácido carboxílico en la estructura de la celulosa a través del tratamiento de blanqueamiento, la celulosa oxidada forma acetatos en medio acuoso a partir de pH 5.5, y la adición de acetato de zinc a la bio-tinta después del tratamiento mecánico, proporcionó una interacción electrostática de Zn 2+ con la superficie de la celulosa, y no afectó a la capacidad de impresión con el modificador reológico de alginato de sodio. Al mismo tiempo, los grupos COO -Na + en el alginato de sodio desempeñaron un papel muy importante en el paso del entrecruzado, al sustituir los iones de sodio por iones de calcio. En el proceso de crecimiento in situ, la solución acuosa con, ya sea NH4OH, NaOH o TEA proporcionan grupos OH -en la pared de las nanofibrilas, y el Zn 2+ forma una coordinación con la cadena de celulosa,</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de ZnO particulado</titulo>
+        <texto>Como se mencionó en la metodología experimental, los precipitados de ZnO que no crecieron en los bio-soportes 3D de celulosa fueron recolectados al finalizar cada síntesis realizada. Dichos polvos particulados de ZnO se utilizaron para llevar a cabo pruebas de degradación de microplásticos de poliestireno que fungieron como un "experimento conceptual" para fines comparativos con los experimentos en los que se utilizaron los impresos 3D con ZnO soportado. A continuación, se presenta la caracterización realizada a los polvos de ZnO obtenidos durante la síntesis. En la Figura 26. Caracterización fisicoquímica del polvo de ZnO recuperado para prueba conceptual de degradación fotocatalítica: a) patrón de difracción de rayos X, b) espectro de Kubelka-Munk a partir de UV-Vis modo de reflectancia difusa. En la Figura 27 se presentan las imágenes de SEM y se revela el conjunto de las morfologías obtenidas en las diferentes síntesis realizadas (se recuperaron los polvos de varias decoraciones de los bio-soportes), es evidente que los polvos de ZnO presentan morfologías facetadas, principalmente una mezcla de varillas, platos y hojas hexagonales. Figura 27. Morfologías facetadas del polvo de ZnO recuperado del proceso de crecimiento in situ de ZnO sobre los bio-soportes 3D impresos: varillas, platos y hojas hexagonales.</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>Introducción</titulo>
+        <texto />
+      </seccion>
+    </introduccion>
+    <antecedentes>
+      <seccion>
+        <titulo>Antecedentes</titulo>
+        <texto />
+      </seccion>
+    </antecedentes>
+    <objetivos>
+      <seccion>
+        <titulo>Objetivos</titulo>
+        <texto />
+      </seccion>
+    </objetivos>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivo general</titulo>
+        <texto>Desarrollar y optimizar el crecimiento de partículas de ZnO sobre bio-soportes impresos en 3D a base de nanocelulosa para la degradación de MPLs de poliestireno en agua.</texto>
+      </seccion>
+    </objetivo_general>
+    <hipotesis>
+      <seccion>
+        <titulo>Hipótesis</titulo>
+        <texto>La aplicación de ZnO crecido en bio-soportes 3D impresos a base de nanocelulosa permitirá y facilitará la degradación fotocatalítica de MPLs de poliestireno suspendido en soluciones acuosas.</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>Metodología</titulo>
+        <texto>Mediante las facilidades brindadas por el Centro de Investigación en Materiales Avanzados, S.C. (CIMAV) de la Subsede Monterrey, y en particular, la infraestructura del 3D-Lab, así como los diversos equipos de síntesis y caracterización de este Centro, se llevó a cabo la metodología para este trabajo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Crecimiento in situ de ZnO sobre bio-soportes de nanocelulosa impresos en 3D</titulo>
+        <texto>Se realizaron un total de 10 rutas de decorado utilizando métodos de tratamiento hidrotermal, precipitación por baño químico, proceso de siembra y la combinación de los distintos métodos a diferentes condiciones de reacción en impresos 3D provenientes de las dos formulaciones de bio-tintas, una nombrada como "geles de CNFs" y otra como "geles de CNFs/precursor Zn", (ver Tabla 3), siendo la última vía (conformada por dos procesos) la seleccionada para el crecimiento del ZnO, y la cual se sintetizó siguiendo como referente la metodología reportada por Goncalves, et. al, 69 pero con adecuaciones. A continuación, se detallan los 2 principales métodos de decorado de los bio-soportes impresos en 3D con ZnO: El proceso I consistió en un método semilla mediante dos soluciones de 2propanol, las cuales contenían, A: acetato de zinc dihidratado (0.014 M) en 115 mL, y B: hidróxido de sodio (0.001 M) en 50 mL. Ambas soluciones se mantuvieron en agitación y calentamiento a 50 °C, y posteriormente se enfriaron a 4 °C. Cada bio-soporte 3D impreso se sumergió en 50 mL de una solución resultante de la adición de 10 mL de B a 40 mL de A, en agitación vigorosa durante 15 min a temperatura ambiente, después, los impresos 3D se secaron a 100 °C durante 5 min. Este proceso de inmersión y evaporación del solvente se repitió durante cinco veces consecutivas, para cada bio-soporte. El proceso II consistió en el crecimiento de ZnO mediante baño químico utilizando un reactor de vidrio con chaqueta de calentamiento de 100 mL, a una temperatura de</texto>
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>Resultados y discusión</titulo>
+        <texto />
+      </seccion>
+    </resultados>
+    <conclusiones>
+      <seccion>
+        <titulo>Conclusiones</titulo>
+        <texto>Se logró desarrollar un novedoso sistema amigable con el medio ambiente para la degradación de microplásticos de poliestireno en agua mediante ZnO bio-soportado en impresos 3D a base de biomasa de nopal, que impulsan la valorización de residuos lignocelulósicos y la economía circular.  Se logró aislar de manera exitosa nanofibrilas de celulosa de entre 8-24 nm mediante métodos químicos suaves y de tratamiento mecánico de ultrasonido.  Las nanofibrilas de celulosa mostraron la capacidad de formar geles hidrocoloides que pudieron ser imprimibles con la adición de un modificador reológico a base del polisacárido alginato de sodio mediante la técnica de impresión directa de tintas (DIW) y encontrando los parámetros de impresión adecuados.  Se encontraron las condiciones de síntesis adecuadas para la obtención del crecimiento in situ de ZnO en los bio-soportes 3D, demostrando homogeneidad y una cobertura mayoritaria de partículas tipo tuercas hexagonales de 1 μm de diámetro y 0.72 μm de largo, siendo la ruta 10 como la mejor. Además, la adición de semilla de Zn a la formulación de la bio-tinta mejoró la obtención del recubrimiento y se obtuvieron las condiciones para la obtención de diferentes morfologías de ZnO.  Se lograron adaptar satisfactoriamente al reactor tubular CPC los materiales impresos en 3D y decorados con ZnO con una masa total soportada de 0.36 g (los cuales se nombraron como "Bio-soportes 3D ZnO/CNFs") para el experimento de degradación fotocatalítica de MPLs de PS bajo flujo continuo y exposición a luz solar. Tras 86 h los fotocatalizadores se recuperaron sin mostrar daos en su integridad física. La degradación fotocatalítica de microplásticos de poliestireno (MPLs de PS) mostró los siguientes resultados destacables: a) Experimento de ZnO en modo suspensión bajo 160 h de exposición a lámpara UV:  Cambios físicos en los MPLs de PS: amarillamiento y textura gomosa.  Reducción del tamaño promedio de los MPLs de PS hasta 80 µm de largo (38.4%) y 40 µm de ancho (55.5%).  Disminución del 33.6% del 𝑀 ̅ 𝑛 (84,889 g/mol) y del 9.2% del 𝑀 ̅ 𝑤 .  Aumento del PDI hasta 3.23 (36.8%).  Formación de bandas por FTIR atribuidas a la formación de grupos epóxido. b) Experimento de ZnO en modo soportado "Bio-soportes 3D ZnO/CNFs" bajo 86 h de exposición a luz del sol:  Cambios físicos en los MPLs de PS (amarillamiento y textura cerosa).  Reducción del tamaño promedio de los MPLs de PS hasta 117 μm de largo (10%) y 80 μm de ancho (11%).  Disminución del 13.8 % del 𝑀 ̅ 𝑛 y del 8.5 % del 𝑀 ̅ 𝑤 .  Aumento del PDI hasta 2.5 (6.1%).  Formación de bandas por FTIR atribuidas a la formación de grupos hidroxilo, carbonilo (índice de carbonilo, CI=3.67) y formación de grupos epóxido.  Contribución no significativa del proceso de fotólisis. Debido a que las condiciones del experimento de modo ZnO soportado y en suspensión no fueron idénticas, ya que en el experimento de ZnO en suspensión se tenía una mezcla de diferentes morfologías, y las dimensiones del reactor tubular fueron diferentes para cada sistema, no podría compararse con precisión los resultados uno respecto al otro, sin embargo, se cumple la hipótesis respecto a la factibilidad de degradación fotocatalítica de los microplásticos de poliestireno mediante ZnO bio-soportado.</texto>
+      </seccion>
+    </conclusiones>
+    <otros>
+      <seccion>
+        <titulo>Índice de figuras</titulo>
+        <texto>Figura 1. Fragmentación y liberación de micro y nanoplásticos al medio ambiente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Glosario de siglas en inglés</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Amenaza plástica: Micro y nanoplásticos</titulo>
+        <texto>La contaminación de plásticos en el medio ambiente y su acumulación en los mares y ríos representan un asunto de esencial relevancia, no sólo por su contribución a la destrucción de hábitats y amenaza a la fauna, sino también por la liberación y fragmentación continua en tamaños micro y nano (ver Figura 1), los cuales suelen bioacumularse. Las plantas de tratamiento de aguas residuales convencionales no están diseñadas para la eliminación de micro y nanoplásticos, y se ha comprobado su ingesta por los organismos marinos y transferencia en la cadena alimentaria, amenazando al ser humano ya que la deposición de partículas plásticas en el cuerpo se ha relacionado con efectos potenciales adversos a la salud. Figura 1. Fragmentación y liberación de micro y nanoplásticos al medio ambiente. El agua de mar es el entorno que más se ha estudiado, y afirman que, la concentración de los microplásticos es mayor cerca de las costas que en mar abierto, y mayor en los mares con características geográficas como en bahías semicerradas, que en la playa abierta. Estiman que, sin una gestión adecuada de los desechos plásticos el peso de los MPLs puede superar el peso total de los peces en el océano. Además de la industria del plástico, los microplásticos son vertidos en los medios de agua mediante las descargas residuales domésticas, por el uso de productos de cuidado personal que contienen partículas plásticas, así como por el lavado de ropa sintética, que deja a su paso residuos microplásticos, por lo que también se han realizado investigaciones en entornos de aguas residuales, agua dulce, y aguas subterráneas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Poliestireno</titulo>
+        <texto>El poliestireno (PS) es un polímero termoplástico sintetizado a partir del monómero de estireno (ver Figura 3), obtenido a partir de benceno y etileno, subproductos de la refinación del petróleo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Biomasas lignocelulósicas</titulo>
+        <texto>La generación de biomasa como materiales de desecho a nivel internacional ha ido en aumento alarmante como resultado de la industrialización y los residuos derivados de la agricultura y la alimentación, por lo que es importante atender este tema desde una perspectiva energética y de economía circular. El valor agregado que se le puede atribuir a los desechos biomásicos ha sido objeto de numerosos trabajos científicos. En especial los residuos lignocelulósicos han llamado la atención científica por su alto contenido de celulosa, posicionándolos como una fuente renovable de baja huella ambiental. El aislamiento de la celulosa de residuos nativos mexicanos como el agave, maíz, nopal y palma, es un tema de gran interés nacional. La obtención de geles de nanocelulosa y su impresión en 3D, utilizando estos residuos nativos mexicanos es una alternativa sustentable que el grupo de trabajo del 3D-Lab en CIMAV subsede Monterrey ha estado impulsando en los últimos años, demostrando la factibilidad de obtener materiales tridimensionales altamente porosos. Por lo anterior, resulta viable la impresión de bio-tintas derivadas de biomasas nativas mexicanas por impresión directa de tintas (DIW, por sus siglas en inglés), para obtener soportes 3D que permitan el crecimiento in situ de fotocatalizadores. Estos bio-soportes fotocatalíticos servirán como promotores en la degradación de microplásticos en agua.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Fotocatálisis</titulo>
+        <texto>Tecnologías como la degradación térmica, incineración, vertederos y cloración se han implementado para abordar la amenaza plástica, así como los procesos de oxidación avanzada (AOPs, por sus siglas en inglés) como novedosas alternativas para la purificación de agua, los cuales se dividen en procesos químicos (ej. ozonización), bioquímicos, electroquímicos, sonoquímicos y fotoquímicos (como el proceso foto-fenton), Dentro del desarrollo de los AOPs para la degradación de MPLs se encuentra la fotocatálisis, un método novedoso y eficiente, de bajo costo y amigable con el medio ambiente. Entre sus ventajas se encuentran: el aprovechamiento de luz solar, alta eficiencia y la generación de subproductos menos peligrosos o inertes, lo cual implica la descomposición de MPLs en compuestos de H2O y CO2, conocido también como mineralización. Entre los parámetros fundamentales a considerar para eficientar el proceso de degradación, se encuentra la temperatura, tiempo, y naturaleza del material fotocatalítico. Figura 4. Esquema del proceso de fotocatálisis para la degradación de MPLs. El esquema anterior es el resultado, de manera general, del proceso fotocatalítico. Tras la generación de los pares electrón-hueco (ecuación 1), los huecos van a reaccionar con las moléculas de agua que se adsorben en la superficie del fotocatalizador, y éstas se van a disociar, produciendo  (7)   Contaminante + • 𝑂𝐻 → 𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑜𝑠 𝑑𝑒 𝑙𝑎 𝑑𝑒𝑔𝑟𝑎𝑑𝑎𝑐𝑖ó𝑛 (8)   Contaminante + ℎ + → 𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑜𝑠 𝑑𝑒 𝑙𝑎 𝑑𝑒𝑔𝑟𝑎𝑑𝑎𝑐𝑖ó𝑛 (9)   Estos aspectos a su vez se ven afectados por las propiedades fisicoquímicas del fotocatalizador: morfología, tamaño, composición, y estructura cristalina. Por ejemplo, un material con pocos defectos en su estructura cristalina puede no llevar a cabo el proceso de recombinación de los pares electrón-hueco,</texto>
+      </seccion>
+      <seccion>
+        <titulo>La fotocatálisis en la degradación de microplásticos</titulo>
+        <texto>Cada semiconductor posee una energía de banda prohibida específica con la cual se pueden promover los electrones del nivel HOMO al LUMO, y se cree que cuanto más estrecha sea la brecha de banda del fotocatalizador mayor será el número de pares e -/h + generados, MXene/ZnxCd1-xS, han sido utilizados en la degradación de MPLs y NPLs de polietilentereftalato (PET), Aunque la literatura es amplia en cuanto al empleo de fotocatalizadores para la degradación de microplásticos y otros contaminantes emergentes, la mayoría se utilizan en forma de polvos (slurry), o bien, sintetizados como películas añadidas a los polímeros, haciendo complicada la recuperación y reutilización de los fotocatalizadores. Una eficiente actividad fotocatalítica también dependerá del sistema del reactor utilizado, se clasifican en dos configuraciones principalmente, los reactores pueden tener a los fotocatalizadores en forma de polvos (en suspensión), o ser de lecho fijo, es decir, tener a los fotocatalizadores inmovilizados. Aquellos en suspensión presentan la ventaja de una alta área de contacto con el solvente del medio, sin embargo, la principal limitación es la dificultad para separar las partículas del medio al final del tratamiento, por ello, se han estudiado alternativas para inmovilizar los fotocatalizadores en diferentes soportes. La estructura jerárquica del sustrato fotocatalítico, en cuanto a nivel de porosidad, morfología y composición se refiere, son determinantes a tomar en cuenta, pues afectan la carga, funcionalidad y recuperabilidad del fotocatalizador, así como la transmisión de luz. Sin embargo, los métodos tradicionales de preparación de sustratos convencionales, como las plantillas de sacrificio, formación de espumas, plantillas de emulsión y apilamiento de partículas, producen estructuras de panal simples, con canales simplemente rectos, estos presentan variaciones periódicas en las direcciones X y Y, más no en el eje Z (3D), mostrando un bajo rendimiento fotocatalítico al carecer de suficiente área superficial específica en múltiples escalas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Impresión 3D</titulo>
+        <texto>La manufactura aditiva (AM, Additive Manufacturing, por sus siglas en inglés) o impresión tridimensional (impresión 3D) es una herramienta rápida, versátil y de bajo costo para la preparación de materiales y sustratos fotocatalíticos, que permite conservar su actividad fotocatalítica tras su uso, y ofrece un factor de mejora en el rendimiento fotocatalítico, mediante el moldeado y optimización de estructuras multinivel deseables y geometrías ajustables complejas, a partir de modelos digitales. Gracias a un software que controla un programa de impresión, los materiales son apilados con precisión micrométrica capa por capa con un diseño fino a través de una ruta definida, facilitando la obtención de estructuras con alta área superficial específica si se logran obtener materiales de alta porosidad, lo cual mejora la tasa de difusión de las especias reactivas y sitios activos dentro de la Algunas técnicas de impresión 3D son: estereolitografía (SLA, Stereolithography, por sus siglas en inglés), fusión selectiva por láser (SLM, Selective Laser Melting, por sus siglas en inglés), escritura directa de tinta (DIW) y el modelado por deposición fundida (FDM, Fused Deposition Modeling, por sus siglas en inglés), Nannan Li. et. al.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Nanocelulosa y su aislamiento</titulo>
+        <texto>La celulosa es un polímero natural (o biopolímero) abundante, perteneciente a los polisacáridos, que consiste en monómeros de D-glucosa cuya fórmula química (C6H10O5)n se repite mediante enlaces β (1 → 4) glucosídicos, donde n es el grado de polimerización que varía de 10000 a 15000 dependiendo el material de origen (ver Figura 7). Puede ser semicristalino o cristalino, generalmente de color blanco, inodoro, e insoluble en agua debido a los enlaces de hidrógeno inter e intramoleculares en medio de los grupos -OH de las cadenas vecinas de celulosa, sin embargo, tiene propiedad hidrofílica, y la más importante, gracias a la presencia de los grupos hidroxilo y éter. De esta manera, al utilizar agua como medio de reacción, la celulosa posee una excelente humectabilidad que acelera de manera eficiente la interacción entre el catalizador y los reactivos. La celulosa puede extraerse de las paredes celulares de las plantas y células bacterianas, En particular la celulosa nanofibrilada (NFC, Nano Fibrillated Cellulose, por sus siglas en inglés) derivada de biomasa de origen vegetal o microbiano ha ganado gran atención en el área de la química verde, su rentabilidad, reproducibilidad y biocompatibilidad la convierten en una potencial materia prima para la preparación de geles y para ser empleados como bio-tintas para su impresión 3D. Las NFC exhiben una alta área superficial, tamaño (≥1 μm de longitud), 5-20 nm) y buenas propiedades mecánicas y térmicas, El ácido peracético reacciona con la celulosa, oxidando los grupos hidroxilo (-OH) del C6 presentes en las unidades de glucosa que forman la celulosa. El ácido peracético se descompone como se muestra en la ecuación 15 y 16 durante el blanqueamiento, siendo el oxígeno reactivo [O] y el radical peroxilo [‧OOH] los principales agentes oxidantes. En la hidrólisis ácida las regiones desordenadas amorfas distribuidas a lo largo de las fibrilas son propensas a la reacción hidrolítica, mientras que los dominios ordenados o cristalinos, presentan una mayor resistencia al proceso de hidrólisis, y generalmente permanecen intactos. Después de estas etapas, se puede requerir de tratamientos adicionales, como la eliminación de disolventes, neutralización, lavado, purificación, filtración, centrifugación, sonicación, diálisis, fraccionamiento, modificación de superficies, estabilización y secado (liofilización, secado por aspersión) para recuperar el producto final.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Óxido de Zinc (ZnO)</titulo>
+        <texto>Un semiconductor es un material cuya conductividad eléctrica se encuentra entre la conductividad de los conductores y aislantes. También se puede definir como un material cuya brecha energética o banda prohibida (Band gap) está entre 0-4 eV para excitaciones electrónicas. Los semiconductores se comportan como aislantes a muy baja temperatura (cero absoluto), pero son capaces de conducir electricidad a temperatura ambiente en presencia de luz y, por lo tanto, funcionan como fotocatalizadores. Respecto a su estructura cristalina, la wurtzita tiene una coordinación tetraédrica, típica del enlace covalente sp El ZnO puede sintetizarse mediante métodos sencillos, rentables y escalables. Según el método de fabricación y las condiciones de reacción (ajustando parámetros como la concentración de los reactivos, la temperatura y el pH), se pueden obtener estructuras de ZnO de diversos tamaños en micro y nano escala con morfologías diversas (partículas esféricas, alambres, varillas, tubos, flores, placas, plaquetas, etc.).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Compositos ZnO/celulosa</titulo>
+        <texto>Los materiales compuestos de óxido de zinc/celulosa han sido propuestos como materiales funcionales atractivos debido a que la celulosa puede servir como un biosoporte efectivo para el crecimiento de ZnO, evitaría la agregación de partículas convirtiendola una matriz prometedora.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Colector Parabólico Compuesto (CPC)</titulo>
+        <texto>Una limitante en el desarrollo de fotocatalizadores efectivos es la captación eficiente de la luz solar a una escala útil, para ello, el uso de concentradores solares brinda una solución. Figura 9. Esquema geométrico del colector parabólico compuesto, CPC.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Evaluación del uso de fotocatalizadores en la degradación de MPLs</titulo>
+        <texto>En la temática de degradación de microplásticos en el ambiente usando fotocatalizadores, diversos autores han englobado algunos indicadores cualitativos y cuantitativos para evaluar su grado de degradación. Entre los métodos más utilizados se encuentran: a) métodos destructivos, basados en el peso molecular/concentración, como el análisis de carbono orgánico total (TOC, Total Organic Carbon, por sus siglas en inglés), pirólisis acoplada con cromatografía de gases/espectrometría de masas (py-GC/MS, Pyrolysis Gas Chromatography Mass Spectrometry, por sus siglas en inglés); b) métodos no destructivos, basados en propiedades fisicoquímicas, como la espectrofotometría UV-Vis, espectroscopia vibracional, como el FTIR (Fourier Transform Infrared Spectroscopy, por sus siglas en inglés) y Raman, y DLS (Dynamic Light Scattering, por sus siglas en inglés). La impresión 3D ofrece la ventaja de poder obtener fotocatalizadores soportados para su utilización en la degradación de MPLs en comparación con aquellos dispersos en suspensiones, pues se evita el paso de filtración de los polvos en la muestra acuosa previo al análisis del contaminante degradado, que de lo contrario contribuiría en una distorsión en el análisis debido a una posible filtración no selectiva entre partículas del contaminante y el polvo del fotocatalizador. En cambio, al emplear fotocatalizadores inmovilizados las suspensiones a analizar contendrán de forma directa las partículas de polímero y sus subproductos de la degradación sin las partículas del fotocatalizador, permitiendo monitorear la degradación mediante espectrofotometría UV-Vis, py-GC/MS, análisis de TOC, etc., lo cual no es posible en suspensiones que contienen polvos de fotocatalizador. Aunado a lo anterior, pasar de los rangos micro a nano implica un gran desafío, ya que las técnicas analíticas basadas en peso molecular utilizadas para los microplásticos cuentan con sensibilidad insuficiente para los nanoplásticos, así como la baja sensibilidad en los límites de detección de la mayoría de las técnicas no destructivas basadas en tamaño de partículas. Debido a la muy baja concentración de las suspensiones, la naturaleza sólida no disuelta de los nanoplásticos, y la complejidad de la matriz del agua tras los procesos de oxidación, se genera una mezcla de partículas plásticas y subproductos orgánicos con diferentes grupos funcionales, que dificulta la utilización de estas técnicas para evaluar la eficiencia fotocatalítica en nanoplásticos, y a su vez, determinar los mecanismos de degradación. 3</texto>
+      </seccion>
+      <seccion>
+        <titulo>Justificación y planteamiento del problema</titulo>
+        <texto>Debido al creciente incremento de la presencia de microplásticos en los cuerpos de agua es necesario brindar estrategias tecnológicas para mitigar la presencia de estos contaminantes emergentes. Se plantea el uso de bio-soportes de celulosa impresos en 3D los cuales se obtienen aprovechando residuos lignocelulósicos para el crecimiento de fotocatalizadores. Mediante la versatilidad de la impresión 3D pueden generarse estructuras altamente porosas que beneficien la interacción del contaminante y la fuente de luz, permitiendo además acoplar los materiales a sistemas existentes. Debido a que no se han reportado trabajos en la literatura científica sobre el uso de bio-soportes celulósicos impresos en 3D para la degradación de microplásticos, se considera que este trabajo será un importante aporte científico en torno a estos desafíos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Objetivos específicos</titulo>
+        <texto> Aislar celulosa de pencas de nopal y su uso para la obtención de geles de nanocelulosa que permitan el diseño de una bio-tinta imprimible por DIW.  Imprimir bio-estructuras a base de nanocelulosa en 3D mediante el método DIW y su decoración vía síntesis in situ del fotocatalizador ZnO.  Caracterización físicoquímica y morfológica de las estructuras fotoactivas 3D impresas.  Evaluar la degradación fotocatalítica de MPLs de poliestireno bajo luz UV en un reactor CPC en modo batch y flujo continuo utilizando las partículas de ZnO obtenidas durante el proceso de decorado.  Evaluar la degradación fotocatalítica de MPLs de poliestireno bajo luz solar en un reactor CPC en modo batch y flujo continuo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales</titulo>
+        <texto>Las pencas de nopal fueron recolectadas en el "Rancho Los Jacales", Apodaca, Nuevo León, México durante el mes de enero de 2023. Los pellets de poliestireno cristal de grado industrial fueron proporcionados amablemente por una industria de transformación de plásticos de la zona industrial de Apodaca. Peróxido de hidrógeno (H2O2, 30%), ácido sulfúrico (H2SO4, 95-98%), ácido acético (CH3COOH, 99.7%), alginato de sodio (SA; sal sódica de ácido algínico), cloruro de calcio dihidratado (CaCl2 • 2H2O, 99%), acetato de zinc dihidratado (Zn(CH3COO)2 • 2H2O, 98%), nitrato de zinc hexahidratado (Zn(NO3)2 • 6H2O, 98%), trietanolamina (TEA, C6H15NO3, 99%), solución de hidróxido de amonio (NH4OH, 30%), hidróxido de sodio (NaOH, 98%), alcohol isopropílico (2-propanol, C3H8O, 99.5%) y tetrahidrofurano (THF, C4H8O, 99.9%), fueron proveídos por Sigma-Aldrich. Se utilizó agua desionizada en los experimentos (H2O DI, 18.2 MΩ cm). Todos los reactivos se utilizaron sin ninguna purificación adicional.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Instrumentación y métodos de análisis</titulo>
+        <texto>Se utilizó un desmembrador ultrasónico Fisher Scientific™ modelo FB705 para la obtención de los geles de CNFs. Los patrones de difracción de rayos X de los derivados de celulosa y ZnO se obtuvieron con un Difractómetro de Rayos X,</texto>
+      </seccion>
+      <seccion>
+        <titulo>Aislamiento de nanofibrilas de celulosa (CNFs)</titulo>
+        <texto>Con la finalidad de seleccionar la biomasa ideal para el presente trabajo, fibrilas de celulosa blanqueadas (CFs) de palma, nopal y maíz, fueron proporcionadas por el grupo de investigación para realizar un estudio de factibilidad para la fabricación de geles y bio-tintas, así, utilizando diferentes polisacáridos como moderadores reológicos, verificando la calidad de impresión 3D y realizando un estudio comparativo, se seleccionó la biomasa de nopal como derivado lignocelulósico para la realización del presente proyecto de investigación. La metodología para el aislamiento y blanqueamiento de celulosa de nopal, se realizó siguiendo el procedimiento reportado previamente en el grupo de trabajo usando pencas de agave por Hernández, E., et. al. Posteriormente, por filtración se obtuvo la celulosa blanqueada, mediante papel de filtro Whatman de 70 mm de diámetro y tamaño de poro de 3 μm, y se lavó con agua desionizada en un total de 6 ciclos, agitando durante 1 h entre cada ciclo, hasta alcanzar un pH neutro (pH ≈ 7). Finalmente, el material fue congelado y liofilizado durante 24 h, obteniéndose así fibras de celulosa denominadas CFs blanqueadas. Cabe destacar que el tratamiento con PAA permite la desfibrilación de la celulosa al eliminar lignina y hemicelulosa residuales, así como la oxidación con grupos ácido carboxílico -COOH, funcionalidad necesaria para la obtención de geles de nanocelulosa usando un homogeneizador ultrasónico. La importancia en la oxidación de la celulosa radica en que los grupos ácidos carboxílicos obtenidos por la oxidación del C6 del anilllo de la celulosa pueden favorecer la nucleación y crecimiento de las semillas de Zn 2+ de forma más significativa que los grupos hidroxilo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Formulación de geles (bio-tintas) de nanocelulosa de nopal</titulo>
+        <texto>Geles de CNFs: Se mezclaron 0.3 g de celulosa blanqueada (CFs) + 10 g de agua desionizada en un vial de vidrio, seguido de dispersión en un homogeneizador ultrasónico con amplitud al 50%, durante 10 ciclos de 1 min cada ciclo. Con este tratamiento mecánico se obtiene un gel de nanofibrilas de celulosa (CNFs). El proceso se complementó con agitación tipo vórtex y baño ultrasónico. Posteriormente, se añadieron 0.3 g de alginato de sodio (SA), finalizando con agitación y calentamiento en baño maría a 60 °C, hasta lograr una consistencia homogénea. Geles de CNFs con precursor de Zinc (geles de CNFs/precursor Zn): Se mezclaron 0.3 g de celulosa de nopal + 9 g de agua desionizada en un vial de vidrio, seguido de dispersión en un homogeneizador ultrasónico con amplitud 50, durante 10 ciclos de 1 min cada ciclo. El proceso se complementó con agitación tipo vórtex y baño ultrasónico. Posteriormente, se añadió 1 g de solución de acetato de zinc 0.1 M, seguido de agitación vórtex, y finalmente se agregaron 0.3 g de alginato de sodio con agitación y calentamiento en baño maría a 60 °C, hasta lograr una consistencia homogénea. Las bio-tintas fueron analizadas reológicamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Impresión 3D de bio-soportes de nanocelulosa nopal</titulo>
+        <texto>Las impresiones se realizaron en una impresora Hyrel Hydra 16AS (ver Figura 10), la cual es una impresora 3D multifuncional. Bio-soportes 3D de CNFs: Se imprimieron mallas rectangulares (2 × 5 cm) a partir de geles de CNFs con 10, 12 y 15 capas, una densidad de relleno del 60 y 40%, taza de flujo de 0.650, utilizando agujas de 0.26 mm, a una velocidad de 8 mm/s, y a un ángulo de relleno de 45° y 90°. Los impresos fueron congelados y liofilizados durante 24 h. Bio-soportes 3D de CNFs/precursor Zn: Se imprimieron mallas rectangulares (3 × 7 cm) a partir de geles de CNFs/precursor Zn en 10, 11, 12, 13, 14, y 15 capas, con una densidad de relleno del 40 y 30%, taza de flujo de 0.650, utilizando puntas de 0.33 mm, a una velocidad de 8 mm/s, y a un ángulo de relleno de 45°. Los impresos fueron congelados y liofilizados durante 24 h.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Entrecruzamiento con CaCl2</titulo>
+        <texto>Previo a los procesos de crecimiento in situ de ZnO, los impresos 3D se entrecruzaron sumergiéndolos en una solución CaCl2 al 2 y 3%, durante 3 h en cajas Petri, y después fueron lavados con H2O DI. El entrecruzamiento fue necesario para evitar que los modelos 3D impresos se deshicieran al estar en contacto con medio acuoso. Conservando la humedad propia de los lavados con H2O DI, los biosoportes rectangulares flexibles se ajustaron a una forma cilíndrica y se dejaron secar a temperatura ambiente para mantener su forma.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de PS cristal y obtención de MPLs de PS</titulo>
+        <texto>Para el análisis de FTIR y determinación de pesos moleculares por GPC del PS cristal, se disolvieron algunos pellets en THF, la solución resultante se transfirió a cajas Petri para la obtención de películas por solvent casting. Una vez secas, las películas de PS se rasparon hasta formar un polvo fino, el cual fue utilizado para mediciones en cromatografía de permeación en gel a una concentración de 1 mg/mL en THF y directamente analizados por ATR-FTIR. Con el objetivo de realizar un análisis comparativo, los pellets de PS también fueron analizados por ATR-FTIR. Adicionalmente para una caracterización física complementaria, se realizaron pruebas de índice de fluidez utilizando los pellets de PS cristal. Para la obtención de los MPLs de PS, se trituraron pellets de PS cristal en un procesador de alimentos Nutribullet TM , y se les realizaron 4 ciclos de tamizado de 1 h para obtener un tamaño de partícula de 76 -106 μm (malla -140+200). Los MPLs de PS fueron analizados por microscopía óptica.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Experimentos de degradación fotocatalítica de MPLs de PS</titulo>
+        <texto>Los experimentos de degradación fotocatalítica se realizaron en modo de suspensión y modo soportado, para ambos, se utilizó un colector parabólico compuesto (CPC) acoplado a un reactor tubular de cuarzo y a una bomba peristáltica acoplada al flujo del contaminante desde un vaso en agitación. La eficiencia de degradación fue analizada mediante FTIR, peso molecular por GPC, y cambios morfológicos de los MPLs mediante caracterización por SEM. Para el experimento en modo de suspensión se dispersó 1 g de MPLs de PS y 0.3 g de ZnO en polvo (obtenido de los procesos de crecimiento in situ de ZnO sobre los biosoportes 3D), ambos en 0.2 L de agua desionizada, dentro de un reactor tubular a una velocidad de flujo de 2000 mL/min, y un área efectiva de 58.05 cm</texto>
+      </seccion>
+      <seccion>
+        <titulo>Aislamiento de celulosa (CFs)</titulo>
+        <texto>En la Figura 12 se muestran los espectros FTIR correspondientes a la biomasa de celulosa de nopal y después de los tratamientos químicos de NaOH y blanqueamiento. La biomasa de celulosa de nopal y la tratada con álcali de NaOH presentan un espectro de FTIR muy similar, mostrando vibraciones características de la estructura de la celulosa, y de la hemicelulosa y lignina. Se identificaron las vibraciones de estiramiento (3330 cm -1 y 2920-2850 cm -1 ) y las vibraciones de flexión (1370 cm -1 y 1424 cm -1 ) de los grupos O-H y CH/CH2, respectivamente. Las vibraciones de estiramiento C1-O-C6 y C-O asociadas con la estructura de las unidades de glucosa se observaron a 1027 cm -1 y 1056 cm -1 , respectivamente, mientras que las vibraciones centradas en 1155 y 896 cm -1 se asignaron a vibraciones de estiramiento y flexión de C1-O-C4 del enlace β -glucosídico entre unidades de glucosa. Para la celulosa blanqueda se identificó una fuerte vibración a 1731 cm -1 , la cual se atribuyó al grupo carbonilo (C=O) de los ácidos carboxílicos generados por el proceso de oxidación del alcohol primario del C6 del anillo de glucosa durante la hidrólisis ácida con PAA. También, se observó una disminución en la vibración característica al doble enlace C=C del anillo aromático de la estructura de la lignina en 1616 cm -1 , 36,75-77 con lo cual se demuestra la deslignificación de la celulosa. El rendimiento en peso obtenido de las fibrilas de celulosa (CFs) fue del 25.7% y 30% en el tratamiento alcalino y el blanqueamiento, respectivamente. Figura 12. Espectros de FTIR del proceso químico de aislamiento de fibrilas de celulosa (CFs): de la biomasa de celulosa de nopal, del tratamiento alcalino con NaOH y del tratamiento de blanqueamiento. Para determinar la cristalinidad de las CFs blanqueadas se utilizó difracción de rayos X (XRD). Se encontró un valor de intensidad máxima I200 a un ángulo de dispersión de 2θ = 22°, y un valor mínimo Imin entre 2θ = 18° y 19°, correspondiente a la celulosa tipo Iᵦ, que es el polimorfo mayoritario en las plantas superiores. La Figura 13 muestra el patrón de XRD de CFs, donde se identifican los picos de difracción en 2θ= 14.92°, 15.63°, 22.32° y 34.74° correspondientes a los planos cristalográficos (11 ̅ 0), (110), (200) y (004). El contenido de grupos ácido carboxilo (μmol/g) se calculó utilizando titulación conductimétrica y la ecuación 18. μmol COOH/g = (𝑣 2 -𝑣 1 ) × [𝐶] 𝑚 (18)   Donde v1 y v2 son los volúmenes (L) necesarios de NaOH para neutralizar el exceso de HCl y de ácido carboxílico, C es la concentración de NaOH (mol/L), y m es el peso (g) de la muestra seca de CFs.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de geles de CNFs</titulo>
+        <texto>Como se ha mencionado anteriormente, la obtención de geles a partir de CFs de nopal blanqueadas pemitió la obtención de nanofibrilas de celulosa mediante tratamiento mecánico con un homogeneizador ultrasónico. Con la finalidad de analizar la morfología de las CNFs se realizó la caracterización por SEM. En la  Los geles de CNFs fueron analizados reológicamente con la finalidad de confirmar su capacidad de impresión, y para conocer los fenómenos viscoelásticos que rigen a la bio-tinta. Cabe destacar que el diseño de la bio-tinta implicó variar algunas relaciones en peso entre las soluciones de precursor de zinc y el agua utilizadas durante la preparación de los geles de CNFs, resultando en algunas bio-tintas con grumos difíciles de eliminar. La formulación que permitió obtener una bio-tinta viable para impresión fue una relación 9:1 w/w solución del precursor y agua, manteniendo constante 0.3 g de CFs y 0.3 g de alginato de sodio como modificador reológico. En la Figura 16 a se presenta la gráfica de viscosidad aparente (η) en función de la velocidad de corte (γ) evidenciando un comportamiento pseudoplástico de adelgazamiento al corte (shear thinning) al incrementar la velocidad de corte, demostrando que el gel se deforma irreversiblemente ante el esfuerzo aplicado. Este fenómeno es bien conocido para geles, bio-tintas e hidrocoloides causado por el desenredamiento y orientación de las cadenas poliméricas al estar sometidas al flujo de corte.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Impresión 3D de bio-soportes de nanocelulosa de nopal</titulo>
+        <texto>Se variaron diversos parámetros (consultar Tabla 4) para la obtención de biosoportes 3D rectangulares, con el objetivo de generar mallas que fueran capaces de favorecer la interacción con la luz, mejorar la estabilidad del soporte e incrementar el área de contacto con los componentes a degradar. Se comenzó con un 60% de densidad de relleno, hasta finalmente reducirlo a la mitad, ya que un 30% permitía evitar defectos estéticos considerables durante la extrusión por burbujas de aire que posteriormente provocaban una extrusión excesiva del material, haciendo que se perdiera el patrón de mallado del bio-soporte 3D impreso. Las dimensiones de las mallas iniciales para impresiones preliminares se fijaron en 2 × 5 cm y finalmente se establecieron en 3 × 7 cm debido a las dimensiones de los reactores tubulares a utilizarse en el CPC (con la finalidad de cubrir mayoritariamente el área efectiva de iluminación con radiación UV y solar) y por su  Se obtuvo una mejor fidelidad de mallado usando 30% de densidad de relleno, en lugar de 40%. Esto es notorio comparando la Figura 17 a (40% de densidad de relleno) y la Figura 18 (30% de densidad de relleno). Fue posible observar un mallado más definido y con menos poros cerrados, por lo tanto, se utilizó dicho parámetro en los consecutivos bio-soportes impresos en 3D. Figura 18. Micrografía de SEM de bio-soporte 3D de CNFs/precursor Zn, con una densidad de relleno del 30%. Imagen 30X.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización fisicoquímica de los bio-soportes impresos en 3D de nanocelulosa decorados con ZnO (3D ZnO/CNFs)</titulo>
+        <texto>La Figura 22 muestra los espectros de FTIR del bio-soporte impreso en 3D de nanocelulosa sin decorar (3D CNFs/precursor Zn), entrecruzado y decorado con ZnO (3D ZnO/CNFs), en donde es posible observar la aparición de Zn-O sobre la celulosa conforme se avanza en el proceso de síntesis, y se muestra la comparativa de dos recubrimientos (ruta 5 y 10). El espectro del bio-soporte 3D CNFs/precursor Zn presenta bandas de vibración características de estiramiento de la celulosa y del alginato de sodio correspondientes al anillo de glucosa (sobrelapamiento de ambos polisacáridos): en 3323 cm -1 (O-H), 2892 cm -1 (C-H), y 1028 cm -1 (C-O). Se observa una banda de vibración fuerte e intensa en 1603 cm -1 y 1415 cm -1 correspondientes a la vibración simétrica y asimétrica del grupo carboxilato (C=O). Figura 24. Patrones de difracción de Rayos X (XRD) de los bio-soportes 3D de nanocelulosa sin decorar y entrecruzados, y decorados por crecimiento in situ de ZnO por la ruta 10. El análisis de XPS de los impresos 3D sin decorar "3D CNFs/Zn precursor" y decorado con ZnO "3D ZnO/CNFs", correspondiente a la ruta de crecimiento 10, se muestran en la ZnO. Para ambas muestras fueron notables los característicos satélites de pérdida plasmónica (P-LSat) en el rango de 1030-1040 eV, para este caso, tres contribuciones Gaussianas simples ajustaron los niveles 2p, sin embargo, según la literatura, no es claro el número exacto de picos de esta región.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de MPLs de PS</titulo>
+        <texto>La Tabla 6 resume la caracterización por cromatografía de permeación en gel (GPC) para muestras de MPLs de PS cristal tal y como se describió en la parte experimental, determinando los pesos moleculares promedios: en peso (𝑀 ̅ 𝑤 ), en número (𝑀 ̅ 𝑛 ), y el índice de polidispersidad (PDI): Tabla 6. Determinación de pesos moleculares promedio por GPC de MPLs de PS. La determinación del índice de fluidez (MFI) se encontró en 0.86 ± 0.02 g/10 min.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Pesos moleculares promedios</titulo>
+        <texto>En la Figura 28 a se presenta el análisis por FTIR del PS cristal, mostrando bandas características en 3061 cm -1 y 3026 cm -1 correspondientes a la vibración de estiramiento del enlace C-H, y tres bandas en 1600 cm -1 , 1493 cm -1 y 1452 cm -1 debido a la vibración de estiramiento de C=C, ambos de los grupos aromáticos, los cuales indican la existencia de anillos de benceno presentes en la estructura repetitiva del poliestireno. En 2921 cm -1 y 2853 cm -1 se observan las vibraciones asimétricas y simétricas, respectivamente de los metilenos. Por último, las bandas en 752 cm -1 y 695 cm -1 corresponden a la vibración de flexión fuera del plano C-H del anillo bencénico, la cual indica que solo hay monosustitución. 𝑁 𝑡 = 1 (𝑀 𝑛 ) 𝑡 -1 (𝑀 𝑛 ) 0 (25)   El valor creciente de 𝛿 y Nt en el experimento de la prueba en suspensión dio un panorama del grado de escisión de la cadena a los diferentes intervalos de tiempo de irradiación UV (ver Tabla 8 y Figura 35 a y b), y el aumento en el PDI del poliestireno refleja, como se mencionaba anteriormente, una escisión aleatoria de las cadenas debido a la degradación fotocatalítica y a una disminución considerable del peso molecular promedio en número. Fue evidente que el incremento de los valores de 𝛿 y Nt son una prueba directa del fenómeno de degradación fotocatalítica de los MPLs de PS, demostrándose la viabilidad del uso de polvos de ZnO para llevar a cabo este proceso y poder continuar con los experimentos de ZnO soportado en bio-soportes impresos en 3D de CNFs/precursor Zn.  Los espectros de FTIR de las muestras de MPLs de PS permitieron caracterizar el cambio y aparición de grupos funcionales, producto de las reacciones de degradación fotocatalítica del poliestireno. Tras 160 horas de interacción con ZnO y exposición a luz UV, se evidenció la aparición de tres nuevas bandas en torno a los 1260 cm -1 , 865 cm -1 y 800 cm -1 , las cuales pueden asociarse con la presencia de grupos epoxi. Además, se observó un aumento y ensanchamiento en el intervalo de 970-1180 cm -1 , correspondiente a la vibración de flexión CH de los anillos fenilo en el plano (Figura 36). Dinoop S. et al. (2021)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Evaluación de ZnO en modo soportado: 3D ZnO/CNFs</titulo>
+        <texto>Las pruebas de degradación de MPLs de PS utilizando los bio-soportes decorados con ZnO en modo soportado (3D ZnO/CNFs) se llevaron a cabo de forma exitosa bajo luz solar usando un reactor CPC. Como se puede apreciar en la Figura 37 y al igual que en el experimento de ZnO en suspensión, fueron notorios los cambios reflejados en decoloración y amarillamiento en las muestras tanto a las 42 h y 86 h de degradación fotocatalítica bajo exposición a luz solar. De acuerdo a lo reportado en la literatura, la oxidación de poliestireno y su ruptura de cadenas es un indicativo con la decoloración del material y amarillamiento.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Figura 38. Micrografías ópticas y de SEM de la degradación fotocatalítica de MPLS de PS usando ZnO en modo soportado (3D ZnO/CNFs): Efectos en la morfología y distribuciones de tamaño de partícula de los MPLs de PS, a) inicial 0 h, b) tras 86 h de fotólisis, c) tras 42 y d) tras 86 h de degradación fotocatalítica bajo exposición a luz del sol</titulo>
+        <texto>Las muestras de MPLs de PS inicial, y tras 42 h y 86 h de degradación fotocatalítica en exposición a luz solar, así como del experimento de fotólisis fueron analizadas por GPC. Como se puede observar en la Figura 39, después de 86 h hubo una disminución en el peso molecular, el 𝑀 ̅ 𝑛 y 𝑀 ̅ 𝑤 se redujo en un 13.8 % y 8.5 %, respectivamente, y por lo tanto, un desplazamiento a tiempos de elución más altos. Aunado a ello, los datos de PDI, 𝛿 y Nt tabulados en la Tabla 9 reflejan un contraste sobresaliente contra los datos obtenidos en el experimento de fotólisis. El índice de polidispersidad PDI se incrementó hasta 2.5, lo que indica indica que la ruptura de las cadenas poliméricas impactó de forma más importante en el peso molecular promedio en número. Esto es contrario a lo observado en la fotólisis, donde el PDI no aumentó, sino que disminuyó.   Curiosamente, a diferencia del experimento de ZnO en modo suspensión, como se puede observar en la Figura 41 a-b, las 86 h de degradación fotocatalítica con exposición a luz del sol en el experimento de ZnO en modo soportado condujo no solo a la aparición de la vibración simétrica "breathing" del anillo epóxido (1260 cm - 1 ), el estiramiento asimétrico C-O-C (860 cm -1 ) y el estiramiento simétrico C-O-C (800 cm -1 ),</texto>
+      </seccion>
+      <seccion>
+        <titulo>MPLs de PS</titulo>
+        <texto>El uso de ZnO potenció la absorción de fotones y la generación de los pares electrones y huecos, una vez activados por la incidencia de la energía necesaria, se da lugar a la formación de especies reactivas de oxígeno (ROS), tales como los radicales hidroxilos (•OH), superóxido (•O2), e hidroperóxido (HOO•) gracias a la presencia de H2O, OH-y O2 en el medio acuoso, mientras se crean estados exitados en las cadenas poliméricas a fin de oxidarlas y promover cadenas poliméricas de bajos segmentos moleculares, como resultado de las escisiones de cadenas. También se ha reportado la formación de dobles enlaces C=C, La en el proceso de degradación, al ser los generadores principales de los radicales hidroxilos. Figura 43. Efecto de los "scavengers": a) Generación de especies fotoactivas, b) degradación fotocatalítica de Naranja G mediante ZnO en exposición a luz solar, c) % de degradación mediante ZnO sin y con presencia de los diferentes "scavengers", d) Gráfica de la concentración (ppm) del colorante en función del tiempo de degradación fotocatalítica y de fotólisis.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Perspectivas</titulo>
+        <texto>El estudio presentado en la tesis que se sustenta en este documento sugiere los siguientes puntos a considerar sobre la continuidad y contribución a la investigación de materiales fotocatalizadores hechos de biomasas lignocelulósicas sustentables, y su efecto en la degradación de microplásticos en el agua.  La obtención de hidrogeles de celulosa a partir de diferentes técnicas de manufactura aditiva en el área de impresión 3D, como lo es, por ejemplo, la técnica de DLP (digital light processing).  El decorado de diversos semiconductores, así como la formación de heteroestructuras para evaluar y mejorar la actividad fotocatalítica.   El seguimiento y caracterización de los compuestos degradados a partir de técnicas como: TOC, espectrometría de masas, XPS, y resonancia magnética nuclear.  Experimentos de degradación fotocatalítica en diferentes tipos de microplásticos.  El estudio del tiempo de vida de los radicales en cadenas poliméricas, las cinéticas de reacción y la elucidación de mecanismos de degradación.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Logros académicos</titulo>
+        <texto />
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia>
+      <titulo>Tabla 3. Rutas de crecimiento in situ de ZnO en bio-soportes 3</titulo>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>Datos de campo</titulo>
+    </referencia>
+    <referencia>
+      <titulo>Ecological and health issues of plastic waste</titulo>
+      <autores>
+        <autor>C Cook</autor>
+        <autor>R Halden</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A review of potential human health impacts of micro-and nanoplastics exposure</titulo>
+      <autores>
+        <autor>J Xu</autor>
+        <autor>X Lin</autor>
+        <autor>J Wang</autor>
+        <autor>A Gowen</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photocatalytic degradation of polystyrene nanoplastics in water. A methodological study</titulo>
+      <autores>
+        <autor>P García-Muñoz</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>E Cortes Roos</autor>
+        <autor>K Juárez Moreno</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Occurrence, degradation, and effect of polymer-based materials in the environment</titulo>
+      <autores>
+        <autor>S Lambert</autor>
+        <autor>C Sinclair</autor>
+        <autor>A Boxall</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanoplastics in the aquatic environment</titulo>
+      <autores>
+        <autor>A Koelmans</autor>
+        <autor>E Besseling</autor>
+        <autor>W Shim</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microplastic-an emerging contaminant of potential concern?</titulo>
+      <autores>
+        <autor>M Browne</autor>
+        <autor>T Galloway</autor>
+        <autor>R Thompson</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Plastics -Environmental aspects -State of knowledge and methodologies</titulo>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microplastics in water systems: A review of their impacts on the environment and their potential hazards</titulo>
+      <autores>
+        <autor>H Kye</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Degradation of Micro-and Nano-Plastics by Photocatalytic Methods</titulo>
+      <autores>
+        <autor>A Bratovcic</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Breaking down ocean polystyrene An initial investigation into marine uses of foamed polystyrene</titulo>
+      <autores>
+        <autor>Flora Fauna</autor>
+        <autor>' International</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Microplastic ingestion cause intestinal lesions in the intertidal fish Girella laevifrons</titulo>
+      <autores>
+        <autor>C Ahrendt</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Proceso foto-Fenton como una alternativa en la degradación de microplásticos de poliamida presentes en aguas residuales textiles</titulo>
+      <autores>
+        <autor>Marcelino Pérez</autor>
+        <autor>E</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>NYLON 66 DEGRADATION AS MICROPLASTIC POLLUTANT BY PHOTO-FENTON PROCESS</titulo>
+      <autores>
+        <autor>E Pérez</autor>
+        <autor>M Bonet-Aracil</autor>
+        <autor>E Bou-Belda</autor>
+        <autor>R Vicente Candela</autor>
+      </autores>
+      <fecha>2021-07</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Visible light photocatalytic degradation of polypropylene microplastics in a continuous water flow system</titulo>
+      <autores>
+        <autor>A Uheida</autor>
+        <autor>H Mejía</autor>
+        <autor>M Abdel-Rehim</autor>
+        <autor>W Hamd</autor>
+        <autor>J Dutta</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Removal of microplastics and nanoplastics from urban waters: Separation and degradation</titulo>
+      <autores>
+        <autor>Z Chen</autor>
+        <autor>X Liu</autor>
+        <autor>W Wei</autor>
+        <autor>H Chen</autor>
+        <autor>B Ni</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chapter 06. Photocatalysis</titulo>
+      <autores>
+        <autor>R Ameta</autor>
+        <autor>M Solanki</autor>
+        <autor>S Benjamin</autor>
+        <autor>S Ameta</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Descontaminación de agua utilizando nanomateriales y procesos fotocatalíticos</titulo>
+      <autores>
+        <autor>| Mundo</autor>
+        <autor>N Artículos</autor>
+        <autor>J Carlos Durán-Álvarez</autor>
+        <autor>E Avella</autor>
+        <autor>R Zanella</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Degradation of primary nanoplastics by photocatalysis using different anodized TiO2 structures</titulo>
+      <autores>
+        <autor>L Domínguez-Jaimes</autor>
+        <autor>E Cedillo-González</autor>
+        <autor>E Luévano-Hipólito</autor>
+        <autor>J Acuña-Bedoya</autor>
+        <autor>J Hernández-López</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanism and experimental study on the photocatalytic performance of Ag/AgCl @ chiral TiO2 nanofibers photocatalyst: The impact of wastewater components</titulo>
+      <autores>
+        <autor>D Wang</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Complete Photocatalytic Mineralization of Microplastic on TiO2 Nanoparticle Film</titulo>
+      <autores>
+        <autor>I Nabi</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Highly-efficient visible-light-driven photocatalytic H2 evolution integrated with microplastic degradation over MXene/ZnxCd1-xS photocatalyst</titulo>
+      <autores>
+        <autor>B Cao</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photocatalytic collection and degradation of microplastics by self-asymmetric Pac-Man TiO 2</titulo>
+      <autores>
+        <autor>P Chattopadhyay</autor>
+        <autor>Camila Ariza-Tarazona</autor>
+        <autor>M Iveth Cedillo-González</autor>
+        <autor>E Siligardi</autor>
+        <autor>C Simmchen</autor>
+        <autor>J</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Seawater activated TiO2 photocatalyst for degradation of organic compounds</titulo>
+      <autores>
+        <autor>M Volhard</autor>
+        <autor>J Christ</autor>
+        <autor>L Blank</autor>
+        <autor>T Jüstel</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Visible light photocatalytic degradation of microplastic residues with zinc oxide nanorods</titulo>
+      <autores>
+        <autor>T Tofa</autor>
+        <autor>K Kunjali</autor>
+        <autor>S Paul</autor>
+        <autor>J Dutta</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review of 3D printing in photocatalytic substrates and catalysts</titulo>
+      <autores>
+        <autor>N Li</autor>
+        <autor>K Tong</autor>
+        <autor>L Yang</autor>
+        <autor>X Du</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Triclosan degradation by heterogeneous photocatalysis using ZnO immobilized in biopolymer as catalyst</titulo>
+      <autores>
+        <autor>V Kosera</autor>
+        <autor>T Cruz</autor>
+        <autor>E Chaves</autor>
+        <autor>E Tiburtius</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent advances in cellulose supported photocatalysis for pollutant mitigation: A review</titulo>
+      <autores>
+        <autor>A Sudhaik</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Organic acid cross-linked 3D printed cellulose nanocomposite bioscaffolds with controlled porosity, mechanical strength, and biocompatibility</titulo>
+      <autores>
+        <autor>A Štiglic</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>New stabilizers for polystyrene based on 2-N-salicylidene-5-(substituted)-1,3,4-thiadiazole compounds</titulo>
+      <autores>
+        <autor>E Yousif</autor>
+        <autor>J Salimon</autor>
+        <autor>N Salih</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>GPC and structural analysis of polystyrene degradation</titulo>
+      <autores>
+        <autor>V Kovačević</autor>
+        <autor>M Bravar</autor>
+        <autor>L Lorvić</autor>
+        <autor>N Šegudović</autor>
+        <autor>D Hace</autor>
+      </autores>
+      <fecha>1984</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Degradation of styrene-g-cassava starch filled polystyrene plastics</titulo>
+      <autores>
+        <autor>S Kiatkamjornwong</autor>
+        <autor>M Sonsuk</autor>
+        <autor>S Wittayapichet</autor>
+        <autor>P Prasassarakich</autor>
+        <autor>P Vejjanukroh</autor>
+      </autores>
+      <fecha>1999</fecha>
+    </referencia>
+    <referencia>
+      <titulo>3D direct ink printed materials for chemical conversion and environmental remediation applications: a review</titulo>
+      <autores>
+        <autor>J Tan</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The interface design and properties enhancement of ZnO/cellulose composites: Branching fiber network to guide the assembly of ZnO flower</titulo>
+      <autores>
+        <autor>X Li</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of Spherical Cellulose Nanocrystals from Microcrystalline Cellulose by Mixed Acid Hydrolysis with Different Pretreatment Routes</titulo>
+      <autores>
+        <autor>P Zhu</autor>
+        <autor>L Feng</autor>
+        <autor>Z Ding</autor>
+        <autor>X Bai</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Entangled cellulose nanofibrils/nanosheets derived from native mexican agave for lead(II) ion removal</titulo>
+      <autores>
+        <autor>E Hernández-Francisco</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Robust and recyclable macroscopic g-C3N4/cellulose hybrid photocatalysts with enhanced visible light photocatalytic activity</titulo>
+      <autores>
+        <autor>W Bai</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>D printed alginate-cellulose nanofibers based patches for local curcumin administration</titulo>
+      <autores>
+        <autor>R Olmos-Juste</autor>
+        <autor>B Alonso-Lerma</autor>
+        <autor>R Pérez-Jiménez</autor>
+        <autor>N Gabilondo</autor>
+        <autor>A Eceiza</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characterization of nanocellulose obtained from cereus forbesii (a South american cactus)</titulo>
+      <autores>
+        <autor>C Orrabalis</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Analysis of structural changes in jute fibers after peracetic acid treatment</titulo>
+      <autores>
+        <autor>L Duan</autor>
+        <autor>W Yu</autor>
+        <autor>Z Li</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Bleaching of cotton fabric with peracetic acid in the presence of different activators</titulo>
+      <autores>
+        <autor>P Križman</autor>
+        <autor>F Kovač</autor>
+        <autor>P Forte Tavčer</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanocellulose: From Fundamentals to Advanced Applications</titulo>
+      <autores>
+        <autor>D Trache</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nopal cladode as a novel reinforcing and antioxidant agent for starch-based films: A comparison with lignin and propolis extract</titulo>
+      <autores>
+        <autor>P Marques De Farias</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Industrial uses of opuntia spp. by-products</titulo>
+      <autores>
+        <autor>J Guevara-Arauza</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>D-Printed Anti-Fouling Cellulose Mesh for Highly Efficient Oil/Water Separation Applications</titulo>
+      <autores>
+        <autor>J Koh</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Physicochemical and Photocatalytic Properties of 3D-Printed TiO2/Chitin/Cellulose Composite with Ordered Porous Structures</titulo>
+      <autores>
+        <autor>L Li</autor>
+        <autor>J Li</autor>
+        <autor>H Luo</autor>
+        <autor>S Li</autor>
+        <autor>J Yang</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Acetylated Nanocellulose for Single-Component Bioinks and Cell Proliferation on 3D-Printed Scaffolds</titulo>
+      <autores>
+        <autor>R Ajdary</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Semiconductors as photocatalysts: UV light active materials</titulo>
+      <autores>
+        <autor>M Khan</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The Fast and One-Step Growth of ZnO Nanorods on Cellulose Nanofibers for Highly Sensitive Photosensors</titulo>
+      <autores>
+        <autor>N Alvi</autor>
+        <autor>H Mulla</autor>
+        <autor>M Abitbol</autor>
+        <autor>T Fall</autor>
+        <autor>A Beni</autor>
+        <autor>V</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The preparation and antibacterial activity of cellulose/ZnO composite: A review</titulo>
+      <autores>
+        <autor>S Zhao</autor>
+        <autor>C Guo</autor>
+        <autor>Y Hu</autor>
+        <autor>Y Guo</autor>
+        <autor>Q Pan</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrospun ZnO nanofiber interlayers for enhanced performance of organic photovoltaic devices</titulo>
+      <autores>
+        <autor>F Mohtaram</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>ZnO Nanorods Grown on Flexible Polyurethane Foam Surfaces for Photocatalytic Azo Dye Treatment</titulo>
+      <autores>
+        <autor>M Kardeş</autor>
+        <autor>H Yatmaz</autor>
+        <autor>K Öztürk</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>pH effect on the morphology of ZnO nanostructures grown with aqueous chemical growth</titulo>
+      <autores>
+        <autor>D Vernardou</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hydrothermal growth of ZnO nanostructures</titulo>
+      <autores>
+        <autor>S Baruah</autor>
+        <autor>J Dutta</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of solvent on ZnO nanoparticles by simple sol-gel method. Mater</titulo>
+      <autores>
+        <autor>S Anandhi</autor>
+        <autor>A Sagaya Amala Immanuel</autor>
+        <autor>V Ramkumar</autor>
+        <autor>C Sudhakar</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green one-step synthesis of ZnO/cellulose nanocrystal hybrids with modulated morphologies and superfast absorption of cationic dyes</titulo>
+      <autores>
+        <autor>Y Guan</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>D-Printed Pectin/Carboxymethyl Cellulose/ZnO Bio-Inks: Comparative Analysis with the Solution Casting Method</titulo>
+      <autores>
+        <autor>Y Kim</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation of operation parameters on the removal efficiency of methyl orange pollutant by cellulose/zinc oxide hybrid aerogel</titulo>
+      <autores>
+        <autor>M Hasanpour</autor>
+        <autor>S Motahari</autor>
+        <autor>D Jing</autor>
+        <autor>M Hatami</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Construction of Ag-ZnO/cellulose nanocomposites via tunable cellulose size for improving photocatalytic performance</titulo>
+      <autores>
+        <autor>C Shi</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cellulose controlled zinc oxide nanoparticles with adjustable morphology and their photocatalytic performances</titulo>
+      <autores>
+        <autor>X Li</autor>
+        <autor>L Zhang</autor>
+        <autor>Z Wang</autor>
+        <autor>S Wu</autor>
+        <autor>J Ma</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Sawdust-Based Cellulose Nanocrystals Incorporated with ZnO Nanoparticles as Efficient Adsorption Media in the Removal of Methylene Blue Dye</titulo>
+      <autores>
+        <autor>O Oyewo</autor>
+        <autor>A Adeniyi</autor>
+        <autor>B Sithole</autor>
+        <autor>M Onyango</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Green synthesis of sheet-like cellulose nanocrystal-zinc oxide nanohybrids with multifunctional performance through one-step hydrothermal method</titulo>
+      <autores>
+        <autor>S Abdalkarim</autor>
+        <autor>H Yu</autor>
+        <autor>C Wang</autor>
+        <autor>L Huang</autor>
+        <autor>J Yao</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microwave-assisted hydrothermal synthesis of cellulose/ZnO composites and its thermal transformation to ZnO/carbon composites. Iran</titulo>
+      <autores>
+        <autor>S Liu</autor>
+        <autor>K Yao</autor>
+        <autor>B Wang</autor>
+        <autor>M Ma</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photocatalytic Degradation of Congo Red and Crystal Violet Dyes on Cellulose/ PVC/ZnO Composites under UV Light Irradiation</titulo>
+      <autores>
+        <autor>T Linda</autor>
+        <autor>S Muthupoongodi</autor>
+        <autor>X Sahaya Shajan</autor>
+        <autor>S Balakumar</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microwave solvothermal decoration of the cellulose surface by nanostructured hybrid Ag/ZnO particles: a joint XPS, XRD and SEM study</titulo>
+      <autores>
+        <autor>P Bazant</autor>
+        <autor>I Kuritka</autor>
+        <autor>L Munster</autor>
+        <autor>L Kalina</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Construction of cellulose based ZnO nanocomposite films with antibacterial properties through one-step coagulation</titulo>
+      <autores>
+        <autor>F Fu</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Embedding ZnO nanorods into porous cellulose aerogels via a facile one-step low-temperature hydrothermal method</titulo>
+      <autores>
+        <autor>C Wan</autor>
+        <autor>J Li</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Application of microcrystalline cellulose to fabricate ZnO with enhanced photocatalytic activity</titulo>
+      <autores>
+        <autor>H Zuo</autor>
+        <autor>Y Guo</autor>
+        <autor>S Li</autor>
+        <autor>Q Pan</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Growth, structural, and optical characterization of ZnOcoated cellulosic fibers</titulo>
+      <autores>
+        <autor>G Gonçalves</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photocatalytic hydrogen production under direct solar light in a CPC based solar reactor: Reactor design and preliminary results</titulo>
+      <autores>
+        <autor>D Jing</autor>
+        <autor>H Liu</autor>
+        <autor>X Zhang</autor>
+        <autor>L Zhao</autor>
+        <autor>L Guo</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>La fotocatálisis como alternativa para el tratamiento de aguas residuales</titulo>
+      <autores>
+        <autor>L Fernando</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical Analysis of Microplastics and Nanoplastics: Challenges, Advanced Methods, and Perspectives</titulo>
+      <autores>
+        <autor>N Ivleva</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Contribution of surface carboxyl of cellulose in the formation mechanism and interfacial catalysis activity of ZnO/cellulose nanocomposites</titulo>
+      <autores>
+        <autor>C Shi</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Lignocellulosic nanomaterials production from wheat straw via peracetic acid pretreatment and their application in plastic composites</titulo>
+      <autores>
+        <autor>D Pascoli</autor>
+        <autor>A Dichiara</autor>
+        <autor>E Roumeli</autor>
+        <autor>R Gustafson</autor>
+        <autor>R Bura</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Extraction and characterization of cellulose microfibers from Retama raetam stems</titulo>
+      <autores>
+        <autor>A Khenblouche</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microwaveassisted lime treatment and recovery of lignin from hydrothermally treated sweet sorghum bagasse</titulo>
+      <autores>
+        <autor>J Kurian</autor>
+        <autor>Y Gariepy</autor>
+        <autor>V Orsat</autor>
+        <autor>G Raghavan</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical functional groups of extractives, cellulose and lignin extracted from native Leucaena leucocephala bark</titulo>
+      <autores>
+        <autor>Md Salim</autor>
+        <autor>R Asik</autor>
+        <autor>J Sarjadi</autor>
+        <autor>M</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparison of sample crystallinity determination methods by X-ray diffraction for challenging cellulose I materials</titulo>
+      <autores>
+        <autor>P Ahvenainen</autor>
+        <autor>I Kontro</autor>
+        <autor>K Svedström</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Eco-Friendly Cellulose Nanofibrils Designed by Nature: Effects from Preserving Native State</titulo>
+      <autores>
+        <autor>X Yang</autor>
+        <autor>M Reid</autor>
+        <autor>P Olsén</autor>
+        <autor>L Berglund</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Development of carrageenan modified with nanocellulose-based materials in removing of Cu2+, Pb2+, Ca2+, Mg2+, and Fe2+</titulo>
+      <autores>
+        <autor>K Ali</autor>
+        <autor>M Wahba</autor>
+        <autor>R Abou-Zeid</autor>
+        <autor>S Kamel</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>TEMPO-mediated oxidation of cellulose III</titulo>
+      <autores>
+        <autor>D Da Silva Perez</autor>
+        <autor>S Montanari</autor>
+        <autor>M Vignon</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Low temperature bleaching of cotton cellulose using peracetic acid</titulo>
+      <autores>
+        <autor>E Abdel-Halim</autor>
+        <autor>S Al-Deyab</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Insights on shear rheology of inks for extrusion-based 3D bioprinting</titulo>
+      <autores>
+        <autor>P Amorim</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photodegradation of Air and Water Contaminants Using 3D-Printed TiO2Nanoparticle Scaffolds</titulo>
+      <autores>
+        <autor>M Ávila-López</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>3D printable ceramic pastes design: Correlating rheology &amp; printability</titulo>
+      <autores>
+        <autor>J Bonilla-Cruz</autor>
+        <autor>M Ávila-López</autor>
+        <autor>F Rodríguez</autor>
+        <autor>A Aguilar-Elguezabal</autor>
+        <autor>T Lara-Ceniceros</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Crosslinking Effects on Alginate/Carboxymethyl Cellulose Packaging Film Properties</titulo>
+      <autores>
+        <autor>N Pinpru</autor>
+        <autor>C Mai Sci</autor>
+        <autor>S Woramongkolchai</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cellulose from sources to nanocellulose and an overview of synthesis and properties of nanocellulose/zinc oxide nanocomposite materials</titulo>
+      <autores>
+        <autor>A Farooq</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis and characterization of zinc oxide prepared with ammonium hydroxide and photocatalytic application of organic dye under ultraviolet illumination</titulo>
+      <autores>
+        <autor>S Moungsrijun</autor>
+        <autor>S Sujinnapram</autor>
+        <autor>S Sutthana</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>M Haque</autor>
+        <autor>S Mahalakshmi</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fabrication of ZnO@Cotton fabric with anti-bacterial and radiation barrier properties using an economical and environmentally friendly method</titulo>
+      <autores>
+        <autor>R Hu</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis and characterization of calcium alginate nanoparticles, sodium homopolymannuronate salt and its calcium nanoparticles</titulo>
+      <autores>
+        <autor>H Daemi</autor>
+        <autor>M Barikani</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fabrication of carboxylated cellulose nanocrystal/sodium alginate hydrogel beads for adsorption of Pb(II) from aqueous solution</titulo>
+      <autores>
+        <autor>Z Hu</autor>
+        <autor>A Omer</autor>
+        <autor>X Ouyang</autor>
+        <autor>D Yu</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Macro-/nanoporous Al-doped ZnO/cellulose composites based on tunable cellulose fiber sizes for enhancing photocatalytic properties</titulo>
+      <autores>
+        <autor>H Li</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Ethylenediamine-assisted solvothermal synthesis of ZnS/ZnO photocatalytic heterojunction for high-efficiency hydrogen production</titulo>
+      <autores>
+        <autor>Y Piña-Pérez</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Detailed peak fitting analysis of the Zn 2p photoemission spectrum for metallic films and its initial oxidation stages</titulo>
+      <autores>
+        <autor>D Cabrera-German</autor>
+        <autor>G Molar-Velázquez</autor>
+        <autor>G Gómez-Sosa</autor>
+        <autor>W De La Cruz</autor>
+        <autor>A Herrera-Gomez</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanoscale Patterning of Zinc Oxide from Zinc Acetate Using Electron Beam Lithography for the Preparation of Hard Lithographic Masks</titulo>
+      <autores>
+        <autor>A Chaker</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of polystyrene spheres in different particle sizes and assembly of the PS colloidal crystals</titulo>
+      <autores>
+        <autor>J Fang</autor>
+        <autor>Y Xuan</autor>
+        <autor>Q Li</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The effect of gamma irradiation on chemical, morphology and optical properties of polystyrene nanosphere at various exposure time</titulo>
+      <autores>
+        <autor>J Yabagi</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Expanded polystyrene waste valorization as a hydrophobic coating II: packaging application</titulo>
+      <autores>
+        <autor>A Halim</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Controlled grafting-from of polystyrene on polybutadiene: Mechanism and spectroscopic evidence of the functionalization of polybutadiene with 4-Oxo-TEMPO</titulo>
+      <autores>
+        <autor>J Bonilla-Cruz</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Solid-phase photodegradation of polystyrene by nano TiO2 under ultraviolet radiation</titulo>
+      <autores>
+        <autor>S</autor>
+        <autor>D</autor>
+        <autor>T</autor>
+        <autor>S</autor>
+        <autor>C</autor>
+        <autor>R</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Accelerated Photodegradation of Solid Phase Polystyrene by Nano TiO2-Graphene Oxide Composite under Ultraviolet radiation</titulo>
+      <autores>
+        <autor>S</autor>
+        <autor>D</autor>
+        <autor>T</autor>
+        <autor>S</autor>
+        <autor>C</autor>
+        <autor>R Kj</autor>
+        <autor>A</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Oxiranes and Oxirenes</titulo>
+      <autores>
+        <autor>E Lewars ; Alan</autor>
+        <autor>R Katritzky</autor>
+        <autor>Charles Rees</autor>
+      </autores>
+      <fecha>1984</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study of degradation of polystyrene by means of mass spectrometry</titulo>
+      <autores>
+        <autor>B Achhammer</autor>
+        <autor>M Reiney</autor>
+        <autor>L Wall</autor>
+        <autor>F Reinhart</autor>
+      </autores>
+      <fecha>1952</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Photodegradation and photostabilization of polymers</titulo>
+      <autores>
+        <autor>E Yousif</autor>
+        <autor>R Haddad</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Defects tune the acidic strength of amorphous aluminosilicates</titulo>
+      <autores>
+        <autor>R Verma</autor>
+        <autor>C Singhvi</autor>
+        <autor>A Venkatesh</autor>
+        <autor>V Polshettiwar</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis and characterization of polystyrene oligomers with several pendent epoxy groups</titulo>
+      <autores>
+        <autor>J Zhang</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A comparison of rheology and FTIR in the study of polypropylene and polystyrene photodegradation</titulo>
+      <autores>
+        <autor>V Mylläri</autor>
+        <autor>T Ruoko</autor>
+        <autor>S Syrjälä</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>TiO2 nanoparticle assisted solid phase photocatalytic degradation of polythene film: A mechanistic investigation</titulo>
+      <autores>
+        <autor>R Thomas</autor>
+        <autor>V Nair</autor>
+        <autor>N Sandhyarani</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The combined effect of photodegradation and stress cracking in polystyrene</titulo>
+      <autores>
+        <autor>A Sousa</autor>
+        <autor>K Amorim</autor>
+        <autor>E Medeiros</autor>
+        <autor>T Mélo</autor>
+        <autor>M Rabello</autor>
+      </autores>
+      <fecha>2006</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical effect of photo-irradiation in expanded polystyrene studied by XPS</titulo>
+      <autores>
+        <autor>I Mejía-Torres</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A carbon-14 radiotracer-based study on the phototransformation of polystyrene nanoplastics in water: Versus in air</titulo>
+      <autores>
+        <autor>L Tian</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Studies on growth of Au cube-ZnO core-shell nanoparticles for photocatalytic degradation of methylene blue and methyl orange dyes in aqueous media and in presence of different scavengers</titulo>
+      <autores>
+        <autor>S Verma</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Eng</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Preparation of ZnO Photocatalyst for the Efficient and Rapid Photocatalytic Degradation of Azo Dyes</titulo>
+      <autores>
+        <autor>X Chen</autor>
+        <autor>Z Wu</autor>
+        <autor>D Liu</autor>
+        <autor>Z Gao</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Facile synthesis of Z-scheme ZnO-nanorod @ BiOBr-nanosheet heterojunction as efficient visible-light responsive photocatalyst: The effect of electrolyte and scavengers</titulo>
+      <autores>
+        <autor>M Ghorbani</autor>
+        <autor>A Solaimany Nazar</autor>
+        <autor>M Frahadian</autor>
+        <autor>M Khosravi</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+  </referencias>
+</tesis>

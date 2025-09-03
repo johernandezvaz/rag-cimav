@@ -1,0 +1,1247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo>CENTRO DE INVESTIGACIÓN EN MATERIALES AVANZADOS</titulo>
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>Departamento De</autor>
+      <autor>Estudios De Posgrado</autor>
+      <autor>Obtener Para</autor>
+      <autor>Grado El</autor>
+      <autor>Maestra De</autor>
+      <autor>Ciencia En</autor>
+      <autor>De Materiales</autor>
+      <autor>Ing Lucía</autor>
+      <autor>Carmen García Martínez</autor>
+      <autor>Dra Ana</autor>
+      <autor>María Arizmendi</autor>
+      <autor>Morquecho Apodaca</autor>
+      <autor>Nuevo León</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>RESUMEN</titulo>
+        <texto>El desarrollo de materiales ligeros energéticamente eficientes con un alto nivel de rendimiento es una preocupación importante en varios campos industriales para cumplir con las regulaciones ambientales y mantener la producción. El cobre y el aluminio son materiales ampliamente empleados en la generación y transmisión de energía, así como en la industria electrónica. Sin embargo, ante la creciente demanda industrial, las aleaciones de aluminio han comenzado a ser cada vez más atractivas para aplicaciones conductoras debido a su bajo costo, ligereza y abundancia, por lo que lo hace más accesible y sostenible; no obstante, para su uso en cables eléctricos, debe cumplir un requisito crítico: equilibrar una buena conductividad eléctrica con alta resistencia mecánica. En este trabajo, se estudió el efecto de la modificación química superficial en nanotubos de carbono (NTC) para sintetizar nanocompósitos Al-C en forma de alambre, basado en la aleación 1350-H19 usando procesos de fundición. Se analizaron los efectos de la temperatura y la deformación mecánica para optimizar la microestructura y distribución de los refuerzos en la matriz metálica, logrando obtener nanocompósitos con una mejora en la conductividad eléctrica de 68.4% IACS, lo cual supera en promedio 12% al estándar para estas aleaciones. Los materiales fueron caracterizados en cada etapa del proceso usando técnicas avanzadas, como ICP, DRX, espectroscopía Raman, XPS, SEM-EDS y análisis térmico. El comportamiento mecánico fue estudiado en la microescala mediante ensayos de tensión y microdureza, mientras que en la nanoescala se determinaron mapeos de las propiedades mecánicas por nanoindentación (PMN) incluyendo la rigidez (S), el módulo elástico reducido (Er) y la dureza (H). Finalmente, el comportamiento eléctrico fue evaluado utilizando el método de cuatro puntas de acuerdo a la norma D4496 -21. A mi asesora de tesis, la Dra. Ana Arizmendi, le agradezco profundamente su dedicación, paciencia y conocimiento. Gracias por creer en mí, por motivarme en los momentos difíciles y por guiarme con sabiduría y compromiso en cada etapa de este trabajo. Al Centro de Investigación en Materiales Avanzados (CIMAV), extiendo mi gratitud por los recursos, equipos y conocimientos brindados, que fueron esenciales para el desarrollo de esta investigación. Asimismo, agradezco a los técnicos por su apoyo en las diversas caracterizaciones realizadas, siempre con disposición y profesionalismo. A mi equipo de investigación, a Leo, quien fue un gran apoyo y guía para poder realizar mis experimentaciones con éxito. A mis sinodales, gracias por sus consejos y por su tiempo dedicado a enriquecer este trabajo con su experiencia y conocimientos. A mi familia, especialmente a mi mamá y a mi hermano Arnoldo, les agradezco por estar siempre al pie del cañón, pendientes de todo para que no me faltara nada. Su amor, apoyo incondicional y confianza en mí fueron mi mayor fortaleza durante este proceso. A mi novio Miguel, gracias por tu ayuda, paciencia y constante motivación. Tu apoyo fue clave para que pudiera alcanzar esta meta. Finalmente, a mis amigos, les agradezco por sus consejos, por esos momentos de diversión que me ayudaron a despejarme y por estar siempre ahí con palabras de ánimo y apoyo. Este logro no habría sido posible sin cada uno de ustedes. ¡Gracias! xix DEDICATORIA A mi mamá, por su infinito amor, su apoyo incondicional y su fe inquebrantable en mí. Por escucharme siempre, incluso cuando hablaba sin parar sobre mi trabajo, por darme consejos que iluminaron mi camino y por ser mi mayor ejemplo de paciencia y fortaleza. A mi hermano Arnoldo, por ser mi mayor soporte, mi confidente y mi amigo. Por sus palabras de aliento, por animarme en los momentos difíciles, por sus valiosos consejos y por nunca dejarme rendir. A ambos, por nunca dejarme sola, por ser mi refugio en cada etapa de este camino y por recordarme que, aunque somos tres, somos una gran familia unida y llena de amor. Gracias por ser mi mayor fortaleza y motivación.</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>INTRODUCCIÓN</titulo>
+        <texto>El cobre (Cu) y el aluminio (Al) son los conductores estándar tradicionalmente usados para la generación, transmisión y distribución de energía, fabricación de componentes eléctricos, sistemas electrónicos y de telecomunicaciones. Lo anterior se debe a la combinación inigualable de su conductividad eléctrica, propiedades mecánicas y propiedades físicas. Dichas aplicaciones tecnológicas modernas muestran una demanda creciente de materiales con una mejor capacidad de transporte eléctrico a un nivel más alto respecto a los materiales convencionales, debido además a que el desempeño de la propiedad conductora puede verse afectada por diversos factores como la corrosión, la expansión térmica, la degradación ambiental o las impurezas en el material. Por lo que esta necesidad ha impactado en la investigación de nuevos materiales conductores eléctricos con propiedades mejoradas respecto a los metales puros. Entre las enormes aplicaciones que estos materiales conductores puedan tener, las aplicaciones de interés se enfocan a aquellas que impactan las tendencias mundiales sobre el ahorro de la energía y el cuidado de la salud y el medio ambiente, las cuales requieren no solo mejores materiales, sino que además tengan mayor disponibilidad y se procesen a menor costo. Algunos ejemplos puntuales que se pueden mencionar son alambres ultra-conductores para sensores de contaminantes ambientales y detección de enfermedades; dispositivos, componentes y procesos para el sector de energía, cables de transmisión DC (que son sensibles al peso, el tamaño y la disipación de calor), conductores eficientes para vehículos automotores eléctricos (EVs), celdas solares y circuitos eléctricos integrados para la construcción (viviendas sustentables). Para las aplicaciones en los sectores mencionados, el aligeramiento de los componentes es primordial, ya que la reducción del peso conlleva un menor consumo de combustible y se utiliza menor cantidad de materias primas para su manufactura, además de requerir menor energía para el transporte. Un material alterno al Cu es el Al, ya que dicho material puede lograr una reducción del peso desde un 30% Los polimorfos de carbono tales como el grafito, el grafeno y los nanotubos de carbono (NTC) constituyen la base reforzante del Al para la síntesis de esta clase de nanocompósitos metálicos. Los temas a considerar más importantes para su inclusión en la matriz metálica, siguen siendo el control de su dispersión, el enlace químico y la unión interfacial y su efecto en la microestructura general y los defectos cristalinos. Es por esto que en el presente trabajo de investigación se propone una metodología experimental viable que minimice los problemas mencionados, con potencial de escalamiento para la manufactura de un material compuesto base Al-C en forma de alambre, que presente las propiedades antes mencionadas para las aplicaciones de interés, tomando en consideración el lograr un balance adecuado de las propiedades mecánicas y su desempeño frente a propiedades conductoras.</texto>
+      </seccion>
+    </introduccion>
+    <antecedentes>
+      <seccion>
+        <titulo>ANTECEDENTES</titulo>
+        <texto>En los últimos 10 años se ha observado un aumento de los estudios sobre la producción y desarrollo de nanocompósitos de matriz metálica reforzados con NTC Particularmente en la industria automotriz se han llevado a cabo varias estrategias para lograr el aligeramiento de vehículos en base a la sustitución de algunos componentes, por ejemplo, algunas estructuras pesadas del chasis y la carrocería. La mayoría de ellas se centran en el cambio de algún material por otro más ligero, en este caso, el acero ha sido el material escogido para ser sustituido, ya sea por aluminio o algún otro metal con menor densidad, o por materiales compuestos (usualmente de matriz polimérica reforzados con fibras de carbono), esto va a depender del componente que se quiera modificar y su función Para lograr una buena combinación de propiedades y hacer que este elemento sea utilizado con éxito en la industria automotriz, se le han realizado ciertas modificaciones; una de ellas es la adición de hierro (0.5% e.p.) en la aleación de aluminio (8176 y Al-Mg-Si) Por otra parte, el Al puro y sus aleaciones se han utilizado también ampliamente para aplicación en líneas de transmisión de corriente (DC) En la actualidad el uso del Al en conductores eléctricos ha tomado gran importancia, no solo por el aligeramiento que proporciona, sino también por su bajo costo de procesamiento y mecanizado, además de que al existir en abundancia es más barato Las aleaciones de la serie 1XXX y 6XXX (de baja aleación) son las más utilizadas en este campo, siendo estas últimas las más relevantes, esto gracias a sus buenas propiedades, entre ellas la más utilizada es la aleación de Al-Mg-Si Este refinamiento se ha conseguido mediante deformación plástica severa (DPS) por torsión de alta presión También, se ha empelado junto con el refinamiento de grano del Al la adición de boro mejorando la propiedad eléctrica en 56.5% IACS También se ha investigado la posibilidad de reforzar la aleación con alótropos del carbono para mejorar la respuesta eléctrica. Estos nanocompuestos Al-C son parte de la próxima generación de materiales conductores, donde el metal aporta los beneficios de la conductividad eléctrica, procesabilidad o bajo peso, mientras que los nanomateriales aportan un reforzamiento de la propiedad de interés, otorgando un balance adecuado en la relación de propiedades-procesamiento Como se sabe existen diferentes alótropos de carbono, aunque según la literatura revisada, los que han dado mejores resultados en cuanto a conductividad eléctrica son los nanotubos de carbono, el grafeno y el grafito. El grafeno es solo una capa de átomos de carbono unidos mediante un enlace sp 2 acomodados de manera hexagonal, mientras que el grafito es una pila de varias de estas capas y los NTC son grafenos enrollados (ya sea de una capa o multicapa). Estos alótropos utilizados para aplicaciones eléctricas contienen impurezas y defectos estructurales, por lo que para los NTC se prefieren los de pared simple o doble ya que la cantidad de capas afecta la conducción y su calidad Entre los refuerzos de carbono más utilizados se encuentran los nanotubos de carbono, esto debido a sus excelentes propiedades. Entre sus propiedades mecánicas se ha reportado que los nanotubos de pared múltiple cuentan con una resistencia máxima de hasta 63 GPa, sin embargo se ha demostrado que son los NTC de pared simple los que cuentan con una mayor resistencia y rigidez; esta alta resistencia y baja densidad los convierte en refuerzos de gran interés para materiales compuestos Los alambres compuestos de matriz metálica reforzados con NTC han alcanzado propiedades eléctricas similares a las de sus partes metálicas, entre estos materiales, los compuestos por Al y NTC han cobrado importancia para aplicaciones recientes aeroespaciales y en la industria automotriz, esto debido a su excelente relación resistencia-peso, y a sus buenas propiedades entre las que se encuentran una resistencia en condiciones extremas y una buena conductividad eléctrica y térmica La mala humectabilidad de los nanocarbonos con el Al impide la mejora de las propiedades Como ya se mencionó la pulvimetalurgia es la ruta más utilizada, ya que se consigue una mejor dispersión del refuerzo dentro de la matriz, sin embargo para aplicaciones de cableado eléctrico no es la mejor opción, esto debido a que se tienen dificultades para extruir el material en forma de alambre, tal es el caso del trabajo de D. Huerta La ruta de alta temperatura no es muy utilizada en la literatura en este tipo de compuestos de matriz metálica reforzada con alótropos del carbono, ya que existen dos limitaciones principales, la primera es la alta temperatura de fusión del elemento base, la cual puede dañar a los nanocarbonos y la segunda es la segregación de estos debido a la tensión superficial del metal fundido Para la mejora de la humectabilidad entre el Al y el C se han propuesto diferentes métodos, entre ellos uno de los más utilizados es la modificación de la superficie del refuerzo ya sea por revestimiento de un metal (los metales líquidos pueden humedecer fácilmente los metales sólidos) o un cerámico o por la creación de defectos Adicionalmente, existe una patente</texto>
+      </seccion>
+    </antecedentes>
+    <objetivos>
+      <seccion>
+        <titulo>OBJETIVOS</titulo>
+        <texto />
+      </seccion>
+    </objetivos>
+    <justificacion>
+      <seccion>
+        <titulo>JUSTIFICACIÓN</titulo>
+        <texto>Actualmente las aleaciones de Al tienen una alta aplicabilidad tecnológica basada en su alto desempeño en métodos de procesamiento mecánico, sin embargo, su resistencia se ve comprometida cuando se trata de disminuir el peso e incrementar su propiedad eléctrica. Este comportamiento se debe en gran parte, al transporte libre de los electrones, lo cual principalmente se limita por los defectos estructurales, los límites de grano y la alta cantidad de interfases presentes en la microestructura del material. Siguiendo con el avance en el estado del arte, se busca mejorar la aleación de Al y sus propiedades eléctricas y mecánicas para su uso en aplicaciones que demandan actualmente algunos sectores industriales importantes, como el automotriz, aeronáutico, aeroespacial y energía. El principal reto es mejorar las propiedades eléctricas de Al (aleación conductora actual 1350-H19), sin disminuir las propiedades mecánicas. La disminución en el peso (aligeramiento) de los componentes estructurales en forma de alambre que actualmente son de Cu, es de relevancia adicional para ligar el tema de investigación con los avances paralelos del cuidado del medio ambiente y la disminución del gasto energético, lo cual repercute directamente con la disminución de desprendimiento de gases de efecto invernadero de los productos terminados.</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>HIPÓTESIS</titulo>
+        <texto>El reforzamiento de la matriz metálica a base de Al realizado mediante la incorporación en baja concentración (&lt;1% e.p.) de NTC modificados en la química superficial, mejorará la relación de propiedades eléctricas y mecánicas de los nanocompuestos Al-C sintetizados usando procesos metalúrgicos. Con la metodología propuesta, se espera superar estas propiedades en el nanocompuesto Al-C en al menos 5% respecto a la aleación original Al 1350-H19. El enfoque científico de la hipótesis, se direcciona hacia la mejor inclusión y distribución del C en la matriz metálica de Al en forma de alambre, creando patrones de conducción eléctrica favorable, alineados a la deformación de los granos y a la vez actuando como refuerzo para el movimiento de las dislocaciones del metal bajo deformaciones acumuladas sin fracturarse en el procesamiento. Para clasificar las aleaciones forjadas, se utiliza un sistema de cuatro dígitos como a continuación se describe. • Primer dígito: Indica el grupo de aleación, según los principales elementos de aleación. • Segundo dígito: Indica la modificación de la aleación original (0 para original, 1-9 para modificaciones). • Últimos dos dígitos: Indican la pureza de la aleación, identificando diferentes aleaciones dentro del grupo. Para las aleaciones de fundición se emplea un sistema de tres dígitos seguido de un decimal como se detalla a continuación. • Primer dígito: Sugiere la organización de la aleación según el elemento de aleación principal. • Segundo y tercer dígito: identifican la aleación de Al específica y la pureza del material. • El digito final sugiere la forma del producto: Fundición (distinto a través de cero) o lingote (mediante el uso de 1 o 2 con base en el límite de composición química que cumplen con especificaciones de fundición y procesamiento). En la Tabla 1 se presenta el sistema designado para cada familia de las aleaciones basadas en Al Tabla 1. Sistema de designación numérica para aleaciones de aluminio. Los números que siguen a la H o T indican la cantidad de endurecimiento por deformación, el tipo de tratamiento térmico u otros aspectos del procesamiento. En la H el primer dígito indica la combinación de las operaciones básicas, mientras que el segundo dígito designa la cantidad de trabajo en frío realizada, en donde el 8 representa la condición de dureza total</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>METODOLOGÍA EXPERIMENTAL</titulo>
+        <texto>En la Figura 10 se muestra un diagrama de flujo general correspondiente a la experimentación. De manera general se mencionan brevemente las etapas realizadas y a continuación se describirá cada una de éstas de manera detallada. La primera etapa consistió en realizar las modificaciones superficiales a la fase reforzante (NTC). Se continuó con la preparación de los sustratos incluyendo corte y limpieza química, para posteriormente someterlos a un proceso de depositación de bicapas: una capa de los NTC metalizados y a continuación una capa de Al. Estos sustratos fueron utilizados como soportes para los NTC y el recubrimiento de aluminio fue depositado con la intención de formar una capa protectora sobre la nanoestructura. Después de realizar los recubrimientos, éstos se sometieron a un ciclo térmico para llevar a cabo la sinterización y evitar la pérdida de material carbonoso por desprendimiento. A continuación, los sustratos recubiertos fueron colocados en el interior de un molde metálico en el cual se vierte la aleación Al 1350-H19 previamente fundida por separado. La posterior solidificación permite la obtención de probetas con geometría cilíndrica usando la ruta de metalurgia en estado líquido. La pieza final que se obtiene es un nanocompósito Al-C en forma de billet con dimensiones de 2 cm de diámetro  10 cm de longitud. Estas probetas posteriormente fueron sometidas a un proceso de deformación plástica utilizando una prensa hidráulica con la intención de disminuir el diámetro y así poder obtener mediante un corte simétrico 2 probetas de cada billet. Paralelamente algunas de las muestras obtenidas mediante esta ruta experimental, también se introdujeron por segunda ocasión al horno de fundición y así explorar la obtención de una probeta cilíndrica de 1.2 cm de diámetro  10 cm de longitud. El siguiente paso consistió en someter cada una de las probetas obtenidas a un maquinado superficial usando un torno convencional de donde se obtuvieron probetas cilíndricas con una longitud de 9 mm de diámetro  10 cm de longitud. Todas las probetas se sometieron a un tratamiento térmico de recocido con el objetivo de eliminar los esfuerzos internos creados por la deformación y el maquinado. Finalmente, las probetas cilíndricas se sometieron a un proceso de trefilado para la obtención de secciones de nanocompósitos Al-C con geometría de alambre de 3 mm de diámetro  40 cm de longitud. Al término de cada etapa del proceso se realizaron diversas caracterizaciones químicas y/o morfológicas de los materiales obtenidos, incluyendo ICP, DRX, Espectroscopia Raman, XPS, SEM-EDS, Análisis Térmico, Propiedades Mecánicas y Eléctricas.</texto>
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>RESULTADOS Y DISCUSIÓN</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Modificaciones químicas superficiales a los NTC</titulo>
+        <texto>En este apartado se describen los resultados obtenidos de las modificaciones superficiales realizadas a los nanotubos de carbonos prístinos, los cuales fueron analizados mediante las diversas caracterizaciones realizadas a la nanoestructura como SEM-EDS, XPS, Espectroscopia Raman, XRD y Análisis térmicos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de la matriz metálica (aleación Al 1350-H19)</titulo>
+        <texto>A continuación, se presentan las caracterizaciones, análisis y resultados realizados al aluminio tipo 1350-H19 el cual fue el material metálico que se usará como matriz del nanocompósito de acuerdo a la aplicación eléctrica buscada, así como también los resultados obtenidos de la fundición de esta aleación.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Desempeño eléctrico</titulo>
+        <texto>A continuación, se presentan los resultados de las mediciones de conductividad eléctrica para nanocompuestos con geometría de alambre, utilizando como referencia alambre de Al 1350-H19 sin fase reforzante añadida, y como estándar la aleación de Al 1350-H19 de la cual se tiene el dato de conductividad eléctrica de la especificación con 61% IACS Las figuras que se muestran a continuación, se diseñaron en base a los valores del % de IACS obtenidos para los nanocompuestos desarrollados, los cuales se encuentran divididos en cuatro grupos. En cada grupo las figuras con inciso a) representan a los alambres que no cuentan con tratamiento térmico, las representadas con el inciso b) indican a los nanocompuestos sometidos a un tratamiento térmico, mientras el último inciso c) presentan a los alambres que fueron sometidos a un doble tratamiento térmico. Además de que las gráficas del lado izquierdo muestran la conductividad promedio obtenida para cada alambre, mientras que las gráficas que se encuentran al lado derecho presentan los valores máximos obtenidos de % en IACS. La Figura 77 muestra las conductividades promedio y las conductividades máximas alcanzadas para los nanocompuestos que se fabricaron únicamente por un proceso de fundición. Como se aprecia en los resultados de la Figura 77a, la conductividad    También se decidió evaluar de forma adicional un grupo selecto de muestras que fueron sometidas a un proceso de deformación acumulada y tratamiento térmico, con la intención de indagar por separado, si la manipulación en la forma de los granos con deformación más temperatura, podría afectar los patrones de conducción eléctrica. En la Figura 79 se muestran los resultados obtenidos comparando la conductividad eléctrica alcanzada, donde se aprecia que cuando las muestras se someten a procesos de deformación acumulada (Figura 79a), tiene un impacto mínimo en la conductividad alcanzada. Todas las muestras de este set experimental, se encuentran por debajo de la especificación. Ahora, cuando éstas mismas muestras son posteriormente llevadas a un tratamiento térmico (Figura 79b) se tiene un efecto positivo mayor respecto a la conductividad eléctrica, confirmando que es mejor la aplicación de temperatura para manipulación de mejores patrones de conducción eléctrica. El valor máximo de conductividad eléctrica alcanzado en este set de muestras fue de 66.4% IACS correspondiente a la muestra Al-NTCM (A1), superando en 22.05% la conductividad eléctrica de la muestra referencia (66.4% respecto a 54.4%). Esta observación del aumento en la conductividad con el efecto térmico se relaciona a una dispersión uniforme de todas las fases del material, incluyendo una interacción mínima entre las fases constituyentes de la matriz y una buena dispersión de la fase reforzante, además de minimizar algunos defectos estructurales en el nanocompósito. En el mismo contexto, la Figura 79c presenta el efecto de un segundo tratamiento consecutivo al que fueron sometidos los nanocompósitos, donde se puede ver que la conductividad disminuye, aunque esta disminución es despreciable, los resultados son ligeramente mayores de la propiedad eléctrica respecto a la especificación, aunque dichos resultados son menores respecto a los anteriores alcanzados. Finalmente, la Figura 80 muestra resultados de la propiedad eléctrica, de un último grupo de muestras que fueron consecutivamente fundidas en tres ocasiones. El objetivo de esta evaluación fue demostrar la estabilidad química que puede tener la fase reforzante de NTCM añadidos en los nanocompósitos con la afectación térmica. Como se puede apreciar en los histogramas de la Figura 80a, se presenta la conductividad eléctrica de nanocompósitos que se sometieron de 1 a 3 fundiciones, donde se puede observar que la afectación térmica repercute en un ligero incremento de la conductividad eléctrica alcanzando un valor máximo de 53.8% IACS en la muestra Al-NTCM (L1). Cuando éstas mismas muestras se someten a un tratamiento térmico en las mismas condiciones que los tratamientos térmicos previos, la conductividad eléctrica se incrementa en un rango considerable, como se aprecia en la Figura 80b, en este caso la máxima conductividad eléctrica alcanzada fue de 64% IACS. Finalmente, cuando las muestras se someten a un segundo tratamiento térmico (Figura 80c), el efecto en la propiedad eléctrica es mínimo, aunque presentando el mismo efecto discutido previamente, en el cual en este set de muestras la temperatura si hace que se incremente la propiedad eléctrica de la muestra de referencia. La máxima conductividad eléctrica alcanzada en este set fue de 65.4% IACS. En conclusión, de estos resultados se puntualiza que la afectación térmica que otorgan los tratamientos térmicos representó una buena estrategia para el incremento de la propiedad eléctrica. Un solo tratamiento térmico es bueno para lograr el máximo incremento en la propiedad de los nanocompósitos desarrollados. Las muestras sin tratamiento cuentan con una conductividad menor debido a que provienen de un proceso de deformación severa (trefilado), lo que les genera gran cantidad de dislocaciones que impiden el movimiento libre de los electrones, mientras que el tratamiento térmico de recocido ayuda a aliviar esas tensiones residuales eliminando esos defectos, haciendo que la conductividad aumente, al disminuir el número de barreras que impiden el paso de electrones.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Desempeño mecánico</titulo>
+        <texto>A continuación, se presentan los resultados de los ensayos de tensión realizados a los nanocompósitos desarrollados con geometría de alambres sometidos a un tratamiento térmico, los resultados se comparan con los valores obtenidos de la muestra estándar Al 1350-H19 (línea punteada) que pasó por el mismo proceso de trefilado que las demás muestras. La Figura 81 muestra los resultados obtenidos de las propiedades mecánicas a través de los ensayos mecánicos en tensión uniaxial realizados a los nanocompuestos que cuentan con una solo fundición. La muestra Al-NTCM (A1) es la que cuenta con una mayor deformación de 69.8% (Figura 81d) y por lo tanto un menor módulo elástico de 24 MPa (Figura 81c), la muestra con mayor resistencia es la Al-NTCM (A2) con 71.7 MPa, aunque los valores están muy cercanos entre sí, se encuentran en un rango de 67.2 a 71.7 MPa (Figura 81b). En estas gráficas se puede ver que entre mayor es la fase reforzante se incrementa la UTS y el límite elástico y disminuye el % de deformación. En la Figura 83 se muestra una comparación de los resultados de la prueba de tensión realizados a la muestra de Al-NTCM (A1) con deformación simple y deformación acumulada y que fue obtenida mediante doble fundición. Como era de esperarse la muestra con deformación acumulada es la que cuenta con un mayor valor de UTS (Figura 83b), la muestra con deformación simple presenta el mayor módulo elástico (Figura 83c) y en cuanto al porcentaje de deformación para ambos nanocompuestos éste es cercano al 40%, mientras que el alambre sin reforzar es el que presenta mayor porcentaje (Figura 83d). La Figura 84 muestra una comparación de los efectos de la fundición en las propiedades del nanocompuesto de Al-NTCM (L1) ya que se le realizaron de una a tres fundiciones. Los valores de UTS son muy cercanos entre sí, de aproximadamente 68% (Figura 84b), la muestra con una fundición es la que fracturó antes (Figura 84a), por lo que cuenta con una mayor rigidez (Figura 84c) y a su vez una menor deformación (Figura 84d). La muestra con doble fundición presenta buenos resultados de deformación, muy similares a la muestra referencia, lo que beneficia para su uso en cables eléctricos, además de que su UTS es aceptable.   La deformación extra que se le aplicó a la muestra Al-NTCM (A1) ayudó a que se tuviera una mayor dureza (Figura 87a) aunque la diferencia es casi despreciable, mientras que la temperatura hizo que la dureza de esta muestra fuera menor a la de la muestra con deformación simple (Figura 87b).  Los efectos de la temperatura en la muestra Al-NTCM (L1) fueron la disminución de la dureza conforme aumentó el número de fundiciones (Figura 88a), el tratamiento térmico también contribuyó a esta disminución (Figura 88b), sin embargo, para la muestra con dos fundiciones, la reducción solo fue de 5 puntos, por lo que después del tratamiento es la que cuenta con mayor dureza, aun así los compuestos con NTCM cuentan con una microdureza mayor a la del alambre de Al.   De acuerdo al análisis de los resultados previos, algunas de las muestras fueron seleccionadas para caracterizarlas con mayor detalle a través de ensayos de nanoindentación. Las muestras analizadas mediante esta técnica, fueron aquellas que presentaron mayor conductividad y algunos casos especiales (deformación acumulada y sometida a ciclos térmicos consecutivos); además de que también se analizó la muestra Al-NTC (A1) obtenida por una fundición con la finalidad de comparar el efecto de los NTC comerciales y metalizados en las propiedades mecánicas puntuales, cabe destacar que todas las muestras caracterizadas cuentan con un tratamiento térmico. La Figura 90 presenta los resultados de las curvas de carga respecto al desplazamiento de cada muestra analizada. El área de indentación se muestra del lado derecho de la figura, la cual fue de 20×20 µm y donde se realizaron 16 indentaciones, mientras que, para otras muestras, el área analizada fue un poco mayor de 50×50 µm alcanzando indentar 25 veces, esto debido a que se hizo un análisis posterior en donde era mejor tener más número de huellas. La profundidad de penetración en todas las muestras se encuentra alrededor de 145 nm, se puede apreciar que el rango de desplazamiento es pequeño, de ~21 nm, teniendo resultados homogéneos, además de que presentan un comportamiento elástico-plástico al aplicar 750 µN de carga. La muestra de Al-NTCM (A1) obtenida mediante fundición (Figura 90c) es la que alcanza una profundidad de penetración mayor, siendo de 160 nm, además de mostrar la mayoría de las curvas más homogéneas. Al comparar las mismas condiciones usando como fase reforzante NTC comerciales (Figura 90b), la profundidad máxima fue de 155 nm, aunque el rango de desplazamiento es el menor (de ~18 nm). La muestra que presentó menor profundidad de penetración es la Al-NTCM (L2) la cual fue sometida a dos fundiciones (Figura 90d), ya que esta distancia se encuentra en un rango de 125-148 nm. A manera de resumen, la Tabla 36 presenta los resultados de rigidez (S), módulo elástico reducido (Er) y dureza (H) de los ensayos de nanoindentación. De manera general, éstos resultados indican que las propiedades mecánicas a nanoescala incrementaron con la adición de los NTC respecto a los anteriores resultados de la matriz. Se observa que la dureza se encuentra en 0.71 a 0.83 GPa, este último valor es el correspondiente a la muestra Al-NTCM (L2) con 2 fundiciones. Esta muestra fue la que presentó una mejora en las propiedades mecánicas puntuales de 3.82% mayor rigidez, 10% mayor límite elástico y 13.7% mayor dureza, respecto a la muestra de referencia, lo que coincide con su profundidad de penetración menor. Sin embargo, mediante esta técnica es difícil estimar el efecto que tuvo la modificación superficial de la nanoestructura, más bien las principales diferencias en la propiedad mecánica se observan por la concentración de nanotubos añadida paralelamente con la afectación térmica. En cambio, la muestra Al-NTCM (L2) con doble fundición los puntos máximos y mínimos están más cerca, los precipitados pudieron ayudar a este comportamiento, además que probablemente los tratamientos superficiales a los nanotubos permitieron un mejor anclaje químico en la matriz metálica. Para la muestra de Al-NTCM (A1) refundida y con más deformación se disminuye la diferencia entre el máximo y el mínimo y se dispersa de mejor manera, lo cual es un resultado esperado ya que los granos se reacomodan. Sin embargo, cuando las muestras se someten de manera cíclica a afectación térmica, las propiedades mecánicas se disminuyen siendo posible observar que hubo una reducción en el intervalo de la escala de colores y diferencias graduales entre los mínimos y los máximos, lo cual indica una mejora en la recuperación elástica del material. Existen tres mecanismos de fortalecimiento que se utilizan para predecir la resistencia de los compuestos Al-C, esto siempre y cuando exista una buena humectabilidad de la matriz al refuerzo. El primer mecanismo consiste en que la incorporación de los NTC a la matriz metálica puede inhibir el crecimiento del grano, por lo que se refina mejorando la resistencia. El segundo mecanismo es cuando el compuesto al estar soportando una carga ésta se puede transferir del Al a los NTC a través de su interfase, mejorando así la resistencia. El tercer mecanismo consiste en que los nanotubos obstaculizan el movimiento de las dislocaciones esto cuando el material se deforma plásticamente, mejorando así la resistencia Figura 91. Mapeo de propiedades mecánicas obtenidas mediante nanoindentación, se muestra la rigidez, el módulo elástico reducido y la dureza.</texto>
+      </seccion>
+    </resultados>
+    <conclusiones>
+      <seccion>
+        <titulo>CONCLUSIONES</titulo>
+        <texto>Mediante el desarrollo del presente trabajo de investigación se logró sintetizar exitosamente nanocompuestos Al-NTC con geometría de alambre de 3 mm de diámetro, los cuales mostraron una buena relación de propiedades eléctricas y mecánicas, superando en 11% la aleación referencia actual para aplicaciones eléctricas. Se logró diseñar un método viable con potencial escalamiento industrial para la fabricación de este tipo de alambres nanocompuestos mediante procesos de fundición, deformación y tratamientos térmicos. Mediante el estudio de la modificación superficial a los NTC como fase reforzante, se confirmó una excelente funcionalización y metalizado de la nanoestructura original; comprobando mediante espectroscopia Raman y espectroscopia fotoelectróncia de rayos X (XPS) la presencia de grupos funcionales carboxilo y carbonilo así como la correcta adherencia de los elementos Sn y Cu en la superficie de las estructuras fungiendo como protección química y térmica a los NTC. Las propiedades químicas microestructurales de la matriz metálica base Al 1350-H19, fueron estudiadas en detalle, logrando identificar la aportación de las fases cristalinas y el efecto de los tratamientos térmicos y la deformación en las propiedades mecánicas y eléctricas. Se diseñó una estrategia para la mejor incorporación de la fase reforzante en la matriz metálica, logrando el mejor balance de propiedades mecánicas/eléctricas a través de la depositación de la nanoestructura funcionalizada químicamente y metalizada en dos sustratos de aluminio con geometría de lámina y dos capas de recubrimiento, logrando incorporar una concentración de NTC de 4.610 -3 % en volumen en el compósito final con geometría de billet de 10 cm de longitud  2 cm de diámetro. Sobre el efecto térmico en las propiedades eléctricas, se corroboró que cuando los nanocompósitos en forma cilíndrica se someten a una segunda fundición y posteriormente se trefilan y se someten a un solo recocido, tanto la fase reforzante como las fases cristalinas de la matriz sufren una re-dispersión que afecta positivamente las propiedades mecánicas y eléctricas. Con este proceso la mejor conductividad eléctrica alcanzada corresponde a la muestra Al-NTCM (L2) alcanzado una conductividad eléctrica máxima de 68.4% IACS. Sin embargo, cuando el nanocompósito se somete a una tercera fundición y posteriormente se trefila y se someten a un solo recocido, las propiedades eléctricas se disminuyen a 64% IACS, aunque se mejoran levemente las propiedades mecánicas. Sobre el efecto de deformación acumulada en las propiedades mecánicas, se comprobó que la mejor propiedad mecánica alcanzada corresponde a la muestra Al-NTCM (A1), alcanzando una resistencia máxima de 71.3 MPa (3.3% mayor que la referencia), 26.7 MPa de límite elástico (5.9% mayor que la referencia), sacrificando la deformación a la rutura, alcanzando 41.4 % (37% menor que la referencia). Esta misma muestra presentó 66.4% IACS lo cual corresponde a 22% mayor conducción eléctrica respecto a la referencia. La mejor probeta obtenida sometida a fundición, deformación y tratamiento térmico, respecto a la aleación original logró mantener la microdureza en un valor de 37 HV respecto a la muestra referencia, mientras que, de manera puntual en la nanoescala, se logró obtener un incremento de 13.7% en la dureza (0. De acuerdo a todos los estudios realizados se concluye que el mecanismo de reforzamiento se debe a una transferencia de carga eléctrica y mecánica de la matriz hacia los NTC, lo cual se logra de manera homogénea al estar la nanoestructura protegida metálicamente haciendo un buen enlace químico con la matriz de aluminio. Los tratamientos térmicos y la deformación lograron una excelente dispersión de la fase reforzante, lo cual se corroboró con los mapeos de propiedades mecánicas. Este comportamiento se debe a que el C en la escala atómica se encuentra bien disperso por los cambios en las características superficiales haciendo enlaces metálicos entre los átomos de Al.</texto>
+      </seccion>
+    </conclusiones>
+    <otros>
+      <seccion>
+        <titulo>PLANTEAMIENTO DEL PROBLEMA</titulo>
+        <texto>Los conductores eléctricos avanzados que superan al Cu y al Al convencionales pueden revolucionar nuestras vidas al permitir ahorros considerables de energía y facilitar la transición hacia un futuro basado en la movilidad eléctrica. Los NTC presentan una oportunidad única para desarrollar conductores avanzados que tienen amplia aplicación en diversos sectores, como energía, eléctrica y electrónica, comunicaciones, vivienda, entre otras; destacando las necesidades actuales en la creación, implementación y comercialización de tecnologías nacionales que tengan competencia a nivel global. El problema principal se centra en el uso de conductores, circuitos electrónicos, electrodos o sensores, en base al uso de materiales convencionales como el Al y Cu, los cuales tienen propiedades eléctricas y mecánicas limitadas y que además presentan inconvenientes ya que dichas propiedades se contraponen. Las pérdidas de eficiencia de los dispositivos se deben en muchas ocasiones a las pérdidas de poder asociadas al deterioro de la resistividad eléctrica (lo cual es relacionado a su microestructura y los defectos estructurales), a la afectación térmica y ambiental de los conductores, afectando negativamente el desempeño buscado en cables eléctricos, dispositivos, sensores o equipos. Desde un punto de vista en la síntesis de nancompósitos Al-C en forma de alambre, los procesos que se consideran con alto potencial para el escalamiento industrial, se reducen a métodos de alta temperatura, sin embargo, dicha ruta metalúrgica en estado líquido es bastante limitada, principalmente por los problemas de manejabilidad y de compatibilidad química de estructuras en la escala nanométrica a temperatura hasta 700ºC, lo cual limita su uso experimental. Los problemas de aglomeración de las nanoestructuras carbonáceas pueden conducir a defectos considerables de segregación química, conduciendo a la formación de carburos de aluminio, los cuales son dañinos al desempeño eléctrico buscado. Los retos principales a resolver se basan en mejorar la protección y humectabilidad de los nanocarbonos con el Al desde el punto de vista químico y lograr con ello una mejor incorporación, dispersión y homogeneidad en el material compuesto final. Por lo tanto, el desarrollo del proyecto se centra en sintetizar materiales nanocompuestos Al-C en forma de alambre que puedan implementarse en el corto plazo como cables eléctricos conductores de bajo peso en las aplicaciones tecnológicas modernas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>General</titulo>
+        <texto>Desarrollar un prototipo de alambre nanocompuesto de Al-NTC que presente una mejor relación de propiedades eléctricas y mecánicas respecto a la aleación original Al 1350H-19 para potenciales aplicaciones tecnológicas, proponiendo un proceso viable para su manufactura a gran escala.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Específicos</titulo>
+        <texto>• Llevar a cabo la modificación química superficial de la fase reforzante (funcionalización, sensibilizado y metalización) de los NTC. • Caracterizar las fases reforzantes provenientes de las etapas de tratamiento superficial. • Realizar la caracterización microestructural y mecánica a la aleación de Al 1350-H19 usada como matriz metálica. • Fabricar las probetas de los materiales nanocompuestos usando técnicas de electrodepositación y métodos de metalurgia en estado líquido. • Llevar a cabo el trefilado de una probeta en forma de billet, para la posterior obtención de prototipos de alambre de 30 cm de longitud  3 mm de diámetro. • Evaluar propiedades eléctricas y mecánicas de los nanocompósitos desarrollados. • Proponer el mecanismo de reforzamiento, para la mejora de propiedades eléctricas y mecánicas, considerando los fenómenos físicos y químicos de la interfase nanoestructura-matriz y su distribución en la matriz metálica.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Forjadas Fundidas</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Serie</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Aleación de aluminio 1350-H19</titulo>
+        <texto>Representa la aleación más utilizada en aplicaciones eléctricas, la cual se usa como conductor según la norma ASTM B233 Tabla 5. Propiedades de la aleación Al 1350-H19.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Propiedades eléctricas</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Nanotubos de Carbono (NTC)</titulo>
+        <texto>Los nanotubos de carbono, descubiertos en 1991 Como se aprecia esquemáticamente en la Figura 2, este tipo de nanoestructuras pueden sintetizarse de pared simple, doble o múltiple • Mecánicas: Alta resistencia a la tracción (hasta 63 GPa para los nanotubos de pared simple) y un módulo de Young que puede alcanzar hasta 1 TPa • Eléctricas: Conductividad eléctrica excepcional, con la capacidad de transportar densidades de corriente de 10⁷ a 10⁹ A/cm² • Térmicas: son estables térmicamente hasta los 2800 °C en vacío y cuentan con una conductividad térmica aproximadamente del doble que la del diamante • Otros: Ligereza, alta relación resistencia-peso, propiedades autolubricantes y buena capacidad de amortiguación Es importante tener en cuenta que el comportamiento electrónico de los NTC depende de su quiralidad y diámetro, lo que puede resultar en conductividad metálica o semiconductora. Además, el costo de los nanotubos aumenta significativamente con la pureza y calidad Los NTC son altamente competitivos frente a otros materiales debido a su bajo coeficiente de expansión térmica, alta capacidad de carga eléctrica y propiedades mecánicas sobresalientes, lo que los hace adecuados para una amplia gama de aplicaciones avanzadas, entre las cuales se utiliza comúnmente como refuerzo para materiales compuestos. Sin embargo, para obtener estas propiedades excepcionales, los NTC deben procesarse químicamente para purificarlos y lograr las funcionalizaciones apropiadas ya que sus propiedades están influenciadas por estos defectos en las paredes y en los extremos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales Compuestos</titulo>
+        <texto>Un material compuesto es aquel que está formado por la combinación de dos o más materiales o fases distintas (químicamente), las cuales están separadas por una interfase, con el objetivo de obtener propiedades que no tienen sus componentes por separado Los materiales compuestos suelen estar formados por dos fases: una fase continua, llamada matriz y una fase dispersa llamada refuerzo, que puede tener diferentes geometrías. Las propiedades de los compuestos dependen de las propiedades de las fases, sus cantidades relativas, y la geometría de la fase dispersa Los compuestos se clasifican en dos grupos principales como se observa en la Figura 4, según el tipo de matriz</texto>
+      </seccion>
+      <seccion>
+        <titulo>Materiales Compuestos de Matriz Metálica</titulo>
+        <texto>Los materiales compuestos de matriz metálica (CMM) son aquellos en donde la fase dispersa es un metal Las matrices metálicas en los CMM proporcionan cohesión, adhesión y transferencia de carga, además de protección ambiental para los refuerzos. Los CMM pueden tener matrices de aleaciones de aluminio, titanio, hierro, cobalto, cobre, plata y berilio. En algunas ocasiones especiales la matriz también puede ser una solución sólida entre dos metales Este tipo de compuestos se pueden dividir en tres grupos según el tipo de refuerzo que presenten, como se ha comentado previamente, pueden ser partículas, fibras cortas o whiskers y fibras continuas Entre los materiales de refuerzo más utilizados como partícula se encuentran el carburo de silicio y el óxido de aluminio, los materiales de fibra continua incluyen carbono, carburo de silicio, boro, óxido de aluminio y metales refractarios, mientras que los refuerzos discontinuos consisten principalmente en whiskers de carburo de silicio, fibras de óxido de aluminio y carbono El tipo de refuerzo en los CMM influye en la elección de la aleación de la matriz, que puede requerir diferentes características dependiendo si el refuerzo es continuo o discontinuo. Otros factores a considerar incluyen reacciones refuerzo/matriz, tensiones térmicas y comportamiento bajo carga cíclica El refuerzo puede mejorar la rigidez específica, la resistencia específica, la resistencia a la abrasión, la resistencia a la fluencia, la conductividad térmica y la estabilidad dimensional, las concentraciones de la fase reforzante suelen variar entre 10% y 60% en volumen. Las propiedades mecánicas de los MMC pueden mejorarse aún más disminuyendo el tamaño de las partículas de refuerzo o los granos de la matriz desde la escala micrométrica hasta el rango nanométrico, creando así los llamados "nanocompuestos" El procesamiento de estos compuestos consta de dos fases, la consolidación o síntesis que es la introducción del refuerzo a la matriz (normalmente son operaciones estándar de trabajo para metales) y la operación de conformado</texto>
+      </seccion>
+      <seccion>
+        <titulo>Procesos para la manufactura de compuestos de matriz metálica de Al en forma de alambres</titulo>
+        <texto>A continuación, se describen los procesos utilizados para la obtención del material compuesto Al-C en forma de alambre.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Depositación Electroforética (EPD)</titulo>
+        <texto>La deposición electroforética se utiliza principalmente para formar recubrimientos, mediante un proceso sencillo que emplea una suspensión acuosa u orgánica en la cual las partículas dispersas o suspendidas son atraídas por el sustrato conductor de carga opuesta, al aplicar un campo eléctrico de corriente continua (o corriente pulsada) La fuerza impulsora de la EPD es la carga de partículas y su movilidad electroforética bajo un campo eléctrico aplicado, dependiendo el tipo de fuente, se puede realizar mediante la aplicación de corriente de forma directa o pulsatoria. Los factores que influyen en la EPD incluyen parámetros relacionados con la suspensión y el proceso, como la naturaleza eléctrica de los electrodos, las condiciones eléctricas y el tamaño y carga superficial de las partículas</texto>
+      </seccion>
+      <seccion>
+        <titulo>Metalurgia en estado líquido (Fundición)</titulo>
+        <texto>La fundición es un proceso de manufactura donde el metal fundido se vierte en un molde que tiene la forma de la pieza que se desea producir, se deja enfriar y solidificar, y luego se retira la pieza del molde. Algunos factores a considerar son el flujo del metal en el molde, la solidificación, el enfriamiento, y el tipo de material utilizado en el molde. Cuando se vacía el metal fundido en el molde, comienza a solidificarse y a tomar forma. Durante esta etapa, se desarrollan estructuras y composiciones en los granos que influyen en las propiedades de la pieza. Factores como el tipo de metal, las propiedades térmicas del material y la geometría del molde afectan el desarrollo de estos granos. En el caso de metales puros, la solidificación ocurre a temperatura constante como se muestra en la Figura 6a y genera una estructura que varía desde granos finos en las superficies del molde hasta granos columnares en el interior, debido a la rápida extracción de calor. Este proceso de solidificación da lugar a una estructura anisotrópica, con propiedades que pueden variar en distintas direcciones de la pieza Dado que la mayoría de los metales se contraen al solidificarse, es posible que aparezcan cavidades de contracción si no se agrega metal líquido adicional durante el proceso Actualmente, los procesos de fundición para la obtención de CMM tiene mayor importancia que la metalurgia de polvos, ya que resulta más económica, además de que se pueden obtener una gran variedad de formas dependiendo del molde a utilizar</texto>
+      </seccion>
+      <seccion>
+        <titulo>Torneado</titulo>
+        <texto>El torneado es un proceso de mecanizado preciso para obtener piezas cilíndricas, mediante la eliminación de material (viruta) de una pieza en rotación. Se lleva a cabo en un torno el cual proporciona un movimiento giratorio a la pieza de trabajo mientras la herramienta de corte avanza. La pieza se sujeta mediante dispositivos como mandriles o platos, y en el caso de piezas largas, se apoya con el contrapunto. El cabezal contiene el sistema de impulso, y el carro es el encargado de mover la herramienta. Las herramientas de corte son pieza clave, ya que su geometría, como los ángulos de ataque y alivio, afecta la eficiencia del corte y la formación de virutas. La velocidad de remoción del material es importante, y los ángulos adecuados mejoran tanto la resistencia de la herramienta como la calidad del acabado. Los tornos pueden operar a diferentes velocidades y configuraciones. Pueden ser operados manualmente, aunque se requieren operadores con experiencia y el uso de quipo de protección adecuado, esto para los tornos mecánicos, pero hoy en día la mayoría usa motores eléctricos. Los tornos más avanzados, como los automáticos o copiadores, permiten mayor eficiencia en procesos masivos. Al diseñar piezas para el proceso de torneado, es esencial tener en cuenta factores como la facilidad para sujetar la pieza, la precisión dimensional requerida, evitar esquinas agudas y seleccionar materiales con buena maquinabilidad</texto>
+      </seccion>
+      <seccion>
+        <titulo>Procesos de Deformación a) Deformación en Frío (Prensado)</titulo>
+        <texto>El proceso de prensado consiste en deformar un material mediante la aplicación de fuerza controlada, la deformación consiste en que el material es aplastado al aplicarle una carga. Este proceso se realiza en una prensa, una máquina diseñada para ejercer presión sobre un material, el cual al ser aplastado cambia sus dimensiones por lo que se considera que sufre una deformación volumétrica, el volumen se mantiene, pero no sus medidas originales como su sección transversal. Este proceso combina precisión, fuerza y velocidad para lograr la deformación requerida y tiende a aumentar la resistencia del material a través de la deformación El trabajado en frío consiste en aplicar una fuerza que exceda la resistencia a la fluencia del material metálico, por lo que a la vez se conforma y endurece el material, por eso también a este proceso se le conoce como endurecimiento por deformación. Al deformar un metal en frío se le aplica una energía y, por lo tanto, el material pasa a un estado de inestabilidad, puesto que su energía interna es ahora mayor que la que tenía sin deformar. A temperatura ambiente, la velocidad con que se pasa a la forma estructural estable es muy lenta, siendo posible aumentarla elevando un poco su temperatura. Con ello se incrementa la agitación térmica y, en consecuencia, la movilidad atómica</texto>
+      </seccion>
+      <seccion>
+        <titulo>b) Deformación en caliente</titulo>
+        <texto>En contraste al prensado en frío, los procesos en caliente aplican temperatura o gradientes térmicos para darle forma al meta Simultáneamente se produce también una disminución de la resistencia de los límites de grano. Aparecen dos factores, ambos dependientes de la temperatura: la resistencia de los límites de grano y la resistencia de los cristales. En el trabajo en caliente es necesario mantener la temperatura siempre por encima de la de recristalización. Durante el tratamiento tienen lugar simultáneamente las deformaciones plásticas y la recristalización de los granos deformados, por lo que se requiere que la velocidad de recristalización sea suficientemente elevada, para que todos los granos hayan recristalizado al terminar el proceso. Por tanto, no basta con efectuar el trabajo por encima de la temperatura de recristalización; hay que mantener al metal con esa temperatura el tiempo suficiente para que la recristalización haya sido completada. La temperatura de trabajo tiene también un límite superior. Ha de ser inferior a la temperatura de fusión del metal y de las impurezas; y en caso de que haya eutéctico, por debajo de la temperatura de formación de este. Para la obtención de productos metálicos con forma de alambre existen dos procesos que se usan ampliamente los cuales son la extrusión seguido de trefilado. En ocasiones solo se usa el trefilado, únicamente cuando se tienen una geometría con sección transversal lo suficientemente pequeña para pasar por los dados de trefilado, de no ser el caso se tendría que pasar primero al proceso de extrusión para disminuir esa área. Se pueden usar otros procesos antes de pasar al trefilado para reducir la sección transversal del material como el prensado y un posterior torneado para darle forma cilíndrica al metal, en caso de querer obtener un alambre de sección redondeada.</texto>
+      </seccion>
+      <seccion>
+        <titulo>c) Extrusión</titulo>
+        <texto>La extrusión es un proceso de conformado mediante el cual una barra o un bloque de metal llamado tocho, es forzado a pasar a través de unos dados (matriz) mediante la aplicación de presión, con el fin de reducir su sección transversal y así obtener la pieza deseada. Mediante este método se pueden obtener diferentes productos, como lo son barras, tubos, varillas y otras geometrías complejas La Figura 7 presenta una clasificación de los diversos tipos de extrusión, se puede llevar a cabo en caliente o en frío dependiendo del metal a trabajar. La extrusión en caliente es adecuada para metales difíciles de formar (como los aceros inoxidables y aleaciones de alta temperatura), la temperatura de trabajo depende del material a extruir y se utiliza para producir productos largos y rectos de sección transversal constante como barras, tubos alambres, entre otros La extrusión en frío se realiza a temperatura ambiente y genera calor debido a la deformación del metal</texto>
+      </seccion>
+      <seccion>
+        <titulo>Extrusión</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>d) Trefilado</titulo>
+        <texto>El trefilado es un proceso de fabricación en donde se tira del metal, en forma de barra a través de una serie de matrices mediante una fuerza de tensión para producir un alambre El trefilado comienza con varillas o barras que se limpian y preparan para mejorar la lubricación. Se utilizan lubricantes adecuados, dependiendo del tipo de trefilado, ya sea en seco, utilizando jabón, o en húmedo haciendo uso de aceites, para minimizar el desgaste de los dados y mejorar el acabado superficial de las piezas La capacidad del proceso depende de tres factores principales: las propiedades del material, la geometría de la matriz y las condiciones de procesamiento, como la velocidad y la fricción Aunque el proceso se lleva a cabo en frío, la deformación plástica y la fricción entre el dado y el material pueden generar un incremento en la temperatura del alambre El porcentaje de reducción Para calcular el esfuerzo de trefilado (𝜎 𝑇 ), se utiliza el ángulo del dado (𝛼), el cual comúnmente es de 15° y el coeficiente de fricción (𝜇) que no debe de pasar de 0.1, por lo que normalmente es de ~0.07 Donde: • 𝜀 es la deformación equivalente • 𝜎 𝑝𝑟𝑜𝑚 es el esfuerzo de fluencia promedio • ∅ es el factor psi, factor de corrección para la deformación o 𝐷 es el diámetro promedio, se necesitan los diámetros inicial y final (𝐷 0 y 𝐷 𝑓 ): o 𝐿𝑐 es la longitud de contacto La fuerza (𝐹) y la potencia (𝑃) de trefilado en esta última ecuación, 𝜐 es la velocidad del proceso.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tratamiento térmico de recocido</titulo>
+        <texto>El recocido es un tratamiento térmico aplicado a los metales para eliminar los efectos del trabajo en frío, restaurando su ductilidad y mejorando su acabado superficial. El recocido es un proceso térmico que consta de tres etapas principales: • Recuperación: Al calentar el metal, se alivian los esfuerzos internos causados por el trabajo en frío. Las dislocaciones dentro de la microestructura se reorganizan, lo que reduce o elimina las tensiones residuales. Este proceso mejora la conductividad eléctrica y la resistencia a la corrosión sin cambiar drásticamente la estructura del material. • Recristalización: Cuando el metal se calienta por encima de su temperatura de recristalización, se forman nuevos granos con pocas dislocaciones. Estos granos reemplazan a los deformados por el trabajo en frío, lo que da como resultado un material más dúctil, pero con menor resistencia. • Crecimiento de grano: A temperaturas más altas, los granos formados durante la recristalización crecen en tamaño. Los granos más grandes tienen menos energía que los pequeños, y el equilibrio entre la temperatura y la rigidez de la red determina el tamaño máximo de los granos en el material. El recocido incluye tres etapas principales: recuperación (alivio de esfuerzos internos sin grandes cambios en la microestructura), recristalización (formación de nuevos cristales) y crecimiento de grano (aumento del tamaño de los granos a temperaturas altas) Existen diferentes tipos de recocido para las aleaciones de aluminio según el objetivo a alcanzar, ya sea, eliminar el endurecimiento por deformación o mejorar las propiedades del material, las condiciones iniciales como los tiempos y la temperatura van a depender del tipo de aleación y el temple inicial. • Recocido completo: Es el tratamiento más suave que se aplica a aleaciones forjadas, restableciendo completamente la ductilidad y eliminando los efectos del endurecimiento por deformación. • Recocido parcial: Se utiliza para obtener propiedades mecánicas intermedias en aleaciones trabajadas en frío, con temperaturas que no llegan a producir una recristalización completa. • Recocido para aliviar tensiones: Se usa para eliminar los efectos del trabajo en frío sin recristalización total, aplicando temperaturas moderadas. Durante el recocido, es esencial mantener la temperatura adecuada para garantizar una microestructura y propiedades consistentes en el material [80].</texto>
+      </seccion>
+      <seccion>
+        <titulo>Preparación de reforzante y sustratos</titulo>
+        <texto>Corte + limpieza química de sustratos</texto>
+      </seccion>
+      <seccion>
+        <titulo>Recubrimientos por electroforesis</titulo>
+        <texto>Modificación de los NTC</texto>
+      </seccion>
+      <seccion>
+        <titulo>Obtención de compósito por fundición (billets)</titulo>
+        <texto>Molde cilíndrico Sinterización Molde en forma de "U"</texto>
+      </seccion>
+      <seccion>
+        <titulo>Deformación en prensa</titulo>
+        <texto>Obtención de alambre en 10 pasos de deformación A continuación, se describen con más detalle cada una de las etapas experimentales. Las materias primas empleadas fueron una aleación de Al tipo 1350-H19 en forma de alambrón, que fue utilizada como matriz metálica, alambre y lámina de aluminio puro, los cuales fueron usados como sustrato y nanotubos de carbono de pared simple que son utilizados como refuerzo.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Modificaciones químicas superficiales a los NTC</titulo>
+        <texto>Se les realizaron diversos tratamientos superficiales a los NTC comerciales con la finalidad de eliminar algunas impurezas y crear grupos funcionales que contengan oxígeno (carboxilo e hidroxilo) y sitios activos en su superficie. Funcionalización. Se inició con la funcionalización de los NTC comerciales haciendo uso de soluciones ácidas siguiendo un procedimiento previamente reportado en la literatura Sensibilizado. El siguiente paso es el sensibilizado de la estructura en donde se crean sitios activos superficiales utilizando estaño (Sn), los cuales van a permitir una unión estable entre los iones metálicos y el material carbonoso Metalizado. El último tratamiento que se realizó fue la metalización de los NTC con la finalidad de proteger al material carbonoso y crear una buena solubilidad entre este refuerzo y la matriz metálica. Los NTC ya tratados previamente se sonicaron durante 30 minutos junto con sulfato de cobre (CuSO4). Después la solución se colocó en una plancha previamente precalentada a ~60 °C, en donde se agregó citrato trisódico y formaldehído, además de las pastillas de hidróxido de sodio, con la finalidad de cambiar el pH a básico, la solución se dejó con agitación durante 2 h. Finalmente se hicieron lavados con acetona y agua desionizada, para posteriormente dejar secar a temperatura ambiente. En la Figura 11 se puede observar el procedimiento que se llevó a cabo en cada uno de los tres tratamientos superficiales que se les realizaron a los NTC, para poder obtenerlo reforzado con cobre y así protegerlo manteniendo su integridad estructural y por consiguiente sus buenas propiedades . Después de los tratamientos realizados a los NTC, estos se pueden modificar superficialmente tanto en la punta como en la pared lateral Figura 12. Esquema del proceso de reacción de los tratamientos superficiales a los NTC.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Depositación Electroforética (EPD)</titulo>
+        <texto>Se utilizó el método de electroforesis para obtener sustratos recubiertos con el material reforzante, los sustratos utilizados fueron alambres y láminas de aluminio de alta pureza, los cuales pasaron por un proceso de limpieza en medios básicos y ácidos para después ser recubiertos mediante con NTC prístinos y metalizados, posteriormente se hizo un segundo recubrimiento con polvo de Al grado reactivo (ver composición en la Tabla 6) para proteger aún más a la nanoestructura. Tabla 6. Composición química del polvo de Aluminio.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Fe Cu Mn</titulo>
+        <texto>0.5% máx. 0.02% máx. 0.02% máx. Antes de poder realizar el recubrimiento de Al, el polvo tuvo que pasar por un proceso de molienda ya que su tamaño de partícula original (de 41.6  9.6 µm) permitía la precipitación de partículas evitando la depositación electroforética. Los polvos fueron molidos con la finalidad de obtener un recubrimiento más homogéneo haciendo uso de un molino planetario utilizando bolas de carburo de tungsteno, durante 2 h a 250 rpm, con una relación de medio de molienda:polvo de 5:1. El tamaño de partícula del polvo de Al obtenido después de la molienda fue de 21.09  4.3 µm, además de que también se mezclaron con isopropóxido de aluminio (AIP) al momento de hacer la suspensión, para que éste lograra generar grupos funcionales y así mejorar el recubrimiento durante el proceso de depositación. El AIP primero se disolvió en el medio de dispersión (isopropanol) mediante agitación magnética por 10 minutos, para después agregar el polvo de aluminio. La suspensión se agitó durante otros 10 minutos y finalmente se sometió a ultrasonido por 20 minutos adicionales para fomentar la dispersión. La Figura 13 muestra un diagrama de los pasos experimentales para la preparación de la suspensión usada en EPD. Los sustratos recubiertos obtenidos constan de una y dos capas de NTC metalizados (NTCM) para ambas geometrías, esto con la finalidad de tener concentraciones diferentes de carbono en el material compuesto. Para lograr una mejor adhesión de los recubrimientos al sustrato, estos fueron sometidos a un tratamiento de sinterizado a 400 °C en atmósfera de nitrógeno durante 1 hora. En la Figura 14 se presenta el diseño esquemático de la sección transversal de los sustratos recubiertos.   En la Figura 17 se aprecian fotografías de los sustratos recubiertos en una longitud de 9 cm. El alambre se probó como un electrodo doble, es decir doblado de manera paralela el sustrato como se presenta en la Figura 17a, con lo que se logró obtener en un solo depósito 2 alambres recubiertos, mientras que, con la lámina al tener mayor área superficial, los recubrimientos se obtuvieron con mayor cantidad de NTC (Figura 17b) optimizando así el proceso de EPD.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Fundición</titulo>
+        <texto>Previo al proceso de fundición, primeramente, se realizó el diseño de un molde metálico para la obtención del billet solidificado basado en la norma ASTM B108/B108M -19 Figura 23. Probeta obtenida con menores dimensiones utilizando un molde cilíndrico.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Deformación en frío (Prensado)</titulo>
+        <texto>Antes de pasar las probetas al proceso de trefilado se tuvo que disminuir su diámetro de 2 cm a aproximadamente 9 mm, lo cual fue un requisito dimensional para el uso de la máquina trefiladora disponible en CIMAV. No obstante, como el maquinado de las probetas no fue opción para evitar la pérdida de material, se optó por aplicar la deformación con ayuda de una prensa hidráulica aplicando 30 Ton durante 5 minutos. El equipo utilizado y la colocación de las probetas se presenta en la Figura 24. Figura 24. Prensa utilizada y proceso para aplicar una deformación plástica a los billets de fundición. Este proceso de deformación plástica redujo el espesor de la probeta cilíndrica de los compósitos a ~1 cm, generando una geometría similar a un rectángulo como se aprecia en la fotografía de la Figura 25a. Después, esta probeta fue cortada por la mitad utilizando una cortadora de disco abrasivo de SiC obteniendo 2 probetas con un diámetro menor (Figuras 25b y c). Figura 25. Muestras obtenidas después del proceso de prensado y corte. La obtención final de alambres se obtuvo mediante un proceso de trefilado, para el cual la geometría de las probetas se optimizó mediante desbaste superficial y fomentar que la muestra pase sin problema por cada uno de los dados cilíndricos disponibles. La adecuación paulatina geométrica de las probetas de los compósitos obtenidos se presenta en la Figura 26. Previo al proceso de trefilado, las probetas cilíndricas obtenidas se sometieron a un tratamiento térmico de recocido a 345 °C durante 30 min en atmósfera de nitrógeno, aplicando una rampa de calentamiento de 5 °C/min, con la finalidad de liberar tensiones en el material ocasionadas por la deformación. Figura 26. Probetas maquinadas de manera secuencial, usando desbaste mecánico, lijas metálicas planas y desbaste abrasivo fino con papel lija de 4 granulometrías entre 180 y 800. Como se mencionó previamente, todas las probetas fueron sometidas a un tratamiento térmico de recocido utilizando un horno marca MTI-1700X en atmósfera de nitrógeno para evitar la oxidación. La Figura 27 presenta el equipo utilizado, así como la rampa de calentamiento programada. Figura 27. Horno y rampa de calentamiento utilizados en el recocido de las probetas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Proceso de Trefilado</titulo>
+        <texto>Las muestras cilíndricas obtenidas fueron sometidas a un equipo trefilador diseñado a la medida e instalado en el Laboratorio de Aleado Mecánico de CIMAV S.C. Sede Chihuahua. La Figura 28 presenta el equipo utilizado, el cual consta de dos mecanismos; uno para el maquinado de la punta de la probeta, la cual es indispensable para empezar el empuje del material hacia el interior de una serie de dados metálicos diseñados para la obtención de alambres cilíndricos y el otro mecanismo es el empuje de un maneral metálico que con ayuda de una cadena metálica larga la cual propicia la deformación plástica de la probeta mediante tensión. El equipo cuenta con un display que regula la velocidad de avance del maneral metálico, la cual se puede variar a partir de 2 m/min. La abertura para el maquinado de las puntas varía entre 8.5 cm hasta una reducción máxima de 2 mm de diámetro. También cuenta con un mecanismo de inyección de lubricante para evitar la fricción entre la pieza y los dados. El lubricante utilizado es de uso industrial proporcionado por una empresa. Figura 28. Equipo Trefilador, mecanismos y accesorios para la fabricación de alambres. A cada probeta se le aplicaron 10 pasos de deformación, haciendo uso de diferentes dados metálicos los cuales se presentan en la Figura 29, con el objetivo de obtener al término un alambre de ~3 mm de diámetro. Figura 29. Dados utilizados en el proceso de trefilado. En la Tabla 9 se presentan las dimensiones de los dados utilizados para la obtención de los alambres cilíndricos. Tabla 9. Especificaciones dimensionales de los dados metálicos intercambiables usados en el proceso de trefilado.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Ref</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Medición de Propiedades Eléctricas</titulo>
+        <texto>Las mediciones de resistividad eléctrica se realizaron a los alambres sin tratar y tratados térmicamente (recocidos) utilizando el método de cuatro puntas según la norma D4496 -21 Para cada medición se fue variando la corriente desde 10 mA a 1 A, tomando los datos de voltaje cada 10 mA, estos datos fueron graficados y se obtuvo la resistencia mediante la pendiente de la recta, la cual fue calculada y corregida a una temperatura de referencia, aplicando la siguiente ecuación 10: 𝑅 𝑇 = 𝑅 𝑡 1 + 𝛼 𝑇 (𝑡 -𝑇) Posteriormente se realizó el cálculo de la resistividad, para la cual se utilizó el área (A) y la longitud (L) de los alambres, según la ecuación 11: Finalmente, los datos de resistividad obtenidos se convirtieron a IACS, mediante la siguiente ecuación 12: En la Figura 31 se muestra el equipo utilizado y la configuración utilizada en las mediciones de la propiedad eléctrica en muestras de alambres. Figura 31. Configuración utilizada para la medición de resistividad, que se realizó por el método de las cuatro puntas, empleando una fuente de corriente y un nanovoltímetro.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Medición de Propiedades Mecánicas</titulo>
+        <texto>A cada nanocompuesto sintetizado en forma de alambre se le realizaron diversas pruebas mecánicas, incluyendo microdureza, prueba de tensión y en algunas muestras seleccionadas nanoindentación. El ensayo de tensión se llevó a cabo en una máquina universal de la marca Shimadzu modelo AGX-100 kN (Figura 32) con una capacidad máxima de 10 toneladas, a una velocidad de 3 mm/min, las muestras fueron alambres de ~3 mm de diámetro y 15 cm de longitud, los cuales fueron tratadas térmicamente. Del ensayo se obtuvieron el límite elástico, la resistencia máxima (UTS), el porcentaje de deformación y el esfuerzo de rotura. Figura 32. Equipo de tensión y mordazas utilizadas. Para realizar las mediciones de microdureza y nanoindentación se cortaron pedazos de alambre de ~2 cm, se les realizó una preparación metalográfica, la cual consistió en el montaje en baquelita, un desbaste utilizando diferentes lijas abrasivas de SiC con diferente granulometría entre 240 y 2400 y finalmente un pulido utilizando pasta de diamante entre 3 y 1 m, para obtener un acabado tipo espejo. Se midió dureza Vickers a los alambres compuestos sin tratar y tratados, utilizando un microdurómetro marca MATSUZAWA modelo MMT-X7 (Figura 33), se aplicó una carga de 25 gf durante 10 s, para cada muestra se obtuvieron 20 indentaciones en promedio, de las cuales se midieron sus diagonales para posteriormente calcular el valor de dureza. Las pruebas de nanoindentación se realizaron en un Triboindentador marca Hysitron, modelo TI950 (Figura 34), utilizando una punta de diamante tipo Berkovich con un radio de curvatura nominal de 150 nm. Para realizar las mediciones, a las muestras seleccionadas y montadas en baquelita se les colocaron un disco metálico de 2 cm de diámetro por la parte de abajo para montarlas en una platina magnética. Se hizo un arreglo de 16 y 25 indentaciones en un área de 20×20 μm y 50×50 μm respectivamente, el perfil de carga consistió en una rampa de 10 s hasta la carga máxima, sosteniéndola por 2 s y finalmente una rampa de descarga de 10 s. Las cargas utilizadas se encuentran en el rango de 50 a 750 μN. Utilizando la matriz de nanoindentaciones realizadas, también se realizó un mapeo de las propiedades mecánicas por nanoindentación (PMN) creando imágenes de contorno de las propiedades mecánicas en la nanoescala incluyendo la rigidez (S), el módulo elástico reducido (Er) y la dureza (H). Para tal finalidad, se empleó un procedimiento de simulación mecánica usando técnicas de interpolación lineal y líneas de contorno para identificar áreas superficiales, lo cual resulta en mapas que ilustran la variación de las propiedades mecánicas en los compuestos desarrollados</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de los materiales</titulo>
+        <texto>Se realizaron caracterizaciones químicas y microestructurales puntuales a los materiales iniciales (matrices metálicas y fases reforzantes), además de que, entre cada una de las modificaciones químicas de los nanomateriales, se realizó una caracterización especializada, para corroborar estas modificaciones. El estudio de morfología se realizó mediante Microscopía Electrónica de Barrido (SEM), también se hizo un análisis químico elemental para cuantificar la composición de los materiales utilizando la Espectroscopia de Energía Dispersiva (EDS). Para la caracterización de los NTC prístinos y tratados se usó el equipo Nova NanoSEM 200 Marca FEI mientras que, para el análisis del recubrimiento, de la matriz metálica y del nanocompuesto se utilizó el microscopio JEOL 6010 Plus. La composición química de la superficie de las muestras modificadas superficialmente se caracterizó mediante Espectroscopía de Fotoelectrones de Rayos-X (XPS). Se utilizó un espectrofotómetro XPS Escalab 250Xi (Thermofisher), el sistema está equipado con un analizador hemisférico de 180° doble enfoque y una fuente de rayos-X de aluminio monocromado (1486.68 eV, WF: 4.2eV). Para el procesamiento de espectros se aplicó el software CasaXPS propio del equipo y a modo de corroboración también se utilizó el software Aanalyzer. Con Espectroscopia Raman se lograron identificar las bandas específicas de los NTC, con esto se pudo obtener la relación de intensidades ID/IG para cada etapa de modificación química y así corroborar la modificaicón superficial planeada. Estos datos fueron obtenidos con el equipo LabRAM HR Evolution, Horiba haciendo uso de un láser con longitud de onda de 633 nm. La técnica de Difracción de Rayos-X (XRD) se utilizó para caracterizar a los materiales de refuerzo, a la matriz metálica y a los recubrimientos, con lo cual se pudo corroborar la cantidad y cristalinidad de las fases presentes en el material y, además de que se compararon los difractogramas tanto de las muestras puras como modificadas. Esta caracterización se realizó con un Difractómetro de Rayos-X Panalytical Empyrean, utilizando una fuente de rayos-X de Cu (Kα = 1.5405 Å) y un goniómetro con configuración Bragg-Bretano. El análisis de datos se realizó con ayuda de la base de datos proporcionada por el software High Score. Haciendo uso de los análisis termogravimétricos (TGA) se pudo observar el cambio másico respecto a la afectación térmica, así como también la estabilidad con el incremento de temperatura y los eventos de oxidación de las muestras. Los análisis se llevaron a cabo en un equipo SDT Q600 V20.9 Build 20 de TA Instruments, con una rampa de calentamiento de 10 °C/min hasta 800 °C en aire. A la matriz metálica se le realizaron también ensayos mecánicos de microdureza, nanoindentación y ensayo de tensión utilizando los mismos equipos previamente descritos y que también fueron usados para caracterizar los alambres compuestos, con la finalidad de ver su comportamiento antes de las modificaciones.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización química y morfológica por SEM-EDS</titulo>
+        <texto>La Microscopía Electrónica de Barrido se utilizó para observar posibles cambios morfológicos en los nanotubos de carbono después de cada tratamiento superficial. La Figura 35 ilustra la morfología de los nanotubos prístinos, así como también su análisis puntual (Figura 35d). Se puede observar que, en su estado inicial, los nanotubos están muy aglomerados, en forma de "racimos". De acuerdo a su composición química mostrada en la Tabla 10, estos aglomerados por lo general se acompañan de cantidades variables de carbono amorfo, catalizador y otras impurezas, como el Fe y el Cl. Por tal motivo, dichas impurezas se deben separar de los nanotubos mediante tratamientos de purificación.     (Figura 38d y Tabla 13). Como se aprecia en la fotomicrografía de baja magnificación, las partículas de cobre están distribuidas homogéneamente en toda la muestra. De acuerdo a datos de la literatura</texto>
+      </seccion>
+      <seccion>
+        <titulo>Elemento</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Caracterización química superficial por XPS</titulo>
+        <texto>Con respecto a la funcionalización química de materiales, XPS es una técnica que puede proporcionar información sobre la naturaleza de los grupos funcionales y también sobre la presencia de defectos estructurales en la superficie de los NTC En la Figura 39 se muestran espectros XPS de barrido amplio (surveys) de los nanotubos prístinos identificados como NTC; y tratados, los cuales se identifican por el tipo de tratamiento, los que están funcionalizados (NTCF), después sometidos a sensibilizado (NTCF-Sn) y después metalizados (NTCM). En los resultados se observa una disminución de la intensidad máxima del C1s conforme van avanzando las etapas de tratamiento, siendo la muestra metalizada (NTCM) la que presenta la intensidad más baja, lo cual es debido a que al estar el nanotubo recubierto por el Cu son estas señales las que predominan. También se observa que en la muestra sensibilizada (NTCF-Sn) aparecen las señales de Sn y éstas se mantienen para la muestra metalizada, solo que se presentan con menor intensidad. Adicionalmente, aparecen señales débiles de Cl en todas las muestras, excepto en la de los NTC prístinos, lo que indica la presencia de compuestos ácidos residuales. Figura 39. Espectros de XPS de barrido amplio de nanotubos de carbono prístinos, funcionalizados, sensibilizados y metalizados. La Figura 40 muestra los espectros XPS C1s de alta resolución deconvolucionados de los nanotubos prístinos y tratados, los cuales fueron corregidos a la señal de C1s (284.8eV) con referencia a la fase de carbono sp 2 . Evidentemente, la intensidad de la señal del C-C disminuye conforme a los tratamientos químicos realizados. Los picos C1s de las muestras se deconvolucionaron hasta en 5 picos, las energías de enlace y sus respectivos grupos funcionales para cada muestra se presentan en la Tabla 14. Los 4 espectros muestran un pico principal alrededor de ~284.76 eV ~286.22</texto>
+      </seccion>
+      <seccion>
+        <titulo>Muestra</titulo>
+        <texto>Energías</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de modos vibratorios por Espectroscopia Raman</titulo>
+        <texto>La Espectroscopía Raman es un método muy utilizado para la caracterización de estructuras base carbono, sobre todo es importante para el análisis de los nanotubos de carbono de pared simple ya que solamente este tipo de nanoestructuras muestran ciertos efectos de resonancia. Los espectros Raman de los nanotubos de carbono prístino y con los diversos tratamientos consecutivos se muestran en la Figura 41. Cada espectro consiste de tres bandas características, la banda D ubicada en ~1320 cm -1 , la banda G en ~1590 cm -1 y la banda G' en ~2630 cm -1 , además de que también se presentan los modos de respiración radial (RBM) por debajo de ~250 cm -1 . Los picos/bandas Raman observados para cada muestra se resumen en la Tabla 15, así como también la relación de intensidades ID/IG. Los RBM son modos de baja frecuencia característicos de los nanotubos de carbono de pared simple [98], La banda D se encuentra alrededor de 1300-1400 cm -1 Los modos de alta energía, son los tangenciales y son las señales más intensas de los NTC, las cuales se conocen como banda G Tabla 15. Resumen de las señales identificadas en los espectros Raman de las muestras de nanotubos de carbono prístinos y tratados superficialmente. Como se puede observar en la Tabla 15, la relación ID/IG aumenta en los NTC funcionalizados (NTCF) con respecto a los NTC prístinos (NTC), esto es un indicativo de que los grupos funcionales que contienen oxígeno se generaron en la superficie del material carbonoso</texto>
+      </seccion>
+      <seccion>
+        <titulo>Muestra</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Caracterización cristalográfica por XRD</titulo>
+        <texto>Figura 42. Difractogramas de los NTC prístinos y tratados.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización térmica por TGA-DSC</titulo>
+        <texto>El análisis termogravimétrico (TGA) mide la disminución de la masa de la muestra en función del incremento de la temperatura, dicha técnica se puede utilizar para estimar la pureza de los NTC y la presencia de moléculas orgánicas adheridas a las paredes laterales La Figura 43 presenta las curvas de los análisis térmicos realizados (TGA y DSC) para los nanotubos prístinos y tratados. Se puede observar que para las primeras tres muestras existe una primera etapa de degradación térmica alrededor de 70 °C, la cual se debe a la dehidroxilación, es decir a la evaporación del agua adsorbida, aquí se detecta una pérdida en peso entre 1 y 10%, en donde la mayor pérdida corresponde a la muestra funcionalizada (Figura 43b), esta muestra también es la única que presenta una segunda etapa de degradación en ~187 °C, que se atribuye a la descarboxilación de los grupos carboxílicos presentes en las paredes de los nanotubos Finalmente, a temperaturas superiores a 500 °C, la degradación observada corresponde a la oxidación térmica del carbono desordenado restante, la cual es una degradación completa para los NTC prístinos y funcionalizados, pero en el caso de los NTC con estaño sensibilizados (con presencia de estaño, Figura 43c) la degradación solo ocurre en un 56%, esta falta de degradación indica la ausencia de carbono desordenado en la muestra A continuación, se explican los resultados obtenidos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Protección de la nanoestructura</titulo>
+        <texto>El aluminio fue analizado en sus diferentes etapas de proceso, iniciando con polvo grado reactivo (Al polvo), polvo después de ser sometido a un proceso de molienda mecánica (Al molido) y polvo molido con adición de isopropóxido de aluminio AIP (Al + AIP), con la finalidad de ver posibles cambios que se hayan producido durante estas etapas de procesamiento.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización química superficial por XPS</titulo>
+        <texto>Se utilizó nuevamente el análisis químico superficial, usando XPS para investigar más a fondo la composición e identificar los enlaces presentes en cada muestra. En la Figura 44 se muestran espectros XPS de barrido amplio (surveys) de los polvos de aluminio y sus diferentes tratamientos, en los cuales se puede observar que las 3 muestras presentan exactamente las mismas señales, teniendo cuatro señales principales correspondientes al Al2p, Al2s, C1s y O1s. El C presente en la muestra es atribuido a la contaminación atmosférica y al carbono adventicio, ya que esto es comúnmente observado en polvos de aluminio en bulto Figura 44. Espectros de XPS de barrido amplio de los polvos de Al grado reactivo, molidos y con adición de AIP.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización cristalográfica por XRD</titulo>
+        <texto>Los patrones de difracción de rayos X de las muestras de aluminio en polvo se presentan en la Figura 45. Los picos en los tres patrones son los mismos y corresponden a la fase Al (111) Se puede apreciar un ligero ensanchamiento y una disminución en la intensidad de los picos de difracción del polvo molido, lo cual se debe a la deformación inducida durante el proceso de molienda</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización térmica por TGA-DSC</titulo>
+        <texto>Los termogramas obtenidos mediante TGA y DSC para los polvos de aluminio se presentan en la Figura 46. Los análisis DSC para las 3 muestras solo presentan un evento endotérmico, que corresponde al punto de fusión del polvo de Al, el cual se encuentra en 656.5 °C. El análisis TGA del polvo original (Figura 46a) indica que fue la única muestra que sufrió una oxidación alrededor de 200 °C, mientras que el Al molido (Figura 46b) se mantuvo prácticamente estable hasta los 250 °C aproximadamente. Sin embargo, la adición de AIP (Figura 46c) ocasiona una leve degradación térmica, llevándose a cabo una dehidroxilación (evaporación del agua absorbida) alrededor de 60 °C. Esta última muestra presenta la mayor pérdida en peso del material, sin embargo, este evento térmico se retrasa lentamente hasta 500 ºC, pero se recupera debido a la formación del óxido de Al, lo cual es bueno con la idea de proteger la nanoestructura de los eventos térmicos. Al 98-005-3774 Como se mencionó en el capítulo anterior, con la intención de tener un mejor control y protección de la fase reforzante antes de su adición en la matriz metálica por métodos de fundición, se diseñó una estrategia a través de la colocación de dichas nanoestructuras como recubrimiento en sustratos de aluminio. A continuación, se explicarán los resultados obtenidos de los recubrimientos desarrollados.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Recubrimiento de los sustratos de aluminio</titulo>
+        <texto>Se utilizaron sustratos de aluminio con alta pureza con geometría de alambre y lámina sobre los cuales se depositaron recubrimientos de los NTC y a continuación éstos se protegieron mediante recubrimientos subsecuentes con polvo de Al. Los sustratos y los recubrimientos se caracterizaron con la finalidad de corroborar su composición, adherencia y comportamiento a altas temperaturas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización química por ICP-OES</titulo>
+        <texto>Mediante la técnica de ICP masas se obtuvo la composición química de los sustratos de aluminio, para corroborar la alta pureza de estos materiales. En la Tabla 16 se presenta la composición obtenida para cada geometría. Con este resultado se corrobora la pureza de los sustratos, ya que pertenecen a la serie 1000 de las aleaciones de aluminio, los cuales son las de alta pureza; según la base de datos del equipo y comparando con la literatura</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización química y morfológica por SEM-EDS</titulo>
+        <texto>A continuación, se presentan las micrografías y los análisis químicos puntuales determinados por EDS de los sustratos sin recubrir y de los recubrimientos con NTC y polvo de Al. Primeramente, la Figura 47, muestra las micrografías por SEM del sustrato con geometría de alambre a diferentes magnificaciones, se puede observar que en general la muestra es homogénea, hay algunas zonas más oscuras, que podrían     El recubrimiento de NTC prístinos sobre la lámina se muestra en la Figura 50, en donde se puede apreciar que la adhesión de los NTC es mínima (zonas encerradas en círculos color rojo), logrando un recubrimiento depositado parcialmente; el análisis puntual se tomó en la zona marcada con rojo (Figura 50c), el cual corrobora que la presencia de carbono es mínima, mientras que la oxidación se encuentra presenta también en esta muestra (Tabla 20). Además de que la metalización del material carbonoso logró un recubrimiento más homogéneo, con una mejor dispersión de los NTC a lo largo del sustrato (en ambas geometrías), aportando una protección extra al aluminio contra la oxidación. Como se explicó previamente, después de haber depositado la nanoestructura metalizada, fue necesario hacer un segundo recubrimiento con Al para efecto de confirmar la compatibilidad química con la matriz. Por tal motivo, a continuación, se realizó el recubrimiento con polvo de Al sobre NTC prístinos en un sustrato en forma de alambre. Los resultados se presentan a continuación en la Figura 53 en la cual se observa que el recubrimiento es muy homogéneo. Mediante el análisis elemental presentado en la Figura 53c y Tabla 23, se corrobora la gran presencia de aluminio debido al segundo recubrimiento, además de que hay cantidades de Fe pertenecientes al polvo, lo que coincide con la composición química original del material.    El segundo recubrimiento sobre NTC prístinos, presenta mejor distribución en ambas geometrías, pero sigue habiendo zonas expuestas del sustrato, lo que indica que el polvo logra una mejor adhesión sobre las zonas con material carbonoso.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Fe</titulo>
+        <texto>A continuación, en la Figura 55 se muestran las micrografías por SEM del recubrimiento con polvo de Al sobre un recubrimiento previo de NTCM metalizados en un sustrato en forma de alambre. Las señales químicas de la capa previa ya no se encuentran presentes en el análisis EDS (Tabla 25), esto debido a que los polvos de Al han recubierto todo el alambre de manera adecuada. En la figura se puede observar que las partículas de Al tienen forma de hojuelas y que en su composición presentan cantidades mínimas de Fe, los cuales se identifican en la microestructura como puntos más brillantes.  Por otra parte, el recubrimiento con Al en polvo sobre un recubrimiento previo de NTCM en un sustrato en forma de lámina se presenta en la Figura 56. La Figura 56a muestra la interfase entre el recubrimiento y el sustrato logrando apreciar el inicio de un recubrimiento muy homogéneo, al hacer un acercamiento (Figura 54b) se corrobora la buena distribución de los polvos de hojuelas de Al sobre el recubrimiento previo de NTCM, además de que el análisis EDS (Figura 56c y Tabla 26) no presenta señales del Cu ni del C.    Mediante XPS también se realizó un perfil de concentración a uno de los recubrimientos con NTCM sobre ambos sustratos (alambre y por separado lámina) con la finalidad de obtener un aproximado del espesor del recubrimiento. En la Figura 58 se presentan los resultados obtenidos, donde se puede observar que el espesor estimado del recubrimiento es mayor a 500 nm usando ambas geometrías como sustratos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Fe</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Caracterización térmica por TGA-DSC</titulo>
+        <texto>Los análisis térmicos realizados a los recubrimientos se presentan en la Figura 59. Los TGA para todos los recubrimientos muestran una pérdida en peso despreciable ya que es menor al 0.7%. Los TGA de los alambres (Figura 59a) indican que el recubrimiento con la mayor pérdida en peso es para los NTCM, mientras que el sustrato fue el que tuvo una pérdida menor, aunque también fue el único que se oxidó ligeramente. Los termogramas obtenidos mediante DSC para estas muestras se presentan en la Figura 59b, e ilustra la presencia de una inflexión endotérmica relacionada al punto de fusión, en donde la temperatura determinada fue de 669.47 °C, la muestra con un mayor punto de fusión es para el sustrato con 670.24 °C, mientras que la que muestra con un menor punto de fusión es el recubrimiento con NTC comerciales y Al (A NTC + Al). Estos resultados se pueden deber a la geometría del alambre, ya que al ser circular y de un diámetro pequeño los recubrimientos no lograban cubrir la superficie al 100%. El comportamiento para los recubrimientos sobre las láminas fue un poco diferente, los TGA de estas muestras se presenta en la Figura 59c, indicando en este caso que el recubrimiento con NTC comerciales en lámina (L NTC) fue el que tuvo una pérdida en peso mayor, la cual fue prácticamente lineal, mientras que la muestra con NTC metalizados y Al en lámina (L NTCM + Al) no presentó una pérdida en peso, al contrario, hubo una ganancia debido a la oxidación del Cu y del polvo de Al. Al igual que para los recubrimientos anteriores, los termogramas obtenidos del DSC de las láminas se muestran en la Figura 59d, e indican el punto de fusión de cada recubrimiento mediante una señal endotérmica, esta temperatura fue incrementando conforme iba aumentado el grado y la química del recubrimiento, siendo el recubrimiento con NTCM + Al el que presenta un punto de fusión mayor (670.18 °C). El promedio de estas temperaturas de fusión es de 668.71 °C, lo cual es un dato que se requiere para asegurar su posterior incorporación en el metal líquido para la síntesis de los nanocompósitos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización química por ICP-OES</titulo>
+        <texto>Se llevó a cabo una caracterización de la aleación mediante ICP-OES para conocer su composición química elemental. Para tal finalidad, se realizaron dos muestras seleccionadas al azar las cuales se presentan en la Tabla 27, adicionalmente en la tabla se indica la composición química nominal de la especificación para la aleación 1350. Los resultados de composición química concuerdan con los valores reportados para este tipo de aleaciones de uso eléctrico</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización térmica por TGA-DSC</titulo>
+        <texto>Se realizó un análisis térmico a la matriz metálica para conocer el comportamiento de las transformaciones de fases con afectación térmica hasta una temperatura de 800 °C. Los termogramas se presentan en la Figura 60, en donde se puede apreciar que alrededor de 270 °C hay un aumento del peso de un 0.1% relacionado con la oxidación del metal, así como también se aprecia que la pérdida en peso total es menor al 0.4% después de 800 °C. La curva DSC muestra un pico endotérmico en 662.28 °C, que está relacionado con una transición de primer orden, lo que se asocia con el punto de fusión de la aleación. Figura 60. Curvas TGA y DSC de la aleación de aluminio 1350-H19.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización microestructural</titulo>
+        <texto>La matriz metálica se analizó mediante tres equipos diferentes con la finalidad de visualizar y analizar su microestructura, los equipos utilizados son el estereoscopio, el microscopio óptico y el microscopio electrónico de barrido. El material metálico base de la aleación de Al 1350-H19 se preparó metalográficamente para poder realizar el análisis, este proceso incluyó las técnicas de preparación convencional usando corte, montaje, desbaste y pulido hasta lograr un acabado tipo espejo. Al término de la preparación, se realizó un ataque químico con ácido fluorhídrico (HF) al 5%. La Figura 61, presenta cuatro micrografías tomadas a diferentes magnificaciones de la microestructura del material metálico de partida en sección transversal, así como análisis puntuales de EDS tomados en las zonas de interés. La composición química promedio se muestra en la Tabla 28. La macroestructura de la sección transversal consiste de granos grandes alargados que siguen el patrón de transferencia de calor desde el centro hacia el exterior del material.  A mayor magnificación mediante SEM, se puede observar que la matriz de aluminio presenta una serie de precipitados muy pequeños distribuidos de manera uniforme, al realizar un análisis por EDS de las partículas observadas (Figura 61d y Tabla 28), pudo corroborarse que se trataba de hierro y silicio, lo cual está acorde con los resultados mostrados en ICP masas, los dos elementos se encuentran presentes en la estructura en un 0.17 y 0.05% e.p., respectivamente. Se pueden observar diversas fases presentes en la matriz metálica (Figura 61d: matriz de Al, color gris oscuro, 008; algunas zonas con silicio disuelto, 009), precipitados globulares irregulares de Al (color gris oscuro, 006-007), AlFeSi (fase alargada color gris claro, 001-002, 004-005), AlFe (fase fragmentada color gris claro, 003) y AlFe (oscura con morfología globular, 010) En la Figura 62 se muestran micrografías de la misma aleación pero que ha pasado por un proceso de fundición, se observa la macroestructura similar, la principal diferencia es únicamente que los granos formados después de los procesos de enfriamiento y solidificación son más grandes y alargados de tipo columnar, debido a que es una aleación de alta pureza Esta matriz de aluminio presenta una fase dispersa la cual se encuentra de forma esporádica, es de geometría alargada color gris claro y también contiene una serie de precipitados tipo globulares muy pequeños, los cuales se encuentran en mayor cantidad y muy bien distribuidos de manera uniforme en todo el material.  se detectaron las siguientes fases: Matriz de Al (fase color gris oscuro), compuestos intermetálicos de AlFeSi (fase alargada color gris claro) y compuestos de AlFeSi (fase precipitada globular color gris oscuro,). Mediante estos resultados se corrobora que con la fundición se fragmentan las fases y se dispersan un poco más en la matriz metálica de acuerdo a las variaciones en las velocidades de enfriamiento para alcanzar la solidificación. La Figura 63 presenta micrografías a diferentes magnificaciones de la muestra de aluminio fundida y deformada en prensa. En este caso, en la macroestructura del nanocompósito se mantienen los granos alargados, pero con algunas modificaciones como un tipo de compactación y adelgazamiento (Figura 63a), dicha deformación provocó además un movimiento paralelo de que los precipitados y fases, creando un patrón de líneas marcadas a lo largo de la matriz. El análisis EDS de esta muestra se presenta en la Figura 63d y la Tabla 30, mostrando la presencia únicamente de Al y C.  En la Figura 64 se muestran micrografías de la muestra fundida, con deformación en prensa y sometida posteriormente a un tratamiento térmico (345 °C por 30 min), con lo cual se observó que la afectación térmica provocó un tipo de recristalización interna en algunos de los granos, pero permaneciendo aun así alargados (Figura 64a), y de mayor tamaño respecto a la muestra anterior (Figura 64b). En esta pieza, los precipitados que se encontraban alineados en los límites de grano, se mantienen y con el análisis EDS presentado en la Figura 64d y la Tabla 31 se observa que parte de estos precipitados pertenecen a la fase AlFe.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Fe</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Propiedades eléctricas y mecánicas de la matriz</titulo>
+        <texto>Para tener una línea base como referencia de las propiedades eléctricas y mecánicas, a continuación, se midió la conductividad eléctrica de estas aleaciones de Al, primeramente, se intentó aplicar de manera indirecta la ley de Ohm usando el cálculo del valor de resistencia eléctrica en un equipo que emplea dos puntas de tungsteno de 8 μm de diámetro, como se muestra en la Figura 66. Sin embargo, en la aleación Al 1350-H19 se obtuvieron valores muy elevados de resistividad 7.5810 5 μΩ cm (casi 5 órdenes de magnitud) en comparación con los valores esperados: 2.78 μΩ cm a 20°C. En los análisis realizados se empleó una pieza de 8 mm de diámetro y 40 mm de longitud. Por tratarse de una técnica de contacto, es posible que el error en la medición tuvo un efecto de la resistividad que aportaron los electrodos y también debido a que el área transversal de la pieza fue mucho mayor respecto a la punta de los electrodos. En la Figura 67 se presentan los resultados de los ensayos mecánicos medidos en la aleación Al 1350-H19 realizados en una Máquina Universal Shimadzu AGX Plus. Como se aprecia en la gráfica esfuerzo-deformación, los resultados son contundentes en la resistencia a la cedencia y en la última resistencia a la tensión, sin embargo, dos de las muestras tienen una elongación menor considerando que fracturaron fuera del área calibrada, por lo tanto, los datos de éstas muestras se descartaron para estimar el promedio de las propiedades.  En la Figura 68, se muestran los resultados de microdureza para la aleación Al 1350-H19, además también se presentan los resultados de las muestras fundidas, con deformación y con tratamiento térmico. El valor promedio de dureza encontrado para la matriz metálica (Al 1350-H19) fue de 37.5 HV usando una carga de 25 g. La dureza obtenida se encuentra en el rango reportado para dichas aleaciones; entre 35 y 48 HV para el Al Figura 71. Mapeo de propiedades mecánicas (PMN) de la matriz metálica y sus modificaciones térmicas y de deformación.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Material compuesto</titulo>
+        <texto>Como se explicó previamente en el procedimiento experimental y habiendo definido la ruta para sintetizar el material, la siguiente etapa fue la manufactura de los diversos nanocompósitos, los cuales fueron obtenidos a través de los procesos de fundición, fundición más procesos de deformación y después de ser sometidos a un tratamiento térmico. Se desarrollaron 6 nanocompósitos que se diferenciaron por la forma de adición y la condición superficial de la fase reforzante en la matriz metálica. Los nanocompósitos se compararon con una muestra adicional representando la referencia consistente en únicamente Al sin adición de C. Como se puede apreciar en la Figura 72, cada uno de los nanocompósitos en forma de probetas cilíndricas de longitud inicial en promedio de 9 cm  0.8 cm de diámetro, se sometió a 10 pasos de deformación reducida consecutiva en el proceso, se logró estirar el material hasta obtener alambres de 3 mm de diámetro  ~1 m de longitud. Evidentemente debido a la deformación acumulada de algunos de los nanocompósitos, se obtuvieron menores longitudes. De hecho, entre cada paso algunas probetas se fracturaban de la punta debido al esfuerzo aplicado. Figura 72. Alambres obtenidos después del proceso de trefilado utilizando 10 dados. En la Figura 73 se presenta la secuencia de deformaciones a las que fue sometido cada nanocompósito, mostrando el incremento en longitud de la probeta después de pasar por cada uno de los dados durante el proceso de trefilado, también se puede observar la disminución gradual de su diámetro y la longitud alcanzada. Las probetas trefiladas tenían un diámetro inicial de 9 mm aproximadamente, después del trefilado el diámetro final fue de 3 mm logrando una reducción del área del ~90%. En la Tabla 34 se presentan los diámetros obtenidos medidos después de cada paso de reducción.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Cálculos del proceso de trefilado</titulo>
+        <texto>Los datos que se presentan a continuación se obtuvieron de cálculos realizados con las fórmulas presentadas anteriormente correspondientes al proceso de trefilado, con la finalidad de obtener información adicional sobre el porcentaje de reducción y los esfuerzos aplicados al nos nanocompósitos. Los cálculos solamente se realizaron para la muestra Al-NTCM (L2) ya que son valores representativos. En la Figura 74 se presenta el porcentaje de reducción del proceso de trefilado. La Figura 74a muestra el porcentaje de reducción para cada paso de deformación. La gráfica presenta una línea de tendencia y el límite de confianza del 95%, de donde se puede ver que la reducción promedio es de 20.7%, siendo el valor máximo de 21.62% presentado en la etapa 9, mientras que el menor valor lo presenta la última etapa siendo de 18.95%. La Figura 74b presenta el porcentaje de reducción acumulado, con las 10 deformaciones acumuladas, el diámetro del alambre se redujo desde 9.53 cm hasta 2.99 cm, obteniendo un porcentaje de reducción total de 90.16%. El esfuerzo de trefilado por cada etapa se presenta en la Figura 75, donde se puede apreciar que en promedio el esfuerzo del nanocompósito Al-C es de 34.34  0.99 MPa, en donde los esfuerzos máximo y mínimo coinciden con la reducción máxima y mínima presentados en la etapa 9 y 10, respectivamente. Figura 75. Esfuerzo de trefilado (MPa) empleado en cada paso de deformación. También se calculó la fuerza de trefilado la cual se presenta en la Figura 76a y la potencia de trefilado la cual es mostrada en la Figura 76b. De los resultados se puede notar que tanto la fuerza y la potencia de trefilado son mayores en la primera etapa del proceso, esto debido a que la reducción del tamaño de diámetro es mayor en esta etapa, por el contrario, en la última etapa la reducción del diámetro es menor por lo que se necesita una fuerza y una potencia menor.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Trabajo a futuro</titulo>
+        <texto>• Análisis a profundidad los cambios microestructurales debido a temperatura y deformación de los nanocompuestos. • Optimización en los tratamientos de recocido para evaluar los cambios en propiedades eléctricas y mecánicas y su reproducibilidad. • Obtención de los alambres con un diámetro menor a 3 mm para detallar mejor las aplicaciones reales.</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia>
+      <titulo>Aluminum Alloys for Wire Harnesses in Automotive Engineering</titulo>
+      <autores>
+        <autor>S Koch</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Aluminium Alloy for Automotive Cable. A Perspective on Emerging Cars Applications</titulo>
+      <autores>
+        <autor>I Alves</autor>
+        <autor>L Silva</autor>
+        <autor>S Gattas</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Strengthening Mechanisms in Carbon Nanotubes Reinforced Metal Matrix Composites: A Review</titulo>
+      <autores>
+        <autor>Í Carneiro</autor>
+        <autor>S Simões</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Current Trends in Automotive Lightweighting Strategies and Materials</titulo>
+      <autores>
+        <autor>F Czerwinski</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>New Aluminium Alloys for Electrical Wires of Fine Diameter for Automotive Industry</titulo>
+      <autores>
+        <autor>M Jabłoński</autor>
+        <autor>T Knych</autor>
+        <autor>B Smyrak</autor>
+        <autor>M Jabłoński</autor>
+        <autor>T Knych</autor>
+        <autor>B Smyrak</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of pre-stretching and aging time on the mechanical properties and microstructure of Al-6.02Zn-1.94Mg alloy</titulo>
+      <autores>
+        <autor>C Nie</autor>
+        <autor>Y Huang</autor>
+        <autor>H Shao</autor>
+        <autor>J Wen</autor>
+      </autores>
+      <fecha>2021-12</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical properties of aluminium based metal matrix composites reinforced with graphite nanoplatelets</titulo>
+      <autores>
+        <autor>S Alam</autor>
+        <autor>L Kumar</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Aluminum Technology -The Wiring Harness of the Future Next Generation Terminals for Aluminum Wire Application</titulo>
+      <autores>
+        <autor>M Gaertner</autor>
+      </autores>
+      <fecha>2015-01</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Development of High Strength Aluminum Wires for Low-Voltage Automotive Wiring Harnesses</titulo>
+      <autores>
+        <autor>K Taguchi</autor>
+        <autor>M Kusakari</autor>
+        <autor>Y Akasofu</autor>
+        <autor>J Yoshimoto</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The Impact of Vehicle Electrification on Electrical System Design</titulo>
+      <autores>
+        <autor>D Scott</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cars on a Diet: The Material and Energy Impacts of Passenger Vehicle Weight Reduction in the U.S," Tesis de doctorado</titulo>
+      <autores>
+        <autor>L Cheah</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High Strength and High Electrical Conductivity Al Nanocomposites for DC Transmission Cable Applications</titulo>
+      <autores>
+        <autor>A Javadi</autor>
+        <autor>S Pan</autor>
+        <autor>C Cao</autor>
+        <autor>X Li</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Dual Gradient Microstructure to Simultaneously Improve Strength and Electrical Conductivity of Aluminum Wire</titulo>
+      <autores>
+        <autor>S Cai</autor>
+        <autor>J Wan</autor>
+        <autor>Y Hao</autor>
+        <autor>C Koch</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study on the Improvement of Electrical Conductivity and Mechanical Properties of Low Alloying Electrical Aluminum Alloys</titulo>
+      <autores>
+        <autor>X Cui</autor>
+        <autor>Y Wu</autor>
+        <autor>G Zhang</autor>
+        <autor>Y Liu</autor>
+        <autor>X Liu</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>How Much Electricity Is Lost in Transmission and Distribution in the United States?</titulo>
+      <autores>
+        <autor>Eia</autor>
+      </autores>
+      <fecha>2023-05-10</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enhanced Mechanical Properties and Electrical Conductivity in Ultrafine-Grained Al 6101 Alloy Processed via ECAP-Conform</titulo>
+      <autores>
+        <autor>M Murashkin</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A Nanostructural Design to Produce High-Strength Al Alloys with Enhanced Electrical Conductivity</titulo>
+      <autores>
+        <autor>R Valiev</autor>
+        <autor>M Murashkin</autor>
+        <autor>I Sabirov</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanostructured Al and Cu Alloys with Superior Strength and Electrical Conductivity</titulo>
+      <autores>
+        <autor>M Murashkin</autor>
+        <autor>I Sabirov</autor>
+        <autor>X Sauvage</autor>
+        <autor>R Valiev</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Fatigue Properties of Ultra-Fine Grained Al-Mg-Si Wires with Enhanced Mechanical Strength and Electrical Conductivity</titulo>
+      <autores>
+        <autor>A Medvedev</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Enhanced Mechanical Properties and High Electrical Conductivity in Multiwalled Carbon Nanotubes Reinforced Copper Matrix Nanolaminated Composites</titulo>
+      <autores>
+        <autor>J Liu</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Hot Extrusion to Manufacture the Metal Matrix Composite of Carbon Nanotube and Aluminum with Excellent Electrical Conductivities and Mechanical Properties</titulo>
+      <autores>
+        <autor>J Tokutomi</autor>
+        <autor>T Uemura</autor>
+        <autor>S Sugiyama</autor>
+        <autor>J Shiomi</autor>
+        <autor>J Yanagimoto</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Tensile Properties of Carbon Nanotubes Reinforced Aluminum Matrix Composites: A Review</titulo>
+      <autores>
+        <autor>M Jagannatham</autor>
+        <autor>P Chandran</autor>
+        <autor>S Sankaran</autor>
+        <autor>P Haridoss</autor>
+        <autor>N Nayan</autor>
+        <autor>S Bakshi</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Advanced Electrical Conductors: An Overview and Prospects of Metal Nanocomposite and Nanocarbon Based Conductors</titulo>
+      <autores>
+        <autor>M Tehrani</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Unconventional Techniques for the Production of Light Alloys and Composites</titulo>
+      <autores>
+        <autor>J Herrera</autor>
+        <autor>R Bustamante</autor>
+        <autor>C Isaza</autor>
+        <autor>A Arizmendi</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Using highpressure torsion to process an aluminum-magnesium nanocomposite through diffusion bonding</titulo>
+      <autores>
+        <autor>M Kawasaki</autor>
+        <autor>B Ahn</autor>
+        <autor>H Lee</autor>
+        <autor>A Zhilyaev</autor>
+        <autor>T Langdon</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Strengthening Mechanisms in Nanostructured High-purity Aluminium Deformed to High Strain and Annealed</titulo>
+      <autores>
+        <autor>N Kamikawa</autor>
+        <autor>X Huang</autor>
+        <autor>N Tsuji</autor>
+        <autor>N Hansen</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Manufacturing of bulk Al-12Zn-3.7Mg-1Cu alloy with TiC nanoparticles</titulo>
+      <autores>
+        <autor>S Pan</autor>
+        <autor>G Yao</autor>
+        <autor>J Yuan</autor>
+        <autor>M Sokoluk</autor>
+        <autor>X Li</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>What is Behind the Inverse Hall-Petch Effect in Nanocrystalline Materials?</titulo>
+      <autores>
+        <autor>C Carlton</autor>
+        <autor>P Ferreira</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Facile Fabrication and Enhanced Properties of Cu-40 wt% Zn/WC Nanocomposite</titulo>
+      <autores>
+        <autor>S Pan</autor>
+        <autor>M Sokoluk</autor>
+        <autor>C Cao</autor>
+        <autor>Z Guan</autor>
+        <autor>X Li</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review Graphite</titulo>
+      <autores>
+        <autor>D Chung</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of Additives of Carbon Nanotubes and Oxide Nanofibers on the Mechanical Properties of Aluminum AD0 after Thermomechanical Processing</titulo>
+      <autores>
+        <autor>A Alekseev</autor>
+        <autor>V Strekalov</autor>
+        <autor>A Khasin</autor>
+        <autor>M Predtechenskiy</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Investigation of the Advanced Novel Carbon Nanotube (CNT) Yarn and Carbon Nanotube Aluminum/Copper Composite Windings for a Single-Phase Induction Motor</titulo>
+      <autores>
+        <autor>A Hassan</autor>
+        <autor>S Abbas</autor>
+        <autor>L Jie</autor>
+        <autor>L Youming</autor>
+        <autor>C Quanfang</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Materials Reinforced Aluminum Composites: A Review</titulo>
+      <autores>
+        <autor>Y Huang</autor>
+        <autor>Q Ouyang</autor>
+        <autor>D Zhang</autor>
+        <autor>J Zhu</autor>
+        <autor>R Li</autor>
+        <autor>H Yu</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Superior high-temperature tensile properties of aluminum matrix composites reinforced with carbon nanotubes</titulo>
+      <autores>
+        <autor>L Cao</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrical and Structural Characterization of Nano-Carbon-Aluminum Composites Fabricated by Electro-Charging-Assisted Process</titulo>
+      <autores>
+        <autor>X Ge</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characterization of Carbon Nanostructures in Al and Ag Covetic Alloys</titulo>
+      <autores>
+        <autor>H Jaim</autor>
+        <autor>D Cole</autor>
+        <autor>L Salamanca-Riba</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Estudio del efecto de la funcionalización y dispersión de la fase reforzante en las propiedades eléctricas y mecánicas de nanocompósitos Al-C</titulo>
+      <autores>
+        <autor>D Huerta</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Nanotube-Reinforced Aluminum Composite Produced by Induction Melting</titulo>
+      <autores>
+        <autor>M Mansoor</autor>
+        <autor>M Shahid</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Aluminium or Copper-Carbon Nanotube Composite Material and Method for Preparing Same</titulo>
+      <autores>
+        <autor>T Hiouani</autor>
+        <autor>P Royes</autor>
+        <autor>P Masquelier</autor>
+      </autores>
+      <fecha>2022-02</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>W Callister</autor>
+        <autor>D Rethwisch</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>D Askeland</autor>
+        <autor>P Fulay</autor>
+        <autor>W Wright</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Introducción a la Metalurgia Física</titulo>
+      <autores>
+        <autor>S Avner</autor>
+      </autores>
+      <fecha>1988</fecha>
+    </referencia>
+    <referencia>
+      <titulo>ASM Handbook Volume 2 Properties and Selection: Nonferrous Alloys and Special-Purpose Materials, 9</titulo>
+      <fecha>1990</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Standard Specification for Aluminum 1350 Drawing Stock for Electrical Purposes</titulo>
+      <autores>
+        <autor>Astm</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Fretting Wear Investigation of 1350-H19 Aluminum Wires Tested Against Treated Surfaces</titulo>
+      <autores>
+        <autor>V Steier</autor>
+        <autor>T Doca</autor>
+        <autor>J Araújo</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparative Fatigue Resistance of Overhead Conductors Made of Aluminium and Aluminium Alloy: Tests and Analysis</titulo>
+      <autores>
+        <autor>R Kalombo</autor>
+        <autor>J Martínez</autor>
+        <autor>J Ferreira</autor>
+        <autor>C Da</autor>
+        <autor>J Silva</autor>
+        <autor>Araújo</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Standard Specification for Aluminum 1350-H19 Wire for Electrical Purposes</titulo>
+      <autores>
+        <autor>Astm</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A Brief Review of Carbon Nanotube Reinforced Metal Matrix Composites for Aerospace and Defense Applications</titulo>
+      <autores>
+        <autor>V Srinivasan</autor>
+        <autor>S Kunjiappan</autor>
+        <autor>P Palanisamy</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Nanotubes</titulo>
+      <autores>
+        <autor>M Dresselhaus</autor>
+        <autor>G Dresselhaus</autor>
+        <autor>P Eklund</autor>
+        <autor>A Rao</autor>
+      </autores>
+      <fecha>2000</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Nanotubes: A Review of Synthesis Methods and Applications</titulo>
+      <autores>
+        <autor>A Yahyazadeh</autor>
+        <autor>S Nanda</autor>
+        <autor>A Dalai</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Nanotubes: Synthesis, Properties and Engineering Applications</titulo>
+      <autores>
+        <autor>N Gupta</autor>
+        <autor>S Gupta</autor>
+        <autor>S Sharma</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Nanotubes: A Review on Properties, Synthesis Methods and Applications in Micro and Nanotechnology</titulo>
+      <autores>
+        <autor>R Shoukat</autor>
+        <autor>M Khan</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Nanotubes: Properties and Application</titulo>
+      <autores>
+        <autor>V Popov</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Nanotubes: Synthesis, Properties, and New Developments in Research</titulo>
+      <autores>
+        <autor>M Kharlamova</autor>
+        <autor>D Eder</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Recent Progress in the Development and Properties of Novel Metal Matrix Nanocomposites Reinforced with Carbon Nanotubes and Graphene Nanosheets</titulo>
+      <autores>
+        <autor>S Tjong</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Physics of Carbon Nanotubes</titulo>
+      <autores>
+        <autor>M Dresselhaus</autor>
+        <autor>G Dresselhaus</autor>
+        <autor>R Saito</autor>
+      </autores>
+      <fecha>1995</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comparative Thermal Analysis of Carbon Nanotubes and Their Metal Composites with Copper and Aluminum as Winding Material in Induction Motor</titulo>
+      <autores>
+        <autor>A Hassan</autor>
+        <autor>C Quanfang</autor>
+        <autor>S Abbas</autor>
+        <autor>L Jie</autor>
+        <autor>L Youming</autor>
+        <autor>F Hussain</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Advances in the Science and Technology of Carbon Nanotubes and their Composites: A Review</titulo>
+      <autores>
+        <autor>E Thostenson</autor>
+        <autor>Z Ren</autor>
+        <autor>T.-W Chou</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Nanotube-Reinforced Aluminum Matrix Composites</titulo>
+      <autores>
+        <autor>S Mohammed</autor>
+        <autor>D Chen</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Characterization Methods of Carbon Nanotubes: A review</titulo>
+      <autores>
+        <autor>T Belin</autor>
+        <autor>F Epron</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Raman Spectroscopy of Covalently Functionalized Single-Wall Carbon Nanotubes</titulo>
+      <autores>
+        <autor>R Graupner</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Composite Materials Science and Engineering</titulo>
+      <autores>
+        <autor>K Chawla</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>ASM Handbook Volume 21 Composites, 1st ed</titulo>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Department of Defense Handbook, Composite Materials Handbook</titulo>
+      <fecha>1999</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrophoretic Deposition and Corrosion Behavior Study of Aluminum Coating on AZ91D Substrate</titulo>
+      <autores>
+        <autor>H Aghajani</autor>
+        <autor>M Pouzesh</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Carbon Nanotube Spectrally Selective Solar Absorbers</titulo>
+      <autores>
+        <autor>Z Chen</autor>
+        <autor>T Boström</autor>
+        <autor>Q Nguyen</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrodeposited Films of Graphene, Carbon Nanotubes, and their Mixtures for Supercapacitor Applications</titulo>
+      <autores>
+        <autor>N Bardi</autor>
+        <autor>T Giannakopoulou</autor>
+        <autor>A Vavouliotis</autor>
+        <autor>C Trapalis</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A Review on Fundamentals and Applications of Electrophoretic Deposition (EPD)</titulo>
+      <autores>
+        <autor>L Besra</autor>
+        <autor>M Liu</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The Effect of Electrophoretic Deposition of Carbon Nanotubes onto Carbon Fiber on the Interlaminar Resistance of Carbon Reinforced Aluminum Laminates</titulo>
+      <autores>
+        <autor>S Fallah</autor>
+        <autor>M Dokht</autor>
+        <autor>K Shelesh-Nezhad</autor>
+        <autor>H Biglari</autor>
+      </autores>
+      <fecha>2022</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>S Kalpakjian</autor>
+        <autor>S Schmid</autor>
+        <autor>Manufactura</autor>
+        <autor>Ingeniería Y Tecnología</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Procesos de Manufactura</titulo>
+      <autores>
+        <autor>J Schey</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Metal Matrix Composites</titulo>
+      <autores>
+        <autor>Walter</autor>
+        <autor>R Krenkel</autor>
+        <autor>H Naslain</autor>
+        <autor>Schneider</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical Metallurgy</titulo>
+      <autores>
+        <autor>G Dieter</autor>
+      </autores>
+      <fecha>1986</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Forming and Forging</titulo>
+      <fecha>1988</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of Process Parameters in Copper-Wire Drawing</titulo>
+      <autores>
+        <autor>G Santana</autor>
+        <autor>W Qian</autor>
+        <autor>L Kabayama</autor>
+        <autor>U Prisco</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Analysis of Temperature and Speed Effects on The Drawing Stress for Improving the Wire Drawing Process</titulo>
+      <autores>
+        <autor>A Haddi</autor>
+        <autor>A Imad</autor>
+        <autor>G Vega</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of Dislocation Characteristics on Electrical Conductivity and Mechanical Properties of AA 6201 Wires</titulo>
+      <autores>
+        <autor>C Cho</autor>
+        <autor>H Cho</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Changes in Microstructure, Mechanical and Electrical Properties with Progress of Cold Wire-Drawing for AA1070</titulo>
+      <autores>
+        <autor>S Jo</autor>
+        <autor>S Lee</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrical Resistivity and Tensile Strength Relationship in Heat-Treated All Aluminum Alloy Wire Conductors</titulo>
+      <autores>
+        <autor>N Alshwawreh</autor>
+        <autor>B Alhamarneh</autor>
+        <autor>Q Altwarah</autor>
+        <autor>S Quandour</autor>
+        <autor>S Barghout</autor>
+        <autor>O Ayasrah</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical Oxidation of Multiwalled Carbon Nanotubes</titulo>
+      <autores>
+        <autor>V Datsyuk</autor>
+      </autores>
+      <fecha>2008</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synergistic Strengthening Effect of Nanocrystalline Copper Reinforced with Carbon Nanotubes</titulo>
+      <autores>
+        <autor>H Wang</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Functionalization of Single-Walled Carbon Nanotubes with a HNO3/H2SO4 Mixture Through Different Treatments: A DFT Supported Study</titulo>
+      <autores>
+        <autor>H Yuliantoro</autor>
+        <autor>Y Kusumastuti</autor>
+        <autor>A Mindaryani</autor>
+        <autor>M Handayani</autor>
+        <autor>Rochmadi</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Standard Specification for Aluminum-Alloy Permanent Mold Castings</titulo>
+      <autores>
+        <autor>Astm</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Standard Test Method for D-C Resistance or Conductance of Moderately Conductive Materials</titulo>
+      <autores>
+        <autor>Astm</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Standard Test Method for Resistivity of Electrical Conductor Materials</titulo>
+      <autores>
+        <autor>Astm</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Influence of Indentation Size and Spacing on Statistical Phase Analysis Via High-Speed Nanoindentation Mapping of Metal Alloys</titulo>
+      <autores>
+        <autor>H Besharatloo</autor>
+        <autor>J Wheeler</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Nanoindentation Study of Intermetallic Particles in 2024 Aluminium Alloy</titulo>
+      <autores>
+        <autor>A Staszczyk</autor>
+        <autor>J Sawicki</autor>
+        <autor>L Kolodziejczyk</autor>
+        <autor>S Lipa</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Single Walled Carbon Nanotube-Metal Oxide Nanocomposites for Reversible and Reproducible Storage of Hydrogen</titulo>
+      <autores>
+        <autor>D Silambarasan</autor>
+        <autor>V Surya</autor>
+        <autor>V Vasu</autor>
+        <autor>K Iyakutti</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Amendment in sensing response of Single Walled Carbon nanotube (SWCNT) towards ammonia gas with copper phthalocyanine functionalization</titulo>
+      <autores>
+        <autor>R Ridhi</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A Simple Method for Anchoring Silver and Copper Nanoparticles on Single Wall Carbon Nanotubes</titulo>
+      <autores>
+        <autor>M Silva</autor>
+        <autor>D Ribeiro</autor>
+        <autor>E Cunha</autor>
+        <autor>M Fernanda Proença</autor>
+        <autor>R Young</autor>
+        <autor>M Paiva</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Diamond/Carbon Nanotube Composites: Raman, FTIR and XPS Spectroscopic Studies</titulo>
+      <autores>
+        <autor>M Varga</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Chemical and Structural Characterization of Carbon Nanotube Surfaces</titulo>
+      <autores>
+        <autor>K Wepasnick</autor>
+        <autor>B Smith</autor>
+        <autor>J Bitter</autor>
+        <autor>D Howard</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>High Resolution XPS Characterization of Chemical Functionalised MWCNTs and SWCNTs</titulo>
+      <autores>
+        <autor>T Okpalugo</autor>
+        <autor>P Papakonstantinou</autor>
+        <autor>H Murphy</autor>
+        <autor>J Mclaughlin</autor>
+        <autor>N Brown</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Sensitivity of Single Wall Carbon Nanotubes to Oxidative Processing: Structural Modification, Intercalation and Functionalisation</titulo>
+      <autores>
+        <autor>M Martínez</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Raman Modes of Index-Identified Freestanding Single-Walled Carbon Nanotubes</titulo>
+      <autores>
+        <autor>J Meyer</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Resonant Raman Spectroscopy of Nanotubes</titulo>
+      <autores>
+        <autor>C Thomsen</autor>
+        <autor>S Reich</autor>
+        <autor>J Maultzsch</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Raman Spectroscopy for Carbon Nanotube Applications</titulo>
+      <autores>
+        <autor>A Jorio</autor>
+        <autor>R Saito</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Espectroscopía Raman de Nanotubos de Carbono</titulo>
+      <autores>
+        <autor>C Domingo</autor>
+        <autor>G Santoro</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of van der Waals Interactions on the Raman Modes in Single Walled Carbon Nanotubes</titulo>
+      <autores>
+        <autor>A Rao</autor>
+      </autores>
+      <fecha>2001</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Dispersion of Multiwalled Carbon Nanotubes into a Diglyme Solution, Electrodeposition of Aluminum-Based Composite, and Improvement of Hardness</titulo>
+      <autores>
+        <autor>Z Zhang</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Surface Characterization and Bulk Property Analysis of Aluminum Powders Treated with Hydrophobic Coatings: Stearic Acid and Phenyl-Phosphonic Acid</titulo>
+      <autores>
+        <autor>B Ludwig</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Cryomilling: An Environment Friendly Approach of Preparation Large Quantity Ultra Refined Pure Aluminium Nanoparticles</titulo>
+      <autores>
+        <autor>N Kumar</autor>
+        <autor>K Biswas</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Mechanical and Microstructural Characterization of Dispersion Strengthened Al-C System Nanocomposites</titulo>
+      <autores>
+        <autor>A Santos</autor>
+        <autor>V Gallegos</autor>
+        <autor>R Goytia</autor>
+        <autor>M Miki</autor>
+        <autor>I Estrada</autor>
+        <autor>R Martínez</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electroless Coating Technology for 1060 Aluminum Alloy and the Effect of Tin Chloride and Polymer Addition</titulo>
+      <autores>
+        <autor>A Hewedy</autor>
+        <autor>O Khalifa</autor>
+        <autor>A Kassab</autor>
+        <autor>S Ahmed</autor>
+        <autor>M Esmail</autor>
+      </autores>
+      <fecha>2024</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Microstructure and Mechanical Properties of Dissimilar Pure Copper/1350 Aluminum Alloy butt Joints by Friction Stir Welding</titulo>
+      <autores>
+        <autor>X-W Li</autor>
+        <autor>D-T Zhang</autor>
+        <autor>C Qiu</autor>
+        <autor>W Zhang</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of Carbonaceous Nanomaterials' Reinforcement on Mechanical Properties of Aluminium Metal-Based Nanocomposite: A Review</titulo>
+      <autores>
+        <autor>V Khanna</autor>
+        <autor>V Kumar</autor>
+        <autor>S Bansal</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A Novel Aluminum-Carbon Nanotubes Nanocomposite with Doubled Strength and Preserved Electrical Conductivity</titulo>
+      <autores>
+        <autor>S Zhang</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+  </referencias>
+</tesis>

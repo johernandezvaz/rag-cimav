@@ -1,0 +1,844 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tesis>
+  <metadatos>
+    <titulo />
+    <idioma>spanish</idioma>
+    <autores>
+      <autor>M En</autor>
+      <autor>I Jorge</autor>
+      <autor>Álvarez Malpica</autor>
+      <autor>D Victor</autor>
+      <autor>Manuel Carmona</autor>
+    </autores>
+  </metadatos>
+  <contenido>
+    <resumen>
+      <seccion>
+        <titulo>Resumen</titulo>
+        <texto>La corrosión plantea un riesgo considerable para la seguridad y eficiencia en el transporte de hidrocarburos. Ante este problema, el desarrollo de inhibidores de corrosión ha sido importante como una solución alternativa; sin embargo, aún persisten desafíos en condiciones de altas temperaturas. En el contexto anterior, este trabajo se centró en la síntesis de nuevas moléculas a partir de derivados de aminas aromáticas como posibles inhibidores de corrosión para aplicaciones a una temperatura de hasta 110°C. Se sintetizaron 12 moléculas teniendo como base dos compuestos de piridina, 4(dimetilamino)piridina y 4(aminometil)piridina, combinados con diferentes hidrocarburos halogenados con diferentes longitudes de cadena. Dichas moléculas se caracterizaron utilizando espectrometría infrarroja (FTIR), colorimetría diferencial de barrido (DSC) y cromatografía líquida de alta presión (HPLC), así mismo se determinó el punto de fusión del producto obtenido y pruebas de solubilidad con disolventes de diferente polaridad. Por otra parte, para evaluar la capacidad de inhibición de la corrosión de las moléculas resultantes, se muestrearon corrientes de agua de formación de tres pozos petroleros y se realizaron análisis fisicoquímicos y electroquímicos para posteriormente simular un medio corrosivo sintético a alta temperatura. Se realizó la prueba de corrosión mediante técnicas de pérdida de peso (norma NACE 1D182), para temperaturas mayores de 60ºC de las nuevas moléculas sintetizadas, considerando los siguientes parámetros de experimentación: electrolito sintético de acuerdo a lo establecido previamente; dosificación alta, media y baja (50, 25 y 10 ppm). Además, se evaluó la eficacia de las moléculas con mayor eficiencia de cada familia en la protección contra la corrosión del acero SAE 1020, acero inoxidable AISI 304, Cobre C11000 y Aluminio A11000, simulando condiciones de un ducto de transporte de hidrocarburos. Para lo anterior, se midieron la pérdida de peso, la eficiencia y la velocidad de corrosión de las moléculas como criterios de evaluación. Las moléculas 1, 5 y 10 sintetizadas a base de 4(dimetilamino)piridina (más 1clorooctadecano, 1-clorotetradecano y 1-clorododecano respectivamente) y la 9 a base de 4(aminometil)piridina + 1-clorooctadecano resultaron ser las de mayor eficiencia (90, 90, 86 y 90% respectivamente). En la fase de evaluación de la eficiencia contra la corrosión, solo las moléculas 1 y 9 (4(dimetilamino)piridina +1clorooctadecano y 4(aminometil)piridina + 1-clorooctadecano) a una concentración de 25 ppm inhibieron la corrosión en un porcentaje que cumple satisfactoriamente los criterios de PEMEX (96.5 ± 0.6% y 96.4 ± 0.3%) en el acero SAE 1020. Por otro lado, el acero inoxidable AISI 304 presentó una corrosión poco significativa (0.09% de eficiencia para ambas moléculas), incluso en la muestra control (Blanco) la velocidad de corrosión fue muy baja, por lo que no pudo determinarse la eficiencia de las moléculas sobre este metal. Las moléculas 1 y 9 mostraron una eficiencia en el aluminio A11000 de 51.0 ± 7.8 % y 52.6 ± 2.6 %. El cobre C11000 presentó resultados contrarios a lo esperado, debido a que velocidades de corrosión de las moléculas 1 y 9 a 25 ppm fueron de 3.4 ± 0.01 mpy y 2.8 ± 0.04 mpy respectivamente, contra 0.4 ± 0.01 mpy que presentó el Blanco; esto indica que las moléculas inhibidoras causaron un mayor efecto de corrosión en la aleación de cobre que el mismo Blanco. Los resultados anteriores, y particularmente los relacionados con el acero SAE 1020, demuestran la factibilidad técnica de las moléculas sintetizadas a partir de 4(dimetilamino)piridina y 4(aminometil)piridina como inhibidores de corrosión. En las pruebas electroquímicas, la molécula 9 redujo significativamente la corrosión del acero AISI 1018. A 100 ppm, la corriente de corrosión disminuyó de 352 µA/cm² a 0.04 µA/cm² y la velocidad de 4.08 mm/año a 4.64 x 10⁻⁴ mm/año. Se alcanzó una eficiencia del 99.98% al formar una capa protectora. La impedancia aumentó, mostrando una mejor resistencia a la corrosión, y la microscopía electrónica reveló una superficie de acero sin daños, mientras que el acero sin inhibidor presentó corrosión severa.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Selección del disolvente.</titulo>
+        <texto>El etanol y el tolueno fueron seleccionados para realizar las reacciones de síntesis tanto de la primera como en la segunda familia, debido a que todas las materias primas se disuelven en estos disolventes que poseen diferentes polaridades y constantes dieléctricas, tal como se muestra en la Tabla 11.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Discusión</titulo>
+        <texto>El estudio se enfocó en la síntesis y caracterización de nuevas moléculas derivadas de aminas aromáticas como inhibidores de corrosión para oleoductos operando a temperaturas de hasta 110 °C. Este enfoque responde a la problemática persistente de la corrosión en sistemas de transporte de hidrocarburos, especialmente bajo condiciones de alta temperatura, donde muchos inhibidores comerciales pierden eficacia. Con respecto a la estabilidad de las moléculas sintetizadas, los resultados del análisis termogravimétrico indicaron que la pérdida inicial de peso en cada una de las muestras ocurrió entre los 90 y 110 ºC, lo cual se debe a la pérdida de componentes volátiles en el material, principalmente de disolventes residuales y de humedad. Una manera de eliminar esta pérdida es dar mayor tiempo de secado o bien cambiar la metodología de secado a las muestras después de realizar las reacciones de síntesis, con la finalidad de evitar interferencias con otros ensayos. El compuesto con mejor estabilidad de ambos grupos a 110°C es la molécula de 18 carbonos, sintetizado a partir de la 4(dimetilamino) piridina; siendo esta la estructura de mayor peso molecular, tal y como menciona Por encima de los 110°C, la molécula 2 es la que alcanza el 50% de pérdida de masa a la temperatura más elevada (340°C) de ambos grupos, que corresponde a la 4(dimetilamino) piridina con 1-bromobutano. Durante las reacciones de síntesis orgánicas se obtuvieron como resultado productos cristalinos con deformaciones muy marcadas correspondientes a la temperatura de transición vítrea Tg, temperatura de cristalización Tc y temperatura de fusión Tf; lo cual es consistente con las curvas DSC típicas de moléculas semicristalinas que presentan cada una de ellas, con excepción de las identificadas como 1 y 3, que corresponden a la 4(dimetilamino) piridina con 1-clorooctadecano y 4(aminometil) piridina más 1-clorooctadecano. Al hablar de cristalinidad de las moléculas se enfatiza en que presentan un ordenamiento de la estructura molecular en regiones compactamente acomodadas y por otra parte regiones amorfas donde las cadenas se encuentran en un arreglo molecular aleatorio es decir en un completo desorden. Por consecuencia las propiedades físicas y mecánicas de las moléculas se verán afectadas considerablemente por las condiciones de proceso durante su aplicación como inhibidor de corrosión, derivado de esto, es importante someterlas a ensayos en diferentes perfiles de temperaturas en tiempos prolongados para evaluar su comportamiento. Los valores de temperatura de fusión para cada una de las muestras son elevados y fluctúan entre los 275 y 600°C; sin embargo, los valores de masa a esas temperaturas son únicamente del 0.56 al 14.45%, con lo cual es prácticamente nula la presencia de ellas. Lo anterior es importante, debido a que dichas temperaturas de fusión no tienen similitud con las temperaturas de las propiedades fisicoquímicas térmicas de las materias primas (aminas aromáticas y halogenuros de alquilo de diferentes largos de cadena) como son el Punto de Ebullición, Punto de Fusión, Punto de Inflamación y Punto de Autoignición, siendo las Tf de cada muestra evaluada superiores, permitiendo señalar que se trata de moléculas nuevas. Se aprecian tres tipos de curvas TGA, con las cuales se evidencia la descomposición de las muestras en un proceso simple para aquellas donde aparentemente se cuenta con una molécula con características térmicas propias, distintas a las materias primas, descomposición multietapa con productos intermedios estables e inestables, en donde se aprecia que existe la presencia de diferentes productos que sufren descomposición térmica que coinciden con los puntos de ebullición e inflamación de las materias primas. En cuanto a la eficiencia de las 12 moléculas sintetizadas, como resultado de combinaciones de 4(dimetilamino)piridina y 4(aminometil)piridina con diferentes hidrocarburos halogenados, reveló variaciones significativas en su eficacia como inhibidores de corrosión. Es particularmente destacable que las moléculas 1, 5, 9 y 10 mostraron las mayores eficiencias, con la molécula 1 alcanzando un 96.6% de inhibición en acero SAE 1020, lo que es satisfactorio según los criterios de PEMEX. utilizaron un terpolímero acrílico de metacrilato de metilo/acrilato de butilo/ácido acrílico en una proporción de 49:49:2 % en peso y que contenía 50 % en peso de agua como inhibidor de corrosión en una solución de petróleo amargo simulada y reportaron buenos resultados en condiciones estáticas, pero en condiciones hidrodinámicas, la superficie del acero mostró áreas corroídas y picaduras. Por lo tanto, el uso de compuestos de amina como inhibidores muestra un mejor desempeño en condiciones hidrodinámicas que lo reportado en la literatura. Aunque los resultados son prometedores, se observaron algunas limitaciones. La reacción de la molécula con el cobre C11000 es un punto crítico que debe ser abordado, posiblemente ajustando la estructura molecular o desarrollando inhibidores específicos para este tipo de metal. Además, sería beneficioso realizar estudios a largo plazo para evaluar la estabilidad y la persistencia de la película inhibidora en condiciones operativas extendidas.</texto>
+      </seccion>
+    </resumen>
+    <introduccion>
+      <seccion>
+        <titulo>Introducción</titulo>
+        <texto>Los sistemas de transporte de hidrocarburos son fundamentales para la distribución eficiente de este recurso energético en México y cualquier otro país (Lardé, 2020). El medio de transporte desempeña un papel crucial en toda la cadena de valor debido a que, sin una conexión fluida entre los distintos procesos, no es posible generar valor agregado. Se pueden identificar diversos mecanismos de transporte, como el uso de tanques o barriles montados sobre barcazas, ferrocarriles y otros. Sin embargo, el método más ampliamente utilizado es el transporte a través de ductos, el cual permite que la industria opere de manera continua y organizada, sin interrupciones (Meléndez-Pertus et al. 2016). Los ductos son una forma sumamente conveniente de transporte para abastecer de combustibles a los puntos de almacenamiento y distribución. Además, si se utilizan y mantienen de manera eficiente, presentan ventajas significativas (Martínez et al.</texto>
+      </seccion>
+    </introduccion>
+    <antecedentes>
+      <seccion>
+        <titulo>Antecedentes</titulo>
+        <texto />
+      </seccion>
+    </antecedentes>
+    <objetivos>
+      <seccion>
+        <titulo>Objetivos</titulo>
+        <texto />
+      </seccion>
+    </objetivos>
+    <objetivo_general>
+      <seccion>
+        <titulo>Objetivo general</titulo>
+        <texto>Sintetizar y evaluar moléculas novedosas basadas en derivados de las aminas aromáticas para su aplicación como inhibidores de corrosión en condiciones de alta temperatura y altos cortes de agua de formación (80/20) para su uso en ductos para el transporte de hidrocarburos, caracterizando fisicoquímica y electroquímicamente, y pruebas de efectividad en condiciones operativas simuladas.</texto>
+      </seccion>
+    </objetivo_general>
+    <justificacion>
+      <seccion>
+        <titulo>Justificación</titulo>
+        <texto>Alrededor de un 70% del hidrocarburo producido a nivel internacional proviene de yacimientos con 30 años de explotación, de tal forma que en la plataforma continental del Golfo de México se localizan campos en edades avanzadas de su vida productiva; muchos otros lugares del mundo que aún se encuentran desarrollando sus recursos también cuentan con campos petroleros que están ingresando en la meseta tardía de la curva de producción, incluyendo a México, Tailandia, Nigeria y Egipto Los campos maduros exhiben de manera general incrementos sostenidos de cortes de agua, a razón de la intrusión del acuífero natural en las zonas productivas, de tal manera que actualmente la industria petrolera genera un volumen mucho mayor de agua que de petróleo. Estos volúmenes de agua generan grandes trastornos en toda la cadena productiva de la industria, porque entre otras cosas, puede reducir significativamente el valor de un activo petrolero Las altas temperaturas derivadas de la presencia de agua de formación, es una de las principales preocupaciones de los efectos adversos intrínsecos, esto porque los ductos son diseñados teniendo en consideración factores determinantes que se abordan en la ecuación de Barlow (utilizada para estimar el espesor de pared), la temperatura y la velocidad de corrosión mínima especificada. Cuando estos factores son alterados, el rango de operación difiere significativamente del diseño original debido a que un ducto de alta temperatura presenta ciclos de expansión/contracción por las fluctuaciones térmicas que sufre el metal La velocidad de corrosión de un metal se duplica por cada aumento de 10°C de temperatura, además, la presencia de compuestos altamente agresivos en el medio como el ácido sulfhídrico, provoca que la velocidad de corrosión varie de 1.5 a 2.0</texto>
+      </seccion>
+    </justificacion>
+    <hipotesis>
+      <seccion>
+        <titulo>Hipótesis</titulo>
+        <texto>Las moléculas sintetizadas a partir de derivados de aminas aromáticas pueden funcionar eficazmente como inhibidores de corrosión en ambientes con altos cortes de agua de formación y temperaturas de hasta 110°.</texto>
+      </seccion>
+    </hipotesis>
+    <metodologia>
+      <seccion>
+        <titulo>Uso de inhibidores de corrosión como alternativa de protección de ductos.</titulo>
+        <texto>El creciente uso de los inhibidores de corrosión se debe al bajo precio en comparación con otros métodos de protección y su fácil aplicación sin la interrupción del proceso. Las principales industrias que se benefician con el uso de los inhibidores de corrosión son las industrias de extracción y producción de gas, refinación del petróleo, química, tratamiento de aguas y aditivos industriales (Olivares, 2005). La mayoría de los inhibidores estudiados y que son utilizados en la industria del transporte de hidrocarburos son del tipo formadores de película, su desempeño esta intrínsecamente relacionado a su habilidad para adherirse a la superficie a proteger, resistiendo en cierta medida las condiciones agresivas del medio. Esta característica es lo que comúnmente se denomina "persistencia de película" (Olvera, 2013). La selección de un producto para aplicación en campo usual, pero no exclusivamente, se basa en resultados de pruebas de laboratorio y campo. Idealmente las pruebas deben reproducir todos los parámetros relevantes de campo, pero en realidad, el tiempo, esfuerzo y costos requeridos para diseñar y efectuar una prueba que reproduzca todas las condiciones reales hace impráctico lo anterior, siendo una forma más práctica, el determinar los factores críticos que determinen el desempeño de un inhibidor Según el ASME B31.4 -2002: Pipeline Transportation Systems for Liquid Hydrocarbons and Other Liquids, los ductos de transporte de hidrocarburos líquidos de acuerdo con su temperatura de operación se clasifican como de baja temperatura en el intervalo de -30 a 20°C, media temperatura de 21 a 70°C y alta temperatura de 71 a 120°C. Definiendo lo anterior, a continuación, se describen algunos estudios que se han realizado para media y alta temperatura.</texto>
+      </seccion>
+    </metodologia>
+    <resultados>
+      <seccion>
+        <titulo>Identificación de estructuras moleculares con mayor eficiencia de inhibición de la corrosión.</titulo>
+        <texto>Se realizó una comparación gráfica de los resultados de velocidad de corrosión, pérdida de peso y porcentaje de eficiencia para la identificación de estructuras moleculares con mayor eficiencia como inhibidores de corrosión.     Se utilizaron 12 testigos corrosimétricos rectangulares de los cuales 3 son de acero al carbono SAE 1020, 3 de acero inoxidable AISI 304, 3 de cobre C11000 y 3 de aluminio A11000 con especificaciones de 2" x 1/2" x 1/16" (12.69 cm 2 de área) cada uno, suministrados por la compañía Control 5, S. A. de C. V., realizando previamente una inspección visual para verificar que no presentaran ningún tipo de picadura identificada con la ASTM G 46-94 y que estuvieran libre de grasa o humedad. Fueron pesados por triplicado en balanza analítica registrando su peso.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Resultados.</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Solubilidad de las materias primas seleccionadas.</titulo>
+        <texto>Los resultados del barrido con disolventes polares y no polares a las dos materias primas de la primera familia y a las tres materias primas de la segunda familia se muestran en las Tablas 9 y 10. Tabla 9. Pruebas de solubilidad con diferentes disolventes para la primera familia.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Espectros IR y grupos funcionales de las reacciones de la primera familia.</titulo>
+        <texto>En la figura 15 se presentan los resultados de espectrofotometría infrarroja con transformadas de Fourier de las materias primas de la primera familia, identificando las bandas de mayor abundancia y su relación con los enlaces específicos.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Identificación</titulo>
+        <texto>7.5.1.3. Evaluación Electroquímica mediante Resistencia a la Polarización Lineal (Rp). Los resultados obtenidos para las tres aguas de formación se muestran en la Tabla 35, el análisis de dichos resultados permitirá seleccionar el agua con la cual se realizarán las evaluaciones electroquímicas de las nuevas moléculas inhibidoras de corrosión. El potencial de corrosión es una medida probabilística de la tendencia de un metal a un mayor o menor grado deterioro, valores más negativos indican mayor probabilidad de corrosión, el comportamiento mostrado en la Figura 82, indica que los 3 sistemas presentan una probabilidad de corrosión elevada; Tizón 232 con un Ecorr de -630 mV ± 0.0008, mientras que las soluciones de Luna 18 y Escuintle 301 con un Ecorr de -710 mV ± 0.0004 y -720 mV ± 0.0004 respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Evaluación de la pérdida de peso, eficiencia y velocidad de corrosión.</titulo>
+        <texto>Para poder realizar una comparativa de los resultados obtenidos, se agruparon los datos de pérdida de peso, eficiencia y velocidad de corrosión de las moléculas por familia de las aminas aromáticas, tal como se aprecia en las Tablas 37 y 38. Tabla 37. Pérdida de peso, eficiencia y velocidad de corrosión de la familia 4(dimetilamino)piridina.    Dentro de cada familia molecular los resultados de pérdida de peso, eficiencia y velocidad de corrosión varían con las dosificaciones a 10, 25 y 50 ppm. Para el caso de la pérdida de peso a las tres concentraciones de estudio en la familia de la 4(dimetilamino)piridina y tomando en cuenta las pérdidas de peso (en gramos), los inhibidores de corrosión tienen un efecto de protección al metal, cabe mencionar que las moléculas 1 y 5 tiene la menor pérdida de peso a 25 ppm 0.002 ± 0.0001 gr y 0.002 ± 0.0003 gr respectivamente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis elemental.</titulo>
+        <texto>En la Tabla 40 se muestran los resultados analíticos obtenidos del analizador elemental de las 4 muestras rotuladas como 1, 5, 9 y 10, correspondientes a las moleculas con caracteristicas inhibidoras de corrosión. Con esta prueba se cuantificó el contenido porcentual (en peso) de carbono, hidrógeno, nitrógeno, azufre y oxígeno. Octadecane, 1-chloro-Figura 90. Cromatograma de la molécula 1 Para la molecula 5, presentada en la Figura 91, de igual manera se obtuvieron 2 señales, la primera de ellas en un tiempo de retención de 9.60 minutos, la cual se trata nuevamente de la 4(dimetilamino)piridina, lo que es esperado al tratarse de la misma familia aromática de las moléculas 1, 5 y 10; la segunda señal se registró con un tiempo de retención de 13.79 minutos identificado para el Clorotetradecano, tal como se muestra en la Tabla 42; es de resaltar que tratándose de moléculas de la misma familia molecular pero con un peso molecular ligeramente menor, también guardan similitudes en cuanto al efecto evaporativo a la temperatura de inyección, por lo cual no se aprecia en el cromatograma. Por su parte la molecula 9 que aparece en la Figura 92 muestra una sóla señal bien definida en el tiempo de retención 15.88, apreciandose un compuesto que ha sido identificado como 3-Pyridinecarboxaldehyde phenylhydrazone, tal como se muestra en la Tabla 43; sin embargo, se trata de una nueva molécula derivada de la 4aminometilpiridina que no se volatilizó a la temperatura de inyección de la prueba, por lo tanto, se trata la molécula esperada en la síntesis orgánica. No se observan picos propios de las materias primas, debido a que estas reaccionaron correctamente dando paso a una nueva estructura orgánica. La molecula 10 mostrada en la Figura 93 que forma parte de la misma familia de aminas arompaticas de las moleculas 1 y 5, muestra comportamientos similares con dos señales, la primera en el tiempo de retención 7.88 el cual corresponde a residuos de la materia prima 4-Pyridinamine, N, N-dimethyl-y en el tiempo 15.87 aparece una señal de un compuesto identificado como 3-Pyridinecarboxaldehyde phenylhydrazone, mostrado en la Tabla 44, pero esta pertenece a una nueva molécula que no se volatilizó a la temperatura de inyección de la prueba y se considera que es la estructura esperada generada en las reacciones de síntesis orgánica. No se aparecen picos o señales indicativas de la presencia de la materia prima clorooctano.    En general, las moléculas 1 y 9 parecen ofrecer una protección eficaz en algunos metales como el SAE 1020 y el aluminio, pero aumentan la corrosión en el cobre (C11000). Figura 97. Porcentajes de eficiencia de la Molécula 1 y 9 en los diferentes metales de prueba. NOTA: Se recortó la barra del cobre C11000, por cuestiones de apreciación gráfica. La disminución en la eficiencia de inhibición de la corrosión que ocurre cuando se supera cierta concentración, como se mostró particularmente en las moléculas de la Tabla 32, puede explicarse debido a que, al añadir un inhibidor a una solución corrosiva, este puede formar una capa protectora sobre la superficie del metal; esta capa actúa como una barrera, reduciendo significativamente la tasa de corrosión y, por ende, incrementando la eficiencia en el proceso anticorrosivo como pasó con el acero SAE 1020 y Aluminio A11000. A concentraciones más bajas de inhibidor, esta capa puede ser adecuada para proteger el metal de manera efectiva, lo que resulta en un aumento de la eficiencia de inhibición de la corrosión como sucedió con los inhibidores a 25 ppm. Sin embargo, a concentraciones más altas del inhibidor, es posible que se formen capas excesivamente gruesas o que se produzca una adsorción excesiva del inhibidor sobre la superficie del metal, situación que se pudo presentar a una concentración de 50 ppm. Esto podría obstaculizar la transferencia de electrones asociada con la corrosión, lo que podría conducir a una disminución en la densidad de corriente de corrosión tal y como resultó en el estudio de Zomorodian, Regea-ne &amp; Al-Tabbaa (2021). En este punto, la capa protectora puede ser demasiado densa o no permitir la transferencia adecuada de especies corrosivas, lo que resulta en una menor eficiencia de inhibición de la corrosión. La explicación de por qué la eficiencia de inhibición no solo disminuye, sino que también la velocidad de corrosión aumenta en presencia del inhibidor en el cobre, se puede atribuir a las siguientes razones: los compuestos orgánicos que contienen uno o más grupos amino (-NH₂, -NHR, -NR₂) son bases débiles y pueden actuar como nucleófilos, reaccionando con diferentes metales En este contexto, las aminas pueden reaccionar con iones de cobre (Cu²⁺) en la superficie del metal, formando complejos de amina-cobre solubles en agua, o no permitir que se forme uniformemente la capa de pátina, lo que puede dejar expuesto al metal a los procesos corrosivos. Este proceso puede aumentar la solubilidad del cobre, facilitando su lixiviación de la pared de la tubería. Además, en presencia de oxígeno y agua, el cobre puede oxidarse a Cu²⁺, y las aminas pueden estabilizar estos iones de Cu²⁺, promoviendo su disolución. En el diseño experimental del aluminio A11000, la evaluación del Blanco muestra velocidades de corrosión de 155.</texto>
+      </seccion>
+    </resultados>
+    <conclusiones>
+      <seccion>
+        <titulo>Conclusiones</titulo>
+        <texto>Este estudio ha demostrado que las nuevas moléculas derivadas de 4(dimetilamino)piridina y 4(aminometil)piridina poseen un alto potencial como inhibidores de corrosión, especialmente en aplicaciones de alta temperatura en oleoductos. La caracterización detallada de las moléculas reveló que las variaciones en la estructura química y las sustituciones ejercen un papel crucial en las propiedades térmicas de estos inhibidores, subrayando la importancia de considerar estos aspectos en el diseño de nuevas moléculas. En particular, se observó que la pérdida inicial de peso en cada una de las muestras ocurrió entre los 90 y 110 °C, debido a la eliminación de componentes volátiles como disolventes residuales y humedad. Este hallazgo resalta la necesidad de aumentar el tiempo de secado de las muestras tras las reacciones de síntesis para evitar interferencias en otros ensayos. El análisis de las propiedades térmicas mostró que el largo de cadena con mejor estabilidad a 110 °C en ambos grupos fue de 18 carbonos, correspondiente a la 4(dimetilamino)piridina. Por encima de los 110 °C, la molécula 2 (4(dimetilamino)piridina con 1-bromobutano) fue la que alcanzó la temperatura más elevada de pérdida de masa (50% a 340 °C). Durante las reacciones de síntesis orgánicas, los productos cristalinos obtenidos mostraron deformaciones marcadas, correspondientes a la temperatura de transición vítrea (Tg), temperatura de cristalización (Tc) y temperatura de fusión (Tf). Estos comportamientos térmicos son indicadores clave de la estabilidad de las moléculas sintetizadas. Las moléculas 1, 5 y 9, mostraron un excelente desempeño tanto en términos de estabilidad térmica como en eficiencia de inhibición, cumpliendo con los estándares de la industria. La molécula 10, aunque ligeramente menos eficiente en la inhibición, también demostró ser prometedora, especialmente en aplicaciones que requieren alta estabilidad térmica. Estos resultados resaltan la importancia de la estructura molecular y la longitud de la cadena hidrocarbonada en el diseño de inhibidores de corrosión eficaces El análisis de las corrientes de ductos de pozos petroleros confirmó la presencia de elementos corrosivos relevantes, lo que respalda la relevancia y aplicabilidad del medio artificial reproducido en las pruebas de corrosión. En cuanto a la eficiencia de inhibición de la corrosión, cuatro de las moléculas sintetizadas mostraron rendimientos destacables, con las Moléculas 1 y 9 demostrando resultados prometedores en la inhibición de la corrosión en acero SAE 1020 y aluminio A11000. No obstante, la eficiencia de inhibición de la corrosión en los diferentes metales no pudo ser evaluada adecuadamente en las moléculas 1 y 5 (4(dimetilamino)piridina con 1-clorotetradecano y 1-clorododecano). Por otro lado, las pruebas electroquímicas revelan que la Molécula 9 posee propiedades anticorrosivas como inhibidor en superficies de acero dulce con bajo</texto>
+      </seccion>
+    </conclusiones>
+    <otros>
+      <seccion>
+        <titulo>Índice de Figuras</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>2016</titulo>
+        <texto>), por un lado, no generan contaminación atmosférica, lo cual contribuye a preservar el equilibrio ecológico y, por otro lado, desempeñan un papel crucial en la reducción de la congestión del transporte terrestre al liberar capacidad en las carreteras y vías férreas (Martínez et al. 2016). Así mismo, garantizan un suministro constante de combustibles, evitando interrupciones en la distribución y brindando estabilidad en el abastecimiento energético del país En México, el transporte de hidrocarburos y sus derivados a través de ductos continúa siendo la alternativa más rentable y segura para garantizar el suministro a los mercados. Por lo tanto, resulta fundamental que los propietarios de los ductos mantengan en perfectas condiciones la extensa red de líneas de transporte (Lobato-Castañeda et al. 2019). Esta responsabilidad no es ajena a la industria petrolera de nuestro país, ya que la integridad y el mantenimiento adecuado de los ductos son aspectos cruciales para asegurar un flujo constante de hidrocarburos y salvaguardar la seguridad en el transporte de estos recursos esenciales El sistema de ductos es la forma de transporte predominante, sin embargo, está expuesto a diversas circunstancias que pueden comprometer su funcionamiento. Entre estos desafíos se encuentran las fallas estructurales, fracturas, fugas y procesos de corrosión (Matos-Montillas, 2015). Estas amenazas requieren una atención constante por parte de los responsables de la infraestructura para garantizar la integridad de los ductos y prevenir posibles incidentes que puedan afectar la seguridad y la eficiencia del transporte de hidrocarburos La corrosión provoca la pérdida de material, lo que reduce la capacidad de los ductos para resistir esfuerzos externos, creando áreas de debilidad vulnerables en su estructura. Estos puntos o zonas más frágiles pueden comprometer la integridad del ducto y aumentar el riesgo de fallos o fugas, lo que resalta la importancia de controlar y prevenir la corrosión en los sistemas de transporte de hidrocarburos. (Meléndez-Pertuz et al., 2017). Existen diferentes factores asociados a la corrosión; características del suelo, la naturaleza del fluido que se transporta, el material de la tubería y las condiciones mismas de operación (Cervantes-López, 2015). Los inhibidores de corrosión son una opción como sistema de protección en la preservación y cuidado del sistema de ductos, ya que ayudan a prevenir o retardar la corrosión (Sandoval-Yáñez, 2017), ya que el empleo de un inhibidor de corrosión eficiente provee al sistema reducir la velocidad de corrosión en el acero, solubilidad, oxígeno disuelto, compatibilidad, detergencia, estabilidad térmica de almacenamiento u operación, costo y aplicación. Los inhibidores de corrosión son sustancias químicas que protegen al metal contra el ataque electroquímico de soluciones agresivas. Son usados ampliamente por la industria para modificar el comportamiento de las soluciones que se transportan en los ductos, a efectos de un mejor control de la corrosión. Una problemática común de los inhibidores de corrosión es su limitación de eficacia conforme se va aumentando la temperatura de operación de los ductos (Luna-Trujillo, 2018). En condiciones de alta temperatura, algunos inhibidores pueden perder su capacidad para formar y mantener una película protectora en la superficie del metal. Como resultado, el metal expuesto puede ser susceptible a la corrosión y daño, lo que puede comprometer la integridad estructural y funcionalidad del material. Esta limitación de temperatura restringe la aplicación de ciertos inhibidores de corrosión en entornos industriales o procesos que operan a altas temperaturas, lo cual representa un desafío para la protección efectiva contra la corrosión en estas condiciones específicas. Las aminas actúan como agentes inhibidores de corrosión al generar una capa protectora en la superficie del metal que se está protegiendo Esta capa se adhiere al metal y forma una barrera física que evita que los agentes corrosivos, como el oxígeno y los compuestos ácidos, tengan contacto directo con el metal Por otra parte, las aminas enfrentan desafíos por la variación de las temperaturas de operación en los ductos. Estas son eficaces para proteger los metales de la corrosión en condiciones normales, pero pueden degradarse o volatilizarse a temperaturas elevadas, reduciendo su eficiencia En este contexto, en el presente estudio se realizará la síntesis y caracterización de un inhibidor de corrosión para oleoductos que operan hasta 110°C, en respuesta a la problemática relacionada con el uso de los inhibidores de corrosión que se encuentran disponibles comercialmente y que se emplean en la industria petrolera, que con frecuencia presentan estabilidad térmica y óptimo desempeño a temperatura ordinaria de 50°C (Cueli, 2013).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Situación de la infraestructura de transporte por ductos en México.</titulo>
+        <texto>Actualmente, la red de los principales ductos de PEMEX tiene una antigüedad promedio de 25 años y alcanza una longitud de hasta 38,500 km, sin contar con las líneas de descarga, líneas de bombeo, saloductos y salmueraductos que no se contabilizan</texto>
+      </seccion>
+      <seccion>
+        <titulo>2018).</titulo>
+        <texto>De 2010-2017 se tienen registradas 1,623 fugas, de las cuales 1,063 equivalentes al 65% son originadas por corrosión interior. Se considera que la corrosión interior en la red de ductos de acero al carbón está asociada al tipo de servicio; los ductos de transporte de gas presentan menor porcentaje de fugas en relación a los oleoductos, oleogasoductos y líneas de descarga que han incrementado el volumen de agua incorporada (PEMEX, 2018).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Inhibidores de corrosión para media y alta temperatura.</titulo>
+        <texto>Lucio-García y colaboradores (2009) realizaron un estudio de la inhibición de la corrosión por H2S en tubería de acero utilizando hidroxietil imidazolina a través de técnicas electroquímicas, utilizando concentraciones de inhibidor de 5, 10, 25, 50 y 100 ppm en presencia de H2S y en una solución que contiene NaCl al 3% a 50ºC. Las técnicas mostraron que el inhibidor es más eficiente a las concentraciones entre 5 y 10 ppm, pero la eficiencia del inhibidor disminuyó después de 8 horas de prueba. Presentó alta susceptibilidad a la corrosión localizada a dosis de inhibidor inferiores a 10 ppm debido al establecimiento de una película inhibidora porosa. Entre 50 y 100 ppm de inhibidor, el acero era susceptible a una mezcla de corrosión uniforme y localizada. Salinas y González (1996) utilizaron el electrodo de cilindro rotatorio y técnicas electroquímicas, estudiando la eficiencia de la protección contra la corrosión de un inhibidor comercial utilizado en soluciones de ácido clorhídrico con y sin adiciones de tiourea y bifluoruro de amonio a 65°C. El fenómeno de la corrosión se investigó en condiciones hidrodinámicas controladas, seleccionadas para simular distintas velocidades de flujo. Ronda y colaboradores (2009) obtuvieron una composición inhibidora de la corrosión utilizando probetas de acero de medio carbono y bajo manganeso, en un medio de 5% de HCl utilizado para las limpiezas químicas y las estimulaciones a los pozos petroleros. La formulación está compuesta mayoritariamente por una fracción de aceite de cera de caña y mosto alcohólico. La temperatura para los ensayos gravimétricos fue 50°C. A partir de esto, se obtuvo una familia de formulaciones con cuatro productos: fracción aceite, mosto y tenso activo, entre los que se manifiesta un efecto sinérgico inhibidor de la corrosión del acero en ácido clorhídrico. La composición inhibidora desarrollada mostró un comportamiento típico de los inhibidores de corrosión en medio ácido hasta un rango de temperatura de 50°C. Vicente-Ferrari et al. (2015) evaluaron un inhibidor de corrosión base polifosfatos y el EDTA como inhibidor de incrustación, verificando los efectos de esta mezcla en sus funciones anticorrosivas y/o anti incrustantes en el acero al carbono AISI 1008, para sistemas de producción offshore de hidrocarburos, en ambientes ácidos y altas temperaturas. Los resultados obtenidos para los ensayos de corrosión e incrustación demostraron que la implementación conjunta de inhibidores de corrosión e incrustación son favorables para la protección del acero al carbono en sistemas de producción offshore de hidrocarburos. Mason y colaboradores (2012) realizaron una investigación para estudiar los efectos de inhibición de EDTA en una solución de NaCl en un rango de temperatura de 70 a 200°C, simulando las condiciones de producción de petróleo y gas en alta temperatura y alta presión. En el experimento se determinó que el inhibidor presenta efectividad a temperatura moderada de hasta 70°C, y pierde total efectividad a temperaturas de 175 -200°C. Peña y colaboradores (2009) realizaron mediciones para la evaluación del comportamiento electroquímico del acero al carbono AISI-1020 en un sistema multifásico, saturado con dióxido de carbono (CO2), usando la técnica de espectroscopia de impedancia electroquímica (EIS); mediante la cual, se determinó la eficiencia de dos inhibidores: dodecilamina y ácido octadecanoico a temperaturas de 60°C. En el ensayo sin inhibidor, el carbonato de hierro se precipitó formando una capa superficial tipo cascarilla porosa y no homogénea sobre el metal base, lo cual, permite el acceso de la solución corrosiva hasta la superficie metálica. En el ensayo con el inhibidor, la dodecilamina dosificada a 25 ppm afecta la cinética de formación del FeCO3. También se observa que el inhibidor después de 8 horas no bloquea la misma cantidad de sitios activos en el metal, lo que ocasiona una producción mayor de FeCO3, lo cual se refleja en un aumento de la velocidad de corrosión. Al-Sodani y colaboradores (2018) estudiaron el desempeño de cinco tipos diferentes de inhibidores para reducir la velocidad de corrosión del acero en condiciones simuladas de exposición a cloruros y diferentes temperaturas. Se utilizaron tres concentraciones de cloruros (1000, 1500 y 2000 mg/L) y tres temperaturas de exposición (25, 40 y 55 °C), y evaluaron el proceso empleando la técnica de polarización potenciodinámica (PDP). Los investigadores observaron corrosión uniforme en muestras expuestas a temperaturas de hasta 40 °C, mientras que a 55 °C se detectó corrosión por picaduras. Tanto el aumento de la temperatura como de la concentración de cloruro incrementaron la velocidad de corrosión, siendo el efecto de la temperatura más notable, especialmente al pasar de 40 a 55 °C, que el de la concentración de cloruro. Los inhibidores estudiados lograron cambiar la corrosión por picaduras a corrosión uniforme. Todos los inhibidores evaluados fueron efectivos para reducir la disminución de la densidad de corriente de corrosión, incluso en condiciones de alta temperatura y alta concentración de cloruro. Es notable para este estudio que se habla de altas temperaturas a una operación de 55°C máximo. Obot y colaboradores (2020), señalan que la literatura sobre inhibidores de corrosión aplicados a temperaturas de fondo de pozo de por encima de los 100°C es relativamente escaza, y que esto plantea un serio desafío para controlar la corrosión dulce, ya que las operaciones de perforación ahora derivan hacia pozos más profundos con mayor temperatura y presión. Estos investigadores realizaron una revisión de la literatura sobre inhibidores sintetizados a bases de aminas probados bajo condiciones de operación de 110°C a 232°C, con eficiencias de inhibición hasta de 98.27%. Igualmente presentan un resumen de inhibidores sintetizados a base de amidas con un rango de aplicación de 93°C a 204°C, con eficiencias de inhibición de hasta 96% y reducción de las velocidades de corrosión a niveles de hasta 0.2 mpy. Además, presentan un análisis de inhibidores a base de ácidos carboxílicos / aldehídos con eficiencias relativamente más bajas que las dos los diferentes tipos de aminas utilizadas como inhibidores de corrosión. Lo anterior, debido a que estos como inhibidores de corrosión representan una herramienta valiosa en la lucha contra la corrosión en diversos entornos industriales. Su capacidad para prevenir el deterioro de los metales y extender la vida útil de los equipos y estructuras es esencial para garantizar la eficiencia operativa y la seguridad en múltiples sectores.</texto>
+      </seccion>
+      <seccion>
+        <titulo>5.1.</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>5.2.</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Objetivos específicos</titulo>
+        <texto>1. Sintetizar moléculas novedosas a partir de derivados de las aminas aromáticas que funcionen potencialmente como principios activos de inhibidores de corrosión para altos cortes de agua (80/20) de formación y hasta 110°C. 2. Determinar las propiedades fisicoquímicas de las moléculas sintetizadas, mediante las técnicas espectrometría de infrarrojo (FTIR), análisis temogravimétrico (TGA), colorimetría diferencial de barrido (DSC) y cromatografía de gases acoplada a espectrómetros de masas (HPLC). 3. Determinar las propiedades fisicoquímica de muestras de corrientes de agua de formación de tres diferentes ductos operando a temperaturas de hasta 110°C mediante la aplicación de la técnica de muestreo ASTM D4057-95 "Standard Practice for Manual Sampling of Petroleum and Petroleum Products", incluyendo análisis de agua, salinidad, azufre, nitrógeno, contenido básico, cenizas, acidez, composición (asfaltenos, polares, saturados, aromáticos), metales (Si, Al, Fe, Cu, V, Ni, Zn, Mo) y componentes gaseosos. 4. Realizar la caracterización electroquímica del medio a temperatura ambiente y a 60 °C, mediante las técnicas de corriente directa: curvas de polarización y de corriente alterna: espectroscopia de impedancia electroquímica. Formular medios sintéticos de acuerdo con la concentración de los iones presentes en las muestras recolectadas de agua de formación de tres diferentes ductos operando a temperaturas de hasta 110°C. 5. Formular medios sintéticos de acuerdo con la concentración de los iones presentes en las muestras recolectadas de agua de formación de tres diferentes ductos operando a temperaturas de hasta 110°C. 6. Realizar pruebas de corrosión de las moléculas sintetizadas a diferentes concentraciones y en el medio sintético a dosificación alta, media y baja (50, 25 y 10 ppm), para identificar las de mayor efectividad mediante técnicas de pérdida de peso (método de la rueda) a temperatura mayor de 60ºC. 7. Determinar el fenómeno de corrosión del acero SAE 1020, acero inoxidable AISI 304, Cobre C11000 y Aluminio A11000 en el medio corrosivo típico de los ductos de transporte de hidrocarburos (agua de formación) por el método de pérdida de peso (método de la rueda) a temperatura de 60ºC. 8. Evaluar la molécula que presentó el mayor desempeño a diferentes concentraciones y en el medio seleccionado sintético a dosificación alta, media y baja (100, 25, 10 y 5 ppm), a temperatura ambiente y a 60°C mediante técnicas electroquímicas de corriente directa: curvas de polarización; y corriente alterna: espectroscopia de impedancia electroquímica. 6. Metodología 6.1. Rutas de síntesis de las moléculas. Se probaron una serie de moléculas; siendo la primera a partir de la anilina, a las cuales, se les incluyó grupos de diferente polaridad, para identificar la estructura química que mejor cumpla con las características requeridas, como son: solubilidad en agua, resistencia a altas temperaturas y buen efecto inhibidor. De manera general se propone la reacción mostrada en la Figura 1.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis de estructuras.</titulo>
+        <texto>Para determinar el disolvente adecuado, se evaluó inicialmente la solubilidad de las materias primas. Posteriormente, se midió una cantidad equimolar de anilina y piridina, las cuales se disolvieron utilizando la cantidad mínima del disolvente seleccionado. De manera similar, se pesaron los moles necesarios del anhídrido y se procedió con su correspondiente disolución. Se utilizó un reactor de bola en el que se agregaron las dos soluciones previamente generadas y se aplicó calentamiento de acuerdo al seguimiento de cromatografía en capa fina, hasta el consumo de las materias primas. Cuando se generó la molécula se detuvo la reacción, posteriormente se evaporó el disolvente utilizando un rota vapor y se analizó por espectrometría de infrarroja (FTIR), colorimetría diferencial de barrido (DSC). Así mismo se determinó el punto de fusión del producto obtenido y pruebas de solubilidad con disolventes de diferente polaridad. Las materias primas fueron: Anilinas y Piridinas disueltas en diferentes anhídridos y acetiles con grupos R, disolventes como alcoholes, benceno, tolueno, hexano y dimetilsulfóxido (DMSO). 6.3. Caracterización química de las estructuras moleculares.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Espectrometría infrarroja FTIR (ASTM E168-16).</titulo>
+        <texto>Esta técnica permite la identificación de los grupos funcionales de un compuesto, ya que cuando una molécula absorbe radiación infrarroja, la vibración intramolecular con frecuencia igual a la de la radiación, aumenta en intensidad, lo que genera señales con frecuencias que corresponden a la vibración de un enlace específico. La región infrarroja se divide en tres regiones denominadas infrarrojo cercano (NIR), infrarrojo medio (MIR) e infrarrojo lejano (FIR)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Los espectros infrarrojos se obtuvieron con un espectrómetro infrarrojo Shimadzu</titulo>
+        <texto>IRAffinity-1S estándar equipado con un cristal de reflexión total atenuada. La caracterización se realizó mediante el escaneo del espectro infrarrojo medio y cercano (4000 -400 cm -1 ).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis Termogravimétrico.</titulo>
+        <texto>TGA por sus siglas en inglés (ASTM E1131). Este método usa calor para forzar reacciones y cambios físicos en los materiales, proporcionando una medición cuantitativa del cambio de masa en materiales asociados con la transición y la degradación térmica, registrando los cambios en la masa por deshidratación, descomposición y oxidación de una muestra con el tiempo y la temperatura. Se proporcionan curvas termogravimétricas características para materiales específicos y compuestos químicos debido a una secuencia única de reacciones fisicoquímicas que ocurren en rangos específicos de temperatura y velocidades de calentamiento. Se usó el equipo TA Instruments SDT Q600 bajo los siguientes parámetros de experimentación: • Temperatura: desde 10 hasta 600°C. • Velocidad de calentamiento: 10°C/min. • Velocidad de enfriamiento: 10°C/min. • Atmósfera: inerte</texto>
+      </seccion>
+      <seccion>
+        <titulo>Calorimetría Diferencial de Barrido DSC (ASTM D3418).</titulo>
+        <texto>La técnica tiene como objetivo monitorear el flujo de calor en función de la temperatura, independiente de la ocurrencia de variación o no de masa de un espécimen. Así, un análisis de DSC puede identificar cambios de fase en las cuales hay una variación muy pequeña en el valor de masa de la muestra, tales como cambios estructurales, reacciones y transiciones sólido-sólido, cristalización, fusión, polimerización y reacciones catalíticas. Se pesaron las muestras con una precisión de ±1%, el calentamiento se programó desde 10 hasta 600°C. La velocidad de calentamiento fue 10°C/min. El enfriamiento se realizó a la misma velocidad que se realizó el calentamiento. Se utilizó un analizador termogravimétrico Q5000, de TA Instruments equipado con una balanza para registrar la masa inicial de la muestra con precisión de ±1µg.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Cromatografía de Gases Acoplada a Espectrómetros de Masas HPLC (ASTM D3239 -91).</titulo>
+        <texto>Técnica analítica para la separación, identificación y cuantificación de mezclas de sustancias volátiles y semivolátiles. La separación de dichas sustancias depende de la diferencia de distribución de las sustancias estudiadas entre las fases móvil y estacionaria que conforman el sistema. Una vez separadas las sustancias son fragmentadas y analizadas en función de su patrón de fragmentación. El análisis por cromatografía de gases y espectroscopia de masas se realizó en un instrumento GCMS-QP2010 SE equipado con una columna capilar Inert Cap WAX-HT (30 m × 0,25 mm de diámetro interior, 0,25 µm). Se utilizó cloruro de metileno como disolvente para preparar la muestra de inhibidor. 6.4. Muestreo y caracterización del medio.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Muestreo del medio</titulo>
+        <texto>Se usó la técnica de muestreo ASTM D4057-95 en las corrientes de agua de formación de tres diferentes ductos operando a temperaturas de hasta 110°C. Los recipientes fueron bidones de plástico (Figura 3). Se registraron temperatura y presión de cada muestra en la bitácora. Figura 3. Secuencia del muestreo del medio en ducto de pozo petrolero.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización fisicoquímica del medio.</titulo>
+        <texto>El agua de tres diferentes corrientes se caracterizó fisicoquímicamente a temperatura ambiente, por destilación (ASTM D 4006), contenido de sal (ASTM D 3230), azufre total (ASTM D 4294), nitrógeno total (ASTM D 4629), nitrógeno básico (UOP 313), cenizas totales (ASTM D 482), número ácido total -TAN (ASTM D 664), análisis composicional de asfáltenos, compuestos polares, compuestos saturados, compuestos aromáticos, metales Si, Al, Fe, Cu, V, Ni, Zn y Mo por emisión de plasma (ASTM D2007), componentes de oxígeno, nitrógeno, metano, bióxido de carbono, etanol, propano, isobutano, n butano, isopentano, n pentano, ácido sulfhídrico y hexano más pesados (ASTM D 1495).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización electroquímica del medio (electrolito).</titulo>
+        <texto>La caracterización se realizó a temperatura de 40°C de corriente directa y corriente alterna: De corriente directa: Mediante polarización lineal Rp (ASTM 59-91) se observó la respuesta en corriente que presenta un sistema en particular, cuando es perturbado buscando favorecer ya sea los procesos anódicos o catódicos; en el caso del fenómeno de corrosión dicha respuesta contiene información cuantitativa que puede ser utilizada para evaluar el efecto de la modificación de las condiciones de prueba o incluso de la adición de otros componentes al sistema. Para llevar a cabo la evaluación experimental inicial, se utilizó la técnica electroquímica de Resistencia a la Polarización Línea (Rp), la cual, con una pequeña polarización del sistema y una respuesta en corriente, permite en un tiempo muy pequeño poder determinar la cinética de corrosión instantánea del sistema bajo estudio, en este caso en particular se utilizaron 3 corrientes de agua de formación de los pozos Tizón 232, Luna 18 y Escuintle 301, la técnica electroquímica se desarrolla bajo los requerimientos de la norma ASTM G 59-97 "Practica estándar para realizar medidas de resistencia a la polarización potenciodinámica". Las mediciones electroquímicas se realizaron utilizando el montaje de celda inerte característica, a través de los tres electrodos convencionales, electrodo de trabajo, electrodo de referencia y un contra-electrodo o auxiliar. El electrodo de trabajo corresponde a la muestra bajo estudio, en este caso se seleccionó un acero al carbono 1018, se utilizó un electrodo de referencia de Calomel Saturado (ECS)</texto>
+      </seccion>
+      <seccion>
+        <titulo>Preparación de medios sintéticos.</titulo>
+        <texto>Con la finalidad de conservar en todo momento las mismas condiciones de evaluación, se estableció como estrategia la preparación de un agua sintética en laboratorio, utilizando como referencia las características fisicoquímicas del agua de formación del pozo más representativo en cuanto a sus características corrosivas. De acuerdo con la concentración de los iones presentes en la muestra seleccionada operando a temperaturas de hasta 110°C, se formuló el medio sintético, realizando los cálculos de las sales que proporcionaron las especies químicas a la solución, se disolvieron en agua destilada, se midió el pH y ajustó con ácido o base. En la Figura 4 se muestra un diagrama con el procedimiento que se siguió para la formulación del medio sintético. Figura 4. Diagrama de proceso para la formulación del medio sintético. Los reactivos químicos de grado analítico que se utilizaron para la preparación en laboratorio del agua sintética se presentan en la Tabla 1. Cada reactivo fue pesado en balanza analítica que cuenta con una resolución de 0.1 mg. Todos los reactivos se diluyeron en agua destilada y se aforaron en un litro; se burbujeó H2S y se midió el pH para verificar si alcanzó el valor del pozo de referencia en un equipo pH/Conductímetro marca Metrohm®. Posteriormente se burbujeó N2 durante 30 minutos para desplazar el O2 disuelto, se agregó sulfito de sodio (Na2SO3) para secuestrar las trazas de oxígeno. Finalmente se realizó la sulfhidación introduciendo una corriente de H2S hasta alcanzar una concentración de acuerdo con la norma NRF-005-PEMEX-2009 de 500 a 600 mg/L.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Prueba de corrosión de las nuevas moléculas.</titulo>
+        <texto>El método de prueba utilizado para la evaluación de la corrosión estuvo basado en la norma NACE 1D182 "Método de prueba de la rueda utilizado para la evaluación de inhibidores de corrosión persistentes en película para aplicaciones en yacimientos petrolíferos"; para lo cual, se empleó un dispositivo denominado "Wheel Test", el cual consiste en una unidad giratoria ensamblada dentro de un armazón metálico, cuya velocidad de rotación es de 30 revoluciones por minuto (rpm) a una temperatura típica de 60°C; con capacidad de 52 botellas de vidrio de 180 ml cada una, la cual se puede apreciar en la Figura 5. • Testigos de Corrosión: Cupón de acero SAE 1010, • Acondicionamiento: Previo al sellado de las botellas se burbujeó nitrógeno en cada una de las botellas con el objetivo de mantener una atmósfera inerte en el espacio vacío de las botellas. Adicionalmente se colocaron blancos siguiendo con la misma secuencia de adición, pero sin molécula inhibidora. • Volumen de solución: El volumen que se empleó para cada una de las botellas fue 144 ml de agua sintética y 36 ml de keroseno, • Tiempo: Cada prueba tuvo una duración de 24 horas • Temperatura: 60°C. Posterior a las pruebas de corrosión y siguiendo los criterios del ASTM G1 Práctica estándar para preparación, limpieza y evaluación de la prueba de corrosión, se realizó la limpieza química de los cupones introduciéndolos en una solución de ácido clorhídrico inhibido por un tiempo de uno a cinco minutos a temperatura ambiente, seguido por una solución de bicarbonato de sodio al 10% y un lavado mecánico, se realizó el secado con calor; finalmente se realizó el pesado de los cupones (Wf) por triplicado. La experimentación se realizó durante 24 horas con un lote de 5 moléculas con potencial para la inhibir la corrosión, además de 5 blancos de referencia. Se realizó una comparación gráfica de los resultados de velocidad de corrosión, pérdida de peso y porcentaje de eficiencia para la identificación de estructuras moleculares con mayor eficiencia como inhibidores de corrosión.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Prueba de corrosión por el método de la</titulo>
+        <texto>Posteriormente se dispusieron en un desecador hasta el momento en que se desarrolló la prueba.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Según la composición teórica especificada en el ASTM A473-21 "Standard</titulo>
+        <texto>Specification for Stainless Steel Forgings", del acero inoxidable AISI 304 y que se muestra a continuación en la Tabla 4, se ajusta a la composición teórica de un acero de bajo carbono. Así mismo, la composición teórica especificada en el ASTM B210/B210M -19A "Standard Specification for Aluminum and Aluminum-Alloy Drawn Seamless Tubes", del cupón de aluminio A11000 y que se muestra a continuación en la Tabla 6. Tabla 6. Composición teórica del aluminio A11000.  El arreglo de los cupones corrosimétricos de colocó dentro de vaso de precipitado que funciona como una celda experimental, la cual cuenta con un el tubo del aireador y un orificio en la tapa para el sistema de enfriamiento, lo cual se muestra en la Figura 12. La celda conteniendo el agua sintética con las mismas características mencionadas en las Tablas 5 y 6 se mantuvo inmersa en un líquido refrigerante que cuenta con las características mencionadas en la Tabla 7, lo cual se aprecia en la Figura 13.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Acero</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Composición elemental promedio</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Cu</titulo>
+        <texto>Tabla 7. Propiedades fisicoquímicas del líquido de enfriamiento.  El acero dulce de bajo carbono (AISI 1018), con composición de C (0,14 %), P (0,04 %), Mn (0,41 %), P (0,04 %), Si (0,15 %), S (0,05 %) y Fe (balance), se utilizó como electrodos de trabajo. Se fabricaron probetas cilíndricas de acero de 1,2 cm de largo y 0,8 cm de diámetro. La superficie de cada probeta de acero se limpió de acuerdo con el procedimiento estándar ASTM G1-03 (ASTM, 2017). En resumen, cada superficie del electrodo de trabajo se pulió con hojas de carburo de silicio con un rango de grado de 400 a 1200, seguido de un lavado minucioso con agua destilada.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Prueba Método utilizado Resultado</titulo>
+        <texto>Posteriormente, las muestras se sonicaron en etanol y finalmente se secaron con aire caliente.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Preparación del electrolito salino.</titulo>
+        <texto>El electrolito salino ácido fue una solución salina saturada con H2S (en base a la norma NACE ID182), que se preparó con agua destilada y contenía 3.5 % en peso de NaCl, 0.305 % en peso de CaCl2•2H2O y 0.186 % en peso de MgCl2•6H2O</texto>
+      </seccion>
+      <seccion>
+        <titulo>Configuración de la celda electroquímica.</titulo>
+        <texto>La celda electroquímica se llenó con 500 ml de electrolito salino y 100 ml de queroseno de bajo olor (Baker, P339-01) que se utilizó como una tapa (capa sobre el electrolito). Los electrodos del sistema se sumergieron en el electrolito salino y, posteriormente, se inyectó el inhibidor de corrosión en el electrolito agregando concentraciones de 5, 10, 50 y 100 ppm. Previamente, se colocó un sello de queroseno (Figura 14). Finalmente, el electrodo de trabajo se conectó a un sistema de anillo-disco compuesto por un cilindro rotatorio (PAR 636-A) controlado por un rotador de velocidad (Princeton Applied Research modelo 636).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Medición electroquímica</titulo>
+        <texto>Todas las pruebas electroquímicas se realizaron en un potenciostato/galvanostato Autolab PGSTAT 100 (Metrohm, Suiza). Los experimentos electroquímicos se llevaron a cabo utilizando una celda de vidrio abierta estándar de tres electrodos que consta de un contraelectrodo de platino (EC), un electrodo de referencia (ER) de Ag/AgCl (KCl saturado) y cilindros de acero como electrodos de trabajo (ET). Las pruebas de polarización potenciodinámica (PDP) se realizaron entre ±1,0 V vs OCP utilizando una velocidad de barrido de 10 mV/s (ASTM, 2013). La espectroscopia de impedancia electroquímica se llevó a cabo en el rango de frecuencia de 100000 y 0,01 Hz, a 10 mV de amplitud de voltaje en base a ASTM D8370-22. Los experimentos se realizaron a 40 °C en la celda. Cada medición electroquímica se llevó a cabo en condiciones hidrodinámicas con una velocidad de rotación de 100 rpm para registrar el flujo laminar y la temperatura se mantuvo a 40 °C utilizando una placa de temperatura. Las densidades de corriente de corrosión (Icorr), los potenciales de corrosión (Ecorr) y los circuitos equivalentes de impedancia se calcularon mediante el software NOVA 2.1.7 (Metrohm, Suiza). Figura 14. Diagrama de la configuración de la celda electroquímica</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de la superficie del acero después de ensayos electroquímicos mediante Microscopía Electrónica de Barrido (MEB)</titulo>
+        <texto>Se examinó la superficie de las muestras de acero dulce con bajo contenido de carbono con y sin inhibidor mediante microscopía electrónica de barrido (Hitachi SU3500 10 kV). El análisis se realizó bajo un voltaje de aceleración de 10-15 kV en modo de electrones secundarios.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis de Disolventes</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Materia prima</titulo>
+        <texto>Disolvente (T° Ambiente) En las tablas 9 y 10 se pude observar que tanto el etanol como el tolueno son los disolventes en los que todas las materias primas son solubles.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización de las materias primas por FTIR</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Espectros IR y grupos funcionales de las reacciones de la segunda familia.</titulo>
+        <texto>En las figuras 19 a la 21 se muestran los espectrogramas FTIR de la Anilina hidroclorada, la 4-Anilina y el Anhídrido Acético (materias primas de la segunda familia), identificando las bandas de mayor abundancia que representan a los enlaces más característicos de cada molécula. Figura 19. Espectrograma IR de la anilina hidroclorada.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tiempos de reacción de la primera familia (4(dimetilamino) piridina).</titulo>
+        <texto>Para la familia de la 4(dimetilamino) piridina se prepararon tres soluciones para generar nuevas moléculas de alquilpiridinas a partir del 1-Bromooctano, utilizando etanol y tolueno como disolventes para dos de las reacciones y en una más no se utilizó disolventes. Los tiempos de reacción fueron sustancialmente menores para la reacción A sin disolvente (ver Figura 25A) en donde se obtuvo un producto denominado PBr8, el cual, según los datos del Rf y del espectro de infrarrojo que sugieren que después del tiempo de reacción de 13 minutos aún se tiene presencia de materia prima, es decir no se tuvo una reacción completa, debido a que las materias primas se consumieron rápidamente en el lapso de 13 minutos. La reacción B utilizando etanol como disolvente en donde el producto final se denomina PBr8ETOH, requiere de más tiempo para iniciar el consumo de las materias (ver Figura 25B). Según los datos del Rf y del espectro de infrarrojo, las materias primas reaccionaron totalmente, generando mayor cantidad de producto para obtener las moléculas deseadas. Para el caso de la reacción C en donde el producto final se denomina PBr8T, utilizando tolueno como disolvente, el tiempo de reacción fue de 165 minutos (ver Figura 25C). Sin embargo, según los datos del Rf y del espectro de infrarrojo, en el producto de la reacción aún existe materia prima, por lo cual la reacción no fue completa.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Tiempo de reacción de la segunda familia (4(aminometil) piridina).</titulo>
+        <texto>En la familia de la 4(aminometil) piridina se prepararon dos soluciones a base de la Anilina (hidroclorada) y una solución con 4-Nitroanilina para generar nuevas moléculas de acetanilina a partir del anhidrido acético, utilizando etanol y tolueno como disolventes. La reacción D en donde se obtuvo un producto denominado HClCH3CO + Etanol (ver Figura 26D), se desarrolló en 2 h 10 min, que es un menor tiempo en relación con las demás reacciones de esta familia. Según los datos del Rf y del espectro infrarrojo, si hubo conversión completa de la materia prima. El tiempo de la reacción E utilizando tolueno como disolvente en donde el producto final se denomina HClCH3CO + Tolueno fue de 370 minutos (6 horas) (Figura 26E). Según los datos del Rf y del espectro infrarrojo, las reacciones D y E son similares en cuanto a consumo de la materia prima, por lo que se considera que en ambas reacciones se obtienen nuevas especies químicas. Para el caso de la reacción F, en donde el producto final se denomina 4NO2CH3+Etanol, utilizando etanol como disolvente, se observa que la temperatura generada no se disipa completamente durante el seguimiento de la reacción (ver Figura 26F). Además de lo anterior, según los datos del Rf y del espectro de infrarrojo, aún se encuentra presente materia prima sin reaccionar, lo cual indica que la reacción fue incompleta.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Síntesis de inhibidores de corrosión.</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Reacciones equimolares.</titulo>
+        <texto>En la Tabla 12 se presentan los compuestos químicos de cada reacción todos en concentraciones equimolares y temperatura de 60°C. En la tabla 24 se puede observar que al trabajar con los bromuros las reacciones son más eficientes; al trabajar con los cloruros se tiene menor rendimiento ya que parte del cloruro no reacciona, en el caso del 1-clorohexadecano con 4-metilamino piridina se logra identificar que se dio una mejor reacción que con el resto de los cloruros. Para el caso del 1-clorododecano con la 4-dimetilamino piridina fue nula la reacción. 7.4. Caracterización de las nuevas moléculas.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Solubilidad de las nuevas moléculas (productos).</titulo>
+        <texto>Dentro de las propiedades físicas de los nuevos productos se realizaron pruebas de solubilidad, las cuales se muestra en la Tabla 26. Los productos obtenidos muestran afinidad hacia disolventes de baja polaridad, como el isopropanol, el cual presenta constante dieléctrica y constante de polaridad de 18.3 y 3.9 respectivamente (Admed, W., 1985), por lo cual, se puede considerar que presentan un comportamiento no polar.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Análisis de Infrarrojo (FTIR) de las nuevas moléculas (productos).</titulo>
+        <texto>En esta sección, en las Figuras 27 a la 44 se muestran los espectros de infrarrojo de las nuevas moléculas sintetizadas.            En los espectros IR de la mayoría de las reacciones aparecen vibraciones que sugieren grupos funcionales -C-N de amina aromática secundaria, -C-H de alcanos, enlaces dobles, -C=C y -C=N de la piridina, -C-C, radicales -CH2 y -CH3, -C-N, -C-H, y alcanos de más de 4 carbonos (excepto para las reacciones con la cadena del butano), correspondientes a aminas primarias. De igual forma, en todos los espectros de FTIR aparecen vibraciones que sugieren los grupos funcionales -C-H aromáticos, C-H de alcanos, enlaces dobles, -C=C y -C=N de la piridina, -C-C, radicales -CH2 y -CH3, -C-N, -C-H, -C-N de amina aromática terciaria y alcanos de más de 4 carbonos (excepto para las reacciones con la cadena del butano), correspondientes a aminas terciarias.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Rendimiento.</titulo>
+        <texto>En las figuras 45 a 50 se observan las gráficas del porcentaje de rendimiento de cada una de las reacciones y en ellas se puede observar que los valores más altos son para las moléculas que se formaron a partir de las aminas aromáticas primarias y los halogenuros de alquilo de cadenas largas y para las aminas aromáticas terciarias con halogenuros de alquilo de cadena corta. A su vez, las reacciones de los bromuros presentan valores más altos que las de los cloruros. Para el caso de 1-clorododecano con la 4-dimetilamino piridina se registra uno de los valores más      Como se puede observar en las Figuras 45 a 50, en todos los casos las temperaturas de las reacciones alcanzaron los 60°C durante la primera hora y se mantuvieron estables hasta que se dejaron en añejamiento a temperatura ambiente. Sin embargo, los rendimientos de las reacciones están condicionadas por diferentes factores tales como, el largo de cadena de los halogenuros de alquilo, la interacción entre ambas moléculas, la temperatura de la reacción, la presión, la velocidad de agitación, calidad y pureza de los reactivos, el disolvente utilizado, entre otros. Para el caso de la 4-(dimetilamino) piridina, esta presenta altos rendimientos con las cadenas cortas de 4 y 8 carbonos y la 4-(aminometil) piridina con las cadenas más largas de 12, 14, 16 y 18 carbonos, ambas independientemente del halógeno que se trate. En la molécula de la 4-(dimetilamino) piridina el efecto del impedimento estérico causado por la presencia de los dos grupos metilos enlazados al nitrógeno y la distribución de la densidad electrónica ejercida por la amina terciaria afecta al par de electrones solitarios del nitrógeno de la amina, favoreciendo el enlace en el nitrógeno de la piridina con cadenas de alcanos menos voluminosas. La amina primaria de la 4-(aminometil) piridina posee un grupo metilo en su estructura, la cual ayuda el par de electrones del nitrógeno dando a la molécula el carácter de electrodonador. Aunque ambas materias primas son grupos electrodonadores, la amina primaria aromática es un electrodonador más fuerte que la amina aromática terciaria, en consecuencia, la amina primaria es más básica. En la amina terciaria aromática la sustitución electrofílica dará lugar en el nitrógeno de la piridina, el cual posee un par de electrones disponibles y que estéricamente está menos impedido que el nitrógeno de la amina terciaria, favoreciendo el enlace con las cadenas cortas que estéricamente también se encuentra menos impedidas. Por su parte, para la amina primaria la acidez y la estabilidad que el grupo electro donador confiere a la molécula y al menor impedimento estérico para enlazar moléculas más voluminosas, el enlace de la cadena de carbonos se puede llevar a cabo en cualquiera de los nitrógenos (de la amina primaria y de la piridina) de la molécula.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Cambio porcentual de masa en función de la temperatura.</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Análisis Termogravimétrico (TGA) y Derivada Termogravimétrica (DTG).</titulo>
+        <texto>En la Tabla 27 se enlistan las moléculas sintetizadas a partir de 4(dimetilamino)piridina y 4(aminometil)piridina, agrupadas por largos de cadena similares para su comparación. Las curvas de análisis termogravimétrico (TGA) y su correspondiente derivada (DTG) para cada una de estas moléculas se presentan en las Figuras 43 a 54. Tabla 27. Hallazgos de los TGA de las moléculas agrupadas por largo de cadena de los alquilhaluros. En la Figura 51 y 52 se observa que ambas moleculas derivadas de las reacciones 1 y 9 muestran similitudes, con picos de temperatura de fusión muy cercanas que queda de manifiesto en las gráficas DSC entre los 290 y 300°C, asimismo, en las gráficas TGA ambas moléculas demuestran degración de compuestos simples. Dado que ambos compuestos pesentan el mismo largo de cadena, de 18 carbonos con distintos anillos aromáticos, es posible que en ambas estructuras la sustitución haya tenido lugar en el nitrógeno de la piridina; de ahí que se observan comportamientos similares. Además, en la Figura 53 se puede observar que, en el caso de la reacción 2 se trata de una sola estructura, pero para el caso de la reacción 4, es posible que exista la presencia de varios compuestos; lo anterior queda de manifiesto en las gráficas TGA de ambas moléculas, en donde para la reacción 2 se observa degradación de compuestos simples y para la reacción 4 la degradación es una descomposición multietapa, pero los productos intermedios no son estables. Para las moléculas de las Figuras 55 y 56 (reacción 5 y 8), las diferencias entre las deformaciones endotérmicas de la temperatura de cristalización de las reacciones 5 y 8 no son tan amplias debido a que se encuentra entre 110 y 125°C además de que los picos de temperatura de fusión que se observan en las gráficas DSC en ambos casos están en 600°C. Los compuestos aquí presentes contienen la misma longitud de cadena de 14 carbonos con distintos anillos aromáticos, sin embargo, en la curva TGA se aprecia que en la reacción 5 la descomposición es multietapa, pero con compuestos estables y para la reacción 8 también se presenta degradación multietapa, pero con compuestos intermedios no estables. En la molécula de la Figura 57, las deformaciones de la temperatura de cristalización de la reacción 10 están próximas en 115 °C, pero el pico de temperatura de fusión se presenta a los 600°C, asimismo, en la gráfica TGA la curva demuestra que la degradación es multietapa con productos intermedios no estables. Las moléculas derivadas de las reacciones 6 y 7 (ver Figuras 58 y 59) presentan curvas DSC distintas, sin embargo, las deformaciones de las temperaturas de cristalización están próximas en 100 y 120°C, pero los picos de temperatura de fusión se alejan entre ellas en 315 y 600°C; asimismo, en las gráficas TGA la curva de la reacción 6 demuestra degradación de compuestos multietapa con productos intermedios relativamente estables y para la reacción 7 la degradación es multietapa con productos intermedios no estables. Ambos compuestos presentan el mismo largo de cadena de 16 carbonos con distintos anillos aromáticos, no obstante, la estructura de la reacción 6 la sustitución de la cadena tuvo lugar en el nitrógeno de la piridina y para la reacción 7 es probable que la sustitución haya sido en el nitrógeno de la amina aromática. se observan en las gráficas DSC son cercanas en 510 y 575°C. Los compuestos contienen la misma longitud de cadena de 14 carbonos con distintos anillos aromáticos, siendo probable que la sustitución de las cadenas haya tenido lugar en el nitrógeno de la piridina en ambos casos, sin embargo, en la curva TGA se aprecia que en la reacción 11 la descomposición se lleva a cabo en un proceso simple lo que denota un sólo compuesto y para la reacción 12 también se presenta degradación multietapa, pero con compuestos intermedios no estables. En la molécula de la figura 62 (producto derivado de la reacción 9), las deformaciones de la temperatura de cristalización están próximas en 110 °C, pero el pico de temperatura de fusión se presenta a los 600°C; asimismo, en la gráfica TGA la curva demuestra que la degradación es multietapa con productos intermedios no estables.</texto>
+      </seccion>
+      <seccion>
+        <titulo>C C</titulo>
+        <texto>Esta diferencia de proporción propicia que el disolvente se pierda más fácilmente en la reacción 10 a 90°C a diferencia de la reacción 1 que se pierde a 110°C. Las restantes presentaron disminuciones en el orden del 0.200 al 4.127%. Figura 63. Pérdida de disolvente/humedad en moléculas sintetizadas con 4(dimetilamino)piridina Con respecto a la pérdida de disolvente o humedad en moléculas sintetizadas con 4(aminometil)piridina (Figura 64), en este grupo de moléculas la de menor pérdida de porcentaje de peso con 1.13% fue la 4, la cual corresponde a la 4(aminometil) piridina con 1-bromobutano. Asimismo, la que registró mayor reducción de masa con 11.39% fue la 9, correspondiente a la 4(aminometil) piridina con 1clorooctadecano. Aunque ambas reacciones de síntesis se llevaron a cabo con disolventes 4:1 isopropanol: tolueno, la cadena más corta conserva menor cantidad de disolvente que la cadena más larga, por tal motivo al ser sometida a temperaturas del orden de 100°C se registra mayor pérdida de peso. Las restantes presentaron disminuciones en el orden del 0.215 al 9.431%.  Es importante resaltar que la pérdida de dichos componentes no implica la degradación de ninguna de las muestras y, por lo tanto, estrictamente no se podría considerar como una reducción en la estabilidad térmica del material, puesto que se trata de disolvente atrapado en el compuesto que no pudo ser retirado por el método de secado a temperatura ambiente. En la Tabla 28, se muestran los pesos iniciales de cada una de las muestras y sus cambios con respecto a la temperatura. El análisis TGA permite identificar la pérdida de peso de acuerdo con el incremento de la temperatura, debido a lo anterior, es posible identificar las moléculas más estables bajo condiciones de experimentación a 110°C, lo que permite tener un primer indicio de la estabilidad térmica de las moléculas. El análisis de los gráficos permite identificar las especies químicas presentes, así como la degradación de las mismas. Cada una de las moléculas presenta estabilidades en diferente proporción tal como se muestra en las Figuras 65 y 66. Con respecto a la estabilidad térmica a 110°C de moléculas sintetizadas con 4(dimetilamino)piridina (Figura 65), la molécula 1 presentó la menor pérdida de peso a 110°C con 0.036%, correspondiente a la 4(dimetilamino) piridina con 1clorooctadecano; por otra parte, la que registró mayor reducción de masa con 22.236% fue la número 10, correspondiente a la 4(dimetilamino) piridina con 1clorotetradecano. Las restantes presentaron disminuciones en el orden del 0.066 al 20.609%. En cuanto a la estabilidad térmica a 110°C de moléculas sintetizadas con 4(aminometil)piridina (Figura 66), para este grupo la de menor pérdida de peso a 110°C fue la molécula 4 con 1.938%, que corresponde a la 4(aminometil) piridina con 1-bromobutano. Además, la molécula 7 registró la mayor reducción de masa con 19.113%, correspondiente a la 4(aminometil) piridina con 1-clorotetradecano. Las restantes presentaron disminuciones en el orden del 5.474 al 18.118%. A partir de los 110°C se observa una rápida pérdida de masa de cada una de las moléculas de hasta el 50 % con respecto a la masa inicial, oscilando desde los 140 a los 340 ºC, tal como se muestra en las Figuras 67 y 68. Esto es propiciado por la degradación de las moléculas sintetizadas, en específico las cadenas de hidrocarburos que cuentan con puntos de ebullición de evaporación y de ignición entre los 150 y 220°C. Por otra parte, las fracciones de los nuevos productos que han iniciado su descomposición se eliminan e inicia la ruptura de enlaces de grupos funcionales más estables. En la Figura 67, correspondiente a la pérdida del 50% de la masa a diferentes temperaturas en moléculas sintetizadas con 4(dimetilamino)piridina, la molécula que alcanzó el 50% de pérdida de masa a la temperatura más elevada (340°C) es la 2, la cual corresponde a la 4(dimetilamino) piridina con 1-bromobutano. Asimismo, la que registró menor temperatura (206°C) fue la 5, correspondiente a la 4(dimetilamino) piridina con 1-clorotetradecano. Las restantes fluctuaron entre 240 y 281°C. Figura 67. Pérdida del 50% de la masa a diferentes temperaturas en moléculas sintetizadas con 4(dimetilamino)piridina Con respecto a la pérdida del 50% de la masa a diferentes temperaturas en moléculas sintetizadas con 4(aminometil)piridina (Figura 68), la molécula que alcanzó la pérdida del 50% de su masa a mayor temperatura (329°C) fue 4, la cual corresponde a la 4(aminometil) piridina con 1-bromobutano. Asimismo, la que registró menor temperatura (236°C) fue la 9, correspondiente a la 4(aminometil) piridina con 1-clorooctadecano. Las restantes fluctuaron entre 252 y 318°C. Figura 68. Pérdida del 50% de la masa a diferentes temperaturas en moléculas sintetizadas con 4(aminometil)piridina 7.4.4.5. Transición vítrea. Es preciso mencionar que las moléculas consideradas como amorfas sólo exhiben en las correspondientes curvas DSC una Tg, por el contrario, las moléculas con características cristalinas presentan una Tf (temperatura de fusión) y típicamente una Tg, ya que generalmente también hay una porción amorfa (semi-cristalinas) de ellas; por tal motivo, todas las moléculas sintetizadas con excepción de la 1, 3 y 7 pueden ser identificadas como semi-cristalinas o amorfas, tal como se muestra en las Figuras 69 y 70. En la Figura 69 se puede observar que las moléculas del grupo de la 4(dimetilamino)piridina, todas presentan temperaturas de transición vítrea cercanas a los 35°C; la temperatura de cristalización de las moléculas con mayores largos de cadena se encuentra en los 125 °C, para las moléculas de menor peso molecular la temperatura de cristalización es de 225 °C. Para el caso de la temperatura de fusión las moléculas de mayor número de carbono se encuentran en la región de 300 y 575° y las de menor peso molecular en 450 °C. Figura 71. Temperatura de transición vítrea de moléculas con 4(dimetilamino)piridina. La correlación no incluye el valor de la Molécula 6. En la Figura 71 se observa que la molécula con el mayor valor de Tg de 72.50°C es la 2, que corresponde a la 4(dimetilamino) piridina más 1-bromobutano, lo cual es esperado ya que se trata de la cadena más corta; el menor valor de Tg con 35°C está registrado para la molécula 1, lo cual es propio de una cadena larga de 18 carbonos. En la Figura 72, correspondiente a la temperatura de transición vítrea de moléculas con 4(aminometil)piridina, la que registró el valor de Tg más alto con 90 °C es la 4, que corresponde a la 4(aminometil) piridina más 1-bromobutano, siendo esta la de menor longitud de cadena. Asimismo, la de menor valor de Tg con 50 °C es la 9, la cual se trata de la 4(aminometil) piridina más 1-clorooctadecano, siendo esta una de las cadenas más largas con 18 carbonos. Comparando los dos grupos de moléculas, las que mostraron los mayores valores de Tg son las moléculas que cuentan con cadenas de 4 carbonos y que por tanto son las de menores pesos moleculares.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Temperatura de cristalización</titulo>
+        <texto>Una depresión en el punto más bajo de la curva se considera generalmente como la temperatura de cristalización o Tc. Esta depresión indica que la molécula evaluada es capaz de cristalizar. Las curvas DSC de las moléculas en las que no se observa depresión alguna, se trata de materiales que no cristalizan por diversos factores, tal es caso de las moléculas identificadas como 1, 9 y 7, que corresponden a la 4(dimetilamino) piridina con 1-clorooctadecano, 4(aminometil) piridina más  Comparando ambos grupos, las cadenas de 4 carbonos de menor peso molecular requieren temperaturas altas para impartir energía cinética (movilidad) y que pueda producirse un cambio de fase. Las cadenas de 8 carbonos presentan similares Tc en ambos grupos, pero a partir de las cadenas de 14 carbonos, las de mayor peso molecular requieren menor temperatura para el cambio de fase. En la Figura 73 se muestra el comportamiento de la temperatura de cristalización Tc respecto al largo de cadena de cada molécula. Figura 73. Temperatura de cristalización de moléculas derivadas de 4(dimetilamino)piridina La molécula del grupo 4(dimetilamino)piridina que registra el mayor valor de Tc con 225°C es la 2, la cual cuenta con un largo de cadena de 4 carbonos; conforme crece el número de carbonos de las cadenas, la temperatura de cristalización muestra una disminución, de tal manera que la molécula 1 con 18 carbonos es la que menor Tc registra con 100°C (Figura 73). Para el grupo de moléculas derivadas de la 4(aminometil)piridina, los valores de Tc de las cadenas más cortas de 4 y 8 carbono presentan mayor Tc con 135 y 150°C. La cadena con menor valor de Tc con 120°C es 16 carbonos (Figura 73). La temperatura de fusión (Tf) de una molécula es la temperatura a la cual las regiones cristalinas de una muestra se funden. En la Tf las fuerzas intermoleculares que mantienen el orden estructural de las cadenas son superadas. La relación entre el peso molecular de un compuesto y su punto de fusión tiene relación directa, conforme crecen los pesos moleculares los puntos de fusión también pero no en forma lineal, sino que es forma de una curva notablemente suave. Sin embargo, para el caso de las moléculas evaluadas, el incremento de los pesos moleculares no influye significativamente en el incremento de los puntos de fusión, de tal manera que presentan comportamientos inversos. Lo anterior es suscitado por la configuración de la estructura cristalina de las moléculas en la cual se ordenan y empaquetan de manera ordenada y con patrones de repetición que se extienden en las tres dimensiones, en donde el punto de fusión dependerá básicamente del equilibrio de fases sólidolíquido del compuesto, por tal motivo, las moléculas con cadenas más largas se ordenan con mayor facilidad, alcanzando este equilibrio de fases a temperaturas menores que las cadenas más cortas. En la Tabla 30 y en las Figuras 74 y 75 se muestra la temperatura de fusión y los pesos moleculares de cada una de las moléculas. Tabla 30. Peso molecular y Tf de las moléculas. Un valor de 600 °C en los resultados de la molécula 10 es inusualmente alto para una temperatura de fusión, especialmente para un compuesto basado en 4dimetilaminopiridina y 1-dodecano, que típicamente tienen puntos de fusión mucho más bajos. Este resultado sugiere que lo que se está observando podría no ser la fusión del compuesto, sino otro fenómeno (descomposición térmica, interacción con el ambiente o productos de reacción). Otra explicación podría ser que los componentes formaron un complejo con una estructura cristalina muy estable, por lo que podría ser necesario aplicar una temperatura mucho más alta para descomponer esta estructura.</texto>
+      </seccion>
+      <seccion>
+        <titulo>ID</titulo>
+        <texto>De manera general, el grupo de moléculas con menores pesos moleculares alcanzaron temperaturas de fusión entre los 475 y 575°C más altas en relación al grupo de moléculas con mayores pesos moleculares que oscila entre los 290 y 600°C; esta última se registró para una molécula de 12 carbonos siendo la de mayor Tf de ambos grupos. Figura 74. Temperatura de fusión de moléculas sintetizadas de la 4(dimetilamino)piridina. Nota: No se considera en el análisis de correlación la molécula 10 De la Figura 75, se determinó que el mayor valor de Tf con 600°C se registró para la molécula 10, la cual es una cadena de 12 carbonos, por lo tanto es la que presentó mayor estabilidad térmica. La molécula con menor Tf de 290°C es la 1 con 18 una cadena de 18 carbonos. Las demás moléculas conforme incrementan su peso molecular disminuye su Tf, es decir, presentan mayor facilidad para cristalizar. Con respecto a las moléculas sintetizadas a partir de la 4(aminometil)piridina, en general todas las moléculas de este grupo aunque tienen menores pesos moleculares, presentan mayores valores de Tf, manteniéndose valores casi constantes que oscilan en 525 a 575°C. Sin embargo, la molécula 7 se desvía notablemente de la tendencia general. Mientras otras moléculas siguen aproximadamente la relación lineal esperada, la molécula 7 tiene una temperatura de fusión más baja en comparación con la cantidad de carbonos que contiene. 7.4.4.8. Peso Residual (R). En las Figuras 76 y 77 se muestran los valores porcentuales de masa residual de cada una de las moléculas en función de la temperatura. Figura 76. Residuos respecto al peso inicial de las moléculas a partir de la 4(dimetilamino)piridina. Nota: No se considera en el análisis de correlación la molécula 5 Para el grupo de moléculas a partir de la 4(dimetilamino)piridina, la molécula con mayor valor residual de masa es la 10 a 598°C, la cual corresponde a la 4(dimetilamino) piridina más 1-clorohexadecano, lo que es consistente con lo esperado al ser una de las cadenas más largas; asimismo, la molécula con menor porcentaje de masa residual a 411°C fue la 5, que corresponde a la 4(dimetilamino) piridina más 1-bromooctano. Figura 77. Residuos respecto al peso inicial de las moléculas a partir de la 4(aminometil)piridina Para el grupo de moléculas a partir de la 4(aminometil)piridina, las de mayor valor residual son la 7 y 8, que corresponden a la 4(aminometil) piridina más 1- Se muestra una descomposición multietapa, pero los productos intermedios no son estables (es más difícil obtener información cinética). 7, 8, 9, 10, 12 En función del tipo de curva, las moléculas descritas en la tabla 12 presentan las siguientes características: • Moléculas con un comportamiento tipo iii. La curva resultante de estas moléculas corresponde al cambio de masa versus la temperatura, lo cual, indica una relativa estabilidad térmica hasta aproximadamente los 100°C que coincide en todos los casos en los puntos de inflamación y puntos de fusión de las materias primas, por lo que se infiere que en la composición de la muestra inicial aún existe materia prima presente y a efectos de desecación y desorción de disolventes. El descenso de la curva sin escalones hasta llegar aproximadamente a porcentajes de masa cercanos o inferiores a cero indica la presencia de una molécula o compuesto homogéneo con estabilidades térmicas en intervalos de 100 a 300°C. La continuidad de la curva señala la presencia de residuos probables de hollín formado por pirolisis entre los 300 y 600°C. • Moléculas con un comportamiento tipo iv. Todas las curvas se superponen entre sí hasta los 100°C en donde se registra el mismo efecto de deshidratación, desorción de solventes y la presencia de materia prima. Por encima de esta temperatura y hasta los 500°C, las moléculas se convierten en compuestos deshidratados que experimentan degradación continua con la pirolisis de los hidrocarburos de alto número de carbonos y de diferentes compuestos muy estables que han sido generados durante las reacciones de síntesis en concordancia con los diferentes valores de Rf registrados en los ensayos de cromatografía en capa fina. Por arriba de esta temperatura y hasta los 600°C se generan residuos con alto contenido de carbono. • Moléculas con un comportamiento tipo v. Las curvas de estas moléculas también indican descomposición multietapas, pero los productos intermedios formados en la pirolisis y durante las reacciones de síntesis no son estables. Las curvas también son escalonadas por la disminución de peso que corresponde a la descomposición en moléculas más pequeñas. En todos los casos el patrón de degradación comienza con los grupos funcionales de las moléculas menos estables, por lo que las curvas TGA permiten observar las etapas de forma más diferenciada. La energía necesaria para romper los enlaces, llamada energía de disociación, ayuda a predecir cómo se comportarán las moléculas a altas temperaturas. En la siguiente Tabla 32 se muestra en orden decreciente la energía de disociación de los enlaces. La rotura de estos enlaces trae consigo la creación de compuestos de menor masa molecular. Tabla 32. Energías de disociación de enlaces de grupos funcionales en kJ/mol.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Enlace Energía</titulo>
+        <texto>C Ξ N 890 Fuente: Hatakeyama, 1994. El análisis de Infrarrojo de las moléculas mostró que se obtuvieron longitudes de onda atribuibles a grupos funcionales -C-H, -C=C, -C-C, -C-H, -C-N y aminas (primarias y terciarias). De lo anterior, se espera que los primeros enlaces en descomponerse sean los C -N de las aminas, seguido de los enlaces C -C de los diferentes largos de cadena, continuando con los enlaces N -H de las aminas, finalizando con los dobles enlaces C = C de los grupos aromáticos. 7.5. Pruebas de corrosión de las moléculas por familia.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización del Agua de Formación</titulo>
+        <texto>7.5.1.1. Características operativas de los ductos muestreados. Las características operativas de los ductos donde se recuperaron las muestras son las que se muestran en la Tabla 33. La agresividad del agua de formación depende de las especies iónicas disueltas, así como de su concentración. Considerando solamente las especies iónicas, puede esperarse que un agua poco conductora pueda ocasionar que la actividad corrosiva sea menos intensa. Las tres corrientes de agua cuyos resultados analíticos se exhiben en la Tabla 34, presentan altos contenidos de sales, por lo que se consideran sumamente agresivas (Cloruros Totales &gt; 1000 (mg/L), presentan un índice de -4 que corresponde a un nivel sumamente agresivo de acuerdo con Davidson (2007)), expresados en cloruros totales, sodio y salinidad, además de presencia de especies iónicas (S, F, Fe, Mg, Ca, K, Si, Al, V, Mo, Mn y Sr, Nitritos, Nitratos y Sulfatos), que favorecen un estado corrosivo, debido a la capacidad de ceder o aceptar electrones en los tres medios. Tabla 34. Caracterización fisicoquímica del medio. Por otra parte, los valores de pH definen la cantidad de iones de H + libres en el agua de formación y debido a que en las 3 corrientes existen valores menores a 7 (pH&lt;7) se dice que los medios son ligeramente ácidos. Esto significa que existe una suma de factores entre la concentración de especies iónicas y el pH del medio que favorecen la actividad corrosiva.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Parámetro (Unidades) Unidades Método</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Inhibidor</titulo>
+        <texto>En el caso de la familia de la 4(aminometil)piridina la molécula que presentó la menor pérdida de peso como inhibidor de corrosión a 25 y 50 ppm es la 9 que corresponde a la 4(aminometil)piridina más 1-clorooctadecano con 0.0024 ± 0.003 g y 0.003 ± 0.011 g respectivamente. El análisis anterior se describe a mayor detalle en la Figura 86. La velocidad de corrosión es una relación directa con la pérdida de peso, de tal manera que las consideraciones siguen siendo las mismas, ya que los menores valores de velocidad de corrosión a 25 ppm son para las moléculas 1 y 5 que corresponde al largo de cadena de 18 carbonos 0.434 ± 0.022 mpy y largo de cadena de 14 carbonos con 0.445 ± 0.050 mpy (Figura 88). También se observa en la Figura 88 que el mejor efecto de protección a la corrosión en la familia de la 4(aminometil)piridina es cuando se tiene una cadena de 18 carbonos con 0.432 ± 0.479 mpy. Con base en los fundamentos químicos, las estructuras de 4-dimetilamino piridina El efecto inhibidor de ambas familias de aminas aromáticas evaluadas se puede llevar a cabo por varios mecanismos; entre los cuales sobresale la formación de películas del inhibidor en la superficie metálica, generado por la transferencia de carga parcial con el material metálico, impidiendo las reacciones de disolución electroquímica del metal, modificando las características de la superficie metálica, reduciendo así su factibilidad al ataque de la corrosión tal y como menciona Schweitzer (2010) en el mecanismo de pasivación del inhibidor. La diferencia de eficiencias entre ambas familias de aminas aromáticas tiene que ver con los parámetros estructurales y electrónicos, tales como el tipo del grupo funcional, estérico (efecto de orientación), y los efectos electrónicos, los cuales son generalmente responsables de la eficiencia de inhibición de cualquier inhibidor. Ambas familias orientan las aminas aromáticas sobre la superficie de metal; en general el anillo de la piridina tiene el par electrónico solitario en un orbital con más carácter S en donde los electrones están más retenidos; sin embargo, la 4(dimetilamino)piridina y la 4(aminometil)piridina cuentan con sustituyentes amínicos en la posición 4, cambiando la estabilidad del anillo aromático, entonces se espera que la interacción con el metal ocurra con el nitrógeno del sustituyente. Se espera que las colas hidrocarbonadas de la molécula se orientan lejos de la interfaz metálica hacia la solución proporcionando una protección adicional mediante la formación de un arreglo de colas hidrocarbonadas hidrófobas situadas en forma adyacente al grupo amino, para el presente caso de estudio los largos de cadenas con mayores eficiencias son las de mayor longitud de 18, 14 y 12 carbonos. Esta red hidrófoba sirve para mantener lejos de la superficie del metal a las moléculas de agua y especies iónicas agresivas, lo cual se puede explicar gráficamente como se muestra en la Figura 89.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Caracterización detallada de inhibidores con mayor eficiencia.</titulo>
+        <texto>Se seleccionaron las moléculas que presentaron mejor desempeño con la aplicación del Método de Prueba de la Rueda (Wheel Test) bajo los criterios de la Norma NACE 1D182, lo anterior para realizarle las pruebas de análisis químico cualitativo y cuantitativo elemental, cromatografía de gases acoplado a espectrómetro de masas y la evaluación electroquímica. Las moléculas seleccionadas por su mayor eficiencia se muestran en la Tabla 39.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Propiedades electroquímicas del inhibidor</titulo>
+        <texto>Para esta fase de la evaluación solo se consideró el estudio de la Molécula 9, (mayor eficiencia (temperatura de fusión mayor la 9 que la 1). En la Figura 90a, los cambios en la corriente de corrosión de la región anódica debido a la presencia del inhibidor, indican que la formación de la capa de pasivación se vio afectada (hasta 5 ppm). Para concentraciones &gt;10 ppm de inhibidor en el electrolito no se detectó la capa de pasivación. Los gráficos de polarización potenciodinámica de la Figura 98a se utilizaron para determinar los parámetros de corrosión del acero dulce expuesto a una solución salina saturada de H2S con y sin inhibidor. Los datos de potencial de corrosión (Ecorr), densidad de corriente de corrosión (Icorr) y velocidad de corrosión se resumieron en la Tabla 47. Hay una disminución en Ecorr, Icorr y velocidad de corrosión con el aumento de la concentración de inhibidor. Para una concentración de 100 ppm, la Icorr disminuyó de 352 ± 0,04 µA/cm 2 (sin inhibidor) a 0,4 µA/cm 2 y la velocidad de corrosión disminuyó de 4,08 a 4,64 x 10-4 mm/año. Además, la Ecuación (1) Donde Icorr es la corriente de corrosión sin el inhibidor e I 0 corr es la corriente de corrosión con el inhibidor. La Figura 98b muestra el efecto de la concentración sobre las curvas de polarización anódica y catódica para el acero AISI 1018. En las curvas de polarización de la muestra sin inhibidor (0 ppm), se puede observar que la región anódica está controlada por el proceso de activación mientras que la región catódica está gobernada por la difusión. Además, el aumento y la disminución de la corriente de corrosión en la región anódica revelan la formación de una capa de pasivación. Se ha reportado que la capa de pasivación en el electrodo de trabajo causa la formación de una capa de sulfuro de hierro (FeS), debido a la interacción de las superficies de acero con el H2S de soluciones amargas y se describe mediante la siguiente ecuación (Ecuación De acuerdo con los valores reportados en la Tabla 47, 100 ppm de inhibidor en el electrolito logra una eficiencia del 99.98% como inhibidor de corrosión por H2S. Por otro lado, la Figura 99b revela que el inhibidor muestra un comportamiento exponencial con esto se puede argumentar que después de una concentración de 10 ppm de inhibidor, el aumento en la eficiencia no fue significativo. Tabla 47. Parámetros de polarización para muestras de acero sumergidas en el electrolito salino H2S (303 K) vs concentración de inhibidor. Los espectros de impedancia del acero dulce de bajo carbono con y sin inhibidor se muestran en la Figura 99. Los diagramas de Nyquist y Bode (Figura 99a y 99b) muestran la influencia del contenido de inhibidor en la corrosión de la superficie del acero.</texto>
+      </seccion>
+      <seccion>
+        <titulo>Concentración del inhibidor</titulo>
+        <texto>Figura 99. a) Diagrama de Nyquist. b) Diagrama de Bode (ángulo de fase -impedancia) de probetas de acero sumergidas en el electrolito salino H2S a 313 K con y sin inhibidor. La forma de los espectros en los diagramas de Nyquist es muy similar en los experimentos con y sin inhibidor, sin embargo, a medida que aumenta el contenido de inhibidor, aumenta el ancho del semicírculo (Figura 99a). Además, en el caso del diagrama de Bode en formato de ángulo de fase (cuadrado), se observó un ángulo de fase más alto con el aumento de la cantidad de inhibidor en el electrolito (Figura 99b). Los estudios mostraron que el ángulo de fase más alto está asociado con la reducción en la interacción entre los procesos de difusión de Fe e hidrógeno, debido a la formación de una película de inhibidor más protectora Los circuitos equivalentes propuestos para ajustar los diagramas de impedancia experimentales bajo condiciones dinámicas se muestran en la Figura 100a. Para los diagramas de impedancia sin inhibidor, se propone un circuito equivalente que consiste en una resistencia Rs conectada en serie a un elemento de fase constante (Qdl) paralelo a una resistencia (Rct) que está conectada en serie a un elemento de impedancia tipo Warburg (W). Donde Rs corresponde a la resistencia del electrolito a la corriente, Rct es la resistencia a la transferencia de carga en la interfaz entre el electrolito y la superficie del acero, los elementos de fase constante Qdl que están asociados con la doble capa formada entre la interfaz del electrolito y la superficie del acero y finalmente un elemento de impedancia tipo Warburg (W) relacionado con la difusión de hidrógeno en la superficie del acero.  La superficie de la muestra cilíndrica de acero, con y sin inhibidor, se caracterizó por FTIR como se muestra en la Figura 101a. En la superficie de la muestra de acero sin inhibidor, no se detectó la presencia de ningún compuesto, sin embargo,  Además, se examinó mediante microscopía electrónica de barrido la morfología superficial de las muestras de acero dulce de bajo carbono (AISI 1018) expuestas y no expuestas (blanco) a soluciones de electrolito salino agrio inhibido (100 ppm) y no inhibido (0 ppm) a 313 K (Figura 102). La superficie del acero dulce no expuesto al electrolito salino amargo presentó marcas del proceso de maquinado (rayaduras) debido al lijado del tratamiento de pulido y no mostró áreas corroídas (Figura 102a).</texto>
+      </seccion>
+      <seccion>
+        <titulo>Muestra</titulo>
+        <texto />
+      </seccion>
+      <seccion>
+        <titulo>Rs</titulo>
+        <texto>Sin embargo, la muestra expuesta al electrolito salino amargo sin inhibidor mostró áreas de corrosión severa y picaduras de corrosión en condiciones hidrodinámicas, además, no se observan las rayaduras causadas por el pulido, esto podría interpretarse como desgaste superficial debido a los procesos de electropulido (Figura 102b). Mientras que, en el caso de la superficie de acero dulce expuesta al electrolito inhibidor, no se observaron ataques de corrosión ni picaduras, la superficie de la muestra no cambió y mostró la misma morfología que el blanco (Figura 102c). La superficie del acero observada en las micrografías (Figura 102) y los resultados de las pruebas FTIR y electroquímicas (Figuras 98, 99 y 100), muestran los mismos resultados. expuestas a electrolito salino agrio no inhibido (0 ppm) y c) expuestas a electrolito salino agrio inhibido (100 ppm).</texto>
+      </seccion>
+    </otros>
+  </contenido>
+  <referencias>
+    <referencia>
+      <autores>
+        <autor>Referencias Documentales</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion challenges in petroleum refinery operations: Sources, mechanisms, mitigation, and future outlook</titulo>
+      <autores>
+        <autor>A Al-Moubaraki</autor>
+        <autor>I Obot</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Efficiency of corrosion inhibitors in mitigating corrosion of steel under elevated temperature and chloride concentration</titulo>
+      <autores>
+        <autor>K Al-Sodani</autor>
+        <autor>O Al-Amoudi</autor>
+        <autor>M Maslehuddin</autor>
+        <autor>M Shameem</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Standard Reference Test Method for Making Potentiodynamic Anodic Polarization Measurements</titulo>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>Astm</autor>
+      </autores>
+    </referencia>
+    <referencia>
+      <titulo>La corrosión: La lucha más extensa</titulo>
+      <autores>
+        <autor>N Asrar</autor>
+        <autor>B Mackay</autor>
+        <autor>Ø Birketveit</autor>
+        <autor>M Stipanicev</autor>
+        <autor>J Jackson</autor>
+        <autor>A Jenkins</autor>
+        <autor>J Vittonato</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Standard practice for preparing, cleaning, and evaluating corrosion test specimens</titulo>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrochemical impedance spectroscopy of iron corrosion in H2S solutions</titulo>
+      <autores>
+        <autor>M Ayagou</autor>
+        <autor>T Tran</autor>
+        <autor>B Tribollet</autor>
+        <autor>J Kittel</autor>
+        <autor>E Sutter</autor>
+        <autor>Ferrando</autor>
+        <autor>C Duret-Thual</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Water-base acrylic terpolymer as a corrosion inhibitor for SAE1018 in simulated sour petroleum solution in stagnant and hydrodynamic conditions</titulo>
+      <autores>
+        <autor>M Azghandi</autor>
+        <autor>A Davoodi</autor>
+        <autor>G Farzi</autor>
+        <autor>A Kosari</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Diseño, construcción y mantenimiento del poliducto Tula-Querétaro-San Miguel-Guanajuato</titulo>
+      <autores>
+        <autor>M Bautista</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Electrophilic aromatic substitution on pyridine rings. Intramolecular cyclization using N-acyliminium ions</titulo>
+      <autores>
+        <autor>M Brodney</autor>
+        <autor>A Padwa</autor>
+      </autores>
+      <fecha>1997</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosión del cobre por ácidos orgánicos volátiles</titulo>
+      <autores>
+        <autor>E Cano</autor>
+        <autor>J Polo</autor>
+        <autor>D Kong</autor>
+        <autor>E Mora</autor>
+        <autor>J López-Caballero</autor>
+        <autor>J Bastidas</autor>
+      </autores>
+      <fecha>2004</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Análisis comparativo de la evaluación de defectos en ductos entre estudios realizados con equipos instrumentados inteligentes de segunda y tercera generación</titulo>
+      <autores>
+        <autor>Cárdenas Ruiz</autor>
+        <autor>M</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Afectaciones y consecuencias de los derrames de hidrocarburos en suelos agrícolas de Acatzingo, Agricultura, sociedad y desarrollo</titulo>
+      <autores>
+        <autor>J Carvazos</autor>
+        <autor>B Pérez</autor>
+        <autor>M Gutiérrez</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Estudio el efecto del campo magnético en el proceso de corrosión en una tubería API 5L X60 mediante pruebas electroquímicas</titulo>
+      <autores>
+        <autor>E Cervantes-López</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Efecto corrosivo del agua acompañante del petróleo, contaminada con H2S, sobre el acero (API 5L X_52)</titulo>
+      <autores>
+        <autor>A Cueli-Corugedo</autor>
+        <autor>Y Adames-Montero</autor>
+        <autor>Y Rivera-Beltrán</autor>
+        <autor>J Davis-Harriett</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Real Sociedad de Química, 31 oct</titulo>
+      <autores>
+        <autor>G Davidson</autor>
+      </autores>
+      <fecha>2007</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Wheel Test Method Used for Evaluation of Film Persistent Inhibitors for</titulo>
+      <autores>
+        <autor>B Davis</autor>
+      </autores>
+      <fecha>1982</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Wheel Test Method Used for Evaluation of Film Persistent Inhibitors for Oilfield Applications</titulo>
+      <autores>
+        <autor>B Davis</autor>
+      </autores>
+      <fecha>1982</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Synthesis of nickel oxide nanoparticles from thermal decomposition of a new precursor</titulo>
+      <autores>
+        <autor>Z Fereshteh</autor>
+        <autor>M Salavati-Niasari</autor>
+        <autor>K Saberyan</autor>
+        <autor>S Hosseinpour-Mashkani</autor>
+        <autor>F Tavakoli</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Modification of 1018 carbon steel corrosion process in alkaline sour medium with a formulation of chemical corrosion inhibitors</titulo>
+      <autores>
+        <autor>P Galicia</autor>
+        <autor>I González</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Análisis de fallas en ductos con corrosión interna. Tesis de grado</titulo>
+      <autores>
+        <autor>N García</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>El impulso al gas natural para la transición energética (9ª parte para un plan sexenal</titulo>
+      <autores>
+        <autor>Global Energy</autor>
+      </autores>
+      <fecha>2023</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Los inhibidores de corrosión</titulo>
+      <autores>
+        <autor>L Godínez</autor>
+        <autor>Y Meas</autor>
+        <autor>R Ortega-Borges</autor>
+        <autor>A Corona</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion Inhibitor Testing and Selection for E&amp; : A user's perspective</titulo>
+      <autores>
+        <autor>S Kapusta</autor>
+      </autores>
+      <fecha>1999</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Study of temperature effect on the corrosion inhibition of C38 carbon steel using amino-tris (methylenephosphonic) acid in hydrochloric acid solution</titulo>
+      <autores>
+        <autor>N Labjar</autor>
+        <autor>F Bentiss</autor>
+        <autor>M Lebrini</autor>
+        <autor>C Jama</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The preparation of oleylamine modified micro-size sphere silver particles and its application in crystalline silicon solar cells</titulo>
+      <autores>
+        <autor>F Lan</autor>
+        <autor>J Bai</autor>
+        <autor>H Wang</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Multiplicadores de los servicios de transporte y almacenamiento en Am rica Latina: un análisis comparativo</titulo>
+      <autores>
+        <autor>J Lard</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Evaluación de la Corrosión en un Sistema Híbrido de Protección catódica</titulo>
+      <autores>
+        <autor>M Lobato-Castañeda</autor>
+        <autor>D Campos</autor>
+        <autor>C Ramos-López</autor>
+        <autor>M Valderrama</autor>
+        <autor>E Saenz</autor>
+        <autor>V Lugo</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>A study of hydroxyethyl imidazoline as H 2 S corrosion inhibitor using electrochemical noise and electrochemical impedance spectroscopy</titulo>
+      <autores>
+        <autor>M Lucio-García</autor>
+        <autor>J Gonzalez-Rodriguez</autor>
+        <autor>A Martinez-Villafañe</autor>
+        <autor>G Dominguez-Patiño</autor>
+        <autor>M Neri-Flores</autor>
+        <autor>J Chacon-Nava</autor>
+      </autores>
+      <fecha>2010</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Caracterización y evaluación de inhibidores de corrosión en la industria petrolera. Tesis de grado</titulo>
+      <autores>
+        <autor>M Luna-Trujillo</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Emulsificación de petróleo crudo para su trasporte por oleoductos</titulo>
+      <autores>
+        <autor>E Martínez-Martín</autor>
+        <autor>L Acosta-Martínez</autor>
+        <autor>F Ramírez-Apodaca</autor>
+      </autores>
+      <fecha>2016</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Scale Prediction and Inhibition for Oil and Gas Production at High Temperature/High Pressure</titulo>
+      <autores>
+        <autor>B Mason</autor>
+        <autor>J Yu</autor>
+        <autor>S Work</autor>
+        <autor>L Haiping</autor>
+        <autor>P Zhan</autor>
+        <autor>T Amy</autor>
+        <autor>F Chunfang</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Comportamiento de las tuberías para transportar petróleo crudo afectadas por defectos y grietas (Doctoral dissertation, Tesis presentada para optar al título de Máster en Electromecánica)</titulo>
+      <autores>
+        <autor>E Matos Montilla</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Valor del Agua de Formación</titulo>
+      <autores>
+        <autor>A Medhat</autor>
+        <autor>A Carnegie</autor>
+        <autor>S Mathwes</autor>
+        <autor>M O´keefe</autor>
+        <autor>B Raghuraman</autor>
+        <autor>W Wei</autor>
+        <autor>Gang</autor>
+        <autor>Ch</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Integridad estructural de tuberías de transporte de hidrocarburos: Panorama actual</titulo>
+      <autores>
+        <autor>F Meléndez Pertuz</autor>
+        <autor>J González Coneo</autor>
+        <autor>Z Comas González</autor>
+        <autor>B Núñez Pérez</autor>
+        <autor>P Viloria Molinares</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Química Orgánica: Introducción a la química heterocíclica</titulo>
+      <autores>
+        <autor>G Montalvo</autor>
+        <autor>M Salinas</autor>
+        <autor>M Becerra</autor>
+        <autor>V Barrón</autor>
+        <autor>J</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Confiabilidad estructural de los escenarios de iniciación del pandeo lateral de ductos marinos operando con HPHT. Ingenieria petrolera</titulo>
+      <autores>
+        <autor>E Musito</autor>
+      </autores>
+      <fecha>2011</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Evaluation of inhibitive action of some quaternary N-heterocyclic compounds on the corrosion of Al-Cu alloy in hydrochloric acid</titulo>
+      <autores>
+        <autor>E Noor</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia />
+    <referencia>
+      <titulo>aminoácidos y β-aminoalcoholes usando simulación molecular y técnicas electroquímicas</titulo>
+      <autores>
+        <autor>C Olivares Xometl</autor>
+      </autores>
+      <fecha>2005</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Efecto del flujo turbulento sobre el</titulo>
+      <autores>
+        <autor>M Olvera-Martínez</autor>
+        <autor>J Mendoza-Flores</autor>
+        <autor>J Genesca</autor>
+      </autores>
+      <fecha>2013</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Infrared spectroscopy-Mid-infrared, near-infrared, and farinfrared/terahertz spectroscopy</titulo>
+      <autores>
+        <autor>Y Ozaki</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>C Peña</autor>
+        <autor>D Peña</autor>
+        <autor>C Martinez</autor>
+        <autor>Y González</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Formulación y evaluación en laboratorio de un nuevo inhibidor de corrosión para ductos en campos petroleros</titulo>
+      <autores>
+        <autor>Pullas Rivera</autor>
+        <autor>D</autor>
+      </autores>
+      <fecha>2015</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Evaluación del efecto corrosivo de los crudos</titulo>
+      <autores>
+        <autor>H Quiroga</autor>
+        <autor>A Serna</autor>
+        <autor>Y Peña</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>La confiabilidad e integridad mecánica en sistemas de tuberías enterradas, de acero al carbono</titulo>
+      <autores>
+        <autor>Ramírez Reyes</autor>
+        <autor>O</autor>
+      </autores>
+      <fecha>2019</fecha>
+    </referencia>
+    <referencia>
+      <titulo>H2S corrosion inhibition of carbon steel by a coconut-modified imidazoline</titulo>
+      <autores>
+        <autor>L Rivera-Grau</autor>
+        <autor>M Casales</autor>
+        <autor>I Regla</autor>
+        <autor>D Ortega-Toledo</autor>
+        <autor>J Ascencio-Gutierrez</autor>
+        <autor>J Gonzalez-Rodriguez</autor>
+        <autor>L Martinez-Gomez</autor>
+      </autores>
+      <fecha>2012</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Composición inhibidora de la corrosión del acero en medio ácido</titulo>
+      <autores>
+        <autor>M Ronda</autor>
+        <autor>B Vega</autor>
+        <autor>J Uruchurtu</autor>
+      </autores>
+      <fecha>2009</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Evaluación de un inhibidor utilizado en condiciones hidrodinámicas controladas</titulo>
+      <autores>
+        <autor>V Salinas</autor>
+        <autor>J González</autor>
+      </autores>
+      <fecha>1996</fecha>
+    </referencia>
+    <referencia>
+      <autores>
+        <autor>H Sandoval-Yáñez</autor>
+      </autores>
+      <fecha>2017</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The role of different surface damages in corrosion process in alkaline sour media</titulo>
+      <autores>
+        <autor>E Sosa</autor>
+        <autor>R Cabrera-Sierra</autor>
+        <autor>I Garcıa</autor>
+        <autor>M Oropeza</autor>
+        <autor>I González</autor>
+      </autores>
+      <fecha>2002</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Effect of hydrocarbon chain length for acid corrosion inhibition of mild steel by three 8-(n-bromo-R-alkoxy) quinoline derivatives: experimental and theoretical investigations</titulo>
+      <autores>
+        <autor>A Tazouti</autor>
+        <autor>N Errahmany</autor>
+        <autor>M Rbaa</autor>
+        <autor>M Galai</autor>
+        <autor>Z Rouifi</autor>
+        <autor>R Touir</autor>
+        <autor>A Zarrouk</autor>
+        <autor>S Kaya</autor>
+        <autor>M Touhami</autor>
+        <autor>S Erkan</autor>
+      </autores>
+      <fecha>1244</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Uso de extractos de plantas como inhibidores de corrosión</titulo>
+      <autores>
+        <autor>L Tejeda-Benítez</autor>
+        <autor>P Meza-Castellar</autor>
+        <autor>E Altamiranda-Percy</autor>
+        <autor>M Berrocal-Bravo</autor>
+      </autores>
+      <fecha>2014</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Corrosion inhibitors for sour oilfield environment (H2S corrosion)</titulo>
+      <autores>
+        <autor>S Umoren</autor>
+        <autor>M Solomon</autor>
+        <autor>V Saji</autor>
+      </autores>
+      <fecha>2020</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Máximo Aprovechamiento de los Campos Maduros Petroleros</titulo>
+      <autores>
+        <autor>A Usman</autor>
+      </autores>
+      <fecha>2003</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Efecto de la mezcla de inhibidores de corrosión e incrustación para la protección contra la corrosión del acero al carbono</titulo>
+      <autores>
+        <autor>J Vicente-Ferrari</autor>
+        <autor>C Díaz-Rangel</autor>
+        <autor>J Arismendi</autor>
+      </autores>
+      <fecha>2015-12</fecha>
+    </referencia>
+    <referencia>
+      <titulo>Review of recent progress in the study of corrosion products of steels in a hydrogen sulphide environment</titulo>
+      <autores>
+        <autor>X Wen</autor>
+        <autor>P Bai</autor>
+        <autor>B Luo</autor>
+        <autor>S Zheng</autor>
+        <autor>C Chen</autor>
+      </autores>
+      <fecha>2018</fecha>
+    </referencia>
+    <referencia>
+      <titulo>The efficiency of eco-friendly corrosion inhibitors in protecting steel reinforcement</titulo>
+      <autores>
+        <autor>A Zomorodian</autor>
+        <autor>R Bagonyi</autor>
+        <autor>A Al-Tabbaa</autor>
+      </autores>
+      <fecha>2021</fecha>
+    </referencia>
+  </referencias>
+</tesis>
