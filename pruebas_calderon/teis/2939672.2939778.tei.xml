@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">&quot;Why Should I Trust You?&quot; Explaining the Predictions of Any Classifier</title>
+				<funder>
+					<orgName type="full">MARCO</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">DARPA</orgName>
+				</funder>
+				<funder ref="#_9NXnwXu #_QE9VzB7">
+					<orgName type="full">ONR</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">TerraSwarm</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Marco</forename><forename type="middle">Tulio</forename><surname>Ribeiro</surname></persName>
+							<email>marcotcr@cs.uw.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Sameer</forename><surname>Singh</surname></persName>
+							<email>sameer@cs.uw.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Carlos</forename><surname>Guestrin</surname></persName>
+							<email>guestrin@cs.uw.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98105</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98105</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98105</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">KDD</orgName>
+								<address>
+									<postCode>2016</postCode>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">&quot;Why Should I Trust You?&quot; Explaining the Predictions of Any Classifier</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D6870896FB2192450B27DA7B89312F0D</idno>
+					<idno type="DOI">10.1145/2939672.2939778</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-07-03T17:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Despite widespread adoption, machine learning models remain mostly black boxes. Understanding the reasons behind predictions is, however, quite important in assessing trust, which is fundamental if one plans to take action based on a prediction, or when choosing whether to deploy a new model. Such understanding also provides insights into the model, which can be used to transform an untrustworthy model or prediction into a trustworthy one.</p><p>In this work, we propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally around the prediction. We also propose a method to explain models by presenting representative individual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization problem. We demonstrate the flexibility of these methods by explaining different models for text (e.g. random forests) and image classification (e.g. neural networks). We show the utility of explanations via novel experiments, both simulated and with human subjects, on various scenarios that require trust: deciding if one should trust a prediction, choosing between models, improving an untrustworthy classifier, and identifying why a classifier should not be trusted.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Machine learning is at the core of many recent advances in science and technology. Unfortunately, the important role of humans is an oft-overlooked aspect in the field. Whether humans are directly using machine learning classifiers as tools, or are deploying models within other products, a vital concern remains: if the users do not trust a model or a prediction, they will not use it. It is important to differentiate between two different (but related) definitions of trust: (1) trusting a prediction, i.e. whether a user trusts an individual prediction sufficiently to take some action based on it, and (2) trusting a model, i.e. whether the user trusts a model to behave in reasonable ways if deployed. Both are directly impacted by how much the human understands a model's behaviour, as opposed to seeing it as a black box.</p><p>Determining trust in individual predictions is an important problem when the model is used for decision making. When using machine learning for medical diagnosis <ref type="bibr" target="#b6">[6]</ref> or terrorism detection, for example, predictions cannot be acted upon on blind faith, as the consequences may be catastrophic.</p><p>Apart from trusting individual predictions, there is also a need to evaluate the model as a whole before deploying it "in the wild". To make this decision, users need to be confident that the model will perform well on real-world data, according to the metrics of interest. Currently, models are evaluated using accuracy metrics on an available validation dataset. However, real-world data is often significantly different, and further, the evaluation metric may not be indicative of the product's goal. Inspecting individual predictions and their explanations is a worthwhile solution, in addition to such metrics. In this case, it is important to aid users by suggesting which instances to inspect, especially for large datasets.</p><p>In this paper, we propose providing explanations for individual predictions as a solution to the "trusting a prediction" problem, and selecting multiple such predictions (and explanations) as a solution to the "trusting the model" problem. Our main contributions are summarized as follows.</p><p>• LIME, an algorithm that can explain the predictions of any classifier or regressor in a faithful way, by approximating it locally with an interpretable model.</p><p>• SP-LIME, a method that selects a set of representative instances with explanations to address the "trusting the model" problem, via submodular optimization.</p><p>• Comprehensive evaluation with simulated and human subjects, where we measure the impact of explanations on trust and associated tasks. In our experiments, non-experts using LIME are able to pick which classifier from a pair generalizes better in the real world. Further, they are able to greatly improve an untrustworthy classifier trained on 20 newsgroups, by doing feature engineering using LIME.</p><p>We also show how understanding the predictions of a neural network on images helps practitioners know when and why they should not trust a model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">THE CASE FOR EXPLANATIONS</head><p>By "explaining a prediction", we mean presenting textual or visual artifacts that provide qualitative understanding of the relationship between the instance's components (e.g. words in text, patches in an image) and the model's prediction. We  A model predicts that a patient has the flu, and LIME highlights the symptoms in the patient's history that led to the prediction. Sneeze and headache are portrayed as contributing to the "flu" prediction, while "no fatigue" is evidence against it. With these, a doctor can make an informed decision about whether to trust the model's prediction.</p><p>argue that explaining predictions is an important aspect in getting humans to trust and use machine learning effectively, if the explanations are faithful and intelligible.</p><p>The process of explaining individual predictions is illustrated in Figure <ref type="figure" target="#fig_1">1</ref>. It is clear that a doctor is much better positioned to make a decision with the help of a model if intelligible explanations are provided. In this case, an explanation is a small list of symptoms with relative weightssymptoms that either contribute to the prediction (in green) or are evidence against it (in red). Humans usually have prior knowledge about the application domain, which they can use to accept (trust) or reject a prediction if they understand the reasoning behind it. It has been observed, for example, that providing explanations can increase the acceptance of movie recommendations <ref type="bibr" target="#b12">[12]</ref> and other automated systems <ref type="bibr" target="#b8">[8]</ref>.</p><p>Every machine learning application also requires a certain measure of overall trust in the model. Development and evaluation of a classification model often consists of collecting annotated data, of which a held-out subset is used for automated evaluation. Although this is a useful pipeline for many applications, evaluation on validation data may not correspond to performance "in the wild", as practitioners often overestimate the accuracy of their models <ref type="bibr" target="#b21">[21]</ref>, and thus trust cannot rely solely on it. Looking at examples offers an alternative method to assess truth in the model, especially if the examples are explained. We thus propose explaining several representative individual predictions of a model as a way to provide a global understanding.</p><p>There are several ways a model or its evaluation can go wrong. Data leakage, for example, defined as the unintentional leakage of signal into the training (and validation) data that would not appear when deployed <ref type="bibr" target="#b14">[14]</ref>, potentially increases accuracy. A challenging example cited by (author?) <ref type="bibr" target="#b14">[14]</ref> is one where the patient ID was found to be heavily correlated with the target class in the training and validation data. This issue would be incredibly challenging to identify just by observing the predictions and the raw data, but much easier if explanations such as the one in Figure <ref type="figure" target="#fig_1">1</ref> are provided, as patient ID would be listed as an explanation for predictions. Another particularly hard to detect problem is dataset shift <ref type="bibr" target="#b5">[5]</ref>, where training data is different than test data (we give an example in the famous 20 newsgroups dataset later on). The insights given by explanations are particularly helpful in identifying what must be done to convert an untrustworthy model into a trustworthy one -for example, removing leaked data or changing the training data to avoid dataset shift.</p><p>Machine learning practitioners often have to select a model from a number of alternatives, requiring them to assess the relative trust between two or more models. In Figure 2, we show how individual prediction explanations can be used to select between models, in conjunction with accuracy. In this case, the algorithm with higher accuracy on the validation set is actually much worse, a fact that is easy to see when explanations are provided (again, due to human prior knowledge), but hard otherwise. Further, there is frequently a mismatch between the metrics that we can compute and optimize (e.g. accuracy) and the actual metrics of interest such as user engagement and retention. While we may not be able to measure such metrics, we have knowledge about how certain model behaviors can influence them. Therefore, a practitioner may wish to choose a less accurate model for content recommendation that does not place high importance in features related to "clickbait" articles (which may hurt user retention), even if exploiting such features increases the accuracy of the model in cross validation. We note that explanations are particularly useful in these (and other) scenarios if a method can produce them for any model, so that a variety of models can be compared.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Desired Characteristics for Explainers</head><p>We now outline a number of desired characteristics from explanation methods.</p><p>An essential criterion for explanations is that they must be interpretable, i.e., provide qualitative understanding between the input variables and the response. We note that interpretability must take into account the user's limitations. Thus, a linear model <ref type="bibr" target="#b24">[24]</ref>, a gradient vector <ref type="bibr" target="#b2">[2]</ref> or an additive model <ref type="bibr" target="#b6">[6]</ref> may or may not be interpretable. For example, if hundreds or thousands of features significantly contribute to a prediction, it is not reasonable to expect any user to comprehend why the prediction was made, even if individual weights can be inspected. This requirement further implies that explanations should be easy to understand, which is not necessarily true of the features used by the model, and thus the "input variables" in the explanations may need to be different than the features. Finally, we note that the notion of interpretability also depends on the target audience. Machine learning practitioners may be able to interpret small Bayesian networks, but laymen may be more comfortable with a small number of weighted features as an explanation.</p><p>Another essential criterion is local fidelity. Although it is often impossible for an explanation to be completely faithful unless it is the complete description of the model itself, for an explanation to be meaningful it must at least be locally faithful, i.e. it must correspond to how the model behaves in the vicinity of the instance being predicted. We note that local fidelity does not imply global fidelity: features that are globally important may not be important in the local context, and vice versa. While global fidelity would imply local fidelity, identifying globally faithful explanations that are interpretable remains a challenge for complex models.</p><p>While there are models that are inherently interpretable <ref type="bibr" target="#b6">[6,</ref><ref type="bibr" target="#b17">17,</ref><ref type="bibr" target="#b26">26,</ref><ref type="bibr" target="#b27">27]</ref>, an explainer should be able to explain any model, and thus be model-agnostic (i.e. treat the original model as a black box). Apart from the fact that many state-ofthe-art classifiers are not currently interpretable, this also provides flexibility to explain future classifiers.</p><p>In addition to explaining predictions, providing a global perspective is important to ascertain trust in the model. As mentioned before, accuracy may often not be a suitable metric to evaluate the model, and thus we want to explain the model. Building upon the explanations for individual predictions, we select a few explanations to present to the user, such that they are representative of the model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">LOCAL INTERPRETABLE MODEL-AGNOSTIC EXPLANATIONS</head><p>We now present Local Interpretable Model-agnostic Explanations (LIME). The overall goal of LIME is to identify an interpretable model over the interpretable representation that is locally faithful to the classifier.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Interpretable Data Representations</head><p>Before we present the explanation system, it is important to distinguish between features and interpretable data representations. As mentioned before, interpretable explanations need to use a representation that is understandable to humans, regardless of the actual features used by the model. For example, a possible interpretable representation for text classification is a binary vector indicating the presence or absence of a word, even though the classifier may use more complex (and incomprehensible) features such as word embeddings. Likewise for image classification, an interpretable representation may be a binary vector indicating the "presence" or "absence" of a contiguous patch of similar pixels (a super-pixel), while the classifier may represent the image as a tensor with three color channels per pixel. We denote x ∈ R d be the original representation of an instance being explained, and we use x ∈ {0, 1} d to denote a binary vector for its interpretable representation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Fidelity-Interpretability Trade-off</head><p>Formally, we define an explanation as a model g ∈ G, where G is a class of potentially interpretable models, such as linear models, decision trees, or falling rule lists <ref type="bibr" target="#b27">[27]</ref>, i.e. a model g ∈ G can be readily presented to the user with visual or textual artifacts. The domain of g is {0, 1} d , i.e. g acts over absence/presence of the interpretable components. As not every g ∈ G may be simple enough to be interpretablethus we let Ω(g) be a measure of complexity (as opposed to interpretability) of the explanation g ∈ G. For example, for decision trees Ω(g) may be the depth of the tree, while for linear models, Ω(g) may be the number of non-zero weights.</p><p>Let the model being explained be denoted f : R d → R. In classification, f (x) is the probability (or a binary indicator) that x belongs to a certain class<ref type="foot" target="#foot_0">1</ref> . We further use πx(z) as a proximity measure between an instance z to x, so as to define locality around x. Finally, let L(f, g, πx) be a measure of how unfaithful g is in approximating f in the locality defined by πx. In order to ensure both interpretability and local fidelity, we must minimize L(f, g, πx) while having Ω(g) be low enough to be interpretable by humans. The explanation produced by LIME is obtained by the following:</p><formula xml:id="formula_0">ξ(x) = argmin g∈G L(f, g, πx) + Ω(g)<label>(1)</label></formula><p>This formulation can be used with different explanation families G, fidelity functions L, and complexity measures Ω.</p><p>Here we focus on sparse linear models as explanations, and on performing the search using perturbations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Sampling for Local Exploration</head><p>We want to minimize the locality-aware loss L(f, g, πx) without making any assumptions about f , since we want the explainer to be model-agnostic. Thus, in order to learn the local behavior of f as the interpretable inputs vary, we approximate L(f, g, πx) by drawing samples, weighted by πx. We sample instances around x by drawing nonzero elements of x uniformly at random (where the number of such draws is also uniformly sampled). Given a perturbed sample z ∈ {0, 1} d (which contains a fraction of the nonzero elements of x ), we recover the sample in the original representation z ∈ R d and obtain f (z), which is used as a label for the explanation model. Given this dataset Z of perturbed samples with the associated labels, we optimize Eq. ( <ref type="formula" target="#formula_0">1</ref>) to get an explanation ξ(x). The primary intuition behind LIME is presented in Figure <ref type="figure" target="#fig_3">3</ref>, where we sample instances both in the vicinity of x (which have a high weight due to πx) and far away from x (low weight from πx). Even though the original model may be too complex to explain globally, LIME presents an explanation that is locally faithful (linear in this case), where the locality is captured by πx. It is worth noting that our method is fairly robust to sampling noise since the samples are weighted by πx in Eq. <ref type="bibr" target="#b1">(1)</ref>. We now present a concrete instance of this general framework.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Sparse Linear Explanations</head><p>For the rest of this paper, we let G be the class of linear models, such that g(z ) = wg • z . We use the locally weighted square loss as L, as defined in Eq. ( <ref type="formula">2</ref>), where we let πx(z) = exp(-D(x, z) 2 /σ 2 ) be an exponential kernel defined on some The black-box model's complex decision function f (unknown to LIME) is represented by the blue/pink background, which cannot be approximated well by a linear model. The bold red cross is the instance being explained. LIME samples instances, gets predictions using f , and weighs them by the proximity to the instance being explained (represented here by size). The dashed line is the learned explanation that is locally (but not globally) faithful.</p><p>distance function D (e.g. cosine distance for text, L2 distance for images) with width σ.</p><formula xml:id="formula_1">L(f, g, πx) = z,z ∈Z πx(z) f (z) -g(z ) 2 (2)</formula><p>For text classification, we ensure that the explanation is interpretable by letting the interpretable representation be a bag of words, and by setting a limit K on the number of words, i.e. Ω(g) = ∞1[ wg 0 &gt; K]. Potentially, K can be adapted to be as big as the user can handle, or we could have different values of K for different instances. In this paper we use a constant value for K, leaving the exploration of different values to future work. We use the same Ω for image classification, using "super-pixels" (computed using any standard algorithm) instead of words, such that the interpretable representation of an image is a binary vector where 1 indicates the original super-pixel and 0 indicates a grayed out super-pixel. This particular choice of Ω makes directly solving Eq. ( <ref type="formula" target="#formula_0">1</ref>) intractable, but we approximate it by first selecting K features with Lasso (using the regularization path <ref type="bibr">[9]</ref>) and then learning the weights via least squares (a procedure we call K-LASSO in Algorithm 1). Since Algorithm 1 produces an explanation for an individual prediction, its complexity does not depend on the size of the dataset, but instead on time to compute f (x) and on the number of samples N . In practice, explaining random forests with 1000 trees using scikit-learn (http://scikit-learn.org) on a laptop with N = 5000 takes under 3 seconds without any optimizations such as using gpus or parallelization. Explaining each prediction of the Inception network <ref type="bibr" target="#b25">[25]</ref> for image classification takes around 10 minutes.</p><p>Any choice of interpretable representations and G will have some inherent drawbacks. First, while the underlying model can be treated as a black-box, certain interpretable representations will not be powerful enough to explain certain behaviors. For example, a model that predicts sepia-toned images to be retro cannot be explained by presence of absence of super pixels. Second, our choice of G (sparse linear models) means that if the underlying model is highly non-linear even in the locality of the prediction, there may not be a faithful explanation. However, we can estimate the faithfulness of Algorithm 1 Sparse Linear Explanations using LIME Require: Classifier f , Number of samples N Require: Instance x, and its interpretable version x Require: Similarity kernel πx, Length of explanation K</p><formula xml:id="formula_2">Z ← {} for i ∈ {1, 2, 3, ..., N } do z i ← sample around(x ) Z ← Z ∪ z i , f (zi), πx(zi) end for w ← K-Lasso(Z, K)</formula><p>with z i as features, f (z) as target return w the explanation on Z, and present this information to the user. This estimate of faithfulness can also be used for selecting an appropriate family of explanations from a set of multiple interpretable model classes, thus adapting to the given dataset and the classifier. We leave such exploration for future work, as linear explanations work quite well for multiple black-box models in our experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">Example 1: Text classification with SVMs</head><p>In Figure <ref type="figure" target="#fig_2">2</ref> (right side), we explain the predictions of a support vector machine with RBF kernel trained on unigrams to differentiate "Christianity" from "Atheism" (on a subset of the 20 newsgroup dataset). Although this classifier achieves 94% held-out accuracy, and one would be tempted to trust it based on this, the explanation for an instance shows that predictions are made for quite arbitrary reasons (words "Posting", "Host", and "Re" have no connection to either Christianity or Atheism). The word "Posting" appears in 22% of examples in the training set, 99% of them in the class "Atheism". Even if headers are removed, proper names of prolific posters in the original newsgroups are selected by the classifier, which would also not generalize.</p><p>After getting such insights from explanations, it is clear that this dataset has serious issues (which are not evident just by studying the raw data or predictions), and that this classifier, or held-out evaluation, cannot be trusted. It is also clear what the problems are, and the steps that can be taken to fix these issues and train a more trustworthy classifier.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">Example 2: Deep networks for images</head><p>When using sparse linear explanations for image classifiers, one may wish to just highlight the super-pixels with positive weight towards a specific class, as they give intuition as to why the model would think that class may be present. We explain the prediction of Google's pre-trained Inception neural network <ref type="bibr" target="#b25">[25]</ref> in this fashion on an arbitrary image (Figure <ref type="figure" target="#fig_5">4a</ref>). Figures <ref type="figure" target="#fig_5">4b,</ref><ref type="figure" target="#fig_5">4c,</ref><ref type="figure" target="#fig_5">4d</ref> show the superpixels explanations for the top 3 predicted classes (with the rest of the image grayed out), having set K = 10. What the neural network picks up on for each of the classes is quite natural to humans -Figure <ref type="figure" target="#fig_5">4b</ref> in particular provides insight as to why acoustic guitar was predicted to be electric: due to the fretboard. This kind of explanation enhances trust in the classifier (even if the top predicted class is wrong), as it shows that it is not acting in an unreasonable manner.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">SUBMODULAR PICK FOR EXPLAINING MODELS</head><p>Although an explanation of a single prediction provides some understanding into the reliability of the classifier to the user, it is not sufficient to evaluate and assess trust in the model as a whole. We propose to give a global understanding of the model by explaining a set of individual instances. This approach is still model agnostic, and is complementary to computing summary statistics such as held-out accuracy.</p><p>Even though explanations of multiple instances can be insightful, these instances need to be selected judiciously, since users may not have the time to examine a large number of explanations. We represent the time/patience that humans have by a budget B that denotes the number of explanations they are willing to look at in order to understand a model. Given a set of instances X, we define the pick step as the task of selecting B instances for the user to inspect.</p><p>The pick step is not dependent on the existence of explanations -one of the main purpose of tools like Modeltracker <ref type="bibr" target="#b1">[1]</ref> and others <ref type="bibr" target="#b11">[11]</ref> is to assist users in selecting instances themselves, and examining the raw data and predictions. However, since looking at raw data is not enough to understand predictions and get insights, the pick step should take into account the explanations that accompany each prediction. Moreover, this method should pick a diverse, representative set of explanations to show the user -i.e. non-redundant explanations that represent how the model behaves globally.</p><p>Given the explanations for a set of instances X (|X| = n), we construct an n × d explanation matrix W that represents the local importance of the interpretable components for each instance. When using linear models as explanations, for an instance xi and explanation gi = ξ(xi), we set Wij = |wg ij |. Further, for each component (column) j in W, we let Ij denote the global importance of that component in the explanation space. Intuitively, we want I such that features that explain many different instances have higher importance scores. In Figure <ref type="figure">5</ref>, we show a toy example W, with n = d = 5, where W is binary (for simplicity). The importance function I should score feature f2 higher than feature f1, i.e. I2 &gt; I1, since feature f2 is used to explain more instances. Concretely for the text applications, we set Ij = n i=1 Wij. For images, I must measure something that is comparable across the super-pixels in different images,  Greedy optimization of Eq (4) V ← V ∪ argmax i c(V ∪ {i}, W, I) end while return V such as color histograms or other features of super-pixels; we leave further exploration of these ideas for future work.</p><p>While we want to pick instances that cover the important components, the set of explanations must not be redundant in the components they show the users, i.e. avoid selecting instances with similar explanations. In Figure <ref type="figure">5</ref>, after the second row is picked, the third row adds no value, as the user has already seen features f2 and f3 -while the last row exposes the user to completely new features. Selecting the second and last row results in the coverage of almost all the features. We formalize this non-redundant coverage intuition in Eq. ( <ref type="formula" target="#formula_3">3</ref>), where we define coverage as the set function c that, given W and I, computes the total importance of the features that appear in at least one instance in a set V .</p><formula xml:id="formula_3">c(V, W, I) = d j=1 1 [∃i∈V :W ij &gt;0] Ij<label>(3)</label></formula><p>The pick problem, defined in Eq. ( <ref type="formula" target="#formula_4">4</ref>), consists of finding the set V, |V | ≤ B that achieves highest coverage.</p><formula xml:id="formula_4">P ick(W, I) = argmax V,|V |≤B c(V, W, I)<label>(4)</label></formula><p>The problem in Eq. ( <ref type="formula" target="#formula_4">4</ref>) is maximizing a weighted coverage function, and is NP-hard <ref type="bibr" target="#b10">[10]</ref>. Let c(V ∪{i}, W, I)-c(V, W, I) be the marginal coverage gain of adding an instance i to a set V . Due to submodularity, a greedy algorithm that iteratively adds the instance with the highest marginal coverage gain to the solution offers a constant-factor approximation guarantee of 1-1/e to the optimum <ref type="bibr" target="#b15">[15]</ref>. We outline this approximation in Algorithm 2, and call it submodular pick.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">SIMULATED USER EXPERIMENTS</head><p>In this section, we present simulated user experiments to evaluate the utility of explanations in trust-related tasks. In particular, we address the following questions: (1) Are the explanations faithful to the model, (2) Can the explanations aid users in ascertaining trust in predictions, and (3) Are the explanations useful for evaluating the model as a whole. Code and data for replicating our experiments are available at https://github.com/marcotcr/lime-experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Experiment Setup</head><p>We use two sentiment analysis datasets (books and DVDs, 2000 instances each) where the task is to classify product reviews as positive or negative <ref type="bibr" target="#b4">[4]</ref>. We train decision trees (DT), logistic regression with L2 regularization (LR), nearest neighbors (NN), and support vector machines with RBF kernel (SVM), all using bag of words as features. We also include random forests (with 1000 trees) trained with the average word2vec embedding <ref type="bibr" target="#b19">[19]</ref> (RF), a model that is impossible to interpret without a technique like LIME. We use the implementations and default parameters of scikitlearn, unless noted otherwise. We divide each dataset into train (1600 instances) and test (400 instances).</p><p>To explain individual predictions, we compare our proposed approach (LIME), with parzen [2], a method that approximates the black box classifier globally with Parzen windows, and explains individual predictions by taking the gradient of the prediction probability function. For parzen, we take the K features with the highest absolute gradients as explanations. We set the hyper-parameters for parzen and LIME using cross validation, and set N = 15, 000. We also compare against a greedy procedure (similar to (author?) <ref type="bibr" target="#b18">[18]</ref>) in which we greedily remove features that contribute the most to the predicted class until the prediction changes (or we reach the maximum of K features), and a random procedure that randomly picks K features as an explanation. We set K to 10 for our experiments.</p><p>For experiments where the pick procedure applies, we either do random selection (random pick, RP) or the procedure described in §4 (submodular pick, SP). We refer to pickexplainer combinations by adding RP or SP as a prefix.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Are explanations faithful to the model?</head><p>We measure faithfulness of explanations on classifiers that are by themselves interpretable (sparse logistic regression   and decision trees). In particular, we train both classifiers such that the maximum number of features they use for any instance is 10, and thus we know the gold set of features that the are considered important by these models. For each prediction on the test set, we generate explanations and compute the fraction of these gold features that are recovered by the explanations. We report this recall averaged over all the test instances in Figures <ref type="figure" target="#fig_9">6</ref> and<ref type="figure" target="#fig_10">7</ref>. We observe that the greedy approach is comparable to parzen on logistic regression, but is substantially worse on decision trees since changing a single feature at a time often does not have an effect on the prediction. The overall recall by parzen is low, likely due to the difficulty in approximating the original highdimensional classifier. LIME consistently provides &gt; 90% recall for both classifiers on both datasets, demonstrating that LIME explanations are faithful to the models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3">Should I trust this prediction?</head><p>In order to simulate trust in individual predictions, we first randomly select 25% of the features to be "untrustworthy", and assume that the users can identify and would not want to trust these features (such as the headers in 20 newsgroups, leaked data, etc). We thus develop oracle "trustworthiness" by labeling test set predictions from a black box classifier as "untrustworthy" if the prediction changes when untrustworthy features are removed from the instance, and "trustworthy" otherwise. In order to simulate users, we assume that users deem predictions untrustworthy from LIME and parzen explanations if the prediction from the linear approximation changes when all untrustworthy features that appear in the explanations are removed (the simulated human "discounts" the effect of untrustworthy features). For greedy and random, the prediction is mistrusted if any untrustworthy features are present in the explanation, since these methods do not provide a notion of the contribution of each feature to the prediction. Thus for each test set prediction, we can evaluate whether the simulated user trusts it using each explanation method, and compare it to the trustworthiness oracle.</p><p>Using this setup, we report the F1 on the trustworthy   predictions for each explanation method, averaged over 100 runs, in Table <ref type="table" target="#tab_0">1</ref>. The results indicate that LIME dominates others (all results are significant at p = 0.01) on both datasets, and for all of the black box models. The other methods either achieve a lower recall (i.e. they mistrust predictions more than they should) or lower precision (i.e. they trust too many predictions), while LIME maintains both high precision and high recall. Even though we artificially select which features are untrustworthy, these results indicate that LIME is helpful in assessing trust in individual predictions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4">Can I trust this model?</head><p>In the final simulated user experiment, we evaluate whether the explanations can be used for model selection, simulating the case where a human has to decide between two competing models with similar accuracy on validation data. For this purpose, we add 10 artificially "noisy" features. Specifically, on training and validation sets (80/20 split of the original training data), each artificial feature appears in 10% of the examples in one class, and 20% of the other, while on the test instances, each artificial feature appears in 10% of the examples in each class. This recreates the situation where the models use not only features that are informative in the real world, but also ones that introduce spurious correlations. We create pairs of competing classifiers by repeatedly training pairs of random forests with 30 trees until their validation accuracy is within 0.1% of each other, but their test accuracy differs by at least 5%. Thus, it is not possible to identify the better classifier (the one with higher test accuracy) from the accuracy on the validation data.</p><p>The goal of this experiment is to evaluate whether a user can identify the better classifier based on the explanations of B instances from the validation set. The simulated human marks the set of artificial features that appear in the B explanations as untrustworthy, following which we evaluate how many total predictions in the validation set should be trusted (as in the previous section, treating only marked features as untrustworthy). Then, we select the classifier with fewer untrustworthy predictions, and compare this choice to the classifier with higher held-out test set accuracy.</p><p>We present the accuracy of picking the correct classifier as B varies, averaged over 800 runs, in Figure <ref type="figure" target="#fig_12">8</ref>. We omit SP-parzen and RP-parzen from the figure since they did not produce useful explanations, performing only slightly better than random. LIME is consistently better than greedy, irrespective of the pick method. Further, combining submodular pick with LIME outperforms all other methods, in particular it is much better than RP-LIME when only a few examples are shown to the users. These results demonstrate that the trust assessments provided by SP-selected LIME explanations are good indicators of generalization, which we validate with human experiments in the next section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">EVALUATION WITH HUMAN SUBJECTS</head><p>In this section, we recreate three scenarios in machine learning that require trust and understanding of predictions and models. In particular, we evaluate LIME and SP-LIME in the following settings: (1) Can users choose which of two classifiers generalizes better ( § 6.2), (2) based on the explanations, can users perform feature engineering to improve the model ( § 6.3), and ( <ref type="formula" target="#formula_3">3</ref>) are users able to identify and describe classifier irregularities by looking at explanations ( § 6.4).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1">Experiment setup</head><p>For experiments in §6.2 and §6.3, we use the "Christianity" and "Atheism" documents from the 20 newsgroups dataset mentioned beforehand. This dataset is problematic since it contains features that do not generalize (e.g. very informative header information and author names), and thus validation accuracy considerably overestimates real-world performance.</p><p>In order to estimate the real world performance, we create a new religion dataset for evaluation. We download Atheism and Christianity websites from the DMOZ directory and human curated lists, yielding 819 webpages in each class. High accuracy on this dataset by a classifier trained on 20 newsgroups indicates that the classifier is generalizing using semantic content, instead of placing importance on the data specific issues outlined above. Unless noted otherwise, we use SVM with RBF kernel, trained on the 20 newsgroups data with hyper-parameters tuned via the cross-validation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2">Can users select the best classifier?</head><p>In this section, we want to evaluate whether explanations can help users decide which classifier generalizes better, i.e., which classifier would the user deploy "in the wild". Specifically, users have to decide between two classifiers: SVM trained on the original 20 newsgroups dataset, and a version of the same classifier trained on a "cleaned" dataset where many of the features that do not generalize have been manually removed. The original classifier achieves an accuracy score of 57.3% on the religion dataset, while the "cleaned" classifier achieves a score of 69.0%. In contrast, the test accuracy on the original 20 newsgroups split is 94.0% and 88.6%, respectively -suggesting that the worse classifier would be selected if accuracy alone is used as a measure of trust.</p><p>We recruit human subjects on Amazon Mechanical Turkby no means machine learning experts, but instead people with basic knowledge about religion. We measure their ability to choose the better algorithm by seeing side-byside explanations with the associated raw data (as shown in Figure <ref type="figure" target="#fig_2">2</ref>). We restrict both the number of words in each explanation (K) and the number of documents that each  person inspects (B) to 6. The position of each algorithm and the order of the instances seen are randomized between subjects. After examining the explanations, users are asked to select which algorithm will perform best in the real world. The explanations are produced by either greedy (chosen as a baseline due to its performance in the simulated user experiment) or LIME, and the instances are selected either by random (RP) or submodular pick (SP). We modify the greedy step in Algorithm 2 slightly so it alternates between explanations of the two classifiers. For each setting, we repeat the experiment with 100 users. The results are presented in Figure <ref type="figure" target="#fig_13">9</ref>. Note that all of the methods are good at identifying the better classifier, demonstrating that the explanations are useful in determining which classifier to trust, while using test set accuracy would result in the selection of the wrong classifier. Further, we see that the submodular pick (SP) greatly improves the user's ability to select the best classifier when compared to random pick (RP), with LIME outperforming greedy in both cases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3">Can non-experts improve a classifier?</head><p>If one notes that a classifier is untrustworthy, a common task in machine learning is feature engineering, i.e. modifying the set of features and retraining in order to improve generalization. Explanations can aid in this process by presenting the important features, particularly for removing features that the users feel do not generalize.</p><p>We use the 20 newsgroups data here as well, and ask Amazon Mechanical Turk users to identify which words from the explanations should be removed from subsequent training, for the worse classifier from the previous section ( §6.2). In each round, the subject marks words for deletion after observing B = 10 instances with K = 10 words in each explanation (an interface similar to Figure <ref type="figure" target="#fig_2">2</ref>, but with a single algorithm). As a reminder, the users here are not experts in machine learning and are unfamiliar with feature engineering, thus are only identifying words based on their semantic content. Further, users do not have any access to the religion dataset -they do not even know of its existence. We start the experiment with 10 subjects. After they mark words for deletion, we train 10 different classifiers, one for each subject (with the corresponding words removed). The explanations for each classifier are then presented to a set of 5 users in a new round of interaction, which results in 50 new classifiers. We do a final round, after which we have 250 classifiers, each with a path of interaction tracing back to the first 10 subjects.</p><p>The explanations and instances shown to each user are produced by SP-LIME or RP-LIME. We show the average accuracy on the religion dataset at each interaction round for the paths originating from each of the original 10 subjects (shaded lines), and the average across all paths (solid lines) in Figure <ref type="figure" target="#fig_14">10</ref>. It is clear from the figure that the crowd workers are able to improve the model by removing features they deem unimportant for the task. Further, SP-LIME outperforms RP-LIME, indicating selection of the instances to show the users is crucial for efficient feature engineering.</p><p>Each subject took an average of 3.6 minutes per round of cleaning, resulting in just under 11 minutes to produce a classifier that generalizes much better to real world data. Each path had on average 200 words removed with SP, and 157 with RP, indicating that incorporating coverage of important features is useful for feature engineering. Further, out of an average of 200 words selected with SP, 174 were selected by at least half of the users, while 68 by all the users. Along with the fact that the variance in the accuracy decreases across rounds, this high agreement demonstrates that the users are converging to similar correct models. This evaluation is an example of how explanations make it easy to improve an untrustworthy classifier -in this case easy enough that machine learning knowledge is not required.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.4">Do explanations lead to insights?</head><p>Often artifacts of data collection can induce undesirable correlations that the classifiers pick up during training. These issues can be very difficult to identify just by looking at the raw data and predictions. In an effort to reproduce such a setting, we take the task of distinguishing between photos of Wolves and Eskimo Dogs (huskies). We train a logistic regression classifier on a training set of 20 images, hand selected such that all pictures of wolves had snow in the background, while pictures of huskies did not. As the features for the images, we use the first max-pooling layer of Google's pre-trained Inception neural network <ref type="bibr" target="#b25">[25]</ref>. On a collection of additional 60 images, the classifier predicts "Wolf" if there is snow (or light background at the bottom), and "Husky" otherwise, regardless of animal color, position, pose, etc. We trained this bad classifier intentionally, to evaluate whether subjects are able to detect it.</p><p>The experiment proceeds as follows: we first present a balanced set of 10 test predictions (without explanations), where one wolf is not in a snowy background (and thus the prediction is "Husky") and one husky is (and is thus predicted as "Wolf"). We show the "Husky" mistake in Figure <ref type="figure" target="#fig_16">11a</ref>. The other 8 examples are classified correctly. We then ask the subject three questions: (1) Do they trust this algorithm   to work well in the real world, (2) why, and (3) how do they think the algorithm is able to distinguish between these photos of wolves and huskies. After getting these responses, we show the same images with the associated explanations, such as in Figure <ref type="figure" target="#fig_16">11b</ref>, and ask the same questions.</p><p>Since this task requires some familiarity with the notion of spurious correlations and generalization, the set of subjects for this experiment were graduate students who have taken at least one graduate machine learning course. After gathering the responses, we had 3 independent evaluators read their reasoning and determine if each subject mentioned snow, background, or equivalent as a feature the model may be using. We pick the majority to decide whether the subject was correct about the insight, and report these numbers before and after showing the explanations in Table <ref type="table" target="#tab_1">2</ref>.</p><p>Before observing the explanations, more than a third trusted the classifier, and a little less than half mentioned the snow pattern as something the neural network was using -although all speculated on other patterns. After examining the explanations, however, almost all of the subjects identified the correct insight, with much more certainty that it was a determining factor. Further, the trust in the classifier also dropped substantially. Although our sample size is small, this experiment demonstrates the utility of explaining individual predictions for getting insights into classifiers knowing when not to trust them and why.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">RELATED WORK</head><p>The problems with relying on validation set accuracy as the primary measure of trust have been well studied. Practitioners consistently overestimate their model's accuracy <ref type="bibr" target="#b21">[21]</ref>, propagate feedback loops <ref type="bibr" target="#b23">[23]</ref>, or fail to notice data leaks <ref type="bibr" target="#b14">[14]</ref>. In order to address these issues, researchers have proposed tools like Gestalt <ref type="bibr" target="#b20">[20]</ref> and Modeltracker <ref type="bibr" target="#b1">[1]</ref>, which help users navigate individual instances. These tools are complementary to LIME in terms of explaining models, since they do not address the problem of explaining individual predictions. Further, our submodular pick procedure can be incorporated in such tools to aid users in navigating larger datasets. Some recent work aims to anticipate failures in machine learning, specifically for vision tasks <ref type="bibr" target="#b3">[3,</ref><ref type="bibr" target="#b29">29]</ref>. Letting users know when the systems are likely to fail can lead to an increase in trust, by avoiding "silly mistakes" <ref type="bibr" target="#b8">[8]</ref>. These solutions either require additional annotations and feature engineering that is specific to vision tasks or do not provide insight into why a decision should not be trusted. Furthermore, they assume that the current evaluation metrics are reliable, which may not be the case if problems such as data leakage are present. Other recent work <ref type="bibr" target="#b11">[11]</ref> focuses on exposing users to different kinds of mistakes (our pick step). Interestingly, the subjects in their study did not notice the serious problems in the 20 newsgroups data even after looking at many mistakes, suggesting that examining raw data is not sufficient. Note that (author?) <ref type="bibr" target="#b11">[11]</ref> are not alone in this regard, many researchers in the field have unwittingly published classifiers that would not generalize for this task.</p><p>Using LIME, we show that even non-experts are able to identify these irregularities when explanations are present. Further, LIME can complement these existing systems, and allow users to assess trust even when a prediction seems "correct" but is made for the wrong reasons.</p><p>Recognizing the utility of explanations in assessing trust, many have proposed using interpretable models <ref type="bibr" target="#b27">[27]</ref>, especially for the medical domain <ref type="bibr" target="#b6">[6,</ref><ref type="bibr" target="#b17">17,</ref><ref type="bibr" target="#b26">26]</ref>. While such models may be appropriate for some domains, they may not apply equally well to others (e.g. a supersparse linear model <ref type="bibr" target="#b26">[26]</ref> with 5 -10 features is unsuitable for text applications). Interpretability, in these cases, comes at the cost of flexibility, accuracy, or efficiency. For text, EluciDebug <ref type="bibr" target="#b16">[16]</ref> is a full human-in-the-loop system that shares many of our goals (interpretability, faithfulness, etc). However, they focus on an already interpretable model (Naive Bayes). In computer vision, systems that rely on object detection to produce candidate alignments <ref type="bibr" target="#b13">[13]</ref> or attention <ref type="bibr" target="#b28">[28]</ref> are able to produce explanations for their predictions. These are, however, constrained to specific neural network architectures or incapable of detecting "non object" parts of the images. Here we focus on general, model-agnostic explanations that can be applied to any classifier or regressor that is appropriate for the domain -even ones that are yet to be proposed.</p><p>A common approach to model-agnostic explanation is learning a potentially interpretable model on the predictions of the original model <ref type="bibr" target="#b2">[2,</ref><ref type="bibr" target="#b7">7,</ref><ref type="bibr" target="#b22">22]</ref>. Having the explanation be a gradient vector <ref type="bibr" target="#b2">[2]</ref> captures a similar locality intuition to that of LIME. However, interpreting the coefficients on the gradient is difficult, particularly for confident predictions (where gradient is near zero). Further, these explanations approximate the original model globally, thus maintaining local fidelity becomes a significant challenge, as our experiments demonstrate. In contrast, LIME solves the much more feasible task of finding a model that approximates the original model locally. The idea of perturbing inputs for explanations has been explored before <ref type="bibr" target="#b24">[24]</ref>, where the authors focus on learning a specific contribution model, as opposed to our general framework. None of these approaches explicitly take cognitive limitations into account, and thus may produce non-interpretable explanations, such as a gradients or linear models with thousands of non-zero weights. The problem becomes worse if the original features are nonsensical to humans (e.g. word embeddings). In contrast, LIME incorporates interpretability both in the optimization and in our notion of interpretable representation, such that domain and task specific interpretability criteria can be accommodated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">CONCLUSION AND FUTURE WORK</head><p>In this paper, we argued that trust is crucial for effective human interaction with machine learning systems, and that explaining individual predictions is important in assessing trust. We proposed LIME, a modular and extensible approach to faithfully explain the predictions of any model in an interpretable manner. We also introduced SP-LIME, a method to select representative and non-redundant predictions, providing a global view of the model to users. Our experiments demonstrated that explanations are useful for a variety of models in trust-related tasks in the text and image domains, with both expert and non-expert users: deciding between models, assessing trust, improving untrustworthy models, and getting insights into predictions.</p><p>There are a number of avenues of future work that we would like to explore. Although we describe only sparse linear models as explanations, our framework supports the exploration of a variety of explanation families, such as decision trees; it would be interesting to see a comparative study on these with real users. One issue that we do not mention in this work was how to perform the pick step for images, and we would like to address this limitation in the future. The domain and model agnosticism enables us to explore a variety of applications, and we would like to investigate potential uses in speech, video, and medical domains, as well as recommendation systems. Finally, we would like to explore theoretical properties (such as the appropriate number of samples) and computational optimizations (such as using parallelization and GPU processing), in order to provide the accurate, real-time explanations that are critical for any human-in-the-loop machine learning system.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Explaining individual predictions.A model predicts that a patient has the flu, and LIME highlights the symptoms in the patient's history that led to the prediction. Sneeze and headache are portrayed as contributing to the "flu" prediction, while "no fatigue" is evidence against it. With these, a doctor can make an informed decision about whether to trust the model's prediction.</figDesc><graphic coords="2,316.81,201.38,239.09,121.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Explaining individual predictions of competing classifiers trying to determine if a document is about "Christianity" or "Atheism". The bar chart represents the importance given to the most relevant words, also highlighted in the text. Color indicates which class the word contributes to (green for "Christianity", magenta for "Atheism").</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Toy example to present intuition for LIME.The black-box model's complex decision function f (unknown to LIME) is represented by the blue/pink background, which cannot be approximated well by a linear model. The bold red cross is the instance being explained. LIME samples instances, gets predictions using f , and weighs them by the proximity to the instance being explained (represented here by size). The dashed line is the learned explanation that is locally (but not globally) faithful.</figDesc><graphic coords="4,76.18,53.80,191.29,119.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>(a) Original Image (b) Explaining Electric guitar (c) Explaining Acoustic guitar (d) Explaining Labrador</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Explaining an image classification prediction made by Google's Inception neural network. The top 3 classes predicted are "Electric Guitar" (p = 0.32), "Acoustic guitar" (p = 0.24) and "Labrador" (p = 0.21)</figDesc><graphic coords="5,183.51,63.76,120.51,120.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 5 :Algorithm 2</head><label>52</label><figDesc>Figure 5: Toy example W. Rows represent instances (documents) and columns represent features (words). Feature f2 (dotted blue) has the highest importance. Rows 2 and 5 (in red) would be selected by the pick procedure, covering all but feature f1.</figDesc><graphic coords="5,56.87,63.76,120.51,120.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 6 :</head><label>6</label><figDesc>Figure 6: Recall on truly important features for two interpretable classifiers on the books dataset.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 7 :</head><label>7</label><figDesc>Figure 7: Recall on truly important features for two interpretable classifiers on the DVDs dataset.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 8 :</head><label>8</label><figDesc>Figure 8: Choosing between two classifiers, as the number of instances shown to a simulated user is varied. Averages and standard errors from 800 runs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 9 :</head><label>9</label><figDesc>Figure 9: Average accuracy of human subject (with standard errors) in choosing between two classifiers.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 10 :</head><label>10</label><figDesc>Figure 10: Feature engineering experiment. Each shaded line represents the average accuracy of subjects in a path starting from one of the initial 10 subjects. Each solid line represents the average across all paths per round of interaction.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 11 :</head><label>11</label><figDesc>Figure 11: Raw data and explanation of a bad model's prediction in the "Husky vs Wolf " task.</figDesc><graphic coords="9,65.26,63.76,100.42,100.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Average F1 of trustworthiness for different explainers on a collection of classifiers and datasets.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell cols="2">Books</cell><cell>DVDs</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">LR NN RF SVM</cell><cell>LR NN RF SVM</cell></row><row><cell cols="5">Random 14.6 14.8 14.7 14.7</cell><cell>14.2 14.3 14.5 14.4</cell></row><row><cell cols="2">Parzen</cell><cell cols="3">84.0 87.6 94.3 92.3</cell><cell>87.0 81.7 94.2 87.3</cell></row><row><cell cols="2">Greedy</cell><cell cols="3">53.7 47.4 45.0 53.3</cell><cell>52.4 58.1 46.6 55.1</cell></row><row><cell cols="2">LIME</cell><cell cols="3">96.6 94.5 96.2 96.7 96.6 91.8 96.1 95.6</cell></row><row><cell></cell><cell>85</cell><cell></cell><cell></cell></row><row><cell>% correct choice</cell><cell>65 45</cell><cell></cell><cell></cell><cell>SP-LIME RP-LIME SP-greedy RP-greedy</cell></row><row><cell></cell><cell>0</cell><cell>10</cell><cell>20</cell><cell>30</cell></row><row><cell></cell><cell cols="4"># of instances seen by the user</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 :</head><label>2</label><figDesc>"Husky vs Wolf " experiment results.</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>For multiple classes, we explain each class separately, thus f (x) is the prediction of the relevant class.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We would like to thank <rs type="person">Scott Lundberg</rs>, <rs type="person">Tianqi Chen</rs>, and <rs type="person">Tyler Johnson</rs> for helpful discussions and feedback. This work was supported in part by <rs type="funder">ONR</rs> awards #<rs type="grantNumber">W911NF-13-1-0246</rs> and #<rs type="grantNumber">N00014-13-1-0023</rs>, and in part by <rs type="funder">TerraSwarm</rs>, one of six centers of STARnet, a Semiconductor Research Corporation program sponsored by <rs type="funder">MARCO</rs> and <rs type="funder">DARPA</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_9NXnwXu">
+					<idno type="grant-number">W911NF-13-1-0246</idno>
+				</org>
+				<org type="funding" xml:id="_QE9VzB7">
+					<idno type="grant-number">N00014-13-1-0023</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>References</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Modeltracker: Redesigning performance analysis tools for machine learning</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Amershi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Drucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Simard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Human Factors in Computing Systems (CHI)</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">How to explain individual classification decisions</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baehrens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schroeter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harmeling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kawanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-R</forename><surname>Müller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Towards transparent systems: Semantic characterization of failure modes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bansal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Farhadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Parikh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">European Conference on Computer Vision (ECCV)</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Biographies, bollywood, boom-boxes and blenders: Domain adaptation for sentiment classification</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dredze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pereira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Association for Computational Linguistics (ACL)</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Q</forename><surname>Candela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sugiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwaighofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Lawrence</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Dataset Shift in Machine Learning</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Intelligible models for healthcare: Predicting pneumonia risk and hospital 30-day readmission</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Caruana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gehrke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sturm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Elhadad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Knowledge Discovery and Data Mining (KDD)</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Extracting tree-structured representations of trained networks</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Shavlik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neural information processing systems (NIPS)</title>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="page" from="24" to="30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The role of trust in automation reliance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Dzindolet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Pomranky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Beck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Hum.-Comput. Stud</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Least angle regression</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Efron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Johnstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Statistics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="407" to="499" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A threshold of ln n for approximating set cover</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Feige</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. ACM</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="1998-07">July 1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">You are the only possible oracle: Effective test selection for end users of interactive machine learning systems</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Groce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kulesza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shamasunder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stumpf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shinsel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcintosh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Softw. Eng</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Explaining collaborative filtering recommendations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Herlocker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Konstan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Riedl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conference on Computer Supported Cooperative Work (CSCW)</title>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Deep visual-semantic alignments for generating image descriptions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karpathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Leakage in data mining: Formulation, detection, and avoidance</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rosset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perlich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Knowledge Discovery and Data Mining (KDD)</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Submodular function maximization</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Golovin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Tractability: Practical Approaches to Hard Problems</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2014-02">February 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Principles of explanatory debugging to personalize interactive machine learning</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kulesza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stumpf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Intelligent User Interfaces (IUI)</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Interpretable classifiers using rules and bayesian analysis: Building a better stroke prediction model</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Letham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Mccormick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Madigan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Applied Statistics</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Explaining data-driven document classifications</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Martens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Provost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MIS</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Distributed representations of words and phrases and their compositionality</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mikolov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neural Information Processing Systems (NIPS)</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Gestalt: Integrated support for implementation and analysis in machine learning</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bancroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Drucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fogarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Landay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">User Interface Software and Technology (UIST)</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Investigating statistical machine learning as a tool for software development</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fogarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Landay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Human Factors in Computing Systems (CHI)</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Towards extracting faithful and descriptive representations of latent variable models</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rocktaschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Riedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AAAI Spring Syposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Hidden technical debt in machine learning systems</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sculley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Golovin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Davydov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ebner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chaudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-F</forename><surname>Crespo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neural Information Processing Systems (NIPS)</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An efficient explanation of individual classifications using game theory</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Strumbelj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kononenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Going deeper with convolutions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sermanet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Anguelov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Erhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vanhoucke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rabinovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Supersparse linear integer models for optimized medical scoring systems</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ustun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Falling rule lists</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Artificial Intelligence and Statistics (AISTATS)</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Show, attend and tell: Neural image caption generation with visual attention</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kiros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Courville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salakhutdinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zemel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Machine Learning (ICML)</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Predicting failures of vision systems</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Farhadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Parikh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision and Pattern Recognition (CVPR)</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

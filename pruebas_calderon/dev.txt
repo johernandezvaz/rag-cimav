@@ -1,0 +1,35 @@
+
+Aquitectura RAG: Grobid (CPU), SQLite (CPU y disco), FAISS (GPU con mucha memoria), Mixtral/Mistral Local (Requiere +32GB Ram),
+FastAPI backend (CPU), Embeddings - SentenceTransformers (GPUs modernos).
+
+Para 2000 PDFs (~40 páginas cada uno), si quieres un sistema usable, rápido y robusto, considera:
+Opción mínima razonable:
+- GPU moderna tipo RTX 3090 / A100 / H100 (ideal) / RTX 4080/4090 / L40S (si es local).
+- Mistral-7B quantizado con GGUF y Ollama o vLLM.
+- FAISS en CPU o GPU, según disponibilidad.
+- Embeddings con e5-base-v2 o similares.
+
+
+
+Para descargar grobid para docker
+ docker pull lfoppiano/grobid:0.8.0
+Comprobar que ya esta
+ docker images
+Ejecutarla
+ docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.8.0
+Navegar
+    http://localhost:8070
+
+
+Orden ejecución
+  from_pdf_to_tei.py  -> toma el PDF (uno) de papers y lo pasa a formato tei (xml) por secciones
+                         habría que hacerse experto en su estructura.
+  from_tei_to_sqlite  -> pasa el tei a registro en el SQLite;
+                         puede ser que un solo archivo genere registros en diferentes tablas (maestro/esclavo)
+  from_sqlite_to_faiss_index -> re-construye el indice de Faiss con todos los registros del SQLite.
+                                Carga todos los chunks de la tabla chunks y los convierte en un vector de embedding
+                                para meterlos al Faiss. El indice se llama "faiss.index"
+                                Una vez dentro del Faiss ya pueden ser consultados.
+
+  los archivos search tiene diferentes configuraciones y formas de filtrar y consultar el faiss.index
+

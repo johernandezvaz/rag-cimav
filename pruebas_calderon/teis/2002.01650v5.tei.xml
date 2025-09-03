@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Concept Whitening for Interpretable Image Recognition</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Zhi</forename><surname>Chen</surname></persName>
+							<email>&lt;zhi.chen1@duke.edu&gt;.</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Duke University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yijie</forename><surname>Bei</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical and Computer Engineer-ing</orgName>
+								<orgName type="institution">Duke University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cynthia</forename><surname>Rudin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Duke University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical and Computer Engineer-ing</orgName>
+								<orgName type="institution">Duke University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Concept Whitening for Interpretable Image Recognition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">05C99229BC2C7CD7B7ECD4638EA8130B</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-09-03T15:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>What does a neural network encode about a concept as we traverse through the layers? Interpretability in machine learning is undoubtedly important, but the calculations of neural networks are very challenging to understand. Attempts to see inside their hidden layers can either be misleading, unusable, or rely on the latent space to possess properties that it may not have. In this work, rather than attempting to analyze a neural network posthoc, we introduce a mechanism, called concept whitening (CW), to alter a given layer of the network to allow us to better understand the computation leading up to that layer. When a concept whitening module is added to a CNN, the axes of the latent space are aligned with known concepts of interest. By experiment, we show that CW can provide us a much clearer understanding for how the network gradually learns concepts over layers. CW is an alternative to a batch normalization layer in that it normalizes, and also decorrelates (whitens) the latent space. CW can be used in any layer of the network without hurting predictive performance.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>An important practical challenge that arises with neural networks is the fact that the units within their hidden layers are not usually semantically understandable. This is particularly true with computer vision applications, where an expanding body of research has focused centrally on explaining the calculations of neural networks and other black box models. Some of the core questions considered in these posthoc analyses of neural networks include: "What concept does a unit in a hidden layer of a trained neural network represent?"or "Does this unit in the network represent a concept that a human might understand?"</p><p>The questions listed above are important, but it is not clear that they would naturally have satisfactory answers when performing posthoc analysis on a pretrained neural network. In fact, there are several reasons why various types of posthoc analyses would not answer these questions.</p><p>Efforts to interpret individual nodes of pretrained neural networks (e.g. <ref type="bibr">(Zhou et al., 2018a;</ref><ref type="bibr">2014)</ref>) have shown that some fraction of nodes can be identified to be aligned with some high-level semantic meaning, but these special nodes do not provably contain the network's full information about the concepts. That is, the nodes are not "pure," and information about the concept could be scattered throughout the network.</p><p>Concept-vector methods also <ref type="bibr" target="#b21">(Kim et al., 2018;</ref><ref type="bibr">Zhou et al., 2018b;</ref><ref type="bibr" target="#b11">Ghorbani et al., 2019)</ref> have been used to analyze pretrained neural networks. Here, vectors in the latent space are chosen to align with pre-defined or automatically-discovered concepts. While concept-vectors are more promising, they still make the assumption that the latent space of a neural network admits a posthoc analysis of a specific form. In particular, they assume that the latent space places members of each concept in one easy-to-classify portion of latent space. Since the latent space was not explicitly constructed to have this property, there is no reason to believe it holds.</p><p>Ideally, we would want a neural network whose latent space tells us how it is disentangling concepts, without needing to resort to extra classifiers like concept-vector methods <ref type="bibr" target="#b21">(Kim et al., 2018;</ref><ref type="bibr" target="#b11">Ghorbani et al., 2019)</ref>, without surveys to humans <ref type="bibr" target="#b49">(Zhou et al., 2014)</ref>, and without other manipulations that rely on whether the geometry of a latent space serendipitously admits analysis of concepts. Rather than having to rely on assumptions that the latent space admits disentanglement, we would prefer to constrain the latent space directly. We might even wish that the concepts align themselves along the axes of the latent space, so that each point in the latent space has an interpretation in terms of known concepts.</p><p>Let us discuss how one would go about imposing such constraints on the latent space. In particular, we introduce the possibility of what we call concept whitening. Concept whitening (CW) is a module inserted into a neural network. It constrains the latent space to represent target concepts and also provides a straightforward means to extract them. It arXiv: <ref type="bibr">2002.01650v5 [cs.</ref>LG] 7 Dec 2020</p><p>does not force the concepts to be learned as an intermediate step, rather it imposes the latent space to be aligned along the concepts.</p><p>For instance, let us say that, using CW on a lower layer of the network, the concept "airplane" is represented along one axis. By examining the images along this axis, we can find the lower-level characteristic that the network is using to best approximate the complex concept "airplane," which might be white or silver objects with blue backgrounds. In the lower layers of a standard neural network, we cannot necessarily find these characteristics, because the relevant information of "airplane" might be spread throughout latent space rather than along an "airplane" axis.</p><p>By looking at images along the airplane axis at each layer, we see how the network gradually represents airplanes with an increasing level of sophistication and complexity.</p><p>Concept whitening could be used to replace a plain batch normalization step in a CNN backbone, because it combines batch whitening with an extra step involving a rotation matrix. Batch whitening usually provides helpful properties to latent spaces, but our goal requires the whitening to take place with respect to concepts; the use of the rotation matrix to align the concepts with the axes is the key to interpretability through disentangled concepts. Whitening decorrelates and normalizes each axis (i.e., transforms the post-convolution latent space so that the covariance matrix between channels is the identity).</p><p>Exploiting the property that a whitening transformation remains valid after applying arbitrary rotation, the rotation matrix strategically matches the concepts to the axes.</p><p>The concepts used in CW do not need to be the labels in the classification problem, they can be learned from an auxiliary dataset in which concepts are labeled. The concepts do not need to be labeled in the dataset involved in the main classification task (though they could be), and the main classification labels do not need to be available in the auxiliary concept dataset.</p><p>Through qualitative and quantitative experiments, we illustrate how concept whitening applied to the various layers of the neural network illuminates its internal calculations. We verify the interpretability and pureness of concepts in the disentangled latent space. Importantly for practice, we show that by replacing the batch normalization layer in pretrained state-of-the-art models with a CW module, the resulting neural network can achieve accuracy on par with the corresponding original black box neural network on large datasets, and it can do this within one additional epoch of further training. Thus, with fairly minimal effort, one can make a small modification to a neural network architecture (adding a CW module), and in return be able to easily visualize how the network is learning all of the different concepts at any chosen layer.</p><p>CW can show us how a concept is represented at a given layer of the network. What we find is that at lower layers, since a complex concept cannot be represented by the network, it often creates lower-level abstract concepts. For example, an airplane at an early layer is represented by an abstract concept defined by white or gray objects on a blue background. A bed is represented by an abstract concept that seems to be characterized by warm colors <ref type="bibr">(orange, yellow)</ref>. In that sense, the CW layer can help us to discover new concepts that can be formally defined and built on, if desired.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Related work</head><p>There are several large and rapidly expanding bodies of relevant literature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretability and explainability of neural networks:</head><p>There have been two schools of thought on improving the interpretability of neural networks: (1) learning an inherently interpretable model <ref type="bibr" target="#b32">(Rudin, 2019)</ref>; (2) providing post-hoc explanations for an exist neural network. CW falls within the first type, though it only enlightens what the network is doing, rather than providing a full understanding of the network's computations. To provide a full explanation of each computation would lead to more constraints and thus a loss in flexibility, whereas CW allows more flexibility in exchange for more general types of explanations. The vast majority of current works on neural networks are of the second type, explainability. A problem with the terminology is that "explanation" methods are often summary statistics of performance (e.g., local approximations, general trends on node activation) rather than actual explanations of the model's calculations. For instance, if a node is found to activate when a certain concept is present in an image, it does not mean that all information (or even the majority of information) about this concept is involved with that particular node.</p><p>Saliency-based methods are the most common form of post-hoc explanations for neural networks <ref type="bibr" target="#b46">(Zeiler &amp; Fergus, 2014;</ref><ref type="bibr" target="#b38">Simonyan et al., 2014;</ref><ref type="bibr" target="#b39">Smilkov et al., 2017;</ref><ref type="bibr" target="#b34">Selvaraju et al., 2017)</ref>. These methods assign importance weights to each pixel of the input image to show the importance of each pixel to the image's predicted class. Saliency maps are problematic for well-known reasons: they often provide highlighting of edges in images, regardless of the class. Thus, very similar explanations are given for multiple classes, and often none of them are useful explanations <ref type="bibr" target="#b32">(Rudin, 2019)</ref>. Saliency methods can be unreliable and fragile <ref type="bibr" target="#b0">(Adebayo et al., 2018)</ref>.</p><p>Other work provides explanations of how the network's latent features operate. Some measure the alignment of an individual internal unit, or a filter of a trained neural network, to a predefined concept and find some units have relatively strong alignment to that concept <ref type="bibr">(Zhou et al., 2018a;</ref><ref type="bibr">2014)</ref>. While some units (i.e., filters) may align nicely with pre-defined concepts, the concept can be represented diffusely through many units (the concept representation by individual nodes is impure); this is because the network was not trained to have concepts expressed purely through individual nodes. To address this weakness, several conceptbased post-hoc explanation approaches have recently been proposed that do not rely on the concept aligning with individual units <ref type="bibr" target="#b21">(Kim et al., 2018;</ref><ref type="bibr">Zhou et al., 2018b;</ref><ref type="bibr" target="#b11">Ghorbani et al., 2019;</ref><ref type="bibr" target="#b45">Yeh et al., 2019)</ref>. Instead of analyzing individual units, these methods try to learn a linear combination of them to represent a predefined concept <ref type="bibr" target="#b21">(Kim et al., 2018)</ref> or to automatically discover concepts by clustering patches and defining the clusters as new concepts <ref type="bibr" target="#b11">(Ghorbani et al., 2019)</ref>. Although these methods are promising, they are based on assumptions of the latent space that may not hold. For instance, these methods assume that a classifier (usually a linear classifier) exists on the latent space such that the concept is correctly classified. Since the network was not trained so that this assumption holds, it may not hold. More importantly, since the latent space is not shaped explicitly to handle this kind of concept-based explanation, unit vectors (directions) in the latent space may not represent concepts purely. We will give an example in the next section to show why latent spaces built without constraints may not achieve concept separation.</p><p>CW avoids these problems because it shapes the latent space through training. In that sense, CW is closer to work on inherently interpretable neural networks, though its usecase is in the spirit of concept vectors, in that it is useful for providing important directions in the latent space.</p><p>There are emerging works trying to build inherently interpretable neural networks. Like CW, they alter the network structure to encourage different forms of interpretability. For example, neural networks have been designed to perform case-based reasoning <ref type="bibr" target="#b5">(Chen et al., 2019;</ref><ref type="bibr" target="#b24">Li et al., 2018)</ref>, to incorporate logical or grammatical structures <ref type="bibr" target="#b25">(Li et al., 2017;</ref><ref type="bibr" target="#b12">Granmo et al., 2019;</ref><ref type="bibr" target="#b44">Wu &amp; Song, 2019)</ref>, to do classification based on hard attention <ref type="bibr" target="#b29">(Mnih et al., 2014;</ref><ref type="bibr" target="#b2">Ba et al., 2014;</ref><ref type="bibr" target="#b35">Sermanet et al., 2015;</ref><ref type="bibr" target="#b9">Elsayed et al., 2019)</ref>, or to do image recognition by decomposing the components of images <ref type="bibr" target="#b33">(Saralajew et al., 2019)</ref>. These models all have different forms of interpretability than we consider (understanding how the latent spaces of each layer can align with a known set of concepts). Other work also develops inherently interpretable deep learning methods that can reason based on concepts, but are different from our work in terms of field of application <ref type="bibr" target="#b3">(Bouchacourt &amp; Denoyer, 2019)</ref>, types of concepts <ref type="bibr">(Zhang et al., 2018a;</ref><ref type="bibr">b)</ref> and ways to obtain concepts <ref type="bibr" target="#b1">(Adel et al., 2018)</ref>.</p><p>In the field of deep generative models, many works have been proposed to make the latent space more interpretable by forcing disentanglement. However, works such as Info-GAN <ref type="bibr" target="#b6">(Chen et al., 2016)</ref> and β-VAE <ref type="bibr" target="#b15">(Higgins et al., 2017)</ref>, all use heuristic interpretability losses like mutual information, while in CW we have actual concepts that we use to align the latent space.</p><p>Whitening and orthogonality: Whitening is a linear transformation that transforms the covariance matrix of random input vectors to be the identity matrix. It is a classical preprocessing step in data science. In the realm of deep learning, batch normalization <ref type="bibr" target="#b20">(Ioffe &amp; Szegedy, 2015)</ref>, which is widely used in many state-of-the-art neural network architectures, retains the standardization part of whitening but not the decorrelation. Earlier attempts whiten by periodically estimating the whitening matrix <ref type="bibr" target="#b8">(Desjardins et al., 2015;</ref><ref type="bibr" target="#b27">Luo, 2017)</ref>, which leads to instability in training. Other methods perform whitening by adding a decorrelation loss <ref type="bibr" target="#b7">(Cogswell et al., 2016)</ref>. A whitening module for ZCA has been developed that leverages the fact that SVD is differentiable, and supports backpropagation <ref type="bibr">(Huang et al., 2018b;</ref><ref type="bibr" target="#b32">2019)</ref>. Similarly, others have developed a differentiable whitening block based on Cholesky whitening <ref type="bibr" target="#b36">(Siarohin et al., 2018)</ref>. The whitening part of our CW module borrows techiques from IterNorm <ref type="bibr" target="#b19">(Huang et al., 2019)</ref> because it is differentiable and accelerated. CW is different from previous methods because its whitening matrix is multiplied by an orthogonal matrix and maximizes the activation of known concepts along the latent space axes.</p><p>In the field of deep learning, many earlier works that incorporate orthogonality constraints are targeted for RNNs <ref type="bibr" target="#b40">(Vorontsov et al., 2017;</ref><ref type="bibr" target="#b28">Mhammedi et al., 2017;</ref><ref type="bibr" target="#b43">Wisdom et al., 2016)</ref>, since orthogonality could help avoid vanishing gradients or exploding gradients in RNNs. Other work explores ways to learn orthogonal weights or representations for all types of neural networks (not just RNNs) <ref type="bibr" target="#b13">(Harandi &amp; Fernando, 2016;</ref><ref type="bibr">Huang et al., 2018a;</ref><ref type="bibr" target="#b23">Lezcano-Casado &amp; Martínez-Rubio, 2019;</ref><ref type="bibr" target="#b22">Lezama et al., 2018)</ref>. For example, some work <ref type="bibr" target="#b22">(Lezama et al., 2018)</ref> uses special loss functions to force orthogonality. The optimization algorithms used in the above methods are all different from ours. For CW, we optimize the orthogonal matrix by Cayley-transform-based curvilinear search algorithms <ref type="bibr" target="#b42">(Wen &amp; Yin, 2013)</ref>. While some deep learning methods also use a Cayley transform <ref type="bibr" target="#b40">(Vorontsov et al., 2017)</ref>, they do it with a fixed learning rate that does not work effectively in our setting. More importantly, the goal of doing optimization with orthogonality constraints in all these works are completely different from ours. None of them try to align columns of the orthogonal matrix with any type of concept.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Methodology</head><p>Suppose x 1 , x 2 , ..., x n ∈ X are samples in our dataset and y 1 , y 2 , ..y n ∈ Y are their labels. From the latent space Z defined by a hidden layer, a DNN classifier f : X → Y can be divided into two parts, a feature extractor Φ : X → Z, with parameters θ, and a classifier g : Z → Y, parameterized by ω. Then z = Φ(x; θ) is the latent representation of the input x and f (x) = g(Φ(x; θ); ω) is the predicted label. Suppose we are interested in k concepts called c 1 , c 2 , ...c k . We can then pre-define k auxiliary datasets X c1 , X c2 ..., X c k such that samples in X cj are the most representative samples of concept c j . Our goal is to learn Φ and g simultaneously, such that (a) the classifier g(Φ(•; θ); ω) can predict the label accurately; (b) the j th dimension z j of the latent representation z aligns with concept c j . In other words, samples in X cj should have larger values of z j than other samples. Conversely, samples not in X cj should have smaller values of z j .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Standard Neural Networks May Not Achieve</head><p>Concept Separation Some posthoc explanation methods have looked at unit vectors in the direction of data where a concept is exhibited; this is done to measure how different concepts contribute to a classification task <ref type="bibr">(Zhou et al., 2018b)</ref>. Other methods consider directional derivatives towards data exhibiting the concept <ref type="bibr" target="#b21">(Kim et al., 2018)</ref>, for the same reason. There are important reasons why these types of approaches may not work. First, suppose the latent space is not mean-centered. This alone could cause problems for posthoc methods that compute directions towards concepts. Consider, for instance, a case where all points in the latent space are far from the origin. In that case, all concept directions point towards the same part of the space: the part where the data lies (see <ref type="bibr">Figure 1(a)</ref>). This situation might be fairly easy to solve since the users can just analyze the latent space of a batch normalization layer or add a bias term. But then other problems could arise.</p><p>Even if the latent space is mean-centered and standardized, the latent space of standard neural networks may not separate concepts. Consider, for instance, an elongated latent space similar to that illustrated in Figure <ref type="figure" target="#fig_0">1</ref>(b), by the green and orange clusters. Here, two unit vectors pointing to different groups of data (perhaps exhibiting two separate concepts) may have a large inner product, suggesting that they may be part of the same concept, when in fact, they may be not be similar at all, and may not even lie in the same part of the latent space. Thus, even if the latent space is standardized, multiple unrelated concepts can still appear similar because, from the origin, their centers point towards the same general direction. For the same reason, taking derivatives towards the parts of the space where various concepts tend to appear may yield similar derivatives for very different concepts.</p><p>For the above reasons, a latent space in which unit vectors can effectively represent different concepts should have small inter-concept similarity (as illustrated in Figure <ref type="figure" target="#fig_0">1</ref></p><formula xml:id="formula_0">(c)).</formula><p>That is, samples of different concepts should be near orthogonal in the latent space. In addition, for better concept separation, the ratio between inter-concept similarity and intra-concept similarity should be as small as possible.</p><p>The CW module we introduce in this work can make the latent space mean-centered and decorrelated. This module can align predefined concepts in orthogonal directions. More details of the proposed module will be discussed in Section 3.2 and Section 3.3. The experimental results in Section 4.3 compare the inter-concept and intra-concept similarity of the latent space of standard NNs with and without the proposed CW module. The results validate that the previously mentioned problems of standard neural networks do exist, and that the proposed method successfully avoids these problems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Concept Whitening Module</head><p>Let Z d×n be the latent representation matrix of n samples, in which each column z i ∈ R d contains the latent features of the i th sample. Our Concept Whitening module (CW) consists of two parts, whitening and orthogonal transformation. The whitening transformation ψ decorrelates and standardizes the data by</p><formula xml:id="formula_1">ψ(Z) = W(Z -µ1 n×1 T )<label>(1)</label></formula><p>where µ = 1 n n i=1 z i is the sample mean and W d×d is the whitening matrix that obeys W T W = Σ -1 . Here,</p><formula xml:id="formula_2">Σ d×d = 1 n (Z -µ1 T )(Z -µ1 T )</formula><p>T is the covariance matrix. The whitening matrix W is not unique and can be calculated in many ways such as ZCA whitening and Cholesky decomposition. Another important property of the whitening matrix is that it is rotation free; suppose Q is an orthogonal matrix, then</p><formula xml:id="formula_3">W = Q T W (2)</formula><p>is also a valid whitening matrix. In our module, after whitening the latent space to endow it with the properties discussed above, we still need to rotate the samples in their latent space such that the data from concept c j , namely X cj , are highly activated on the j th axis. Specifically, we need to find an orthogonal matrix Q d×d whose column q j is the j th axis, by optimizing the following objective:</p><formula xml:id="formula_4">max q1,q2,...,q k k j=1 1 n j q T j ψ(Z cj )1 nj ×1 s.t. Q T Q = I d (3)</formula><p>where Z cj is a d × n j matrix denoting the latent representation of X cj and c 1 , c 2 , ..., c k are concepts of interest.</p><p>An optimization problem with an orthogonality constraint like this can be solved by gradient-based approaches on the Stiefel manifold (e.g., the method of <ref type="bibr" target="#b42">(Wen &amp; Yin, 2013)</ref>).</p><p>This whole procedure constitutes CW, and can be done for any given layer of a neural network as part of the training of the network. The forward pass of the CW module, which makes predictions, is summarized in Algorithm 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Optimization and Implementation Detail</head><p>Whitening has not (to our knowledge) been previously applied to align the latent space to concepts. In the past, whitening has been used to speed up back-propagation.</p><p>The specific whitening problem for speeding up backpropagation is different from that for concept alignment-the rotation matrix is not present in other work on whitening, nor is the notion of a concept-however, we can leverage some of the optimization tools used in that work on whitening <ref type="bibr" target="#b19">(Huang et al., 2019;</ref><ref type="bibr">2018a;</ref><ref type="bibr" target="#b36">Siarohin et al., 2018)</ref>. Specifically, we adapt ideas underlying the IterNorm algorithm <ref type="bibr" target="#b19">(Huang et al., 2019)</ref>, which employs Newton's iterations to approximate ZCA whitening, to the problem studied here.</p><p>Let us now describe how this is done.</p><p>The whitening matrix in ZCA is</p><formula xml:id="formula_5">W = DΛ -1 2 D T (4)</formula><p>where Λ d×d and D d×d are the eigenvalue diagonal matrix and eigenvector matrix given by the eigenvalue decomposition of the covariance matrix, Σ = DΛD T . Like other normalization methods, we calculate a µ and W for each mini-batch of data, and average them together to form the model used in testing.</p><p>As mentioned in Section 3.2, the challenging part for CW is that we also need to learn an orthogonal matrix by solving an optimization problem. To do this, we will optimize the objective while strictly maintaining the matrix to be orthogonal by performing gradient descent with a curvilinear search on the Stiefel manifold <ref type="bibr" target="#b42">(Wen &amp; Yin, 2013)</ref> and adjust it to deal with mini-batch data.</p><p>The two step alternating optimization: During training, our procedure must handle two types of data: data for calculating the main objective and the data representing the predefined concepts. The model is optimized by alternating optimization: the mini-batches of the main dataset and the auxiliary concept dataset are fed to the network, and the following two objectives are optimized in turns. The first objective is the main objective (usually related to classification accuracy):</p><formula xml:id="formula_6">min θ,ω,W,µ 1 n n i=1 (g(Q T ψ(Φ(x i ; θ); W, µ); ω), y i ) (5)</formula><p>where Φ and g are layers before and after the CW module parameterized by θ and ω respectively. ψ is a whitening transformation parameterized by sample mean µ and whitening matrix W. Q is the orthogonal matrix. The combination Q T ψ forms the CW module (which is also a valid whitening transformation). is any differentiable loss. We use crossentropy loss for in our implementation to do classification, since it is the most commonly used. The second objective is the concept alignment loss:</p><formula xml:id="formula_7">max q1,q2,...,q k k j=1 1 n j x (c j ) i ∈Xc j q T j ψ(Φ(x (cj ) i ; θ); W, µ) s.t. Q T Q = I d .<label>(6)</label></formula><p>The orthogonal matrix Q is fixed when training for the main objective and the other parameters are fixed when training for Q. The optimization problem is a linear programming problem with quadratic constraints (LPQC) which is generally NP-hard. Since directly solving for the optimal solution is intractable, we optimize it by gradient methods on the Stiefel manifold. At each step t, in which the second objective is handled, the orthogonal matrix Q is updated by Cayley transform</p><formula xml:id="formula_8">Q (t+1) = I + η 2 A -1 I - η 2 A Q (t)</formula><p>where</p><formula xml:id="formula_9">A = G(Q (t) ) T -Q (t)</formula><p>G T is a skew-symmetric matrix, G is the gradient of the loss function and η is the learning rate. The optimization procedure is accelerated by curvilinear search on the learning rate at each step <ref type="bibr" target="#b42">(Wen &amp; Yin, 2013)</ref>. Note that, in the Cayley transform, the stationary points are reached when A = 0, which has multiple solutions. Since the solutions are in high-dimensional space, these stationary points are very likely to be saddle points, which can be avoided by SGD. Therefore, we use if t mod 20 = 0 then 9:</p><p>sample mini-batches {x</p><formula xml:id="formula_10">(c1) i } m i=1 , {x (c2) i } m i=1 , ..., {x (c k ) i } m i=1 from X c1 , X c2 , ..., X c k 10: calculate G = ∇ Q , with columns g j = -1 m m i=1 ψ(Φ(x (cj ) i ; θ); W, µ) when 1 ≤ j ≤ k, else g j = 0 11: calculate the exponential moving average of G: G = βG + (1 -β)G 12:</formula><p>obtain learning rate η by curvilinear search, for details see Algorithm 1 of (Wen &amp; Yin, 2013) 13: update Q by Cayley transform:</p><formula xml:id="formula_11">Q ← (I + η 2 (G Q T -QG T )) -1 (I -η 2 (G Q T -QG T ))Q</formula><p>the stochastic gradient calculated by a mini-batch of samples to replace G at each step. To accelerate and stabilize the stochastic gradient, we also apply momentum to it during implementation. Algorithm 2 provides details for the two-step alternating optimization.</p><p>Dealing with the convolution outputs: In the previous description of our optimization algorithm, we assume that the activations in the latent space form a vector. However, in CNNs, the output of the layer is a tensor instead of a vector. In CNNs, a feature map (a channel within one layer, created by a convolution of one filter) contains the information of how activated a part of the image is by a single filter, which may be a detector for a specific concept. Let us reshape the feature map into a vector, where each element of the vector represents how much one part of the image is activated by the filter. Thus, if the feature map for one filter is h × w then a vector of length hw contains the activation information for that filter around the whole feature map. We do this reshaping procedure for each filter, which reshapes the output of a convolution layer Z h×w×d×n into a matrix Z d×(hwn) , where d is the number of channels. We then perform CW on the reshaped matrix. After doing this, the resulting matrix is still size d × (hwn). If we reshape this matrix back to its original size as a tensor, one feature map of the tensor now (after training) represents whether a meaningful concept is detected at each location in the image for that layer. Note that, now the output of a filter is a feature map which is a h×w matrix but the concept activation score we used in the optimization problem is a scalar. Therefore, we need to get an activation value from the feature map.</p><p>There are multiple ways to do this. We try the following calculations to define activation based on the feature map: Note that CW does strictly more work than BatchNorm. CW alone will achieve desirable outcomes of using BatchNorm, therefore, there is no need to use BatchNorm when CW is in place.</p><p>Computational Efficiency: The CW module involves two iterative optimization steps: one for whitening normalization and one for concept alignment. The efficiency of iterative whitening normalization is justified experimentally in <ref type="bibr" target="#b19">(Huang et al., 2019)</ref>; the concept alignment optimization is performed only every 20 batches, usually costing less than 20 matrix multiplications and 10 matrix inversions, which do not notably hurt the speed of training. Indeed, our experiments show that there is no significant training speed slowdown using CW compared to using vanilla BN.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Experiments</head><p>In this section, we first show that after replacing one batch norm (BN) layer with our CW module, the accuracy of image recognition is still on par with the original model (4.1).</p><p>After that, we visualize the concept basis we learn and show that the axes are aligned with the concepts assigned to them. Specifically, we display the images that are most activated along a single axis (4.2.1); we then show how two axes interact with each other (4.2.2); and we further show how the same concept evolves in different layers (4.2.3), where we have replaced one layer at a time. Then we validate the problems standard neural network mentioned in Section 3.1 through experiments and show that CW can solve these problems (4.3). Moreover, we quantitatively measure the interpretability of our concept axes and compare with other concept-based neural network methods (4.4). We also show how we can use the learned representation to measure the contributions of the concepts (4.5). Finally, we show the practicality of the CW module through a case study of skin lesion diagnosis (4.6).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Main Objective Accuracy</head><p>We evaluate the image recognition accuracy of the CNNs before and after adding a CW module. We show that simply replacing a BN module with a CW module and training for a single epoch leads to similar main objective performance. Specifically, after replacing the BN module with the CW module, we trained popular CNN architectures including VGG16+BN <ref type="bibr" target="#b37">(Simonyan &amp; Zisserman, 2015)</ref>, ResNet with 18 layers and 50 layers <ref type="bibr" target="#b14">(He et al., 2016)</ref> and DenseNet161 <ref type="bibr" target="#b16">(Huang et al., 2017)</ref> on the Places365 <ref type="bibr" target="#b50">(Zhou et al., 2017)</ref> dataset. The auxiliary concept dataset we used is MS COCO <ref type="bibr" target="#b26">(Lin et al., 2014)</ref>. Each annotation, e.g., "person" in MS COCO, was used as one concept, and we selected all the images with this annotation (images having "person" in it), cropped them using bounding boxes and used the cropped images as the data representing the concept. The concept bank has 80 different concepts corresponding to 80 anno-tations in MS COCO. In order to limit the total time of the training process, we used pretrained models for the popular CNN architectures (discussed above) and fine-tuned these models after BN was replaced with CW.</p><p>Table <ref type="table" target="#tab_2">1</ref> shows the average test accuracy on the validation set of Places365 over 5 runs. We randomly selected 3 concepts from the concept bank to learn using CW for each run, and used the average of them to measure accuracy. We repeated this, applying CW to different layers and reported the average accuracy among the layers. The accuracy does not change much when CW is applied to the different layers and trained on different number of concepts, as shown in Supplementary Information B. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Visualizing the Concept Basis</head><p>In order to demonstrate the interpretability benefits of models equipped with a CW module, we visualize the concept basis in the CW module and validate that the axes are aligned with their assigned concepts. In detail, (a) we check the most activated images on these axes; (b) we look at how images are distributed in a 2D slice of the latent space; (c) we show how realizations of the same concept change if we apply CW on different layers. All experiments in 4.2 were done on ResNet18 equipped with CW trained on Places365 and three simultanous MS COCO concepts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1.">TOP-10 ACTIVATED IMAGES</head><p>We sort all validation samples by their activation values (discussed in Section 3.3) to show how much they are related to the concept. Figure <ref type="figure" target="#fig_1">2</ref> shows the images that have the top-10 largest activations along three different concepts' axes. Note that all these concepts are trained together using one CW module.</p><p>From Figure <ref type="figure" target="#fig_1">2</ref>(b), we can see that all of the top activated images have the same semantic meaning when the CW module is located at a higher layer (i.e., the 16th layer). Figure <ref type="figure" target="#fig_1">2(a)</ref> shows that when the CW module is applied to a lower layer (i.e., the 2nd layer), it tends to capture low level information such as color or texture characteristic of these concepts. For instance, the top activated images on the "airplane" axis generally has a blue background with a white or gray object in the middle. It is reasonable that the lower layer CW module cannot extract complete information about high-level concepts such as "airplane" since the model complexity of the first two layers is limited. In that sense, the CW layer has discovered lower-level characteristics of a more complex concept; namely it has discovered that the blue images with white objects are primitive characteristics that can approximate the "airplane" concept. Similarly, the network seems to have discovered that the appearance of warm colors is a lower-level characteristic of the "bedroom" concept, and that a dark background with vertical light streaks is a characteristic of the "person" concept.</p><p>Interestingly, when different definitions of activation are used (namely the options discussed in Section 3.3), the characteristics discovered by the network often look different. Some of these are shown in Supplementary Information A.2.</p><p>Moreover, similar visualizations show that CW can deal with various types of concepts. Top activated images on more concepts, including concepts defined as objects and concepts defined as general characteristics, can be found in Supplementary Information D. Top activated images visualized with empirical receptive fields can be found in Supplementary Information E.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2.">2D-REPRESENTATION SPACE VISUALIZATION</head><p>Let us consider whether joint information about different concepts is captured by the latent space of CW. To investigate how the data are distributed in the new latent space, we pick a 2D slice of the latent space, which means we select two axes q i and q j and look at the subspace they form.</p><p>The data's joint distribution on the two axes is shown in Figure <ref type="figure" target="#fig_2">3</ref>. To visualize the joint distribution, we first compute the activations of all validation data on the two axes, then divide the latent space into a 50 × 50 grid of blocks, where the maximum and minimum activation value are the top and bottom of the grid. For the grid shown in Figure <ref type="figure" target="#fig_2">3</ref>(a), we randomly select one image that falls into each block, and display the image in its corresponding block. If there is no image in the block, the block remains black. From Figure <ref type="figure" target="#fig_2">3</ref>(a), we observe that the axes are not only aligned with their assigned concepts, they also incorporate joint information.</p><p>For example, a "person in bed" has high activation on both the "person" axis and "bed" axis.</p><p>We also include a 2D histogram of the number of images that fall into each block. As shown in Figure <ref type="figure" target="#fig_2">3</ref>(b), most images are distributed near the center (which is the origin) suggesting that the samples' feature vector has high probability to be nearly orthogonal to the concept axes we picked (meaning that they do not exhibit the two concepts), and consequently the latent features have near 0 activation on the concept axes themselves.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3.">TRAJECTORY OF CONCEPTS IN DIFFERENT LAYERS</head><p>Although our objective is the same when we apply the CW module to different layers in the same CNN, the latent space we get might be different. This is because different layers might be able to express different levels of semantic meaning. Because of this, it might be interesting to track how the representation of a single image will change as the CW module is applied to different layers of the CNN.</p><p>In order to better understand the latent representation, we plot a 2D slice of the latent space. Unlike in the 2drepresentation space visualization (Figure <ref type="figure" target="#fig_2">3</ref>), here, a point in the plot is not specified by the activation values themselves but by their rankings. For example, the point (0.7, 0.1) means the point is at the 70 th percentile for the first axis and the 10 th percentile in the second axis. We use the percentage instead of using the value, because as shown in the 2d-representation space visualization (Figure <ref type="figure" target="#fig_2">3</ref>), most points are near the center of the plot, so the rankings spread Figure <ref type="figure" target="#fig_3">4</ref> shows the 2D representation plot of two representative images. Each point in the plot corresponds to the percentile rank representation of the image when the CW module is applied to different layers. The points are connected by arrows according to the depth of the layer. These plots confirm that the abstract concepts learned in the lower layers tend to capture lower-level meaning (such as colors or shapes) while the higher layers capture high-level meaning (such as types of objects). For example, in the left image in Figure <ref type="figure" target="#fig_3">4</ref>(a), the bed is blue, where blue is typical low level information about the "airplane" class but not about the "bed" class since bedrooms are usually warm colors. Therefore, in lower layers, the bed image has higher ranking in the "airplane" axis than the "bed" axis. However, when CW is applied to deeper layers, high level information is available, and thus the image becomes highly ranked on the "bed" axis and lower on the "airplane" axis.</p><p>In Figure <ref type="figure" target="#fig_3">4</ref>(b), traversing through the networks' layers, the image of a sunset does not have the typical blue coloring of a sky. Its warm colors put it high on the "bedroom" concept for the second layer, and low on the "airplane" concept. However, as we look at higher layers, where the network can represent more sophisticated concepts, we see the image's rank grow on the "airplane" concept (perhaps the network uses the presence of skies to detect airplanes), and decrease on the "bed" concept.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Separability of Latent Representations</head><p>In this subsection, we evaluate properties of the spatial distribution of the concepts in the latent space. By experimentally comparing such properties across latent representations produced by the CW module and other methods, we demonstrate that the issues arising in standard methods, as outlined in Section 3.1, do not occur when using CW. We also investigate such properties on a non-posthoc neural network, trained with an auxiliary loss that aims to classify different concepts in the latent space (that is, in the objective, there are classification losses for each axis, using each axis' assigned concept as its label). Interestingly, we find that such issues mentioned in Section 3.1 may also exist in that network. The experiments in Section 4.3 were all done on ResNet18. The CW module was trained with seven simultaneous MS COCO concepts.</p><p>Specifically, for each concept image, we first extract its latent space representation. The representation for instance j of concept i is denoted x ij . Then, intra-concept similarity for concept i, denoted d ii , is defined to be:</p><formula xml:id="formula_13">d ii = 1 n 2   n j=1 n k=1 x ij • x ik x ij 2 x ik 2   (<label>7</label></formula><formula xml:id="formula_14">)</formula><p>where n is the total number of instances of concept i.</p><p>Inter-concept similarity between concept p and q is similarly a b defined as:</p><formula xml:id="formula_15">d pq = 1 nm   n j=1 m k=1 x pj • x qk x pj 2 x qk 2  <label>(8)</label></formula><p>where n and m are the number of instances of concepts p and q respectively. Indeed, intra-concept similarity is the average pairwise cosine similarity between instances of the same concept, and inter-concept similarity is the average pairwise cosine similarity between instances of two different concepts.</p><p>With those defined, we plot heat maps in Figure <ref type="figure" target="#fig_4">5</ref> where value in cell at row i column j is computed as:</p><formula xml:id="formula_16">Q ij = d ij d ii d jj .<label>(9)</label></formula><p>From Figure <ref type="figure" target="#fig_4">5</ref>, we notice that with the CW module, latent representations of concepts achieve greater separability: the ratios between inter-concept and intra-concept similarities (average 0.35) are notably smaller that of standard CNNs (average 0.94). In addition, without normalization, the CW module has very small inter-concept similarities (average 0.05) while analogous values for a standard neural network are around 0.74. This means that in the latent space of CW, two concepts are nearly orthogonal, while in a standard neural network, they are generally not. This indicates that some of the problems we identified in Section 3.1 occur in standard neural networks, but they do not occur with CW.</p><p>In this experiment, as mentioned earlier, we also trained a standard neural network with a concept-distinction auxiliary loss. The auxiliary loss is the cross entropy of the first several dimensions in the latent space with respect to the concepts we investigated. Shown in Figure <ref type="figure" target="#fig_4">5</ref>(b), the latent representations do not naturally help concept separation.</p><p>The average ratio between inter-concept and intra-concept similarities is 0.85. Without normalization, the average inter-concept similarity is also around 0.74, similar to that of the standard neural network without the auxiliary loss. This has important implications: good discriminative power in the latent space does not guarantee orthogonality of different concepts. Thus, the whitening step is crucial for representing pure concepts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Quantitative Evaluation of Interpretability</head><p>In this subsection, we measure the interpretability of the latent space quantitatively and compare it with other conceptbased methods.</p><p>First, we measure the purity of learned concepts by the AUC (of classifying the concept, not classifying with respect to the label for the overall prediction problem) calculated from the activation values. To calculate the test AUC, we divide the concept bank, containing 80 concepts extracted from MS COCO, into training sets and test sets. After training the CW module using the training set, we extract the testing samples' activation values on the axis representing the concept. For the target concept, we assign samples of this concept to the label 1 while giving samples of the other 79 concepts label 0. In this way, we calculate the one-vs-all test AUC score of classifying the target concept in the latent space.</p><p>The AUC score measures whether the samples belonging to a concept are ranked higher than other samples. That is, the AUC score indicates the purity of the concept axis. Specifically, we randomly choose 14 concepts from the concept bank for the purity comparison. Since our CW module can learn multiple concepts at the same time, we divide the 14 concepts into two groups and train CW with 7 simultaneous concept datasets.</p><p>We compared the AUC concept purity of CW with the concept vectors learned by TCAV <ref type="bibr" target="#b21">(Kim et al., 2018)</ref> from black box models, IBD <ref type="bibr">(Zhou et al., 2018b)</ref>  els, and filters in standard CNNs <ref type="bibr" target="#b49">(Zhou et al., 2014)</ref>. Since TCAV and IBD already find concept vectors, we use the samples' projections on the vectors to measure the AUC score. Note that in their original papers, the concept vectors are calculated for only one concept each time; therefore, we calculated 14 different concept vectors, each by training a linear classifier in the black box's latent space, with the training set of the target concept as positive samples and samples randomly drawn from the main dataset as negative samples. For standard CNNs, we measure the AUC score for the output of all filters and choose the best one to compare with our method, separately for each concept (denoted "Best Filter"). Figure <ref type="figure" target="#fig_5">6</ref> shows the AUC concept purity of "airplane" and "person" of these methods across different layers. The error bars on Figure <ref type="figure" target="#fig_5">6</ref> were obtained by splitting the testing set into 5 parts and calculating AUC over each of them. The AUC plots for the other 12 concepts are shown in Supplementary Information D.1.2. From the plots, we observe that concepts learned in the CW module are generally purer than those of other methods. This is accredited to the orthogonality of concept representations as illustrated in Section 3.1, as a result of CW's whitening of the latent space and optimization of the loss function. We perform another quantitative evaluation that aims to measure the correlation of axes in the latent space before and after the CW module is applied. For comparison with posthoc methods like TCAV and IBD, we measure the output of their BN modules in the pretrained model, because the output of these layers are mean centered and normalized, which, as we discussed, are important properties for concept vectors. Shown by the absolute correlation coefficients plotted in Figure <ref type="figure" target="#fig_6">7</ref>(a), the axes still have relatively strong correlation after passing through the BN module. If CW were applied instead of BN, they would instead be decorrelated as shown in Figure <ref type="figure" target="#fig_6">7</ref> the 16 th layer. The same correlation comparison is shown in Supplementary Information C when CW is applied to other layers. These results reflect why purity of concepts is important; when the axes are pure, the signal of one concept can be concentrated only on its axis, while in standard CNNs, the concept could be strewn throughout the latent space.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">Concept Importance</head><p>In order to obtain practical insights for how the concepts contribute to the classification results, we can measure the concept importance. The concept importance of the j th axis is defined as the ratio of a "switched loss" to the original loss:</p><formula xml:id="formula_17">CI j = e (j) switch</formula><p>e orig (10) where the switched loss e (j) switch is the loss calculated when the sample values of j th axis are randomly permuted, and e orig is the original loss without permutation. The expression for CI j is similar to classical definitions of variable importance <ref type="bibr" target="#b4">(Breiman, 2001;</ref><ref type="bibr" target="#b10">Fisher et al., 2019)</ref>. Specifically:</p><p>• To measure the contribution of a concept to the entire classifier, the training loss function can be used in the variable importance calculation, which is the multiclass cross entropy in this case.</p><p>• To measure the contribution of a concept to a target class, e.g., how much "bed" contributes to "bedroom," one can use a balanced binary cross entropy loss in the variable importance calculation, calculated on the softmax probability of the target class. The concept importance score is measured on the test set to prevent overfitting.</p><p>In our experiments, we measure concept importance scores of the learned concepts to different target classes in the Places365 dataset (corresponding to the second of the bullets above). Figure <ref type="figure" target="#fig_7">8</ref> shows the results in a grouped bar plot. The target classes we choose relate meaningfully to a specific concept learned in CW (e.g., "airplane" and "airfield"). We apply CW on the 16 th layer since the concepts are generally purer in the layer, as shown in Figure <ref type="figure" target="#fig_5">6</ref>. As shown in Figure <ref type="figure" target="#fig_7">8</ref>, the irrelevant concepts have concept importance scores near 1.0 (no contribution), e.g., "airplane" is not important to the detection of "bedroom." For the concepts that relate meaningfully to the target class, e.g., "airplane" to "airfield," the concept importance scores are much larger than those for other concepts. Thus, the concept importance score measured on the CW latent space can tell us the contribution of the concept to the classification. For example, it can tell us how much a concept (such as "airplane" contributes to classifying "airfield," or how much "book" contributes to classifying "library." </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6.">Case Study: Skin Lesion Diagnosis</head><p>We provide a case study of a medical imaging dataset of skin lesions. The dataset of dermoscopic images is collected from the ISIC archive (ISIC, 2020). Because the dermoscopic images corresponding to different diagnoses vary greatly in appearance, we focus on predicting whether a skin lesion is malignant for each of the histopathology images (9058 histopathology images in total). We choose "age &lt; 20" and "size ≥ 10 mm" as the concepts of interest and select the images with corresponding meta information to form the concept datasets. We chose these concepts due to their availability in the ISIC dataset. The cutoff, for instance, of 10mm is used commonly for evaluation of skin lesions <ref type="bibr" target="#b31">(Rose, 1998)</ref>. Details about the experimental results including test accuracy, separability of latent representation, AUC concept purity, correlation of axes, and concept importance are shown in Supplementary Information F. The main results of the case study are:</p><p>• The conclusions of CW performance analysis on the ISIC dataset are very similar to our earlier conclusions on the Places dataset, in terms of main objective test accuracy, separability of latent representation, AUC concept purity, and correlation of axes.</p><p>• Concept importance scores measured on the CW latent space can provide practical insights on which concepts are potentially more important in skin lesion diagnosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion and Future Work</head><p>Concept whitening is a module placed at the bottleneck of a CNN, to force the latent space to be disentangled, and to align the axes of the latent space with predefined concepts. By building an inherently interpretable CNN with concept whitening, we can gain intuition about how the network gradually learns the target concepts (or whether it needs them at all) over the layers without harming the main objective's performance.</p><p>There are many avenues for possible future work. Since CW modules are useful for helping humans to define primitive abstract concepts, such as those we have seen the network use at early layers, it would be interesting to automatically detect and quantify these new concepts (see ref. <ref type="bibr" target="#b11">(Ghorbani et al., 2019)</ref>). Also the requirement of CW to completely decorrelate the outputs of all the filters might be too strong for some tasks. This is because concepts might be highly correlated in practice such as "airplane" and "sky" In this case, we may want to soften our definition of CW. We could define several general topics that are uncorrelated, and use multiple correlated filters to represent concepts within each general topic. In this scenario, instead of forcing the gram matrix to be the identity matrix, we could make it block diagonal. The orthogonal basis would become a set of orthogonal subspaces.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Top Activated Images Visualized with Empirical Receptive Fields</head><p>To show what local feature could be detected along each concept axis, we visualize the top activated images with the empirical receptive field <ref type="bibr" target="#b49">(Zhou et al., 2014)</ref>. Empirical receptive fields, in our case, are locations in the image, such that when we black them out, they lead to the greatest reduction in activation values on the different axes of the CW output. We have used 32 × 32 random covering patches and a stride of 5 for the sliding window. Supplementary Figure <ref type="figure" target="#fig_5">16</ref> shows the visualization results when CW is applied to the 2 nd , 12 th and 16 th layer. Generally, the top activated images for a concept tend to have a larger receptive field on that concept's axis. For an early layer (the 2 nd layer), the features captured by the concept axes appear to be color and textures. As we proceed to deeper layers, concepts learned by CW become closer to the concepts they aim to represent. For example, in the 12 th layer, the "horse" axis looks at image segments similar to horse legs and the "person" axis looks mainly at the hands and faces of people. In the 16 th layer, the "horse" axis is looking at the body of the horse and "person" axis is looking at the person's face; both are more representative features. Interestingly, when two concepts occur in the same image, the two concept axes can detect the correct local regions corresponding to these concepts (e.g., the image containing both "book" and "person" on the 5 th row of the bottom right subfigure).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. Case Study: Skin Lesion Diagnosis</head><p>In this section, we provide a case study of a medical imaging dataset of skin lesions. The dataset of dermoscopic images is collected from the ISIC archive (ISIC, 2020). Because the dermoscopic images corresponding to different diagnoses vary greatly in appearance, we focus on predicting whether a skin lesion is malignant for each of the histopathology images (9058 histopathology images in total). We choose "age &lt; 20" and "size ≥ 10 mm" as the concepts of interest and select the images with corresponding meta information to form the concept datasets. We chose these concepts due to their availability in the ISIC dataset. The cutoff, for instance, of 10mm is used commonly for evaluation of skin lesions <ref type="bibr" target="#b31">(Rose, 1998)</ref>. Details about the experimental results are shown in the following order: test accuracy, separability of latent representation, AUC concept purity, correlation of axes, and concept importance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F.1. Test Accuracy</head><p>We trained both a standard ResNet18 and a ResNet18 with CW on 80% of the dataset and tested it on the other 20%. Since the two classes are imbalanced, we measured the balanced accuracy to compare their performances. The test balanced accuracy of standard ResNet18 is 71.65% while ResNet18 with CW achieves 72.26% test balanced accuracy (this is the average over different layers CW was applied to). Thus, adding CW improved performance over the black box; this may have resulted from whitening, which acts as a regularizer. The latent representation in the standard neural network may be elongated due to the inter similarity of the dermoscopic images (empirically shown in Section F.4), potentially leading to worse performance. This is why whitening could have provided better numerical conditioning for the gradient, as discussed also by <ref type="bibr">(Huang et al., 2018b)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F.2. Separability of Latent Representation</head><p>Similar to experiments on the Places dataset, we measured the separability of concepts in the latent space of CW and a standard ResNet (see Figure <ref type="figure" target="#fig_6">17</ref>). When including the CW module, the separability of concepts is also significantly improved.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F.3. AUC Concept Purity</head><p>Similar to experiments on the Places dataset, we quantitatively compare the purity of learned concepts with concept-based posthoc methods. As is shown in Figure <ref type="figure" target="#fig_7">18</ref>, the concept "age &lt; 20" is purer using the CW module. All methods were approximately tied in the purity of the concept "size ≥ 10 mm."</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F.4. Correlation of Axes</head><p>Figure <ref type="figure" target="#fig_0">19</ref> shows the correlation of axes in the 16 th layer of ResNet18 with and without the CW module. Shown in Figure <ref type="figure" target="#fig_0">19</ref>(a), the correlations of different axes in standard neural networks are very strong (near 1 in many cases). Such highly correlated data distributions in the latent space may negatively influence both the concept separation and stochastic gradient descent, consistent with results in Section F.1 and F.2. On the contrary, CW can decorrelate the latent space successfully (shown in Figure <ref type="figure" target="#fig_0">19</ref>(b)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F.5. Concept Importance</head><p>Similar to experiments on the Places dataset, we measure the concept importance scores of concepts in the ISIC dataset. Since the dataset only has two classes, we can measure the contribution to the entire classification problem, using balanced binary cross entropy loss for e (j)</p><p>switch and e orig . Figure <ref type="figure" target="#fig_1">20</ref> shows the concept importance of different axes of the latent space when CW is applied to the 16 th layer. We choose the 16 th layer to investigate because the concepts are purer in the layer as shown in Figure <ref type="figure" target="#fig_7">18</ref>. We measure the concept importance of the two concepts we selected and the max and mean concept importance of the 512 axes in the latent space (left subplot of Figure <ref type="figure" target="#fig_1">20</ref>). To compare them with the concept importance of other axes, we also visualize the rough distribution of the concept importance with a box plot (right subplot of Figure <ref type="figure" target="#fig_1">20</ref>). We observe that the concept "age &gt; 20" is not important at all (≈ 1.0). The concept "size ≥ 10mm" is more important than most axes (approximately the third quartile among the 512 axes). This concept is known to be important for the way physicians interpret skin lesions <ref type="bibr" target="#b41">(Walter et al., 2013)</ref>.</p><p>It is interesting to contemplate what concept the most important axis (the 76 th axis) might represent. This axis was not trained to represent a concept, but insight from examining it might lead to possible ideas for concepts we would consider in the future. In Figure <ref type="figure" target="#fig_1">21</ref>, we visualize the top-10 activated images along this interesting axis, as well as other axes (axes 0, 1, 100, 150, 200, 250) for comparison. We highlight the empirical receptive fields <ref type="bibr" target="#b49">(Zhou et al., 2014)</ref> on the images. Compared to other axes, the empirical receptive fields of 76 th axis seems to more consistently focus on the borders of the lesions. The lesion border is well known to be important for early detection of melanoma; an irregular border is a major factor, and is even more important than the overall size of the lesion <ref type="bibr" target="#b41">(Walter et al., 2013)</ref>. This observation naturally leads to a direction for future research: create a concept axis for irregular lesion borders. Since the ISIC dataset does not have each image labeled as to whether the lesion's borders are irregular, this would need to be labeled by a physician in future work. Doing this would allow us to measure the importance of irregular borders for predicting malignancy of skin lesions by a neural network model. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Possible data distributions in the latent space. a, the data are not mean centered; b the data are standardized but not decorrelated; c the data are whitened. In both a and b, unit vectors are not valid for representing concepts.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Top-10 Image activated on axes representing different concepts. a, results when the 2 nd layer (BN) is replaced by CW; b, results when the 16 th layer (BN) is replaced by CW.</figDesc><graphic coords="8,59.05,268.42,226.77,167.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Joint distribution of the bed-person subspace. The bounding box given by projected values in the subspace is evenly divided into 20 × 20 blocks. a, Plotting a random test image fall into each block; b, Density map of test image representation</figDesc><graphic coords="9,57.50,84.91,207.85,208.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. 2D representation plot of two representative images. Each point in the right trajectory plot corresponds to the percentile rank for the activation values on each axis. The number labeling each point on the plot provides the layer depth of the CW module. The trajectory shows how the percentile rank of the left image changes when CW is applied to different layers.</figDesc><graphic coords="10,307.65,86.59,100.58,100.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Normalized intra-concept and inter-concept similarities. The diagonal values are normalized average similarities (see definition in Section 4.3) between latent representations of images of the same concept; off-diagonal values are normalized average similarities between latent representations of images of different concepts. a, The 16 th layer is a BN module; b, The 16 th layer is a BN module with auxiliary loss to classify these concepts; c, The 16 th layer is a CW module.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Concept purity measured by AUC score. a, concept "airplane"; b, concept "person." Concept purity of CW module is compared to several posthoc methods on different layers. The error bar is the standard deviation over 5 different test sets, and each one is 20% of the entire test set.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Absolute correlation coefficient of every feature pair in the 16 th layer.a, when the 16 th layer is a BN module; b, when 16 th layer is a CW module.</figDesc><graphic coords="12,59.05,67.06,226.75,96.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Concept importance to different Places365 classes measured on the concept axes when CW is applied to the 16 th layer. Each group in the bar plot corresponds to a target class. The bars in the same group show the concept importance scores of the learned concepts to the target class. Concepts that relate meaningfully to the target class (e.g., "airplane" and "airfield") have larger importance scores than irrelevant concepts.</figDesc><graphic coords="12,311.05,67.06,226.77,132.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>(a) 2 nd layer. left: BN, right: CW (b) 4 th layer. left: BN, right: CW (c) 6 th layer. left: BN, right: CW (d) 8 th layer. left: BN, right: CW (e) 10 th layer. left: BN, right: CW (f) 12 th layer. left: BN, right: CW (g) 14 th layer. left: BN, right: CW (h) 16 th layer. left: BN, right: CW Supplementary Figure 12. Absolute correlation coefficient of every latent feature pair in the 2 nd , 4 th , 6 th , 8 th , 12 th , 14 th and 16 th layer, calculated on the test set. For each pair of figures, the left figure is when the layer is a BN module; the right figure is when the layer is a CW module. For the CW module, the first several features represent the concepts. The correlations of CW are much lower off the diagonal, as desired.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="17,55.44,67.06,486.00,228.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="21,57.93,124.23,486.00,128.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,57.93,152.15,486.00,227.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,57.93,404.26,486.01,178.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="26,57.93,246.16,485.99,121.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="27,107.23,69.00,382.42,167.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="27,106.78,261.76,383.33,168.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="27,108.36,454.97,380.16,167.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="30,118.44,78.56,360.00,176.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="30,118.44,370.66,359.97,272.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Algorithm 1. Forward Pass of CW Module 1: Input: mini-batch input Z ∈ R d×m 2: Optimization Variables: orthogonal matrix Q ∈ R d×d (learned in Algorithm 2) 3: Output: whitened representation Ẑ ∈ R d×m 4: calculate batch mean: µ = 1 m Z • 1, and center the activation: Z C = Z -µ • 1 T 5: calculate ZCA-whitening matrix W, for details see Algorithm 1 of<ref type="bibr" target="#b19">(Huang et al., 2019)</ref> 6: calculate the whitened representation:Ẑ = Q T WZ C . Input: main objective dataset D = {x i , y i } n i=1, concept datasets X c1 , X c2 ..., X c k 2: Optimization Variables: θ, ω, W, µ, Q, whose definitions are in Section 3.2</figDesc><table><row><cell></cell><cell>Algorithm 2. Alternating Optimization Algorithm for Training</cell></row><row><cell cols="2">1: 3: Parameters: β, η</cell></row><row><cell cols="2">4: for t = 1 to T do</cell></row><row><cell>5:</cell><cell>randomly sample a mini-batch {x i , y i } m i=1 from D</cell></row><row><cell>6:</cell><cell>do one step of SGD w.</cell></row></table><note><p><p><p>r.t. θ and ω on the loss</p>1 m m i=1 (g(Q T ψ(Φ(x i ; θ); W, µ); ω), y i ) 7:</p>update W and µ by exponential moving average 8:</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>We use(d)  in our experiments since it is good at capturing both high-level and low-level concepts. Detailed analysis and experiments about the choice of different activation calculations are discussed in Supplementary Information A.</figDesc><table><row><cell>Warm start with pretrained models: Let us discuss some</cell></row><row><cell>aspects of practical implementation. The CW module can</cell></row><row><cell>substitute for other normalization modules such as Batch-</cell></row><row><cell>Norm in an hidden layer of the CNN. Therefore, one can</cell></row><row><cell>use the weights of a pretrained model as a warm start. To</cell></row><row><cell>do this, we might leverage a pretrained model (for the same</cell></row><row><cell>main objective) that does not use CW, and replace a Batch-</cell></row></table><note><p>a) mean of all feature map values; (b) max of all feature map values; (c) mean of all positive feature map values; (d) mean of down-sampled feature map obtained by max pooling. Norm layer in that network with a CW layer. The model usually converges in one epoch (one pass over the data) if a pretrained model is used.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 .</head><label>1</label><figDesc>Top-1 and top-5 test accuracy on Places365 dataset. Our results show that CW does not hurt performance.</figDesc><table><row><cell></cell><cell cols="2">Top-1 acc.</cell><cell cols="2">Top-5 acc.</cell></row><row><cell></cell><cell cols="2">Original +CW</cell><cell cols="2">Original +CW</cell></row><row><cell>VGG16-BN</cell><cell>53.6</cell><cell>53.3</cell><cell>84.2</cell><cell>83.8</cell></row><row><cell>ResNet18</cell><cell>54.5</cell><cell>53.9</cell><cell>84.6</cell><cell>84.2</cell></row><row><cell>ResNet50</cell><cell>54.7</cell><cell>54.9</cell><cell>85.1</cell><cell>85.2</cell></row><row><cell>DenseNet161</cell><cell>55.3</cell><cell>55.5</cell><cell>85.2</cell><cell>85.6</cell></row></table><note><p><p><p>Because we have leveraged a pretrained model, when training with CW, we conduct only one additional epoch of training (one pass over the dataset) for each run. As shown in Table</p>1</p>, the performance of these models using the CW module is on par with the original model: the difference is within 1% with respect to top-1 and top-5 accuracy. This means in practice, if a pretrained model (using BN) exists, one can simply replace the BN module with a CW module and train it for one epoch, in which case, the pretrained black-box model can be turned into a more interpretable model that is approximately equally accurate.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability</head><p>All datasets that support the findings are publicly available, including Places365 at http://places2.csail.mit.edu, MS COCO at https://cocodataset.org/ and ISIC at https://www.isic-archive.com.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Code Availability</head><p>The code for replicating our experiments is available on https://github.com/zhiCHEN96/ConceptWhitening (https://doi.org/10.5281/zenodo.4052692).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Concept Activation Calculation and Concept Activation Comparison Experiments</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.1. Calculations of Concept Activation Based on Feature Maps</head><p>The output of a single filter is a h × w feature map. However, a scalar is needed to quantify how much a sample is activated on a concept, which is used in both optimization and evaluation. Based on a feature map, multiple reasonable ways exists to calculate the concept activation. Specifically, we try the following calculations to produce an activation value:</p><p>• Mean of all feature map values • Max of all feature map values • Mean of all positive feature map values • Mean of down-sampled feature map obtained by max pooling.</p><p>Supplementary Figure <ref type="figure">9</ref> shows these four methods of calculating the activation through demonstration. Among them, the mean of values is more suitable for capturing low-level concepts since they are distributed throughout the feature map. For high-level concepts, the max value and mean of positive values are more powerful: they can capture high-level concepts such as objects, since objects usually occur just in one location, not repeatedly throughout an image. The mean of max-pooled values is a combination of the previous types and is capable of representing both high-level and low-level concepts. Intuitively, the mean of max pooled values is more similar to the max function when applied to higher layers and more similar to the mean function when applied to lower layers. This is because, for higher layers, the mean is taken of only a few values, simply because higher layers are smaller in size. Thus, the max is the dominant calculation. In contrast, for lower layers, which are much larger, the max's are taken over a relatively small number of elements (local regions), and then the mean is taken over all of the local regions. Hence the mean is the dominant calculation for lower layers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.2. Top-10 Activated Images Based on Different Calculations</head><p>Supplementary Figure <ref type="figure">10</ref> shows the top-10 activated images under the four different calculations for concept activation. The CNN architecture, dataset and the depth of the CW module are the same as before. The figures show that when concept activation is calculated in different ways, the most activated images may look different and the network even may discover completely different lower-level characteristics. For example, when CW is applied to the 2 nd layer, the network discovered the lower-level characteristics of the concept "bed" to be warm colors when the activation was the mean of feature map values, while the lower-level characteristics seems to involve boundaries of colors if activation is calculated as the max value. Also if the activation is calculated as the mean of all values, the "person" concept gives rise to dense texture, while under the mean of max-pooled values, the "person" concept is characterized as a dark background with vertical lights. This difference in the discovered lower-level characteristics could be explained by the fact that these calculation methods focus on different locations within the image: the mean value focuses on the whole image while the max value only looks at one place within the image.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.3. Concept AUC Based on Different Activation Calculations</head><p>Supplementary Table <ref type="table">2</ref> shows concept AUC when different concept activation definitions are used. The definition and calculation of concept AUC is the same as in the main paper. The dataset and CNN architecture are also the same. To compare these concept activations' capability to capture both high-level concepts and low-level concepts, we apply CW to Supplementary Figure <ref type="figure">9</ref>. Four methods of calculating concept activation based on the feature map.</p><p>the 2 nd and 16 th layers of ResNet18. Supplementary Table <ref type="table">2</ref> indicates that in the 2 nd layer, the max value of the feature map performs worse on AUC than the other calculation methods for two out of our three concepts. In contrast, in the 16 th layer, the mean performs poorly compared to the other methods. The max-pool-mean method performs well on both layers, for all concepts. This result matches our intuitive reasoning that the max-pool-mean combines the advantages of mean and max. It is suitable for capturing both low-level concepts and high-level concepts. As mentioned in the main paper, we measure the main objective accuracy when CW applied to different layers. Tables <ref type="table">3  through 6</ref> show the layer-wise test accuracy of different CNN architectures. The dataset and CNN architectures are the same as in the main paper. Results in Tables <ref type="table">3 through 6</ref> indicate that no matter which layer we apply CW, accuracy is not substantially impacted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B.2. Main Objective Accuracy versus Number of Concepts Trained in CW</head><p>We measure the main objective accuracy on Places365 when different numbers of concepts are trained within the CW module. The CNN architecture we evaluate is ResNet18. For each number of concepts, we average the result over three groups of randomly selected concepts. Also, for each group of simultaneous concepts, the result is averaged over different layers that CW is applied to. As shown in Supplementary Figure <ref type="figure">11</ref>, both top-1 (Supplementary Figure <ref type="figure">11(a)</ref>) and top-5 (Supplementary Figure <ref type="figure">11(b</ref>)) accuracy are not significantly affected by the number of concepts. The drop of accuracy is less than 0.5% when the number of concepts increases from 3 to 9.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Correlation Matrix when CW is Applied to Different Layers</head><p>As is shown in the experiments, we calculate the correlations of axes in the latent space to quantitatively compare CW and other concept-based methods. Here, in Supplementary Figure <ref type="figure">12</ref>, we present the absolute correlation coefficient matrices as heatmaps when these methods are applied to different layers (2 nd , 4 th , 6 th , 8 th , 12 th , 14 th and 16 th layer) in ResNet-18.</p><p>The correlation coefficient is calculated on the test set. The darker the off-diagonal elements are, the more decorrelated the latent space is. Heatmaps of CW in Supplementary Figure <ref type="figure">12</ref> are all near pure black. This demonstrates that CW can consistently decorrelate the latent space -whichever layer it is applied on -while the neural networks trained without any constraints can have strong correlations between different axes. Such a strongly decorrelated latent space enables the signal of one concept to be concentrated on one axis rather than throughout the latent space.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Results on More Concepts</head><p>To show the capability of dealing with many concepts as well as the usefulness of the proposed method, we conduct experiments on more concepts, including concepts defined as objects (D.1) and concepts defined as general characteristics of objects and scenes (D.2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D.1. Object Concepts</head><p>The object concept bank contains 80 concepts obtained from MS COCO <ref type="bibr" target="#b26">(Lin et al., 2014)</ref> by cropping out objects in bounding boxes. We chose 7 concepts randomly selected from the concept bank each time, where the CW module was trained on all of these concepts at the same time.</p><p>D.1.1. TOP-10 ACTIVATED IMAGES Supplementary Figure <ref type="figure">13</ref> shows the two groups of top-10 activated images along the seven different concepts' axes. On the left of Supplementary Figure <ref type="figure">13</ref>, we can see that when the CW module is applied to a lower layer (the 2 nd layer), it captures some low-level information such as color and texture about the concept. Top activated images on the right of Supplementary Figure <ref type="figure">13</ref> demonstrate the concepts' high-level meaning when CW is located at a higher layer (the 16 th layer). An interesting finding is that when two similar concepts are given, for example "bus" and "car," the network can learn their difference and distinguish them successfully in both low and high layers. Moreover, if images with the concept do not exist in the main dataset, the concept axes can be activated by images that are very similar to the concept, like slats and wood textures for the "bench" concept and tents for the "umbrella" concept.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D.1.2. AUC CONCEPT PURITY</head><p>Supplementary Figure <ref type="figure">14</ref> compares the AUC concept purity of 14 concepts learned by TCAV <ref type="bibr" target="#b21">(Kim et al., 2018)</ref>, IBD <ref type="bibr">(Zhou et al., 2018a)</ref>, filters in standard CNNs <ref type="bibr" target="#b49">(Zhou et al., 2014)</ref>, and the CW module in eight different layers (2 nd , 4 th , 6 th , 8 th , 10 th , 12 th , 14 th , and 16 th layers). In the figure, the blue line with error bars frequently dominates the AUC across the layers. Therefore, the concepts learned by CW module are generally purer than those learned by other methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D.2. General Characteristics Concepts</head><p>The concept bank describing general characteristics of objects and scenes is obtained from the SUN Attribute Database <ref type="bibr" target="#b30">(Patterson &amp; Hays, 2012)</ref>. The attributes in the dataset are used as concepts, and images given three (out of three) MTurk votes on having such attributes are selected to form the concept datasets. Here we train the CW module on two groups of concepts describing weather of the scene ("cold," "moist/damp," "warm"), and materials of objects in the scene ("metal," "rubber/plastic," "wood"). Supplementary Figure <ref type="figure">15</ref> shows the top-10 activated images along these concepts' axes. This figure demonstrates that the CW module can also decently capture high-level meaning (right column) and low-level aspects (left column) of both types of general concepts. For instance, for the person class, using the mean calculation on the second layer (top left), the abstract concept is a dense texture. For the person class using the mean of max-pooled values (bottom left), the abstract concept is a dark background with vertical lights. For the bed concept with the mean of max-pooled values (bottom left), the abstract concept is warm colors, whereas for the max calculation (second row left) the abstract concept seems to be related to boundaries of different colors. These concepts could later be formalized, if desired, to create better or more interpretable classifiers in the future.</p><p>Supplementary Table <ref type="table">3</ref>   Supplementary Figure <ref type="figure">20</ref>. Concept importance measured on each axis when CW is applied to the 16 th layer (ISIC dataset). The figure on the left shows the concept importance of the axes representing the concepts "age &lt; 20" and "size ≥ 10 mm," as well as the max and mean concept importance over the set of axes. In order to calculate the latter two quantities, we compute the concept importance of each axis.</p><p>Then we find the axis with the maximum concept importance (which is the 76th axis) and, for comparison, we calculate the mean of the concept importance values over all the axes. The box plot on the right roughly shows the distribution of concept importance among the 512 axes in the latent space.</p><p>Supplementary Figure <ref type="figure">21</ref>. Top 10 activated images on different axes plotted with empirical receptive fields (highlighted region). Axis 76 (most important axis) is highlighted by a dashed box and plotted with other axes (Axis 0, 1, 100, 150, 200 and 250). Axis zero is age, axis one is size, whereas the other axes are not trained as concept axes. Axis 76 seems to more consistently focus on the borders of the lesion, indicating that in future work one might add a concept axis for irregular border.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Sanity checks for saliency maps</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adebayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gilmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Goodfellow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Conference on Advances in Neural Information Processing Systems</title>
+		<meeting>Conference on Advances in Neural Information Processing Systems</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="9505" to="9515" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Discovering interpretable representations for both deep generative and discriminative models</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Adel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ghahramani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Weller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Machine Learning</title>
+		<meeting>the International Conference on Machine Learning</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="50" to="59" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Multiple object recognition with visual attention</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mnih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kavukcuoglu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Learning Representations</title>
+		<meeting>the International Conference on Learning Representations</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Explaining model decisions through unsupervised concepts extraction</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bouchacourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Denoyer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Educe</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1905.11852</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Random forests</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="5" to="32" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">This looks like that: deep learning for interpretable image recognition</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Su</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Conference on Advances in Neural Information Processing Systems</title>
+		<meeting>Conference on Advances in Neural Information Processing Systems</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="8930" to="8941" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Infogan: Interpretable representation learning by information maximizing generative adversarial nets</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Houthooft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schulman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Abbeel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Advances in Neural Information Processing Systems</title>
+		<meeting>the Conference on Advances in Neural Information Processing Systems</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="2172" to="2180" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Reducing overfitting in deep networks by decorrelating representations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cogswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Girshick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zitnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Batra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Learning Representations</title>
+		<meeting>the International Conference on Learning Representations</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Natural neural networks</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Desjardins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simonyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pascanu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Advances in Neural Information Processing Systems</title>
+		<meeting>the Conference on Advances in Neural Information Processing Systems</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="2071" to="2079" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Improving accuracy of hard attention models for vision</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Elsayed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kornblith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">V</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Saccader</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Advances in Neural Information Processing Systems</title>
+		<meeting>the Conference on Advances in Neural Information Processing Systems</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="700" to="712" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">All models are wrong, but many are useful: Learning a variable&apos;s importance by studying an entire class of prediction models simultaneously</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dominici</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">177</biblScope>
+			<biblScope unit="page" from="1" to="81" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Towards automatic concept-based explanations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghorbani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wexler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Advances in Neural Information Processing Systems</title>
+		<meeting>the Conference on Advances in Neural Information Processing Systems</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="9273" to="9282" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">O.-C</forename><surname>Granmo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Glimsdal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goodwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Omlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Berge</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1905.09688</idno>
+		<title level="m">The convolutional tsetlin machine</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Generalized backpropagation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fernando</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1611.05927</idno>
+	</analytic>
+	<monogr>
+		<title level="m">étude de cas: Orthogonality</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Deep residual learning for image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="770" to="778" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">beta-vae: Learning basic visual concepts with a constrained variational framework</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Matthey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Burgess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Glorot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Botvinick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lerchner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Learning Representations</title>
+		<meeting>the International Conference on Learning Representations</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Densely connected convolutional networks</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Der Maaten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Q</forename><surname>Weinberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="4700" to="4708" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Orthogonal weight normalization: Solution to optimization over multiple dependent stiefel manifolds in deep neural networks</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the AAAI Conference on Artificial Intelligence</title>
+		<meeting>the AAAI Conference on Artificial Intelligence</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Decorrelated batch normalization</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="791" to="800" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Iterative normalization: Beyond standardization towards efficient whitening</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="4874" to="4883" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Batch normalization: Accelerating deep network training by reducing internal covariate shift</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ioffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+		<ptr target="https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main" />
+	</analytic>
+	<monogr>
+		<title level="m">PMLR. ISIC. digital imaging in skin lesion diagnosis, 2020. data retrieved from ISIC Archive</title>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Bach</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Blei</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Lille, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-07">Jul 2015</date>
+			<biblScope unit="page" from="7" to="09" />
+		</imprint>
+	</monogr>
+	<note>Proceedings of the 32nd International Conference on Machine Learning</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (tcav)</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wattenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gilmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wexler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Viegas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International conference on Machine Learning</title>
+		<meeting>the International conference on Machine Learning</meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="2668" to="2677" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Ole: Orthogonal low-rank embedding-a plug and play geometric loss for deep learning</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lezama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Musé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sapiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="8109" to="8118" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Cheap orthogonal constraints in neural networks: A simple parametrization of the orthogonal and unitary group</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lezcano-Casado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Martínez-Rubio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Machine Learning</title>
+		<meeting>the International Conference on Machine Learning</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Deep learning for case-based reasoning through prototypes: A neural network that explains its predictions</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the AAAI Conference on Artificial Intelligence</title>
+		<meeting>the AAAI Conference on Artificial Intelligence</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Aognets: Compositional grammatical architectures for deep learning</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Microsoft coco: Common objects in context</title>
+		<author>
+			<persName><forename type="first">T.-Y</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Belongie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Perona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ramanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dollár</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Zitnick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision</title>
+		<meeting>the European Conference on Computer Vision</meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="740" to="755" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Learning deep architectures via generalized whitened neural networks</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Machine Learning</title>
+		<meeting>the International Conference on Machine Learning</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="2238" to="2246" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Efficient orthogonal parametrisation of recurrent neural networks using householder reflections</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mhammedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hellicar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bailey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Machine Learning</title>
+		<meeting>the International Conference on Machine Learning</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="2401" to="2409" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Recurrent models of visual attention</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mnih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Heess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Graves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Advances in Neural Information Processing Systems</title>
+		<meeting>the Conference on Advances in Neural Information Processing Systems</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="2204" to="2212" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Sun attribute database: Discovering, annotating, and recognizing scene attributes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hays</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="2751" to="2758" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Recognizing neoplastic skin lesions: A photo guide</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rose</surname></persName>
+		</author>
+		<ptr target="https://www.aafp.org/afp/1998/0915/p873.html" />
+		<imprint>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="206" to="215" />
+			<date type="published" when="2019-05">May 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Classification-by-components: Probabilistic modeling of reasoning over a set of components</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saralajew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Holdijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Asan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Villmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Advances in Neural Information Processing Systems</title>
+		<meeting>the Conference on Advances in Neural Information Processing Systems</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="2788" to="2799" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Grad-cam: Visual explanations from deep networks via gradient-based localization</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Selvaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cogswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vedantam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Parikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Batra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE International Conference on Computer Vision</title>
+		<meeting>the IEEE International Conference on Computer Vision</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="618" to="626" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Attention for fine-grained categorization</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sermanet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frome</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Real</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Learning Representations Workshop</title>
+		<meeting>the International Conference on Learning Representations Workshop</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Whitening and coloring batch transform for gans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Siarohin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sangineto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sebe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Learning Representations</title>
+		<meeting>the International Conference on Learning Representations</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Very deep convolutional networks for large-scale image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simonyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Learning Representations</title>
+		<meeting>the International Conference on Learning Representations</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Deep inside convolutional networks: Visualising image classification models and saliency maps</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simonyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vedaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Learning Representations Workshop</title>
+		<meeting>the International Conference on Learning Representations Workshop</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Smoothgrad: removing noise by adding noise</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Smilkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Thorat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Viégas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wattenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Machine Learning Workshop</title>
+		<meeting>the International Conference on Machine Learning Workshop</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">On orthogonality and learning recurrent networks with long term dependencies</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vorontsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Trabelsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kadoury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Machine Learning</title>
+		<meeting>the International Conference on Machine Learning</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="3570" to="3578" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Using the 7-point checklist as a diagnostic aid for pigmented skin lesions in general practice: a diagnostic validation study</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Prevost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vasconcelos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Burrows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Kinmonth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Emery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Gen Pract</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">610</biblScope>
+			<biblScope unit="page" from="345" to="e353" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A feasible method for optimization with orthogonality constraints</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematical Programming</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="397" to="434" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Full-capacity unitary recurrent neural networks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wisdom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hershey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Le Roux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Atlas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="4880" to="4888" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Towards interpretable object detection by unfolding latent structures</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE International Conference on Computer Vision</title>
+		<meeting>the IEEE International Conference on Computer Vision</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="6033" to="6043" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">On concept-based explanations in deep neural networks</title>
+		<author>
+			<persName><forename type="first">C.-K</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Arik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ravikumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pfister</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1910.07969</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Visualizing and understanding convolutional networks</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Zeiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fergus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision</title>
+		<meeting>the European Conference on Computer Vision</meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="818" to="833" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Interpretable convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nian Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-C</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="8827" to="8836" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Unsupervised learning of neural networks to explain neural networks</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-C</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the AAAI Conference on Artificial Intelligence Workshop</title>
+		<meeting>the AAAI Conference on Artificial Intelligence Workshop</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Object detectors emerge in deep scene cnns</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khosla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lapedriza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oliva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Torralba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Learning Representations</title>
+		<meeting>the International Conference on Learning Representations</meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Places: A 10 million image database for scene recognition</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lapedriza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khosla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oliva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Torralba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1452" to="1464" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Interpreting deep visual representations via network dissection</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oliva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Torralba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Interpretable basis decomposition for visual explanation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Torralba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the European Conference on Computer Vision (ECCV)</title>
+		<meeting>the European Conference on Computer Vision (ECCV)</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="119" to="134" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

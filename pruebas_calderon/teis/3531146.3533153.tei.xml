@@ -1,0 +1,1557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Post-Hoc Explanations Fail to Achieve their Purpose in Adversarial Contexts</title>
+				<funder ref="#_9F57kKM">
+					<orgName type="full">German Research Foundation</orgName>
+				</funder>
+				<funder ref="#_8hN7ZXz">
+					<orgName type="full">BMBF Tübingen AI Center</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">International Max Planck Research School for Intelligent Systems</orgName>
+					<orgName type="abbreviated">IS</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Carl Zeiss Foundation</orgName>
+				</funder>
+				<funder ref="#_H9c62q5">
+					<orgName type="full">Baden-Württemberg Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sebastian</forename><surname>Bordt</surname></persName>
+							<email>sebastian.bordt@uni-tuebingen.de</email>
+						</author>
+						<author>
+							<persName><forename type="first">Michèle</forename><surname>Finck</surname></persName>
+							<email>michele.finck@uni-tuebingen.de</email>
+						</author>
+						<author>
+							<persName><forename type="first">Eric</forename><surname>Raidl</surname></persName>
+							<email>eric.raidl@uni-tuebingen.de</email>
+						</author>
+						<author>
+							<persName><forename type="first">Ulrike</forename><surname>Von Luxburg</surname></persName>
+							<email>ulrike.luxburg@uni-tuebingen.de</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Tübingen</orgName>
+								<address>
+									<country>Germany Michèle Finck</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Tübingen</orgName>
+								<address>
+									<country>Germany Eric Raidl</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Tübingen</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Ulrike von Luxburg</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Tübingen</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Post-Hoc Explanations Fail to Achieve their Purpose in Adversarial Contexts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">59E3C4085BBF2631C3A9390473BA0DE6</idno>
+					<idno type="DOI">10.1145/3531146.3533153</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2025-07-03T17:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Explainability</term>
+					<term>Transparency</term>
+					<term>Regulation</term>
+					<term>Artificial Intelligence Act</term>
+					<term>GDPR</term>
+					<term>Counterfactual Explanations</term>
+					<term>SHAP</term>
+					<term>LIME</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Existing and planned legislation stipulates various obligations to provide information about machine learning algorithms and their functioning, often interpreted as obligations to "explain". Many researchers suggest using post-hoc explanation algorithms for this purpose. In this paper, we combine legal, philosophical and technical arguments to show that post-hoc explanation algorithms are unsuitable to achieve the law's objectives. Indeed, most situations where explanations are requested are adversarial, meaning that the explanation provider and receiver have opposing interests and incentives, so that the provider might manipulate the explanation for her own ends. We show that this fundamental conflict cannot be resolved because of the high degree of ambiguity of post-hoc explanations in realistic application scenarios. As a consequence, post-hoc explanation algorithms are unsuitable to achieve the transparency objectives inherent to the legal norms. Instead, there is a need to more explicitly discuss the objectives underlying "explainability" obligations as these can often be better achieved through other mechanisms. There is an urgent need for a more open and honest discussion regarding the potential and limitations of post-hoc explanations in adversarial contexts, in particular in light of the current negotiations of the European Union's draft Artificial Intelligence Act.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">INTRODUCTION</head><p>Explainability is one of the concepts dominating debates about the ethics and regulation of machine learning algorithms. Intuitively, requests for explainability are reactions to the prevalent unease about machine learning algorithms, including concerns regarding discrimination, biases, manipulation, and data protection. The fact that machine learning systems are often "black boxes" is considered a major hurdle towards their implementation, supervision and control, and explainability is often praised as a remedy against such risks. Existing legislation such as the EU General Data Protection Regulation ('GDPR') has sometimes been interpreted as containing a "right for explanation". The draft Artificial Intelligence Act, a piece of proposed EU legislation, alludes to explainability but does, in its current form, not make clear whether and when exactly explainability is legally required. On the technical side, explainability has evolved into its own field of research <ref type="bibr" target="#b32">[33]</ref>. The current machine learning literature knows two different approaches towards explainability. One approach is to build machine learning models that are constrained to be "inherently interpretable" <ref type="bibr" target="#b41">[42]</ref>. The other approach is to use any machine learning model, even a "back-box", and then employ any of an increasing number of approaches in order to "explain" the behavior of the black-box after the decision has been made ("post-hoc"). Because there exists no general way to summarize the entire behavior of a black-box model, these explanations are usually local, meaning that they only describe the behavior of the function for a single prediction or decision. The natural advantage of local post-hoc explanation methods, such as feature highlighting methods <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b40">41]</ref> and counterfactual explanations <ref type="bibr" target="#b59">[60]</ref>, is that they place no constraints on model complexity and do not require model disclosure <ref type="bibr" target="#b6">[7]</ref>. This has led a number of researchers to suggest that these methods might be able to comply with existing legal requirements <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b59">60]</ref>.</p><p>In this paper, we put forward an important distinction that has not yet been extensively discussed in the literature on explainable AI: whether the explanation's context is adversarial or cooperative. By "cooperative contexts" we broadly summarize situations where all involved parties have aligned interests. This includes model development and debugging, scientific discovery, and, to a degree, areas such as medical diagnosis. In a cooperative context, the explanation provider and the explanation receiver share the same interests: to identify the most suitable and insightful explanation algorithm for the given problem. In "adversarial contexts", in contrast, parties have opposing interests. This is the case for example when a bank denies a customer a loan and the customer wants to contest the decision because it was discriminatory. Since the explanation provider anticipates that one might use the provided explanations to challenge the functioning of the system, the explanation provider does not have any incentive to provide "true" insights into the functioning of the system; but rather to render the internal functioning of the machine learning system incontestable. Indeed, it has been pointed out repeatedly that post-hoc explanation algorithms can be manipulated or cheated upon <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48]</ref>. Many machine learning papers on explanation algorithms implicitly consider collaborative contexts where explanations are used to improve machine learning algorithms and can help developers to understand the biases of complex systems, or where they are used in an explorative spirit towards new scientific discoveries <ref type="bibr" target="#b62">[63]</ref>. In contrast, the legal discussion focuses predominantly on adversarial scenarios. Here explainability is portrayed as a mechanism to add more transparency, fairness and accountability to AI, and post-hoc explanations are often seen as a technical tool to achieve these goals.</p><p>Combining insights from computer science, philosophy and law, we offer a critical multidisciplinary perspective on the usage of post-hoc explanations to achieve transparency and accountability obligations in adversarial contexts. We highlight the blurry legal landscape around explainability as well as the philosophical and technical limitations of post-hoc explanations. In Section 2 we introduce different scenarios -cooperative and adversarial -under which an external examiner might audit a black-box and its generated explanations. We focus on adversarial scenarios -where the explanation provider has opposing interests to the explanation receiver -and local post-hoc explanations -where the explanation explains a single decision for one particular person. In Section 3 we argue that existing and planned legislation,specifically the GDPR and the EU Artificial Intelligence Act, can either be read as portraying explainability as one possible mechanism to achieve more transparency or as presenting it as a free-standing objective. We also highlight the current lack of legal certainty as to how existing legal norms around explainability ought to be interpreted and implemented. These issues have been the source of confusion and uncertainty. This is why we propose to capture the role of explainability by a discussion of its motivations: Explanations are thought to build trust, and also enable actions, such as debugging, contesting, recourse. In Section 4 we show from a philosophical and technical perspective that the goals associated with explainability are unlikely to be achieved by post-hoc explanations. The reason is that the truth assumptions under which explanations are expected to fulfill their legal goal are lacking in the adversarial context. To the contrary, due to the inherent geometric ambiguity of local post-hoc explanations, the explanation provider has a multitude of options to influence explanations in a subtle, undetectable way and to pick those that suit her goals. In Section 5 we show that testing explanations is also problematic. While at best we can test for internal consistency of the explanation with the decision, in more typical cases the explanations become redundant and we would better rely on testing decisions and predictions directly. In Section 6 we conclude and argue that there needs to be a deeper and more honest debate about what the underlying objectives of explainability obligations are. We also argue that one needs to be honest about the fact that using a black-box entails considerable discretion: Neither post-hoc explanation methods, nor regulation can completely compel the deployer of a black-box to align his interests with the public good. As such, if one is absolutely unwilling to award any discretion to the deployer of the blackbox, the only solution is to forbid its deployment and favor inherently interpretable or otherwise constrained machine learning methods. The question under which circumstances the deployment of a black-box might still be admissible depends on our ability to examine and audit the black-box. How exactly this might be done is still an area for future research. We hope that our paper contributes to an open discussion regarding the (lack of) potential of post-hoc explanations in the context of the on-going negotiation of the Artificial Intelligence Act.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">EXPLANATIONS IN COOPERATIVE AND ADVERSARIAL CONTEXTS</head><p>In this work we broadly distinguish between "cooperative" and "adversarial" explanation contexts. In a cooperative context, all parties involved in the process of building the system, providing explanations and using the system share the same goal: to create a system as good and supportive as possible. Prototypical examples are model debugging and scientific research. But also a company building a medical decision support system, say for skin cancer detection, will closely collaborate with the doctors who use it <ref type="bibr" target="#b52">[53]</ref>. The company's goal would be to provide explanations that are as helpful as possible. The situation is very different in adversarial contexts, where parties do not share the same goal, such as in the oft-repeated example of a denial of a loan application. Here, the applicant and bank have opposing interests and incentives. Accordingly, should the bank be mandated to provide the applicant with an explanation, this explanation will be shaped by the bank's incentives and existing power asymmetries. For reasons that we outline below, the distinction between cooperative and adversarial contexts is crucial. In particular, we argue that local post-hoc explanations, which have a variety of use-cases in the cooperative scenario, are pointless or even harmful in adversarial contexts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Parties involved in the adversarial explanation process</head><p>We consider adversarial explanation contexts where an AI decision system is used to make decisions about individuals. Prominent examples are university admissions, job and loan applications, or bail and sentencing decisions. Under existing and planned legislation, such as the EU Artificial Intelligence Act, the creator of the system ought to provide information about how the system comes to its decisions (see Section 3 below for a detailed discussion of the legal background). The creator of the system is the entity that has built the machine learning system and uses it to support decision making. 1 The creator could be a private company (such as a bank) or a public entity (such as a university). The decision subject is the person about whom the automated system makes a decision: the person who applies for a loan, or the person who applies to for university admission. After the decision has been communicated, the explanation recipient asks for an explanation, which is communicated by the explanation provider. The explanation recipient could be the decision subject herself, or an external examiner who is supposed to investigate the decisions or explanations on behalf of the decision subject or to defend her interests. The explanation provider is typically the creator of the system. 2   2.2 Machine learning problem: Supervised learning, tabular data, point-wise post-hoc explanations</p><p>In our technical discussion, we assume that the inputs x ∈ R d of a decision algorithm are given in tabular form. Each dimension of the input encodes a different property of a person, for example age, income, etc. Typically, the number of dimensions d is large: persons are described by dozens or hundreds of features. A machine learning algorithm is used to learn a decision function f : R d → R. The resulting decision y = f (x) for input x could be a binary decision ("receives the loan" or "does not receive the loan") or a numeric risk score on which such a decision is based, as in the often discussed COM-PAS algorithm to predict recidivism risk. We focus on supervised machine learning, where f is learned based on training data consisting of pairs (x 1 , y 1 ), ..., (x n , y n ) with x i the training points and y i the training labels. An explanation algorithm E is an algorithm operating on a decision function with the purpose of explaining it. We focus on local post-hoc explanation algorithms:</p><p>The explanation algorithm E gets queried with a data point x and the corresponding decision y, and produces an explanation E(x, y). Internally, the algorithm has access to the decision function f , and in some cases also to the training data. The explanation E(x, y) is supposed to explain why the decision function f came to decide y for 1 The creator is mainly the developer. But since the developer develops the system for a user, their interests typically align. Hence we do not distinguish developer and user, and use the term "creator" instead. 2 Similar distinctions were introduced by <ref type="bibr" target="#b51">[52]</ref>.</p><p>x. The explanation can be in linguistic form. For example, "The low income of Mr. Smith was relevant for the refusal of the loan" or "Mr. Smith would have received the loan had his income been 10.000 Euros higher".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Explanation algorithms that fall into this framework</head><p>In this paper we consider local post-hoc explanation algorithms such as LIME, SHAP, and DiCE <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b40">41]</ref>.</p><p>The explanations generated by these algorithms do not provide a global or holistic view of the decision function f but merely try to explain individual decisions y = f (x). The often-cited advantage of these algorithms is that they work, at least in principle, for any decision function <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b40">41]</ref>. Different algorithms take different approaches as to what constitutes an explanation: LIME and SHAP provide feature attributions that aim to quantify the influence of the different input-features for the particular decision. Feature attributions correspond to the linguistic form "The low income of Mr. Smith was relevant for the refusal of the loan". Another approach is to provide counterfactual explanations <ref type="bibr" target="#b59">[60]</ref>. These explanations are based on searching for a sufficiently close or the closest alternative point x ′ to the actual input point x that yields a decision y ′ = f (x ′ ) that differs from the original decision y = f (x). Comparing the two we can arrive at factors that are relevant to the decision <ref type="bibr" target="#b23">[24]</ref>.</p><p>The resulting counterfactual explanations have the linguistic form "Mr. Smith would have received the loan had his income been 10.000 Euros higher".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">LEGAL FRAMEWORK: EXPLAINABILITY IN EU LAW</head><p>This paper argues that post-hoc explanation algorithms are unsuitable in adversarial contexts. Before we elaborate this from a philosophical and technical perspective (Section 4), it is important to understand the related legal framework. We focus on European Union law as the EU has often been a first-mover regarding the regulation of data and its analysis, and over time its legislation will likely inspire other jurisdictions (for a broader view, see <ref type="bibr" target="#b20">[21]</ref>). Our analysis focuses on the draft Artificial Intelligence Act (AIA), a piece of proposed legislation that would be the first to specifically target AI. This pioneering approach would be a global blueprint for the regulation of AI. In its current form it creates different legal obligations for different AI applications on the basis of the perceived risks. The AIA would apply to general AI systems (Section 3.1). We also consider the General Data Protection Regulation (GDPR), which applies to the processing of personal data (Section 3.2). It will be seen that whereas EU law contains various obligations to provide information about a machine learning algorithm and its functioning, it remains unclear how these legal norms should be implemented from a technical perspective and whether explainability should be understood as a free-standing legal obligation or whether it should rather be seen as one of various mechanisms to achieve algorithmic transparency (Section 3.3). To better understand the latter we also review their underlying rationales and objectives from a philosophical and legal perspective (Section 3.4).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">The draft Artificial Intelligence Act (AIA)</head><p>The current draft of the AIA defines AI systems as "software (...) that can, for a given set of human-defined objectives, generate outputs such as content, predictions, recommendations, or decisions influencing the environments they interact with". Generally, the AIA regulates AI on the basis of its perceived risk by introducing four different categories of AI. Most relevant to our discussion are the two categories of systems that are high-risk, as opposed to systems that are not high-risk (the remaining two categories are practices that are subject to qualified prohibitions, and a residual category of AI systems that includes law enforcement software, emotion recognition system, biometric categorisation systems and deep fakes) <ref type="bibr" target="#b53">[54]</ref>. The stronger the risk, the heavier regulatory obligations apply, also regarding transparency and interpretability.</p><p>There are two categories of high-risk AI systems. First, AI systems that relate to products that are already subject to supranational harmonisation, namely AI systems intended to be used as a safety component of a product, which are themselves products covered by Union harmonising legislation or which are required to undergo third-party conformity assessments. Second, a list of systems that are currently considered to carry a high-risk such as, for instance, biometric identification systems, systems for the management and operation of critical infrastructure, those used in education and employment, some law enforcement systems as well as others (see further Art 3(1) of the draft AIA). Article 13 governs explainability for high-risk AI systems, which have to be "designed and developed in such a way to ensure that their operation is sufficiently transparent to enable users to interpret the system's output and use it appropriately". Furthermore, users (the entity deploying the AI) need to have access to instructions for use in an appropriate digital format that contains information about the characteristics, capabilities and limitations of performance, including information about the level of accuracy, robustness and cybersecurity, risks to health, safety or fundamental rights, specifications for the input data, expected lifetime of the AI system and necessary maintenance measures. Finally, human oversight must be ensured. These measures are designed to minimize risks to health, safety or fundamental rights. Human oversight shall either be (i) identified and built into the system by the provider before it is placed on the market or put into service, or (ii) identified by the provider before the system is placed on the market or put into service but only implemented by the user.</p><p>In its current version, the AIA would thus require that high-risk AI systems are sufficiently transparent to enable the interpretation of the system's output. Is this an explainability obligation? Recital 47 sheds some light on how to interpret these notions. It specifies that high-risk AI systems should be transparent to a "certain degree" to "address the opacity that may make certain AI systems incomprehensible to or too complex for natural persons". To this end, users "should be able to interpret the system output and use it appropriately" through the provision of "relevant documentation and instructions of use". This does not read like an obligation to make systems explainable in the sense that the way in which data has been processed must be entirely traceable. Rather, the AIA would require that an "interpretation" of the output must be facilitated through sufficient transparency. Importantly, this does not necessarily seem to imply that an absolute truth must be identified post-hoc (see Sections Article 52 AIA creates some general transparency obligations for AI systems that are not high-risk. These are general disclosure obligations such as to (i) inform users that they are interacting with an AI system unless this is obvious from context, (ii) users of an emotion recognition system or biometric categorization system shall inform natural persons exposed thereto, (iii) deep fakes must be disclosed as such. Some exceptions apply where the AI is used in the context of law enforcement. These are thus obligations of transparency that require disclosure that AI is used, as opposed to how it is used.</p><p>To summarize, the draft AIA would thus not, in its current form, create a general explainability obligation for machine learning systems. Such an obligation clearly is not foreseen in relation to AI systems that are not qualified as high-risk. Arguably, there is also no explainability obligation in relation to high-risk AI systems. Rather, what is required is transparency of the system's functioning and output generation. This transparency must make these elements interpretable but not necessarily amount to the provision of an explanation as it is commonly understood in computer science.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">The General Data Protection Regulation (GDPR)</head><p>The GDPR creates some general transparency requirements that form part of the data controller's (the entity that determines the purposes and means of processing) general informational obligations vis-à-vis the data subject (the natural person that personal data relates to).</p><p>In addition, it also contains a specific regime for "solely automated data processing". In contrast to the draft AIA, which creates vague obligations resting on the user, the GDPR creates specific rights for the individual subjected to such decisions.</p><p>Article 13 requires that data controllers provide specific information to data subjects where personal data is collected from them at the time of collection such as whether "automated decision-making" is used, and, if so, provide "meaningful information about the logic involved<ref type="foot" target="#foot_0">3</ref> , as well as the significance and the envisaged consequences of such processing". Article 14(1)(h) creates the same obligation in cases where data is not directly collected from the data subject. Pursuant to Recital 62 this information does not have to be provided where it is redundant, or where compliance proves impossible or involves a disproportionate effort. The same wording can also be found in Article 15, which deals with the data subject's right to access data. Whereas Articles 13 and 14 relate to the pre-processing stage, data subjects can exercise their rights under Article 15 at any time, including after processing has taken place. This raises the question of whether -despite the identical wording of these provisions -Article 15 may substantively require something different when referring to the "logic" of the automated decision-making process.</p><p>There is no general right to an explanation under the GDPR. Some explainability requirements may, however, arise in respect of machine learning algorithms that produce legal effect or similarly significantly affect a data subject. Article 22 creates a qualified prohibition of "solely automated data processing", including profiling. This implies that such techniques can only be used in some circumstances, namely (i) where necessary to enter into or perform a contract between the data subject and controller, (ii) where it is authorized by law or where the data subject has provided explicit consent. In these circumstances automated processing can take place, but the data subject has the right to human intervention and to express her point of view and to contest the decision. Recital 71 mentions an additional element, namely that the data subject has the right "to obtain an explanation" after human review of the decision "and to challenge this decision". <ref type="foot" target="#foot_1">4</ref> Recitals, however, do not have the same legally binding force as the text of the GDPR itself.</p><p>Over the past years there has been a vivid academic debate around whether the reference to "an explanation" in Recital 71 amounts to a "right to an explanation" that data subjects can exercise via-à-vis controllers <ref type="bibr" target="#b58">[59]</ref> [32]</p><p>[45] <ref type="bibr" target="#b13">[14]</ref>. The Article 29 Working Party's guidance suggests that Article 22, read in conjunction with Recital 71, should be understood to require that controllers (i) tell data subjects that they are engaging in automated decision making, (ii) deliver meaningful information about the logic, and (iii) explain the processing's significance and envisaged consequences. The information provided should include details about the categories of data; why data is seen as pertinent; how profiles are built; why the profile is relevant for the decision-making process and how it is used to reach a decision about the data subject. The last three criteria appear to apply to profiling only <ref type="bibr" target="#b35">[36]</ref>. Information with respect to the "logic" means "simple ways to tell the data subject about the rationale behind, or the criteria relied on in reaching the decision". What is required is "not necessarily a complex explanation of the algorithms used or disclosure of the full algorithm". Nonetheless, the information transmitted to the data subject should be sufficiently comprehensive to "understand the reasons for the decision". Thus, an explanation of algorithms or disclosure of the full algorithm isn't "necessarily" required and that the controller ought to find "simple ways to tell the data subject about the rationale behind, or the criteria relied on in reaching the decision". Unfortunately, this guidance leaves a lot of room for doubt regarding what exactly is required of controllers. In any event the GDPR does not create a general right to an explanation but applies only to automated decision-making that legally affect the data subject or have similarly significant effects on them.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Explainability as a sub-component of transparency</head><p>While there is a persistent myth that EU law requires that all decisions based on AI are "explainable" our analysis has painted a more nuanced picture. First, there is no overarching explainability norm that would apply to any usage of AI. To what degree secondary law requires explanations has not been authoritatively settled. Ultimately, the Court of Justice of the European Union will need to settle this question in respect of the GDPR. Concerning the draft AIA, however, legislators should clarify in the final text whether explainability is a free-standing legal obligation in respect of high-risk AI systems or whether it should rather be understood as a sub-component of transparency. As shown above, it is indeed possible to read references to explainability as elements of the broader transparency obligation. Article 13 AIA is explicitly about transparency, but the reference that this transparency must allow users to "interpret the system's output" has been understood as an explainability obligation by some. Further iterations should clarify the link between transparency and explainability to enhance legal certainty. An analysis of the history behind the AIA confirms the lack of precision of the AIA itself. The EU High Level Expert Group on AI's report on the one hand portrayed explainability as a component of transparency. On the other hand, it repeatedly referred to another concept, "explicability", which was introduced as an ethical principle and as the "procedural dimension" of fairness. In contrast, the AIA White Paper made no reference to explainability other than to mention that symbolic reasoning could help make deep neural networks more explainable. This part of the AIA legislative history underlines the lack of consensus about what exactly explainability is. Similarly, the GDPR could also be read as referring to explainability as a sub-component of transparency. Articles 12-15 derive from the core data protection principle of transparency in Article 5(1)(a) and likewise, one reading of Article 22 in conjunction with relevant recitals could also be understood as a more general transparency rather than explainability obligation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>This, of course, raises the question of what transparency means and what it should enable.</head><p>There is broad consensus that the GDPR requires that decisions reached through automated decision making be justifiable. Indeed, Hildebrandt has highlighted that data protection requires "the justification of such decision-making rather than an explanation in the sense of its heuristics" (p. 113 in <ref type="bibr" target="#b17">[18]</ref>). Kamimski and Urban deem that justification should enable "understanding, revealing and making challengeable the normative grounds of a decision" (p. 1980 in <ref type="bibr" target="#b20">[21]</ref>). Wachter, Mittelstadt and Russell have argued that explainability is ultimately designed to help the data subject understand, contest and alter decisions and that this could also be achieved by counterfactual explanations <ref type="bibr" target="#b59">[60]</ref>. If explainability is merely one means of achieving transparency, there needs to be a more thorough discussion as to what other, alternative, means of achieving transparency there are, particularly in situations where explainability strictu sensu proves impossible. Considering the lack of consensus as to how the legislative texts of the AIA and the GDPR ought to be interpreted and applied in practice, it is helpful to consider their underlying objectives.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Rationale and objectives of explainability norms in an adversarial setting</head><p>The vague formulation of explainability rights, coupled with uncertainty regarding their function makes it legitimate to ask whether explanations serve any meaningful purpose. Indeed, as Edwards and Veale <ref type="bibr" target="#b13">[14]</ref> have argued, "the search for a legally enforceable right to an explanation may be at best distracting and at worst nurture a new kind of transparency fallacy". This is essentially a warning that if explainability obligations just become a box-ticking exercise, they might give a misleading appearance of compliance rather than to be of any real value to the decision subject. In addition, explainability rights in the GDPR inevitably also suffer from the general shortcomings of the low enforcement of the GDPR.</p><p>In order to better understand the above-examined norms we propose to consider their underlying objectives. Before discussing legislative history let us recapitulate what philosophers have identified as main objectives for algorithmic explanations. <ref type="foot" target="#foot_2">5</ref> One major motivation for explainability of AI systems is the hope that this may foster trust in these systems <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b56">57]</ref>. This has been called the "Explainability-Trust" hypothesis <ref type="bibr" target="#b21">[22]</ref>. 6 The hypothesis is controversial, and it is not exactly clear how explanations would induce trust. The underlying rationale seems to rest on an analogy with human interactions. Consider decisions made by human experts. When the decision doesn't satisfy us, we are drawn to ask for an additional explanation. Given such an explanation, we may check whether it conforms to our expectations about good decision making. If so, this may be a ground for further trusting the decision maker. This is not a one-shot process, but an ever evolving interaction on a long term time-scale. We tend to trust a person that proved repeatedly to predict correctly, make good decisions, or provide well informed explanations. The trust raising potential of an explanation however requires that we can submit explanations and decisions to tests, possibly by delegating it to other experts. The trust raising potential of a single explanation thus presupposes that the explanation provider stays in the information-exchange on the long run: only then does she have an incentive to provide a correct explanation, since an incorrect one would lead to a loss of trust in the long run but not in a one-shot exchange. If an algorithm rather than a human expert makes a decision, we might have similar expectations. We would like to engage in a similar information exchange with an algorithm as we engage with humans. The demand for an explanation is then a demand for a piece of communicative interaction. The hope that this builds trust stems from the intuition that the interaction with the algorithm is similar to the interaction among humans, as depicted above. This assumption may however fail either because the algorithmic explanations cannot be submitted to sensible tests or because the exchange is one-shot and not long run. In the first case, explanations loose their trust raising potential. In the second, the explanation provider may not have the incentive to tell the truth.</p><p>A second implicit motivation for explainability stems from the idea that information provided by explanations can be used to perform actions, and may in fact be needed for such actions. In the adversarial setting, a data subject might want to use an explanation to contest a decision <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b59">60]</ref>, by claiming, or arguing that the decision is not right, not good, or not fair. The data subject might also want to use the explanation for recourse, in order to do better next time <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b59">60]</ref> (see also <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b28">29]</ref>). 7 But such explanations are only of value when true or correct. A false explanation will not help in doing better next time, and may even be devised such as to render a decision incontestable.</p><p>The two motivations from philosophy -building trust and enabling recipients to act -can also be found as objectives in the legal texts. The EU High Level Expert Group on AI described explainability as one tool to achieve trust in AI systems <ref type="bibr" target="#b34">[35]</ref>. 8 The AIA provides that explainability norms are designed to allow users to fully understand the capacities and limitations of highrisk systems, leading again to trust. Partly related to trust, one can understand explainability as a tool for risk management, in line with the AIA's overall risk-based approach. Indeed, for high-risk AI systems, transparency must be ensured by monitoring the system's operation, detect signs of anomalies, dysfunctions and unexpected performance in order to counteract automation bias or to potentially intervene in the system (the idea of a "stop button"). The European Commission White Paper also emphasized the risk-based approach and stressed that due to the potential scale of AI systems <ref type="bibr" target="#b10">[11]</ref>: a hidden bias or an incorrect assumption of an AI system, say deciding on tens of thousands of university admission decisions, will have a large systemic effect. This differentiates large-scale AI systems from human decision-making systems. In philosophy explanations are considered as a tool towards future actions. Similarly, the legal discussion also portrays explainability as an enabling right. The High-Level Expert Group on AI has drawn attention to the fact that to be able to contest decisions, they must be traceable. Also outside the AIA and the GDPR, explainability serves a related purpose. In consumer protection law, explainability is linked to the unequal power dynamics between the business and the consumer. In the public administration, it has been argued that being subjected to an intransparent black-box decision would undermine human dignity and is also to be avoided, unlike in the private sector, individuals cannot vote with their feet and go elsewhere.</p><p>Overall, the motivations for explanations seem to presuppose that such explanations are true or correct. Only then does a single explanation raise trust, and only then can an explanation be used to perform the intended actions, such as contesting or recourse. We will, however, see in the next section that this truth-presupposition for explanations fails in adversarial scenarios of algorithmic post-hoc explanations. 7 Other actions belong more properly to the collaborative setting, such as debugging, improving, correcting, learning, understanding and testing. 8 With the consequence that explainability would also play a role in stimulating the adoption of AI and the competitiveness of the internal market.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">THE PROBLEMS WITH POST-HOC EXPLANATIONS IN ADVERSARIAL CONTEXTS</head><p>We now discuss the problems with post-hoc explanations in adversarial scenarios. What can we expect from an algorithmic explanation in these contexts? We roughly know what to expect from human explanations. For example, witnesses giving evidence in court are expected to tell the truth. Can we expect something similar of an algorithmic explanation? If the algorithm decided, for example, to reject a loan application, can we expect to discover the true reason why it decided to do so?</p><p>The answer is that we cannot, for two reasons. First, the algorithm's view of the world is coarse-grained and incomplete, and this significantly restricts the vocabulary available for potential explanations (Section 4.1). Second, even within the limited picture of the world that the algorithm has access to (the "algorithm's own world") uniquely preferred or "ground truth" explanations do not exist (Section 4.2). This directly ties with the computer science perspective of why post-hoc explanations should not be used in adversarial contexts: the task of providing post-hoc explanations is underdetermined. The objective of the adversary explanation provider is to deploy a classifier that has high accuracy and generate post-hoc explanations that cannot be contested by the data subject or an examiner. We argue that due to the high degree of ambiguity inherent to algorithmic explanations, the adversary has sufficient degrees of freedom to devise incontestable explanations -even without explicitly optimizing against a particular explanation method <ref type="bibr" target="#b45">[46,</ref><ref type="bibr" target="#b46">47]</ref>. We identify four key quantities that allow the adversary to influence the resulting explanations: the choice of an explanation algorithm and its particular parameters (Sections 4.3 and 4.4); the exact shape of the high-dimensional decision boundary (Section 4.5); and, when applicable, the choice of the reference dataset (Section 4.6). This section contains a number of figures and simulation results. Additional figures can be found in the supplement. The code to replicate the results in this paper is available at https://github.com/tml-tuebingen/facct-post-hoc.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">The algorithm's view of the world is coarse-grained and incompletethis limits potential explanations</head><p>Learning and explanation algorithms only have access to a coarse-grained description of the real world. Their vocabulary is restricted to certain features, and possible relations between them. The "experience" of such algorithms given by the finite training data is formulated in the restricted vocabulary and provides only a small window to the world. Overall, the algorithm's representation of the real world is coarse-grained and incomplete. <ref type="foot" target="#foot_4">9</ref> The learning algorithm just sees features and training labels. The explanation algorithm, additionally, sees the learning algorithm's association between  Depicted are the feature attribution explanations of four different explanation algorithms: Exact SHAP for trees <ref type="bibr" target="#b30">[31]</ref>, LIME <ref type="bibr" target="#b40">[41]</ref>, DiCE <ref type="bibr" target="#b23">[24]</ref>, and Interventional SHAP <ref type="bibr" target="#b19">[20]</ref>. All four explanation algorithms attempt to explain the prediction for the same individual with the same decision function (a gradient boosted tree) on the same dataset (Adult-Income). The idea of feature attribution explanations is to determine how much each dimension of the input contributed towards the decision. The figures depict these attributions by drawing a bar for each of the 12 input dimensions. The larger the bar, the higher is the influence of the corresponding feature. Some methods distinguish between positive and negative attributions. In the depicted example, the first bar in Panel (a) is relatively large, which indicates that the SHAP algorithm determined that the value of the first feature contributed strongly to the prediction. The DiCE algorithm in Panel (c), in contrast, determined that the value of feature 9 contributed most strongly to the prediction. More figures showing results for other data points can be found in the supplement.</p><formula xml:id="formula_0">F 1 F 2 F 3 F 4 F 5 F 6 F 7 F 8 F 9 F 1 0 F 1 1 F</formula><p>input and output. This is what we call "the world of the explanation algorithm", and this is all what it can exploit. As a consequence, all the explanation algorithm could talk about are geometric properties in the world of the algorithm: distances of points to the decision surface, proximity between points, their true or predicted labels, the gradient of the decision function at a point, the necessary change of a feature to change the decision, etc. Although a true explanation for a decision might exist in the real world, it might not be represented in the data or other aspects of the algorithm's world, which could thus not provide any such explanation. This is even the case in a cooperative setting. Consider the example of a medical diagnosis of a disease for which a true (say, causal) explanation exists in the real world. If the learning algorithm was trained on feature-based data such as age, blood pressure, etc, the explanation algorithm could suggest that age was the cause. However, in reality the cause for the disease may not be age, but rather a smoking habit that was not represented in the data. So even if a true explanation exists (say, a cause) this may neither be identifiable nor expressible by the explanation algorithm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Even within the algorithm's own world, a unique preferred reason does not exist</head><p>Even within the limited world that the explanation algorithm has access to, a "true internal reason" why the learned decision function comes to a certain decision does generally not exist. This is particularly the case for complicated black-box functions. Even machine learning experts digging into the learning algorithm or properties of the function could not reveal a unique true reason. All we can do is to provide vague approximations of how the algorithm arrives at its decision, by summarizing which features contributed how much to the decision (the approach of LIME and SHAP), or whether a change in some features would alter the decision (the approach of counterfactual explanations). For example, in the case of a loan rejection, we might want to know whether it was rather our low income or our postal code which determined the decision, and whether we could change something about the decision, if in the future we had a higher income or moved to another area. However, these explanation attempts are all subject to choices. A mathematically unique way to determine how much each feature of a complicated black-box function contributed to the decision does not exist. Consequently, all feature attribution methods rely on particular assumptions and mechanisms in order to construct explanations: LIME, for example, looks at the gradient of the decision function at the point to be explained <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b40">41]</ref>. SHAP compares the point with other datapoints from a reference population <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b29">30]</ref>. Yet another approach would be to re-train the classifier on subsets of features or to use counterfactual feature importance, where one looks at the distance to the decision surface in various directions. All these mechanisms and choices seem plausible but, as we will see in the next section, they all deliver different explanations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Different explanation algorithms lead to different explanations</head><p>Different explanation algorithms lead to different explanations <ref type="bibr" target="#b24">[25]</ref>. This is true even if the algorithms have access to exactly the same information (the geometry of the data, the learned decision function, etc). In an adversarial context, this is problematic because it means that the creator of the system can modify the explanations by choosing a particular explanation algorithm. In practice, different explanation algorithms lead to different explanations even on the most simple machine learning problems. In high dimensions, that is in real-world problems, the difference between the explanations obtained from two different explanation algorithms can be so significant that the explanations are entirely different. This is illustrated in Figure <ref type="figure" target="#fig_0">1</ref>. The figure depicts the feature attribution explanations that four different explanation algorithms determined for the same individual. From the difference between the four panels in Figure <ref type="figure" target="#fig_0">1</ref> it is quite clear that different explanation algorithms can lead to markedly different explanations, even if they all attempt to explain the same decision for the same individual. <ref type="foot" target="#foot_5">10</ref>Details on the machine learning problem, dataset and explanation algorithms can be found in the supplement.</p><p>That different explanation algorithms lead to different explanations is also true for counterfactual explanation methods <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b59">60]</ref>. Indeed, there is a variety of ways in which the optimization problem can be set up, which in turn leads to different explanations. However, already a single counterfactual explanation method can lead to a large number of counterfactual explanations. In a cooperative context, being able to generate many different counterfactual explanations for the same individual can be beneficial <ref type="bibr" target="#b33">[34]</ref>. In an adversarial context this is problematic because there is no principled way to choose among different counterfactual explanations, and the adversary is again awarded considerable discretion to determine explanations. In realistic, high-dimensional applications, the number of potential counterfactual explanations can quickly become very large. Let us illustrate this point on the German Credit Dataset. The German Credit Dataset is a 20-dimensional dataset with features on credit history and personal characteristic.</p><p>The task is to predict credit risk in binary form. How many different counterfactual explanations exist for a single individual? With a common black-box decision function, more than 100 different counterfactual explanations exist for each individual.</p><p>At its core, the fundamental difficulty of explainable machine learning is then the same as in other fields of unsupervised learning: the lack of a ground truth explanation impedes the development of an algorithmic framework to automatically evaluate explanations. Every explanation algorithm needs to make assumptions about which properties of the decision function it seeks to highlight. As a result, it is possible to develop sanity checks for explanation algorithms and exclude unreasonable approaches <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b8">9]</ref>, but not to discern whether any of two post-hoc explanations is "more correct", which  <ref type="bibr" target="#b12">[13]</ref>: Are these attributions similar or different? More figures showing results for other data points can be found in the supplement.</p><p>would be equivalent to discussing whether any of two different clusterings is "more correct" <ref type="bibr" target="#b57">[58]</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">The explanation provider can choose between a large number of possible explanation algorithms and parametrizations</head><p>Even for a single explanation algorithm, there can be many different parameter choices that all lead to different explanations. LIME explanations, for example, depend on the bandwidth and the number of perturbations <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b45">46]</ref>. The uniqueness properties of Shapley values non-withstanding, there is a multiplicity of ways in which Shapley values can be operationalized to generate explanations <ref type="bibr" target="#b50">[51]</ref>. Counterfactual explanation algorithms depend on the underlying metric chosen to represent closeness (e.g. Euclidean distance vs. L1-norm) <ref type="foot" target="#foot_6">11</ref>as well as additional hyperparameters to weight-off between closeness and prediction, and, at least in principle, any number of additional penalty terms <ref type="bibr" target="#b33">[34]</ref>. In certain cases, it might be possible to come up with good default parameter choices. For example, recent work has demonstrated how to choose the bandwidth parameter of LIME in a principled way or quantify uncertainty in the resulting explanations <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b63">64]</ref>. It is also possible to exclude explanation algorithms and parametrizations that are completely unreasonable, for example because they are not sensitive to the decision function <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b8">9]</ref>. This nevertheless leaves an ever-increasing number of plausible explanation algorithms and corresponding parametrizations. Quite generally, different explanation algorithms vary among many different dimensions, and there is an ever increasing number of suggestions as to how  It can even be hard to tell from the explanations whether the classifier had been trained trained at all. On the Wisconsin Breast Cancer dataset, the SHAP explanations of a classifier trained to achieve an accuracy of 96% are hard to distinguish from those of the same classifier trained on random labels. More figures showing results for other data points can be found in the supplement.</p><p>black-box functions might be explained. This can be seen, for example, in the recent work of Covert et al. <ref type="bibr" target="#b11">[12]</ref>, who summarize 25 existing methods in a unified framework. As already discussed above, there are no fundamental reasons that impede us from using any particular method. 12   4.5 Explanations depend on the exact shape of the high-dimensional decision boundary</p><p>Even if we fix a particular explanation method and its parameters, the generated explanations still depend on the exact shape of the learned decision boundary. In high dimensions, there are often many different black-box functions that solve a particular classification problem to a desired accuracy, that is they represent the data sufficiently well. However, these functions often lead to different explanations. To a certain extent, we may say that the exact shape of the learned decision boundary is arbitrary, but since the explanations depend on it, these turn out to be arbitrary as well. One of the reasons for the sensitivity of the explanation to the function's shape is that many explanation methods evaluate the function f at datapoints that are outside the data distribution or at points that are unlike most points from the data distribution. In the adversarial scenario, this is problematic because the adversary can freely modify the values of the function f outside the data distribution without changing the classification behavior. Recent work has demonstrated that this property can be used to explicitly manipulate and attack explanation methods <ref type="bibr" target="#b46">[47,</ref><ref type="bibr" target="#b47">48]</ref>. But even without explicit attacks, there are many different choices, in particular hyperparameter and architecture 12 The distinction between two "different" explanation algorithms and different parameter choices for the "same" explanation algorithm is of course a matter of perspective: We might consider the question of distributional versus intervential Shapley values as a question of how to use "the" SHAP method <ref type="bibr" target="#b19">[20]</ref>, but we might as well perceive it as a discussion as to which of two different methods to use.</p><p>choices, that influence the shape of the decision boundary, and thus the resulting explanations. For an external examiner, this presents a challenging problem: while certain explicit attacks on explanation methods could in principle be detected through code review (see also Section 5.2), it is far less clear how one would argue about choosing one classifier over another, or any particular choice of hyperparameters. This problem is illustrated in Figure <ref type="figure" target="#fig_3">3</ref>. Here, we solved the same machine learning problem both with linear regression and a random forest. The two methods have comparable performance on the test set, where 94% of their predictions agree. Nevertheless, the explanations obtained for the two different decision functions can be quite different -even for points that receive the same prediction.</p><p>Turning to counterfactual explanations, it is well-known that these depend on the exact shape of the decision boundary. Let us give an example, again using the German Credit Dataset. Consider two different decision functions, a gradient boosted tree and logistic regression.</p><p>If we generate a number of diverse counterfactual explanations <ref type="bibr" target="#b33">[34]</ref> for a typical individual with respect to one decision function, are these also counterfactual explanations with respect to the other decision function (at least as long as both functions arrive at the same decision)? In this simple experiment less than 50% of counterfactual explanations that work for the gradient boosted tree also work for logistic regression. As discussed above, the fact that the explanations depend on the exact shape of the decision boundary is problematic because it allows the creator of the system to influence the resulting explanations. The particular choice of the decision function can even determine whether certain types of counterfactual explanations exist at all. Let us give an example on the Wisconsin Breast Cancer Dataset. To demonstrate the dependence on the decision boundary, we consider again two different decision functions, linear regression and a random forest. For linear regression, there exist a large  The blue and orange color depicts the binary label that the classifier is supposed to predict at each data point (to get an intuition, you might think of the groups as "male" and "female", and the label as "is awarded the credit" or "is not awarded the credit"). Panels (b) and (c) depict the interventional SHAP feature attributions <ref type="bibr" target="#b19">[20]</ref> for the same data point in Group 1. In Panel (b), the explanation's reference dataset consists of the observations of Group 1 only. In Panel (c), the reference dataset is the entire dataset. The example shows that changing the reference dataset can almost completely change the feature attribution from one feature to another. number of counterfactual explanations that modify only a single variable. For the random forest, it is impossible to find any such counterfactual explanations. This is despite the fact that both classifiers exhibit similarly low test error.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6">It is unclear how to choose the reference dataset that many explanations depend on</head><p>In recent years, there has been an increased focus on the composition of datasets, for example on the representation of different sociodemographic groups in machine learning datasets <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b36">37]</ref>. In many real-world problems such as credit lending, the criteria for choosing an appropriate dataset are not clear. In both cooperative and adversarial contexts, the creator of the system has to make numerous choices, many of which can have significant effects on both the shape of the learned decision boundary and the generated explanations. For example, Anders et al. <ref type="bibr" target="#b4">[5]</ref> have shown that gradient-based explanations can be manipulated by adding additional variables to the dataset. In this section, we highlight the additional role that the dataset can have on algorithmic explanations, even when keeping the learned decision boundary constant. Indeed, while some explanation algorithms such as LIME only rely on the learned decision boundary, other methods such as SHAP and some counterfactual explanation methods make additional use of the data in order to generate explanations. The relevant dataset could be the training data, but it could also be a different dataset. We refer to it as the reference dataset.</p><p>While the usage of such a dataset to generate explanations can be seen as a remedy to the vagaries of high dimensions, or as a possibility to generate counterfactual explanations that look like they come from the data, this approach is problematic as long as the adversary determines the composition of the dataset. The reason is that whether certain datapoints are included in the dataset or not can determine whether an explanation algorithm provides one or another explanation. Figure <ref type="figure" target="#fig_5">4</ref> illustrates this with a simple example: By deciding between two different reference datasets, one can effectively decide whether one ore another feature was relevant to the decision.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.7">Bottom line: Post-hoc explanations are highly problematic in an adversarial context</head><p>It is extremely important to understand that an explanation algorithm is based on many human choices that are shaped by human objectives and preferences. While many choices are plausible, there is no objective reason to prefer one algorithm over the other, or one explanation over the other. Apart from the explanation algorithm and its particular parameters, explanations are influenced by human choices such as the selection of the classifier and the composition of the dataset. In adversarial contexts it implies that the adversary can choose, among many different plausible explanations, one that suits their incentives. This complicated situation makes it particularly difficult for external observers, including judges and regulatory bodies, to determine whether an explanation is acceptable. Explanation algorithms appear to provide objective explanations, yet as explained above this is not the case (compare Section 4.2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">ONCE AN EXAMINER IS ALLOWED TO ASSESS THE PROVIDED POST-HOC EXPLANATIONS, SHE'D BETTER INVESTIGATE THE DECISION FUNCTION DIRECTLY</head><p>So far we have discussed explainability obligations in European Union law and their motivation (Section 3), and pointed out theoretical (Sections 4.1-4.2) and practical (Sections 4.3-4.6) shortcomings of post-hoc explanations.</p><p>In this section, we add yet another component to our argument. In an adversarial setting, it is not only the AI decision system itself but also the corresponding explanation algorithm which might need to be examined by a third party. Even if the examiner only attempts to assess the most basic consistency properties of the provided explanations, that is to check whether the explanations relate to the AI decision system at all, this necessarily requires that the examiner is able to query the AI system. But then, the explanations become entirely redundant: Rather than relying on explanations to enable risk management, provide trust or bias and discrimination detection (compare Section 3.4), the examiner could directly query the AI system for problematic decision behavior. Because the creator of the system and the examiner have competing interests, it is important to distinguish degrees of transparent interaction between the two. Naturally, the examiner would like to have access to as much information as possible, whereas the adversary creator wants to disclose as little information as possible. We distinguish between a minimal and a fully transparent scenario of information disclosure (Sections 5.1-5.2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Minimalist scenario where decision function and explanation algorithm can be queried</head><p>To determine whether the adversary's explanations actually correspond to the used decision function f instead of being arbitrary justifications not related to the decision process, the examiner needs to be able to query the decision function and the generated explanations. <ref type="foot" target="#foot_7">13</ref>This includes a fair amount of related knowledge, such as which variables are input to the algorithm, but excludes explicit access to the decision function, explanation algorithm, source code and training dataset. A related but slightly more limited version of this scenario arises when individuals jointly collect the decisions and explanations from the creator of the system. In this minimalist scenario, the examiner can validate the internal consistency of the provided explanations. Researchers have proposed a number of criteria that the examiner can test for such as faithfulness to the model, robustness to local perturbations, as well as necessity and sufficiency notions for individual feature attributions <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b55">56]</ref>. The examiner might also want to perform tests as to whether the provided explanations have been manipulated <ref type="bibr" target="#b47">[48]</ref>. More importantly however, even just with the ability to query the decision function, the examiner can ignore the explanations and directly investigate the decision function for problematic properties. For example, the examiner could conduct a systematic evaluation of, say, fairness metrics such as equal opportunity and demographic parity, based on an independent reference dataset of her choice (see <ref type="bibr" target="#b5">[6]</ref> for these and other notions of fairness and discrimination). Indeed, because the adversary designing the explanation algorithm has no interest in choosing explanations that highlight any discriminatory behavior of the decision algorithm, the examiner is well-advised to simply ignore the explanations and test the decision algorithm directly. Although such tests might be similar to certain explanation algorithms, what is important is that the examiner (as opposed to the creator) designs and implements them. Note that we are not saying that the minimalist scenario actually allows the examiner to assess all legally relevant properties of the decision function. What exactly can be assessed with querying access is a question that still requires more research. Our point is that once we have querying access, the explanations are useless.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Fully transparent scenario where algorithms' source code and training data are disclosed</head><p>At the opposite end of the minimalist scenario is the fully transparent scenario where the examiner is allowed to investigate the decision function, source code and training data. An examiner could then scrutinize whether the explanation algorithms have been implemented according to the state of the art with sensible parameter choices. This directly rules out the possibility for the creator of the system to manipulate explanations. Are post-hoc explanations useful in the transparent scenario, perhaps because the examiner now has the tools to verify whether the adversary has chosen the "correct" explanations? As we have already discussed above, the problem is that there is no notion of "correct" explanation (Sections 4.2 and 4.3). Thus, except for notions of internal consistency <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b23">24]</ref>, there is, in general, nothing the examiner can say about the explanations. Another issue, already observed in Sections 4.5 and 4.6, are hyperparameter choices and decisions regarding the composition of the dataset. For these decisions, it is highly non-trivial to come up with uniquely reasonable defaults: If the adversary has found a particular neural network architecture with hyperparameters that generalize well on the adversary's own dataset, how exactly could the examiner argue that this is inappropriate? Nevertheless, all of these choices can influence the resulting explanations, even if we fix a particular explanation algorithm. Of course, the examiner could scrutinize the source code, re-train the system with different parameters, perform tests on the data, and generate alternative explanations. Some have argued that this might be sufficient in order to assess a variety of legal requirements <ref type="bibr" target="#b22">[23]</ref>. While we think that more research is needed on what can be realistically achieved in the fully transparent scenario, it is quite clear that the examiner can, at least in principle, perform a variety of powerful tests (whether this is achievable in practice, based on the limited resources of an examiner, is yet a different story). At any rate, just as in the minimalist scenario, the examiner is well-advised to examine and test the system on her own, and to ignore the explanations provided by the adversary creator.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">DISCUSSION</head><p>Explainability is often praised as a tool to mitigate some of the risks of black-box AI systems. Our paper demonstrates that in adversarial contexts, post-hoc explanations are of very limited use. From a technical and philosophical point of view these explanations can never reveal the "unique, true reason" why an algorithm came to a certain decision. In complicated black-box models, such a true reason simply does not exist. We moreover demonstrated that post-hoc explanations of standard decision algorithms on simple datasets possess a high degree of ambiguity that cannot be resolved in principle. For these reasons, post-hoc explanations of black-box systems are, to a certain degree, incontestable. In the best case, post-hoc explanation algorithms can point out some of the factors that contributed to a decision -these algorithms are therefore useful for model debugging, scientific discovery and practical applications where all parties share a common goal. In adversarial contexts, in contrast, we demonstrated that local posthoc explanations are either trivial or harmful. In the worst case, the explanations may induce us into falsely believing that a "justified", or "objective" decision has been made even when this is not the case.</p><p>It was also seen that it remains unclear how expectations of explainability in the GDPR or the AIA ought to be interpreted. The GDPR does not give rise to a general explainability obligation, and the draft AI Act currently would only require some degree of explainability in relation to high-risk applications of AI. We call on legislators to formulate related provisions with more specificity in order to create legal certainty in this respect. If the final version of the AIA requires a strong version of explainability for high-risk AI systems, black-boxes simply cannot be used: they cannot be explained directly, and the only indirect means of explaining them -local post-hoc explanations -are unsuitable. In this case, one would have to resort to the use of simple, inherently interpretable machine learning models rather than black-box models (compare <ref type="bibr" target="#b41">[42]</ref>) although this may impede innovations. We would expect that these algorithms and their explanations are more robust and less susceptible to manipulation, such that large parts of our criticism would not apply to inherently interpretable models. However, future research needs to clarify whether this is the case, because we are not aware of any research that investigates inherently interpretable machine learning in an adversarial setting. If, on the other hand, explainability in the final version of the AIA is to be understood as one of several means to achieve more transparency in machine learning, other methods than post-hoc explanations might be more suitable to achieve the desired goals of transparency. For example, as far as testing for biases and discrimination is concerned, it is unlikely that the creator of the system will choose to generate explanations that can be used to uncover hidden biases. But there is a much more direct route to assess discrimination than implicitly through explanations. Indeed, external examiners could directly test the system for discriminatory properties <ref type="bibr" target="#b22">[23]</ref>. As such, the external examination of black-boxes may be a more suitable means of enabling more accountable AI systems.</p><p>The current draft of the AIA already requires documentation regarding the functioning of AI systems. However, one has to be aware of the versatile manipulation possibilities that lie in the development process of AI systems itself, through choice of training data, features, algorithms, parameters, and so on. Even in the fully transparent scenario where the entire development pipeline including the source code is open <ref type="bibr" target="#b22">[23]</ref>, a considerable leeway for manipulations remains. In order to address these, an external examiner would need access to considerable manpower and resources. Even when training data and source code can in principle be examined, algorithms re-applied or even retrained, actually doing so for a system that has been developed by a large team might be very difficult if not impossible. More research is needed to understand exactly which legal objectives can be satisfied by such extended documentation of AI systems, or whether the documentation would again just serve as a means to provide an appearance of objectivity without any real value.</p><p>Overall, we believe that the question of testing and certifying machine learning systems in an adversarial scenario is a research direction that is still heavily underexplored. There is no single way to achieve all the desired transparency and control goals for such AI systems. Even complete transparency, open code, open data might not lead to all the desired goals. For this reason, it is important to investigate in more detail what objective can be achieved by which means, and which goals might not be possible to achieve at all. Only then can we engage in a meaningful debate about responsible use of AI systems in social contexts.</p><p>Finally, we recall that our criticism of explainability, in particular local post-hoc explanations, concerns adversarial scenarios. In cooperative scenarios, many interesting discoveries might be made with the help of explainable machine learning.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure1: Different explanation algorithms lead to different explanations. Depicted are the feature attribution explanations of four different explanation algorithms: Exact SHAP for trees<ref type="bibr" target="#b30">[31]</ref>, LIME<ref type="bibr" target="#b40">[41]</ref>, DiCE<ref type="bibr" target="#b23">[24]</ref>, and Interventional SHAP<ref type="bibr" target="#b19">[20]</ref>. All four explanation algorithms attempt to explain the prediction for the same individual with the same decision function (a gradient boosted tree) on the same dataset (Adult-Income). The idea of feature attribution explanations is to determine how much each dimension of the input contributed towards the decision. The figures depict these attributions by drawing a bar for each of the 12 input dimensions. The larger the bar, the higher is the influence of the corresponding feature. Some methods distinguish between positive and negative attributions. In the depicted example, the first bar in Panel (a) is relatively large, which indicates that the SHAP algorithm determined that the value of the first feature contributed strongly to the prediction. The DiCE algorithm in Panel (c), in contrast, determined that the value of feature 9 contributed most strongly to the prediction. More figures showing results for other data points can be found in the supplement.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>AFigure 2 :</head><label>2</label><figDesc>Figure2: For any given datapoint, different explanation algorithms might lead to very similar or completely different explanations. In many cases, there are both similarities and dissimilarities. The Figure depicts the SHAP and LIME feature attributions for a datapoint in the folktables ACSIncome prediction task<ref type="bibr" target="#b12">[13]</ref>: Are these attributions similar or different? More figures showing results for other data points can be found in the supplement.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Explanations depend on the exact shape of the classifiers high-dimensional decision boundary. Panel (a) and (b): On the diabetes dataset, linear regression and a random forest agree for 94% of their predictions. Shown are the SHAP explanations on a data point where the prediction of both methods agree. As we can see, the explanations differ. Panel (c) and (d): the dependence on the decision boundary is subtle.It can even be hard to tell from the explanations whether the classifier had been trained trained at all. On the Wisconsin Breast Cancer dataset, the SHAP explanations of a classifier trained to achieve an accuracy of 96% are hard to distinguish from those of the same classifier trained on random labels. More figures showing results for other data points can be found in the supplement.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Reference data set: entire dataset</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: A simple toy example of how the choice of the explanation's reference dataset can influence the resulting explanations. The dataset in Panel (a) consists of two different population groups.The blue and orange color depicts the binary label that the classifier is supposed to predict at each data point (to get an intuition, you might think of the groups as "male" and "female", and the label as "is awarded the credit" or "is not awarded the credit"). Panels (b) and (c) depict the interventional SHAP feature attributions<ref type="bibr" target="#b19">[20]</ref> for the same data point in Group 1. In Panel (b), the explanation's reference dataset consists of the observations of Group 1 only. In Panel (c), the reference dataset is the entire dataset. The example shows that changing the reference dataset can almost completely change the feature attribution from one feature to another.</figDesc><graphic coords="11,104.17,84.51,89.28,88.42" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_0"><p>The exact interpretation of "logic" in the GDPR is not settled but likely does not refer to understandings of this term in philosophy or computer science.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_1"><p>Children should not be subject to automated decision-making.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_2"><p>Questions regarding "Explanations" have been discussed since the beginning of philosophy, with a strong revival in the philosophy of science of the last century, treating scientific explanations<ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b42">43]</ref>, causal explanations[28, 38, 49, 50,  </p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p><ref type="bibr" target="#b60">61]</ref>, and non-causal explanations<ref type="bibr" target="#b39">[40]</ref>. We refer the interested reader to<ref type="bibr" target="#b43">[44,</ref><ref type="bibr" target="#b61">62]</ref> and restrict our discussion to the context of machine learning.<ref type="bibr" target="#b5">6</ref> For further references, see §2 therein.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9" xml:id="foot_4"><p>Similar issues were discussed in<ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b18">19]</ref>.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10" xml:id="foot_5"><p>The reader who is acquainted with the internal mechanics of the depicted explanation method might feel that a direct comparison between the different methods is unwarranted, because different methods measure different aspects of the underlying decision function<ref type="bibr" target="#b8">[9]</ref>. Note, however, that this is exactly the point that we want to make by explicitly contrasting the different attributions.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11" xml:id="foot_6"><p>This originates in the philosophical account: counterfactuals depend on the way one measures proximity between facts and alternative counter-facts<ref type="bibr" target="#b27">[28]</ref>.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13" xml:id="foot_7"><p>This means that for any possible datapoint (or individual) x , the examiner is allowed to ask the adversary: "For this hypothetical datapoint x , what would be the decision y = f (x ), and what would be the corresponding explanation E(x, y)? The adversary would then privately compute both quantities and make them available to the examiner, but not tell the examiner how the computation was performed.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head n="7">FUNDING DISCLOSURE</head><p>This work has been partially supported by the <rs type="funder">German Research Foundation</rs> through the <rs type="programName">Cluster of Excellence "Machine Learning -New Perspectives for Science"</rs> (<rs type="grantNumber">EXC 2064/1</rs> number <rs type="grantNumber">390727645</rs>), the <rs type="funder">Baden-Württemberg Foundation</rs> (program "<rs type="projectName">Verantwortliche Künstliche Intelligenz</rs>"), the <rs type="funder">BMBF Tübingen AI Center</rs> (FKZ: <rs type="grantNumber">01IS18039A</rs>), the <rs type="funder">International Max Planck Research School for Intelligent Systems (IMPRS-IS)</rs> and the <rs type="funder">Carl Zeiss Foundation</rs>. The authors declare no additional sources of funding and no financial interests.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_9F57kKM">
+					<idno type="grant-number">EXC 2064/1</idno>
+					<orgName type="program" subtype="full">Cluster of Excellence &quot;Machine Learning -New Perspectives for Science&quot;</orgName>
+				</org>
+				<org type="funded-project" xml:id="_H9c62q5">
+					<idno type="grant-number">390727645</idno>
+					<orgName type="project" subtype="full">Verantwortliche Künstliche Intelligenz</orgName>
+				</org>
+				<org type="funding" xml:id="_8hN7ZXz">
+					<idno type="grant-number">01IS18039A</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">The Nature of Explanation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Achinstein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berrada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="52138" to="52160" />
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Sanity checks for saliency maps</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adebayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gilmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Goodfellow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neural Information Processing Systems (NeurIPS)</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Barthe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schölkopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Valera</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2010.04050</idno>
+		<title level="m">A survey of algorithmic recourse: definitions, formulations, solutions, and prospects</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Fairwashing explanations with off-manifold detergent</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Anders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pasliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Dombrowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kessel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Machine Learning (ICML)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barocas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Narayanan</surname></persName>
+		</author>
+		<ptr target="http://www.fairmlbook.org" />
+		<title level="m">Fairness and Machine Learning. fairmlbook.org</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The hidden assumptions behind counterfactual explanations and principal reasons</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barocas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Selbst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raghavan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACM Conference on Fairness, Accountability, and Transparency</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Scientific Explanation: A Study of the Function of Theory, Probability and Law in Science</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Braithwaite</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1953">1953</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><surname>Camburu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Giunchiglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Foerster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lukasiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Blunsom</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1910.02065</idno>
+		<title level="m">Can I trust the explainer? Verifying post-hoc explanatory methods</title>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Exploring explainability: A definition, a model, and a knowledge catalogue</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chazette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Brunotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Speith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE 29th International Requirements Engineering Conference (RE)</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">White Paper on Artificial Intelligence-A European approach to excellence and trust</title>
+	</analytic>
+	<monogr>
+		<title level="j">Com</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">Final</biblScope>
+			<date type="published" when="2020">2020. 2020. 2020</date>
+			<publisher>European Commission</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Explaining by removing: A unified framework for model explanation</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Covert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lundberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Machine Learning Research (JMLR)</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1" to="90" />
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Retiring Adult: New Datasets for Fair Machine Learning</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neural Information Processing Systems (NeurIPS)</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Slave to the algorithm: Why a right to an explanation is probably not the remedy you are looking for</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Veale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Duke Law and Technology Review</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Explaining the Explainer: A First Theoretical Analysis of LIME</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Garreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Luxburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conference on Artificial Intelligence and Statistics (AISTATS)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">On locality of local explanation models</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghalebikesabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ter-Minassian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Diazordaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems (NeurIPS)</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Aspects of Scientific Explanation and Other Essays in the Philosophy of Science</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hempel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1965">1965</date>
+			<publisher>Free Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Privacy as protection of the incomputable self: From agnostic to agonistic machine learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hildebrandt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theoretical Inquiries in Law</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="83" to="121" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Measurement and fairness</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Z</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wallach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACM conference on Fairness, Accountability, and Transparency</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Feature relevance quantification in explainable AI: A causal problem</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Janzing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Minorics</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Blöbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Artificial Intelligence and Statistics (AISTATS)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The Right to Contest AI</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Urban</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Columbia Law Review</title>
+		<imprint>
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">On the Relation of Trust and Explainability: Why to Engineer for Trustworthiness</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kästner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lazar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schomäcker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Speith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sterz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE 29th International Requirements Engineering Conference Workshops (REW)</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Discrimination in the Age of Algorithms</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kleinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mullainathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sunstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Legal Analysis</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="113" to="174" />
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Towards unifying feature attribution and counterfactual explanations: Different means to the same end</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kommiya Mothilal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mahajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AAAI/ACM Conference on AI, Ethics, and Society</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Krishna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pombra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jabbari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lakkaraju</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2202.01602</idno>
+		<title level="m">The Disagreement Problem in Explainable Machine Learning: A Practitioner&apos;s Perspective</title>
+		<imprint>
+			<date type="published" when="2022">2022. 2022</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">What do we want from Explainable Artificial Intelligence (XAI)? -A stakeholder perspective on XAI and a conceptual model guiding interdisciplinary XAI research</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Oster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Speith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hermanns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kästner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sesing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Baum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Developing the sensitivity of LIME for better machine learning explanation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Braines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mi</forename><surname>Stiffler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hudler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Harborne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Artificial Intelligence and Machine Learning for Multi-Domain Operations Applications</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Counterfactuals. Blackwell</title>
+		<imprint>
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">V</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Varshney</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2110.10790</idno>
+		<title level="m">Human-Centered Explainable AI (XAI): From Algorithms to User Experiences</title>
+		<imprint>
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A unified approach to interpreting model predictions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lundberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neural Information Processing Systems (NeurIPS)</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">From local explanations to global understanding with explainable AI for trees</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lundberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Erion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Degrave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Prutkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Himmelfarb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bansal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature machine intelligence</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="56" to="67" />
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Why a Right to Legibility of Automated Decision-Making Exists in the General Data Protection Regulation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Malgieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Comandé</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Data Privacy Law</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="243" to="265" />
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Interpretable machine learning</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Molnar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<pubPlace>Lulu.com</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Explaining machine learning classifiers through diverse counterfactual explanations</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mothilal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACM Conference on Fairness, Accountability, and Transparency</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Expert Group on AI</title>
+		<author>
+			<persName><surname>High-Level</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ethics Guidelines for Trustworthy AI</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Guidelines on Automated individual decisionmaking and Profiling for the purposes of RegulationGuidelines on Automated individual decision-making and Profiling for the purposes of Regulation</title>
+		<author>
+			<persName><forename type="first">Working</forename><surname>Party</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016. 2016/679</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Data and its (dis) contents: A survey of dataset development and use in machine learning research</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paullada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Raji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Denton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hanna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Patterns</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Causality: Models, Reasoning and Inference</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pearl</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>Popper</surname></persName>
+		</author>
+		<title level="m">The Logic of Scientific Discovery</title>
+		<meeting><address><addrLine>Hutchinson, London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1959">1959</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Explanation Beyond Causation; Philosophical Perspectives on Non-Causal Explanations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reutlinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Saatsi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Why should i trust you? Explaining the predictions of any classifier</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guestrin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">22nd ACM SIGKDD international conference on knowledge discovery and data mining</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="206" to="215" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Statistical Explanation and Statistical Relevance</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Salmon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1971">1971</date>
+			<publisher>University of Pittsburgh Press</publisher>
+			<pubPlace>Pittsburgh, PA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Four Decades of Scientific Explanation</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Salmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophy of Science</title>
+		<editor>
+			<persName><forename type="first">Scientific</forename><surname>Explanation</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Salmon</forename><surname>Kitcher</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3" to="219" />
+			<date type="published" when="1989">1989</date>
+			<publisher>University of Minnesota Press</publisher>
+		</imprint>
+	</monogr>
+	<note>Minnesota Studies in the</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Meaningful Information and the Right to Explanation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Selbst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Powles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACM Conference on Fairness, Accountability, and Transparency</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Reliable post hoc explanations: Modeling uncertainty in explainability</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Slack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hilgard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lakkaraju</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neural Information Processing Systems (NeurIPS)</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Fooling lime and shap: Adversarial attacks on post hoc explanation methods</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Slack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hilgard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lakkaraju</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AAAI/ACM Conference on AI, Ethics, and Society</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Slack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hilgard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lakkaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2106.02666</idno>
+		<title level="m">Counterfactual Explanations Can Be Manipulated</title>
+		<imprint>
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Spirtes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Glymour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Scheines</surname></persName>
+		</author>
+		<title level="m">Causation, Prediction, and Search</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Stochastic independence, causal independence, and shieldability</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Spohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Philosophical Logic</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="73" to="99" />
+			<date type="published" when="1980">1980. 1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The many Shapley values for model explanation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sundararajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Najmi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Machine Learning (ICML)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tomsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Braines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Harborne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Preece</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<title level="m">Interpretable to Whom? A Role-based Model for Analyzing Interpretable Machine Learning Systems</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>ICML Workshop on Human Interpretability in Machine Learning</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Human-computer collaboration for skin cancer recognition</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tschandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Apalla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Argenziano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Codella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Halpern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Janda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lallas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Longo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Malvehy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Paoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Puig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rosendahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Soyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zalaudek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kittler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Medicine</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1229" to="1234" />
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Demystifying the Draft EU Artificial Intelligence Act-Analysing the good, the bad, and the unclear elements of the proposed approach</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Veale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Zuiderveen</forename><surname>Borgesius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computer Law Review International</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="97" to="112" />
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The Philosophical Basis of Algorithmic Recourse</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Venkatasubramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alfano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACM Conference on Fairness, Accountability, and Transparency</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Notions of explainability and evaluation approaches for explainable artificial intelligence</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vilone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Longo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Fusion</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="89" to="106" />
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Transparency and the Black Box Problem: Why We Do Not Trust AI</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Eschenbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Technol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1607" to="1622" />
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<author>
+			<persName><forename type="first">U</forename><surname>Luxburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guyon</surname></persName>
+		</author>
+		<title level="m">Clustering: Science or Art? JMLR Workshop and Conference Proceedings (Workshop on Unsupervised Learning and Transfer Learning</title>
+		<imprint>
+			<date type="published" when="2012">2012. 2012</date>
+			<biblScope unit="page" from="65" to="79" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wachter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mittelstadt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Floridi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Data Privacy Law</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="76" to="99" />
+			<date type="published" when="2017-06">2017. 06 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Counterfactual explanations without opening the black box: Automated decisions and the GDPR</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wachter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mittelstadt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Harv. JL &amp; Tech</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">841</biblScope>
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Making Things Happen: A Theory of Causal Explanation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Woodward</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ross</surname></persName>
+		</author>
+		<ptr target="https://plato.stanford.edu/archives/sum2021/entries/scientific-explanation/" />
+		<title level="m">Scientific Explanation. The Stanford Encyclopedia of Philosophy</title>
+		<imprint>
+			<date type="published" when="2003">2003. 2003</date>
+		</imprint>
+	</monogr>
+	<note>Summer Edition 2021</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zednik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Boelsen</surname></persName>
+		</author>
+		<title level="m">Scientific Exploration and Explainable Artificial Intelligence. Minds and Machines</title>
+		<imprint/>
+	</monogr>
+	<note>forthcoming</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Udell</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1904.12991</idno>
+		<title level="m">Why Should You Trust My Explanation? Understanding Uncertainty in LIME Explanations</title>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
