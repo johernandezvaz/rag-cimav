@@ -122,9 +122,9 @@ class GrobidXMLAnalyzer:
         """Extrae metadatos del documento"""
         metadata = {}
 
-        # Título
-        title_elem = root.find('.//tei:titleStmt/tei:title', self.namespaces)
-        metadata['title'] = title_elem.text if title_elem is not None else "Sin título"
+        # Título - buscar en múltiples ubicaciones
+        title = self.extract_real_title(root)
+        metadata['title'] = title
 
         # Autores
         authors = []
@@ -157,6 +157,127 @@ class GrobidXMLAnalyzer:
             metadata['abstract'] = None
 
         return metadata
+
+    def clean_and_validate_title(self, title):
+        """
+        Limpia y valida títulos, detectando títulos institucionales incorrectos
+
+        Args:
+            title (str): Título a validar
+
+        Returns:
+            str: Título limpio o None si no es válido
+        """
+        if not title or not title.strip():
+            return None
+
+        title = title.strip()
+
+        # Patrones que indican que NO es un título válido
+        invalid_patterns = [
+            r'centro de investigación',
+            r'departamento de',
+            r'universidad de',
+            r'instituto de',
+            r'facultad de',
+            r'escuela de',
+            r'división de',
+            r'posgrado',
+            r'postgrado',
+            r'licenciatura',
+            r'maestría',
+            r'doctorado',
+            r'tesis de',
+            r'trabajo de',
+            r'proyecto de',
+            r'cimav',
+            r's\.c\.',
+            r'a\.c\.',
+            r'estudios de posgrado'
+        ]
+
+        # Verificar si contiene patrones institucionales
+        title_lower = title.lower()
+        for pattern in invalid_patterns:
+            if re.search(pattern, title_lower):
+                return None
+
+        # Verificar longitud mínima y máxima razonable
+        if len(title) < 15:  # Títulos muy cortos probablemente no son títulos reales
+            return None
+
+        if len(title) > 500:  # Títulos muy largos probablemente son errores
+            return None
+
+        # Verificar que no sea solo mayúsculas (común en headers institucionales)
+        if title.isupper() and len(title) > 50:
+            return None
+
+        # Limpiar caracteres extraños y espacios múltiples
+        title = re.sub(r'\s+', ' ', title)
+        title = re.sub(r'[^\w\s\-\.\,\:\;\(\)\[\]áéíóúñüÁÉÍÓÚÑÜ]', '', title)
+
+        return title.strip()
+
+    def extract_real_title(self, root):
+        """
+        Extrae el título real del documento, buscando en múltiples ubicaciones
+
+        Args:
+            root: Elemento raíz del XML
+
+        Returns:
+            str: Título extraído o "Sin título válido"
+        """
+        # 1. Buscar en titleStmt/title (ubicación estándar)
+        title_elem = root.find('.//tei:titleStmt/tei:title', self.namespaces)
+        if title_elem is not None and title_elem.text:
+            cleaned_title = self.clean_and_validate_title(title_elem.text)
+            if cleaned_title:
+                return cleaned_title
+
+        # 2. Buscar en sourceDesc (metadatos del documento fuente)
+        source_title = root.find('.//tei:sourceDesc//tei:title', self.namespaces)
+        if source_title is not None and source_title.text:
+            cleaned_title = self.clean_and_validate_title(source_title.text)
+            if cleaned_title:
+                return cleaned_title
+
+        # 3. Buscar en el primer div/head del body (primer encabezado del contenido)
+        first_head = root.find('.//tei:body//tei:div/tei:head', self.namespaces)
+        if first_head is not None and first_head.text:
+            cleaned_title = self.clean_and_validate_title(first_head.text)
+            if cleaned_title:
+                return cleaned_title
+
+        # 4. Buscar en los primeros párrafos del documento
+        first_paragraphs = root.findall('.//tei:body//tei:p', self.namespaces)[:5]
+        for p in first_paragraphs:
+            if p.text and len(p.text.strip()) > 20:
+                # Buscar líneas que podrían ser títulos
+                lines = p.text.strip().split('\n')
+                for line in lines[:3]:  # Solo las primeras 3 líneas
+                    line = line.strip()
+                    if len(line) > 20 and len(line) < 300:
+                        cleaned_title = self.clean_and_validate_title(line)
+                        if cleaned_title:
+                            return cleaned_title
+
+        # 5. Buscar en abstract si existe (a veces el título está ahí)
+        abstract_elem = root.find('.//tei:abstract', self.namespaces)
+        if abstract_elem is not None:
+            # Buscar en el primer párrafo del abstract
+            first_p = abstract_elem.find('.//tei:p', self.namespaces)
+            if first_p is not None and first_p.text:
+                lines = first_p.text.strip().split('\n')
+                for line in lines[:2]:  # Solo las primeras 2 líneas
+                    line = line.strip()
+                    if len(line) > 30 and len(line) < 300:
+                        cleaned_title = self.clean_and_validate_title(line)
+                        if cleaned_title:
+                            return cleaned_title
+
+        return "Sin título válido"
 
     def detect_language(self, text):
         """Detecta si el texto está principalmente en español o inglés"""

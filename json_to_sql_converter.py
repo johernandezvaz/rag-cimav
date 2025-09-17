@@ -1,10 +1,10 @@
 import json
 import sqlite3
 import re
+import os
 from pathlib import Path
 from datetime import datetime
 import hashlib
-import os
 
 
 class ThesisJSONToSQLConverter:
@@ -33,36 +33,17 @@ class ThesisJSONToSQLConverter:
         cursor.execute('''
                        CREATE TABLE IF NOT EXISTS documents
                        (
-                           id
-                           INTEGER
-                           PRIMARY
-                           KEY
-                           AUTOINCREMENT,
-                           filename
-                           TEXT
-                           UNIQUE
-                           NOT
-                           NULL,
-                           title
-                           TEXT,
-                           language
-                           TEXT,
-                           authors
-                           TEXT,
-                           date_published
-                           TEXT,
-                           abstract
-                           TEXT,
-                           processing_date
-                           TIMESTAMP
-                           DEFAULT
-                           CURRENT_TIMESTAMP,
-                           total_sections
-                           INTEGER,
-                           total_references
-                           INTEGER,
-                           file_hash
-                           TEXT
+                           id               INTEGER PRIMARY KEY AUTOINCREMENT,
+                           filename         TEXT UNIQUE NOT NULL,
+                           title            TEXT,
+                           language         TEXT,
+                           authors          TEXT,
+                           date_published   TEXT,
+                           abstract         TEXT,
+                           processing_date  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                           total_sections   INTEGER,
+                           total_references INTEGER,
+                           file_hash        TEXT
                        )
                        ''')
 
@@ -70,111 +51,50 @@ class ThesisJSONToSQLConverter:
         cursor.execute('''
                        CREATE TABLE IF NOT EXISTS sections
                        (
-                           id
-                           INTEGER
-                           PRIMARY
-                           KEY
-                           AUTOINCREMENT,
-                           document_id
-                           INTEGER,
-                           section_title
-                           TEXT,
-                           section_category
-                           TEXT,
-                           content
-                           TEXT,
-                           content_length
-                           INTEGER,
-                           tokens_count
-                           INTEGER,
-                           chunk_index
-                           INTEGER,
-                           embedding_vector
-                           TEXT,
-                           FOREIGN
-                           KEY
-                       (
-                           document_id
-                       ) REFERENCES documents
-                       (
-                           id
+                           id               INTEGER PRIMARY KEY AUTOINCREMENT,
+                           document_id      INTEGER,
+                           section_title    TEXT,
+                           section_category TEXT,
+                           content          TEXT,
+                           content_length   INTEGER,
+                           tokens_count     INTEGER,
+                           chunk_index      INTEGER,
+                           embedding_vector TEXT,
+                           FOREIGN KEY (document_id) REFERENCES documents (id)
                        )
-                           )
                        ''')
 
         # Tabla de chunks para FAISS
         cursor.execute('''
                        CREATE TABLE IF NOT EXISTS text_chunks
                        (
-                           id
-                           INTEGER
-                           PRIMARY
-                           KEY
-                           AUTOINCREMENT,
-                           document_id
-                           INTEGER,
-                           section_id
-                           INTEGER,
-                           chunk_text
-                           TEXT,
-                           chunk_size
-                           INTEGER,
-                           chunk_index
-                           INTEGER,
-                           overlap_start
-                           INTEGER,
-                           overlap_end
-                           INTEGER,
-                           metadata_json
-                           TEXT,
-                           vector_id
-                           INTEGER,
-                           FOREIGN
-                           KEY
-                       (
-                           document_id
-                       ) REFERENCES documents
-                       (
-                           id
-                       ),
-                           FOREIGN KEY
-                       (
-                           section_id
-                       ) REFERENCES sections
-                       (
-                           id
+                           id            INTEGER PRIMARY KEY AUTOINCREMENT,
+                           document_id   INTEGER,
+                           section_id    INTEGER,
+                           chunk_text    TEXT,
+                           chunk_size    INTEGER,
+                           chunk_index   INTEGER,
+                           overlap_start INTEGER,
+                           overlap_end   INTEGER,
+                           metadata_json TEXT,
+                           vector_id     INTEGER,
+                           FOREIGN KEY (document_id) REFERENCES documents (id),
+                           FOREIGN KEY (section_id) REFERENCES sections (id)
                        )
-                           )
                        ''')
 
         # Tabla de referencias bibliográficas
         cursor.execute('''
                        CREATE TABLE IF NOT EXISTS bibliographic_references
                        (
-                           id
-                           INTEGER
-                           PRIMARY
-                           KEY
-                           AUTOINCREMENT,
-                           document_id
-                           INTEGER,
-                           ref_title
-                           TEXT,
-                           ref_authors
-                           TEXT,
-                           ref_date
-                           TEXT,
-                           ref_index
-                           INTEGER,
-                           FOREIGN
-                           KEY
-                       (
-                           document_id
-                       ) REFERENCES documents
-                       (
-                           id
+                           id          INTEGER PRIMARY KEY AUTOINCREMENT,
+                           document_id INTEGER,
+                           ref_title   TEXT,
+                           ref_authors TEXT,
+                           ref_date    TEXT,
+                           ref_index   INTEGER,
+                           FOREIGN KEY (document_id) REFERENCES documents (id)
                        )
-                           )
                        ''')
 
         # Índices para optimizar búsquedas
@@ -250,6 +170,113 @@ class ThesisJSONToSQLConverter:
         """Estima el número de tokens (aproximadamente 4 caracteres por token)"""
         return len(text) // 4
 
+    def clean_and_validate_title(self, title):
+        """
+        Limpia y valida títulos, detectando títulos institucionales incorrectos
+
+        Args:
+            title (str): Título a validar
+
+        Returns:
+            str: Título limpio o "Sin título válido" si no es válido
+        """
+        if not title or not title.strip():
+            return "Sin título válido"
+
+        title = title.strip()
+
+        # Patrones que indican que NO es un título válido
+        invalid_patterns = [
+            r'centro de investigación',
+            r'departamento de',
+            r'universidad de',
+            r'instituto de',
+            r'facultad de',
+            r'escuela de',
+            r'división de',
+            r'posgrado',
+            r'postgrado',
+            r'licenciatura',
+            r'maestría',
+            r'doctorado',
+            r'tesis de',
+            r'trabajo de',
+            r'proyecto de',
+            r'cimav',
+            r's\.c\.',
+            r'a\.c\.',
+            r'estudios de posgrado'
+        ]
+
+        # Verificar si contiene patrones institucionales
+        title_lower = title.lower()
+        for pattern in invalid_patterns:
+            if re.search(pattern, title_lower):
+                return "Sin título válido"
+
+        # Verificar longitud mínima y máxima razonable
+        if len(title) < 10:
+            return "Sin título válido"
+
+        if len(title) > 500:  # Títulos muy largos probablemente son errores
+            return "Sin título válido"
+
+        # Verificar que no sea solo mayúsculas (común en headers institucionales)
+        if title.isupper() and len(title) > 50:
+            return "Sin título válido"
+
+        # Limpiar caracteres extraños y espacios múltiples
+        title = re.sub(r'\s+', ' ', title)
+        title = re.sub(r'[^\w\s\-\.\,\:\;\(\)\[\]áéíóúñüÁÉÍÓÚÑÜ]', '', title)
+
+        return title.strip()
+
+    def extract_real_title_from_content(self, thesis_data):
+        """
+        Intenta extraer el título real del contenido del documento
+
+        Args:
+            thesis_data (dict): Datos del análisis de tesis
+
+        Returns:
+            str: Título extraído o "Sin título válido"
+        """
+        content = thesis_data.get('content', {})
+        sections = content.get('sections', [])
+
+        # Buscar en las primeras secciones
+        for section in sections[:3]:  # Solo las primeras 3 secciones
+            section_title = section.get('title', '').strip()
+            section_content = section.get('content', '').strip()
+
+            # Si el título de la sección parece ser el título real
+            cleaned_title = self.clean_and_validate_title(section_title)
+            if cleaned_title != "Sin título válido" and len(cleaned_title) > 20:
+                return cleaned_title
+
+            # Buscar en el contenido de la sección (primeras líneas)
+            if section_content:
+                lines = section_content.split('\n')[:5]  # Primeras 5 líneas
+                for line in lines:
+                    line = line.strip()
+                    if len(line) > 20 and len(line) < 200:
+                        cleaned_line = self.clean_and_validate_title(line)
+                        if cleaned_line != "Sin título válido":
+                            return cleaned_line
+
+        # Buscar en el texto completo (primeras líneas)
+        full_text = content.get('full_text', '')
+        if full_text:
+            lines = full_text.split('\n')[:10]  # Primeras 10 líneas
+            for line in lines:
+                line = line.strip()
+                if len(line) > 30 and len(line) < 300:
+                    cleaned_line = self.clean_and_validate_title(line)
+                    if cleaned_line != "Sin título válido":
+                        return cleaned_line
+
+        return "Sin título válido"
+
     def insert_document(self, thesis_data):
         """
         Inserta un documento de tesis en la base de datos
@@ -265,6 +292,16 @@ class ThesisJSONToSQLConverter:
         # Extraer metadatos
         metadata = thesis_data.get('metadata', {})
         content = thesis_data.get('content', {})
+
+        # Limpiar y validar título
+        original_title = metadata.get('title', 'Sin título')
+        cleaned_title = self.clean_and_validate_title(original_title)
+
+        # Si el título no es válido, intentar extraerlo del contenido
+        if cleaned_title == "Sin título válido":
+            cleaned_title = self.extract_real_title_from_content(thesis_data)
+            print(f"⚠️  Título original inválido: '{original_title[:50]}...'")
+            print(f"✅ Título extraído del contenido: '{cleaned_title}'")
 
         # Calcular hash para detectar duplicados
         file_hash = self.calculate_file_hash(thesis_data)
@@ -283,7 +320,7 @@ class ThesisJSONToSQLConverter:
                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
                        ''', (
                            thesis_data.get('file', 'unknown'),
-                           metadata.get('title', 'Sin título'),
+                           cleaned_title,
                            content.get('language', 'unknown'),
                            json.dumps(metadata.get('authors', []), ensure_ascii=False),
                            metadata.get('date'),
@@ -296,7 +333,7 @@ class ThesisJSONToSQLConverter:
         document_id = cursor.lastrowid
         self.conn.commit()
 
-        print(f"📄 Documento insertado: {metadata.get('title', 'Sin título')} (ID: {document_id})")
+        print(f"📄 Documento insertado: {cleaned_title} (ID: {document_id})")
         return document_id
 
     def insert_sections_and_chunks(self, document_id, thesis_data):
