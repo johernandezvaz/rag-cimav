@@ -173,51 +173,55 @@ class GrobidXMLAnalyzer:
 
         title = title.strip()
 
-        # Patrones que indican que NO es un título válido
+        # Solo rechazar si el texto es PRINCIPALMENTE institucional, no si solo contiene estas palabras
         invalid_patterns = [
-            r'centro de investigación',
-            r'departamento de',
-            r'universidad de',
-            r'instituto de',
-            r'facultad de',
-            r'escuela de',
-            r'división de',
-            r'posgrado',
-            r'postgrado',
-            r'licenciatura',
-            r'maestría',
-            r'doctorado',
-            r'tesis de',
-            r'trabajo de',
-            r'proyecto de',
-            r'cimav',
-            r's\.c\.',
-            r'a\.c\.',
-            r'estudios de posgrado'
+            r'^centro de investigación',  # Solo al inicio
+            r'^departamento de',
+            r'^universidad de',
+            r'^instituto de',
+            r'^facultad de',
+            r'^escuela de',
+            r'^división de',
+            r'^estudios de posgrado',
+            r'^posgrado en',
+            r'^postgrado en',
+            r'^licenciatura en',
+            r'^maestría en',
+            r'^doctorado en',
+            r'^tesis de grado',
+            r'^trabajo de grado',
+            r'^proyecto de grado'
         ]
 
-        # Verificar si contiene patrones institucionales
+        # Verificar si contiene patrones institucionales AL INICIO
         title_lower = title.lower()
         for pattern in invalid_patterns:
             if re.search(pattern, title_lower):
+                print(f"[DEBUG] Título rechazado por patrón institucional: {pattern}")
                 return None
 
-        # Verificar longitud mínima y máxima razonable
-        if len(title) < 15:  # Títulos muy cortos probablemente no son títulos reales
+        if len(title) < 10:
+            print(f"[DEBUG] Título rechazado por longitud mínima: {len(title)} caracteres")
             return None
 
-        if len(title) > 500:  # Títulos muy largos probablemente son errores
+        if len(title) > 500:
+            print(f"[DEBUG] Título rechazado por longitud máxima: {len(title)} caracteres")
             return None
 
-        # Verificar que no sea solo mayúsculas (común en headers institucionales)
-        if title.isupper() and len(title) > 50:
-            return None
+        # La validación anterior rechazaba títulos válidos en mayúsculas
 
         # Limpiar caracteres extraños y espacios múltiples
         title = re.sub(r'\s+', ' ', title)
-        title = re.sub(r'[^\w\s\-\.\,\:\;\(\)\[\]áéíóúñüÁÉÍÓÚÑÜ]', '', title)
+        title = re.sub(r'[^\w\s\-\.\,\:\;$$$$\[\]\/áéíóúñüÁÉÍÓÚÑÜ¿?¡!]', '', title)
 
-        return title.strip()
+        cleaned = title.strip()
+
+        if re.match(r'^[\d\s\-\.\,\:\;]+$', cleaned):
+            print(f"[DEBUG] Título rechazado por ser solo números/símbolos")
+            return None
+
+        print(f"[DEBUG] Título validado exitosamente: {cleaned[:50]}...")
+        return cleaned
 
     def extract_real_title(self, root):
         """
@@ -229,54 +233,87 @@ class GrobidXMLAnalyzer:
         Returns:
             str: Título extraído o "Sin título válido"
         """
-        # 1. Buscar en titleStmt/title (ubicación estándar)
+        print("[DEBUG] Iniciando extracción de título...")
+
         title_elem = root.find('.//tei:titleStmt/tei:title', self.namespaces)
         if title_elem is not None and title_elem.text:
+            print(f"[DEBUG] Título encontrado en titleStmt: {title_elem.text[:100]}")
             cleaned_title = self.clean_and_validate_title(title_elem.text)
             if cleaned_title:
+                print(f"[DEBUG] ✓ Título aceptado desde titleStmt")
                 return cleaned_title
+            else:
+                print(f"[DEBUG] ✗ Título rechazado desde titleStmt")
 
-        # 2. Buscar en sourceDesc (metadatos del documento fuente)
         source_title = root.find('.//tei:sourceDesc//tei:title', self.namespaces)
         if source_title is not None and source_title.text:
+            print(f"[DEBUG] Título encontrado en sourceDesc: {source_title.text[:100]}")
             cleaned_title = self.clean_and_validate_title(source_title.text)
             if cleaned_title:
+                print(f"[DEBUG] ✓ Título aceptado desde sourceDesc")
                 return cleaned_title
+            else:
+                print(f"[DEBUG] ✗ Título rechazado desde sourceDesc")
 
-        # 3. Buscar en el primer div/head del body (primer encabezado del contenido)
+        file_title = root.find('.//tei:fileDesc/tei:titleStmt/tei:title', self.namespaces)
+        if file_title is not None and file_title.text:
+            print(f"[DEBUG] Título encontrado en fileDesc: {file_title.text[:100]}")
+            cleaned_title = self.clean_and_validate_title(file_title.text)
+            if cleaned_title:
+                print(f"[DEBUG] ✓ Título aceptado desde fileDesc")
+                return cleaned_title
+            else:
+                print(f"[DEBUG] ✗ Título rechazado desde fileDesc")
+
         first_head = root.find('.//tei:body//tei:div/tei:head', self.namespaces)
         if first_head is not None and first_head.text:
+            print(f"[DEBUG] Título encontrado en primer head: {first_head.text[:100]}")
             cleaned_title = self.clean_and_validate_title(first_head.text)
             if cleaned_title:
+                print(f"[DEBUG] ✓ Título aceptado desde primer head")
                 return cleaned_title
+            else:
+                print(f"[DEBUG] ✗ Título rechazado desde primer head")
 
-        # 4. Buscar en los primeros párrafos del documento
+        all_titles = root.findall('.//title')
+        for idx, title_elem in enumerate(all_titles[:5]):  # Revisar los primeros 5
+            if title_elem.text:
+                print(f"[DEBUG] Título encontrado en title genérico #{idx}: {title_elem.text[:100]}")
+                cleaned_title = self.clean_and_validate_title(title_elem.text)
+                if cleaned_title:
+                    print(f"[DEBUG] ✓ Título aceptado desde title genérico #{idx}")
+                    return cleaned_title
+
         first_paragraphs = root.findall('.//tei:body//tei:p', self.namespaces)[:5]
-        for p in first_paragraphs:
+        for idx, p in enumerate(first_paragraphs):
             if p.text and len(p.text.strip()) > 20:
                 # Buscar líneas que podrían ser títulos
                 lines = p.text.strip().split('\n')
-                for line in lines[:3]:  # Solo las primeras 3 líneas
+                for line_idx, line in enumerate(lines[:3]):  # Solo las primeras 3 líneas
                     line = line.strip()
                     if len(line) > 20 and len(line) < 300:
+                        print(f"[DEBUG] Posible título en párrafo #{idx}, línea #{line_idx}: {line[:100]}")
                         cleaned_title = self.clean_and_validate_title(line)
                         if cleaned_title:
+                            print(f"[DEBUG] ✓ Título aceptado desde párrafo")
                             return cleaned_title
 
-        # 5. Buscar en abstract si existe (a veces el título está ahí)
         abstract_elem = root.find('.//tei:abstract', self.namespaces)
         if abstract_elem is not None:
             # Buscar en el primer párrafo del abstract
             first_p = abstract_elem.find('.//tei:p', self.namespaces)
             if first_p is not None and first_p.text:
                 lines = first_p.text.strip().split('\n')
-                for line in lines[:2]:  # Solo las primeras 2 líneas
+                for line_idx, line in enumerate(lines[:2]):  # Solo las primeras 2 líneas
                     line = line.strip()
                     if len(line) > 30 and len(line) < 300:
+                        print(f"[DEBUG] Posible título en abstract, línea #{line_idx}: {line[:100]}")
                         cleaned_title = self.clean_and_validate_title(line)
                         if cleaned_title:
+                            print(f"[DEBUG] ✓ Título aceptado desde abstract")
                             return cleaned_title
 
+        print("[DEBUG] ✗ No se encontró ningún título válido en el documento")
         return "Sin título válido"
 
     def detect_language(self, text):
@@ -522,7 +559,7 @@ class GrobidXMLAnalyzer:
                 print(f"  🌐 Idioma: {analysis['content']['language']}")
                 print(f"  👥 Autores: {', '.join(analysis['metadata']['authors'])}")
                 print(f"  📝 Secciones: {len(analysis['content']['sections'])}")
-                print(f"  🏷️  Categorías encontradas: {', '.join(analysis['content']['categorized_sections'].keys())}")
+                print(f"  ��️  Categorías encontradas: {', '.join(analysis['content']['categorized_sections'].keys())}")
                 print(f"  📚 Referencias: {len(analysis['references'])}")
 
                 if generate_structured:

@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import time
 import xml.etree.ElementTree as ET
+from PyPDF2 import PdfReader
 
 
 class GrobidThesisProcessor:
@@ -110,7 +111,7 @@ class GrobidThesisProcessor:
             print(f"❌ Error guardando XML para {filename}: {str(e)}")
             return False
 
-    def process_pdf_with_grobid(self, pdf_path, output_dir="output"):
+    def process_pdf_with_grobid(self, pdf_path, output_dir="output",  metadata_log="metadata.json"):
         """
         Procesa un PDF individual con Grobid
 
@@ -124,8 +125,26 @@ class GrobidThesisProcessor:
         filename = os.path.basename(pdf_path)
         print(f"🔄 Procesando: {filename}")
 
-        # Crear directorio de salida si no existe
+        # 1️⃣ Extraer metadatos antes de GROBID
+        basic_metadata = self.extract_basic_metadata(pdf_path)
+
+        # Guardar o agregar metadatos a un JSON general
+        metadata_file = os.path.join(output_dir, metadata_log)
         Path(output_dir).mkdir(parents=True, exist_ok=True)
+
+        if os.path.exists(metadata_file):
+            with open(metadata_file, 'r', encoding='utf-8') as mf:
+                all_meta = json.load(mf)
+        else:
+            all_meta = []
+
+        all_meta.append(basic_metadata)
+
+        with open(metadata_file, 'w', encoding='utf-8') as mf:
+            json.dump(all_meta, mf, indent=4, ensure_ascii=False)
+
+        print(f"📝 Metadatos básicos agregados en {metadata_file}")
+
 
         try:
             # Procesar documento completo (fulltext)
@@ -191,6 +210,36 @@ class GrobidThesisProcessor:
                 'status': 'error',
                 'pdf_file': filename,
                 'error': str(e)
+            }
+
+    def extract_basic_metadata(self, pdf_path):
+        """
+        Extrae metadatos básicos usando PyPDF2 antes del procesamiento con Grobid
+
+        Args:
+            pdf_path (str): Ruta del archivo PDF
+
+        Returns:
+            dict: Metadatos extraídos
+        """
+        filename = os.path.basename(pdf_path)
+
+        try:
+            reader = PdfReader(pdf_path)
+            meta = reader.metadata if reader.metadata else {}
+
+            # Convertimos los nombres de clave quitando "/"
+            clean_meta = {key.replace("/", ""): str(value) for key, value in meta.items()}
+
+            clean_meta["filename"] = filename
+            clean_meta["num_pages"] = len(reader.pages)
+
+            return clean_meta
+        except Exception as e:
+            print(f"⚠️ Error extrayendo metadatos de {filename}: {str(e)}")
+            return {
+                "filename": filename,
+                "error": f"Error extrayendo metadatos: {str(e)}"
             }
 
     def process_header_only(self, pdf_path, output_dir):
@@ -324,6 +373,9 @@ def main():
                     print(f"  - {result['pdf_file']}: {result.get('error', 'Error desconocido')}")
     else:
         print(f"\n❌ Error: {summary['error']}")
+
+
+
 
 
 if __name__ == "__main__":

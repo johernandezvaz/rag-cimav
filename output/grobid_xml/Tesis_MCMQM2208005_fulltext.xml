@@ -67,7 +67,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.0" ident="GROBID" when="2025-08-29T18:32+0000">
+				<application version="0.8.0" ident="GROBID" when="2025-10-20T23:35+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -240,8 +240,8 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_89"><head>Figura 94 .</head><label>94</label><figDesc>Figura 94. Mapeo elemental de los NTC sensibilizados.</figDesc><graphic coords="185,146.70,70.85,318.58,304.15" type="bitmap" /></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_90"><head>Figura 95 .Figura 98 .</head><label>9598</label><figDesc>Figura 95. Mapeo elemental de los NTCM.</figDesc><graphic coords="185,85.05,402.32,443.85,286.50" type="bitmap" /></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_91"><head>Figura 100 .</head><label>100</label><figDesc>Figura 100. Caracterización microestructural de los alambres realizada mediante estereoscopio, microscopía óptica y SEM.</figDesc></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_92"><head>Figura 103 .</head><label>103</label><figDesc>Figura 103. Análisis elemental del nanocompuesto Al-NTCM (A1) con una fundición.</figDesc><graphic coords="192,85.05,339.45,443.86,174.35" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_93"><head>Figura 104 .</head><label>104</label><figDesc>Figura 104. Análisis elemental del nanocompuesto Al-NTCM (L2) con dos fundiciones.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_92"><head>Figura 103 .</head><label>103</label><figDesc>Figura 103. Análisis elemental del nanocompuesto Al-NTCM (A1) con una fundición.</figDesc><graphic coords="192,85.05,70.85,443.84,227.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_93"><head>Figura 104 .</head><label>104</label><figDesc>Figura 104. Análisis elemental del nanocompuesto Al-NTCM (L2) con dos fundiciones.</figDesc><graphic coords="192,85.05,339.45,443.86,174.35" type="bitmap" /></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_94"><head>Figura 105 .</head><label>105</label><figDesc>Figura 105. Análisis elemental del nanocompuesto Al-NTCM (A1) con dos fundiciones y deformación acumulada.</figDesc><graphic coords="193,85.05,70.85,443.89,213.00" type="bitmap" /></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_95"><head>Figura 106 .</head><label>106</label><figDesc>Figura 106. Análisis elemental del nanocompuesto Al-NTCM (L1) con tres fundiciones.</figDesc><graphic coords="193,85.05,329.80,443.83,220.50" type="bitmap" /></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="50,85.05,70.85,441.00,151.79" type="bitmap" /></figure>

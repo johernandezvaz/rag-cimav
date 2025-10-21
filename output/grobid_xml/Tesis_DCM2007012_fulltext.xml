@@ -40,7 +40,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.0" ident="GROBID" when="2025-08-29T18:31+0000">
+				<application version="0.8.0" ident="GROBID" when="2025-10-20T23:33+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -170,8 +170,8 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_28"><head>Figura 27 :</head><label>27</label><figDesc>Figura 27: (a)-(b) Cámara de guantes donde se preparan las disoluciones para la síntesis de perovskita, INMA-Universidad de Zaragoza.</figDesc><graphic coords="63,93.43,209.04,425.13,213.85" type="bitmap" /></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_29"><head>Figura 28 :</head><label>28</label><figDesc>Figura 28:(a) Cámara climática, (b) equipos para la deposición del material absorbedor/ETL y (c) sustratos posterior a síntesis de perovskita.</figDesc><graphic coords="64,85.05,352.20,443.20,229.48" type="bitmap" /></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_30"><head>Figura 29 :</head><label>29</label><figDesc>Figura 29: Proceso de spin-coating para la síntesis de perovskita.</figDesc></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_31"><head>Figura 30 :</head><label>30</label><figDesc>Figura 30: Método de spin-coating para la síntesis del PCBM (ETL).</figDesc><graphic coords="65,85.05,223.74,425.15,210.53" type="bitmap" /></figure>
-<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_32"><head>Figura 31 : 52 3. 4</head><label>31524</label><figDesc>Figura 31: (a) Arquitectura de las PSC con Ni1-xO como HTL y (b) celdas solares elaboradas.</figDesc><graphic coords="65,183.00,470.69,245.99,141.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_31"><head>Figura 30 :</head><label>30</label><figDesc>Figura 30: Método de spin-coating para la síntesis del PCBM (ETL).</figDesc><graphic coords="65,183.00,470.69,245.99,141.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_32"><head>Figura 31 : 52 3. 4</head><label>31524</label><figDesc>Figura 31: (a) Arquitectura de las PSC con Ni1-xO como HTL y (b) celdas solares elaboradas.</figDesc></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_33"><head>Figura 32 :</head><label>32</label><figDesc>Figura 32: Espectro simulado y experimental para la determinación de espesor por reflectancia especular de una muestra P -O2 con 500 ciclos ALD.</figDesc><graphic coords="66,85.05,339.23,441.90,265.85" type="bitmap" /></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_34"><head>Figura 33 :</head><label>33</label><figDesc>Figura 33: Representación esquemática de la ley de Bragg.</figDesc><graphic coords="67,212.18,430.45,187.65,129.74" type="bitmap" /></figure>
 <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_35"><head>Figura 35 :</head><label>35</label><figDesc>Figura 35: Diagrama esquemático de la caracterización AFM.</figDesc><graphic coords="70,95.15,120.25,421.64,195.30" type="bitmap" /></figure>
