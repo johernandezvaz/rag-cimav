@@ -15,7 +15,7 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/thesis_database.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="scraping_cimav" uuid="6f5b2fd5-d61f-4d33-9683-4a83580e7de0">
+    <data-source source="LOCAL" name="scraping_cimav" uuid="03a3257d-f689-4095-8d25-a43899a93f61">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>

@@ -1,6 +1,6 @@
 # from_sqlite_to_faiss.py
 import sqlite3
-import faiss
+import generar_indice
 import numpy as np
 from sentence_transformers import SentenceTransformer
 

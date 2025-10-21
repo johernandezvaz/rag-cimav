@@ -1,5 +1,5 @@
 # semantic_search.py
-import faiss
+import generar_indice
 import numpy as np
 import json
 from sentence_transformers import SentenceTransformer
